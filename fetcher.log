@@ -679,3 +679,63 @@
 [2024-05-17 00:39:24] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-05-17 00:39:24] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-05-17 00:39:24] INFO root fetch - main [MainThread]: Store serial: [23243570]
+[2024-05-17 00:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243570]
+[2024-05-17 00:41:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonToSW
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beta9
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-meraki
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptlayer
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eidolon-ai-sdk
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piwiPre
+[2024-05-17 00:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bhalaho
+[2024-05-17 00:41:32] INFO root fetch - processPackages [PythonToSW]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-17 00:41:32] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-17 00:41:32] INFO root fetch - processPackages [pulumi-meraki]: New version: [0.2.0a1715896924] Old Version: [0.2.0a1715890779]
+[2024-05-17 00:41:32] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.54] Old Version: [0.1.53]
+[2024-05-17 00:41:32] INFO root fetch - processPackages [promptlayer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 00:41:32] WARNING root fetch - processPackages [bhalaho]: Skipping, unable to determine old version
+[2024-05-17 00:41:32] INFO root fetch - main [MainThread]: End processing [bhalaho] error
+[2024-05-17 00:41:32] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-17 00:41:32] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/e9/87/7449d24a0661654850593db2f3711ba8b5ce8a147ad3a551064ce3c7611a/PythonToSW-1.1.2.tar.gz
+[2024-05-17 00:41:32] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-05-17 00:41:32] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/07/3b/6665f61b8b1766967c0c042ab29eb6b8f56203f6c3ed512fb83e726cf088/pulumi_meraki-0.2.0a1715890779.tar.gz
+[2024-05-17 00:41:32] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/e1/c6/8af08c808c89d4a12f9366322f679643e5727497319e7dc78e70da90cefc/eidolon_ai_sdk-0.1.53.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/19/07/ed65c09e93090461e6991fdc5c74c673a96cdde0f97c99dfee5230455eb5/promptlayer-1.0.1.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/92/f5/8f5cd26ef56f8b2c1e23085eb7b3c3e35e34e3a0ce66e93e3920ceb8f946/eidolon_ai_sdk-0.1.54.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-05-17 00:41:33] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.53.tar.gz tmp/eidolon_ai_sdk-0.1.54.tar.gz --markdown 20240517/e/eidolon-ai-sdk/0.1.53-0.1.54/README.md --exclude *.pyd
+[2024-05-17 00:41:33] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-05-17 00:41:33] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240517/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-17 00:41:33] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/09/46/87e727c7626a07a0673e7f57d7a4027ccd85efa5128dc2a23513667a3316/PythonToSW-1.1.3.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/48/8c/de4ef88c5bf775281848679fc6c20535d8b1ae88dafc6afd663edeaef12c/pulumi_meraki-0.2.0a1715896924.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/fa/f8/338aa783996757cd32c5e90cb5e9cfb36c448edf078aa4fb50c2a293ad3f/promptlayer-1.0.2.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [PythonToSW]: executing diffoscope
+[2024-05-17 00:41:33] INFO root fetch - processPackages [PythonToSW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToSW-1.1.2.tar.gz tmp/PythonToSW-1.1.3.tar.gz --markdown 20240517/P/PythonToSW/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-17 00:41:33] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-05-17 00:41:33] INFO root fetch - processPackages [pulumi-meraki]: executing diffoscope
+[2024-05-17 00:41:33] INFO root fetch - processPackages [pulumi-meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_meraki-0.2.0a1715890779.tar.gz tmp/pulumi_meraki-0.2.0a1715896924.tar.gz --markdown 20240517/p/pulumi-meraki/0.2.0a1715890779-0.2.0a1715896924/README.md --exclude *.pyd
+[2024-05-17 00:41:33] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2024-05-17 00:41:33] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-1.0.1.tar.gz tmp/promptlayer-1.0.2.tar.gz --markdown 20240517/p/promptlayer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 00:41:33] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-05-17 00:41:33] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240517/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-17 00:41:34] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-05-17 00:41:34] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-1.0.1.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-1.0.2.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2024-05-17 00:41:34] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.2.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.3.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
+[2024-05-17 00:41:34] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.53.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.54.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-05-17 00:41:34] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-05-17 00:41:34] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-05-17 00:41:36] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1715890779.tar.gz]
+[2024-05-17 00:41:36] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1715896924.tar.gz]
+[2024-05-17 00:41:36] INFO root fetch - main [MainThread]: End processing [pulumi-meraki]: success
+[2024-05-17 00:41:36] INFO root fetch - main [MainThread]: Store serial: [23243591]

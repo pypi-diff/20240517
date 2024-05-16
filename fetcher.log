@@ -1,0 +1,78 @@
+[2024-05-17 00:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243269]
+[2024-05-17 00:01:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abraham_md
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocnc
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybrid-computing-base
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automvs
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jgtutils
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cnl2asp-test
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lindi
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langgraph-cli
+[2024-05-17 00:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: servicenow-api
+[2024-05-17 00:01:42] INFO root fetch - processPackages [automvs]: New version: [0.0.9.post2] Old Version: [0.0.9.post1]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [cocnc]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [abraham_md]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [lindi]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [langgraph-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [jgtutils]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-17 00:01:42] INFO root fetch - processPackages [cnl2asp-test]: New version: [1.0.3] Old Version: [1.0.0]
+[2024-05-17 00:01:43] WARNING root fetch - processPackages [pybrid-computing-base]: Skipping, unable to determine old version
+[2024-05-17 00:01:43] INFO root fetch - main [MainThread]: End processing [pybrid-computing-base] error
+[2024-05-17 00:01:43] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/4f/41/d40b8f482a7c50c9f559087f42b092ddcca567116637d8cde12c0e72728f/cocnc-0.1.3.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [abraham_md]: Downloading https://files.pythonhosted.org/packages/47/ad/4570f40ae18c6ca1af28746c93f5217a12d7d647d67e42f2d50f4a6d4c4d/abraham_md-0.1.1.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [jgtutils]: Downloading https://files.pythonhosted.org/packages/ee/d4/1cb29a66e4aa00eb41fd8957e8d9aa5b76a4e4692cc4451435fec35c6f89/jgtutils-0.1.7.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/fc/56/9c893aa50c9bdec2cb8649d7ef7ebf200dc6b66993eaf52ee01fef032cb5/langgraph_cli-0.1.8.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/4c/77/14f3ce7ba9fdbd88e3077e227d6d3fb8bb40c800c813ee4e315e9ac05efe/automvs-0.0.9.post1-py3-none-any.whl
+[2024-05-17 00:01:43] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/bc/c2/70fdeee599598f19e2384edf5233046920f4ee9b15b6622e4cfa0aeb45e3/lindi-0.3.3.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cnl2asp-test]: Downloading https://files.pythonhosted.org/packages/39/43/8ec3c500430e0c39141c8fbd89b0fe9e759c9ad493eb1670bf2bb10ddee0/cnl2asp_test-1.0.0.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [abraham_md]: Downloading https://files.pythonhosted.org/packages/9b/8a/3b8b579283a9d9f44eed1e1b3f9b91ff99a05869aea6f8bdf70284d2193a/abraham_md-0.2.0.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-17 00:01:43] INFO root fetch - processPackages [jgtutils]: Downloading https://files.pythonhosted.org/packages/be/6b/adc1d3f4202ad63ed3fc48053d7178e22a77fdd1ae417e2a2dd4cd2b9f38/jgtutils-0.1.8.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/77/ca/8e1b0b1db8b8eecd87faeb6c20af5e19e5561f1c240cb26d5c92f30a80a2/langgraph_cli-0.1.9.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/3f/1e/f46e455686805baa4ebc63b867769b81a59b65078cf0a6373e5f54c2f9be/cocnc-0.1.4.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/7b/d9/98f214f56e407b6367acf54c127f37b8b44d211011348502416b186acb92/automvs-0.0.9.post2.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240517/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [abraham_md]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [abraham_md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abraham_md-0.1.1.tar.gz tmp/abraham_md-0.2.0.tar.gz --markdown 20240517/a/abraham_md/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [jgtutils]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [jgtutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtutils-0.1.7.tar.gz tmp/jgtutils-0.1.8.tar.gz --markdown 20240517/j/jgtutils/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [langgraph-cli]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [langgraph-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_cli-0.1.8.tar.gz tmp/langgraph_cli-0.1.9.tar.gz --markdown 20240517/l/langgraph-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/44/07/dc3cf0e74e05bbfe9a41a0bb5f9093de4faa3fefa03f0e28cf8d8d4f0851/lindi-0.3.4.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cocnc]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cocnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocnc-0.1.3.tar.gz tmp/cocnc-0.1.4.tar.gz --markdown 20240517/c/cocnc/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cnl2asp-test]: Downloading https://files.pythonhosted.org/packages/ad/2a/c1982a49ef74b82f7763bf79cb92508df6427e015c3f4146425e3b0ce3f3/cnl2asp_test-1.0.3.tar.gz
+[2024-05-17 00:01:43] INFO root fetch - processPackages [automvs]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [automvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automvs-0.0.9.post1-py3-none-any.whl.zip tmp/automvs-0.0.9.post2.tar.gz --markdown 20240517/a/automvs/0.0.9.post1-0.0.9.post2/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.3.tar.gz tmp/lindi-0.3.4.tar.gz --markdown 20240517/l/lindi/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cnl2asp-test]: executing diffoscope
+[2024-05-17 00:01:43] INFO root fetch - processPackages [cnl2asp-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnl2asp_test-1.0.0.tar.gz tmp/cnl2asp_test-1.0.3.tar.gz --markdown 20240517/c/cnl2asp-test/1.0.0-1.0.3/README.md --exclude *.pyd
+[2024-05-17 00:01:45] INFO root fetch - processPackages [abraham_md]: Remove: archive file [/home/abi/fetcher/tmp/abraham_md-0.1.1.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [abraham_md]: Remove: archive file [/home/abi/fetcher/tmp/abraham_md-0.2.0.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [abraham_md]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [cnl2asp-test]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp_test-1.0.0.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [cnl2asp-test]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp_test-1.0.3.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [cnl2asp-test]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.0.9.post1-py3-none-any.whl.zip]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.0.9.post2.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [automvs]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.3.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.4.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [jgtutils]: Remove: archive file [/home/abi/fetcher/tmp/jgtutils-0.1.7.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [jgtutils]: Remove: archive file [/home/abi/fetcher/tmp/jgtutils-0.1.8.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [jgtutils]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.3.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.4.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [cocnc]: success
+[2024-05-17 00:01:45] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.8.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.9.tar.gz]
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
+[2024-05-17 00:01:45] INFO root fetch - main [MainThread]: Store serial: [23243299]

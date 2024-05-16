@@ -1400,3 +1400,33 @@
 [2024-05-17 01:02:01] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.775.2.tar.gz]
 [2024-05-17 01:02:01] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-17 01:02:01] INFO root fetch - main [MainThread]: Store serial: [23243824]
+[2024-05-17 01:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243824]
+[2024-05-17 01:04:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 01:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raster-tools
+[2024-05-17 01:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-samus-returns-rando
+[2024-05-17 01:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sipmessage
+[2024-05-17 01:04:10] INFO root fetch - processPackages [sipmessage]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 01:04:10] INFO root fetch - processPackages [open-samus-returns-rando]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-17 01:04:10] INFO root fetch - processPackages [raster-tools]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-17 01:04:10] INFO root fetch - processPackages [sipmessage]: Downloading https://files.pythonhosted.org/packages/9c/0f/a78e47637a6790a9362fd91e39625a1e9e3b6566286c736c8a3885181cca/sipmessage-0.1.0.tar.gz
+[2024-05-17 01:04:11] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/da/91/5769ce00659ae9052910a601d031bd0904c10ad37ff9531898e1d689bc36/open_samus_returns_rando-1.2.2.tar.gz
+[2024-05-17 01:04:11] INFO root fetch - processPackages [sipmessage]: Downloading https://files.pythonhosted.org/packages/d2/96/5b30fb3183f73b76df3c2fbb3a05d92a6f397eab667a659051924f975e61/sipmessage-0.1.1.tar.gz
+[2024-05-17 01:04:11] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/8c/a4/5cfe178e979b24df2bad4fc364d696304a88dcdf97efce25387440c947a3/raster_tools-0.8.2.tar.gz
+[2024-05-17 01:04:11] INFO root fetch - processPackages [sipmessage]: executing diffoscope
+[2024-05-17 01:04:11] INFO root fetch - processPackages [sipmessage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipmessage-0.1.0.tar.gz tmp/sipmessage-0.1.1.tar.gz --markdown 20240517/s/sipmessage/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 01:04:11] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/e5/03/0226aedf1907799c9eb1f7d1be578d6442e34cfb000d2e76d5be516d93fc/raster_tools-0.8.3.tar.gz
+[2024-05-17 01:04:11] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/c9/2f/1266b4826d6fd3b556ef66daa63df5262af21a13f1fc51bf4fa492800a26/open_samus_returns_rando-1.3.0.tar.gz
+[2024-05-17 01:04:11] INFO root fetch - processPackages [raster-tools]: executing diffoscope
+[2024-05-17 01:04:11] INFO root fetch - processPackages [raster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster_tools-0.8.2.tar.gz tmp/raster_tools-0.8.3.tar.gz --markdown 20240517/r/raster-tools/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-17 01:04:11] INFO root fetch - processPackages [open-samus-returns-rando]: executing diffoscope
+[2024-05-17 01:04:11] INFO root fetch - processPackages [open-samus-returns-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_samus_returns_rando-1.2.2.tar.gz tmp/open_samus_returns_rando-1.3.0.tar.gz --markdown 20240517/o/open-samus-returns-rando/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-17 01:04:11] INFO root fetch - processPackages [sipmessage]: Remove: archive file [/home/abi/fetcher/tmp/sipmessage-0.1.0.tar.gz]
+[2024-05-17 01:04:11] INFO root fetch - processPackages [sipmessage]: Remove: archive file [/home/abi/fetcher/tmp/sipmessage-0.1.1.tar.gz]
+[2024-05-17 01:04:11] INFO root fetch - main [MainThread]: End processing [sipmessage]: success
+[2024-05-17 01:04:12] INFO root fetch - processPackages [raster-tools]: Remove: archive file [/home/abi/fetcher/tmp/raster_tools-0.8.2.tar.gz]
+[2024-05-17 01:04:12] INFO root fetch - processPackages [raster-tools]: Remove: archive file [/home/abi/fetcher/tmp/raster_tools-0.8.3.tar.gz]
+[2024-05-17 01:04:12] INFO root fetch - main [MainThread]: End processing [raster-tools]: success
+[2024-05-17 01:04:12] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.2.2.tar.gz]
+[2024-05-17 01:04:12] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.3.0.tar.gz]
+[2024-05-17 01:04:12] INFO root fetch - main [MainThread]: End processing [open-samus-returns-rando]: success
+[2024-05-17 01:04:12] INFO root fetch - main [MainThread]: Store serial: [23243833]

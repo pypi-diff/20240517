@@ -239,3 +239,42 @@
 [2024-05-17 00:12:41] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
 [2024-05-17 00:12:41] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-05-17 00:12:41] INFO root fetch - main [MainThread]: Store serial: [23243401]
+[2024-05-17 00:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243401]
+[2024-05-17 00:14:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RikPy
+[2024-05-17 00:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wampproto
+[2024-05-17 00:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whylogs
+[2024-05-17 00:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robustintelligence
+[2024-05-17 00:14:49] INFO root fetch - processPackages [robustintelligence]: New version: [0.1.0rc7] Old Version: [0.1.0rc6]
+[2024-05-17 00:14:49] INFO root fetch - processPackages [RikPy]: New version: [0.2.91] Old Version: [0.2.90]
+[2024-05-17 00:14:49] INFO root fetch - processPackages [wampproto]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-17 00:14:49] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/ce/91/94a85515dd129a313201d4ae3a89b067f727db21928e83b8d3ffa5f2bf56/RikPy-0.2.90.tar.gz
+[2024-05-17 00:14:49] INFO root fetch - processPackages [whylogs]: New version: [1.4.1rc0] Old Version: [1.4.1.dev0]
+[2024-05-17 00:14:49] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/56/0e/b344fad11e9192b095d5b912ea956c7f15c4544f7fefb6345498db1e103f/robustintelligence-0.1.0rc6.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [wampproto]: Downloading https://files.pythonhosted.org/packages/9d/61/b9fc88bb5540b041a0e6e4f42228e50bd67198177fa3bd05a9fa48da3d2e/wampproto-0.2.0.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/fc/fa/a011457bfeda634a666341f17472cd1f2c30dc268290aa9d9c9d76b94236/whylogs-1.4.1.dev0.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/5d/8d/6ae283fc73b938c6bbce3c4c6ff873a578aa6a49416900c1b6ed0f1b3a4e/RikPy-0.2.91.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [RikPy]: executing diffoscope
+[2024-05-17 00:14:50] INFO root fetch - processPackages [RikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RikPy-0.2.90.tar.gz tmp/RikPy-0.2.91.tar.gz --markdown 20240517/R/RikPy/0.2.90-0.2.91/README.md --exclude *.pyd
+[2024-05-17 00:14:50] INFO root fetch - processPackages [wampproto]: Downloading https://files.pythonhosted.org/packages/df/5d/0cf6c79e70bad1e0e83e8e200bbb845c4e6750ffbd047724b925b845920a/wampproto-0.2.1.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/55/79/beabee5ef8b1163229c7c77b797ff7d1b67d27b96592479764a91d52d90a/robustintelligence-0.1.0rc7.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [wampproto]: executing diffoscope
+[2024-05-17 00:14:50] INFO root fetch - processPackages [wampproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wampproto-0.2.0.tar.gz tmp/wampproto-0.2.1.tar.gz --markdown 20240517/w/wampproto/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 00:14:50] INFO root fetch - processPackages [robustintelligence]: executing diffoscope
+[2024-05-17 00:14:50] INFO root fetch - processPackages [robustintelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robustintelligence-0.1.0rc6.tar.gz tmp/robustintelligence-0.1.0rc7.tar.gz --markdown 20240517/r/robustintelligence/0.1.0rc6-0.1.0rc7/README.md --exclude *.pyd
+[2024-05-17 00:14:50] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/a5/bd/d8f8b7229217df0a6fb5389ea1b37336040d7d2c58ef7313e4e1271edc26/whylogs-1.4.1rc0.tar.gz
+[2024-05-17 00:14:50] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2024-05-17 00:14:50] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.4.1.dev0.tar.gz tmp/whylogs-1.4.1rc0.tar.gz --markdown 20240517/w/whylogs/1.4.1.dev0-1.4.1rc0/README.md --exclude *.pyd
+[2024-05-17 00:14:50] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.90.tar.gz]
+[2024-05-17 00:14:50] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.91.tar.gz]
+[2024-05-17 00:14:50] INFO root fetch - main [MainThread]: End processing [RikPy]: success
+[2024-05-17 00:14:51] INFO root fetch - processPackages [wampproto]: Remove: archive file [/home/abi/fetcher/tmp/wampproto-0.2.0.tar.gz]
+[2024-05-17 00:14:51] INFO root fetch - processPackages [wampproto]: Remove: archive file [/home/abi/fetcher/tmp/wampproto-0.2.1.tar.gz]
+[2024-05-17 00:14:51] INFO root fetch - main [MainThread]: End processing [wampproto]: success
+[2024-05-17 00:14:52] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.1.dev0.tar.gz]
+[2024-05-17 00:14:52] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.1rc0.tar.gz]
+[2024-05-17 00:14:52] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2024-05-17 00:14:55] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc6.tar.gz]
+[2024-05-17 00:14:55] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc7.tar.gz]
+[2024-05-17 00:14:55] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
+[2024-05-17 00:14:55] INFO root fetch - main [MainThread]: Store serial: [23243415]

@@ -1846,3 +1846,44 @@
 [2024-05-17 01:33:15] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
 [2024-05-17 01:33:15] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-05-17 01:33:15] INFO root fetch - main [MainThread]: Store serial: [23243993]
+[2024-05-17 01:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243993]
+[2024-05-17 01:35:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 01:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apkrepotool
+[2024-05-17 01:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GALFITools
+[2024-05-17 01:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-05-17 01:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trsolucoes
+[2024-05-17 01:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yt-dlp
+[2024-05-17 01:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boostrsa
+[2024-05-17 01:35:25] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 01:35:25] INFO root fetch - processPackages [GALFITools]: New version: [1.7.7] Old Version: [1.7.3]
+[2024-05-17 01:35:25] WARNING root fetch - processPackages [trsolucoes]: Skipping, unable to determine old version
+[2024-05-17 01:35:25] INFO root fetch - main [MainThread]: End processing [trsolucoes] error
+[2024-05-17 01:35:25] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 01:35:25] WARNING root fetch - processPackages [apkrepotool]: Skipping, unable to determine old version
+[2024-05-17 01:35:25] INFO root fetch - main [MainThread]: End processing [apkrepotool] error
+[2024-05-17 01:35:25] INFO root fetch - processPackages [boostrsa]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2024-05-17 01:35:25] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-17 01:35:25] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-17 01:35:25] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/a0/5b/47b65a3c8c039a9bcc77da3850f6c396af2af24e3abb9edb2c9863e12d44/boostrsa-0.0.1.dev0.tar.gz
+[2024-05-17 01:35:25] INFO root fetch - processPackages [GALFITools]: Downloading https://files.pythonhosted.org/packages/bb/7f/f667191467a39447b616b17c06f22a6528b979577e5d70939b9dff742979/galfitools-1.7.3.tar.gz
+[2024-05-17 01:35:25] WARNING root fetch - processPackages [GALFITools]: Skipping package: exceeds size limit 25780201>=10485760
+[2024-05-17 01:35:25] INFO root fetch - main [MainThread]: End processing [GALFITools] error
+[2024-05-17 01:35:25] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 01:35:25] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/13/ae/434dcd44bf1e8d50edfc80b2517dbf2ac71b32cc72054b6599fc03b088ff/boostrsa-0.0.1.dev1-py3-none-any.whl
+[2024-05-17 01:35:25] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 01:35:25] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 01:35:25] INFO root fetch - processPackages [boostrsa]: executing diffoscope
+[2024-05-17 01:35:25] INFO root fetch - processPackages [boostrsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boostrsa-0.0.1.dev0.tar.gz tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip --markdown 20240517/b/boostrsa/0.0.1.dev0-0.0.1.dev1/README.md --exclude *.pyd
+[2024-05-17 01:35:26] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-17 01:35:26] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev0.tar.gz]
+[2024-05-17 01:35:26] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-17 01:35:26] INFO root fetch - main [MainThread]: End processing [boostrsa]: success
+[2024-05-17 01:35:26] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-17 01:35:26] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240517/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-17 01:35:26] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 01:35:26] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 01:35:26] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 01:35:31] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-17 01:35:31] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-17 01:35:31] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-17 01:35:31] INFO root fetch - main [MainThread]: Store serial: [23244013]

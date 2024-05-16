@@ -1955,3 +1955,63 @@
 [2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip]
 [2024-05-17 01:44:11] INFO root fetch - main [MainThread]: End processing [boostrsa]: success
 [2024-05-17 01:44:11] INFO root fetch - main [MainThread]: Store serial: [23244104]
+[2024-05-17 01:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244104]
+[2024-05-17 01:46:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaomusic
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-grasshopper-energy
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unicorn-binance-websocket-api
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslili
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trsolucoes
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-grasshopper
+[2024-05-17 01:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testmypixipkg
+[2024-05-17 01:46:20] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-17 01:46:20] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 01:46:20] INFO root fetch - processPackages [testmypixipkg]: New version: [0.15.1] Old Version: [0.15.0]
+[2024-05-17 01:46:20] WARNING root fetch - processPackages [trsolucoes]: Skipping, unable to determine old version
+[2024-05-17 01:46:20] INFO root fetch - main [MainThread]: End processing [trsolucoes] error
+[2024-05-17 01:46:20] INFO root fetch - processPackages [oslili]: New version: [0.9] Old Version: [0.8]
+[2024-05-17 01:46:20] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-05-17 01:46:20] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/9a/70/867df929c7c81b37365bf28842175241d9908765d7670f14578934db5221/testmypixipkg-0.15.0.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-17 01:46:21] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/d6/16/83bff826f4da072f185d73330a5c376a0184abffaf881f9cd0fe3cf99c9d/oslili-0.8.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [unicorn-binance-websocket-api]: New version: [2.8.0] Old Version: [2.7.2]
+[2024-05-17 01:46:21] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/77/3b/b8f86b4ce4bed2a8a727da15fd48089198ab5bb43a094a9dd689c286d533/testmypixipkg-0.15.1.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-05-17 01:46:21] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240517/x/xiaomusic/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 01:46:21] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [testmypixipkg]: executing diffoscope
+[2024-05-17 01:46:21] INFO root fetch - processPackages [testmypixipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmypixipkg-0.15.0.tar.gz tmp/testmypixipkg-0.15.1.tar.gz --markdown 20240517/t/testmypixipkg/0.15.0-0.15.1/README.md --exclude *.pyd
+[2024-05-17 01:46:21] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Downloading https://files.pythonhosted.org/packages/bb/bf/b6743c58cc15fa5c637b93e89bad0b152a9d0350a84a5c3bc94656a3f3d9/unicorn_binance_websocket_api-2.7.2.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/16/35/75451c56b958f6d6563938b387adf36fd45d4211a37705096e1c5a7c8065/oslili-0.9.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [oslili]: executing diffoscope
+[2024-05-17 01:46:21] INFO root fetch - processPackages [oslili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-0.8.tar.gz tmp/oslili-0.9.tar.gz --markdown 20240517/o/oslili/0.8-0.9/README.md --exclude *.pyd
+[2024-05-17 01:46:21] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-05-17 01:46:21] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-05-17 01:46:21] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-05-17 01:46:21] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-05-17 01:46:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2024-05-17 01:46:21] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20240517/h/honeybee-grasshopper-energy/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-17 01:46:21] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.15.0.tar.gz]
+[2024-05-17 01:46:21] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.15.1.tar.gz]
+[2024-05-17 01:46:21] INFO root fetch - main [MainThread]: End processing [testmypixipkg]: success
+[2024-05-17 01:46:22] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Downloading https://files.pythonhosted.org/packages/c3/7b/9d66d7265b6690b9d48bf3ec2f6c7539f908695bc96362611ad2d24c1d48/unicorn_binance_websocket_api-2.8.0-cp39-cp39-win32.whl
+[2024-05-17 01:46:22] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-05-17 01:46:22] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240517/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-17 01:46:22] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-05-17 01:46:22] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-05-17 01:46:22] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-05-17 01:46:23] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.1.tar.gz]
+[2024-05-17 01:46:23] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.2.tar.gz]
+[2024-05-17 01:46:23] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2024-05-17 01:46:24] INFO root fetch - processPackages [unicorn-binance-websocket-api]: executing diffoscope
+[2024-05-17 01:46:24] INFO root fetch - processPackages [unicorn-binance-websocket-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn_binance_websocket_api-2.7.2.tar.gz tmp/unicorn_binance_websocket_api-2.8.0-cp39-cp39-win32.whl.zip --markdown 20240517/u/unicorn-binance-websocket-api/2.7.2-2.8.0/README.md --exclude *.pyd
+[2024-05-17 01:46:25] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
+[2024-05-17 01:46:25] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
+[2024-05-17 01:46:25] INFO root fetch - main [MainThread]: End processing [oslili]: success
+[2024-05-17 01:46:31] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_websocket_api-2.7.2.tar.gz]
+[2024-05-17 01:46:31] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_websocket_api-2.8.0-cp39-cp39-win32.whl.zip]
+[2024-05-17 01:46:31] INFO root fetch - main [MainThread]: End processing [unicorn-binance-websocket-api]: success
+[2024-05-17 01:46:31] INFO root fetch - main [MainThread]: Store serial: [23244162]

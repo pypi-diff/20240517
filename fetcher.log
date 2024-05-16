@@ -76,3 +76,42 @@
 [2024-05-17 00:01:45] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.9.tar.gz]
 [2024-05-17 00:01:45] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
 [2024-05-17 00:01:45] INFO root fetch - main [MainThread]: Store serial: [23243299]
+[2024-05-17 00:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243299]
+[2024-05-17 00:03:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surya-ocr
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebb-time-series
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: structifyai
+[2024-05-17 00:03:54] INFO root fetch - processPackages [structifyai]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ebb-time-series]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-17 00:03:54] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-17 00:03:54] INFO root fetch - processPackages [surya-ocr]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ebb-time-series]: Downloading https://files.pythonhosted.org/packages/5a/6c/1193ddec196cc74d464afa489fdaf2583c2d00678fc26e5c330680b3e0f1/ebb_time_series-0.2.0.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/e7/0e/0f95626e193b36f0490342fe7667772e7d3d399e68446bff231a2d1f3d00/structifyai-0.1.0a8.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [surya-ocr]: Downloading https://files.pythonhosted.org/packages/79/e9/66b983339fc794ca697813bb77fc33f4da5ccbec5f28e03cfa20733f7171/surya_ocr-0.4.4.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-17 00:03:54] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240517/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ebb-time-series]: Downloading https://files.pythonhosted.org/packages/80/7f/52a7ce1a31564f775435c5f3a4978a109961a96cd6dfa68ba5fb48426175/ebb_time_series-0.2.1.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/a4/3a/73b2f2ba84e7b27b41e8f8451363d1509d0052ce1abb6498cd4285c92105/structifyai-0.1.0a9.tar.gz
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ebb-time-series]: executing diffoscope
+[2024-05-17 00:03:54] INFO root fetch - processPackages [ebb-time-series]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebb_time_series-0.2.0.tar.gz tmp/ebb_time_series-0.2.1.tar.gz --markdown 20240517/e/ebb-time-series/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 00:03:54] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-05-17 00:03:54] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.1.0a8.tar.gz tmp/structifyai-0.1.0a9.tar.gz --markdown 20240517/s/structifyai/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-05-17 00:03:54] INFO root fetch - processPackages [surya-ocr]: Downloading https://files.pythonhosted.org/packages/51/ea/46eaf9855bbe01ee8a2ddaba71db45ee458109d81a736e816ced34f28897/surya_ocr-0.4.5.tar.gz
+[2024-05-17 00:03:55] INFO root fetch - processPackages [surya-ocr]: executing diffoscope
+[2024-05-17 00:03:55] INFO root fetch - processPackages [surya-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surya_ocr-0.4.4.tar.gz tmp/surya_ocr-0.4.5.tar.gz --markdown 20240517/s/surya-ocr/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-17 00:03:55] INFO root fetch - processPackages [ebb-time-series]: Remove: archive file [/home/abi/fetcher/tmp/ebb_time_series-0.2.0.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - processPackages [ebb-time-series]: Remove: archive file [/home/abi/fetcher/tmp/ebb_time_series-0.2.1.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - main [MainThread]: End processing [ebb-time-series]: success
+[2024-05-17 00:03:55] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-17 00:03:55] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a8.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a9.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-05-17 00:03:55] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.4.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.5.tar.gz]
+[2024-05-17 00:03:55] INFO root fetch - main [MainThread]: End processing [surya-ocr]: success
+[2024-05-17 00:03:55] INFO root fetch - main [MainThread]: Store serial: [23243311]

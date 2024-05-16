@@ -204,3 +204,38 @@
 [2024-05-17 00:10:29] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.0.tar.gz]
 [2024-05-17 00:10:29] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
 [2024-05-17 00:10:29] INFO root fetch - main [MainThread]: Store serial: [23243383]
+[2024-05-17 00:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243383]
+[2024-05-17 00:12:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: great-expectations
+[2024-05-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fc-pruning
+[2024-05-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-05-17 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RikPy
+[2024-05-17 00:12:39] INFO root fetch - processPackages [fc-pruning]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:12:39] INFO root fetch - processPackages [RikPy]: New version: [0.2.90] Old Version: [0.2.89]
+[2024-05-17 00:12:39] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 00:12:39] INFO root fetch - processPackages [fc-pruning]: Downloading https://files.pythonhosted.org/packages/ef/65/1df4b1d753fb0d30cac409d59ff9b529a1e0e44cb7522c778fb9a7a09e92/fc_pruning-0.0.8.tar.gz
+[2024-05-17 00:12:39] INFO root fetch - processPackages [great-expectations]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2024-05-17 00:12:39] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/31/94/de55c4b17f55e7ce7e3029ecf9e2b2339f7361f88d1627f8552a4c699e8f/RikPy-0.2.89.tar.gz
+[2024-05-17 00:12:39] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 00:12:40] INFO root fetch - processPackages [fc-pruning]: Downloading https://files.pythonhosted.org/packages/dc/cf/b28755154c93468dea6192908ed75101aa4ae5c85df475fe558f59e35258/fc_pruning-0.0.9.tar.gz
+[2024-05-17 00:12:40] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/38/6a/42f2dc6501a80680539f8f49914f080b1d8855188c43439fbe6df012ba28/great_expectations-1.0.0a3.tar.gz
+[2024-05-17 00:12:40] WARNING root fetch - processPackages [great-expectations]: Skipping package: exceeds size limit 36701841>=10485760
+[2024-05-17 00:12:40] INFO root fetch - main [MainThread]: End processing [great-expectations] error
+[2024-05-17 00:12:40] INFO root fetch - processPackages [fc-pruning]: executing diffoscope
+[2024-05-17 00:12:40] INFO root fetch - processPackages [fc-pruning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc_pruning-0.0.8.tar.gz tmp/fc_pruning-0.0.9.tar.gz --markdown 20240517/f/fc-pruning/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:12:40] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 00:12:40] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/ce/91/94a85515dd129a313201d4ae3a89b067f727db21928e83b8d3ffa5f2bf56/RikPy-0.2.90.tar.gz
+[2024-05-17 00:12:40] INFO root fetch - processPackages [RikPy]: executing diffoscope
+[2024-05-17 00:12:40] INFO root fetch - processPackages [RikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RikPy-0.2.89.tar.gz tmp/RikPy-0.2.90.tar.gz --markdown 20240517/R/RikPy/0.2.89-0.2.90/README.md --exclude *.pyd
+[2024-05-17 00:12:40] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 00:12:40] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 00:12:40] INFO root fetch - processPackages [fc-pruning]: Remove: archive file [/home/abi/fetcher/tmp/fc_pruning-0.0.8.tar.gz]
+[2024-05-17 00:12:40] INFO root fetch - processPackages [fc-pruning]: Remove: archive file [/home/abi/fetcher/tmp/fc_pruning-0.0.9.tar.gz]
+[2024-05-17 00:12:40] INFO root fetch - main [MainThread]: End processing [fc-pruning]: success
+[2024-05-17 00:12:40] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.89.tar.gz]
+[2024-05-17 00:12:40] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.90.tar.gz]
+[2024-05-17 00:12:40] INFO root fetch - main [MainThread]: End processing [RikPy]: success
+[2024-05-17 00:12:41] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 00:12:41] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 00:12:41] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 00:12:41] INFO root fetch - main [MainThread]: Store serial: [23243401]

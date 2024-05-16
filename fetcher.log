@@ -1475,3 +1475,42 @@
 [2024-05-17 01:08:34] WARNING root fetch - processPackages [nts.service]: Skipping, unable to determine old version
 [2024-05-17 01:08:34] INFO root fetch - main [MainThread]: End processing [nts.service] error
 [2024-05-17 01:08:34] INFO root fetch - main [MainThread]: Store serial: [23243850]
+[2024-05-17 01:10:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243850]
+[2024-05-17 01:10:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 01:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2024-05-17 01:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s3func
+[2024-05-17 01:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2024-05-17 01:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docta-http-client
+[2024-05-17 01:10:44] INFO root fetch - processPackages [s3func]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 01:10:44] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-17 01:10:44] INFO root fetch - processPackages [docta-http-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 01:10:44] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-17 01:10:44] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/74/b7/f8eb685a3bc351af2ed61b7e5fb563243d9006a7a009d27a79cc6149c441/s3func-0.1.2.tar.gz
+[2024-05-17 01:10:44] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-17 01:10:45] INFO root fetch - processPackages [docta-http-client]: Downloading https://files.pythonhosted.org/packages/ec/0f/d17526196498d9d569ef4f52292065c5ee3523058350d26b32ca33e9a612/docta_http_client-0.1.1-py3-none-any.whl
+[2024-05-17 01:10:45] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-05-17 01:10:45] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-17 01:10:45] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-17 01:10:45] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240517/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-17 01:10:45] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/23/af/428d933948dda2dd639e78300ce839b340002a0679b0eb6b172e3206db3d/s3func-0.1.3.tar.gz
+[2024-05-17 01:10:45] INFO root fetch - processPackages [docta-http-client]: Downloading https://files.pythonhosted.org/packages/5a/bb/da9c114392200624cb9f7aee5adf2bf8cbf901b84e60c6e5414f3a6b5d94/docta_http_client-0.1.2-py3-none-any.whl
+[2024-05-17 01:10:45] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-17 01:10:45] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.1.2.tar.gz tmp/s3func-0.1.3.tar.gz --markdown 20240517/s/s3func/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 01:10:45] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-05-17 01:10:45] INFO root fetch - processPackages [docta-http-client]: executing diffoscope
+[2024-05-17 01:10:45] INFO root fetch - processPackages [docta-http-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docta_http_client-0.1.1-py3-none-any.whl.zip tmp/docta_http_client-0.1.2-py3-none-any.whl.zip --markdown 20240517/d/docta-http-client/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 01:10:45] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-05-17 01:10:45] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240517/a/aind-data-schema/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-17 01:10:45] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-17 01:10:45] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-17 01:10:45] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-17 01:10:45] INFO root fetch - processPackages [docta-http-client]: Remove: archive file [/home/abi/fetcher/tmp/docta_http_client-0.1.1-py3-none-any.whl.zip]
+[2024-05-17 01:10:45] INFO root fetch - processPackages [docta-http-client]: Remove: archive file [/home/abi/fetcher/tmp/docta_http_client-0.1.2-py3-none-any.whl.zip]
+[2024-05-17 01:10:45] INFO root fetch - main [MainThread]: End processing [docta-http-client]: success
+[2024-05-17 01:10:46] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.2.tar.gz]
+[2024-05-17 01:10:46] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.3.tar.gz]
+[2024-05-17 01:10:46] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-17 01:10:46] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-05-17 01:10:46] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-05-17 01:10:46] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-05-17 01:10:46] INFO root fetch - main [MainThread]: Store serial: [23243861]

@@ -2051,3 +2051,24 @@
 [2024-05-17 01:51:00] WARNING root fetch - processPackages [giverny]: Skipping, unable to determine old version
 [2024-05-17 01:51:00] INFO root fetch - main [MainThread]: End processing [giverny] error
 [2024-05-17 01:51:00] INFO root fetch - main [MainThread]: Store serial: [23244188]
+[2024-05-17 01:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244188]
+[2024-05-17 01:53:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whylabs-client
+[2024-05-17 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-priority-loadbalancer
+[2024-05-17 01:53:09] INFO root fetch - processPackages [whylabs-client]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-17 01:53:09] INFO root fetch - processPackages [openai-priority-loadbalancer]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-17 01:53:09] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/3b/6c/2a030bb27bda0d5fda625b86ebbeba219e1a479241f50f256b1a90cfaa45/openai_priority_loadbalancer-1.0.2.tar.gz
+[2024-05-17 01:53:09] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/94/f4/ef4f4dfa742bcf2b83f9895e251a8412392cecc5f756400a4df5dd2da704/whylabs-client-0.6.2.tar.gz
+[2024-05-17 01:53:09] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/6c/05/ee264afae0aab4ca85c17b86be67202f51a3b120e258dd1681171db101ac/openai_priority_loadbalancer-1.0.3.tar.gz
+[2024-05-17 01:53:09] INFO root fetch - processPackages [openai-priority-loadbalancer]: executing diffoscope
+[2024-05-17 01:53:09] INFO root fetch - processPackages [openai-priority-loadbalancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_priority_loadbalancer-1.0.2.tar.gz tmp/openai_priority_loadbalancer-1.0.3.tar.gz --markdown 20240517/o/openai-priority-loadbalancer/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-17 01:53:09] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/4f/5a/1acc200f5ff36771bc53c968be8ee9c828c183822fb09eeadde6204765f6/whylabs-client-0.6.3.tar.gz
+[2024-05-17 01:53:09] INFO root fetch - processPackages [whylabs-client]: executing diffoscope
+[2024-05-17 01:53:09] INFO root fetch - processPackages [whylabs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs-client-0.6.2.tar.gz tmp/whylabs-client-0.6.3.tar.gz --markdown 20240517/w/whylabs-client/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-17 01:53:10] INFO root fetch - processPackages [openai-priority-loadbalancer]: Remove: archive file [/home/abi/fetcher/tmp/openai_priority_loadbalancer-1.0.2.tar.gz]
+[2024-05-17 01:53:10] INFO root fetch - processPackages [openai-priority-loadbalancer]: Remove: archive file [/home/abi/fetcher/tmp/openai_priority_loadbalancer-1.0.3.tar.gz]
+[2024-05-17 01:53:10] INFO root fetch - main [MainThread]: End processing [openai-priority-loadbalancer]: success
+[2024-05-17 01:53:11] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.6.2.tar.gz]
+[2024-05-17 01:53:11] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.6.3.tar.gz]
+[2024-05-17 01:53:11] INFO root fetch - main [MainThread]: End processing [whylabs-client]: success
+[2024-05-17 01:53:11] INFO root fetch - main [MainThread]: Store serial: [23244194]

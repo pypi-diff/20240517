@@ -513,3 +513,20 @@
 [2024-05-17 00:30:31] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.7.0b1.tar.gz]
 [2024-05-17 00:30:31] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2024-05-17 00:30:31] INFO root fetch - main [MainThread]: Store serial: [23243506]
+[2024-05-17 00:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243506]
+[2024-05-17 00:32:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: citation-crawler
+[2024-05-17 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-tpu
+[2024-05-17 00:32:40] INFO root fetch - processPackages [citation-crawler]: New version: [2.9.4.1] Old Version: [2.9.4]
+[2024-05-17 00:32:40] INFO root fetch - processPackages [tf-nightly-tpu]: New version: [2.17.0.dev20240516] Old Version: [2.17.0.dev20240515]
+[2024-05-17 00:32:40] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/09/28/e9c332535e9ac1e434981cacd6ba971fed57493fbd7184754209a4433432/citation_crawler-2.9.4.tar.gz
+[2024-05-17 00:32:40] INFO root fetch - processPackages [tf-nightly-tpu]: Downloading https://files.pythonhosted.org/packages/d6/aa/70a3e0bf60d1401b2d0644039e276c67a3919f2ca9267c60a05ed7b33f00/tf_nightly_tpu-2.17.0.dev20240515-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 00:32:41] WARNING root fetch - processPackages [tf-nightly-tpu]: Skipping package: exceeds size limit 221458735>=10485760
+[2024-05-17 00:32:41] INFO root fetch - main [MainThread]: End processing [tf-nightly-tpu] error
+[2024-05-17 00:32:41] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/2d/c0/b48e0686fa42d3b88f9792e1581cbd106effcab3b284b4150c66b8803a91/citation_crawler-2.9.4.1.tar.gz
+[2024-05-17 00:32:41] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-05-17 00:32:41] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.9.4.tar.gz tmp/citation_crawler-2.9.4.1.tar.gz --markdown 20240517/c/citation-crawler/2.9.4-2.9.4.1/README.md --exclude *.pyd
+[2024-05-17 00:32:42] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.4.tar.gz]
+[2024-05-17 00:32:42] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.4.1.tar.gz]
+[2024-05-17 00:32:42] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-05-17 00:32:42] INFO root fetch - main [MainThread]: Store serial: [23243521]

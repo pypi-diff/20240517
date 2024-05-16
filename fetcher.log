@@ -2072,3 +2072,63 @@
 [2024-05-17 01:53:11] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.6.3.tar.gz]
 [2024-05-17 01:53:11] INFO root fetch - main [MainThread]: End processing [whylabs-client]: success
 [2024-05-17 01:53:11] INFO root fetch - main [MainThread]: Store serial: [23244194]
+[2024-05-17 01:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244194]
+[2024-05-17 01:55:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pranavarya
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pranavarya
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pranavarya
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pranavarya
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seleniumbase
+[2024-05-17 01:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: url-remote
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [policyengine-us]: New version: [0.775.2] Old Version: [0.775.1]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: New version: [0.4] Old Version: [0.3]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: New version: [0.4] Old Version: [0.3]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: New version: [0.4] Old Version: [0.3]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: New version: [0.4] Old Version: [0.3]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/bf/d2/b067c33a5bb87ee4db64ba452ae14d370c7748a67d7af505b97eb90852ac/url_remote-0.0.92.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/62/ac/444657cbbd1e872abb01be70b256bf335bed85d16bba3b8b32a648b320d4/policyengine-us-0.775.1.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/8c/c5/b6f15760b8d0da2d8d809fcf05ed8548f764f86f128dccdabf2e9a307280/pranavarya-0.3.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/8c/c5/b6f15760b8d0da2d8d809fcf05ed8548f764f86f128dccdabf2e9a307280/pranavarya-0.3.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/8c/c5/b6f15760b8d0da2d8d809fcf05ed8548f764f86f128dccdabf2e9a307280/pranavarya-0.3.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/8c/c5/b6f15760b8d0da2d8d809fcf05ed8548f764f86f128dccdabf2e9a307280/pranavarya-0.3.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/4e/41/fc2ce23ba2db294b11e61388fd732812ec0e8cf5147b118a39cf0e8b2754/url_remote-0.0.93.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: executing diffoscope
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url_remote-0.0.92.tar.gz tmp/url_remote-0.0.93.tar.gz --markdown 20240517/u/url-remote/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-05-17 01:55:20] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/45/dc/a22105f27f865b6ef8027b5164555620d89e980112fcda28f7cf745e151f/pranavarya-0.4.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/45/dc/a22105f27f865b6ef8027b5164555620d89e980112fcda28f7cf745e151f/pranavarya-0.4.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/45/dc/a22105f27f865b6ef8027b5164555620d89e980112fcda28f7cf745e151f/pranavarya-0.4.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [pranavarya]: Downloading https://files.pythonhosted.org/packages/45/dc/a22105f27f865b6ef8027b5164555620d89e980112fcda28f7cf745e151f/pranavarya-0.4.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/69/4e/982dc4ae587056177d11425762fd783f359a7f2ec9467689a7ad42e275d7/policyengine-us-0.775.2.tar.gz
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.92.tar.gz]
+[2024-05-17 01:55:20] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.93.tar.gz]
+[2024-05-17 01:55:20] INFO root fetch - main [MainThread]: End processing [url-remote]: success
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: executing diffoscope
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pranavarya-0.3.tar.gz tmp/pranavarya-0.4.tar.gz --markdown 20240517/p/pranavarya/0.3-0.4/README.md --exclude *.pyd
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: executing diffoscope
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pranavarya-0.3.tar.gz tmp/pranavarya-0.4.tar.gz --markdown 20240517/p/pranavarya/0.3-0.4/README.md --exclude *.pyd
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: executing diffoscope
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pranavarya-0.3.tar.gz tmp/pranavarya-0.4.tar.gz --markdown 20240517/p/pranavarya/0.3-0.4/README.md --exclude *.pyd
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: executing diffoscope
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pranavarya-0.3.tar.gz tmp/pranavarya-0.4.tar.gz --markdown 20240517/p/pranavarya/0.3-0.4/README.md --exclude *.pyd
+[2024-05-17 01:55:21] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-17 01:55:21] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.775.1.tar.gz tmp/policyengine-us-0.775.2.tar.gz --markdown 20240517/p/policyengine-us/0.775.1-0.775.2/README.md --exclude *.pyd
+[2024-05-17 01:55:21] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2024-05-17 01:55:21] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2024-05-17 01:55:21] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20240517/s/seleniumbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: Remove: archive file [/home/abi/fetcher/tmp/pranavarya-0.3.tar.gz]
+[2024-05-17 01:55:21] INFO root fetch - processPackages [pranavarya]: Remove: archive file [/home/abi/fetcher/tmp/pranavarya-0.4.tar.gz]
+[2024-05-17 01:55:21] INFO root fetch - main [MainThread]: End processing [pranavarya]: success
+[2024-05-17 01:55:21] INFO root fetch - main [MainThread]: End processing [pranavarya]: success
+[2024-05-17 01:55:21] INFO root fetch - main [MainThread]: End processing [pranavarya]: success
+[2024-05-17 01:55:21] INFO root fetch - main [MainThread]: End processing [pranavarya]: success
+[2024-05-17 01:55:22] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2024-05-17 01:55:22] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2024-05-17 01:55:22] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2024-05-17 01:55:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.775.1.tar.gz]
+[2024-05-17 01:55:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.775.2.tar.gz]
+[2024-05-17 01:55:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-17 01:55:53] INFO root fetch - main [MainThread]: Store serial: [23244217]

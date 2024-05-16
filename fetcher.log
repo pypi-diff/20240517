@@ -2132,3 +2132,69 @@
 [2024-05-17 01:55:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.775.2.tar.gz]
 [2024-05-17 01:55:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-17 01:55:53] INFO root fetch - main [MainThread]: Store serial: [23244217]
+[2024-05-17 01:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244217]
+[2024-05-17 01:58:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deciphonctl
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-base
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EllipSect
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-sbase
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-seleniumbase
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbase
+[2024-05-17 01:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpx-caching
+[2024-05-17 01:58:02] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-05-17 01:58:02] INFO root fetch - processPackages [httpx-caching]: New version: [0.1a3] Old Version: [0.1a2]
+[2024-05-17 01:58:02] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-05-17 01:58:02] INFO root fetch - processPackages [deciphonctl]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-17 01:58:02] INFO root fetch - processPackages [EllipSect]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-05-17 01:58:02] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-05-17 01:58:02] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-05-17 01:58:03] INFO root fetch - processPackages [httpx-caching]: Downloading https://files.pythonhosted.org/packages/25/09/f8a11150221a3061f11eb28264d306268949d2d1803b3d2352e420ff4036/httpx-caching-0.1a2.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [deciphonctl]: Downloading https://files.pythonhosted.org/packages/1f/6b/0961263345cdfaf082e644a3db98a0c0abc5f38a5c5c0776c05451b998aa/deciphonctl-0.4.0.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [EllipSect]: Downloading https://files.pythonhosted.org/packages/4c/5d/f9240bb0b2756857d5c1b5d09902474f114fdd71bdb209fee4498c23206d/EllipSect-3.4.0.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [httpx-caching]: Downloading https://files.pythonhosted.org/packages/fb/c6/fe4e02be4110e4e48ca3869ff5e4a88dc3e47d4a8cdaa2d739d71405413b/httpx-caching-0.1a3.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [deciphonctl]: Downloading https://files.pythonhosted.org/packages/cb/32/452781034f0a91d342def67ebad48a7b45a6887692e12d8f6ff19dfdc3d5/deciphonctl-0.4.1.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [httpx-caching]: executing diffoscope
+[2024-05-17 01:58:03] INFO root fetch - processPackages [httpx-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx-caching-0.1a2.tar.gz tmp/httpx-caching-0.1a3.tar.gz --markdown 20240517/h/httpx-caching/0.1a2-0.1a3/README.md --exclude *.pyd
+[2024-05-17 01:58:03] INFO root fetch - processPackages [deciphonctl]: executing diffoscope
+[2024-05-17 01:58:03] INFO root fetch - processPackages [deciphonctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphonctl-0.4.0.tar.gz tmp/deciphonctl-0.4.1.tar.gz --markdown 20240517/d/deciphonctl/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [EllipSect]: Downloading https://files.pythonhosted.org/packages/12/20/c8c5be683ee9b33f732c6df39251905230a40faa48a2c8998d8f1a77a45d/ellipsect-3.4.1.tar.gz
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20240517/p/pytest-sbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2024-05-17 01:58:03] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20240517/p/pytest-seleniumbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-05-17 01:58:03] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2024-05-17 01:58:03] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20240517/s/sbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-05-17 01:58:03] INFO root fetch - processPackages [EllipSect]: executing diffoscope
+[2024-05-17 01:58:03] INFO root fetch - processPackages [EllipSect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EllipSect-3.4.0.tar.gz tmp/ellipsect-3.4.1.tar.gz --markdown 20240517/E/EllipSect/3.4.0-3.4.1/README.md --exclude *.pyd
+[2024-05-17 01:58:04] INFO root fetch - processPackages [deciphonctl]: Remove: archive file [/home/abi/fetcher/tmp/deciphonctl-0.4.0.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - processPackages [deciphonctl]: Remove: archive file [/home/abi/fetcher/tmp/deciphonctl-0.4.1.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - main [MainThread]: End processing [deciphonctl]: success
+[2024-05-17 01:58:04] INFO root fetch - processPackages [httpx-caching]: Remove: archive file [/home/abi/fetcher/tmp/httpx-caching-0.1a2.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - processPackages [httpx-caching]: Remove: archive file [/home/abi/fetcher/tmp/httpx-caching-0.1a3.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - main [MainThread]: End processing [httpx-caching]: success
+[2024-05-17 01:58:04] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2024-05-17 01:58:04] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20240517/s/selenium-base/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-05-17 01:58:04] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2024-05-17 01:58:04] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2024-05-17 01:58:04] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2024-05-17 01:58:04] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2024-05-17 01:58:05] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2024-05-17 01:58:05] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2024-05-17 01:58:05] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2024-05-17 01:58:05] INFO root fetch - processPackages [EllipSect]: Remove: archive file [/home/abi/fetcher/tmp/EllipSect-3.4.0.tar.gz]
+[2024-05-17 01:58:05] INFO root fetch - processPackages [EllipSect]: Remove: archive file [/home/abi/fetcher/tmp/ellipsect-3.4.1.tar.gz]
+[2024-05-17 01:58:05] INFO root fetch - main [MainThread]: End processing [EllipSect]: success
+[2024-05-17 01:58:05] INFO root fetch - main [MainThread]: Store serial: [23244238]

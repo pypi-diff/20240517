@@ -413,3 +413,40 @@
 [2024-05-17 00:23:44] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc9.tar.gz]
 [2024-05-17 00:23:44] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
 [2024-05-17 00:23:44] INFO root fetch - main [MainThread]: Store serial: [23243463]
+[2024-05-17 00:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243463]
+[2024-05-17 00:25:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-grpcio
+[2024-05-17 00:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gink
+[2024-05-17 00:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamini
+[2024-05-17 00:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gink
+[2024-05-17 00:25:53] INFO root fetch - processPackages [py-grpcio]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-17 00:25:53] INFO root fetch - processPackages [gink]: New version: [0.20240516.1715898271] Old Version: [0.20240516.1715898248]
+[2024-05-17 00:25:53] INFO root fetch - processPackages [gink]: New version: [0.20240516.1715898271] Old Version: [0.20240516.1715898248]
+[2024-05-17 00:25:53] INFO root fetch - processPackages [lamini]: New version: [2.2.0a1] Old Version: [2.1.8]
+[2024-05-17 00:25:53] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/67/60/4b2dbee7d35f08a87e11b6555f38315b39b6da8ff97735932dc6549b4d03/gink-0.20240516.1715898248.tar.gz
+[2024-05-17 00:25:53] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/67/60/4b2dbee7d35f08a87e11b6555f38315b39b6da8ff97735932dc6549b4d03/gink-0.20240516.1715898248.tar.gz
+[2024-05-17 00:25:53] INFO root fetch - processPackages [py-grpcio]: Downloading https://files.pythonhosted.org/packages/91/2c/4de8b687bb44a5dae5b1223da7f6753b278ad761747007d931dd312ab785/py_grpcio-1.4.3.tar.gz
+[2024-05-17 00:25:53] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/7a/87/4056c635ac9b89a39da2e5c34816871b12f6d2af3ce186cb0b9eb8a7e6f9/lamini-2.1.8-123-py3-none-any.whl
+[2024-05-17 00:25:54] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/98/00/baa0d237e1937cae8c607b2a24ef1a7e21f845d8dcdcf5fbdac1e1f94437/gink-0.20240516.1715898271.tar.gz
+[2024-05-17 00:25:54] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/98/00/baa0d237e1937cae8c607b2a24ef1a7e21f845d8dcdcf5fbdac1e1f94437/gink-0.20240516.1715898271.tar.gz
+[2024-05-17 00:25:54] INFO root fetch - processPackages [py-grpcio]: Downloading https://files.pythonhosted.org/packages/1c/96/f0b6cdf836695835ce75de7ba4cb8bdc005e8d0a5ea5a99a6ba58d07feee/py_grpcio-1.4.4.tar.gz
+[2024-05-17 00:25:54] INFO root fetch - processPackages [py-grpcio]: executing diffoscope
+[2024-05-17 00:25:54] INFO root fetch - processPackages [py-grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_grpcio-1.4.3.tar.gz tmp/py_grpcio-1.4.4.tar.gz --markdown 20240517/p/py-grpcio/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-17 00:25:54] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-05-17 00:25:54] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240516.1715898248.tar.gz tmp/gink-0.20240516.1715898271.tar.gz --markdown 20240517/g/gink/0.20240516.1715898248-0.20240516.1715898271/README.md --exclude *.pyd
+[2024-05-17 00:25:54] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-05-17 00:25:54] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240516.1715898248.tar.gz tmp/gink-0.20240516.1715898271.tar.gz --markdown 20240517/g/gink/0.20240516.1715898248-0.20240516.1715898271/README.md --exclude *.pyd
+[2024-05-17 00:25:54] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/28/72/cc2b8108370aaac7a06035d93e54cf90b509f9abcaee5a76c14eb7466dd4/lamini-2.2.0a1-124-py3-none-any.whl
+[2024-05-17 00:25:54] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-05-17 00:25:54] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.8-123-py3-none-any.whl.zip tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip --markdown 20240517/l/lamini/2.1.8-2.2.0a1/README.md --exclude *.pyd
+[2024-05-17 00:25:54] INFO root fetch - processPackages [py-grpcio]: Remove: archive file [/home/abi/fetcher/tmp/py_grpcio-1.4.3.tar.gz]
+[2024-05-17 00:25:54] INFO root fetch - processPackages [py-grpcio]: Remove: archive file [/home/abi/fetcher/tmp/py_grpcio-1.4.4.tar.gz]
+[2024-05-17 00:25:54] INFO root fetch - main [MainThread]: End processing [py-grpcio]: success
+[2024-05-17 00:25:55] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240516.1715898248.tar.gz]
+[2024-05-17 00:25:55] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240516.1715898271.tar.gz]
+[2024-05-17 00:25:55] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-05-17 00:25:55] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-05-17 00:25:55] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.8-123-py3-none-any.whl.zip]
+[2024-05-17 00:25:55] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip]
+[2024-05-17 00:25:55] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-05-17 00:25:55] INFO root fetch - main [MainThread]: Store serial: [23243474]

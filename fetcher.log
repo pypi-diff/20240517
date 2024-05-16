@@ -1614,3 +1614,60 @@
 [2024-05-17 01:18:00] INFO root fetch - processPackages [aws-sam-translator]: Remove: archive file [/home/abi/fetcher/tmp/aws-sam-translator-1.9.1.tar.gz]
 [2024-05-17 01:18:00] INFO root fetch - main [MainThread]: End processing [aws-sam-translator]: success
 [2024-05-17 01:18:00] INFO root fetch - main [MainThread]: Store serial: [23243916]
+[2024-05-17 01:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243916]
+[2024-05-17 01:20:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ligo.em-bright
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testmypixipkg
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xiaomusic
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ligo.em-bright]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-17 01:20:09] INFO root fetch - processPackages [testmypixipkg]: New version: [0.13.0] Old Version: [0.12.0]
+[2024-05-17 01:20:09] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 01:20:09] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/3a/66/09e46ebf38e28f134da54f05a80c36f9693892683a586d449bbbacc7a475/testmypixipkg-0.12.0.tar.gz
+[2024-05-17 01:20:09] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-05-17 01:20:09] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-17 01:20:09] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 01:20:09] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-17 01:20:09] INFO root fetch - processPackages [ligo.em-bright]: Downloading https://files.pythonhosted.org/packages/c9/1e/a5c599da60359ba8ce87e1988319c2f0db1c67a3e5de0ee3de2eda79542d/ligo.em-bright-1.1.6.tar.gz
+[2024-05-17 01:20:09] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 01:20:09] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/5c/ca/0ed44dc215cb271c3e2710b74a056924b780fb70915b193be78cf82db000/testmypixipkg-0.13.0.tar.gz
+[2024-05-17 01:20:09] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-17 01:20:10] INFO root fetch - processPackages [testmypixipkg]: executing diffoscope
+[2024-05-17 01:20:10] INFO root fetch - processPackages [testmypixipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmypixipkg-0.12.0.tar.gz tmp/testmypixipkg-0.13.0.tar.gz --markdown 20240517/t/testmypixipkg/0.12.0-0.13.0/README.md --exclude *.pyd
+[2024-05-17 01:20:10] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-05-17 01:20:10] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240517/x/xiaomusic/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 01:20:10] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-17 01:20:10] INFO root fetch - processPackages [ligo.em-bright]: Downloading https://files.pythonhosted.org/packages/2d/c0/4ecd656364d422e64ff1fad364734e77cbb81fc272e5acdb551c3239dd87/ligo_em_bright-1.1.7.tar.gz
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-17 01:20:10] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 01:20:10] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 01:20:10] INFO root fetch - processPackages [ligo.em-bright]: executing diffoscope
+[2024-05-17 01:20:10] INFO root fetch - processPackages [ligo.em-bright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo.em-bright-1.1.6.tar.gz tmp/ligo_em_bright-1.1.7.tar.gz --markdown 20240517/l/ligo.em-bright/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240517/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-17 01:20:10] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240517/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-17 01:20:10] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-05-17 01:20:10] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-05-17 01:20:10] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-05-17 01:20:10] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.12.0.tar.gz]
+[2024-05-17 01:20:10] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.13.0.tar.gz]
+[2024-05-17 01:20:10] INFO root fetch - main [MainThread]: End processing [testmypixipkg]: success
+[2024-05-17 01:20:11] INFO root fetch - processPackages [ligo.em-bright]: Remove: archive file [/home/abi/fetcher/tmp/ligo.em-bright-1.1.6.tar.gz]
+[2024-05-17 01:20:11] INFO root fetch - processPackages [ligo.em-bright]: Remove: archive file [/home/abi/fetcher/tmp/ligo_em_bright-1.1.7.tar.gz]
+[2024-05-17 01:20:11] INFO root fetch - main [MainThread]: End processing [ligo.em-bright]: success
+[2024-05-17 01:20:11] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-17 01:20:11] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-17 01:20:11] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-17 01:20:11] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 01:20:11] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 01:20:11] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 01:20:11] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-17 01:20:11] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-17 01:20:11] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-17 01:20:11] INFO root fetch - main [MainThread]: Store serial: [23243932]

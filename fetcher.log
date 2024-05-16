@@ -1514,3 +1514,36 @@
 [2024-05-17 01:10:46] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
 [2024-05-17 01:10:46] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2024-05-17 01:10:46] INFO root fetch - main [MainThread]: Store serial: [23243861]
+[2024-05-17 01:12:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243861]
+[2024-05-17 01:12:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 01:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shared-ndarray2
+[2024-05-17 01:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysep-adjtomo
+[2024-05-17 01:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: map2
+[2024-05-17 01:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bsphud
+[2024-05-17 01:12:54] WARNING root fetch - processPackages [shared-ndarray2]: Skipping, unable to determine old version
+[2024-05-17 01:12:54] INFO root fetch - main [MainThread]: End processing [shared-ndarray2] error
+[2024-05-17 01:12:54] INFO root fetch - processPackages [bsphud]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 01:12:54] INFO root fetch - processPackages [pysep-adjtomo]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-17 01:12:55] INFO root fetch - processPackages [map2]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-17 01:12:55] INFO root fetch - processPackages [pysep-adjtomo]: Downloading https://files.pythonhosted.org/packages/ce/7b/ffd380be624cfb34e7a06ed7f3ee85646959e8914b5fd6c17077714ff9af/pysep-adjtomo-0.5.1.tar.gz
+[2024-05-17 01:12:55] INFO root fetch - processPackages [bsphud]: Downloading https://files.pythonhosted.org/packages/6c/65/56b06cbda09a4cc50e572af79301dbc5ef9c2b7268a1b4eff4b8ea2a4ae7/bsphud-1.0.0.tar.gz
+[2024-05-17 01:12:55] INFO root fetch - processPackages [map2]: Downloading https://files.pythonhosted.org/packages/8f/35/daf885e03cf2b5d0acec09300ea297e4a4208f365a57fb6b76372fad6cfd/map2-2.0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 01:12:55] INFO root fetch - processPackages [bsphud]: Downloading https://files.pythonhosted.org/packages/92/66/067cb8fcba2259ccf042b4c292c1e552d8e53d97219b4dfc7728af5e3311/bsphud-1.0.1.tar.gz
+[2024-05-17 01:12:55] INFO root fetch - processPackages [pysep-adjtomo]: Downloading https://files.pythonhosted.org/packages/86/ec/23e12de9337bfa723029a71be5f0ac60819094aaefdc0c03dbe52422cbef/pysep_adjtomo-0.6.0.tar.gz
+[2024-05-17 01:12:55] INFO root fetch - processPackages [bsphud]: executing diffoscope
+[2024-05-17 01:12:55] INFO root fetch - processPackages [bsphud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsphud-1.0.0.tar.gz tmp/bsphud-1.0.1.tar.gz --markdown 20240517/b/bsphud/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 01:12:55] INFO root fetch - processPackages [pysep-adjtomo]: executing diffoscope
+[2024-05-17 01:12:55] INFO root fetch - processPackages [pysep-adjtomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysep-adjtomo-0.5.1.tar.gz tmp/pysep_adjtomo-0.6.0.tar.gz --markdown 20240517/p/pysep-adjtomo/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-17 01:12:56] INFO root fetch - processPackages [bsphud]: Remove: archive file [/home/abi/fetcher/tmp/bsphud-1.0.0.tar.gz]
+[2024-05-17 01:12:56] INFO root fetch - processPackages [bsphud]: Remove: archive file [/home/abi/fetcher/tmp/bsphud-1.0.1.tar.gz]
+[2024-05-17 01:12:56] INFO root fetch - main [MainThread]: End processing [bsphud]: success
+[2024-05-17 01:12:56] INFO root fetch - processPackages [pysep-adjtomo]: Remove: archive file [/home/abi/fetcher/tmp/pysep-adjtomo-0.5.1.tar.gz]
+[2024-05-17 01:12:56] INFO root fetch - processPackages [pysep-adjtomo]: Remove: archive file [/home/abi/fetcher/tmp/pysep_adjtomo-0.6.0.tar.gz]
+[2024-05-17 01:12:56] INFO root fetch - main [MainThread]: End processing [pysep-adjtomo]: success
+[2024-05-17 01:12:57] INFO root fetch - processPackages [map2]: Downloading https://files.pythonhosted.org/packages/ce/e3/0615fecb0c105b12c193ff40685b36ea9ce2181965cafdecf4a45a8d4fe9/map2-2.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 01:12:58] INFO root fetch - processPackages [map2]: executing diffoscope
+[2024-05-17 01:12:58] INFO root fetch - processPackages [map2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/map2-2.0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/map2-2.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240517/m/map2/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-17 01:13:30] INFO root fetch - processPackages [map2]: Remove: archive file [/home/abi/fetcher/tmp/map2-2.0.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-17 01:13:30] INFO root fetch - processPackages [map2]: Remove: archive file [/home/abi/fetcher/tmp/map2-2.0.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-17 01:13:30] INFO root fetch - main [MainThread]: End processing [map2]: success
+[2024-05-17 01:13:30] INFO root fetch - main [MainThread]: Store serial: [23243891]

@@ -793,3 +793,51 @@
 [2024-05-17 00:45:58] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.9.tar.gz]
 [2024-05-17 00:45:58] INFO root fetch - main [MainThread]: End processing [beam-client]: success
 [2024-05-17 00:45:58] INFO root fetch - main [MainThread]: Store serial: [23243608]
+[2024-05-17 00:48:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243608]
+[2024-05-17 00:48:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camera-ui-python-types
+[2024-05-17 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gendc-python
+[2024-05-17 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PythonToSW
+[2024-05-17 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jgtpy
+[2024-05-17 00:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aind-data-schema-models
+[2024-05-17 00:48:07] INFO root fetch - processPackages [PythonToSW]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-05-17 00:48:07] INFO root fetch - processPackages [gendc-python]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-17 00:48:07] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 00:48:07] INFO root fetch - processPackages [aind-data-schema-models]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 00:48:07] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/09/46/87e727c7626a07a0673e7f57d7a4027ccd85efa5128dc2a23513667a3316/PythonToSW-1.1.3.tar.gz
+[2024-05-17 00:48:07] INFO root fetch - processPackages [gendc-python]: Downloading https://files.pythonhosted.org/packages/09/2c/6eee59ab444643f7435dd355f8e574e975ea4492e9c9a7a3d5d38bc712fd/gendc_python-0.2.3-py3-none-any.whl
+[2024-05-17 00:48:07] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 00:48:07] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-17 00:48:07] INFO root fetch - processPackages [gendc-python]: Downloading https://files.pythonhosted.org/packages/3e/b4/6b16b833408b20b93a6f967bf983d9e2dd9eb2a6c6e7308dceede04fb32c/gendc_python-0.2.4-py3-none-any.whl
+[2024-05-17 00:48:07] INFO root fetch - processPackages [aind-data-schema-models]: Downloading https://files.pythonhosted.org/packages/08/39/0dcb0d845700d8220296c48b61463c20de698173d17f0750fdd00b376e16/aind_data_schema_models-0.1.2.tar.gz
+[2024-05-17 00:48:07] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-17 00:48:07] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/c9/7e/7d2a16598cbac16948b6aee248b69c7a3f1969fe6d9d6090c92523c0c71f/PythonToSW-1.2.0.tar.gz
+[2024-05-17 00:48:07] INFO root fetch - processPackages [gendc-python]: executing diffoscope
+[2024-05-17 00:48:07] INFO root fetch - processPackages [gendc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gendc_python-0.2.3-py3-none-any.whl.zip tmp/gendc_python-0.2.4-py3-none-any.whl.zip --markdown 20240517/g/gendc-python/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-17 00:48:07] INFO root fetch - processPackages [PythonToSW]: executing diffoscope
+[2024-05-17 00:48:07] INFO root fetch - processPackages [PythonToSW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToSW-1.1.3.tar.gz tmp/PythonToSW-1.2.0.tar.gz --markdown 20240517/P/PythonToSW/1.1.3-1.2.0/README.md --exclude *.pyd
+[2024-05-17 00:48:07] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-17 00:48:07] INFO root fetch - processPackages [aind-data-schema-models]: Downloading https://files.pythonhosted.org/packages/fd/93/e232657605441180484ecc62850dcf682f4dd1700121cf7bdab7fde90677/aind_data_schema_models-0.1.3.tar.gz
+[2024-05-17 00:48:08] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-17 00:48:08] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-17 00:48:08] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240517/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 00:48:08] INFO root fetch - processPackages [aind-data-schema-models]: executing diffoscope
+[2024-05-17 00:48:08] INFO root fetch - processPackages [aind-data-schema-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_data_schema_models-0.1.2.tar.gz tmp/aind_data_schema_models-0.1.3.tar.gz --markdown 20240517/a/aind-data-schema-models/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 00:48:08] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-17 00:48:08] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240517/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 00:48:08] INFO root fetch - processPackages [gendc-python]: Remove: archive file [/home/abi/fetcher/tmp/gendc_python-0.2.3-py3-none-any.whl.zip]
+[2024-05-17 00:48:08] INFO root fetch - processPackages [gendc-python]: Remove: archive file [/home/abi/fetcher/tmp/gendc_python-0.2.4-py3-none-any.whl.zip]
+[2024-05-17 00:48:08] INFO root fetch - main [MainThread]: End processing [gendc-python]: success
+[2024-05-17 00:48:08] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.3.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.2.0.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
+[2024-05-17 00:48:08] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-17 00:48:08] INFO root fetch - processPackages [aind-data-schema-models]: Remove: archive file [/home/abi/fetcher/tmp/aind_data_schema_models-0.1.2.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - processPackages [aind-data-schema-models]: Remove: archive file [/home/abi/fetcher/tmp/aind_data_schema_models-0.1.3.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - main [MainThread]: End processing [aind-data-schema-models]: success
+[2024-05-17 00:48:08] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-17 00:48:08] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-17 00:48:08] INFO root fetch - main [MainThread]: Store serial: [23243620]

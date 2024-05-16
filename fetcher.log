@@ -278,3 +278,45 @@
 [2024-05-17 00:14:55] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc7.tar.gz]
 [2024-05-17 00:14:55] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
 [2024-05-17 00:14:55] INFO root fetch - main [MainThread]: Store serial: [23243415]
+[2024-05-17 00:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243415]
+[2024-05-17 00:17:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 00:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piwiPre
+[2024-05-17 00:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qp-prob
+[2024-05-17 00:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-05-17 00:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xconn
+[2024-05-17 00:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orderly-set
+[2024-05-17 00:17:06] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 00:17:06] INFO root fetch - processPackages [qp-prob]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 00:17:06] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-17 00:17:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [xconn]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-17 00:17:06] WARNING root fetch - processPackages [orderly-set]: Skipping, unable to determine old version
+[2024-05-17 00:17:06] INFO root fetch - main [MainThread]: End processing [orderly-set] error
+[2024-05-17 00:17:06] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [qp-prob]: Downloading https://files.pythonhosted.org/packages/53/e1/6ca7d343924733483fba356e89843a944a93fee12fff47b63bd0062c4180/qp-prob-0.8.8.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [xconn]: Downloading https://files.pythonhosted.org/packages/d6/59/333cabf9efaaa1eac7ace7300b38206d0a2a254cd296b696ff1b32fc5a89/xconn-0.2.0.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 00:17:06] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 00:17:06] INFO root fetch - processPackages [xconn]: Downloading https://files.pythonhosted.org/packages/f9/7f/c9d927ae16163fd1840c097546c0898bcf98158509e647eaec3e2e43a876/xconn-0.2.1.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [qp-prob]: Downloading https://files.pythonhosted.org/packages/f5/83/cb9635447fe8420917738bcefcc5dcf8c621acd046689d25525e5683406c/qp_prob-0.8.9.tar.gz
+[2024-05-17 00:17:06] INFO root fetch - processPackages [xconn]: executing diffoscope
+[2024-05-17 00:17:06] INFO root fetch - processPackages [xconn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xconn-0.2.0.tar.gz tmp/xconn-0.2.1.tar.gz --markdown 20240517/x/xconn/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 00:17:07] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-05-17 00:17:07] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240517/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-17 00:17:07] INFO root fetch - processPackages [qp-prob]: executing diffoscope
+[2024-05-17 00:17:07] INFO root fetch - processPackages [qp-prob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qp-prob-0.8.8.tar.gz tmp/qp_prob-0.8.9.tar.gz --markdown 20240517/q/qp-prob/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 00:17:07] INFO root fetch - processPackages [xconn]: Remove: archive file [/home/abi/fetcher/tmp/xconn-0.2.0.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - processPackages [xconn]: Remove: archive file [/home/abi/fetcher/tmp/xconn-0.2.1.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - main [MainThread]: End processing [xconn]: success
+[2024-05-17 00:17:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 00:17:07] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-05-17 00:17:07] INFO root fetch - processPackages [qp-prob]: Remove: archive file [/home/abi/fetcher/tmp/qp-prob-0.8.8.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - processPackages [qp-prob]: Remove: archive file [/home/abi/fetcher/tmp/qp_prob-0.8.9.tar.gz]
+[2024-05-17 00:17:07] INFO root fetch - main [MainThread]: End processing [qp-prob]: success
+[2024-05-17 00:17:07] INFO root fetch - main [MainThread]: Store serial: [23243431]

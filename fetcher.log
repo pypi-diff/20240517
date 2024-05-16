@@ -115,3 +115,15 @@
 [2024-05-17 00:03:55] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.5.tar.gz]
 [2024-05-17 00:03:55] INFO root fetch - main [MainThread]: End processing [surya-ocr]: success
 [2024-05-17 00:03:55] INFO root fetch - main [MainThread]: Store serial: [23243311]
+[2024-05-17 00:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243311]
+[2024-05-17 00:06:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 00:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycti
+[2024-05-17 00:06:04] INFO root fetch - processPackages [pycti]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-05-17 00:06:04] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/fe/2d/330096d4378d591e0a40c7ff7f5399c19c22d20621abf48be67034ef56fe/pycti-6.1.1.tar.gz
+[2024-05-17 00:06:04] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/f4/06/6fe65eee38495968eae997a791582dbe8561dd1585ae3983fb177a643de8/pycti-6.1.2.tar.gz
+[2024-05-17 00:06:05] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2024-05-17 00:06:05] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-6.1.1.tar.gz tmp/pycti-6.1.2.tar.gz --markdown 20240517/p/pycti/6.1.1-6.1.2/README.md --exclude *.pyd
+[2024-05-17 00:06:05] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.1.tar.gz]
+[2024-05-17 00:06:05] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.2.tar.gz]
+[2024-05-17 00:06:05] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2024-05-17 00:06:05] INFO root fetch - main [MainThread]: Store serial: [23243314]

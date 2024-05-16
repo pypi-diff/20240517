@@ -617,3 +617,65 @@
 [2024-05-17 00:37:08] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.9.tar.gz]
 [2024-05-17 00:37:08] INFO root fetch - main [MainThread]: End processing [abacusai]: success
 [2024-05-17 00:37:08] INFO root fetch - main [MainThread]: Store serial: [23243549]
+[2024-05-17 00:39:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243549]
+[2024-05-17 00:39:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypi-browser-webapp
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TDSR-UWB
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kokojson
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-api
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bolero
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill
+[2024-05-17 00:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill-pg
+[2024-05-17 00:39:19] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [TDSR-UWB]: New version: [1.539] Old Version: [1.538]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [pypi-browser-webapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [kokojson]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-17 00:39:19] INFO root fetch - processPackages [bolero]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:39:19] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/41/ac/4a82475ff48fb04ab9c930377b1ebeb35eb1a9429cface926bea301f9158/TDSR-UWB-1.538.tar.gz
+[2024-05-17 00:39:19] INFO root fetch - processPackages [pypi-browser-webapp]: Downloading https://files.pythonhosted.org/packages/f2/50/81341c4a05c867d3c29204ae07c4b59de4e52d8e20f6510fc67862f0ec60/pypi_browser_webapp-0.0.8.tar.gz
+[2024-05-17 00:39:19] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-17 00:39:19] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [kokojson]: Downloading https://files.pythonhosted.org/packages/e3/6f/92cfe78d4237413e7c014c55d18bf728b4699cf1c07f9a6f97a04aa6e982/kokojson-0.1.0.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [bolero]: Downloading https://files.pythonhosted.org/packages/0e/54/d977da7062905b9ef12d154a22d7c529f309814631e9af2438766d209519/bolero-0.0.8.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/a7/39/916ad2ed86307e17e761909d4f80d1daf36a932a6751511d18d873db2075/TDSR-UWB-1.539.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [pypi-browser-webapp]: Downloading https://files.pythonhosted.org/packages/dd/9b/3abce97f2a82cbf28180fe4bd6a421f37469ffa6e0d1c3806536dcd8039f/pypi_browser_webapp-0.0.9.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-17 00:39:20] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240517/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-17 00:39:20] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
+[2024-05-17 00:39:20] INFO root fetch - main [MainThread]: End processing [bolero] error
+[2024-05-17 00:39:20] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-17 00:39:20] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240517/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-17 00:39:20] INFO root fetch - processPackages [TDSR-UWB]: executing diffoscope
+[2024-05-17 00:39:20] INFO root fetch - processPackages [TDSR-UWB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDSR-UWB-1.538.tar.gz tmp/TDSR-UWB-1.539.tar.gz --markdown 20240517/T/TDSR-UWB/1.538-1.539/README.md --exclude *.pyd
+[2024-05-17 00:39:20] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-17 00:39:20] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240517/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-17 00:39:20] INFO root fetch - processPackages [pypi-browser-webapp]: executing diffoscope
+[2024-05-17 00:39:20] INFO root fetch - processPackages [pypi-browser-webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_browser_webapp-0.0.8.tar.gz tmp/pypi_browser_webapp-0.0.9.tar.gz --markdown 20240517/p/pypi-browser-webapp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:39:20] INFO root fetch - processPackages [kokojson]: Downloading https://files.pythonhosted.org/packages/ff/45/dead66094643b0cfafb5f4d842735ff80d53411c70de5c64c7cc0863b53d/kokojson-0.1.1.tar.gz
+[2024-05-17 00:39:20] INFO root fetch - processPackages [kokojson]: executing diffoscope
+[2024-05-17 00:39:20] INFO root fetch - processPackages [kokojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kokojson-0.1.0.tar.gz tmp/kokojson-0.1.1.tar.gz --markdown 20240517/k/kokojson/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 00:39:21] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-17 00:39:21] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - processPackages [pypi-browser-webapp]: Remove: archive file [/home/abi/fetcher/tmp/pypi_browser_webapp-0.0.8.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - processPackages [pypi-browser-webapp]: Remove: archive file [/home/abi/fetcher/tmp/pypi_browser_webapp-0.0.9.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-17 00:39:21] INFO root fetch - main [MainThread]: End processing [pypi-browser-webapp]: success
+[2024-05-17 00:39:21] INFO root fetch - processPackages [kokojson]: Remove: archive file [/home/abi/fetcher/tmp/kokojson-0.1.0.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - processPackages [kokojson]: Remove: archive file [/home/abi/fetcher/tmp/kokojson-0.1.1.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - main [MainThread]: End processing [kokojson]: success
+[2024-05-17 00:39:21] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.538.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.539.tar.gz]
+[2024-05-17 00:39:21] INFO root fetch - main [MainThread]: End processing [TDSR-UWB]: success
+[2024-05-17 00:39:24] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-17 00:39:24] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-17 00:39:24] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-17 00:39:24] INFO root fetch - main [MainThread]: Store serial: [23243570]

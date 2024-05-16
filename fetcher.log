@@ -769,3 +769,27 @@
 [2024-05-17 00:43:48] INFO root fetch - processPackages [toon3d]: Remove: archive file [/home/abi/fetcher/tmp/toon3d-0.0.4.tar.gz]
 [2024-05-17 00:43:48] INFO root fetch - main [MainThread]: End processing [toon3d]: success
 [2024-05-17 00:43:48] INFO root fetch - main [MainThread]: Store serial: [23243600]
+[2024-05-17 00:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243600]
+[2024-05-17 00:45:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 00:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bhalaho
+[2024-05-17 00:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beam-client
+[2024-05-17 00:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaomusic
+[2024-05-17 00:45:57] WARNING root fetch - processPackages [bhalaho]: Skipping, unable to determine old version
+[2024-05-17 00:45:57] INFO root fetch - main [MainThread]: End processing [bhalaho] error
+[2024-05-17 00:45:57] INFO root fetch - processPackages [beam-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 00:45:57] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 00:45:57] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-05-17 00:45:57] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/ac/ee/27de4b2569a707f2361330414b50f795635cafa3adaf9743f08393a1b368/beam_client-0.2.8.tar.gz
+[2024-05-17 00:45:58] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-05-17 00:45:58] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-05-17 00:45:58] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240517/x/xiaomusic/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 00:45:58] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/30/15/606a85353776a9e1c941977e724bfc92806b27223b9e341df4fc22e5bbdf/beam_client-0.2.9.tar.gz
+[2024-05-17 00:45:58] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-17 00:45:58] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.8.tar.gz tmp/beam_client-0.2.9.tar.gz --markdown 20240517/b/beam-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 00:45:58] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-05-17 00:45:58] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-05-17 00:45:58] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-05-17 00:45:58] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.8.tar.gz]
+[2024-05-17 00:45:58] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.9.tar.gz]
+[2024-05-17 00:45:58] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-17 00:45:58] INFO root fetch - main [MainThread]: Store serial: [23243608]

@@ -1746,3 +1746,24 @@
 [2024-05-17 01:26:43] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.9.tar.gz]
 [2024-05-17 01:26:43] INFO root fetch - main [MainThread]: End processing [langwatch]: success
 [2024-05-17 01:26:43] INFO root fetch - main [MainThread]: Store serial: [23243952]
+[2024-05-17 01:28:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243952]
+[2024-05-17 01:28:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 01:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trengine
+[2024-05-17 01:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-05-17 01:28:52] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 01:28:52] INFO root fetch - processPackages [trengine]: New version: [1.2] Old Version: [1.1]
+[2024-05-17 01:28:52] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 01:28:52] INFO root fetch - processPackages [trengine]: Downloading https://files.pythonhosted.org/packages/43/6b/6c87a1d0ee42aad3e6b52e1a0847c41fdbecf8d6e6958b2ffa21b58c8847/trengine-1.1.tar.gz
+[2024-05-17 01:28:52] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 01:28:53] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 01:28:53] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 01:28:53] INFO root fetch - processPackages [trengine]: Downloading https://files.pythonhosted.org/packages/85/76/4336a37e9bf4d5543b17da5b27cce5c7d6af803fbbe7c35abe667e982284/trengine-1.2.tar.gz
+[2024-05-17 01:28:53] INFO root fetch - processPackages [trengine]: executing diffoscope
+[2024-05-17 01:28:53] INFO root fetch - processPackages [trengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trengine-1.1.tar.gz tmp/trengine-1.2.tar.gz --markdown 20240517/t/trengine/1.1-1.2/README.md --exclude *.pyd
+[2024-05-17 01:28:53] INFO root fetch - processPackages [trengine]: Remove: archive file [/home/abi/fetcher/tmp/trengine-1.1.tar.gz]
+[2024-05-17 01:28:53] INFO root fetch - processPackages [trengine]: Remove: archive file [/home/abi/fetcher/tmp/trengine-1.2.tar.gz]
+[2024-05-17 01:28:53] INFO root fetch - main [MainThread]: End processing [trengine]: success
+[2024-05-17 01:28:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 01:28:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 01:28:53] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 01:28:53] INFO root fetch - main [MainThread]: Store serial: [23243958]

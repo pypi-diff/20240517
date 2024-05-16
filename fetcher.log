@@ -1469,3 +1469,9 @@
 [2024-05-17 01:06:24] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240516.tar.gz]
 [2024-05-17 01:06:24] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-17 01:06:24] INFO root fetch - main [MainThread]: Store serial: [23243845]
+[2024-05-17 01:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243845]
+[2024-05-17 01:08:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 01:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nts.service
+[2024-05-17 01:08:34] WARNING root fetch - processPackages [nts.service]: Skipping, unable to determine old version
+[2024-05-17 01:08:34] INFO root fetch - main [MainThread]: End processing [nts.service] error
+[2024-05-17 01:08:34] INFO root fetch - main [MainThread]: Store serial: [23243850]

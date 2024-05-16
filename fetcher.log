@@ -1671,3 +1671,24 @@
 [2024-05-17 01:20:11] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-17 01:20:11] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-17 01:20:11] INFO root fetch - main [MainThread]: Store serial: [23243932]
+[2024-05-17 01:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243932]
+[2024-05-17 01:22:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 01:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deciphon-sched
+[2024-05-17 01:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-project-stub
+[2024-05-17 01:22:20] INFO root fetch - processPackages [python-project-stub]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 01:22:20] INFO root fetch - processPackages [python-project-stub]: Downloading https://files.pythonhosted.org/packages/57/0c/fa712d1f68b061d1a69ebe6d25a7073daf9eff594b009cb782caf7b38206/python_project_stub-0.0.8.tar.gz
+[2024-05-17 01:22:20] INFO root fetch - processPackages [deciphon-sched]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-17 01:22:21] INFO root fetch - processPackages [python-project-stub]: Downloading https://files.pythonhosted.org/packages/cf/39/b6edf51bbcea0e6ba75da969a3d7c00cc885db186ad878e8a7c1169a4891/python_project_stub-0.0.9.tar.gz
+[2024-05-17 01:22:21] INFO root fetch - processPackages [deciphon-sched]: Downloading https://files.pythonhosted.org/packages/52/0a/1c2ba150b38b71fa174a7de6c412cea086268a8cca4bcf780cd93572b020/deciphon_sched-0.9.3.tar.gz
+[2024-05-17 01:22:21] INFO root fetch - processPackages [python-project-stub]: executing diffoscope
+[2024-05-17 01:22:21] INFO root fetch - processPackages [python-project-stub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_project_stub-0.0.8.tar.gz tmp/python_project_stub-0.0.9.tar.gz --markdown 20240517/p/python-project-stub/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 01:22:21] INFO root fetch - processPackages [deciphon-sched]: Downloading https://files.pythonhosted.org/packages/31/ba/a5eab287223092438b9b0bf61aee52ada8fdfb299441baf295ec37cd48f2/deciphon_sched-0.9.4.tar.gz
+[2024-05-17 01:22:21] INFO root fetch - processPackages [deciphon-sched]: executing diffoscope
+[2024-05-17 01:22:21] INFO root fetch - processPackages [deciphon-sched]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_sched-0.9.3.tar.gz tmp/deciphon_sched-0.9.4.tar.gz --markdown 20240517/d/deciphon-sched/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-17 01:22:21] INFO root fetch - processPackages [python-project-stub]: Remove: archive file [/home/abi/fetcher/tmp/python_project_stub-0.0.8.tar.gz]
+[2024-05-17 01:22:21] INFO root fetch - processPackages [python-project-stub]: Remove: archive file [/home/abi/fetcher/tmp/python_project_stub-0.0.9.tar.gz]
+[2024-05-17 01:22:21] INFO root fetch - main [MainThread]: End processing [python-project-stub]: success
+[2024-05-17 01:22:22] INFO root fetch - processPackages [deciphon-sched]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_sched-0.9.3.tar.gz]
+[2024-05-17 01:22:22] INFO root fetch - processPackages [deciphon-sched]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_sched-0.9.4.tar.gz]
+[2024-05-17 01:22:22] INFO root fetch - main [MainThread]: End processing [deciphon-sched]: success
+[2024-05-17 01:22:22] INFO root fetch - main [MainThread]: Store serial: [23243937]

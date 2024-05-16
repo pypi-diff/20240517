@@ -2015,3 +2015,33 @@
 [2024-05-17 01:46:31] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_websocket_api-2.8.0-cp39-cp39-win32.whl.zip]
 [2024-05-17 01:46:31] INFO root fetch - main [MainThread]: End processing [unicorn-binance-websocket-api]: success
 [2024-05-17 01:46:31] INFO root fetch - main [MainThread]: Store serial: [23244162]
+[2024-05-17 01:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244162]
+[2024-05-17 01:48:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 01:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boostrsa
+[2024-05-17 01:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGraphing
+[2024-05-17 01:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lognflow
+[2024-05-17 01:48:48] INFO root fetch - processPackages [PyGraphing]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 01:48:48] INFO root fetch - processPackages [boostrsa]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2024-05-17 01:48:48] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/13/ae/434dcd44bf1e8d50edfc80b2517dbf2ac71b32cc72054b6599fc03b088ff/boostrsa-0.0.1.dev1-py3-none-any.whl
+[2024-05-17 01:48:48] INFO root fetch - processPackages [lognflow]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-17 01:48:48] INFO root fetch - processPackages [PyGraphing]: Downloading https://files.pythonhosted.org/packages/2a/cf/d1abd6d201eae6209281d4e373b301fd1374e0b8b8c0e22e8260fb99878f/PyGraphing-1.0.0.tar.gz
+[2024-05-17 01:48:48] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/6f/81/78bff64c083f3efa4046df01aa9c667cc1a943b9d741ef9cca8900d7ab89/lognflow-0.9.0.tar.gz
+[2024-05-17 01:48:48] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/26/62/452989784baa50b01d7f659db526c624f2c7d7e41df0fcf02fc0f039fcf8/boostrsa-0.0.1.dev2-py3-none-any.whl
+[2024-05-17 01:48:48] INFO root fetch - processPackages [boostrsa]: executing diffoscope
+[2024-05-17 01:48:48] INFO root fetch - processPackages [boostrsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip tmp/boostrsa-0.0.1.dev2-py3-none-any.whl.zip --markdown 20240517/b/boostrsa/0.0.1.dev1-0.0.1.dev2/README.md --exclude *.pyd
+[2024-05-17 01:48:49] INFO root fetch - processPackages [PyGraphing]: Downloading https://files.pythonhosted.org/packages/5c/50/eaf15dba998b6dcad3fc9062422b59ec7b9441f3dd4926083757e8f04d16/PyGraphing-1.0.1.tar.gz
+[2024-05-17 01:48:49] INFO root fetch - processPackages [PyGraphing]: executing diffoscope
+[2024-05-17 01:48:49] INFO root fetch - processPackages [PyGraphing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGraphing-1.0.0.tar.gz tmp/PyGraphing-1.0.1.tar.gz --markdown 20240517/P/PyGraphing/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 01:48:49] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/27/f4/7b537ed44ee10ff5d3306c975ae2a2c2160ae1c2ee168e4abccb99254976/lognflow-0.9.1.tar.gz
+[2024-05-17 01:48:49] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2024-05-17 01:48:49] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.9.0.tar.gz tmp/lognflow-0.9.1.tar.gz --markdown 20240517/l/lognflow/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-17 01:48:49] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-17 01:48:49] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-17 01:48:49] INFO root fetch - main [MainThread]: End processing [boostrsa]: success
+[2024-05-17 01:48:49] INFO root fetch - processPackages [PyGraphing]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphing-1.0.0.tar.gz]
+[2024-05-17 01:48:49] INFO root fetch - processPackages [PyGraphing]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphing-1.0.1.tar.gz]
+[2024-05-17 01:48:49] INFO root fetch - main [MainThread]: End processing [PyGraphing]: success
+[2024-05-17 01:48:49] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.9.0.tar.gz]
+[2024-05-17 01:48:49] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.9.1.tar.gz]
+[2024-05-17 01:48:49] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2024-05-17 01:48:49] INFO root fetch - main [MainThread]: Store serial: [23244183]

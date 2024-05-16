@@ -1319,3 +1319,36 @@
 [2024-05-17 00:57:01] INFO root fetch - processPackages [coldtype]: Remove: archive file [/home/abi/fetcher/tmp/coldtype-0.9.9.tar.gz]
 [2024-05-17 00:57:01] INFO root fetch - main [MainThread]: End processing [coldtype]: success
 [2024-05-17 00:57:01] INFO root fetch - main [MainThread]: Store serial: [23243795]
+[2024-05-17 00:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243795]
+[2024-05-17 00:59:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt
+[2024-05-17 00:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbot
+[2024-05-17 00:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-05-17 00:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypkg-nikita
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-17 00:59:10] INFO root fetch - processPackages [bbot]: New version: [1.1.8.3332rc0] Old Version: [1.1.8.3321rc0]
+[2024-05-17 00:59:10] WARNING root fetch - processPackages [mypkg-nikita]: Skipping, unable to determine old version
+[2024-05-17 00:59:10] INFO root fetch - main [MainThread]: End processing [mypkg-nikita] error
+[2024-05-17 00:59:10] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/b2/ff/020480a18049d9a46923bb19ae538ea1366a59ea86ee6e54753d1b10044e/bbot-1.1.8.3321rc0.tar.gz
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt]: Downloading https://files.pythonhosted.org/packages/06/f9/30dc88091552c220242217b9fd60e294f4f9792315fa873eceb3375e0b87/pymemgpt-0.3.8.tar.gz
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-17 00:59:10] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/d8/60/11a9bc1380b61786336e55f157fd39f0164855c2b25398259d569ea08190/bbot-1.1.8.3332rc0.tar.gz
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt]: Downloading https://files.pythonhosted.org/packages/cd/2e/4361ff93f07d87ed5b38cfc0fa22c2bf04b2bc5429a7d4cd910728659112/pymemgpt-0.3.9.tar.gz
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-17 00:59:10] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240517/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-17 00:59:11] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-05-17 00:59:11] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.8.3321rc0.tar.gz tmp/bbot-1.1.8.3332rc0.tar.gz --markdown 20240517/b/bbot/1.1.8.3321rc0-1.1.8.3332rc0/README.md --exclude *.pyd
+[2024-05-17 00:59:11] INFO root fetch - processPackages [pymemgpt]: executing diffoscope
+[2024-05-17 00:59:11] INFO root fetch - processPackages [pymemgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt-0.3.8.tar.gz tmp/pymemgpt-0.3.9.tar.gz --markdown 20240517/p/pymemgpt/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 00:59:12] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-17 00:59:12] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-17 00:59:12] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-17 00:59:12] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3321rc0.tar.gz]
+[2024-05-17 00:59:12] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3332rc0.tar.gz]
+[2024-05-17 00:59:12] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-05-17 00:59:18] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.8.tar.gz]
+[2024-05-17 00:59:18] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.9.tar.gz]
+[2024-05-17 00:59:18] INFO root fetch - main [MainThread]: End processing [pymemgpt]: success
+[2024-05-17 00:59:18] INFO root fetch - main [MainThread]: Store serial: [23243809]

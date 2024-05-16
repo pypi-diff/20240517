@@ -1940,3 +1940,18 @@
 [2024-05-17 01:42:02] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14512400>=10485760
 [2024-05-17 01:42:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
 [2024-05-17 01:42:02] INFO root fetch - main [MainThread]: Store serial: [23244098]
+[2024-05-17 01:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244098]
+[2024-05-17 01:44:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 01:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: striebel.machamp
+[2024-05-17 01:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boostrsa
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/a0/5b/47b65a3c8c039a9bcc77da3850f6c396af2af24e3abb9edb2c9863e12d44/boostrsa-0.0.1.dev0.tar.gz
+[2024-05-17 01:44:11] WARNING root fetch - processPackages [striebel.machamp]: Skipping, unable to determine old version
+[2024-05-17 01:44:11] INFO root fetch - main [MainThread]: End processing [striebel.machamp] error
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/13/ae/434dcd44bf1e8d50edfc80b2517dbf2ac71b32cc72054b6599fc03b088ff/boostrsa-0.0.1.dev1-py3-none-any.whl
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: executing diffoscope
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boostrsa-0.0.1.dev0.tar.gz tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip --markdown 20240517/b/boostrsa/0.0.1.dev0-0.0.1.dev1/README.md --exclude *.pyd
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev0.tar.gz]
+[2024-05-17 01:44:11] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-17 01:44:11] INFO root fetch - main [MainThread]: End processing [boostrsa]: success
+[2024-05-17 01:44:11] INFO root fetch - main [MainThread]: Store serial: [23244104]

@@ -359,3 +359,15 @@
 [2024-05-17 00:19:20] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc8.tar.gz]
 [2024-05-17 00:19:20] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
 [2024-05-17 00:19:20] INFO root fetch - main [MainThread]: Store serial: [23243443]
+[2024-05-17 00:21:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243443]
+[2024-05-17 00:21:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 00:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luke-roberts-cloud-api
+[2024-05-17 00:21:30] INFO root fetch - processPackages [luke-roberts-cloud-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:21:30] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/63/ca/57cfa6af1b1378b133eafd4714415ba5c7fdd1565e681d9596b056c08a4d/luke_roberts_cloud_api-0.0.8.tar.gz
+[2024-05-17 00:21:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/fb/be/ce72ac914cc26a7b9dc1d778c8c9c78e0286fbc661df9708436b7475333f/luke_roberts_cloud_api-0.0.9.tar.gz
+[2024-05-17 00:21:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: executing diffoscope
+[2024-05-17 00:21:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luke_roberts_cloud_api-0.0.8.tar.gz tmp/luke_roberts_cloud_api-0.0.9.tar.gz --markdown 20240517/l/luke-roberts-cloud-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:21:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.8.tar.gz]
+[2024-05-17 00:21:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.9.tar.gz]
+[2024-05-17 00:21:31] INFO root fetch - main [MainThread]: End processing [luke-roberts-cloud-api]: success
+[2024-05-17 00:21:31] INFO root fetch - main [MainThread]: Store serial: [23243446]

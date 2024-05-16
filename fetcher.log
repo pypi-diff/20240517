@@ -1430,3 +1430,42 @@
 [2024-05-17 01:04:12] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.3.0.tar.gz]
 [2024-05-17 01:04:12] INFO root fetch - main [MainThread]: End processing [open-samus-returns-rando]: success
 [2024-05-17 01:04:12] INFO root fetch - main [MainThread]: Store serial: [23243833]
+[2024-05-17 01:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243833]
+[2024-05-17 01:06:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 01:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-17 01:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-17 01:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-05-17 01:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deciphon
+[2024-05-17 01:06:22] INFO root fetch - processPackages [deciphon]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-17 01:06:22] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240515] Old Version: [0.7.52b20240514]
+[2024-05-17 01:06:22] INFO root fetch - processPackages [deciphon]: Downloading https://files.pythonhosted.org/packages/78/51/ddfa6e2964651c7f1d6b35e3ed857b68f24a22b18250d7a022e62967ee82/deciphon-0.9.3.tar.gz
+[2024-05-17 01:06:22] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 01:06:22] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240516] Old Version: [1.9.0.dev20240514]
+[2024-05-17 01:06:22] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/55/b9/fd1f1ef8b54548f94783a097615f109ee9f7229f63ef9bfe248d832ed060/tmnt-0.7.52b20240514.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [deciphon]: Downloading https://files.pythonhosted.org/packages/0a/6e/abe8fa2e74782abff69014247710f3a26109b31db5f47ebbd0f13d8e2cf0/deciphon-0.9.4.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/37/a2/807dea37ee0c4123ff9f9d576f634014889f1ce22c2bfa356e66996159f6/flwr_nightly-1.9.0.dev20240514.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [deciphon]: executing diffoscope
+[2024-05-17 01:06:23] INFO root fetch - processPackages [deciphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon-0.9.3.tar.gz tmp/deciphon-0.9.4.tar.gz --markdown 20240517/d/deciphon/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-17 01:06:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/59/58/e1cbf4036f2c031840ea94e208c999b34ae00f339e11b9d602c8f5c4ccae/tmnt-0.7.52b20240515.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-17 01:06:23] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240514.tar.gz tmp/tmnt-0.7.52b20240515.tar.gz --markdown 20240517/t/tmnt/0.7.52b20240514-0.7.52b20240515/README.md --exclude *.pyd
+[2024-05-17 01:06:23] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d2/d1/94b8b040a9bee3433e838eaf2776630bfe87d989502781e4d1c0014a5d3e/flwr_nightly-1.9.0.dev20240516.tar.gz
+[2024-05-17 01:06:23] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 01:06:23] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 01:06:23] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-17 01:06:23] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240514.tar.gz tmp/flwr_nightly-1.9.0.dev20240516.tar.gz --markdown 20240517/f/flwr-nightly/1.9.0.dev20240514-1.9.0.dev20240516/README.md --exclude *.pyd
+[2024-05-17 01:06:23] INFO root fetch - processPackages [deciphon]: Remove: archive file [/home/abi/fetcher/tmp/deciphon-0.9.3.tar.gz]
+[2024-05-17 01:06:23] INFO root fetch - processPackages [deciphon]: Remove: archive file [/home/abi/fetcher/tmp/deciphon-0.9.4.tar.gz]
+[2024-05-17 01:06:23] INFO root fetch - main [MainThread]: End processing [deciphon]: success
+[2024-05-17 01:06:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240514.tar.gz]
+[2024-05-17 01:06:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240515.tar.gz]
+[2024-05-17 01:06:24] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-17 01:06:24] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 01:06:24] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 01:06:24] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 01:06:24] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240514.tar.gz]
+[2024-05-17 01:06:24] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240516.tar.gz]
+[2024-05-17 01:06:24] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-17 01:06:24] INFO root fetch - main [MainThread]: Store serial: [23243845]

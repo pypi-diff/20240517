@@ -2045,3 +2045,9 @@
 [2024-05-17 01:48:49] INFO root fetch - processPackages [lognflow]: Remove: archive file [/home/abi/fetcher/tmp/lognflow-0.9.1.tar.gz]
 [2024-05-17 01:48:49] INFO root fetch - main [MainThread]: End processing [lognflow]: success
 [2024-05-17 01:48:49] INFO root fetch - main [MainThread]: Store serial: [23244183]
+[2024-05-17 01:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244183]
+[2024-05-17 01:51:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 01:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: giverny
+[2024-05-17 01:51:00] WARNING root fetch - processPackages [giverny]: Skipping, unable to determine old version
+[2024-05-17 01:51:00] INFO root fetch - main [MainThread]: End processing [giverny] error
+[2024-05-17 01:51:00] INFO root fetch - main [MainThread]: Store serial: [23244188]

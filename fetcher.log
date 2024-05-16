@@ -151,3 +151,56 @@
 [2024-05-17 00:08:15] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
 [2024-05-17 00:08:15] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-05-17 00:08:15] INFO root fetch - main [MainThread]: Store serial: [23243325]
+[2024-05-17 00:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243325]
+[2024-05-17 00:10:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plutobook
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unicorn-binance-rest-api
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g4f-xn
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecoengine
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bibt-qualys
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ebb-time-series
+[2024-05-17 00:10:24] INFO root fetch - processPackages [g4f-xn]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ebb-time-series]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 00:10:24] INFO root fetch - processPackages [plutobook]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-17 00:10:24] INFO root fetch - processPackages [bibt-qualys]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:10:24] INFO root fetch - processPackages [g4f-xn]: Downloading https://files.pythonhosted.org/packages/7c/0a/6c47ea8e60d3024a61113b1813af129ebe67699c086bb7fb8da00fd1358a/g4f_xn-0.0.3.tar.gz
+[2024-05-17 00:10:24] INFO root fetch - processPackages [unicorn-binance-rest-api]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ecoengine]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-05-17 00:10:24] INFO root fetch - processPackages [bibt-qualys]: Downloading https://files.pythonhosted.org/packages/5b/2f/88269cdc1b95b55f4d494dc40e8ac1341b446d8cd9b355af8aabb7906973/bibt_qualys-0.0.8.tar.gz
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ebb-time-series]: Downloading https://files.pythonhosted.org/packages/80/7f/52a7ce1a31564f775435c5f3a4978a109961a96cd6dfa68ba5fb48426175/ebb_time_series-0.2.1.tar.gz
+[2024-05-17 00:10:24] INFO root fetch - processPackages [plutobook]: Downloading https://files.pythonhosted.org/packages/d0/9e/183b82bdd61dbeb0880a6e3a902dab8d54452cf18c0e5c332ecbb71d9024/plutobook-0.0.14-cp312-cp312-win_amd64.whl
+[2024-05-17 00:10:24] WARNING root fetch - processPackages [plutobook]: Skipping package: exceeds size limit 20979647>=10485760
+[2024-05-17 00:10:24] INFO root fetch - main [MainThread]: End processing [plutobook] error
+[2024-05-17 00:10:24] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/bf/622b63a92238bdba2bd1a8ad26bb13832b5400c81724a62f39528d070ec4/ecoengine-1.5.9.tar.gz
+[2024-05-17 00:10:24] INFO root fetch - processPackages [bibt-qualys]: Downloading https://files.pythonhosted.org/packages/a4/ff/473cf3de37e2bc1cc62221e395eb7c334c01659b53325d698c820783fe20/bibt_qualys-0.0.9.tar.gz
+[2024-05-17 00:10:24] INFO root fetch - processPackages [unicorn-binance-rest-api]: Downloading https://files.pythonhosted.org/packages/05/38/d990828972cb94ca10edab5ed05aa0b4ad29ee7989c24014cc329cae78d3/unicorn_binance_rest_api-2.5.1.tar.gz
+[2024-05-17 00:10:24] INFO root fetch - processPackages [g4f-xn]: Downloading https://files.pythonhosted.org/packages/78/52/c24c23b73b61f7f7ecd88f9297cd280aab4863d7e0dbc4f3ced6edc97ffa/g4f_xn-0.0.4.tar.gz
+[2024-05-17 00:10:25] INFO root fetch - processPackages [bibt-qualys]: executing diffoscope
+[2024-05-17 00:10:25] INFO root fetch - processPackages [bibt-qualys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibt_qualys-0.0.8.tar.gz tmp/bibt_qualys-0.0.9.tar.gz --markdown 20240517/b/bibt-qualys/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ebb-time-series]: Downloading https://files.pythonhosted.org/packages/2e/4c/eb29fcfb4d2745389e14052d16b48198f7e82390f2884f3b5253c3de9634/ebb_time_series-0.2.2.tar.gz
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ebb-time-series]: executing diffoscope
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ebb-time-series]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebb_time_series-0.2.1.tar.gz tmp/ebb_time_series-0.2.2.tar.gz --markdown 20240517/e/ebb-time-series/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 00:10:25] INFO root fetch - processPackages [g4f-xn]: executing diffoscope
+[2024-05-17 00:10:25] INFO root fetch - processPackages [g4f-xn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f_xn-0.0.3.tar.gz tmp/g4f_xn-0.0.4.tar.gz --markdown 20240517/g/g4f-xn/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 00:10:25] INFO root fetch - processPackages [unicorn-binance-rest-api]: Downloading https://files.pythonhosted.org/packages/6a/b9/35963ac66994720fce0f56787f569db7ce8cc35858142af8a562c9dbd245/unicorn_binance_rest_api-2.6.0-cp39-cp39-win_amd64.whl
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/f0/69/65f4089790f4a7bdc5f2397d6cda1922ea6252e343c0bec3bd556dc257e1/ecoengine-1.6.0.tar.gz
+[2024-05-17 00:10:25] INFO root fetch - processPackages [bibt-qualys]: Remove: archive file [/home/abi/fetcher/tmp/bibt_qualys-0.0.8.tar.gz]
+[2024-05-17 00:10:25] INFO root fetch - processPackages [bibt-qualys]: Remove: archive file [/home/abi/fetcher/tmp/bibt_qualys-0.0.9.tar.gz]
+[2024-05-17 00:10:25] INFO root fetch - main [MainThread]: End processing [bibt-qualys]: success
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ebb-time-series]: Remove: archive file [/home/abi/fetcher/tmp/ebb_time_series-0.2.1.tar.gz]
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ebb-time-series]: Remove: archive file [/home/abi/fetcher/tmp/ebb_time_series-0.2.2.tar.gz]
+[2024-05-17 00:10:25] INFO root fetch - main [MainThread]: End processing [ebb-time-series]: success
+[2024-05-17 00:10:25] INFO root fetch - processPackages [g4f-xn]: Remove: archive file [/home/abi/fetcher/tmp/g4f_xn-0.0.3.tar.gz]
+[2024-05-17 00:10:25] INFO root fetch - processPackages [g4f-xn]: Remove: archive file [/home/abi/fetcher/tmp/g4f_xn-0.0.4.tar.gz]
+[2024-05-17 00:10:25] INFO root fetch - main [MainThread]: End processing [g4f-xn]: success
+[2024-05-17 00:10:25] INFO root fetch - processPackages [unicorn-binance-rest-api]: executing diffoscope
+[2024-05-17 00:10:25] INFO root fetch - processPackages [unicorn-binance-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn_binance_rest_api-2.5.1.tar.gz tmp/unicorn_binance_rest_api-2.6.0-cp39-cp39-win_amd64.whl.zip --markdown 20240517/u/unicorn-binance-rest-api/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2024-05-17 00:10:25] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-1.5.9.tar.gz tmp/ecoengine-1.6.0.tar.gz --markdown 20240517/e/ecoengine/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-05-17 00:10:26] INFO root fetch - processPackages [unicorn-binance-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_rest_api-2.5.1.tar.gz]
+[2024-05-17 00:10:26] INFO root fetch - processPackages [unicorn-binance-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_rest_api-2.6.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 00:10:26] INFO root fetch - main [MainThread]: End processing [unicorn-binance-rest-api]: success
+[2024-05-17 00:10:29] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.5.9.tar.gz]
+[2024-05-17 00:10:29] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.0.tar.gz]
+[2024-05-17 00:10:29] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2024-05-17 00:10:29] INFO root fetch - main [MainThread]: Store serial: [23243383]

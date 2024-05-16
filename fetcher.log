@@ -1767,3 +1767,61 @@
 [2024-05-17 01:28:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
 [2024-05-17 01:28:53] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-05-17 01:28:53] INFO root fetch - main [MainThread]: Store serial: [23243958]
+[2024-05-17 01:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243958]
+[2024-05-17 01:31:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-yeargun
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json24
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json24
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forloop-common-structures
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forloop-modules
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testmypixipkg
+[2024-05-17 01:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhasura
+[2024-05-17 01:31:02] INFO root fetch - processPackages [forloop-common-structures]: New version: [0.3.1] Old Version: [0.2.8]
+[2024-05-17 01:31:02] INFO root fetch - processPackages [testmypixipkg]: New version: [0.15.0] Old Version: [0.14.0]
+[2024-05-17 01:31:02] INFO root fetch - processPackages [json24]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-17 01:31:02] INFO root fetch - processPackages [json24]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-17 01:31:02] INFO root fetch - processPackages [pyhasura]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 01:31:02] WARNING root fetch - processPackages [example-package-yeargun]: Skipping, unable to determine old version
+[2024-05-17 01:31:02] INFO root fetch - main [MainThread]: End processing [example-package-yeargun] error
+[2024-05-17 01:31:02] INFO root fetch - processPackages [forloop-modules]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-17 01:31:02] INFO root fetch - processPackages [forloop-common-structures]: Downloading https://files.pythonhosted.org/packages/97/c1/cd953246388cd7e03e78c8cb2bbaddf87e4c2d3e78c75e6cd290c07f69b8/forloop_common_structures-0.2.8.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/cd/3e/f05dac07d7ddb51d65157893920d283207fd16508a4fe2e0e74638914408/testmypixipkg-0.14.0.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: Downloading https://files.pythonhosted.org/packages/41/6b/6885d50779a3dd93d5fcf5a3609b3422423afb2937a6c4aac3bb9b481194/json24-0.0.1.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: Downloading https://files.pythonhosted.org/packages/41/6b/6885d50779a3dd93d5fcf5a3609b3422423afb2937a6c4aac3bb9b481194/json24-0.0.1.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/82/cc/ad867b05a4ec6deaa70d180402e90fbd9ddd108b1c324bfd248f3eacc918/forloop_modules-1.1.1.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/95/74/b4ed4bf242f56b3aed70cb52554c8acf938206faa9687d37ee0841c221a5/pyhasura-1.0.8.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-common-structures]: Downloading https://files.pythonhosted.org/packages/45/f2/cb13ea0d9f319c79119f3de9c128fe7ec3db634d744196ecadb7bcc4bc0a/forloop_common_structures-0.3.1.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/9a/70/867df929c7c81b37365bf28842175241d9908765d7670f14578934db5221/testmypixipkg-0.15.0.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-common-structures]: executing diffoscope
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-common-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_common_structures-0.2.8.tar.gz tmp/forloop_common_structures-0.3.1.tar.gz --markdown 20240517/f/forloop-common-structures/0.2.8-0.3.1/README.md --exclude *.pyd
+[2024-05-17 01:31:03] INFO root fetch - processPackages [testmypixipkg]: executing diffoscope
+[2024-05-17 01:31:03] INFO root fetch - processPackages [testmypixipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmypixipkg-0.14.0.tar.gz tmp/testmypixipkg-0.15.0.tar.gz --markdown 20240517/t/testmypixipkg/0.14.0-0.15.0/README.md --exclude *.pyd
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: Downloading https://files.pythonhosted.org/packages/f9/8a/54fad0804f22628f80a1b4a076798fdeb01f60b9e610b08649016d9aef82/json24-0.1.0.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: Downloading https://files.pythonhosted.org/packages/f9/8a/54fad0804f22628f80a1b4a076798fdeb01f60b9e610b08649016d9aef82/json24-0.1.0.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/99/b8/0c36a045237cb94473bd0476ed54c96ee2a09b2e2be94230ea1eca2686ee/forloop_modules-1.1.2.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: executing diffoscope
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: executing diffoscope
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json24-0.0.1.tar.gz tmp/json24-0.1.0.tar.gz --markdown 20240517/j/json24/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-17 01:31:03] INFO root fetch - processPackages [json24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json24-0.0.1.tar.gz tmp/json24-0.1.0.tar.gz --markdown 20240517/j/json24/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-17 01:31:03] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/eb/3e/ee576591a7c4ea777ff94996eb0197f5034bade0047be6fcac2596d26e84/pyhasura-1.0.9.tar.gz
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-modules]: executing diffoscope
+[2024-05-17 01:31:03] INFO root fetch - processPackages [forloop-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_modules-1.1.1.tar.gz tmp/forloop_modules-1.1.2.tar.gz --markdown 20240517/f/forloop-modules/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-17 01:31:04] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-05-17 01:31:04] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.8.tar.gz tmp/pyhasura-1.0.9.tar.gz --markdown 20240517/p/pyhasura/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 01:31:04] INFO root fetch - processPackages [forloop-common-structures]: Remove: archive file [/home/abi/fetcher/tmp/forloop_common_structures-0.2.8.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - processPackages [forloop-common-structures]: Remove: archive file [/home/abi/fetcher/tmp/forloop_common_structures-0.3.1.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: End processing [forloop-common-structures]: success
+[2024-05-17 01:31:04] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.14.0.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.15.0.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: End processing [testmypixipkg]: success
+[2024-05-17 01:31:04] INFO root fetch - processPackages [json24]: Remove: archive file [/home/abi/fetcher/tmp/json24-0.0.1.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - processPackages [json24]: Remove: archive file [/home/abi/fetcher/tmp/json24-0.1.0.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: End processing [json24]: success
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: End processing [json24]: success
+[2024-05-17 01:31:04] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.1.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.2.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: End processing [forloop-modules]: success
+[2024-05-17 01:31:04] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.8.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.9.tar.gz]
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-05-17 01:31:04] INFO root fetch - main [MainThread]: Store serial: [23243984]

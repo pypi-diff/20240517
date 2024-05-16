@@ -450,3 +450,33 @@
 [2024-05-17 00:25:55] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip]
 [2024-05-17 00:25:55] INFO root fetch - main [MainThread]: End processing [lamini]: success
 [2024-05-17 00:25:55] INFO root fetch - main [MainThread]: Store serial: [23243474]
+[2024-05-17 00:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243474]
+[2024-05-17 00:28:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 00:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bibt-qualys
+[2024-05-17 00:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luke-roberts-cloud-api
+[2024-05-17 00:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stripe
+[2024-05-17 00:28:04] INFO root fetch - processPackages [bibt-qualys]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:28:04] INFO root fetch - processPackages [luke-roberts-cloud-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:28:04] INFO root fetch - processPackages [stripe]: New version: [9.7.0b1] Old Version: [9.7.0]
+[2024-05-17 00:28:04] INFO root fetch - processPackages [bibt-qualys]: Downloading https://files.pythonhosted.org/packages/5b/2f/88269cdc1b95b55f4d494dc40e8ac1341b446d8cd9b355af8aabb7906973/bibt_qualys-0.0.8.tar.gz
+[2024-05-17 00:28:04] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/63/ca/57cfa6af1b1378b133eafd4714415ba5c7fdd1565e681d9596b056c08a4d/luke_roberts_cloud_api-0.0.8.tar.gz
+[2024-05-17 00:28:04] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/f4/85/4d2bb549f89cf1a436aaa67a1d0fad0640e684414d9d2c136b96452f1bdf/stripe-9.7.0.tar.gz
+[2024-05-17 00:28:04] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/fb/be/ce72ac914cc26a7b9dc1d778c8c9c78e0286fbc661df9708436b7475333f/luke_roberts_cloud_api-0.0.9.tar.gz
+[2024-05-17 00:28:04] INFO root fetch - processPackages [bibt-qualys]: Downloading https://files.pythonhosted.org/packages/a4/ff/473cf3de37e2bc1cc62221e395eb7c334c01659b53325d698c820783fe20/bibt_qualys-0.0.9.tar.gz
+[2024-05-17 00:28:04] INFO root fetch - processPackages [luke-roberts-cloud-api]: executing diffoscope
+[2024-05-17 00:28:04] INFO root fetch - processPackages [luke-roberts-cloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luke_roberts_cloud_api-0.0.8.tar.gz tmp/luke_roberts_cloud_api-0.0.9.tar.gz --markdown 20240517/l/luke-roberts-cloud-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:28:04] INFO root fetch - processPackages [bibt-qualys]: executing diffoscope
+[2024-05-17 00:28:04] INFO root fetch - processPackages [bibt-qualys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibt_qualys-0.0.8.tar.gz tmp/bibt_qualys-0.0.9.tar.gz --markdown 20240517/b/bibt-qualys/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:28:05] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/bb/93/77e600dd697a5d86c15a6386e103a41eaa47d67e28b48e6679c30747d22c/stripe-9.7.0b1.tar.gz
+[2024-05-17 00:28:05] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-05-17 00:28:05] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-9.7.0.tar.gz tmp/stripe-9.7.0b1.tar.gz --markdown 20240517/s/stripe/9.7.0-9.7.0b1/README.md --exclude *.pyd
+[2024-05-17 00:28:05] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.8.tar.gz]
+[2024-05-17 00:28:05] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.9.tar.gz]
+[2024-05-17 00:28:05] INFO root fetch - main [MainThread]: End processing [luke-roberts-cloud-api]: success
+[2024-05-17 00:28:05] INFO root fetch - processPackages [bibt-qualys]: Remove: archive file [/home/abi/fetcher/tmp/bibt_qualys-0.0.8.tar.gz]
+[2024-05-17 00:28:05] INFO root fetch - processPackages [bibt-qualys]: Remove: archive file [/home/abi/fetcher/tmp/bibt_qualys-0.0.9.tar.gz]
+[2024-05-17 00:28:05] INFO root fetch - main [MainThread]: End processing [bibt-qualys]: success
+[2024-05-17 00:28:12] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.7.0.tar.gz]
+[2024-05-17 00:28:12] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.7.0b1.tar.gz]
+[2024-05-17 00:28:12] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-05-17 00:28:12] INFO root fetch - main [MainThread]: Store serial: [23243483]

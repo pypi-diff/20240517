@@ -841,3 +841,48 @@
 [2024-05-17 00:48:08] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
 [2024-05-17 00:48:08] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
 [2024-05-17 00:48:08] INFO root fetch - main [MainThread]: Store serial: [23243620]
+[2024-05-17 00:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243620]
+[2024-05-17 00:50:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: file-renamer
+[2024-05-17 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marker-pdf
+[2024-05-17 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testmypixipkg
+[2024-05-17 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shared-ndarray2
+[2024-05-17 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moesifasgi
+[2024-05-17 00:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digitalarztools
+[2024-05-17 00:50:17] WARNING root fetch - processPackages [file-renamer]: Skipping, unable to determine old version
+[2024-05-17 00:50:17] INFO root fetch - main [MainThread]: End processing [file-renamer] error
+[2024-05-17 00:50:17] WARNING root fetch - processPackages [shared-ndarray2]: Skipping, unable to determine old version
+[2024-05-17 00:50:17] INFO root fetch - processPackages [marker-pdf]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-17 00:50:17] INFO root fetch - main [MainThread]: End processing [shared-ndarray2] error
+[2024-05-17 00:50:17] INFO root fetch - processPackages [moesifasgi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 00:50:17] INFO root fetch - processPackages [testmypixipkg]: New version: [0.13.0] Old Version: [0.12.0]
+[2024-05-17 00:50:17] INFO root fetch - processPackages [digitalarztools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 00:50:18] INFO root fetch - processPackages [moesifasgi]: Downloading https://files.pythonhosted.org/packages/8a/00/d95dbdb052931fa050f9fd6e429768e507748b1dcab53193d4f576a3bbd6/moesifasgi-1.0.1.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/3a/66/09e46ebf38e28f134da54f05a80c36f9693892683a586d449bbbacc7a475/testmypixipkg-0.12.0.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/0d/a0/2c0dfb5d5b1665668697d69073927b799fd3abe8bea2ad4b9d2034f4f9c0/marker_pdf-0.2.5.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/b7/70/8b5b8aaee385637088cb6c095a922bf5f17957354ed8b60669d0d25a3811/digitalarztools-0.1.8.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [moesifasgi]: Downloading https://files.pythonhosted.org/packages/6f/b2/0b583e0c480a418ca075ece74179e0d41b38f581c984345431d7916ad512/moesifasgi-1.0.2.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/9c/04/eea4de58702ef9ee9a836e02cb27fb6564b9a9d7e8d28758315304a77872/marker_pdf-0.2.6.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/5c/ca/0ed44dc215cb271c3e2710b74a056924b780fb70915b193be78cf82db000/testmypixipkg-0.13.0.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/8b/85/2a742b62f2427a45f092ea34127a93f724509fd219511c0838e61833a9a1/digitalarztools-0.1.9.tar.gz
+[2024-05-17 00:50:18] INFO root fetch - processPackages [moesifasgi]: executing diffoscope
+[2024-05-17 00:50:18] INFO root fetch - processPackages [moesifasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifasgi-1.0.1.tar.gz tmp/moesifasgi-1.0.2.tar.gz --markdown 20240517/m/moesifasgi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 00:50:18] INFO root fetch - processPackages [testmypixipkg]: executing diffoscope
+[2024-05-17 00:50:18] INFO root fetch - processPackages [testmypixipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmypixipkg-0.12.0.tar.gz tmp/testmypixipkg-0.13.0.tar.gz --markdown 20240517/t/testmypixipkg/0.12.0-0.13.0/README.md --exclude *.pyd
+[2024-05-17 00:50:18] INFO root fetch - processPackages [marker-pdf]: executing diffoscope
+[2024-05-17 00:50:18] INFO root fetch - processPackages [marker-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marker_pdf-0.2.5.tar.gz tmp/marker_pdf-0.2.6.tar.gz --markdown 20240517/m/marker-pdf/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-17 00:50:18] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2024-05-17 00:50:18] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.1.8.tar.gz tmp/digitalarztools-0.1.9.tar.gz --markdown 20240517/d/digitalarztools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 00:50:19] INFO root fetch - processPackages [moesifasgi]: Remove: archive file [/home/abi/fetcher/tmp/moesifasgi-1.0.1.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - processPackages [moesifasgi]: Remove: archive file [/home/abi/fetcher/tmp/moesifasgi-1.0.2.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - main [MainThread]: End processing [moesifasgi]: success
+[2024-05-17 00:50:19] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.12.0.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.13.0.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - main [MainThread]: End processing [testmypixipkg]: success
+[2024-05-17 00:50:19] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.5.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.6.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - main [MainThread]: End processing [marker-pdf]: success
+[2024-05-17 00:50:19] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.1.8.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.1.9.tar.gz]
+[2024-05-17 00:50:19] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2024-05-17 00:50:19] INFO root fetch - main [MainThread]: Store serial: [23243639]

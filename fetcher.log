@@ -320,3 +320,42 @@
 [2024-05-17 00:17:07] INFO root fetch - processPackages [qp-prob]: Remove: archive file [/home/abi/fetcher/tmp/qp_prob-0.8.9.tar.gz]
 [2024-05-17 00:17:07] INFO root fetch - main [MainThread]: End processing [qp-prob]: success
 [2024-05-17 00:17:07] INFO root fetch - main [MainThread]: Store serial: [23243431]
+[2024-05-17 00:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243431]
+[2024-05-17 00:19:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robustintelligence
+[2024-05-17 00:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RealTimeTTS
+[2024-05-17 00:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jgtfx2console
+[2024-05-17 00:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-17 00:19:16] INFO root fetch - processPackages [jgtfx2console]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 00:19:16] INFO root fetch - processPackages [robustintelligence]: New version: [0.1.0rc8] Old Version: [0.1.0rc7]
+[2024-05-17 00:19:16] INFO root fetch - processPackages [RealTimeTTS]: New version: [0.3.47] Old Version: [0.3.46]
+[2024-05-17 00:19:16] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 00:19:16] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/55/79/beabee5ef8b1163229c7c77b797ff7d1b67d27b96592479764a91d52d90a/robustintelligence-0.1.0rc7.tar.gz
+[2024-05-17 00:19:16] INFO root fetch - processPackages [RealTimeTTS]: Downloading https://files.pythonhosted.org/packages/6f/55/bb211ba746d0c5fcff5a9a3d38c833df2222c2169dfb126e33371bf4e0d9/RealTimeTTS-0.3.46.tar.gz
+[2024-05-17 00:19:16] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 00:19:16] INFO root fetch - processPackages [jgtfx2console]: Downloading https://files.pythonhosted.org/packages/2e/de/45acedd38289664e69bffb283daa780970966e0fe60cc8376bda0c1be880/jgtfx2console-0.4.8.tar.gz
+[2024-05-17 00:19:17] INFO root fetch - processPackages [RealTimeTTS]: Downloading https://files.pythonhosted.org/packages/a5/70/e42e7067c4a7f7403a5f7b44932ae0d257619f18ded5edbc76b5be373e76/RealTimeTTS-0.3.47.tar.gz
+[2024-05-17 00:19:17] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/32/35/9b4e4ad2d1d42bb03c0766d49a7786c9aa597ecf11fee795fd077ab8a025/robustintelligence-0.1.0rc8.tar.gz
+[2024-05-17 00:19:17] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 00:19:17] INFO root fetch - processPackages [RealTimeTTS]: executing diffoscope
+[2024-05-17 00:19:17] INFO root fetch - processPackages [RealTimeTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RealTimeTTS-0.3.46.tar.gz tmp/RealTimeTTS-0.3.47.tar.gz --markdown 20240517/R/RealTimeTTS/0.3.46-0.3.47/README.md --exclude *.pyd
+[2024-05-17 00:19:17] INFO root fetch - processPackages [jgtfx2console]: Downloading https://files.pythonhosted.org/packages/72/d5/85d2482c402c01fa38270b81f594fb6995018901411ffd115f6e75d2d70d/jgtfx2console-0.4.9.tar.gz
+[2024-05-17 00:19:17] INFO root fetch - processPackages [robustintelligence]: executing diffoscope
+[2024-05-17 00:19:17] INFO root fetch - processPackages [robustintelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robustintelligence-0.1.0rc7.tar.gz tmp/robustintelligence-0.1.0rc8.tar.gz --markdown 20240517/r/robustintelligence/0.1.0rc7-0.1.0rc8/README.md --exclude *.pyd
+[2024-05-17 00:19:17] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 00:19:17] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 00:19:17] INFO root fetch - processPackages [jgtfx2console]: executing diffoscope
+[2024-05-17 00:19:17] INFO root fetch - processPackages [jgtfx2console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtfx2console-0.4.8.tar.gz tmp/jgtfx2console-0.4.9.tar.gz --markdown 20240517/j/jgtfx2console/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 00:19:18] INFO root fetch - processPackages [RealTimeTTS]: Remove: archive file [/home/abi/fetcher/tmp/RealTimeTTS-0.3.46.tar.gz]
+[2024-05-17 00:19:18] INFO root fetch - processPackages [RealTimeTTS]: Remove: archive file [/home/abi/fetcher/tmp/RealTimeTTS-0.3.47.tar.gz]
+[2024-05-17 00:19:18] INFO root fetch - main [MainThread]: End processing [RealTimeTTS]: success
+[2024-05-17 00:19:18] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 00:19:18] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 00:19:18] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 00:19:18] INFO root fetch - processPackages [jgtfx2console]: Remove: archive file [/home/abi/fetcher/tmp/jgtfx2console-0.4.8.tar.gz]
+[2024-05-17 00:19:18] INFO root fetch - processPackages [jgtfx2console]: Remove: archive file [/home/abi/fetcher/tmp/jgtfx2console-0.4.9.tar.gz]
+[2024-05-17 00:19:18] INFO root fetch - main [MainThread]: End processing [jgtfx2console]: success
+[2024-05-17 00:19:20] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc7.tar.gz]
+[2024-05-17 00:19:20] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc8.tar.gz]
+[2024-05-17 00:19:20] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
+[2024-05-17 00:19:20] INFO root fetch - main [MainThread]: Store serial: [23243443]

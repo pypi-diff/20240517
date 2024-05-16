@@ -1899,3 +1899,36 @@
 [2024-05-17 01:37:43] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a6.tar.gz]
 [2024-05-17 01:37:43] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
 [2024-05-17 01:37:43] INFO root fetch - main [MainThread]: Store serial: [23244018]
+[2024-05-17 01:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244018]
+[2024-05-17 01:39:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jiter
+[2024-05-17 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastcore
+[2024-05-17 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-05-17 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socketwrench
+[2024-05-17 01:39:51] INFO root fetch - processPackages [socketwrench]: New version: [1.9.0] Old Version: [1.8.9]
+[2024-05-17 01:39:51] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 01:39:51] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/c0/c3/f42a0b52f1e3bb6d5c52a0d3d62be08859758c631fd99c2f644ce56302d8/socketwrench-1.8.9.tar.gz
+[2024-05-17 01:39:51] WARNING root fetch - processPackages [jiter]: Skipping, unable to determine old version
+[2024-05-17 01:39:51] INFO root fetch - main [MainThread]: End processing [jiter] error
+[2024-05-17 01:39:51] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-17 01:39:51] INFO root fetch - processPackages [fastcore]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-17 01:39:52] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/bd/a7/11687db0e0993cf3f28cbe4f087decfde90959b1ede6fa37acbf83c875d8/fastcore-1.5.8.tar.gz
+[2024-05-17 01:39:52] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-17 01:39:52] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/9c/2f/a646c4866f14f609be37877b1b7a4eb9852d944363fd169f8f85338e651e/socketwrench-1.9.0.tar.gz
+[2024-05-17 01:39:52] INFO root fetch - processPackages [socketwrench]: executing diffoscope
+[2024-05-17 01:39:52] INFO root fetch - processPackages [socketwrench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketwrench-1.8.9.tar.gz tmp/socketwrench-1.9.0.tar.gz --markdown 20240517/s/socketwrench/1.8.9-1.9.0/README.md --exclude *.pyd
+[2024-05-17 01:39:52] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-17 01:39:52] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240517/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 01:39:52] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/e7/ca/756f70aa0a53475a198acbda3b9edb61b363c4b51ece542b7a7e3d890bcd/fastcore-1.5.9.tar.gz
+[2024-05-17 01:39:52] INFO root fetch - processPackages [fastcore]: executing diffoscope
+[2024-05-17 01:39:52] INFO root fetch - processPackages [fastcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcore-1.5.8.tar.gz tmp/fastcore-1.5.9.tar.gz --markdown 20240517/f/fastcore/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-17 01:39:52] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.9.tar.gz]
+[2024-05-17 01:39:52] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.9.0.tar.gz]
+[2024-05-17 01:39:52] INFO root fetch - main [MainThread]: End processing [socketwrench]: success
+[2024-05-17 01:39:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-17 01:39:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-17 01:39:53] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-17 01:39:53] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.8.tar.gz]
+[2024-05-17 01:39:53] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.9.tar.gz]
+[2024-05-17 01:39:53] INFO root fetch - main [MainThread]: End processing [fastcore]: success
+[2024-05-17 01:39:53] INFO root fetch - main [MainThread]: Store serial: [23244091]

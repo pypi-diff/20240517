@@ -530,3 +530,51 @@
 [2024-05-17 00:32:42] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.9.4.1.tar.gz]
 [2024-05-17 00:32:42] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
 [2024-05-17 00:32:42] INFO root fetch - main [MainThread]: Store serial: [23243521]
+[2024-05-17 00:34:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243521]
+[2024-05-17 00:34:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfn-lint-ax
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-files
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillory
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dom-tokenizers
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypi-browser-webapp
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pypi-browser-webapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:34:50] INFO root fetch - processPackages [dom-tokenizers]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pillory]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pypi-browser-webapp]: Downloading https://files.pythonhosted.org/packages/f2/50/81341c4a05c867d3c29204ae07c4b59de4e52d8e20f6510fc67862f0ec60/pypi_browser_webapp-0.0.8.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ckanext-files]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pillory]: Downloading https://files.pythonhosted.org/packages/b3/20/ab2c9422ba9abaca152fab28d987483273242a6c8cf0a72e89d34b23fdb2/pillory-1.1.1.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [cfn-lint-ax]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 00:34:50] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/47/9f/b35fcced41eed8d685b6869aacc19d6e46ee4a2473e872e941e2cedaf629/dom_tokenizers-0.0.2.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/3b/ef/8a0b600744a5e87e4cc1125d27aeaf056d8b9e35d9d383c4630793c41492/ckanext_files-0.2.6.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pypi-browser-webapp]: Downloading https://files.pythonhosted.org/packages/dd/9b/3abce97f2a82cbf28180fe4bd6a421f37469ffa6e0d1c3806536dcd8039f/pypi_browser_webapp-0.0.9.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [cfn-lint-ax]: Downloading https://files.pythonhosted.org/packages/7c/82/a12282217069c5f11c08e438fd3bd3e41161ec470a38c2a589a6c6b3c767/cfn_lint_ax-0.0.8.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pillory]: Downloading https://files.pythonhosted.org/packages/c1/a7/e24568f08d534229484f1408787fff3d9f292ff6d7377b577e48fddbcd2d/pillory-1.1.2.tar.gz
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pypi-browser-webapp]: executing diffoscope
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pypi-browser-webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_browser_webapp-0.0.8.tar.gz tmp/pypi_browser_webapp-0.0.9.tar.gz --markdown 20240517/p/pypi-browser-webapp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pillory]: executing diffoscope
+[2024-05-17 00:34:50] INFO root fetch - processPackages [pillory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillory-1.1.1.tar.gz tmp/pillory-1.1.2.tar.gz --markdown 20240517/p/pillory/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-17 00:34:50] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/fb/9f/ddc6f16f486695f23ea01113c4a69641230dc8d68e72f9d8e50713004cad/dom_tokenizers-0.0.3.tar.gz
+[2024-05-17 00:34:51] INFO root fetch - processPackages [cfn-lint-ax]: Downloading https://files.pythonhosted.org/packages/b5/42/420fe4fe1c5abe54d05bdbba74bf9cdbfbde778f13394b722dfad61059fc/cfn_lint_ax-0.0.9.tar.gz
+[2024-05-17 00:34:51] INFO root fetch - processPackages [dom-tokenizers]: executing diffoscope
+[2024-05-17 00:34:51] INFO root fetch - processPackages [dom-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dom_tokenizers-0.0.2.tar.gz tmp/dom_tokenizers-0.0.3.tar.gz --markdown 20240517/d/dom-tokenizers/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-17 00:34:51] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/a2/5a/040b1cf3b78468b0c7240a2a8ae283c4fccfceb87d6711e84483d99f2e52/ckanext_files-0.3.0.tar.gz
+[2024-05-17 00:34:51] INFO root fetch - processPackages [cfn-lint-ax]: executing diffoscope
+[2024-05-17 00:34:51] INFO root fetch - processPackages [cfn-lint-ax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn_lint_ax-0.0.8.tar.gz tmp/cfn_lint_ax-0.0.9.tar.gz --markdown 20240517/c/cfn-lint-ax/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 00:34:51] INFO root fetch - processPackages [ckanext-files]: executing diffoscope
+[2024-05-17 00:34:51] INFO root fetch - processPackages [ckanext-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_files-0.2.6.tar.gz tmp/ckanext_files-0.3.0.tar.gz --markdown 20240517/c/ckanext-files/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-17 00:34:51] INFO root fetch - processPackages [pypi-browser-webapp]: Remove: archive file [/home/abi/fetcher/tmp/pypi_browser_webapp-0.0.8.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - processPackages [pypi-browser-webapp]: Remove: archive file [/home/abi/fetcher/tmp/pypi_browser_webapp-0.0.9.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - main [MainThread]: End processing [pypi-browser-webapp]: success
+[2024-05-17 00:34:51] INFO root fetch - processPackages [pillory]: Remove: archive file [/home/abi/fetcher/tmp/pillory-1.1.1.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - processPackages [pillory]: Remove: archive file [/home/abi/fetcher/tmp/pillory-1.1.2.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - main [MainThread]: End processing [pillory]: success
+[2024-05-17 00:34:51] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.2.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.3.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - main [MainThread]: End processing [dom-tokenizers]: success
+[2024-05-17 00:34:51] INFO root fetch - processPackages [cfn-lint-ax]: Remove: archive file [/home/abi/fetcher/tmp/cfn_lint_ax-0.0.8.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - processPackages [cfn-lint-ax]: Remove: archive file [/home/abi/fetcher/tmp/cfn_lint_ax-0.0.9.tar.gz]
+[2024-05-17 00:34:51] INFO root fetch - main [MainThread]: End processing [cfn-lint-ax]: success
+[2024-05-17 00:34:52] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.2.6.tar.gz]
+[2024-05-17 00:34:52] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.3.0.tar.gz]
+[2024-05-17 00:34:52] INFO root fetch - main [MainThread]: End processing [ckanext-files]: success
+[2024-05-17 00:34:52] INFO root fetch - main [MainThread]: Store serial: [23243538]

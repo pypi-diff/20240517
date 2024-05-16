@@ -480,3 +480,36 @@
 [2024-05-17 00:28:12] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.7.0b1.tar.gz]
 [2024-05-17 00:28:12] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2024-05-17 00:28:12] INFO root fetch - main [MainThread]: Store serial: [23243483]
+[2024-05-17 00:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23243483]
+[2024-05-17 00:30:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kokojson
+[2024-05-17 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stripe
+[2024-05-17 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helipad
+[2024-05-17 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servicenow-api
+[2024-05-17 00:30:24] WARNING root fetch - processPackages [kokojson]: Skipping, unable to determine old version
+[2024-05-17 00:30:24] INFO root fetch - main [MainThread]: End processing [kokojson] error
+[2024-05-17 00:30:24] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 00:30:24] INFO root fetch - processPackages [stripe]: New version: [9.7.0b1] Old Version: [9.7.0]
+[2024-05-17 00:30:24] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-17 00:30:24] INFO root fetch - processPackages [helipad]: New version: [1.6.1] Old Version: [1.6]
+[2024-05-17 00:30:24] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/f4/85/4d2bb549f89cf1a436aaa67a1d0fad0640e684414d9d2c136b96452f1bdf/stripe-9.7.0.tar.gz
+[2024-05-17 00:30:24] INFO root fetch - processPackages [helipad]: Downloading https://files.pythonhosted.org/packages/fa/7b/329576bec9a7f210a074604f7f80fef0ba04bd5d4caae4fda924ae24d96d/helipad-1.6.tar.gz
+[2024-05-17 00:30:24] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/bb/93/77e600dd697a5d86c15a6386e103a41eaa47d67e28b48e6679c30747d22c/stripe-9.7.0b1.tar.gz
+[2024-05-17 00:30:24] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-17 00:30:24] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-17 00:30:24] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240517/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 00:30:24] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-05-17 00:30:24] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-9.7.0.tar.gz tmp/stripe-9.7.0b1.tar.gz --markdown 20240517/s/stripe/9.7.0-9.7.0b1/README.md --exclude *.pyd
+[2024-05-17 00:30:24] INFO root fetch - processPackages [helipad]: Downloading https://files.pythonhosted.org/packages/b2/45/e5d7193d6cac16593d5f698e563f0a488e141f8a9514e02aaf3d2051cbfd/helipad-1.6.1.tar.gz
+[2024-05-17 00:30:24] INFO root fetch - processPackages [helipad]: executing diffoscope
+[2024-05-17 00:30:24] INFO root fetch - processPackages [helipad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helipad-1.6.tar.gz tmp/helipad-1.6.1.tar.gz --markdown 20240517/h/helipad/1.6-1.6.1/README.md --exclude *.pyd
+[2024-05-17 00:30:25] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-17 00:30:25] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-17 00:30:25] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-17 00:30:25] INFO root fetch - processPackages [helipad]: Remove: archive file [/home/abi/fetcher/tmp/helipad-1.6.tar.gz]
+[2024-05-17 00:30:25] INFO root fetch - processPackages [helipad]: Remove: archive file [/home/abi/fetcher/tmp/helipad-1.6.1.tar.gz]
+[2024-05-17 00:30:25] INFO root fetch - main [MainThread]: End processing [helipad]: success
+[2024-05-17 00:30:31] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.7.0.tar.gz]
+[2024-05-17 00:30:31] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.7.0b1.tar.gz]
+[2024-05-17 00:30:31] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-05-17 00:30:31] INFO root fetch - main [MainThread]: Store serial: [23243506]

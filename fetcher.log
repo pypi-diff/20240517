@@ -17832,3 +17832,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:37:31] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-05-17 09:37:31] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-05-17 09:37:31] INFO root fetch - main [MainThread]: Store serial: [23249916]
+[2024-05-17 09:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249916]
+[2024-05-17 09:39:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MASSIVEChem
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bert-server-client
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-common-tools
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ADViewpy
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drremote
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ua-sj
+[2024-05-17 09:39:41] INFO root fetch - processPackages [MASSIVEChem]: New version: [3.4] Old Version: [3.3]
+[2024-05-17 09:39:41] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240517.380] Old Version: [0.44.20240516.379]
+[2024-05-17 09:39:41] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-17 09:39:41] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/85/5a/d1a6a9d24d1766b2e291b168d72acabf3536c8864660df9719ebf502bfbc/massivechem-3.3.tar.gz
+[2024-05-17 09:39:41] INFO root fetch - processPackages [bert-server-client]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-17 09:39:41] WARNING root fetch - processPackages [ua-sj]: Skipping, unable to determine old version
+[2024-05-17 09:39:41] INFO root fetch - main [MainThread]: End processing [ua-sj] error
+[2024-05-17 09:39:41] INFO root fetch - processPackages [drremote]: New version: [0.1.0.5] Old Version: [0.1.0.4]
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ADViewpy]: New version: [0.2a0] Old Version: [0.1a0]
+[2024-05-17 09:39:41] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/77/4e/c403c7dfa39f5a546424b8a7b5a2835012df936024f93712889bf247ad26/pkscreener-0.44.20240516.379.tar.gz
+[2024-05-17 09:39:41] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ca/3c/6b8cd59d336e1c605691395b32685c8a043c3effb94cb81dc1d7cec6a6d8/database-common-tools-1.1.8.tar.gz
+[2024-05-17 09:39:41] INFO root fetch - processPackages [bert-server-client]: Downloading https://files.pythonhosted.org/packages/f7/4f/714bc6877759e8f181c91a7d04daec0e2bc6f4d38dd7dc7c8b47f92790f2/bert_server_client-1.2.3.tar.gz
+[2024-05-17 09:39:41] INFO root fetch - processPackages [drremote]: Downloading https://files.pythonhosted.org/packages/94/73/1f3a15c9ed6f48e084d80d6eec4fd823e1749b65054510b2f0724af663e7/drremote-0.1.0.4.tar.gz
+[2024-05-17 09:39:41] INFO root fetch - processPackages [ADViewpy]: Downloading https://files.pythonhosted.org/packages/2b/d5/9eca30e1392611b3d6c2ab584a58eca29873ca0a8bbdaf0d3892d95cba72/ADViewpy-0.1a0.tar.gz
+[2024-05-17 09:39:41] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/15/b5/2d3a21d94ecba349cf8c18912346ec3ab976858ab37ea97ec25fe056035d/pkscreener-0.44.20240517.380.tar.gz
+[2024-05-17 09:39:42] INFO root fetch - processPackages [bert-server-client]: Downloading https://files.pythonhosted.org/packages/1c/60/724da4e5f8d0d2eb22d3d5e31cdb5fdfb9a6f848e10974a6ec187d434439/bert_server_client-1.2.4.tar.gz
+[2024-05-17 09:39:42] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/c4/e1/4e6597482ab1a95343b88991b0eb382f6ffe6336809799fbd68596d50e41/massivechem-3.4.tar.gz
+[2024-05-17 09:39:42] INFO root fetch - processPackages [drremote]: Downloading https://files.pythonhosted.org/packages/a3/07/2741a75490aa65ee3c99f8079b2531233cd6cb722b625d2719a2120f94c1/drremote-0.1.0.5.tar.gz
+[2024-05-17 09:39:42] INFO root fetch - processPackages [ADViewpy]: Downloading https://files.pythonhosted.org/packages/d6/6d/1c169084e3f811caa55bac512a9150eee33f4333b85017e1b8cd748edaf7/ADViewpy-0.2a0.tar.gz
+[2024-05-17 09:39:42] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/55/1d/f84bdab15e57cb34658d4f445048d8bfeaf6b8cd2d0da82250fefbaa75f0/database-common-tools-1.1.9.tar.gz
+[2024-05-17 09:39:42] INFO root fetch - processPackages [bert-server-client]: executing diffoscope
+[2024-05-17 09:39:42] INFO root fetch - processPackages [bert-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert_server_client-1.2.3.tar.gz tmp/bert_server_client-1.2.4.tar.gz --markdown 20240517/b/bert-server-client/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-17 09:39:42] INFO root fetch - processPackages [ADViewpy]: executing diffoscope
+[2024-05-17 09:39:42] INFO root fetch - processPackages [ADViewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ADViewpy-0.1a0.tar.gz tmp/ADViewpy-0.2a0.tar.gz --markdown 20240517/A/ADViewpy/0.1a0-0.2a0/README.md --exclude *.pyd
+[2024-05-17 09:39:42] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-17 09:39:42] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240516.379.tar.gz tmp/pkscreener-0.44.20240517.380.tar.gz --markdown 20240517/p/pkscreener/0.44.20240516.379-0.44.20240517.380/README.md --exclude *.pyd
+[2024-05-17 09:39:42] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-05-17 09:39:42] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.8.tar.gz tmp/database-common-tools-1.1.9.tar.gz --markdown 20240517/d/database-common-tools/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-17 09:39:42] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-17 09:39:42] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-3.3.tar.gz tmp/massivechem-3.4.tar.gz --markdown 20240517/M/MASSIVEChem/3.3-3.4/README.md --exclude *.pyd
+[2024-05-17 09:39:42] INFO root fetch - processPackages [drremote]: executing diffoscope
+[2024-05-17 09:39:42] INFO root fetch - processPackages [drremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drremote-0.1.0.4.tar.gz tmp/drremote-0.1.0.5.tar.gz --markdown 20240517/d/drremote/0.1.0.4-0.1.0.5/README.md --exclude *.pyd
+[2024-05-17 09:39:42] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.8.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.9.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-05-17 09:39:42] INFO root fetch - processPackages [ADViewpy]: Remove: archive file [/home/abi/fetcher/tmp/ADViewpy-0.1a0.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - processPackages [ADViewpy]: Remove: archive file [/home/abi/fetcher/tmp/ADViewpy-0.2a0.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - main [MainThread]: End processing [ADViewpy]: success
+[2024-05-17 09:39:42] INFO root fetch - processPackages [drremote]: Remove: archive file [/home/abi/fetcher/tmp/drremote-0.1.0.4.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - processPackages [drremote]: Remove: archive file [/home/abi/fetcher/tmp/drremote-0.1.0.5.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - main [MainThread]: End processing [drremote]: success
+[2024-05-17 09:39:42] INFO root fetch - processPackages [bert-server-client]: Remove: archive file [/home/abi/fetcher/tmp/bert_server_client-1.2.3.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - processPackages [bert-server-client]: Remove: archive file [/home/abi/fetcher/tmp/bert_server_client-1.2.4.tar.gz]
+[2024-05-17 09:39:42] INFO root fetch - main [MainThread]: End processing [bert-server-client]: success
+[2024-05-17 09:39:43] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240516.379.tar.gz]
+[2024-05-17 09:39:43] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240517.380.tar.gz]
+[2024-05-17 09:39:43] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-17 09:39:43] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.3.tar.gz]
+[2024-05-17 09:39:43] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.4.tar.gz]
+[2024-05-17 09:39:43] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-17 09:39:43] INFO root fetch - main [MainThread]: Store serial: [23249938]

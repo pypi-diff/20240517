@@ -12422,3 +12422,27 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:30:31] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-17 05:30:31] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-17 05:30:31] INFO root fetch - main [MainThread]: Store serial: [23247825]
+[2024-05-17 05:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247825]
+[2024-05-17 05:32:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 05:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coolbg
+[2024-05-17 05:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokarip
+[2024-05-17 05:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sparkapi
+[2024-05-17 05:32:40] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 05:32:40] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/f7/a7/c7ab32f8ebbfebb29e1f350e2217cdc35a953053ff477fe42549215ce8a2/nonebot_plugin_sparkapi-1.0.8.tar.gz
+[2024-05-17 05:32:40] WARNING root fetch - processPackages [tokarip]: Skipping, unable to determine old version
+[2024-05-17 05:32:40] INFO root fetch - main [MainThread]: End processing [tokarip] error
+[2024-05-17 05:32:40] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-17 05:32:40] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/c6/13/f0e875e54fd95200c623a5eba48618d69a995d87db99efd16b383d91d317/nonebot_plugin_sparkapi-1.0.9.tar.gz
+[2024-05-17 05:32:40] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-17 05:32:40] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: executing diffoscope
+[2024-05-17 05:32:40] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz --markdown 20240517/n/nonebot-plugin-sparkapi/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 05:32:41] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-17 05:32:41] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-17 05:32:41] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240517/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-17 05:32:41] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz]
+[2024-05-17 05:32:41] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz]
+[2024-05-17 05:32:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
+[2024-05-17 05:32:41] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-17 05:32:41] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-17 05:32:41] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-17 05:32:41] INFO root fetch - main [MainThread]: Store serial: [23247836]

@@ -2252,3 +2252,38 @@
 [2024-05-17 02:00:15] INFO root fetch - processPackages [BL-Python.web]: Remove: archive file [/home/abi/fetcher/tmp/bl_python_web-0.2.2.tar.gz]
 [2024-05-17 02:00:15] INFO root fetch - main [MainThread]: End processing [BL-Python.web]: success
 [2024-05-17 02:00:15] INFO root fetch - main [MainThread]: Store serial: [23244261]
+[2024-05-17 02:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244261]
+[2024-05-17 02:02:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 02:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BL-Python.all
+[2024-05-17 02:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xmonkey-namonica
+[2024-05-17 02:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swebench
+[2024-05-17 02:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-priority-loadbalancer
+[2024-05-17 02:02:24] INFO root fetch - processPackages [BL-Python.all]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 02:02:24] INFO root fetch - processPackages [openai-priority-loadbalancer]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-17 02:02:24] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 02:02:24] INFO root fetch - processPackages [swebench]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-17 02:02:25] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/6c/05/ee264afae0aab4ca85c17b86be67202f51a3b120e258dd1681171db101ac/openai_priority_loadbalancer-1.0.3.tar.gz
+[2024-05-17 02:02:25] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-17 02:02:25] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9b/a8/b152312e4ea430df1fdc83f36a09f02c13ee0229f34d65d290039849e93a/swebench-1.1.3.tar.gz
+[2024-05-17 02:02:25] INFO root fetch - processPackages [BL-Python.all]: Downloading https://files.pythonhosted.org/packages/d1/d6/a65c08e918b5bba2e7cf0bb5f86e7d35133591e50eec3789fe38e4c7b6d2/bl_python_all-0.2.1.tar.gz
+[2024-05-17 02:02:25] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-17 02:02:25] ERROR root fetch - processPackages [openai-priority-loadbalancer]: Unable to fetch info: No such project/version 'openai-priority-loadbalancer' 1.0.4
+[2024-05-17 02:02:25] INFO root fetch - main [MainThread]: End processing [openai-priority-loadbalancer] error
+[2024-05-17 02:02:25] INFO root fetch - processPackages [BL-Python.all]: Downloading https://files.pythonhosted.org/packages/00/ac/2841c380990c8f8f6bf9939fa73947f6aec1de2ccc643483e66fa4470239/bl_python_all-0.2.2.tar.gz
+[2024-05-17 02:02:25] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9c/42/f13681c6cad874f732f3400cb8f145a6e23ad5406e50d18787fa55a6370b/swebench-1.1.4.tar.gz
+[2024-05-17 02:02:25] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-17 02:02:25] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240517/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 02:02:25] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-05-17 02:02:25] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.1.3.tar.gz tmp/swebench-1.1.4.tar.gz --markdown 20240517/s/swebench/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-17 02:02:25] INFO root fetch - processPackages [BL-Python.all]: executing diffoscope
+[2024-05-17 02:02:25] INFO root fetch - processPackages [BL-Python.all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_python_all-0.2.1.tar.gz tmp/bl_python_all-0.2.2.tar.gz --markdown 20240517/B/BL-Python.all/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 02:02:26] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-17 02:02:26] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-17 02:02:26] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-17 02:02:26] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.1.3.tar.gz]
+[2024-05-17 02:02:26] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.1.4.tar.gz]
+[2024-05-17 02:02:26] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-05-17 02:02:26] INFO root fetch - processPackages [BL-Python.all]: Remove: archive file [/home/abi/fetcher/tmp/bl_python_all-0.2.1.tar.gz]
+[2024-05-17 02:02:26] INFO root fetch - processPackages [BL-Python.all]: Remove: archive file [/home/abi/fetcher/tmp/bl_python_all-0.2.2.tar.gz]
+[2024-05-17 02:02:26] INFO root fetch - main [MainThread]: End processing [BL-Python.all]: success
+[2024-05-17 02:02:26] INFO root fetch - main [MainThread]: Store serial: [23244274]

@@ -11353,3 +11353,79 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:22:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240516.tar.gz]
 [2024-05-17 04:22:47] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-17 04:22:47] INFO root fetch - main [MainThread]: Store serial: [23247449]
+[2024-05-17 04:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247449]
+[2024-05-17 04:24:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: payjp
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixeltable
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karellen-llvm-clang
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpc-obscodes
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: karellen-llvm-core
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sntn
+[2024-05-17 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iudex
+[2024-05-17 04:24:56] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.5.0.post37] Old Version: [18.1.5.0.post34]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [sntn]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [iudex]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.5.0.post37] Old Version: [18.1.5.0.post34]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.5.0.post37] Old Version: [18.1.5.0.post34]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715888064] Old Version: [0.0.21a1715807737]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [payjp]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [pixeltable]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/fd/ef/36f150819e014d191782bc25dfece1ff7a4555762964cb505cf6e99c6a92/iudex-0.5.0.tar.gz
+[2024-05-17 04:24:56] INFO root fetch - processPackages [mpc-obscodes]: New version: [2024.5.4] Old Version: [2024.5.3]
+[2024-05-17 04:24:56] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/64/4c/4ff1a2b4fd2da3ee5e0049ef19e03d7dacde58be8e591088fe0fb9beed17/karellen_llvm_toolchain_tools-18.1.5.0.post34-py3-none-manylinux2014_x86_64.whl
+[2024-05-17 04:24:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c5/fa/5ae3ed35c72e6f97a85ef42d08f2a5ed01aa43e44ae2f216be4c9c821d80/pulumi_kubernetes_the_hard_way-0.0.21a1715807737.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/2f/a8/448a0fe1e05d757363a45ab0e6bdac72a269cdf91b74533112452600a0d4/karellen_llvm_clang-18.1.5.0.post34-py3-none-manylinux2014_x86_64.whl
+[2024-05-17 04:24:57] INFO root fetch - processPackages [sntn]: Downloading https://files.pythonhosted.org/packages/65/b6/4ab535ba95caa126bf0e5e208cb742cf4faf477379476abea5d74f9eb19c/sntn-0.0.4-py2.py3-none-any.whl
+[2024-05-17 04:24:57] INFO root fetch - processPackages [payjp]: Downloading https://files.pythonhosted.org/packages/ad/ae/dc64ee200cdd2db8a9d19746641b8a1e55fb051607ab5b104f82136813b7/payjp-0.4.0.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/df/51/ad23e9e448a1700ccc36a04a78eb75dceb9e82517cc4e116211d4a581d0b/mpc_obscodes-2024.5.3.tar.gz
+[2024-05-17 04:24:57] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78661308>=10485760
+[2024-05-17 04:24:57] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/3a/b5/030000684f34c3e5a7ba354009eeec292844ef1fe36078ef550312dda72a/pixeltable-0.2.4.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/15/1a/f6e1c99e74e138a202b4752edc30b54fd416fd629daf24f1dbc1f7aedd4d/iudex-0.5.1.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/43/81/afc0b10245d4c31988ce409569d39caac1daa3bf8577ec5a3d4cb3e73a88/karellen_llvm_core-18.1.5.0.post34-py3-none-manylinux2014_x86_64.whl
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/24/bd/63e9a9e157372083ab7833aec184dda63e4cb5e04388fe8612352510ff5a/pulumi_kubernetes_the_hard_way-0.0.21a1715888064.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.5.0.tar.gz tmp/iudex-0.5.1.tar.gz --markdown 20240517/i/iudex/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-17 04:24:57] INFO root fetch - processPackages [payjp]: Downloading https://files.pythonhosted.org/packages/33/ea/469c7ff2c60eff640dba8d6157c7b1e098174c20ae37b29f5429cb2dc962/payjp-0.4.1.tar.gz
+[2024-05-17 04:24:57] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28601692>=10485760
+[2024-05-17 04:24:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/35/c1/840fe43e743c93a5a5f265169765281ccbb38a1ae5184f7b0de40b3240d4/karellen_llvm_toolchain_tools-18.1.5.0.post37-py3-none-manylinux2014_x86_64.whl
+[2024-05-17 04:24:57] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-17 04:24:57] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/74/29/cefeef8a14ed0f6d3111838cce54d1d6f40eb1c78df52027ba7776087c5f/mpc_obscodes-2024.5.4.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715807737.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715888064.tar.gz --markdown 20240517/p/pulumi-kubernetes-the-hard-way/0.0.21a1715807737-0.0.21a1715888064/README.md --exclude *.pyd
+[2024-05-17 04:24:57] INFO root fetch - processPackages [sntn]: Downloading https://files.pythonhosted.org/packages/57/75/a63bcda2bd55cb6cf5d88a4597800ed9176e4d0d6e96729316e88cb23d40/sntn-0.0.6-py2.py3-none-any.whl
+[2024-05-17 04:24:57] INFO root fetch - processPackages [payjp]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [payjp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payjp-0.4.0.tar.gz tmp/payjp-0.4.1.tar.gz --markdown 20240517/p/payjp/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-17 04:24:57] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2024.5.3.tar.gz tmp/mpc_obscodes-2024.5.4.tar.gz --markdown 20240517/m/mpc-obscodes/2024.5.3-2024.5.4/README.md --exclude *.pyd
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/d0/5a/e3d09d84c093bf73a24f4743e79dcad472af267f74c2acc595f0554cd400/pixeltable-0.2.5.tar.gz
+[2024-05-17 04:24:57] INFO root fetch - processPackages [sntn]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [sntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sntn-0.0.4-py2.py3-none-any.whl.zip tmp/sntn-0.0.6-py2.py3-none-any.whl.zip --markdown 20240517/s/sntn/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-17 04:24:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.5.0.post34-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.5.0.post37-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240517/k/karellen-llvm-toolchain-tools/18.1.5.0.post34-18.1.5.0.post37/README.md --exclude *.pyd
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pixeltable]: executing diffoscope
+[2024-05-17 04:24:57] INFO root fetch - processPackages [pixeltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeltable-0.2.4.tar.gz tmp/pixeltable-0.2.5.tar.gz --markdown 20240517/p/pixeltable/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-17 04:24:58] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.0.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.1.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-17 04:24:58] INFO root fetch - processPackages [payjp]: Remove: archive file [/home/abi/fetcher/tmp/payjp-0.4.0.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - processPackages [payjp]: Remove: archive file [/home/abi/fetcher/tmp/payjp-0.4.1.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - main [MainThread]: End processing [payjp]: success
+[2024-05-17 04:24:58] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.3.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.4.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2024-05-17 04:24:58] INFO root fetch - processPackages [sntn]: Remove: archive file [/home/abi/fetcher/tmp/sntn-0.0.4-py2.py3-none-any.whl.zip]
+[2024-05-17 04:24:58] INFO root fetch - processPackages [sntn]: Remove: archive file [/home/abi/fetcher/tmp/sntn-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-17 04:24:58] INFO root fetch - main [MainThread]: End processing [sntn]: success
+[2024-05-17 04:24:58] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715807737.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715888064.tar.gz]
+[2024-05-17 04:24:58] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-17 04:24:59] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.4.tar.gz]
+[2024-05-17 04:24:59] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.5.tar.gz]
+[2024-05-17 04:24:59] INFO root fetch - main [MainThread]: End processing [pixeltable]: success
+[2024-05-17 04:25:25] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post34-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-17 04:25:25] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post37-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-17 04:25:25] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-17 04:25:25] INFO root fetch - main [MainThread]: Store serial: [23247472]

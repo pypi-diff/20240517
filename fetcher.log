@@ -14095,3 +14095,45 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:30:10] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-0.90.0.tar.gz]
 [2024-05-17 07:30:10] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2024-05-17 07:30:10] INFO root fetch - main [MainThread]: Store serial: [23248548]
+[2024-05-17 07:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248548]
+[2024-05-17 07:32:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 07:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-05-17 07:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memodules
+[2024-05-17 07:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coolbg
+[2024-05-17 07:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-17 07:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MolGen
+[2024-05-17 07:32:19] INFO root fetch - processPackages [memodules]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-17 07:32:19] INFO root fetch - processPackages [lambkid]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 07:32:19] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-17 07:32:19] WARNING root fetch - processPackages [MolGen]: Skipping, unable to determine old version
+[2024-05-17 07:32:19] INFO root fetch - main [MainThread]: End processing [MolGen] error
+[2024-05-17 07:32:19] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/49/5e/964af64f8fd32adb02fff9152204d00f7f239263fa437f10498833ac59bd/lambkid-0.2.1.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 07:32:19] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/63/82/dbeed959a88b9286b70da422706e4329e55e15a53429938ff4e13a88c559/memodules-5.9.2.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/3f/f7/04c45ee3066caa2d70c28147f83c1339969e66d46a034c62a415ff847c66/lambkid-0.2.2.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/c6/c4/4ac3446c827cfb1a3ea9bb0ecddbc0e30553bafa0432db94b847eeba99d5/memodules-5.9.3.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-17 07:32:19] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-17 07:32:19] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.1.tar.gz tmp/lambkid-0.2.2.tar.gz --markdown 20240517/l/lambkid/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 07:32:20] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-17 07:32:20] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240517/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-17 07:32:20] INFO root fetch - processPackages [memodules]: executing diffoscope
+[2024-05-17 07:32:20] INFO root fetch - processPackages [memodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memodules-5.9.2.tar.gz tmp/memodules-5.9.3.tar.gz --markdown 20240517/m/memodules/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-17 07:32:20] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-17 07:32:20] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-17 07:32:20] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240517/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:32:20] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-17 07:32:20] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.2.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.3.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - main [MainThread]: End processing [memodules]: success
+[2024-05-17 07:32:20] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.1.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.2.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-17 07:32:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-17 07:32:20] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-17 07:32:20] INFO root fetch - main [MainThread]: Store serial: [23248563]

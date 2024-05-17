@@ -17961,3 +17961,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:44:09] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/dajin2-0.4.6.zip]
 [2024-05-17 09:44:09] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
 [2024-05-17 09:44:09] INFO root fetch - main [MainThread]: Store serial: [23249960]
+[2024-05-17 09:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249960]
+[2024-05-17 09:46:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 09:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-05-17 09:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: InforeWss
+[2024-05-17 09:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watsonx-ai
+[2024-05-17 09:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corvic-engine
+[2024-05-17 09:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certego-saas
+[2024-05-17 09:46:19] INFO root fetch - processPackages [ibm-watsonx-ai]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 09:46:19] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 09:46:19] WARNING root fetch - processPackages [InforeWss]: Skipping, unable to determine old version
+[2024-05-17 09:46:19] INFO root fetch - main [MainThread]: End processing [InforeWss] error
+[2024-05-17 09:46:19] INFO root fetch - processPackages [certego-saas]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-17 09:46:19] INFO root fetch - processPackages [ibm-watsonx-ai]: Downloading https://files.pythonhosted.org/packages/89/c4/89467851697b1e6b09556ceefbaf266ca858aa5c3e5ba9d2de3dfd07b06e/ibm_watsonx_ai-1.0.1.tar.gz
+[2024-05-17 09:46:19] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-05-17 09:46:19] INFO root fetch - processPackages [certego-saas]: Downloading https://files.pythonhosted.org/packages/1a/df/6e43316032066dd641e9356db1394ee48413bf32e093748a724e5ba09f3b/certego_saas-0.7.8.tar.gz
+[2024-05-17 09:46:19] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-17 09:46:19] INFO root fetch - processPackages [ibm-watsonx-ai]: Downloading https://files.pythonhosted.org/packages/c4/d9/3831f9049591a96d14c68f86ad5f7bcaf8c1f961d1005c5e03a9470d4b66/ibm_watsonx_ai-1.0.2.tar.gz
+[2024-05-17 09:46:19] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-05-17 09:46:19] INFO root fetch - processPackages [certego-saas]: Downloading https://files.pythonhosted.org/packages/c8/c4/1f0ff5d6d049d2fa1006b10c911130a362d2ad79522490034ade7d4c296c/certego_saas-0.7.9.tar.gz
+[2024-05-17 09:46:19] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 09:46:20] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-17 09:46:20] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-17 09:46:20] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-05-17 09:46:20] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240517/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 09:46:20] INFO root fetch - processPackages [certego-saas]: executing diffoscope
+[2024-05-17 09:46:20] INFO root fetch - processPackages [certego-saas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certego_saas-0.7.8.tar.gz tmp/certego_saas-0.7.9.tar.gz --markdown 20240517/c/certego-saas/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-17 09:46:20] INFO root fetch - processPackages [ibm-watsonx-ai]: executing diffoscope
+[2024-05-17 09:46:20] INFO root fetch - processPackages [ibm-watsonx-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watsonx_ai-1.0.1.tar.gz tmp/ibm_watsonx_ai-1.0.2.tar.gz --markdown 20240517/i/ibm-watsonx-ai/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 09:46:20] INFO root fetch - processPackages [certego-saas]: Remove: archive file [/home/abi/fetcher/tmp/certego_saas-0.7.8.tar.gz]
+[2024-05-17 09:46:20] INFO root fetch - processPackages [certego-saas]: Remove: archive file [/home/abi/fetcher/tmp/certego_saas-0.7.9.tar.gz]
+[2024-05-17 09:46:20] INFO root fetch - main [MainThread]: End processing [certego-saas]: success
+[2024-05-17 09:46:20] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-05-17 09:46:20] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-05-17 09:46:20] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-05-17 09:46:22] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.1.tar.gz]
+[2024-05-17 09:46:22] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.2.tar.gz]
+[2024-05-17 09:46:22] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
+[2024-05-17 09:46:22] INFO root fetch - main [MainThread]: Store serial: [23249996]

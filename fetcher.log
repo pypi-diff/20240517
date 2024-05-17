@@ -12739,3 +12739,45 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:52:20] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.9.9.tar.gz]
 [2024-05-17 05:52:20] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
 [2024-05-17 05:52:20] INFO root fetch - main [MainThread]: Store serial: [23247939]
+[2024-05-17 05:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247939]
+[2024-05-17 05:54:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdewolff-minify
+[2024-05-17 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: falcon-challenge
+[2024-05-17 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agi
+[2024-05-17 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rag-assistant
+[2024-05-17 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudoll
+[2024-05-17 05:54:29] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 05:54:29] WARNING root fetch - processPackages [agi]: Skipping, unable to determine old version
+[2024-05-17 05:54:29] INFO root fetch - main [MainThread]: End processing [agi] error
+[2024-05-17 05:54:29] INFO root fetch - processPackages [tdewolff-minify]: New version: [2.20.9] Old Version: [2.20.8]
+[2024-05-17 05:54:29] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/6a/91/cbdaf0cae5f72954d276e46ebb18b67dbff71ba83d8879c17d598ec2318b/rag_assistant-0.1.4.tar.gz
+[2024-05-17 05:54:29] INFO root fetch - processPackages [falcon-challenge]: New version: [0.3.8] Old Version: [0.3.6]
+[2024-05-17 05:54:29] INFO root fetch - processPackages [cloudoll]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-17 05:54:29] INFO root fetch - processPackages [tdewolff-minify]: Downloading https://files.pythonhosted.org/packages/e4/1b/0a65b34a8c7a9726ea7deedcb0ad0fd582d8696ba036fef7b57f6cd8713b/tdewolff-minify-2.20.8.tar.gz
+[2024-05-17 05:54:29] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/1e/9d/4cd4ca20fc124f4dcda371f9dffbbd1a017f02dfb8e779bd658a05f5e27b/falcon_challenge-0.3.6.tar.gz
+[2024-05-17 05:54:29] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/bf/e6/ce8d4cce32f7ef4c4563e7e4eb5002a2e8b435d8bcaa9cabae17ab7e66d0/cloudoll-2.2.8.tar.gz
+[2024-05-17 05:54:29] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/1f/cf/ea8c09c8d73d228b537fd67b01aa08aeb844887700ff67867241fc99665f/rag_assistant-0.1.5.tar.gz
+[2024-05-17 05:54:30] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-17 05:54:30] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.4.tar.gz tmp/rag_assistant-0.1.5.tar.gz --markdown 20240517/r/rag-assistant/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 05:54:30] INFO root fetch - processPackages [tdewolff-minify]: Downloading https://files.pythonhosted.org/packages/79/11/e1027616b69b204ce1002f4d469e36223f120c33c60bba0ce6f53def6623/tdewolff-minify-2.20.9.tar.gz
+[2024-05-17 05:54:30] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/f0/1b/4a65a622c1742b1b2d43eb4c2600f6aafd65e8a9839db3b1cc88216ce6b7/falcon_challenge-0.3.8.tar.gz
+[2024-05-17 05:54:30] INFO root fetch - processPackages [tdewolff-minify]: executing diffoscope
+[2024-05-17 05:54:30] INFO root fetch - processPackages [tdewolff-minify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdewolff-minify-2.20.8.tar.gz tmp/tdewolff-minify-2.20.9.tar.gz --markdown 20240517/t/tdewolff-minify/2.20.8-2.20.9/README.md --exclude *.pyd
+[2024-05-17 05:54:30] INFO root fetch - processPackages [falcon-challenge]: executing diffoscope
+[2024-05-17 05:54:30] INFO root fetch - processPackages [falcon-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_challenge-0.3.6.tar.gz tmp/falcon_challenge-0.3.8.tar.gz --markdown 20240517/f/falcon-challenge/0.3.6-0.3.8/README.md --exclude *.pyd
+[2024-05-17 05:54:30] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/dd/a1/030552f4a6f314f5a262aeec0fae5b22c17e5d56b7486ecbdf0b0361389c/cloudoll-2.2.9.tar.gz
+[2024-05-17 05:54:30] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2024-05-17 05:54:30] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.2.8.tar.gz tmp/cloudoll-2.2.9.tar.gz --markdown 20240517/c/cloudoll/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-17 05:54:30] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.4.tar.gz]
+[2024-05-17 05:54:30] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.5.tar.gz]
+[2024-05-17 05:54:30] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-17 05:54:30] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.8.tar.gz]
+[2024-05-17 05:54:30] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.9.tar.gz]
+[2024-05-17 05:54:30] INFO root fetch - main [MainThread]: End processing [tdewolff-minify]: success
+[2024-05-17 05:54:30] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.6.tar.gz]
+[2024-05-17 05:54:30] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.8.tar.gz]
+[2024-05-17 05:54:30] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
+[2024-05-17 05:54:31] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.2.8.tar.gz]
+[2024-05-17 05:54:31] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.2.9.tar.gz]
+[2024-05-17 05:54:31] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2024-05-17 05:54:31] INFO root fetch - main [MainThread]: Store serial: [23248011]

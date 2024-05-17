@@ -22637,3 +22637,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:23:35] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.2.0.post512-py3-none-any.whl.zip]
 [2024-05-17 12:23:35] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-17 12:23:35] INFO root fetch - main [MainThread]: Store serial: [23252135]
+[2024-05-17 12:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252135]
+[2024-05-17 12:25:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerous-files
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddeutil-io
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NEMtropy
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoThemeGenerator
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixieverse.pixie
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: privacera-shield
+[2024-05-17 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flopyrw
+[2024-05-17 12:25:45] INFO root fetch - processPackages [ddeutil-io]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 12:25:45] WARNING root fetch - processPackages [numerous-files]: Skipping, unable to determine old version
+[2024-05-17 12:25:45] INFO root fetch - main [MainThread]: End processing [numerous-files] error
+[2024-05-17 12:25:45] INFO root fetch - processPackages [flopyrw]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 12:25:45] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 12:25:45] WARNING root fetch - processPackages [pixieverse.pixie]: Skipping, unable to determine old version
+[2024-05-17 12:25:45] INFO root fetch - main [MainThread]: End processing [pixieverse.pixie] error
+[2024-05-17 12:25:45] INFO root fetch - processPackages [NEMtropy]: New version: [3.0.0] Old Version: [2.1.1]
+[2024-05-17 12:25:45] INFO root fetch - processPackages [AutoThemeGenerator]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 12:25:45] INFO root fetch - processPackages [ddeutil-io]: Downloading https://files.pythonhosted.org/packages/b4/3e/4ddbd77457001919420271c5f7dbc957645b6eec6249b003e38850a9c559/ddeutil_io-0.1.4.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [privacera-shield]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-17 12:25:45] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [flopyrw]: Downloading https://files.pythonhosted.org/packages/5c/85/d1593f132976ffc82c3b000651d8ef47834e954880a4d28c0631df9c50df/flopyrw-1.0.0.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [NEMtropy]: Downloading https://files.pythonhosted.org/packages/d0/e9/7c56459ed190da714893840549b5a27d897b292ec0c80df6329ee9a805e1/NEMtropy-2.1.1.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [privacera-shield]: Downloading https://files.pythonhosted.org/packages/78/e0/fab9c66cbae6c69e253bd680125f8e8837a2b6c16874df99ddf817f5b7fb/privacera_shield-1.1.4-py3-none-any.whl
+[2024-05-17 12:25:45] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/28/26/5caed5409979727d4151671c4f90f973de96b3417adb26e3135510500280/autothemegenerator-0.1.4.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [ddeutil-io]: Downloading https://files.pythonhosted.org/packages/3f/77/f6493e71d9d3e06a2cd7d68331a74b622dbfc10e26dcc9b9efa08f2cf131/ddeutil_io-0.1.5.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [ddeutil-io]: executing diffoscope
+[2024-05-17 12:25:45] INFO root fetch - processPackages [ddeutil-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddeutil_io-0.1.4.tar.gz tmp/ddeutil_io-0.1.5.tar.gz --markdown 20240517/d/ddeutil-io/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 12:25:45] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [flopyrw]: Downloading https://files.pythonhosted.org/packages/52/44/29d7644ca7c30135c0f386aa7252822265a057758d3d5e5d54559bdaeb85/flopyrw-1.0.1.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [NEMtropy]: Downloading https://files.pythonhosted.org/packages/8b/bd/aa027e654288307ede99fa20c29183041d5d789cf97a022780fe28c09030/NEMtropy-3.0.0-py3-none-any.whl
+[2024-05-17 12:25:45] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/16/6e/4576f4ffa390f5acfd19482850bcc4d99b7f0d022dec60af8cc8d3789381/autothemegenerator-0.1.5.tar.gz
+[2024-05-17 12:25:45] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-05-17 12:25:45] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240517/c/cryptoowl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 12:25:45] INFO root fetch - processPackages [flopyrw]: executing diffoscope
+[2024-05-17 12:25:45] INFO root fetch - processPackages [flopyrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flopyrw-1.0.0.tar.gz tmp/flopyrw-1.0.1.tar.gz --markdown 20240517/f/flopyrw/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 12:25:45] INFO root fetch - processPackages [privacera-shield]: Downloading https://files.pythonhosted.org/packages/72/6d/bb474c6ccf97efc0042401a9b53cb8d510bae8d4cec54b6e5fb60ac49482/privacera_shield-1.1.5-py3-none-any.whl
+[2024-05-17 12:25:45] INFO root fetch - processPackages [NEMtropy]: executing diffoscope
+[2024-05-17 12:25:45] INFO root fetch - processPackages [NEMtropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMtropy-2.1.1.tar.gz tmp/NEMtropy-3.0.0-py3-none-any.whl.zip --markdown 20240517/N/NEMtropy/2.1.1-3.0.0/README.md --exclude *.pyd
+[2024-05-17 12:25:45] INFO root fetch - processPackages [AutoThemeGenerator]: executing diffoscope
+[2024-05-17 12:25:45] INFO root fetch - processPackages [AutoThemeGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autothemegenerator-0.1.4.tar.gz tmp/autothemegenerator-0.1.5.tar.gz --markdown 20240517/A/AutoThemeGenerator/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 12:25:45] INFO root fetch - processPackages [privacera-shield]: executing diffoscope
+[2024-05-17 12:25:45] INFO root fetch - processPackages [privacera-shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privacera_shield-1.1.4-py3-none-any.whl.zip tmp/privacera_shield-1.1.5-py3-none-any.whl.zip --markdown 20240517/p/privacera-shield/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-17 12:25:46] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_io-0.1.4.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_io-0.1.5.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [ddeutil-io]: success
+[2024-05-17 12:25:46] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-05-17 12:25:46] INFO root fetch - processPackages [flopyrw]: Remove: archive file [/home/abi/fetcher/tmp/flopyrw-1.0.0.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - processPackages [flopyrw]: Remove: archive file [/home/abi/fetcher/tmp/flopyrw-1.0.1.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [flopyrw]: success
+[2024-05-17 12:25:46] INFO root fetch - processPackages [NEMtropy]: Remove: archive file [/home/abi/fetcher/tmp/NEMtropy-2.1.1.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - processPackages [NEMtropy]: Remove: archive file [/home/abi/fetcher/tmp/NEMtropy-3.0.0-py3-none-any.whl.zip]
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [NEMtropy]: success
+[2024-05-17 12:25:46] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.1.4.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.1.5.tar.gz]
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
+[2024-05-17 12:25:46] INFO root fetch - processPackages [privacera-shield]: Remove: archive file [/home/abi/fetcher/tmp/privacera_shield-1.1.4-py3-none-any.whl.zip]
+[2024-05-17 12:25:46] INFO root fetch - processPackages [privacera-shield]: Remove: archive file [/home/abi/fetcher/tmp/privacera_shield-1.1.5-py3-none-any.whl.zip]
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [privacera-shield]: success
+[2024-05-17 12:25:46] INFO root fetch - main [MainThread]: Store serial: [23252158]

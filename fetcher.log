@@ -14915,3 +14915,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:03:36] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.3.tar.gz]
 [2024-05-17 08:03:36] INFO root fetch - main [MainThread]: End processing [spacyrerank]: success
 [2024-05-17 08:03:36] INFO root fetch - main [MainThread]: Store serial: [23248805]
+[2024-05-17 08:05:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248805]
+[2024-05-17 08:05:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 08:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-digitalocean
+[2024-05-17 08:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfastertransformer-devel-icx
+[2024-05-17 08:05:45] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-17 08:05:45] WARNING root fetch - processPackages [xfastertransformer-devel-icx]: Skipping, unable to determine old version
+[2024-05-17 08:05:45] INFO root fetch - main [MainThread]: End processing [xfastertransformer-devel-icx] error
+[2024-05-17 08:05:45] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-17 08:05:45] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-17 08:05:45] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-17 08:05:45] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240517/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-17 08:05:46] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-17 08:05:46] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-17 08:05:46] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-17 08:05:46] INFO root fetch - main [MainThread]: Store serial: [23248822]

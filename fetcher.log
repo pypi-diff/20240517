@@ -12951,3 +12951,36 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:05:42] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
 [2024-05-17 06:05:42] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2024-05-17 06:05:42] INFO root fetch - main [MainThread]: Store serial: [23248077]
+[2024-05-17 06:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248077]
+[2024-05-17 06:07:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-05-17 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-05-17 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espresso-machine
+[2024-05-17 06:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automated-ml-pipeline-framework-Aadit-Bhargava
+[2024-05-17 06:07:52] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-17 06:07:52] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.119] Old Version: [0.0.118]
+[2024-05-17 06:07:52] INFO root fetch - processPackages [mns-common]: New version: [1.1.1.0] Old Version: [1.1.0.9]
+[2024-05-17 06:07:52] WARNING root fetch - processPackages [automated-ml-pipeline-framework-Aadit-Bhargava]: Skipping, unable to determine old version
+[2024-05-17 06:07:52] INFO root fetch - main [MainThread]: End processing [automated-ml-pipeline-framework-Aadit-Bhargava] error
+[2024-05-17 06:07:53] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-17 06:07:53] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/4a/5f/56aa4df0e5fc2ad50333d1a0416a3e40c897263e8a4fadfd91565577e71f/espresso_machine-0.0.118.tar.gz
+[2024-05-17 06:07:53] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/0a/8f/492d3f992dacf50b9cdfe7a8b3b1fb670df04d98db72bf7785effa73c6b5/mns_common-1.1.0.9.tar.gz
+[2024-05-17 06:07:53] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-17 06:07:53] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-17 06:07:53] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240517/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-17 06:07:53] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/54/99/d8b82c9523e3e2206e2c2a76a436238fd288ab430779696155e97d9a771d/mns_common-1.1.1.0.tar.gz
+[2024-05-17 06:07:53] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-17 06:07:53] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.9.tar.gz tmp/mns_common-1.1.1.0.tar.gz --markdown 20240517/m/mns-common/1.1.0.9-1.1.1.0/README.md --exclude *.pyd
+[2024-05-17 06:07:53] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/33/98/8a28ec012582227255341ca491bcc10887ff8ac1083b84110f8f09c0a65c/espresso_machine-0.0.119.tar.gz
+[2024-05-17 06:07:53] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-17 06:07:53] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.118.tar.gz tmp/espresso_machine-0.0.119.tar.gz --markdown 20240517/e/espresso-machine/0.0.118-0.0.119/README.md --exclude *.pyd
+[2024-05-17 06:07:54] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-17 06:07:54] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-17 06:07:54] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-17 06:07:54] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.9.tar.gz]
+[2024-05-17 06:07:54] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.0.tar.gz]
+[2024-05-17 06:07:54] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-17 06:07:55] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.118.tar.gz]
+[2024-05-17 06:07:55] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.119.tar.gz]
+[2024-05-17 06:07:55] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-17 06:07:55] INFO root fetch - main [MainThread]: Store serial: [23248093]

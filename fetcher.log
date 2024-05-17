@@ -12033,3 +12033,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:10:39] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.4.0.0.tar.gz]
 [2024-05-17 05:10:39] INFO root fetch - main [MainThread]: End processing [mezcla]: success
 [2024-05-17 05:10:39] INFO root fetch - main [MainThread]: Store serial: [23247682]
+[2024-05-17 05:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247682]
+[2024-05-17 05:12:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 05:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: relationalai
+[2024-05-17 05:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-05-17 05:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2024-05-17 05:12:49] INFO root fetch - processPackages [bagbag]: New version: [0.68.3] Old Version: [0.68.2]
+[2024-05-17 05:12:49] INFO root fetch - processPackages [relationalai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 05:12:49] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/3e/b3/dc0c77b41371079c2d1d171e60afa1a1b44e245563288a2bd2a9f3b345ad/bagbag-0.68.2.tar.gz
+[2024-05-17 05:12:49] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-17 05:12:50] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/bf/a0/dee6b40f527b33156f986b3dcf6a59a38b47dc607dba8c528087933fcd1c/relationalai-0.2.8.tar.gz
+[2024-05-17 05:12:50] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-17 05:12:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/b0/20/bcd9b8df9500276faf8ddbaffcd3a684e0a13f9f39123de84d13e54557e0/bagbag-0.68.3.tar.gz
+[2024-05-17 05:12:50] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 05:12:50] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.2.tar.gz tmp/bagbag-0.68.3.tar.gz --markdown 20240517/b/bagbag/0.68.2-0.68.3/README.md --exclude *.pyd
+[2024-05-17 05:12:50] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-17 05:12:50] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/42/fd/6d9767fd627a5eee45e82e5be5a4901a1f04af3aab5c3ccec6a55441e906/relationalai-0.2.9.tar.gz
+[2024-05-17 05:12:50] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-17 05:12:50] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240517/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-17 05:12:50] INFO root fetch - processPackages [relationalai]: executing diffoscope
+[2024-05-17 05:12:50] INFO root fetch - processPackages [relationalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relationalai-0.2.8.tar.gz tmp/relationalai-0.2.9.tar.gz --markdown 20240517/r/relationalai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 05:12:51] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-17 05:12:51] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-17 05:12:51] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-17 05:12:51] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.2.tar.gz]
+[2024-05-17 05:12:51] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.3.tar.gz]
+[2024-05-17 05:12:51] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 05:12:52] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.8.tar.gz]
+[2024-05-17 05:12:52] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.9.tar.gz]
+[2024-05-17 05:12:52] INFO root fetch - main [MainThread]: End processing [relationalai]: success
+[2024-05-17 05:12:52] INFO root fetch - main [MainThread]: Store serial: [23247691]

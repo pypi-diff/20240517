@@ -10846,3 +10846,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-05-17 03:54:11] INFO root fetch - main [MainThread]: Store serial: [23247285]
+[2024-05-17 03:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247285]
+[2024-05-17 03:56:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robustintelligence
+[2024-05-17 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentrons-shared-data
+[2024-05-17 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-pruning
+[2024-05-17 03:56:20] INFO root fetch - processPackages [fc-pruning]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 03:56:20] INFO root fetch - processPackages [robustintelligence]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-17 03:56:20] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/32/35/9b4e4ad2d1d42bb03c0766d49a7786c9aa597ecf11fee795fd077ab8a025/robustintelligence-0.1.0rc8.tar.gz
+[2024-05-17 03:56:20] INFO root fetch - processPackages [fc-pruning]: Downloading https://files.pythonhosted.org/packages/ef/65/1df4b1d753fb0d30cac409d59ff9b529a1e0e44cb7522c778fb9a7a09e92/fc_pruning-0.0.8.tar.gz
+[2024-05-17 03:56:20] INFO root fetch - processPackages [opentrons-shared-data]: New version: [7.3.0a4] Old Version: [7.3.0a3]
+[2024-05-17 03:56:20] INFO root fetch - processPackages [fc-pruning]: Downloading https://files.pythonhosted.org/packages/dc/cf/b28755154c93468dea6192908ed75101aa4ae5c85df475fe558f59e35258/fc_pruning-0.0.9.tar.gz
+[2024-05-17 03:56:21] INFO root fetch - processPackages [robustintelligence]: Downloading https://files.pythonhosted.org/packages/74/fa/e849c3646a8011059f6e787d5565960f79df87cc0ed091d07b638176526e/robustintelligence-0.1.0rc9.tar.gz
+[2024-05-17 03:56:21] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/b8/de/cef481e603002d253f1b856b0784a3a84e95ef53cf9a0742392a99f76582/opentrons_shared_data-7.3.0a3.tar.gz
+[2024-05-17 03:56:21] INFO root fetch - processPackages [fc-pruning]: executing diffoscope
+[2024-05-17 03:56:21] INFO root fetch - processPackages [fc-pruning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc_pruning-0.0.8.tar.gz tmp/fc_pruning-0.0.9.tar.gz --markdown 20240517/f/fc-pruning/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 03:56:21] INFO root fetch - processPackages [robustintelligence]: executing diffoscope
+[2024-05-17 03:56:21] INFO root fetch - processPackages [robustintelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robustintelligence-0.1.0rc8.tar.gz tmp/robustintelligence-0.1.0rc9.tar.gz --markdown 20240517/r/robustintelligence/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-17 03:56:21] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/77/42/a1c03a21bfecda1ccd5e9419aeecd2f5036a614e01c0e03703faade8941a/opentrons_shared_data-7.3.0a4.tar.gz
+[2024-05-17 03:56:21] INFO root fetch - processPackages [opentrons-shared-data]: executing diffoscope
+[2024-05-17 03:56:21] INFO root fetch - processPackages [opentrons-shared-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons_shared_data-7.3.0a3.tar.gz tmp/opentrons_shared_data-7.3.0a4.tar.gz --markdown 20240517/o/opentrons-shared-data/7.3.0a3-7.3.0a4/README.md --exclude *.pyd
+[2024-05-17 03:56:21] INFO root fetch - processPackages [fc-pruning]: Remove: archive file [/home/abi/fetcher/tmp/fc_pruning-0.0.8.tar.gz]
+[2024-05-17 03:56:21] INFO root fetch - processPackages [fc-pruning]: Remove: archive file [/home/abi/fetcher/tmp/fc_pruning-0.0.9.tar.gz]
+[2024-05-17 03:56:21] INFO root fetch - main [MainThread]: End processing [fc-pruning]: success
+[2024-05-17 03:56:22] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0a3.tar.gz]
+[2024-05-17 03:56:22] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0a4.tar.gz]
+[2024-05-17 03:56:22] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
+[2024-05-17 03:56:24] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc8.tar.gz]
+[2024-05-17 03:56:24] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc9.tar.gz]
+[2024-05-17 03:56:24] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
+[2024-05-17 03:56:24] INFO root fetch - main [MainThread]: Store serial: [23247293]

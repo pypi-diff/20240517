@@ -19814,3 +19814,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:49:42] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-17 10:49:42] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-17 10:49:42] INFO root fetch - main [MainThread]: Store serial: [23250873]
+[2024-05-17 10:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250873]
+[2024-05-17 10:51:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nightly
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mfu
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: power-grid-model
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aochagavia-example-lib
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iguana
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MariaDB-SQLBuilder
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyzjr
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iam-python-sdk
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neuralmap-python
+[2024-05-17 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: why-tools
+[2024-05-17 10:51:54] INFO root fetch - processPackages [mfu]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iam-python-sdk]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-17 10:51:54] WARNING root fetch - processPackages [neuralmap-python]: Skipping, unable to determine old version
+[2024-05-17 10:51:54] INFO root fetch - processPackages [neuralmap-python]: Start processing: FunVIP
+[2024-05-17 10:51:54] INFO root fetch - main [MainThread]: End processing [neuralmap-python] error
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iguana]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [aochagavia-example-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [pyzjr]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [mfu]: Downloading https://files.pythonhosted.org/packages/72/62/460d78165219fce4950e9df5646a7950c9f8fe68cdb4c187f614536e9b93/mfu-0.0.5.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b5] Old Version: [0.0.2b3]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.34.1.dev20240516] Old Version: [1.34.1.dev20240514]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [MariaDB-SQLBuilder]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-17 10:51:54] WARNING root fetch - processPackages [FunVIP]: Skipping, unable to determine old version
+[2024-05-17 10:51:54] INFO root fetch - processPackages [FunVIP]: Start processing: qBitrr2
+[2024-05-17 10:51:54] INFO root fetch - main [MainThread]: End processing [FunVIP] error
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iguana]: Downloading https://files.pythonhosted.org/packages/f6/79/9976cc88ae956310e2edcc888e66bff8184a3f7ea41a9b6ed203f75c9548/iguana-0.1.4.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.5] Old Version: [4.6.4]
+[2024-05-17 10:51:54] INFO root fetch - processPackages [aochagavia-example-lib]: Downloading https://files.pythonhosted.org/packages/0b/57/eb50bdba797b90e69664dd3c413a128d0cecbeddfc846a8e90096eaacb76/aochagavia_example_lib-0.1.0.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/29/60/cfeb3bf7ca8f001309c206aac8f7cb3b156f1f8713b38ce55c15ec46f521/pyzjr-1.3.8.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/6c/ef/df1e0d58264d596a753e476fa00939360f4134c9baa3346b6af3aa88f268/qbitrr2-4.6.4.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/13/55/ce0767fc6ed2ef27489021ce30695c2c41c62b79b863ab42253eed8aa88a/why-tools-0.0.2b3.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [MariaDB-SQLBuilder]: Downloading https://files.pythonhosted.org/packages/4d/d0/5bba8e3261316a9c8100a1b21a09c42f3998c216ca48aff1723e262a5eb1/mariadb_sqlbuilder-1.1.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/4b/58/7ca96341758b91654841a8eed0bb7874e785a67db1710cf44a9dff4dbc53/streamlit_nightly-1.34.1.dev20240514.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iam-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/a5/ad78f9361b55873ecf1dff7ac88978dda7b025f69a443db7dbab5d6186c6/iam-python-sdk-1.3.2.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iguana]: Downloading https://files.pythonhosted.org/packages/ed/27/f00e672868d5a63cdc7edbbc44939b5d86127fbb9a7c02c3e61250079f31/iguana-0.1.5.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [mfu]: Downloading https://files.pythonhosted.org/packages/63/ba/65f5a8aceb56dfa3cb7cf037bf3a4a27ef0c8fa852bdaac580e3869d9f8c/mfu-0.0.6.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iguana]: executing diffoscope
+[2024-05-17 10:51:54] INFO root fetch - processPackages [iguana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iguana-0.1.4.tar.gz tmp/iguana-0.1.5.tar.gz --markdown 20240517/i/iguana/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:51:54] INFO root fetch - processPackages [mfu]: executing diffoscope
+[2024-05-17 10:51:54] INFO root fetch - processPackages [mfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfu-0.0.5.tar.gz tmp/mfu-0.0.6.tar.gz --markdown 20240517/m/mfu/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-17 10:51:54] INFO root fetch - processPackages [aochagavia-example-lib]: Downloading https://files.pythonhosted.org/packages/da/d5/e8e4835b0a850f1f643c96271bcee59e7b95496e7874c849bcad3bfefbe3/aochagavia_example_lib-0.1.1.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/6a/6e/ce2da8e28977bc63f6931371633505468bac8cb95ac1d896301ee9310bce/pyzjr-1.3.9.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-17 10:51:54] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240517/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-17 10:51:54] INFO root fetch - processPackages [MariaDB-SQLBuilder]: Downloading https://files.pythonhosted.org/packages/47/51/764b69a9c4074bc52a910d2cb65e259968e1b18d005f1dd93506cd3e280f/mariadb_sqlbuilder-1.1.1.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [aochagavia-example-lib]: executing diffoscope
+[2024-05-17 10:51:54] INFO root fetch - processPackages [aochagavia-example-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aochagavia_example_lib-0.1.0.tar.gz tmp/aochagavia_example_lib-0.1.1.tar.gz --markdown 20240517/a/aochagavia-example-lib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 10:51:54] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/b1/8c/88d458fae7f46cc643c17ab7a85c1eba9258499b9306eacca2ba98366e75/why-tools-0.0.2b5.tar.gz
+[2024-05-17 10:51:54] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/7a/3d/e4c9027960770e2052270d30ba4c75f984e3b30f9f5ee1490223a8319fc2/qbitrr2-4.6.5.tar.gz
+[2024-05-17 10:51:55] INFO root fetch - processPackages [iam-python-sdk]: Downloading https://files.pythonhosted.org/packages/09/d1/735344c8d9e2b78e61ed487d0138d36cde04cc078cd5dfb4fe3f7db679ea/iam-python-sdk-1.3.3.tar.gz
+[2024-05-17 10:51:55] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2024-05-17 10:51:55] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-1.3.8.tar.gz tmp/pyzjr-1.3.9.tar.gz --markdown 20240517/p/pyzjr/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-17 10:51:55] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 10:51:55] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.4.tar.gz tmp/qbitrr2-4.6.5.tar.gz --markdown 20240517/q/qBitrr2/4.6.4-4.6.5/README.md --exclude *.pyd
+[2024-05-17 10:51:55] INFO root fetch - processPackages [iam-python-sdk]: executing diffoscope
+[2024-05-17 10:51:55] INFO root fetch - processPackages [iam-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam-python-sdk-1.3.2.tar.gz tmp/iam-python-sdk-1.3.3.tar.gz --markdown 20240517/i/iam-python-sdk/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-17 10:51:55] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-17 10:51:55] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b3.tar.gz tmp/why-tools-0.0.2b5.tar.gz --markdown 20240517/w/why-tools/0.0.2b3-0.0.2b5/README.md --exclude *.pyd
+[2024-05-17 10:51:55] INFO root fetch - processPackages [MariaDB-SQLBuilder]: executing diffoscope
+[2024-05-17 10:51:55] INFO root fetch - processPackages [MariaDB-SQLBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariadb_sqlbuilder-1.1.tar.gz tmp/mariadb_sqlbuilder-1.1.1.tar.gz --markdown 20240517/M/MariaDB-SQLBuilder/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-17 10:51:55] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/16/e7/cb7255e42d4278ee7260cdf40debccfcb5e964f8c1a697b8ebe77fe15d08/streamlit_nightly-1.34.1.dev20240516.tar.gz
+[2024-05-17 10:51:55] INFO root fetch - processPackages [iguana]: Remove: archive file [/home/abi/fetcher/tmp/iguana-0.1.4.tar.gz]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [iguana]: Remove: archive file [/home/abi/fetcher/tmp/iguana-0.1.5.tar.gz]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [iguana]: Start processing: PepperPepper
+[2024-05-17 10:51:55] INFO root fetch - main [MainThread]: End processing [iguana]: success
+[2024-05-17 10:51:55] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [mfu]: Remove: archive file [/home/abi/fetcher/tmp/mfu-0.0.5.tar.gz]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [mfu]: Remove: archive file [/home/abi/fetcher/tmp/mfu-0.0.6.tar.gz]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [mfu]: Start processing: cookieplone
+[2024-05-17 10:51:55] INFO root fetch - main [MainThread]: End processing [mfu]: success
+[2024-05-17 10:51:55] INFO root fetch - processPackages [cookieplone]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [aochagavia-example-lib]: Remove: archive file [/home/abi/fetcher/tmp/aochagavia_example_lib-0.1.0.tar.gz]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [aochagavia-example-lib]: Remove: archive file [/home/abi/fetcher/tmp/aochagavia_example_lib-0.1.1.tar.gz]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [aochagavia-example-lib]: Start processing: antchain-blockchain
+[2024-05-17 10:51:55] INFO root fetch - main [MainThread]: End processing [aochagavia-example-lib]: success
+[2024-05-17 10:51:55] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-17 10:51:55] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/a3/27/99e826b0f6fdc33dbe3a1f1c02caf53fb62fd8d332c0b949f3da15e16966/cookieplone-0.5.7.tar.gz
+[2024-05-17 10:51:55] INFO root fetch - processPackages [antchain-blockchain]: New version: [1.28.20] Old Version: [1.28.2]
+[2024-05-17 10:51:55] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-17 10:51:55] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.34.1.dev20240514.tar.gz tmp/streamlit_nightly-1.34.1.dev20240516.tar.gz --markdown 20240517/s/streamlit-nightly/1.34.1.dev20240514-1.34.1.dev20240516/README.md --exclude *.pyd
+[2024-05-17 10:51:56] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-17 10:51:56] INFO root fetch - processPackages [antchain-blockchain]: Downloading https://files.pythonhosted.org/packages/4f/88/b3ce52e92b6456adcd5d30580675438511eaf34628fd79921c33624674f5/antchain_blockchain-1.28.2.tar.gz
+[2024-05-17 10:51:56] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-17 10:51:56] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240517/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-17 10:51:56] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.4.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.5.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 10:51:56] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b3.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b5.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-17 10:51:56] INFO root fetch - processPackages [MariaDB-SQLBuilder]: Remove: archive file [/home/abi/fetcher/tmp/mariadb_sqlbuilder-1.1.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - processPackages [MariaDB-SQLBuilder]: Remove: archive file [/home/abi/fetcher/tmp/mariadb_sqlbuilder-1.1.1.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - main [MainThread]: End processing [MariaDB-SQLBuilder]: success
+[2024-05-17 10:51:56] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/1c/d0/cddec04f1452d2f5cb6eb87cfb19d1e0d2b17c507919dfdae2d25a6215ce/cookieplone-0.6.0.tar.gz
+[2024-05-17 10:51:56] INFO root fetch - processPackages [iam-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iam-python-sdk-1.3.2.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - processPackages [iam-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iam-python-sdk-1.3.3.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - main [MainThread]: End processing [iam-python-sdk]: success
+[2024-05-17 10:51:56] INFO root fetch - processPackages [cookieplone]: executing diffoscope
+[2024-05-17 10:51:56] INFO root fetch - processPackages [cookieplone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookieplone-0.5.7.tar.gz tmp/cookieplone-0.6.0.tar.gz --markdown 20240517/c/cookieplone/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-05-17 10:51:56] INFO root fetch - processPackages [antchain-blockchain]: Downloading https://files.pythonhosted.org/packages/cb/60/df8363cd3b210b0ea26fc151fefcfa79c903e32d583146fdd9ef2dcf99fa/antchain_blockchain-1.28.20.tar.gz
+[2024-05-17 10:51:56] INFO root fetch - processPackages [antchain-blockchain]: executing diffoscope
+[2024-05-17 10:51:56] INFO root fetch - processPackages [antchain-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_blockchain-1.28.2.tar.gz tmp/antchain_blockchain-1.28.20.tar.gz --markdown 20240517/a/antchain-blockchain/1.28.2-1.28.20/README.md --exclude *.pyd
+[2024-05-17 10:51:56] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.8.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.9.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2024-05-17 10:51:56] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-17 10:51:56] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-17 10:51:57] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.7.tar.gz]
+[2024-05-17 10:51:57] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.6.0.tar.gz]
+[2024-05-17 10:51:57] INFO root fetch - main [MainThread]: End processing [cookieplone]: success
+[2024-05-17 10:51:57] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-17 10:51:57] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-17 10:51:57] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-17 10:51:58] INFO root fetch - processPackages [antchain-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/antchain_blockchain-1.28.2.tar.gz]
+[2024-05-17 10:51:58] INFO root fetch - processPackages [antchain-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/antchain_blockchain-1.28.20.tar.gz]
+[2024-05-17 10:51:58] INFO root fetch - main [MainThread]: End processing [antchain-blockchain]: success
+[2024-05-17 10:52:25] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240514.tar.gz]
+[2024-05-17 10:52:25] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240516.tar.gz]
+[2024-05-17 10:52:25] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-17 10:52:25] INFO root fetch - main [MainThread]: Store serial: [23250928]

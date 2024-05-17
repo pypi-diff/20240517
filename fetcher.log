@@ -14284,3 +14284,51 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:37:21] INFO root fetch - processPackages [feffery-markdown-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_markdown_components-0.3.0rc0.tar.gz]
 [2024-05-17 07:37:21] INFO root fetch - main [MainThread]: End processing [feffery-markdown-components]: success
 [2024-05-17 07:37:21] INFO root fetch - main [MainThread]: Store serial: [23248613]
+[2024-05-17 07:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248613]
+[2024-05-17 07:39:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalibro-backend
+[2024-05-17 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fw-logging
+[2024-05-17 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aps-toolkit
+[2024-05-17 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-declarative-manifest
+[2024-05-17 07:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatpack
+[2024-05-17 07:39:32] INFO root fetch - processPackages [fw-logging]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-17 07:39:32] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-17 07:39:32] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:39:32] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: New version: [0.90.0] Old Version: [0.89.0]
+[2024-05-17 07:39:32] INFO root fetch - processPackages [aps-toolkit]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-17 07:39:32] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/12/94/7789805d4c4219d6c5a4712efe63dc6fcd077c208f395d1d331455c4fa34/datalibro_backend-1.1.8.tar.gz
+[2024-05-17 07:39:32] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:39:32] INFO root fetch - processPackages [fw-logging]: Downloading https://files.pythonhosted.org/packages/58/1e/ddde5e610614c02aff28e1dcb4e36bc2b16a18b8ccb9f049d1e466eb81ac/fw_logging-1.2.2-py3-none-any.whl
+[2024-05-17 07:39:32] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/48/24/e416c413aeb69f242421d23ef421332450542ec272867fa8413d9301617a/airbyte_source_declarative_manifest-0.89.0.tar.gz
+[2024-05-17 07:39:32] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/26/e1/0503058f9916bf7d61fa0391ce6975564fa49002462a1d235a78b1f0609d/datalibro_backend-1.1.9.tar.gz
+[2024-05-17 07:39:32] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/dc/8f/f2989c0c25bd9380f131cb0394921bcf0c6b6cc0bfe5554d75ef2f487b95/aps-toolkit-0.6.5.tar.gz
+[2024-05-17 07:39:32] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:39:33] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-17 07:39:33] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.8.tar.gz tmp/datalibro_backend-1.1.9.tar.gz --markdown 20240517/d/datalibro-backend/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-17 07:39:33] INFO root fetch - processPackages [fw-logging]: Downloading https://files.pythonhosted.org/packages/5a/4f/977fa8fd41b33a257e60263875367995f8b9b38c30e68f38fa169b070465/fw_logging-1.2.3-py3-none-any.whl
+[2024-05-17 07:39:33] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:39:33] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:39:33] INFO root fetch - processPackages [fw-logging]: executing diffoscope
+[2024-05-17 07:39:33] INFO root fetch - processPackages [fw-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_logging-1.2.2-py3-none-any.whl.zip tmp/fw_logging-1.2.3-py3-none-any.whl.zip --markdown 20240517/f/fw-logging/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-17 07:39:33] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/3f/15/2da368fe0eab1a07bbdb7a9d27e6a8226fdb4b2feaea1abfa4a3174fa8e3/airbyte_source_declarative_manifest-0.90.0.tar.gz
+[2024-05-17 07:39:33] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/76/3c/731958ba294e06020921d71880007774c4c1490e8386e50a83ab4623315e/aps-toolkit-0.6.6.tar.gz
+[2024-05-17 07:39:33] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: executing diffoscope
+[2024-05-17 07:39:33] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_declarative_manifest-0.89.0.tar.gz tmp/airbyte_source_declarative_manifest-0.90.0.tar.gz --markdown 20240517/a/airbyte-source-declarative-manifest/0.89.0-0.90.0/README.md --exclude *.pyd
+[2024-05-17 07:39:33] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-17 07:39:33] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.6.5.tar.gz tmp/aps-toolkit-0.6.6.tar.gz --markdown 20240517/a/aps-toolkit/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-17 07:39:33] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.8.tar.gz]
+[2024-05-17 07:39:33] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.9.tar.gz]
+[2024-05-17 07:39:33] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-17 07:39:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:39:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:39:33] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:39:33] INFO root fetch - processPackages [fw-logging]: Remove: archive file [/home/abi/fetcher/tmp/fw_logging-1.2.2-py3-none-any.whl.zip]
+[2024-05-17 07:39:33] INFO root fetch - processPackages [fw-logging]: Remove: archive file [/home/abi/fetcher/tmp/fw_logging-1.2.3-py3-none-any.whl.zip]
+[2024-05-17 07:39:33] INFO root fetch - main [MainThread]: End processing [fw-logging]: success
+[2024-05-17 07:39:33] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.89.0.tar.gz]
+[2024-05-17 07:39:33] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.90.0.tar.gz]
+[2024-05-17 07:39:33] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
+[2024-05-17 07:39:34] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.5.tar.gz]
+[2024-05-17 07:39:34] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.6.tar.gz]
+[2024-05-17 07:39:34] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-17 07:39:34] INFO root fetch - main [MainThread]: Store serial: [23248626]

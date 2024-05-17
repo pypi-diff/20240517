@@ -19378,3 +19378,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:38:23] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.6-cp39-cp39-win_amd64.whl.zip]
 [2024-05-17 10:38:23] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
 [2024-05-17 10:38:23] INFO root fetch - main [MainThread]: Store serial: [23250702]
+[2024-05-17 10:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250702]
+[2024-05-17 10:40:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapegraphai
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PepperPepper
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wlkata-mirobot-Virtual
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appimage
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iguana
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boostrsa
+[2024-05-17 10:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: forecastout
+[2024-05-17 10:40:34] INFO root fetch - processPackages [boostrsa]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2024-05-17 10:40:34] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-17 10:40:34] WARNING root fetch - processPackages [appimage]: Skipping, unable to determine old version
+[2024-05-17 10:40:34] INFO root fetch - main [MainThread]: End processing [appimage] error
+[2024-05-17 10:40:34] INFO root fetch - processPackages [iguana]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:40:34] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/bb/51/bb1cb359673b3c5fb113cf0ee4bd4cc3d8216bbe0010656f2dd0e4ad6ec6/wlkata_mirobot_Virtual-1.2.0.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [scrapegraphai]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-17 10:40:34] INFO root fetch - processPackages [forecastout]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-17 10:40:34] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-17 10:40:34] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/35/df/868abaffdc1d578222cd0ba75e1d59e22addf90f2ed7ab726eece5ad2a96/boostrsa-0.0.1.dev3.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/a3/64/4eb288b6ec4d693ecc6beb4871adea065be8c9e0e605b19c41df2d2db300/forecastout-0.0.2.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/88/32/874e1a94660589f273165d97d3ef1599d9647e9046dc6abe19c56ea58086/scrapegraphai-1.2.3.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [iguana]: Downloading https://files.pythonhosted.org/packages/f6/79/9976cc88ae956310e2edcc888e66bff8184a3f7ea41a9b6ed203f75c9548/iguana-0.1.4.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/bf/47/dda3ce94952ed6bb4a11023de5e09e05036a79d07164ee261f03d9dd3185/wlkata_mirobot_Virtual-1.2.1.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/09/f8/d5546f60f4b02935b080a3c1b33239dc5e934b2c1975d7517dbe7257ebba/boostrsa-0.0.1.dev4.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-17 10:40:34] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.2.0.tar.gz tmp/wlkata_mirobot_Virtual-1.2.1.tar.gz --markdown 20240517/w/wlkata-mirobot-Virtual/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-17 10:40:34] INFO root fetch - processPackages [boostrsa]: executing diffoscope
+[2024-05-17 10:40:34] INFO root fetch - processPackages [boostrsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boostrsa-0.0.1.dev3.tar.gz tmp/boostrsa-0.0.1.dev4.tar.gz --markdown 20240517/b/boostrsa/0.0.1.dev3-0.0.1.dev4/README.md --exclude *.pyd
+[2024-05-17 10:40:34] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/31/99/765491b4120b55b6459fea61a2d1f1d8b4f19b5f5c28dcea8b9f90315963/forecastout-0.1.0.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [iguana]: Downloading https://files.pythonhosted.org/packages/ed/27/f00e672868d5a63cdc7edbbc44939b5d86127fbb9a7c02c3e61250079f31/iguana-0.1.5.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/00/20/6985fb89a1e65851d5a91c1aee7a29038d1c5a4f7155d73ea0e09ab7c9c5/scrapegraphai-1.2.4.tar.gz
+[2024-05-17 10:40:34] INFO root fetch - processPackages [iguana]: executing diffoscope
+[2024-05-17 10:40:34] INFO root fetch - processPackages [iguana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iguana-0.1.4.tar.gz tmp/iguana-0.1.5.tar.gz --markdown 20240517/i/iguana/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:40:34] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-17 10:40:34] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240517/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-17 10:40:34] INFO root fetch - processPackages [forecastout]: executing diffoscope
+[2024-05-17 10:40:34] INFO root fetch - processPackages [forecastout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastout-0.0.2.tar.gz tmp/forecastout-0.1.0.tar.gz --markdown 20240517/f/forecastout/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-17 10:40:35] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.0.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.1.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-17 10:40:35] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-17 10:40:35] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-1.2.3.tar.gz tmp/scrapegraphai-1.2.4.tar.gz --markdown 20240517/s/scrapegraphai/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-17 10:40:35] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev3.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev4.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - main [MainThread]: End processing [boostrsa]: success
+[2024-05-17 10:40:35] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.0.2.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.1.0.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - main [MainThread]: End processing [forecastout]: success
+[2024-05-17 10:40:35] INFO root fetch - processPackages [iguana]: Remove: archive file [/home/abi/fetcher/tmp/iguana-0.1.4.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - processPackages [iguana]: Remove: archive file [/home/abi/fetcher/tmp/iguana-0.1.5.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - main [MainThread]: End processing [iguana]: success
+[2024-05-17 10:40:35] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-17 10:40:35] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-17 10:40:36] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.2.3.tar.gz]
+[2024-05-17 10:40:36] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.2.4.tar.gz]
+[2024-05-17 10:40:36] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-17 10:40:36] INFO root fetch - main [MainThread]: Store serial: [23250726]

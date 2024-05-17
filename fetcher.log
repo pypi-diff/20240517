@@ -16255,3 +16255,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:55:12] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-1.4.0.tar.gz]
 [2024-05-17 08:55:12] INFO root fetch - main [MainThread]: End processing [snappi]: success
 [2024-05-17 08:55:12] INFO root fetch - main [MainThread]: Store serial: [23249349]
+[2024-05-17 08:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249349]
+[2024-05-17 08:57:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbo-calibcam
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlglot-doris
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digrdf
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: titiler.pgstac
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gooddata-dbt
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gooddata-api-client
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gooddata-pandas
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gooddata-sdk
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gooddata-fdw
+[2024-05-17 08:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odlabel-torch
+[2024-05-17 08:57:21] INFO root fetch - processPackages [bbo-calibcam]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [titiler.pgstac]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [digrdf]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/da/7a/29730ba2491790690eddd42c2461d21822b786186203b0904c6b2b2a6ca3/bbo-calibcam-2.4.1.tar.gz
+[2024-05-17 08:57:21] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.1.9.2] Old Version: [1.1.9.1]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-17 08:57:21] WARNING root fetch - processPackages [odlabel-torch]: Skipping, unable to determine old version
+[2024-05-17 08:57:21] INFO root fetch - processPackages [odlabel-torch]: Start processing: odlabel-onnx
+[2024-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [odlabel-torch] error
+[2024-05-17 08:57:21] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [gooddata-dbt]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/8e/ca/45dac9805a6383ce678e49ee6ddfe9317eaa1b0668d64bb81a4d2b8af15b/titiler.pgstac-1.2.3.tar.gz
+[2024-05-17 08:57:21] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/33/54/74c86c9911be7c4cefd0b2d56990b9e1f0d77bbbf1f9f48b8abd81d32ccf/digrdf-0.1.4.tar.gz
+[2024-05-17 08:57:21] WARNING root fetch - processPackages [odlabel-onnx]: Skipping, unable to determine old version
+[2024-05-17 08:57:21] INFO root fetch - processPackages [odlabel-onnx]: Start processing: mlflow
+[2024-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [odlabel-onnx] error
+[2024-05-17 08:57:21] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/ce/11/0e76575a6207fbf8aaf10e8ab5b29783acdd3eedbf8e6d543dce77316059/sqlglot-doris-1.1.9.1.tar.gz
+[2024-05-17 08:57:21] INFO root fetch - processPackages [mlflow]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-17 08:57:21] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/32/3b/5b7b7d8b3f23786e462156f3e1732291ddd3511ba799bc10b04066074395/bbo_calibcam-2.4.2-py3-none-any.whl
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/f3/80/4285744ed6a565ac4ea49b7bf637e5e00d407d67abf103cc8671bd0e3261/gooddata-sdk-1.9.0.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/b4/78/c802b0dc962bb56b61f12a880d027f833c71800fd9c86fe100dcefac27a8/gooddata-pandas-1.9.0.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/af/d2/74aa045051a6c3cdd9c60744f54e18244cd5c3685b0cfd8316ead7fb5f9f/gooddata-dbt-1.9.0.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/0d/f0/c213876dffbc5d7f680c82e829333e573a9c9bf577c78eca5d58b89e2fe1/gooddata-fdw-1.9.0.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/16/e7/c8ceec7d71a92b4eff603eafab900647224f57543526dbf8b1c8e453ec98/gooddata-api-client-1.9.0.tar.gz
+[2024-05-17 08:57:22] WARNING root fetch - processPackages [sqlglot-doris]: Skipping package: exceeds size limit 13658205>=10485760
+[2024-05-17 08:57:22] INFO root fetch - processPackages [sqlglot-doris]: Start processing: python-esios
+[2024-05-17 08:57:22] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2024-05-17 08:57:22] INFO root fetch - processPackages [bbo-calibcam]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [bbo-calibcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-calibcam-2.4.1.tar.gz tmp/bbo_calibcam-2.4.2-py3-none-any.whl.zip --markdown 20240517/b/bbo-calibcam/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/4b/f8/072918de0c7378978e108b8416df04cf877514d1f3efd095725e1a3c34d3/digrdf-0.1.5.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [mlflow]: Downloading https://files.pythonhosted.org/packages/74/b2/738688e1fa43ea8751d2f9450a72ba075da4ab23aa6546b66c556123f2ba/mlflow-2.9.1.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/bf/fa/4c3357e2cdf83563e38af72e1da8275ee99b0a1863add25f4e566b39bdfe/titiler.pgstac-1.3.0.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [python-esios]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 08:57:22] INFO root fetch - processPackages [digrdf]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [digrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digrdf-0.1.4.tar.gz tmp/digrdf-0.1.5.tar.gz --markdown 20240517/d/digrdf/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [titiler.pgstac]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [titiler.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.pgstac-1.2.3.tar.gz tmp/titiler.pgstac-1.3.0.tar.gz --markdown 20240517/t/titiler.pgstac/1.2.3-1.3.0/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/dd/ee/087b761347319baf431af47a6ea7518b52bd18f3781d48b5945cbf3d62c7/gooddata-sdk-1.9.1.dev1.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/ab/1b/0071a38eef6ed1cb68b13e41220cddc882c9bc97969963d703a01c57a62a/gooddata-pandas-1.9.1.dev1.tar.gz
+[2024-05-17 08:57:22] WARNING root fetch - processPackages [mlflow]: Skipping package: exceeds size limit 18653705>=10485760
+[2024-05-17 08:57:22] INFO root fetch - main [MainThread]: End processing [mlflow] error
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/a4/d2/aeb676c03fdd16fbb3e449ffdd81aada198350d7bb06985452ed7d890502/gooddata-fdw-1.9.1.dev1.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/e0/e6/aae416564ce76ca33ee9de368048118ded67271882273787e574c25abeec/gooddata-dbt-1.9.1.dev1.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/0f/79/572b96a7920b578d9ab12426ffee61fd8afbddc06bd25a0e88fd4dc83607/python_esios-0.1.5.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/15/59/ec005e63eadc0fa8eee98ed734a060dac49dd9466ae60adc2dc0097b34e3/gooddata-api-client-1.9.1.dev1.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.9.0.tar.gz tmp/gooddata-sdk-1.9.1.dev1.tar.gz --markdown 20240517/g/gooddata-sdk/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.9.0.tar.gz tmp/gooddata-pandas-1.9.1.dev1.tar.gz --markdown 20240517/g/gooddata-pandas/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.9.0.tar.gz tmp/gooddata-fdw-1.9.1.dev1.tar.gz --markdown 20240517/g/gooddata-fdw/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-dbt]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-dbt-1.9.0.tar.gz tmp/gooddata-dbt-1.9.1.dev1.tar.gz --markdown 20240517/g/gooddata-dbt/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-17 08:57:22] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo-calibcam-2.4.1.tar.gz]
+[2024-05-17 08:57:22] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo_calibcam-2.4.2-py3-none-any.whl.zip]
+[2024-05-17 08:57:22] INFO root fetch - main [MainThread]: End processing [bbo-calibcam]: success
+[2024-05-17 08:57:22] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/d5/ca/b4d6f813726d1208c261d898c80e9bb3aa9d9250b6392f5a995933602fb9/python_esios-0.1.6.tar.gz
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2024-05-17 08:57:22] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.9.0.tar.gz tmp/gooddata-api-client-1.9.1.dev1.tar.gz --markdown 20240517/g/gooddata-api-client/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-17 08:57:23] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.4.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.5.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [digrdf]: success
+[2024-05-17 08:57:23] INFO root fetch - processPackages [python-esios]: executing diffoscope
+[2024-05-17 08:57:23] INFO root fetch - processPackages [python-esios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_esios-0.1.5.tar.gz tmp/python_esios-0.1.6.tar.gz --markdown 20240517/p/python-esios/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 08:57:23] INFO root fetch - processPackages [titiler.pgstac]: Remove: archive file [/home/abi/fetcher/tmp/titiler.pgstac-1.2.3.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [titiler.pgstac]: Remove: archive file [/home/abi/fetcher/tmp/titiler.pgstac-1.3.0.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [titiler.pgstac]: success
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.0.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.1.dev1.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.0.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.1.dev1.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [gooddata-dbt]: success
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.0.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.1.dev1.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.0.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.1.dev1.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2024-05-17 08:57:23] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.5.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.6.tar.gz]
+[2024-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [python-esios]: success
+[2024-05-17 08:57:29] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.0.tar.gz]
+[2024-05-17 08:57:29] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
+[2024-05-17 08:57:29] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2024-05-17 08:57:29] INFO root fetch - main [MainThread]: Store serial: [23249388]

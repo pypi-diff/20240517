@@ -21045,3 +21045,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:27:09] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-17 11:27:09] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-17 11:27:09] INFO root fetch - main [MainThread]: Store serial: [23251361]
+[2024-05-17 11:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251361]
+[2024-05-17 11:29:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resolwe-bio
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rmldoc
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nostr-sdk
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: relgen
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iac-init
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esentity
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imsciences
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qBitrr2
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dja-sepp
+[2024-05-17 11:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finch-tensor
+[2024-05-17 11:29:22] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.6] Old Version: [4.6.5]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-05-17 11:29:22] WARNING root fetch - processPackages [relgen]: Skipping, unable to determine old version
+[2024-05-17 11:29:22] INFO root fetch - main [MainThread]: End processing [relgen] error
+[2024-05-17 11:29:22] INFO root fetch - processPackages [iac-init]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [rmldoc]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [nostr-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/7a/3d/e4c9027960770e2052270d30ba4c75f984e3b30f9f5ee1490223a8319fc2/qbitrr2-4.6.5.tar.gz
+[2024-05-17 11:29:22] INFO root fetch - processPackages [imsciences]: New version: [0.5.6.8] Old Version: [0.5.6.7]
+[2024-05-17 11:29:22] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-17 11:29:23] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/ee/0f/e55baae834a298d10fa2a4338c861d413dfd1800491907b539a72e286ebe/dja_sepp-0.1.1.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [rmldoc]: Downloading https://files.pythonhosted.org/packages/4b/cd/01aec319497351bc30c0dfe0f21c4e1ad95a3d5fbda87c0772716231547d/rmldoc-0.1.5.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [nostr-sdk]: Downloading https://files.pythonhosted.org/packages/18/20/a0def81023c65190602c26ff8800446cffd0df738dbdb90b104e55747a96/nostr_sdk-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-17 11:29:23] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/20/9c/7614d4dbfe1f25c89702b65564da97aaa5d5485ae12406520934958383ce/imsciences-0.5.6.7.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/7f/a8/6827269b6513e86e6245ccc4da0efbb9dbbaa88786b32d0a017edec7eea1/iac_init-0.6.1.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/c8/d7/acb1a5fa0833cf2db9fcfb799a2734aaf590c9ec8fa0eeaddb7c9261c0e7/qbitrr2-4.6.6.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/5c/ed/884eca2938832ab61618f345af624ca4ff52afe2afb7cd41bb407963edb2/dja_sepp-0.1.2.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [rmldoc]: Downloading https://files.pythonhosted.org/packages/73/f9/7a12b30269cdef0b2e74c3d5606e0d099a7741b5bc70dfc2b1b315fb6d3e/rmldoc-0.1.7.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 11:29:23] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.5.tar.gz tmp/qbitrr2-4.6.6.tar.gz --markdown 20240517/q/qBitrr2/4.6.5-4.6.6/README.md --exclude *.pyd
+[2024-05-17 11:29:23] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/f5/fe/dfa18608328af1efc32a33d44063885db9f0ea31218a894f2239d36aaec8/imsciences-0.5.6.8.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1f/c0/3e2e7458c9b070fae72f5bc6e54520efa8a17e499b82e9db87da901007cd/iac_init-0.6.2.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-17 11:29:23] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.1.tar.gz tmp/dja_sepp-0.1.2.tar.gz --markdown 20240517/d/dja-sepp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 11:29:23] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [rmldoc]: executing diffoscope
+[2024-05-17 11:29:23] INFO root fetch - processPackages [rmldoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmldoc-0.1.5.tar.gz tmp/rmldoc-0.1.7.tar.gz --markdown 20240517/r/rmldoc/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-17 11:29:23] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-17 11:29:23] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.6.7.tar.gz tmp/imsciences-0.5.6.8.tar.gz --markdown 20240517/i/imsciences/0.5.6.7-0.5.6.8/README.md --exclude *.pyd
+[2024-05-17 11:29:23] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-17 11:29:23] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.6.1.tar.gz tmp/iac_init-0.6.2.tar.gz --markdown 20240517/i/iac-init/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-17 11:29:23] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-17 11:29:23] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240517/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 11:29:23] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2024-05-17 11:29:23] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2024-05-17 11:29:24] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2024-05-17 11:29:24] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20240517/e/esentity/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-17 11:29:24] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.1.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.2.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.5.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.6.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [rmldoc]: Remove: archive file [/home/abi/fetcher/tmp/rmldoc-0.1.5.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [rmldoc]: Remove: archive file [/home/abi/fetcher/tmp/rmldoc-0.1.7.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [rmldoc]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.6.7.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.6.8.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.1.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.2.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2024-05-17 11:29:24] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2024-05-17 11:29:24] INFO root fetch - processPackages [nostr-sdk]: Downloading https://files.pythonhosted.org/packages/33/44/d8f996143a17071a539eb75c0bfaffcb2336e40e14d238b4bc1eb2e47309/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl
+[2024-05-17 11:29:24] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2024-05-17 11:29:24] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20240517/r/resolwe-bio/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-05-17 11:29:26] INFO root fetch - processPackages [nostr-sdk]: executing diffoscope
+[2024-05-17 11:29:26] INFO root fetch - processPackages [nostr-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_sdk-0.9.0-cp39-cp39-win_amd64.whl.zip tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240517/n/nostr-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-17 11:29:28] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2024-05-17 11:29:28] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2024-05-17 11:29:28] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2024-05-17 11:30:00] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 11:30:00] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 11:30:00] INFO root fetch - main [MainThread]: End processing [nostr-sdk]: success
+[2024-05-17 11:30:00] INFO root fetch - main [MainThread]: Store serial: [23251411]

@@ -12063,3 +12063,59 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:12:52] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.9.tar.gz]
 [2024-05-17 05:12:52] INFO root fetch - main [MainThread]: End processing [relationalai]: success
 [2024-05-17 05:12:52] INFO root fetch - main [MainThread]: Store serial: [23247691]
+[2024-05-17 05:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247691]
+[2024-05-17 05:15:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzai
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-commission
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-commission
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ricco
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MaaFw
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openet-core
+[2024-05-17 05:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iudex
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.4.0.1]
+[2024-05-17 05:15:02] INFO root fetch - processPackages [iudex]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/ff/30/a6de4ecc07c79670139c278dcf9d9b52d862ffcbb0b025693f157d48cf67/odoo_addon_account_commission-16.0.2.4.0.1-py3-none-any.whl
+[2024-05-17 05:15:02] INFO root fetch - processPackages [openet-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-commission]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0]
+[2024-05-17 05:15:02] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/15/1a/f6e1c99e74e138a202b4752edc30b54fd416fd629daf24f1dbc1f7aedd4d/iudex-0.5.1.tar.gz
+[2024-05-17 05:15:02] INFO root fetch - processPackages [MaaFw]: New version: [1.8.0b1] Old Version: [1.7.3]
+[2024-05-17 05:15:02] INFO root fetch - processPackages [ricco]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-17 05:15:02] WARNING root fetch - processPackages [jzai]: Skipping, unable to determine old version
+[2024-05-17 05:15:02] INFO root fetch - main [MainThread]: End processing [jzai] error
+[2024-05-17 05:15:02] INFO root fetch - processPackages [MaaFw]: Downloading https://files.pythonhosted.org/packages/01/2d/10fb109dd4ac6e5180fb450d1d369c66e3d79f97b5ecdbc4de9fa9cd2fdf/MaaFw-1.7.3-py3-none-win_arm64.whl
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/82/a8/9246a591a111ccc2e9852a7a8f7387ff1263c290ae84204dafd50e63c1ce/odoo_addon_commission-17.0.1.1.0-py3-none-any.whl
+[2024-05-17 05:15:02] INFO root fetch - processPackages [openet-core]: Downloading https://files.pythonhosted.org/packages/a4/23/07b18a2732bbbdc12bcbf5bd0f38446199dd75a3281d2ceed69e409c9aa3/openet_core-0.4.2.tar.gz
+[2024-05-17 05:15:02] WARNING root fetch - processPackages [MaaFw]: Skipping package: exceeds size limit 12026254>=10485760
+[2024-05-17 05:15:02] INFO root fetch - main [MainThread]: End processing [MaaFw] error
+[2024-05-17 05:15:02] INFO root fetch - processPackages [ricco]: Downloading https://files.pythonhosted.org/packages/60/bc/ca3a5d8377b28de6d7f73c6f79e1e395081f21887356aaf90e22ade98dce/ricco-1.4.1.tar.gz
+[2024-05-17 05:15:02] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/9a/5a/85597aad826ebfa6fb6891a683197cdfed9b9fc9983869cefdbe9a2b2479/iudex-0.5.2.tar.gz
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/07/6a/120790022a0b33e90617629f4a6ab6a0ca2b9127c200bd7be5cab0ff0b91/odoo_addon_account_commission-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-17 05:15:02] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-17 05:15:02] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.5.1.tar.gz tmp/iudex-0.5.2.tar.gz --markdown 20240517/i/iudex/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.2.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_commission-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-account-commission/16.0.2.4.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/f7/9d/6ad657330b3f926287b746bae87ef4b1fdfdb92312e378839abf23e1614c/odoo_addon_commission-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-17 05:15:02] INFO root fetch - processPackages [ricco]: Downloading https://files.pythonhosted.org/packages/ba/58/fac38ef8f71a42771ee48f362043084db64bc6369227b0df897f71dd34f0/ricco-1.4.2.tar.gz
+[2024-05-17 05:15:02] INFO root fetch - processPackages [openet-core]: Downloading https://files.pythonhosted.org/packages/c9/c6/d7c8670610cc7344443ceb5a5308b4b6d0ee3fb6e523badbdc8399ae0385/openet_core-0.4.3.tar.gz
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2024-05-17 05:15:02] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_commission-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-commission/17.0.1.1.0-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-17 05:15:02] INFO root fetch - processPackages [ricco]: executing diffoscope
+[2024-05-17 05:15:02] INFO root fetch - processPackages [ricco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ricco-1.4.1.tar.gz tmp/ricco-1.4.2.tar.gz --markdown 20240517/r/ricco/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-17 05:15:03] INFO root fetch - processPackages [openet-core]: executing diffoscope
+[2024-05-17 05:15:03] INFO root fetch - processPackages [openet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openet_core-0.4.2.tar.gz tmp/openet_core-0.4.3.tar.gz --markdown 20240517/o/openet-core/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-17 05:15:03] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.1.tar.gz]
+[2024-05-17 05:15:03] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.2.tar.gz]
+[2024-05-17 05:15:03] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-17 05:15:03] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.4.0.1-py3-none-any.whl.zip]
+[2024-05-17 05:15:03] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 05:15:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2024-05-17 05:15:03] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-17 05:15:03] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-17 05:15:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2024-05-17 05:15:03] INFO root fetch - processPackages [openet-core]: Remove: archive file [/home/abi/fetcher/tmp/openet_core-0.4.2.tar.gz]
+[2024-05-17 05:15:03] INFO root fetch - processPackages [openet-core]: Remove: archive file [/home/abi/fetcher/tmp/openet_core-0.4.3.tar.gz]
+[2024-05-17 05:15:03] INFO root fetch - main [MainThread]: End processing [openet-core]: success
+[2024-05-17 05:15:03] INFO root fetch - processPackages [ricco]: Remove: archive file [/home/abi/fetcher/tmp/ricco-1.4.1.tar.gz]
+[2024-05-17 05:15:03] INFO root fetch - processPackages [ricco]: Remove: archive file [/home/abi/fetcher/tmp/ricco-1.4.2.tar.gz]
+[2024-05-17 05:15:03] INFO root fetch - main [MainThread]: End processing [ricco]: success
+[2024-05-17 05:15:03] INFO root fetch - main [MainThread]: Store serial: [23247715]

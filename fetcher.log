@@ -16355,3 +16355,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:57:29] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
 [2024-05-17 08:57:29] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
 [2024-05-17 08:57:29] INFO root fetch - main [MainThread]: Store serial: [23249388]
+[2024-05-17 08:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249388]
+[2024-05-17 08:59:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-esios
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starrail_damage_cal
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intersight
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-postgresql
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-okta
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyreflectometry
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxparrow
+[2024-05-17 08:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qrkey
+[2024-05-17 08:59:38] INFO root fetch - processPackages [jaxparrow]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [python-esios]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [starrail_damage_cal]: New version: [1.6.0] Old Version: [1.5.5]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [qrkey]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/0f/79/572b96a7920b578d9ab12426ffee61fd8afbddc06bd25a0e88fd4dc83607/python_esios-0.1.5.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [easyreflectometry]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/6c/0a/cbbbb814b7a935b21f19e21127af28b8abce924eb32991a510924f7caa5c/qrkey-0.5.3.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715926933] Old Version: [4.9.0a1715762230]
+[2024-05-17 08:59:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [starrail_damage_cal]: Downloading https://files.pythonhosted.org/packages/c0/48/c858ec6c616b16dd98e0e52f17520c4e2271095c6525f8b541cb697ba0ab/starrail_damage_cal-1.5.5.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [jaxparrow]: Downloading https://files.pythonhosted.org/packages/27/ef/1dd6292f447c1d92849c69bad97bf765dc0db9ae679855dd0fc1f474f275/jaxparrow-0.1.3.tar.gz
+[2024-05-17 08:59:38] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2024-05-17 08:59:38] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2024-05-17 08:59:38] INFO root fetch - processPackages [easyreflectometry]: Downloading https://files.pythonhosted.org/packages/7b/4e/1d2b5e7193155777fa368b781869cdc7f999102f0092170ab1afea3e3bc8/easyreflectometry-1.0.1.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/be/3f/66fdffc014641207e1aca7c6ff439bd15a65f8d27c9d5f000932c2c0264a/pulumi_okta-4.9.0a1715762230.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/d5/ca/b4d6f813726d1208c261d898c80e9bb3aa9d9250b6392f5a995933602fb9/python_esios-0.1.6.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/1b/1b/74812545350e0e3f47e0960e764fece0dd91deff5bff56d8f37916f9f960/qrkey-0.5.4.tar.gz
+[2024-05-17 08:59:38] INFO root fetch - processPackages [python-esios]: executing diffoscope
+[2024-05-17 08:59:38] INFO root fetch - processPackages [python-esios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_esios-0.1.5.tar.gz tmp/python_esios-0.1.6.tar.gz --markdown 20240517/p/python-esios/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [jaxparrow]: Downloading https://files.pythonhosted.org/packages/af/42/9db17f282feb51f86af1e6a3eac86f070d1d4f1807613749d7c8533dfe4b/jaxparrow-0.1.4.tar.gz
+[2024-05-17 08:59:39] INFO root fetch - processPackages [easyreflectometry]: Downloading https://files.pythonhosted.org/packages/c8/f3/904b3634364a93717ad9756c7a58520924b3a67ea1fd0c09baaa2f8d1f42/easyreflectometry-1.0.2.tar.gz
+[2024-05-17 08:59:39] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-17 08:59:39] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.5.3.tar.gz tmp/qrkey-0.5.4.tar.gz --markdown 20240517/q/qrkey/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [starrail_damage_cal]: Downloading https://files.pythonhosted.org/packages/1d/6a/4d1170483a3c2c65eca86be90484831d53500ec695886da093f8e7f33250/starrail_damage_cal-1.6.0.tar.gz
+[2024-05-17 08:59:39] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-17 08:59:39] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/0b/03/fc902c51fd52c515d4febd5fcab5af2f3c024ad2374fe3cd29fdf972ac19/pulumi_okta-4.9.0a1715926933.tar.gz
+[2024-05-17 08:59:39] INFO root fetch - processPackages [jaxparrow]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [jaxparrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxparrow-0.1.3.tar.gz tmp/jaxparrow-0.1.4.tar.gz --markdown 20240517/j/jaxparrow/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240517/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [starrail_damage_cal]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [starrail_damage_cal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrail_damage_cal-1.5.5.tar.gz tmp/starrail_damage_cal-1.6.0.tar.gz --markdown 20240517/s/starrail_damage_cal/1.5.5-1.6.0/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [easyreflectometry]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [easyreflectometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyreflectometry-1.0.1.tar.gz tmp/easyreflectometry-1.0.2.tar.gz --markdown 20240517/e/easyreflectometry/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1715762230.tar.gz tmp/pulumi_okta-4.9.0a1715926933.tar.gz --markdown 20240517/p/pulumi-okta/4.9.0a1715762230-4.9.0a1715926933/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-17 08:59:39] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240517/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-17 08:59:39] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.5.tar.gz]
+[2024-05-17 08:59:39] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.6.tar.gz]
+[2024-05-17 08:59:39] INFO root fetch - main [MainThread]: End processing [python-esios]: success
+[2024-05-17 08:59:39] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.5.3.tar.gz]
+[2024-05-17 08:59:39] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.5.4.tar.gz]
+[2024-05-17 08:59:39] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-05-17 08:59:40] INFO root fetch - processPackages [jaxparrow]: Remove: archive file [/home/abi/fetcher/tmp/jaxparrow-0.1.3.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - processPackages [jaxparrow]: Remove: archive file [/home/abi/fetcher/tmp/jaxparrow-0.1.4.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [jaxparrow]: success
+[2024-05-17 08:59:40] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-17 08:59:40] INFO root fetch - processPackages [easyreflectometry]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometry-1.0.1.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - processPackages [easyreflectometry]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometry-1.0.2.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [easyreflectometry]: success
+[2024-05-17 08:59:40] INFO root fetch - processPackages [starrail_damage_cal]: Remove: archive file [/home/abi/fetcher/tmp/starrail_damage_cal-1.5.5.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - processPackages [starrail_damage_cal]: Remove: archive file [/home/abi/fetcher/tmp/starrail_damage_cal-1.6.0.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [starrail_damage_cal]: success
+[2024-05-17 08:59:40] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715762230.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715926933.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-17 08:59:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-17 08:59:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-17 08:59:40] INFO root fetch - main [MainThread]: Store serial: [23249414]

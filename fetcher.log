@@ -2198,3 +2198,57 @@
 [2024-05-17 01:58:05] INFO root fetch - processPackages [EllipSect]: Remove: archive file [/home/abi/fetcher/tmp/ellipsect-3.4.1.tar.gz]
 [2024-05-17 01:58:05] INFO root fetch - main [MainThread]: End processing [EllipSect]: success
 [2024-05-17 01:58:05] INFO root fetch - main [MainThread]: Store serial: [23244238]
+[2024-05-17 02:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244238]
+[2024-05-17 02:00:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BL-Python.web
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MCM3000
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testmypixipkg
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kyutils
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: translation-agent
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magvit2-pytorch
+[2024-05-17 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medicafe
+[2024-05-17 02:00:14] INFO root fetch - processPackages [medicafe]: New version: [0.240515.5] Old Version: [0.240513.4]
+[2024-05-17 02:00:14] WARNING root fetch - processPackages [MCM3000]: Skipping, unable to determine old version
+[2024-05-17 02:00:14] INFO root fetch - main [MainThread]: End processing [MCM3000] error
+[2024-05-17 02:00:14] WARNING root fetch - processPackages [translation-agent]: Skipping, unable to determine old version
+[2024-05-17 02:00:14] INFO root fetch - main [MainThread]: End processing [translation-agent] error
+[2024-05-17 02:00:14] INFO root fetch - processPackages [testmypixipkg]: New version: [0.15.3] Old Version: [0.15.2]
+[2024-05-17 02:00:14] INFO root fetch - processPackages [BL-Python.web]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 02:00:14] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 02:00:14] INFO root fetch - processPackages [magvit2-pytorch]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-17 02:00:14] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/25/77/376314c5e043c1ee1ef3d265a9847546a9af1bfe563166c32eebaf7b9207/medicafe-0.240513.4.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/19/52/46ad42f8058f48a664ce068fe6bbe4af7c576fdc4169b5843353f535ab49/testmypixipkg-0.15.2.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [magvit2-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/a3/802cc52c0b81d7c643f4731da9c83ee4a100bb38aa5b9d9bc5d5a40db31c/magvit2_pytorch-0.4.4.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [BL-Python.web]: Downloading https://files.pythonhosted.org/packages/db/42/825a1985f865278686d2c25e4cf080360cf703f494f060d3705bbb4029a3/bl_python_web-0.2.1.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/c6/e3/024bbf0e8970df9aa0e72eba7e9b5908486bf5dcc374f3c60b52a6c299f9/medicafe-0.240515.5.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [testmypixipkg]: Downloading https://files.pythonhosted.org/packages/f6/d5/4201cb5999e95c59bd13bf45f4e596484a6f63bb018102fd6ed5133a723d/testmypixipkg-0.15.3.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [magvit2-pytorch]: Downloading https://files.pythonhosted.org/packages/cf/a8/484de35f7a3d42233c7f7782b9845bdbbe97044419aeca883e6a5b5435fe/magvit2_pytorch-0.4.5.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [BL-Python.web]: Downloading https://files.pythonhosted.org/packages/c9/03/2f0f70dea9c9c60a814108450adcc10cea33e0d2f84931dffd87e0954d9a/bl_python_web-0.2.2.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-17 02:00:14] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240513.4.tar.gz tmp/medicafe-0.240515.5.tar.gz --markdown 20240517/m/medicafe/0.240513.4-0.240515.5/README.md --exclude *.pyd
+[2024-05-17 02:00:14] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-05-17 02:00:14] INFO root fetch - processPackages [testmypixipkg]: executing diffoscope
+[2024-05-17 02:00:14] INFO root fetch - processPackages [testmypixipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmypixipkg-0.15.2.tar.gz tmp/testmypixipkg-0.15.3.tar.gz --markdown 20240517/t/testmypixipkg/0.15.2-0.15.3/README.md --exclude *.pyd
+[2024-05-17 02:00:14] INFO root fetch - processPackages [magvit2-pytorch]: executing diffoscope
+[2024-05-17 02:00:14] INFO root fetch - processPackages [magvit2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magvit2_pytorch-0.4.4.tar.gz tmp/magvit2_pytorch-0.4.5.tar.gz --markdown 20240517/m/magvit2-pytorch/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-17 02:00:14] INFO root fetch - processPackages [BL-Python.web]: executing diffoscope
+[2024-05-17 02:00:14] INFO root fetch - processPackages [BL-Python.web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_python_web-0.2.1.tar.gz tmp/bl_python_web-0.2.2.tar.gz --markdown 20240517/B/BL-Python.web/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 02:00:15] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-05-17 02:00:15] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240517/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 02:00:15] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.15.2.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - processPackages [testmypixipkg]: Remove: archive file [/home/abi/fetcher/tmp/testmypixipkg-0.15.3.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - main [MainThread]: End processing [testmypixipkg]: success
+[2024-05-17 02:00:15] INFO root fetch - processPackages [magvit2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/magvit2_pytorch-0.4.4.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - processPackages [magvit2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/magvit2_pytorch-0.4.5.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - main [MainThread]: End processing [magvit2-pytorch]: success
+[2024-05-17 02:00:15] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240513.4.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240515.5.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-17 02:00:15] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.8.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-05-17 02:00:15] INFO root fetch - processPackages [BL-Python.web]: Remove: archive file [/home/abi/fetcher/tmp/bl_python_web-0.2.1.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - processPackages [BL-Python.web]: Remove: archive file [/home/abi/fetcher/tmp/bl_python_web-0.2.2.tar.gz]
+[2024-05-17 02:00:15] INFO root fetch - main [MainThread]: End processing [BL-Python.web]: success
+[2024-05-17 02:00:15] INFO root fetch - main [MainThread]: Store serial: [23244261]

@@ -21297,3 +21297,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:33:12] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
 [2024-05-17 11:33:12] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2024-05-17 11:33:12] INFO root fetch - main [MainThread]: Store serial: [23251463]
+[2024-05-17 11:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251463]
+[2024-05-17 11:35:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nostr-protocol
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsciences
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prismtoolbox
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dspawpy
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: writer-sdk
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web-assets-downloader
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: create-dara-app
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dara-core
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dara-components
+[2024-05-17 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-snippets
+[2024-05-17 11:35:46] WARNING root fetch - processPackages [prismtoolbox]: Skipping, unable to determine old version
+[2024-05-17 11:35:46] INFO root fetch - processPackages [prismtoolbox]: Start processing: glabpkg
+[2024-05-17 11:35:46] INFO root fetch - main [MainThread]: End processing [prismtoolbox] error
+[2024-05-17 11:35:46] INFO root fetch - processPackages [imsciences]: New version: [0.5.6.9] Old Version: [0.5.6.8]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [writer-sdk]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [dspawpy]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.51]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/f5/fe/dfa18608328af1efc32a33d44063885db9f0ea31218a894f2239d36aaec8/imsciences-0.5.6.8.tar.gz
+[2024-05-17 11:35:46] INFO root fetch - processPackages [dara-components]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [web-assets-downloader]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [create-dara-app]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [dara-core]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [nostr-protocol]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [glabpkg]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-05-17 11:35:46] INFO root fetch - processPackages [writer-sdk]: Downloading https://files.pythonhosted.org/packages/05/48/72d04d36d125b6d86ec3d8827dcd39ecc28e29bcf42ceaa3bb7edcc04bad/writer_sdk-0.1.0a1.tar.gz
+[2024-05-17 11:35:46] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/18/77/cd6952ee0915d6a5f42ea3a0c86c0e800e8e4e18aec49c1540f0c9e98387/dspawpy-1.2.2.tar.gz
+[2024-05-17 11:35:46] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/da/0a/b1f68e56ee9a4e18e35e51e9f7163e174f782b73e1aa4e9dd8f834c437cd/create_dara_app-1.9.1-py3-none-any.whl
+[2024-05-17 11:35:46] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/ab/4a/753d439bb5f5088f209de12a9b948eb7cecd51b7119b75b4c2c29ff50e7b/python-snippets-0.0.51.tar.gz
+[2024-05-17 11:35:46] INFO root fetch - processPackages [web-assets-downloader]: Downloading https://files.pythonhosted.org/packages/50/9a/670fe000284c4471442e5601acc568b7429b6a68de84a11a16a64b779009/web_assets_downloader-2.0.0.tar.gz
+[2024-05-17 11:35:46] INFO root fetch - processPackages [nostr-protocol]: Downloading https://files.pythonhosted.org/packages/9d/25/3560aea87b40848862903f76aadf13161cb10053f83af650bc27f870000a/nostr_protocol-0.8.0-cp39-cp39-win_amd64.whl
+[2024-05-17 11:35:46] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/c1/9b/0e21614a737ce4e6a05bac411f61a5d7ed2ffdab68685a781e631e3d730e/dara_core-1.9.1-py3-none-any.whl
+[2024-05-17 11:35:46] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/d1/fb/51e3cbe366c40068602669bdd5db9d415d7e94d99a8cb83d98379b99a2a8/dara_components-1.9.1-py3-none-any.whl
+[2024-05-17 11:35:46] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/92/3d/88ea668c66703dbbc394bf92d5fb5df33ecc8de0c6e9d1970260550eb156/glabpkg-4.0.1.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/08/8d/a98831cf18ac4bbd25d5559a72903f2cfe0b80e9be39cc2be0715c3be001/imsciences-0.5.6.9.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [writer-sdk]: Downloading https://files.pythonhosted.org/packages/d0/c4/3aa6f2305f98b235fcb6fe5300507166ec069caec8ee9e9e46e436f8fc4d/writer_sdk-0.1.0a2.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.6.8.tar.gz tmp/imsciences-0.5.6.9.tar.gz --markdown 20240517/i/imsciences/0.5.6.8-0.5.6.9/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/41/8c/1b3ed234cdfeff001118f5f4a46ff49f6631d12a005ea81a94cd98f0b2d9/dspawpy-1.3.0.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/4b/a5/e3d4a32132b0794f5be0343e709a4eeda3b931deef716d4e8b5ea42424f4/create_dara_app-1.9.2-py3-none-any.whl
+[2024-05-17 11:35:47] INFO root fetch - processPackages [web-assets-downloader]: Downloading https://files.pythonhosted.org/packages/ca/1f/6859c31e4a6fa7f5491c348c230d3f5b87eb53d185ba2e012a1c9cf5c755/web_assets_downloader-2.1.0.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [writer-sdk]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [writer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/writer_sdk-0.1.0a1.tar.gz tmp/writer_sdk-0.1.0a2.tar.gz --markdown 20240517/w/writer-sdk/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.2.2.tar.gz tmp/dspawpy-1.3.0.tar.gz --markdown 20240517/d/dspawpy/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/5f/6c/b3224fdb69788c19951f9935fb189673b0c11a2073a6964b2cbf63fc20a8/glabpkg-4.1.0.tar.gz
+[2024-05-17 11:35:47] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.51.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240517/p/python-snippets/0.0.51-0.0.6/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [web-assets-downloader]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [web-assets-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_assets_downloader-2.0.0.tar.gz tmp/web_assets_downloader-2.1.0.tar.gz --markdown 20240517/w/web-assets-downloader/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [create-dara-app]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [create-dara-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_dara_app-1.9.1-py3-none-any.whl.zip tmp/create_dara_app-1.9.2-py3-none-any.whl.zip --markdown 20240517/c/create-dara-app/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [glabpkg]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [glabpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glabpkg-4.0.1.tar.gz tmp/glabpkg-4.1.0.tar.gz --markdown 20240517/g/glabpkg/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/ac/0c/48e4c3b10387f5d71a1caab48ddb8147bdadc2c10e338ba731e985760e8b/dara_components-1.9.2-py3-none-any.whl
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/31/2d/1a8baf9c23dae8642cfdcf3a79885f5e28f43fec2f1f4f5c6aad82e846af/dara_core-1.9.2-py3-none-any.whl
+[2024-05-17 11:35:47] INFO root fetch - processPackages [nostr-protocol]: Downloading https://files.pythonhosted.org/packages/56/79/cf744dbc515b5e9774ed7fee10593a0c459aad81f59e5008f44cbc1993b9/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dara-components]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dara-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_components-1.9.1-py3-none-any.whl.zip tmp/dara_components-1.9.2-py3-none-any.whl.zip --markdown 20240517/d/dara-components/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dara-core]: executing diffoscope
+[2024-05-17 11:35:47] INFO root fetch - processPackages [dara-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_core-1.9.1-py3-none-any.whl.zip tmp/dara_core-1.9.2-py3-none-any.whl.zip --markdown 20240517/d/dara-core/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-17 11:35:48] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.6.8.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.6.9.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-17 11:35:48] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.51.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-05-17 11:35:48] INFO root fetch - processPackages [web-assets-downloader]: Remove: archive file [/home/abi/fetcher/tmp/web_assets_downloader-2.0.0.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [web-assets-downloader]: Remove: archive file [/home/abi/fetcher/tmp/web_assets_downloader-2.1.0.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [web-assets-downloader]: success
+[2024-05-17 11:35:48] INFO root fetch - processPackages [writer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/writer_sdk-0.1.0a1.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [writer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/writer_sdk-0.1.0a2.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [writer-sdk]: success
+[2024-05-17 11:35:48] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.2.2.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.3.0.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2024-05-17 11:35:48] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.9.1-py3-none-any.whl.zip]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.9.2-py3-none-any.whl.zip]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [create-dara-app]: success
+[2024-05-17 11:35:48] INFO root fetch - processPackages [nostr-protocol]: executing diffoscope
+[2024-05-17 11:35:48] INFO root fetch - processPackages [nostr-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_protocol-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240517/n/nostr-protocol/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 11:35:48] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-4.0.1.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-4.1.0.tar.gz]
+[2024-05-17 11:35:48] INFO root fetch - main [MainThread]: End processing [glabpkg]: success
+[2024-05-17 11:36:07] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.9.1-py3-none-any.whl.zip]
+[2024-05-17 11:36:07] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.9.2-py3-none-any.whl.zip]
+[2024-05-17 11:36:07] INFO root fetch - main [MainThread]: End processing [dara-core]: success
+[2024-05-17 11:36:09] INFO root fetch - processPackages [nostr-protocol]: Remove: archive file [/home/abi/fetcher/tmp/nostr_protocol-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 11:36:09] INFO root fetch - processPackages [nostr-protocol]: Remove: archive file [/home/abi/fetcher/tmp/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 11:36:09] INFO root fetch - main [MainThread]: End processing [nostr-protocol]: success
+[2024-05-17 11:36:58] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.1-py3-none-any.whl.zip]
+[2024-05-17 11:36:58] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.2-py3-none-any.whl.zip]
+[2024-05-17 11:36:58] INFO root fetch - main [MainThread]: End processing [dara-components]: success
+[2024-05-17 11:36:58] INFO root fetch - main [MainThread]: Store serial: [23251515]

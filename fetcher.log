@@ -19270,3 +19270,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:33:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-17 10:33:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-17 10:33:52] INFO root fetch - main [MainThread]: Store serial: [23250600]
+[2024-05-17 10:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250600]
+[2024-05-17 10:36:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-05-17 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odlabel
+[2024-05-17 10:36:02] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev2] Old Version: [0.4.3.dev1]
+[2024-05-17 10:36:02] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/2c/a5/b9ff24c7959ff47d4ceea424e8a712e6bd0ad09cccc09a2ab466399f7a34/kuzu-0.4.3.dev1.tar.gz
+[2024-05-17 10:36:02] INFO root fetch - processPackages [odlabel]: New version: [0.7.26.6] Old Version: [0.7.26.4]
+[2024-05-17 10:36:03] INFO root fetch - processPackages [odlabel]: Downloading https://files.pythonhosted.org/packages/d4/a6/6ee624b98e10af5fe14ecd79659eac2ce1e1bf4079bd96651e7c95b94459/odlabel-0.7.26.4.tar.gz
+[2024-05-17 10:36:03] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/87/72/917ed2f544a5dd625b1cdfa19b3ab462cbf21ea916dcd2e8f0b060f6992c/kuzu-0.4.3.dev2.tar.gz
+[2024-05-17 10:36:03] INFO root fetch - processPackages [odlabel]: Downloading https://files.pythonhosted.org/packages/9f/ff/2ebe5ebfa61ff9b70873c55d1ac576764ac68fff07e7dd9925e508b894b5/odlabel-0.7.26.6.tar.gz
+[2024-05-17 10:36:03] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-17 10:36:03] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev1.tar.gz tmp/kuzu-0.4.3.dev2.tar.gz --markdown 20240517/k/kuzu/0.4.3.dev1-0.4.3.dev2/README.md --exclude *.pyd
+[2024-05-17 10:36:04] INFO root fetch - processPackages [odlabel]: executing diffoscope
+[2024-05-17 10:36:04] INFO root fetch - processPackages [odlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odlabel-0.7.26.4.tar.gz tmp/odlabel-0.7.26.6.tar.gz --markdown 20240517/o/odlabel/0.7.26.4-0.7.26.6/README.md --exclude *.pyd
+[2024-05-17 10:36:04] INFO root fetch - processPackages [odlabel]: Remove: archive file [/home/abi/fetcher/tmp/odlabel-0.7.26.4.tar.gz]
+[2024-05-17 10:36:04] INFO root fetch - processPackages [odlabel]: Remove: archive file [/home/abi/fetcher/tmp/odlabel-0.7.26.6.tar.gz]
+[2024-05-17 10:36:04] INFO root fetch - main [MainThread]: End processing [odlabel]: success
+[2024-05-17 10:36:10] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev1.tar.gz]
+[2024-05-17 10:36:10] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev2.tar.gz]
+[2024-05-17 10:36:10] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-17 10:36:10] INFO root fetch - main [MainThread]: Store serial: [23250604]

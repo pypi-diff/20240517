@@ -22487,3 +22487,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:16:56] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-1.0.1-cp37-cp37m-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
 [2024-05-17 12:16:56] INFO root fetch - main [MainThread]: End processing [tokengeex]: success
 [2024-05-17 12:16:56] INFO root fetch - main [MainThread]: Store serial: [23252028]
+[2024-05-17 12:19:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252028]
+[2024-05-17 12:19:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 12:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-17 12:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bilbyai-source-label-map
+[2024-05-17 12:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algoliasearch
+[2024-05-17 12:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrosynergy
+[2024-05-17 12:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-variant-configurator
+[2024-05-17 12:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metaflow-dbt
+[2024-05-17 12:19:10] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-17 12:19:10] INFO root fetch - processPackages [metaflow-dbt]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 12:19:10] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.6]
+[2024-05-17 12:19:10] INFO root fetch - processPackages [bilbyai-source-label-map]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-17 12:19:10] INFO root fetch - processPackages [algoliasearch]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2024-05-17 12:19:10] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [macrosynergy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 12:19:10] INFO root fetch - processPackages [bilbyai-source-label-map]: Downloading https://files.pythonhosted.org/packages/06/f8/9104b3f2f6bd0d8edf9b5f9dd9f472c5650b6351784ab8f4cbdc2d5fde52/bilbyai_source_label_map-0.2.5.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [algoliasearch]: Downloading https://files.pythonhosted.org/packages/15/e4/acb11240caf975841287f51e976db818e9b845127dccb7a4c23331090c31/algoliasearch-4.0.0b8.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [metaflow-dbt]: Downloading https://files.pythonhosted.org/packages/71/d5/0520fdb1fb0f65c525747a00640ea093b1ec7770d3523f9e370cc273ed53/metaflow_dbt-1.0.0.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/40/fb/d51f9a507e733465f1f69157ef65fb29a6baca003261af8b7ad840691ea8/odoo_addon_product_variant_configurator-16.0.1.0.3.6-py3-none-any.whl
+[2024-05-17 12:19:10] INFO root fetch - processPackages [macrosynergy]: Downloading https://files.pythonhosted.org/packages/2d/ab/00749ace09d1854c70731845ceab79cb8e63ff8cb5dda26054274155e1cb/macrosynergy-0.1.8.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-17 12:19:10] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240517/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-17 12:19:10] INFO root fetch - processPackages [bilbyai-source-label-map]: Downloading https://files.pythonhosted.org/packages/e7/e3/f70e952cc1568e0950ceb3f5884c713ecdb88df9dfcc4586fb2142806dad/bilbyai_source_label_map-0.2.6.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [metaflow-dbt]: Downloading https://files.pythonhosted.org/packages/13/3b/2e4f6563f0b124f956c740543b4a498bfbb310fdc5e7aa45169560eb6cd9/metaflow_dbt-1.0.1.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [algoliasearch]: Downloading https://files.pythonhosted.org/packages/d4/fd/967d2278c632583a01a0e3fb53e37cc25f26d11ca91ae056a26d7b6146e4/algoliasearch-4.0.0b9.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/32/71/313d36ce1f07f380aace237e86ce8cc36587165eac8c6577d1e2bb74f703/odoo_addon_product_variant_configurator-16.0.1.0.4-py3-none-any.whl
+[2024-05-17 12:19:10] INFO root fetch - processPackages [bilbyai-source-label-map]: executing diffoscope
+[2024-05-17 12:19:10] INFO root fetch - processPackages [bilbyai-source-label-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilbyai_source_label_map-0.2.5.tar.gz tmp/bilbyai_source_label_map-0.2.6.tar.gz --markdown 20240517/b/bilbyai-source-label-map/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-17 12:19:10] INFO root fetch - processPackages [algoliasearch]: executing diffoscope
+[2024-05-17 12:19:10] INFO root fetch - processPackages [algoliasearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoliasearch-4.0.0b8.tar.gz tmp/algoliasearch-4.0.0b9.tar.gz --markdown 20240517/a/algoliasearch/4.0.0b8-4.0.0b9/README.md --exclude *.pyd
+[2024-05-17 12:19:10] INFO root fetch - processPackages [macrosynergy]: Downloading https://files.pythonhosted.org/packages/b9/b8/29dfcdf47d06d49a91811e245dd464a5d67077fc4a0523781818255e1443/macrosynergy-0.1.9.tar.gz
+[2024-05-17 12:19:10] INFO root fetch - processPackages [metaflow-dbt]: executing diffoscope
+[2024-05-17 12:19:10] INFO root fetch - processPackages [metaflow-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow_dbt-1.0.0.tar.gz tmp/metaflow_dbt-1.0.1.tar.gz --markdown 20240517/m/metaflow-dbt/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 12:19:11] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: executing diffoscope
+[2024-05-17 12:19:11] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.6-py3-none-any.whl.zip tmp/odoo_addon_product_variant_configurator-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-product-variant-configurator/16.0.1.0.3.6-16.0.1.0.4/README.md --exclude *.pyd
+[2024-05-17 12:19:11] INFO root fetch - processPackages [macrosynergy]: executing diffoscope
+[2024-05-17 12:19:11] INFO root fetch - processPackages [macrosynergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrosynergy-0.1.8.tar.gz tmp/macrosynergy-0.1.9.tar.gz --markdown 20240517/m/macrosynergy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 12:19:11] INFO root fetch - processPackages [bilbyai-source-label-map]: Remove: archive file [/home/abi/fetcher/tmp/bilbyai_source_label_map-0.2.5.tar.gz]
+[2024-05-17 12:19:11] INFO root fetch - processPackages [bilbyai-source-label-map]: Remove: archive file [/home/abi/fetcher/tmp/bilbyai_source_label_map-0.2.6.tar.gz]
+[2024-05-17 12:19:11] INFO root fetch - main [MainThread]: End processing [bilbyai-source-label-map]: success
+[2024-05-17 12:19:11] INFO root fetch - processPackages [metaflow-dbt]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_dbt-1.0.0.tar.gz]
+[2024-05-17 12:19:11] INFO root fetch - processPackages [metaflow-dbt]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_dbt-1.0.1.tar.gz]
+[2024-05-17 12:19:11] INFO root fetch - main [MainThread]: End processing [metaflow-dbt]: success
+[2024-05-17 12:19:11] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-17 12:19:11] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-17 12:19:11] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-17 12:19:12] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.6-py3-none-any.whl.zip]
+[2024-05-17 12:19:12] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-05-17 12:19:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-configurator]: success
+[2024-05-17 12:19:12] INFO root fetch - processPackages [macrosynergy]: Remove: archive file [/home/abi/fetcher/tmp/macrosynergy-0.1.8.tar.gz]
+[2024-05-17 12:19:12] INFO root fetch - processPackages [macrosynergy]: Remove: archive file [/home/abi/fetcher/tmp/macrosynergy-0.1.9.tar.gz]
+[2024-05-17 12:19:12] INFO root fetch - main [MainThread]: End processing [macrosynergy]: success
+[2024-05-17 12:19:13] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b8.tar.gz]
+[2024-05-17 12:19:13] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b9.tar.gz]
+[2024-05-17 12:19:13] INFO root fetch - main [MainThread]: End processing [algoliasearch]: success
+[2024-05-17 12:19:13] INFO root fetch - main [MainThread]: Store serial: [23252107]

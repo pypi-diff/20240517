@@ -11771,3 +11771,21 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:50:27] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
 [2024-05-17 04:50:27] INFO root fetch - main [MainThread]: End processing [pixee]: success
 [2024-05-17 04:50:27] INFO root fetch - main [MainThread]: Store serial: [23247577]
+[2024-05-17 04:52:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247577]
+[2024-05-17 04:52:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 04:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: StatAssist
+[2024-05-17 04:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-common
+[2024-05-17 04:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InforeWss
+[2024-05-17 04:52:36] INFO root fetch - processPackages [fastapi-common]: New version: [0.3.9.2] Old Version: [0.3.12.0]
+[2024-05-17 04:52:37] WARNING root fetch - processPackages [StatAssist]: Skipping, unable to determine old version
+[2024-05-17 04:52:37] INFO root fetch - main [MainThread]: End processing [StatAssist] error
+[2024-05-17 04:52:37] WARNING root fetch - processPackages [InforeWss]: Skipping, unable to determine old version
+[2024-05-17 04:52:37] INFO root fetch - main [MainThread]: End processing [InforeWss] error
+[2024-05-17 04:52:37] INFO root fetch - processPackages [fastapi-common]: Downloading https://files.pythonhosted.org/packages/2d/73/34aa6b2ca651a91d7b9a8d310499e52561ca2d55b42ec82ea50ede824f81/fastapi-common-0.3.12.0.tar.gz
+[2024-05-17 04:52:37] INFO root fetch - processPackages [fastapi-common]: Downloading https://files.pythonhosted.org/packages/08/5f/e0ca95d99ff27a275f86d7173d3bdc8caf611c266fe3b0610abc2e93ef0a/fastapi-common-0.3.9.2.tar.gz
+[2024-05-17 04:52:37] INFO root fetch - processPackages [fastapi-common]: executing diffoscope
+[2024-05-17 04:52:37] INFO root fetch - processPackages [fastapi-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-common-0.3.12.0.tar.gz tmp/fastapi-common-0.3.9.2.tar.gz --markdown 20240517/f/fastapi-common/0.3.12.0-0.3.9.2/README.md --exclude *.pyd
+[2024-05-17 04:52:38] INFO root fetch - processPackages [fastapi-common]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-common-0.3.12.0.tar.gz]
+[2024-05-17 04:52:38] INFO root fetch - processPackages [fastapi-common]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-common-0.3.9.2.tar.gz]
+[2024-05-17 04:52:38] INFO root fetch - main [MainThread]: End processing [fastapi-common]: success
+[2024-05-17 04:52:38] INFO root fetch - main [MainThread]: Store serial: [23247589]

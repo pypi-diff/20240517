@@ -14137,3 +14137,78 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:32:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
 [2024-05-17 07:32:20] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
 [2024-05-17 07:32:20] INFO root fetch - main [MainThread]: Store serial: [23248563]
+[2024-05-17 07:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248563]
+[2024-05-17 07:34:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-dbchat
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-auth0
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypalex
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddeagentlib
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-runtime-nightly
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oeel
+[2024-05-17 07:34:30] INFO root fetch - processPackages [ddeagentlib]: New version: [1.0.2] Old Version: [0.3]
+[2024-05-17 07:34:30] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:34:30] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-17 07:34:30] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240515] Old Version: [2.17.0.dev20240514]
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1715922834] Old Version: [3.4.0a1715752070]
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pypalex]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-17 07:34:31] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-17 07:34:31] INFO root fetch - processPackages [oeel]: New version: [0.9.8.8] Old Version: [0.9.8.7]
+[2024-05-17 07:34:31] INFO root fetch - processPackages [ddeagentlib]: Downloading https://files.pythonhosted.org/packages/f2/eb/ccc5acf3c40136dc1978aa110c70c90821461747bf3aa37a51e01363d977/ddeagentlib-0.3.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/17/f6/3aa9a0f214b9dea5a385463ceaec800aaa4bffe916566410e59109191df1/tflite_runtime_nightly-2.17.0.dev20240514-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-17 07:34:31] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/42/7b/b2397a8eb61ea39c6e695f4ccf09f8072bbf130dd0dce507ce2a1d31f311/pulumi_auth0-3.4.0a1715752070.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pypalex]: Downloading https://files.pythonhosted.org/packages/18/21/240a5b62f24515bb99c5d06cb895f7a9df17466a838c42f306dcac1ec8fd/pypalex-1.3.3.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [oeel]: Downloading https://files.pythonhosted.org/packages/3f/d1/b8985c2437a6674a5749941ad6fa7f105e10bda9f779e193efd378490edc/oeel-0.9.8.7.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [ddeagentlib]: Downloading https://files.pythonhosted.org/packages/9d/cf/f13112e7e71bd4acbf171c792df6c6dce06ee2e72bab10c217338d45283d/ddeagentlib-1.0.2.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:34:31] INFO root fetch - processPackages [ddeagentlib]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [ddeagentlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddeagentlib-0.3.tar.gz tmp/ddeagentlib-1.0.2.tar.gz --markdown 20240517/d/ddeagentlib/0.3-1.0.2/README.md --exclude *.pyd
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pypalex]: Downloading https://files.pythonhosted.org/packages/4d/4a/c647311d3e3ae1d52d9041403b31188089e80533d8fce31ae2c924433ff5/pypalex-1.3.4.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240517/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-17 07:34:31] INFO root fetch - processPackages [oeel]: Downloading https://files.pythonhosted.org/packages/9c/89/ac473f2ccf4a25990c06471d94e1b255b1cb6a4f32ace823bb7dbf13e998/oeel-0.9.8.8.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/56/d4/4b047548ff0646c44b7b1c5d2dd988a7638a99748290e9ec16868b3ec319/pulumi_auth0-3.4.0a1715922834.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pypalex]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pypalex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypalex-1.3.3.tar.gz tmp/pypalex-1.3.4.tar.gz --markdown 20240517/p/pypalex/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-17 07:34:31] INFO root fetch - processPackages [oeel]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [oeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oeel-0.9.8.7.tar.gz tmp/oeel-0.9.8.8.tar.gz --markdown 20240517/o/oeel/0.9.8.7-0.9.8.8/README.md --exclude *.pyd
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1715752070.tar.gz tmp/pulumi_auth0-3.4.0a1715922834.tar.gz --markdown 20240517/p/pulumi-auth0/3.4.0a1715752070-3.4.0a1715922834/README.md --exclude *.pyd
+[2024-05-17 07:34:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/92/01/61ed0047297994c8991257024bbc2beb16994754d9868e0f04812c691457/tflite_runtime_nightly-2.17.0.dev20240515-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-17 07:34:31] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-17 07:34:31] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240517/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-17 07:34:32] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-17 07:34:32] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240514-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240515-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240517/t/tflite-runtime-nightly/2.17.0.dev20240514-2.17.0.dev20240515/README.md --exclude *.pyd
+[2024-05-17 07:34:32] INFO root fetch - processPackages [ddeagentlib]: Remove: archive file [/home/abi/fetcher/tmp/ddeagentlib-0.3.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [ddeagentlib]: Remove: archive file [/home/abi/fetcher/tmp/ddeagentlib-1.0.2.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [ddeagentlib]: success
+[2024-05-17 07:34:32] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:34:32] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-17 07:34:32] INFO root fetch - processPackages [oeel]: Remove: archive file [/home/abi/fetcher/tmp/oeel-0.9.8.7.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [oeel]: Remove: archive file [/home/abi/fetcher/tmp/oeel-0.9.8.8.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [oeel]: success
+[2024-05-17 07:34:32] INFO root fetch - processPackages [pypalex]: Remove: archive file [/home/abi/fetcher/tmp/pypalex-1.3.3.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [pypalex]: Remove: archive file [/home/abi/fetcher/tmp/pypalex-1.3.4.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [pypalex]: success
+[2024-05-17 07:34:32] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-17 07:34:32] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715752070.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715922834.tar.gz]
+[2024-05-17 07:34:32] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-17 07:34:55] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240514-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-17 07:34:55] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240515-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-17 07:34:55] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-17 07:34:55] INFO root fetch - main [MainThread]: Store serial: [23248593]

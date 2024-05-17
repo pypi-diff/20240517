@@ -21668,3 +21668,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:44:54] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.2.1.tar.gz]
 [2024-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230]: success
 [2024-05-17 11:44:54] INFO root fetch - main [MainThread]: Store serial: [23251607]
+[2024-05-17 11:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251607]
+[2024-05-17 11:47:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 11:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deciphonctl
+[2024-05-17 11:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-new-launcher
+[2024-05-17 11:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matrix-gptbot
+[2024-05-17 11:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-django-azure
+[2024-05-17 11:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-agents
+[2024-05-17 11:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pubtools-quay
+[2024-05-17 11:47:28] INFO root fetch - processPackages [openbb-agents]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2024-05-17 11:47:28] INFO root fetch - processPackages [deciphonctl]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-17 11:47:29] INFO root fetch - processPackages [jupyterlab-new-launcher]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-17 11:47:29] INFO root fetch - processPackages [deciphonctl]: Downloading https://files.pythonhosted.org/packages/1f/6b/0961263345cdfaf082e644a3db98a0c0abc5f38a5c5c0776c05451b998aa/deciphonctl-0.4.0.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pubtools-quay]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-17 11:47:29] INFO root fetch - processPackages [matrix-gptbot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pulumi-django-azure]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 11:47:29] INFO root fetch - processPackages [openbb-agents]: Downloading https://files.pythonhosted.org/packages/58/f7/ff5e896e7cf7711810e39fffb627ab937f37b7080903945e6c6ef92af71c/openbb_agents-0.0.1.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/1e/74/da2bc17f4ea514eab719df15e9fbc05072983bd50786bd4f63d0685ec3b5/jupyterlab_new_launcher-0.3.0.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/d7/32/d681dfe9679a330ec33035a50c701126ddd8222d0218a7eaf134bff2583f/matrix_gptbot-0.3.8.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/5b/cb/6ef348e1a57bcebbf27ff5a3d91ac1b6bbb1ad70bdb49193c9cde480b238/pulumi-django-azure-1.0.8.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [deciphonctl]: Downloading https://files.pythonhosted.org/packages/cb/32/452781034f0a91d342def67ebad48a7b45a6887692e12d8f6ff19dfdc3d5/deciphonctl-0.4.1.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/38/43/fe7538ba9bedf2c940fceb670822ab6a89333b35994bb69f8c87e1a2ad64/pubtools-quay-0.9.2.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [deciphonctl]: executing diffoscope
+[2024-05-17 11:47:29] INFO root fetch - processPackages [deciphonctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphonctl-0.4.0.tar.gz tmp/deciphonctl-0.4.1.tar.gz --markdown 20240517/d/deciphonctl/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-17 11:47:29] INFO root fetch - processPackages [openbb-agents]: Downloading https://files.pythonhosted.org/packages/ae/5e/16431887bca3ae569da0ce96917763be5dbf143f8af858e902111947411b/openbb_agents-0.0.1a0.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/a1/8e/848533ec5cb31e3f9b37f4f6619a5792af54644325e7edb15b3d40a00d53/jupyterlab_new_launcher-0.3.1.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/6c/4a/2439a6a79129802308a126448cca1849029134a6e490258c44e9b81d1ea5/matrix_gptbot-0.3.9.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/92/4b/9387f2d0301a276af7cec8c4ab5ca874af01fccd5e9721aefc361612fb53/pulumi_django_azure-1.0.9.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [jupyterlab-new-launcher]: executing diffoscope
+[2024-05-17 11:47:29] INFO root fetch - processPackages [jupyterlab-new-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_new_launcher-0.3.0.tar.gz tmp/jupyterlab_new_launcher-0.3.1.tar.gz --markdown 20240517/j/jupyterlab-new-launcher/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-17 11:47:29] INFO root fetch - processPackages [matrix-gptbot]: executing diffoscope
+[2024-05-17 11:47:29] INFO root fetch - processPackages [matrix-gptbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_gptbot-0.3.8.tar.gz tmp/matrix_gptbot-0.3.9.tar.gz --markdown 20240517/m/matrix-gptbot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/ef/0a/683ad866465b2a2d90cc7e39a365c6eb98974c20f920d7c50542d9012b92/pubtools-quay-0.9.3.tar.gz
+[2024-05-17 11:47:29] INFO root fetch - processPackages [openbb-agents]: executing diffoscope
+[2024-05-17 11:47:29] INFO root fetch - processPackages [openbb-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_agents-0.0.1.tar.gz tmp/openbb_agents-0.0.1a0.tar.gz --markdown 20240517/o/openbb-agents/0.0.1-0.0.1a0/README.md --exclude *.pyd
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pulumi-django-azure]: executing diffoscope
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pulumi-django-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-django-azure-1.0.8.tar.gz tmp/pulumi_django_azure-1.0.9.tar.gz --markdown 20240517/p/pulumi-django-azure/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 11:47:29] INFO root fetch - processPackages [deciphonctl]: Remove: archive file [/home/abi/fetcher/tmp/deciphonctl-0.4.0.tar.gz]
+[2024-05-17 11:47:29] INFO root fetch - processPackages [deciphonctl]: Remove: archive file [/home/abi/fetcher/tmp/deciphonctl-0.4.1.tar.gz]
+[2024-05-17 11:47:29] INFO root fetch - main [MainThread]: End processing [deciphonctl]: success
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pubtools-quay]: executing diffoscope
+[2024-05-17 11:47:29] INFO root fetch - processPackages [pubtools-quay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-quay-0.9.2.tar.gz tmp/pubtools-quay-0.9.3.tar.gz --markdown 20240517/p/pubtools-quay/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-17 11:47:30] INFO root fetch - processPackages [openbb-agents]: Remove: archive file [/home/abi/fetcher/tmp/openbb_agents-0.0.1.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - processPackages [openbb-agents]: Remove: archive file [/home/abi/fetcher/tmp/openbb_agents-0.0.1a0.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - main [MainThread]: End processing [openbb-agents]: success
+[2024-05-17 11:47:30] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-django-azure-1.0.8.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_django_azure-1.0.9.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - main [MainThread]: End processing [pulumi-django-azure]: success
+[2024-05-17 11:47:30] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.8.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.9.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - main [MainThread]: End processing [matrix-gptbot]: success
+[2024-05-17 11:47:30] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.2.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.3.tar.gz]
+[2024-05-17 11:47:30] INFO root fetch - main [MainThread]: End processing [pubtools-quay]: success
+[2024-05-17 11:47:31] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.0.tar.gz]
+[2024-05-17 11:47:31] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.1.tar.gz]
+[2024-05-17 11:47:31] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
+[2024-05-17 11:47:31] INFO root fetch - main [MainThread]: Store serial: [23251625]

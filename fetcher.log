@@ -16770,3 +16770,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:11:15] INFO root fetch - processPackages [ntnx-vmm-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-vmm-py-client-4.0.3a1.tar.gz]
 [2024-05-17 09:11:15] INFO root fetch - main [MainThread]: End processing [ntnx-vmm-py-client]: success
 [2024-05-17 09:11:15] INFO root fetch - main [MainThread]: Store serial: [23249520]
+[2024-05-17 09:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249520]
+[2024-05-17 09:13:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ntnx-prism-py-client
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlviser-py
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtmodel
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ntnx-clustermgmt-py-client
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlv
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntnx-iam-py-client
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntnx-networking-py-client
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: web-ui-helper
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ntnx-dataprotection-py-client
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ntnx-microseg-py-client
+[2024-05-17 09:13:24] INFO root fetch - processPackages [ntnx-prism-py-client]: New version: [4.0.3a2] Old Version: [4.0.2a1]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-networking-py-client]: New version: [4.0.2b1] Old Version: [4.0.1b1]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-prism-py-client]: Downloading https://files.pythonhosted.org/packages/ee/73/382c547c0b1747fe3c744a55117faf503dd58871f7dec71f565bada7b025/ntnx-prism-py-client-4.0.2a1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [mlv]: New version: [1.3.0] Old Version: [1.1.0]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: New version: [4.0.1b1] Old Version: [4.0.1a4]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-iam-py-client]: New version: [4.0.2b1] Old Version: [4.0.2a1]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: New version: [4.0.2a2] Old Version: [4.0.1b2]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [rlviser-py]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-microseg-py-client]: New version: [4.0.1b1] Old Version: [4.0.1a1]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [qtmodel]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-networking-py-client]: Downloading https://files.pythonhosted.org/packages/95/bf/5b007364478c018b8bd75e3258dc2e91a7868dabd602500d5cd8a6c37f68/ntnx-networking-py-client-4.0.1b1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-microseg-py-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/b7444404da5ea999d0187b23c02af56a8b7c8534bb536987996bef05c336/ntnx-microseg-py-client-4.0.1a1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: Downloading https://files.pythonhosted.org/packages/db/71/ea876ac366033477bdade18e2803f540e2409288b6c2efcaf4622aeed6d8/ntnx_clustermgmt_py_client-4.0.1b2.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-prism-py-client]: Downloading https://files.pythonhosted.org/packages/88/d2/2368b60808ea608a6ab87d5fea7faaec1deecbec61a53401ddbe6d8e19e6/ntnx-prism-py-client-4.0.3a2.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [mlv]: Downloading https://files.pythonhosted.org/packages/3b/68/4c2e971fe41e18a4e47145d177d5c1375deebd4c8b0e895ccfff3dc8cfc1/mlv-1.1.0.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-iam-py-client]: Downloading https://files.pythonhosted.org/packages/0b/70/18b95082f3c2e5eab93036e3a679e6ae90ceb298d2e55d0cb6e428761fcb/ntnx-iam-py-client-4.0.2a1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [rlviser-py]: Downloading https://files.pythonhosted.org/packages/43/50/483ea446e723908fdb300d5608450cdcfafee289b7431895a5e0acd3b6d6/rlviser_py-0.6.6.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: Downloading https://files.pythonhosted.org/packages/0d/d0/17c57195abd935ae4b22b6bdfb2284ea5c1d08e67f1608a13ec3d84507a9/ntnx-dataprotection-py-client-4.0.1a4.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/09/3a/62459e73bfc617943bd711917ced2973cca87af767fb9a9388f73505f54b/qtmodel-0.3.3.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-prism-py-client]: executing diffoscope
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-prism-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-prism-py-client-4.0.2a1.tar.gz tmp/ntnx-prism-py-client-4.0.3a2.tar.gz --markdown 20240517/n/ntnx-prism-py-client/4.0.2a1-4.0.3a2/README.md --exclude *.pyd
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-microseg-py-client]: Downloading https://files.pythonhosted.org/packages/5d/5a/cd0c180d5663e3e6fb16301ba363697e919e17d8fb03d26e879c001d21bc/ntnx_microseg_py_client-4.0.1b1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [rlviser-py]: Downloading https://files.pythonhosted.org/packages/da/4b/021ff43644fc8010b6943a9ba385011dc8902353ae7d1993f701c18385dc/rlviser_py-0.6.7.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/ac/50/4d8986090b4d46f7f7ad2d5bf0de9f3e18679bb0a5ca8fa583033c7f4ee9/qtmodel-0.3.4.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [mlv]: Downloading https://files.pythonhosted.org/packages/10/7d/8bc054f4ea1216ffc384e0a661d7435ec4825626f2158032bef6f6596537/mlv-1.3.0.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: Downloading https://files.pythonhosted.org/packages/51/e8/fdc7926890301e69c8efe91abf7301db456fb01138149109b39bb0a3c8ae/ntnx-clustermgmt-py-client-4.0.2a2.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-iam-py-client]: Downloading https://files.pythonhosted.org/packages/2f/12/a5a090f8869fa59b79c7d4e82253fe1c036dd05eb12a16e9bd9deca69b6b/ntnx_iam_py_client-4.0.2b1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-networking-py-client]: Downloading https://files.pythonhosted.org/packages/a2/40/3f7a693dd8f96e59c552e6e44c50412509e7c8ea07d86a38c102161bf669/ntnx_networking_py_client-4.0.2b1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: Downloading https://files.pythonhosted.org/packages/9f/42/e62d97a6bba953fa76fe6f4c205b56f53016356a2954f078f249d227d62b/ntnx_dataprotection_py_client-4.0.1b1.tar.gz
+[2024-05-17 09:13:25] INFO root fetch - processPackages [rlviser-py]: executing diffoscope
+[2024-05-17 09:13:25] INFO root fetch - processPackages [rlviser-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlviser_py-0.6.6.tar.gz tmp/rlviser_py-0.6.7.tar.gz --markdown 20240517/r/rlviser-py/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-microseg-py-client]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-microseg-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-microseg-py-client-4.0.1a1.tar.gz tmp/ntnx_microseg_py_client-4.0.1b1.tar.gz --markdown 20240517/n/ntnx-microseg-py-client/4.0.1a1-4.0.1b1/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [mlv]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [mlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlv-1.1.0.tar.gz tmp/mlv-1.3.0.tar.gz --markdown 20240517/m/mlv/1.1.0-1.3.0/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240517/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.3.tar.gz tmp/qtmodel-0.3.4.tar.gz --markdown 20240517/q/qtmodel/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-networking-py-client]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-networking-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-networking-py-client-4.0.1b1.tar.gz tmp/ntnx_networking_py_client-4.0.2b1.tar.gz --markdown 20240517/n/ntnx-networking-py-client/4.0.1b1-4.0.2b1/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-iam-py-client]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-iam-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-iam-py-client-4.0.2a1.tar.gz tmp/ntnx_iam_py_client-4.0.2b1.tar.gz --markdown 20240517/n/ntnx-iam-py-client/4.0.2a1-4.0.2b1/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-dataprotection-py-client-4.0.1a4.tar.gz tmp/ntnx_dataprotection_py_client-4.0.1b1.tar.gz --markdown 20240517/n/ntnx-dataprotection-py-client/4.0.1a4-4.0.1b1/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: executing diffoscope
+[2024-05-17 09:13:26] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx_clustermgmt_py_client-4.0.1b2.tar.gz tmp/ntnx-clustermgmt-py-client-4.0.2a2.tar.gz --markdown 20240517/n/ntnx-clustermgmt-py-client/4.0.1b2-4.0.2a2/README.md --exclude *.pyd
+[2024-05-17 09:13:26] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.6.6.tar.gz]
+[2024-05-17 09:13:26] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.6.7.tar.gz]
+[2024-05-17 09:13:26] INFO root fetch - processPackages [rlviser-py]: Start processing: ntnx-licensing-py-client
+[2024-05-17 09:13:26] INFO root fetch - main [MainThread]: End processing [rlviser-py]: success
+[2024-05-17 09:13:27] WARNING root fetch - processPackages [ntnx-licensing-py-client]: Skipping, unable to determine old version
+[2024-05-17 09:13:27] INFO root fetch - processPackages [ntnx-licensing-py-client]: Start processing: ntnx-monitoring-py-client
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [ntnx-licensing-py-client] error
+[2024-05-17 09:13:27] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [web-ui-helper]: Start processing: oj-tools
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-17 09:13:27] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.3.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.4.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [qtmodel]: Start processing: ntnx-objects-py-client
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-17 09:13:27] INFO root fetch - processPackages [mlv]: Remove: archive file [/home/abi/fetcher/tmp/mlv-1.1.0.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [mlv]: Remove: archive file [/home/abi/fetcher/tmp/mlv-1.3.0.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [mlv]: Start processing: ntnx-volumes-py-client
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [mlv]: success
+[2024-05-17 09:13:27] WARNING root fetch - processPackages [ntnx-monitoring-py-client]: Skipping, unable to determine old version
+[2024-05-17 09:13:27] INFO root fetch - processPackages [ntnx-monitoring-py-client]: Start processing: ntnx-lifecycle-py-client
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [ntnx-monitoring-py-client] error
+[2024-05-17 09:13:27] INFO root fetch - processPackages [oj-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 09:13:27] WARNING root fetch - processPackages [ntnx-objects-py-client]: Skipping, unable to determine old version
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [ntnx-objects-py-client] error
+[2024-05-17 09:13:27] WARNING root fetch - processPackages [ntnx-volumes-py-client]: Skipping, unable to determine old version
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [ntnx-volumes-py-client] error
+[2024-05-17 09:13:27] INFO root fetch - processPackages [oj-tools]: Downloading https://files.pythonhosted.org/packages/87/48/05a43fd587e0ec0deb25d09a1aa9fb72542460cc43dde246f4482046125d/oj_tools-0.0.4.tar.gz
+[2024-05-17 09:13:27] WARNING root fetch - processPackages [ntnx-lifecycle-py-client]: Skipping, unable to determine old version
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [ntnx-lifecycle-py-client] error
+[2024-05-17 09:13:27] INFO root fetch - processPackages [oj-tools]: Downloading https://files.pythonhosted.org/packages/a1/83/74aa51799b3d682c5ce9d45d555916473bccd16081971f906ad1b820f6a2/oj_tools-0.0.5.tar.gz
+[2024-05-17 09:13:27] INFO root fetch - processPackages [oj-tools]: executing diffoscope
+[2024-05-17 09:13:27] INFO root fetch - processPackages [oj-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oj_tools-0.0.4.tar.gz tmp/oj_tools-0.0.5.tar.gz --markdown 20240517/o/oj-tools/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 09:13:27] INFO root fetch - processPackages [ntnx-prism-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-prism-py-client-4.0.2a1.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - processPackages [ntnx-prism-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-prism-py-client-4.0.3a2.tar.gz]
+[2024-05-17 09:13:27] INFO root fetch - main [MainThread]: End processing [ntnx-prism-py-client]: success
+[2024-05-17 09:13:28] INFO root fetch - processPackages [oj-tools]: Remove: archive file [/home/abi/fetcher/tmp/oj_tools-0.0.4.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - processPackages [oj-tools]: Remove: archive file [/home/abi/fetcher/tmp/oj_tools-0.0.5.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - main [MainThread]: End processing [oj-tools]: success
+[2024-05-17 09:13:28] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-dataprotection-py-client-4.0.1a4.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - processPackages [ntnx-dataprotection-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx_dataprotection_py_client-4.0.1b1.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - main [MainThread]: End processing [ntnx-dataprotection-py-client]: success
+[2024-05-17 09:13:28] INFO root fetch - processPackages [ntnx-microseg-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-microseg-py-client-4.0.1a1.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - processPackages [ntnx-microseg-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx_microseg_py_client-4.0.1b1.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - main [MainThread]: End processing [ntnx-microseg-py-client]: success
+[2024-05-17 09:13:28] INFO root fetch - processPackages [ntnx-iam-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-iam-py-client-4.0.2a1.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - processPackages [ntnx-iam-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx_iam_py_client-4.0.2b1.tar.gz]
+[2024-05-17 09:13:28] INFO root fetch - main [MainThread]: End processing [ntnx-iam-py-client]: success
+[2024-05-17 09:13:29] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx_clustermgmt_py_client-4.0.1b2.tar.gz]
+[2024-05-17 09:13:29] INFO root fetch - processPackages [ntnx-clustermgmt-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-clustermgmt-py-client-4.0.2a2.tar.gz]
+[2024-05-17 09:13:29] INFO root fetch - main [MainThread]: End processing [ntnx-clustermgmt-py-client]: success
+[2024-05-17 09:13:30] INFO root fetch - processPackages [ntnx-networking-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-networking-py-client-4.0.1b1.tar.gz]
+[2024-05-17 09:13:30] INFO root fetch - processPackages [ntnx-networking-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx_networking_py_client-4.0.2b1.tar.gz]
+[2024-05-17 09:13:30] INFO root fetch - main [MainThread]: End processing [ntnx-networking-py-client]: success
+[2024-05-17 09:13:30] INFO root fetch - main [MainThread]: Store serial: [23249572]

@@ -2397,3 +2397,66 @@
 [2024-05-17 02:11:11] WARNING root fetch - processPackages [vhs-decode]: Skipping package: exceeds size limit 55587939>=10485760
 [2024-05-17 02:11:11] INFO root fetch - main [MainThread]: End processing [vhs-decode] error
 [2024-05-17 02:11:11] INFO root fetch - main [MainThread]: Store serial: [23244327]
+[2024-05-17 02:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244327]
+[2024-05-17 02:13:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: properjpg
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feishuconnector
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prettypretty
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: premath
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-events-notify
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rizz
+[2024-05-17 02:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-nag
+[2024-05-17 02:13:20] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-17 02:13:20] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240516.post1045] Old Version: [1.5.0.20240515.post1110]
+[2024-05-17 02:13:20] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-17 02:13:20] INFO root fetch - processPackages [prettypretty]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-17 02:13:20] WARNING root fetch - processPackages [premath]: Skipping, unable to determine old version
+[2024-05-17 02:13:20] INFO root fetch - main [MainThread]: End processing [premath] error
+[2024-05-17 02:13:20] INFO root fetch - processPackages [properjpg]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-17 02:13:20] WARNING root fetch - processPackages [rizz]: Skipping, unable to determine old version
+[2024-05-17 02:13:20] INFO root fetch - main [MainThread]: End processing [rizz] error
+[2024-05-17 02:13:20] INFO root fetch - processPackages [feishuconnector]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 02:13:20] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-17 02:13:20] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-17 02:13:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/6c/35/ed45e722db6655068df9bf070a9a837dfb209e78cc8f7dc442d875a3b143/mct-quantizers-nightly-1.5.0.20240515.post1110.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [prettypretty]: Downloading https://files.pythonhosted.org/packages/ea/48/d0b9f582996f95211e818b23d700631c85033cf41bbb29abd84c7207df30/prettypretty-0.1.0.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [feishuconnector]: Downloading https://files.pythonhosted.org/packages/97/93/b4c104f282e51a3a43abb445da6f142baed05c288f20a4096fb417e0e122/feishuconnector-0.1.5.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [properjpg]: Downloading https://files.pythonhosted.org/packages/4e/84/1f012b0dd109aa8af7f93a364c7a8b614a791f3a9de38e1d5359813a199c/properjpg-0.3.5.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-17 02:13:21] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240517/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-17 02:13:21] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/78/df/6b96e3a81994a4981cb3a509244384fdd671e03bc7661010e856bd3895be/mct-quantizers-nightly-1.5.0.20240516.post1045.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-17 02:13:21] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240517/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-17 02:13:21] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-17 02:13:21] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240515.post1110.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240516.post1045.tar.gz --markdown 20240517/m/mct-quantizers-nightly/1.5.0.20240515.post1110-1.5.0.20240516.post1045/README.md --exclude *.pyd
+[2024-05-17 02:13:21] INFO root fetch - processPackages [prettypretty]: Downloading https://files.pythonhosted.org/packages/2a/1a/083960ecccddb928f51f129a4c9b9800790ce0f3b3349ef2f6df3b18e09c/prettypretty-0.2.0.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [feishuconnector]: Downloading https://files.pythonhosted.org/packages/77/29/fbffe727ba3b1e9bd5b3b624fb921d5e6105d9e5b74c0ab6d9b16b7374f4/feishuconnector-0.1.6.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [properjpg]: Downloading https://files.pythonhosted.org/packages/6a/0d/a8d06f88cc8b126560b69ea2f0fe81939f7e359c56621e8799fba72b7688/properjpg-0.3.6.tar.gz
+[2024-05-17 02:13:21] INFO root fetch - processPackages [feishuconnector]: executing diffoscope
+[2024-05-17 02:13:21] INFO root fetch - processPackages [feishuconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feishuconnector-0.1.5.tar.gz tmp/feishuconnector-0.1.6.tar.gz --markdown 20240517/f/feishuconnector/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 02:13:21] INFO root fetch - processPackages [prettypretty]: executing diffoscope
+[2024-05-17 02:13:21] INFO root fetch - processPackages [prettypretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettypretty-0.1.0.tar.gz tmp/prettypretty-0.2.0.tar.gz --markdown 20240517/p/prettypretty/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-17 02:13:21] INFO root fetch - processPackages [properjpg]: executing diffoscope
+[2024-05-17 02:13:21] INFO root fetch - processPackages [properjpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/properjpg-0.3.5.tar.gz tmp/properjpg-0.3.6.tar.gz --markdown 20240517/p/properjpg/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-17 02:13:22] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-17 02:13:22] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-17 02:13:22] INFO root fetch - processPackages [feishuconnector]: Remove: archive file [/home/abi/fetcher/tmp/feishuconnector-0.1.5.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - processPackages [feishuconnector]: Remove: archive file [/home/abi/fetcher/tmp/feishuconnector-0.1.6.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [feishuconnector]: success
+[2024-05-17 02:13:22] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240515.post1110.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240516.post1045.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-17 02:13:22] INFO root fetch - processPackages [properjpg]: Remove: archive file [/home/abi/fetcher/tmp/properjpg-0.3.5.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - processPackages [properjpg]: Remove: archive file [/home/abi/fetcher/tmp/properjpg-0.3.6.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [properjpg]: success
+[2024-05-17 02:13:22] INFO root fetch - processPackages [prettypretty]: Remove: archive file [/home/abi/fetcher/tmp/prettypretty-0.1.0.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - processPackages [prettypretty]: Remove: archive file [/home/abi/fetcher/tmp/prettypretty-0.2.0.tar.gz]
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [prettypretty]: success
+[2024-05-17 02:13:22] INFO root fetch - main [MainThread]: Store serial: [23244352]

@@ -11296,3 +11296,60 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:20:31] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.9.tar.gz]
 [2024-05-17 04:20:31] INFO root fetch - main [MainThread]: End processing [tesla-fleet-api]: success
 [2024-05-17 04:20:31] INFO root fetch - main [MainThread]: Store serial: [23247433]
+[2024-05-17 04:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247433]
+[2024-05-17 04:22:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 04:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-17 04:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: servicenow-api
+[2024-05-17 04:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbpy
+[2024-05-17 04:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seven-cloudapp-frame
+[2024-05-17 04:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: penquins
+[2024-05-17 04:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2024-05-17 04:22:41] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 04:22:41] INFO root fetch - processPackages [vbpy]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-17 04:22:41] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-17 04:22:41] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240516] Old Version: [1.2.20240515]
+[2024-05-17 04:22:41] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-17 04:22:41] INFO root fetch - processPackages [penquins]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-17 04:22:41] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/df/86/39040d699921c753c2ce7e8f1ae0794ebbb928411927779d5c56652da345/vbpy-2.0.4.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-17 04:22:41] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/c7/15/421724d6f77022255ad3e2da7142bf007818b017794c1693c6bf2021f6a0/iam_actions-1.2.20240515.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [penquins]: Downloading https://files.pythonhosted.org/packages/17/53/eed60fb3ba11e18693880f87e9609033a9cbe2ea623264b4417c2369c4ba/penquins-2.4.0.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-17 04:22:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/e0/c9/57d97c3ea39278098404a57cadb9ffec746dded6fa4554d7071ba6b61a44/vbpy-2.0.5.tar.gz
+[2024-05-17 04:22:41] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-17 04:22:41] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240517/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 04:22:41] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/5f/6d/4a546b668e56ea561dde4acb6ed80e8d0a22ada69968c3bf51228204f414/iam_actions-1.2.20240516.tar.gz
+[2024-05-17 04:22:42] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-17 04:22:42] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.4.tar.gz tmp/vbpy-2.0.5.tar.gz --markdown 20240517/v/vbpy/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-17 04:22:42] INFO root fetch - processPackages [penquins]: Downloading https://files.pythonhosted.org/packages/69/1b/d4df95b088ddfb0fa73690b25708bd80e04b0c55b8fb366a63c610aa8e67/penquins-2.4.1.tar.gz
+[2024-05-17 04:22:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-17 04:22:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240517/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-17 04:22:42] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-17 04:22:42] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240515.tar.gz tmp/iam_actions-1.2.20240516.tar.gz --markdown 20240517/i/iam-actions/1.2.20240515-1.2.20240516/README.md --exclude *.pyd
+[2024-05-17 04:22:42] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-17 04:22:42] INFO root fetch - processPackages [penquins]: executing diffoscope
+[2024-05-17 04:22:42] INFO root fetch - processPackages [penquins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/penquins-2.4.0.tar.gz tmp/penquins-2.4.1.tar.gz --markdown 20240517/p/penquins/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-17 04:22:42] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-17 04:22:42] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240517/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-17 04:22:42] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-17 04:22:42] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-17 04:22:42] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-17 04:22:42] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.4.tar.gz]
+[2024-05-17 04:22:42] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.5.tar.gz]
+[2024-05-17 04:22:42] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-17 04:22:42] INFO root fetch - processPackages [penquins]: Remove: archive file [/home/abi/fetcher/tmp/penquins-2.4.0.tar.gz]
+[2024-05-17 04:22:42] INFO root fetch - processPackages [penquins]: Remove: archive file [/home/abi/fetcher/tmp/penquins-2.4.1.tar.gz]
+[2024-05-17 04:22:42] INFO root fetch - main [MainThread]: End processing [penquins]: success
+[2024-05-17 04:22:43] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-17 04:22:43] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-17 04:22:43] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-17 04:22:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-17 04:22:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-17 04:22:43] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-17 04:22:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240515.tar.gz]
+[2024-05-17 04:22:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240516.tar.gz]
+[2024-05-17 04:22:47] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-17 04:22:47] INFO root fetch - main [MainThread]: Store serial: [23247449]

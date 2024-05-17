@@ -20323,3 +20323,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:01:50] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.5.0.tar.gz]
 [2024-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [robotframework-robotlog2db]: success
 [2024-05-17 11:01:50] INFO root fetch - main [MainThread]: Store serial: [23251080]
+[2024-05-17 11:03:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251080]
+[2024-05-17 11:04:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-command
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retrodevem
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: znh5md
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crossword-puzzle
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dja-sepp
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myqueue
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PROMINENT-methylation
+[2024-05-17 11:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-problem
+[2024-05-17 11:04:03] WARNING root fetch - processPackages [dja-sepp]: Skipping, unable to determine old version
+[2024-05-17 11:04:03] INFO root fetch - main [MainThread]: End processing [dja-sepp] error
+[2024-05-17 11:04:03] WARNING root fetch - processPackages [retrodevem]: Skipping, unable to determine old version
+[2024-05-17 11:04:03] INFO root fetch - main [MainThread]: End processing [retrodevem] error
+[2024-05-17 11:04:03] INFO root fetch - processPackages [myqueue]: New version: [24.5.0] Old Version: [24.1.0]
+[2024-05-17 11:04:03] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-05-17 11:04:03] INFO root fetch - processPackages [znh5md]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-17 11:04:03] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-17 11:04:03] INFO root fetch - processPackages [PROMINENT-methylation]: New version: [0.1] Old Version: [0.0.2]
+[2024-05-17 11:04:03] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.71] Old Version: [1.2.70]
+[2024-05-17 11:04:03] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [myqueue]: Downloading https://files.pythonhosted.org/packages/76/d6/60eec8b2db3eb7a3c61bd49cc6007cfc342376dd6626b5e59797b8bb08e6/myqueue-24.1.0.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [znh5md]: Downloading https://files.pythonhosted.org/packages/4f/fd/31e528830aaf513fceeaf5b691af91b8067e9cca210d1a22c2354db58b4e/znh5md-0.1.7.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/52/7b/48e604553c996fe403187e07c1cd88e753e7989760176cfdc541835ebab0/crossword_puzzle-1.2.70.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/16/42/3d6163c1eefc897dc2762a6d82a44a80e07ca8533fd6a3f684cb487d9cd1/PROMINENT_methylation-0.0.2.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/56/1a/4c9e6c8862fded88dfa3cc28eaf884fb92b1a6b74873d8b1441731d7d27b/fastapi_problem-0.7.7.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-05-17 11:04:03] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240517/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-05-17 11:04:03] INFO root fetch - processPackages [znh5md]: Downloading https://files.pythonhosted.org/packages/7a/ae/4785f4cd4d790bc22292191ae199a7072a0bacce4702be27979058703105/znh5md-0.1.9.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/63/09/940d6c805516b9b01a3e52b64d459fc7f09aa22cb29e08e9a4c9558021b0/PROMINENT_methylation-0.1.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/9a/46/066946726dee17bd984c54e6cb1b6a607c8858330058f05f55deb1a00091/fastapi_problem-0.7.8.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [myqueue]: Downloading https://files.pythonhosted.org/packages/50/3c/57fb384036b8d61cd51824311a8aed3b2783648d239283d319c720aa643b/myqueue-24.5.0.tar.gz
+[2024-05-17 11:04:03] INFO root fetch - processPackages [PROMINENT-methylation]: executing diffoscope
+[2024-05-17 11:04:03] INFO root fetch - processPackages [PROMINENT-methylation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PROMINENT_methylation-0.0.2.tar.gz tmp/PROMINENT_methylation-0.1.tar.gz --markdown 20240517/P/PROMINENT-methylation/0.0.2-0.1/README.md --exclude *.pyd
+[2024-05-17 11:04:03] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-17 11:04:03] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.7.tar.gz tmp/fastapi_problem-0.7.8.tar.gz --markdown 20240517/f/fastapi-problem/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-17 11:04:03] INFO root fetch - processPackages [myqueue]: executing diffoscope
+[2024-05-17 11:04:03] INFO root fetch - processPackages [myqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqueue-24.1.0.tar.gz tmp/myqueue-24.5.0.tar.gz --markdown 20240517/m/myqueue/24.1.0-24.5.0/README.md --exclude *.pyd
+[2024-05-17 11:04:03] INFO root fetch - processPackages [znh5md]: executing diffoscope
+[2024-05-17 11:04:03] INFO root fetch - processPackages [znh5md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/znh5md-0.1.7.tar.gz tmp/znh5md-0.1.9.tar.gz --markdown 20240517/z/znh5md/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-17 11:04:04] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/31/f0/ddbf4809c4e204483885da1c969ff5632e2066aa9bb617e73cbd26d07c3e/crossword_puzzle-1.2.71.tar.gz
+[2024-05-17 11:04:04] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-05-17 11:04:04] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-17 11:04:04] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.70.tar.gz tmp/crossword_puzzle-1.2.71.tar.gz --markdown 20240517/c/crossword-puzzle/1.2.70-1.2.71/README.md --exclude *.pyd
+[2024-05-17 11:04:04] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.0.2.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - main [MainThread]: End processing [PROMINENT-methylation]: success
+[2024-05-17 11:04:04] INFO root fetch - processPackages [znh5md]: Remove: archive file [/home/abi/fetcher/tmp/znh5md-0.1.7.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - processPackages [znh5md]: Remove: archive file [/home/abi/fetcher/tmp/znh5md-0.1.9.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - main [MainThread]: End processing [znh5md]: success
+[2024-05-17 11:04:04] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.7.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.8.tar.gz]
+[2024-05-17 11:04:04] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-17 11:04:05] INFO root fetch - processPackages [myqueue]: Remove: archive file [/home/abi/fetcher/tmp/myqueue-24.1.0.tar.gz]
+[2024-05-17 11:04:05] INFO root fetch - processPackages [myqueue]: Remove: archive file [/home/abi/fetcher/tmp/myqueue-24.5.0.tar.gz]
+[2024-05-17 11:04:05] INFO root fetch - main [MainThread]: End processing [myqueue]: success
+[2024-05-17 11:04:24] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.70.tar.gz]
+[2024-05-17 11:04:24] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.71.tar.gz]
+[2024-05-17 11:04:24] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-17 11:04:24] INFO root fetch - main [MainThread]: Store serial: [23251105]

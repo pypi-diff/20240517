@@ -20723,3 +20723,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:13:31] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.7.0.tar.gz]
 [2024-05-17 11:13:31] INFO root fetch - main [MainThread]: End processing [gemsembler]: success
 [2024-05-17 11:13:31] INFO root fetch - main [MainThread]: Store serial: [23251237]
+[2024-05-17 11:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251237]
+[2024-05-17 11:15:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popsicool-cal
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impsparc
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfuse
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mujoco_robot_environments
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biomedisa
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-05-17 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvfuser-cu121
+[2024-05-17 11:15:45] INFO root fetch - processPackages [impsparc]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-05-17 11:15:45] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.4.dev20240516] Old Version: [0.2.4.dev20240515]
+[2024-05-17 11:15:45] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-05-17 11:15:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-17 11:15:45] WARNING root fetch - processPackages [popsicool-cal]: Skipping, unable to determine old version
+[2024-05-17 11:15:45] INFO root fetch - processPackages [mujoco_robot_environments]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 11:15:45] INFO root fetch - main [MainThread]: End processing [popsicool-cal] error
+[2024-05-17 11:15:45] INFO root fetch - processPackages [biomedisa]: New version: [24.5.23] Old Version: [2024.5.22]
+[2024-05-17 11:15:45] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/fc/8e/0ddc11bef13b1d0ec866945262f5487e10c6ec3ac268744480f4b09593f3/nvfuser_cu121-0.2.4.dev20240515.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-17 11:15:45] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/00/ee/a99a65af7d3b5bae71f1e0d4ce46b3a399c3dfaf09b07d68ae8e9e788f2a/impsparc-3.1.1.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/7b/27/4cd3b20c480137911c91c8a655cd2cf81e7ea51fbd748454342d53608e46/nvfuser_cu121-0.2.4.dev20240516.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/84/bd/e6f39a1c80bd78ad50d1debec57e43e25179d2ee38c679bc759623ccfcee/biomedisa-2024.5.22.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [mujoco_robot_environments]: Downloading https://files.pythonhosted.org/packages/b7/0a/a0074917651cea70e52613ced253ff5843f7b8e71551ed67159240c5883f/mujoco_robot_environments-0.0.1.tar.gz
+[2024-05-17 11:15:45] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-05-17 11:15:45] WARNING root fetch - processPackages [mujoco_robot_environments]: Skipping package: exceeds size limit 23573963>=10485760
+[2024-05-17 11:15:45] INFO root fetch - main [MainThread]: End processing [mujoco_robot_environments] error
+[2024-05-17 11:15:45] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-17 11:15:45] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.4.dev20240515.tar.gz tmp/nvfuser_cu121-0.2.4.dev20240516.tar.gz --markdown 20240517/n/nvfuser-cu121/0.2.4.dev20240515-0.2.4.dev20240516/README.md --exclude *.pyd
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-17 11:15:46] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/16/35/1e8bda7190a6eb21c1dcc600ffc2c03cc277c1c7d9d39bcfc157ee233f24/impsparc-3.1.2.tar.gz
+[2024-05-17 11:15:46] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/fd/28/480be167537bc7c061f058ae7f888caba4d8ed85df30443f4efdfe587087/biomedisa-24.5.23.tar.gz
+[2024-05-17 11:15:46] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240517/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240517/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-17 11:15:46] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.4.dev20240515.tar.gz]
+[2024-05-17 11:15:46] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.4.dev20240516.tar.gz]
+[2024-05-17 11:15:46] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-17 11:15:46] INFO root fetch - processPackages [biomedisa]: executing diffoscope
+[2024-05-17 11:15:46] INFO root fetch - processPackages [biomedisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedisa-2024.5.22.tar.gz tmp/biomedisa-24.5.23.tar.gz --markdown 20240517/b/biomedisa/2024.5.22-24.5.23/README.md --exclude *.pyd
+[2024-05-17 11:15:46] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2024-05-17 11:15:46] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-3.1.1.tar.gz tmp/impsparc-3.1.2.tar.gz --markdown 20240517/i/impsparc/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-05-17 11:15:46] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-05-17 11:15:46] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240517/l/langfuse/2.9.1a0-2.9.2/README.md --exclude *.pyd
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-17 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-17 11:15:46] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-17 11:15:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-17 11:15:47] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-05-17 11:15:47] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-05-17 11:15:47] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-05-17 11:15:47] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.22.tar.gz]
+[2024-05-17 11:15:47] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-24.5.23.tar.gz]
+[2024-05-17 11:15:47] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
+[2024-05-17 11:15:47] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.1.tar.gz]
+[2024-05-17 11:15:47] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.2.tar.gz]
+[2024-05-17 11:15:47] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2024-05-17 11:15:47] INFO root fetch - main [MainThread]: Store serial: [23251266]

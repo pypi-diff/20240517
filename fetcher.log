@@ -22404,3 +22404,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:12:16] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.9.tar.gz]
 [2024-05-17 12:12:16] INFO root fetch - main [MainThread]: End processing [pyvispr]: success
 [2024-05-17 12:12:16] INFO root fetch - main [MainThread]: Store serial: [23251956]
+[2024-05-17 12:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251956]
+[2024-05-17 12:14:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 12:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diive
+[2024-05-17 12:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-05-17 12:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyLLM
+[2024-05-17 12:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-django-choice-enumfields
+[2024-05-17 12:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparse
+[2024-05-17 12:14:26] INFO root fetch - processPackages [skip-django-choice-enumfields]: New version: [1.1.3.2] Old Version: [1.1.3.1]
+[2024-05-17 12:14:26] INFO root fetch - processPackages [diive]: New version: [0.76.1] Old Version: [0.76.0]
+[2024-05-17 12:14:26] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-17 12:14:26] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-17 12:14:26] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 12:14:26] INFO root fetch - processPackages [skip-django-choice-enumfields]: Downloading https://files.pythonhosted.org/packages/be/cd/905b2750c44570fc2c0044321763a312cdfc99d557c8446968e4d5fe6003/skip-django-choice-enumfields-1.1.3.1.tar.gz
+[2024-05-17 12:14:26] INFO root fetch - processPackages [diive]: Downloading https://files.pythonhosted.org/packages/ae/7e/624da5234dba3359942ab0dac8c90287c212bc82ef5bb44ca92718160cc1/diive-0.76.0.tar.gz
+[2024-05-17 12:14:26] WARNING root fetch - processPackages [diive]: Skipping package: exceeds size limit 18856046>=10485760
+[2024-05-17 12:14:26] INFO root fetch - main [MainThread]: End processing [diive] error
+[2024-05-17 12:14:26] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-17 12:14:26] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-05-17 12:14:26] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-17 12:14:27] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-17 12:14:27] INFO root fetch - processPackages [skip-django-choice-enumfields]: Downloading https://files.pythonhosted.org/packages/6b/e5/dbc4638e4604410a6a130b55545fbc293294b9cfaadf58567644670836fb/skip-django-choice-enumfields-1.1.3.2.tar.gz
+[2024-05-17 12:14:27] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-17 12:14:27] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-05-17 12:14:27] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-17 12:14:27] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240517/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 12:14:27] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-17 12:14:27] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240517/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-17 12:14:27] INFO root fetch - processPackages [skip-django-choice-enumfields]: executing diffoscope
+[2024-05-17 12:14:27] INFO root fetch - processPackages [skip-django-choice-enumfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-choice-enumfields-1.1.3.1.tar.gz tmp/skip-django-choice-enumfields-1.1.3.2.tar.gz --markdown 20240517/s/skip-django-choice-enumfields/1.1.3.1-1.1.3.2/README.md --exclude *.pyd
+[2024-05-17 12:14:27] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-17 12:14:27] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-17 12:14:27] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-17 12:14:27] INFO root fetch - processPackages [skip-django-choice-enumfields]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-choice-enumfields-1.1.3.1.tar.gz]
+[2024-05-17 12:14:27] INFO root fetch - processPackages [skip-django-choice-enumfields]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-choice-enumfields-1.1.3.2.tar.gz]
+[2024-05-17 12:14:27] INFO root fetch - main [MainThread]: End processing [skip-django-choice-enumfields]: success
+[2024-05-17 12:14:27] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-05-17 12:14:27] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240517/s/sparse/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-17 12:14:28] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-17 12:14:28] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-17 12:14:28] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-17 12:14:28] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-05-17 12:14:28] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-05-17 12:14:28] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-05-17 12:14:28] INFO root fetch - main [MainThread]: Store serial: [23251971]

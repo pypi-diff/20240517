@@ -18406,3 +18406,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:02:44] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.2.tar.gz]
 [2024-05-17 10:02:44] INFO root fetch - main [MainThread]: End processing [squlearn]: success
 [2024-05-17 10:02:44] INFO root fetch - main [MainThread]: Store serial: [23250201]
+[2024-05-17 10:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250201]
+[2024-05-17 10:04:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janus-swi
+[2024-05-17 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MASSIVEChem
+[2024-05-17 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-customer-deposit
+[2024-05-17 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-05-17 10:04:53] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2024-05-17 10:04:53] INFO root fetch - processPackages [janus-swi]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-05-17 10:04:53] INFO root fetch - processPackages [MASSIVEChem]: New version: [3.6] Old Version: [3.5]
+[2024-05-17 10:04:53] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240516] Old Version: [0.0.2.dev20240515]
+[2024-05-17 10:04:53] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/52/9b/b48ab1cf4aad139bfe8a6ca9dbe8595a87298573f42538e68b7982a3ef96/massivechem-3.5.tar.gz
+[2024-05-17 10:04:53] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/a3/90/8a0a31ea2ef49fda798d5faeb33c3bdecae944911891f89611630e5bb56a/langfun-0.0.2.dev20240515.tar.gz
+[2024-05-17 10:04:53] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Downloading https://files.pythonhosted.org/packages/07/4f/1c5fdebd6ba87c081e6534cad41479b2134e846c5d3d0c0e88db8fac5f70/odoo_addon_stock_customer_deposit-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-17 10:04:53] INFO root fetch - processPackages [janus-swi]: Downloading https://files.pythonhosted.org/packages/52/82/4b16cdd1cb95fbaddd1bb547567724883ac848cea72e5103c867bbbe2a06/janus_swi-1.1.4.tar.gz
+[2024-05-17 10:04:54] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/4f/50/dd54895e0e0097835f0126391fe840343f45669cf3c97a531e734529178a/langfun-0.0.2.dev20240516.tar.gz
+[2024-05-17 10:04:54] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/12/b5/0ac5cc0787da644388073534bbea7c0877e9dc051b628a14c41c36452919/massivechem-3.6.tar.gz
+[2024-05-17 10:04:54] INFO root fetch - processPackages [janus-swi]: Downloading https://files.pythonhosted.org/packages/27/ea/3df66ae92600e601da2aa2f22941dc85459f1f48383ed78b1f061cee946a/janus_swi-1.2.0.tar.gz
+[2024-05-17 10:04:54] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Downloading https://files.pythonhosted.org/packages/fc/37/491915f91f583523dfe1bdb9cbdaf1d1699e7a1dfd5adc1e68b0642a04e2/odoo_addon_stock_customer_deposit-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-17 10:04:54] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-17 10:04:54] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240515.tar.gz tmp/langfun-0.0.2.dev20240516.tar.gz --markdown 20240517/l/langfun/0.0.2.dev20240515-0.0.2.dev20240516/README.md --exclude *.pyd
+[2024-05-17 10:04:54] INFO root fetch - processPackages [janus-swi]: executing diffoscope
+[2024-05-17 10:04:54] INFO root fetch - processPackages [janus-swi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_swi-1.1.4.tar.gz tmp/janus_swi-1.2.0.tar.gz --markdown 20240517/j/janus-swi/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-05-17 10:04:54] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-17 10:04:54] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-3.5.tar.gz tmp/massivechem-3.6.tar.gz --markdown 20240517/M/MASSIVEChem/3.5-3.6/README.md --exclude *.pyd
+[2024-05-17 10:04:54] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: executing diffoscope
+[2024-05-17 10:04:54] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-stock-customer-deposit/16.0.1.0.1.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-17 10:04:55] INFO root fetch - processPackages [janus-swi]: Remove: archive file [/home/abi/fetcher/tmp/janus_swi-1.1.4.tar.gz]
+[2024-05-17 10:04:55] INFO root fetch - processPackages [janus-swi]: Remove: archive file [/home/abi/fetcher/tmp/janus_swi-1.2.0.tar.gz]
+[2024-05-17 10:04:55] INFO root fetch - main [MainThread]: End processing [janus-swi]: success
+[2024-05-17 10:04:55] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.5.tar.gz]
+[2024-05-17 10:04:55] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.6.tar.gz]
+[2024-05-17 10:04:55] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-17 10:04:55] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240515.tar.gz]
+[2024-05-17 10:04:55] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240516.tar.gz]
+[2024-05-17 10:04:55] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-17 10:04:55] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-17 10:04:55] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-17 10:04:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-customer-deposit]: success
+[2024-05-17 10:04:55] INFO root fetch - main [MainThread]: Store serial: [23250216]

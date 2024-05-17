@@ -14675,3 +14675,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 07:52:40] INFO root fetch - processPackages [odoo-addon-project-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_department-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-17 07:52:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-department]: success
 [2024-05-17 07:52:40] INFO root fetch - main [MainThread]: Store serial: [23248722]
+[2024-05-17 07:54:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248722]
+[2024-05-17 07:54:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apmtools
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-confluentcloud
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-task-tag
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capsolver-extension-python
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ltm-misc
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trove-classifiers
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FasterAPI
+[2024-05-17 07:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-calc24
+[2024-05-17 07:54:49] WARNING root fetch - processPackages [ltm-misc]: Skipping, unable to determine old version
+[2024-05-17 07:54:49] INFO root fetch - main [MainThread]: End processing [ltm-misc] error
+[2024-05-17 07:54:49] INFO root fetch - processPackages [apmtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [capsolver-extension-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [nonebot-plugin-calc24]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/de/e4/d6e711ac61fe6f7af46eda73a0f1b76b8fea3058ed7ff8d5ed8e37631da0/apmtools-0.0.8.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [capsolver-extension-python]: Downloading https://files.pythonhosted.org/packages/53/bd/f6c4c4f56b08ccf53704100716f2f5ca6b2a5ea6887f350e33671c9e534c/capsolver_extension_python-1.0.1.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [odoo-addon-project-task-tag]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [FasterAPI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [trove-classifiers]: New version: [2024.5.17] Old Version: [2024.4.10]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-17 07:54:49] INFO root fetch - processPackages [nonebot-plugin-calc24]: Downloading https://files.pythonhosted.org/packages/b6/6c/68cc16e910fa03d9950c28253c99aa3bd50a34d026fa7a511d1a9f243be1/nonebot_plugin_calc24-0.1.0.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [odoo-addon-project-task-tag]: Downloading https://files.pythonhosted.org/packages/ca/6f/45c1460e58be5a32f0bc617b62821d3e6254126a397e39c269f64f292116/odoo_addon_project_task_tag-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-17 07:54:49] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/73/e9/b732ae50ebe5e4949bb20a47243d9fee6f3c15027c3f8ffeaa0982e68173/trove-classifiers-2024.4.10.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [capsolver-extension-python]: Downloading https://files.pythonhosted.org/packages/65/ec/b185c3d731d6bdba779c04574abd0afbf8d4cbf2e10eac582b27cecd5bcf/capsolver_extension_python-1.0.2.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/dc/4f/7387d4a3d73df0697fb82575cf0abf3616188443a1780b1a678316992352/FasterAPI-0.0.8.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [apmtools]: Downloading https://files.pythonhosted.org/packages/1b/d8/f078c028e3a31e87a9d21228f1c6989660a625af41cadc32b810ce6f8332/apmtools-0.0.9.tar.gz
+[2024-05-17 07:54:49] INFO root fetch - processPackages [capsolver-extension-python]: executing diffoscope
+[2024-05-17 07:54:49] INFO root fetch - processPackages [capsolver-extension-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsolver_extension_python-1.0.1.tar.gz tmp/capsolver_extension_python-1.0.2.tar.gz --markdown 20240517/c/capsolver-extension-python/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: Downloading https://files.pythonhosted.org/packages/8f/0c/ed3b4b61f5504c1664e60b953732704cf551e05095bc3e4811218314090f/nonebot_plugin_calc24-0.2.1.tar.gz
+[2024-05-17 07:54:50] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/b9/8d/7899dd731149418618522eb6846acae3f0edf0823d7ae54bb732d4140c95/trove_classifiers-2024.5.17.tar.gz
+[2024-05-17 07:54:50] INFO root fetch - processPackages [odoo-addon-project-task-tag]: Downloading https://files.pythonhosted.org/packages/c5/64/4b6943a17565bb6534e1b50ecafd3d68864726d5ff0dd72456909723d8d2/odoo_addon_project_task_tag-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-17 07:54:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: executing diffoscope
+[2024-05-17 07:54:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_calc24-0.1.0.tar.gz tmp/nonebot_plugin_calc24-0.2.1.tar.gz --markdown 20240517/n/nonebot-plugin-calc24/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/09/63/f2c95b745b48d5d64a4d53291dd2fd375492d53193a93427dd80cea9a480/FasterAPI-0.0.9.tar.gz
+[2024-05-17 07:54:50] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-17 07:54:50] INFO root fetch - processPackages [trove-classifiers]: executing diffoscope
+[2024-05-17 07:54:50] INFO root fetch - processPackages [trove-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-classifiers-2024.4.10.tar.gz tmp/trove_classifiers-2024.5.17.tar.gz --markdown 20240517/t/trove-classifiers/2024.4.10-2024.5.17/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [apmtools]: executing diffoscope
+[2024-05-17 07:54:50] INFO root fetch - processPackages [apmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apmtools-0.0.8.tar.gz tmp/apmtools-0.0.9.tar.gz --markdown 20240517/a/apmtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [odoo-addon-project-task-tag]: executing diffoscope
+[2024-05-17 07:54:50] INFO root fetch - processPackages [odoo-addon-project-task-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_tag-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_task_tag-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-project-task-tag/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [FasterAPI]: executing diffoscope
+[2024-05-17 07:54:50] INFO root fetch - processPackages [FasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FasterAPI-0.0.8.tar.gz tmp/FasterAPI-0.0.9.tar.gz --markdown 20240517/F/FasterAPI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-17 07:54:50] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240517/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-17 07:54:50] INFO root fetch - processPackages [capsolver-extension-python]: Remove: archive file [/home/abi/fetcher/tmp/capsolver_extension_python-1.0.1.tar.gz]
+[2024-05-17 07:54:50] INFO root fetch - processPackages [capsolver-extension-python]: Remove: archive file [/home/abi/fetcher/tmp/capsolver_extension_python-1.0.2.tar.gz]
+[2024-05-17 07:54:50] INFO root fetch - main [MainThread]: End processing [capsolver-extension-python]: success
+[2024-05-17 07:54:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_calc24-0.1.0.tar.gz]
+[2024-05-17 07:54:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_calc24-0.2.1.tar.gz]
+[2024-05-17 07:54:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-calc24]: success
+[2024-05-17 07:54:50] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.8.tar.gz]
+[2024-05-17 07:54:50] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.9.tar.gz]
+[2024-05-17 07:54:50] INFO root fetch - main [MainThread]: End processing [FasterAPI]: success
+[2024-05-17 07:54:51] INFO root fetch - processPackages [trove-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/trove-classifiers-2024.4.10.tar.gz]
+[2024-05-17 07:54:51] INFO root fetch - processPackages [trove-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/trove_classifiers-2024.5.17.tar.gz]
+[2024-05-17 07:54:51] INFO root fetch - main [MainThread]: End processing [trove-classifiers]: success
+[2024-05-17 07:54:51] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.8.tar.gz]
+[2024-05-17 07:54:51] INFO root fetch - processPackages [apmtools]: Remove: archive file [/home/abi/fetcher/tmp/apmtools-0.0.9.tar.gz]
+[2024-05-17 07:54:51] INFO root fetch - main [MainThread]: End processing [apmtools]: success
+[2024-05-17 07:54:51] INFO root fetch - processPackages [odoo-addon-project-task-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_tag-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 07:54:51] INFO root fetch - processPackages [odoo-addon-project-task-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_tag-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-17 07:54:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-tag]: success
+[2024-05-17 07:54:51] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-17 07:54:51] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-17 07:54:51] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-17 07:54:51] INFO root fetch - main [MainThread]: Store serial: [23248742]

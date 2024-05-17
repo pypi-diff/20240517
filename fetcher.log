@@ -16603,3 +16603,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:06:42] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
 [2024-05-17 09:06:42] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
 [2024-05-17 09:06:42] INFO root fetch - main [MainThread]: Store serial: [23249471]
+[2024-05-17 09:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249471]
+[2024-05-17 09:08:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptflow
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nemo2riva
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-slack
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rancher2
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-riva-client
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: okareo
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-objectbox
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fennel-ai
+[2024-05-17 09:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: locust
+[2024-05-17 09:08:58] INFO root fetch - processPackages [promptflow]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [nemo2riva]: New version: [2.9.0] Old Version: [2.15.1]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/f0/6f/51cb0283b12115e724744081fdb4d93250bebda5ec967df66d7d854482d5/promptflow-1.8.0-py3-none-any.whl
+[2024-05-17 09:08:58] INFO root fetch - processPackages [langchain-objectbox]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [okareo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [nvidia-riva-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1715928337] Old Version: [0.5.0a1715764245]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715927695] Old Version: [6.2.0a1715763675]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/29/8b/fce834f275deedf78c2cd53bd82aed7b1f61ed5492478e501e72d8f8b4b3/fennel_ai-1.3.8.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [nemo2riva]: Downloading https://files.pythonhosted.org/packages/16/29/8b0302c943a5db298d7c04ca5c3e6ba3181267490cc5cc73b465ee867e83/nemo2riva-2.15.1-py3-none-any.whl
+[2024-05-17 09:08:58] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-17 09:08:58] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/bd/c6/bb7818dc595ba7fcf52dc836a6e0562ae7ee702fcef87c6ef3a733f7efb0/pulumi_rancher2-6.2.0a1715763675.tar.gz
+[2024-05-17 09:08:58] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207351>=10485760
+[2024-05-17 09:08:58] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-17 09:08:58] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/54/f1/131d0ea16e3b4d8203def8bb39dfc821716ed4fad106d3fa0516adcff1c7/promptflow-1.9.0-py3-none-any.whl
+[2024-05-17 09:08:58] INFO root fetch - processPackages [langchain-objectbox]: Downloading https://files.pythonhosted.org/packages/54/c4/0fc064d137300a8f5deca20640543fdc08901a5066a3593dc91edbbc9d02/langchain_objectbox-0.1.0a3.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/18/96/fbddf5611512c68bf19cf900058a104fa5564b54b0ea0452bcacad120aaa/okareo-0.0.8.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [nvidia-riva-client]: Downloading https://files.pythonhosted.org/packages/7d/a4/8211998d26b0bf39b325d873b1bceeac71e3952ed70489a447b7972ef645/nvidia_riva_client-2.8.0-py3-none-any.whl
+[2024-05-17 09:08:58] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/01/63/d6fea48e962c3c19eacc3cfd1fcdec899a1494584e4270e715b664e3ff74/pulumi_slack-0.5.0a1715764245.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [promptflow]: executing diffoscope
+[2024-05-17 09:08:58] INFO root fetch - processPackages [promptflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow-1.8.0-py3-none-any.whl.zip tmp/promptflow-1.9.0-py3-none-any.whl.zip --markdown 20240517/p/promptflow/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:08:58] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [nemo2riva]: Downloading https://files.pythonhosted.org/packages/f2/05/6a4b6f8bafcc5db65f9c6cd51579af847eac44470fa2dcec80ec2e38e1bb/nemo2riva-2.9.0-py3-none-any.whl
+[2024-05-17 09:08:58] INFO root fetch - processPackages [langchain-objectbox]: Downloading https://files.pythonhosted.org/packages/17/55/e50b62747f45faf5e44e0d8d4c4d8cccbc2bf7276b37fe2db13a893460a9/langchain_objectbox-0.1.0a4.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/95/07/b2853d2b1459bca7a6f69051c0f3df022f56bc34abf01560972b0ca84d76/pulumi_slack-0.5.0a1715928337.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/49/0e/08d01e48fd459e1b9d1fe858640dbe2f5d9714f16036639797744cecdf36/pulumi_rancher2-6.2.0a1715927695.tar.gz
+[2024-05-17 09:08:58] INFO root fetch - processPackages [okareo]: Downloading https://files.pythonhosted.org/packages/01/4e/9acae98a4a269d0d02e75ffb72ded2a238371b5382ab719a49fcd70f9394/okareo-0.0.9.tar.gz
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nemo2riva]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nemo2riva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo2riva-2.15.1-py3-none-any.whl.zip tmp/nemo2riva-2.9.0-py3-none-any.whl.zip --markdown 20240517/n/nemo2riva/2.15.1-2.9.0/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nvidia-riva-client]: Downloading https://files.pythonhosted.org/packages/c3/f0/87cce28847a882918f14d6b4a492b6f75d7ba6dc1b5409529278d9a125c2/nvidia_riva_client-2.9.0-py3-none-any.whl
+[2024-05-17 09:08:59] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1715764245.tar.gz tmp/pulumi_slack-0.5.0a1715928337.tar.gz --markdown 20240517/p/pulumi-slack/0.5.0a1715764245-0.5.0a1715928337/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [langchain-objectbox]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [langchain-objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_objectbox-0.1.0a3.tar.gz tmp/langchain_objectbox-0.1.0a4.tar.gz --markdown 20240517/l/langchain-objectbox/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715763675.tar.gz tmp/pulumi_rancher2-6.2.0a1715927695.tar.gz --markdown 20240517/p/pulumi-rancher2/6.2.0a1715763675-6.2.0a1715927695/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nvidia-riva-client]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nvidia-riva-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_riva_client-2.8.0-py3-none-any.whl.zip tmp/nvidia_riva_client-2.9.0-py3-none-any.whl.zip --markdown 20240517/n/nvidia-riva-client/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-17 09:08:59] INFO root fetch - processPackages [okareo]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [okareo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okareo-0.0.8.tar.gz tmp/okareo-0.0.9.tar.gz --markdown 20240517/o/okareo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:08:59] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:08:59] INFO root fetch - main [MainThread]: End processing [promptflow]: success
+[2024-05-17 09:08:59] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-17 09:08:59] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240517/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-17 09:08:59] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715764245.tar.gz]
+[2024-05-17 09:08:59] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715928337.tar.gz]
+[2024-05-17 09:08:59] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nemo2riva]: Remove: archive file [/home/abi/fetcher/tmp/nemo2riva-2.15.1-py3-none-any.whl.zip]
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nemo2riva]: Remove: archive file [/home/abi/fetcher/tmp/nemo2riva-2.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:08:59] INFO root fetch - main [MainThread]: End processing [nemo2riva]: success
+[2024-05-17 09:08:59] INFO root fetch - processPackages [langchain-objectbox]: Remove: archive file [/home/abi/fetcher/tmp/langchain_objectbox-0.1.0a3.tar.gz]
+[2024-05-17 09:08:59] INFO root fetch - processPackages [langchain-objectbox]: Remove: archive file [/home/abi/fetcher/tmp/langchain_objectbox-0.1.0a4.tar.gz]
+[2024-05-17 09:08:59] INFO root fetch - main [MainThread]: End processing [langchain-objectbox]: success
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nvidia-riva-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_riva_client-2.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:08:59] INFO root fetch - processPackages [nvidia-riva-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_riva_client-2.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:08:59] INFO root fetch - main [MainThread]: End processing [nvidia-riva-client]: success
+[2024-05-17 09:09:00] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.8.tar.gz]
+[2024-05-17 09:09:00] INFO root fetch - processPackages [okareo]: Remove: archive file [/home/abi/fetcher/tmp/okareo-0.0.9.tar.gz]
+[2024-05-17 09:09:00] INFO root fetch - main [MainThread]: End processing [okareo]: success
+[2024-05-17 09:09:00] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715763675.tar.gz]
+[2024-05-17 09:09:00] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715927695.tar.gz]
+[2024-05-17 09:09:00] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-17 09:09:00] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-17 09:09:00] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-17 09:09:00] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-17 09:09:00] INFO root fetch - main [MainThread]: Store serial: [23249492]

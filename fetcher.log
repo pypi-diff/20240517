@@ -21498,3 +21498,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:39:41] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.7.tar.gz]
 [2024-05-17 11:39:41] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2024-05-17 11:39:41] INFO root fetch - main [MainThread]: Store serial: [23251547]
+[2024-05-17 11:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251547]
+[2024-05-17 11:42:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zigzag-dse
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: burial-mounds
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cns
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alsina2011
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdc-dp-helpers
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MuonDataLib
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-oauth2server
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: colourmap
+[2024-05-17 11:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iac-init
+[2024-05-17 11:42:14] WARNING root fetch - processPackages [burial-mounds]: Skipping, unable to determine old version
+[2024-05-17 11:42:14] INFO root fetch - main [MainThread]: End processing [burial-mounds] error
+[2024-05-17 11:42:14] INFO root fetch - processPackages [colourmap]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [bagbag]: New version: [0.68.7] Old Version: [0.68.6]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [iac-init]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [invenio-oauth2server]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [sdc-dp-helpers]: New version: [1.3.99] Old Version: [1.3.97]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [cns]: New version: [1.9.39] Old Version: [1.9.38]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [alsina2011]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [MuonDataLib]: New version: [0.5.0b1] Old Version: [0.5.0b0]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [zigzag-dse]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-05-17 11:42:14] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/dc/68/9b0f86351207fcacbd6890053fd34cc345566640f5dce5126af3387be6cb/bagbag-0.68.6.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1f/c0/3e2e7458c9b070fae72f5bc6e54520efa8a17e499b82e9db87da901007cd/iac_init-0.6.2.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/a2/fd/7b1b5f8619d1f757f03d2707c3597381eb53fc6088f84b8a46425c11fae0/sdc_dp_helpers-1.3.97.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [invenio-oauth2server]: Downloading https://files.pythonhosted.org/packages/7c/e1/b2d117cd7be140347210fc779740094b4add6c1c0d150bfc4d56c964099f/invenio-oauth2server-2.2.1.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/58/6b/ec929da041286efa25a7f805c35dbc9bb031b6d5802954624c493e028e3d/cns-1.9.38-py3-none-any.whl
+[2024-05-17 11:42:14] INFO root fetch - processPackages [colourmap]: Downloading https://files.pythonhosted.org/packages/c4/a4/4508fc1de4adb6533fe24517d041619a69ad0cc1ac371c0e4fd21ec77ea8/colourmap-1.1.8.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/44/d6/c97b9dbb51a92f6c647010c5e6fe3d1c6e7b53cb440310aa4f08e0adfcf1/zigzag_dse-3.1.0.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [MuonDataLib]: Downloading https://files.pythonhosted.org/packages/f2/7b/35052142ac6f0aaf981af6bcdac3d2dd6309a8fe1a2e549f75463f9753b9/muondatalib-0.5.0b0.tar.gz
+[2024-05-17 11:42:14] INFO root fetch - processPackages [alsina2011]: Downloading https://files.pythonhosted.org/packages/43/a1/703e7f5039dd8916503828b25b8747c070c710eb3f4d0aa9850c82cc7c7f/alsina2011-1.0.0.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/11/ed28ea255dc9b418d7800575b0fb16cbbbb110f8ceb3b9188e4eef3c7594/bagbag-0.68.7.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/59/c0/a4c6733832d99878d52f22bb18491ffe1c850c8ec9bb687317055858edf8/iac_init-0.6.3.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [invenio-oauth2server]: Downloading https://files.pythonhosted.org/packages/37/5e/ae9954873860547873c74ab8a59f6f5bbb3c676e567175a1ec972d8d41d1/invenio-oauth2server-2.3.0.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/c3/5b/db816f850924284f4eab37f6dcecbe2f031fd3c2451a74bc0448d7b96768/sdc_dp_helpers-1.3.99.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.6.2.tar.gz tmp/iac_init-0.6.3.tar.gz --markdown 20240517/i/iac-init/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.6.tar.gz tmp/bagbag-0.68.7.tar.gz --markdown 20240517/b/bagbag/0.68.6-0.68.7/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [colourmap]: Downloading https://files.pythonhosted.org/packages/5b/c4/7c0ddc64d4baeba492f5e1c9df509acce27b612f824540996bf1b7f8371d/colourmap-1.1.9.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [alsina2011]: Downloading https://files.pythonhosted.org/packages/ed/78/665fd75f2ceb53c2e4bad0e84ddc6c15922b63f1095aef3e8cb65feffea0/alsina2011-1.1.0.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [MuonDataLib]: Downloading https://files.pythonhosted.org/packages/39/0b/2b8d82e9713515274b0a77b69fc85eac29e781f4cf85c5ad44dc8886c724/muondatalib-0.5.0b1.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/26/68/7a4b0523bfc094d41653a68db8194e21de0d70c95567eebd9304b309c3c7/cns-1.9.39-py3-none-any.whl
+[2024-05-17 11:42:15] INFO root fetch - processPackages [invenio-oauth2server]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [invenio-oauth2server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-oauth2server-2.2.1.tar.gz tmp/invenio-oauth2server-2.3.0.tar.gz --markdown 20240517/i/invenio-oauth2server/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [sdc-dp-helpers]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [sdc-dp-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_dp_helpers-1.3.97.tar.gz tmp/sdc_dp_helpers-1.3.99.tar.gz --markdown 20240517/s/sdc-dp-helpers/1.3.97-1.3.99/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [colourmap]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [colourmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colourmap-1.1.8.tar.gz tmp/colourmap-1.1.9.tar.gz --markdown 20240517/c/colourmap/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [alsina2011]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [alsina2011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alsina2011-1.0.0.tar.gz tmp/alsina2011-1.1.0.tar.gz --markdown 20240517/a/alsina2011/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [MuonDataLib]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [MuonDataLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muondatalib-0.5.0b0.tar.gz tmp/muondatalib-0.5.0b1.tar.gz --markdown 20240517/M/MuonDataLib/0.5.0b0-0.5.0b1/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [cns]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.9.38-py3-none-any.whl.zip tmp/cns-1.9.39-py3-none-any.whl.zip --markdown 20240517/c/cns/1.9.38-1.9.39/README.md --exclude *.pyd
+[2024-05-17 11:42:15] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/c6/6d/129a49c62b4a60bdd3247fdd58ccf2bbf2f36341ba20d03fbfd455ae1b91/zigzag_dse-3.1.1.tar.gz
+[2024-05-17 11:42:15] INFO root fetch - processPackages [zigzag-dse]: executing diffoscope
+[2024-05-17 11:42:15] INFO root fetch - processPackages [zigzag-dse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigzag_dse-3.1.0.tar.gz tmp/zigzag_dse-3.1.1.tar.gz --markdown 20240517/z/zigzag-dse/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-05-17 11:42:16] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.2.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.3.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-17 11:42:16] INFO root fetch - processPackages [colourmap]: Remove: archive file [/home/abi/fetcher/tmp/colourmap-1.1.8.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [colourmap]: Remove: archive file [/home/abi/fetcher/tmp/colourmap-1.1.9.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [colourmap]: success
+[2024-05-17 11:42:16] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.9.38-py3-none-any.whl.zip]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.9.39-py3-none-any.whl.zip]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2024-05-17 11:42:16] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.97.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.99.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [sdc-dp-helpers]: success
+[2024-05-17 11:42:16] INFO root fetch - processPackages [alsina2011]: Remove: archive file [/home/abi/fetcher/tmp/alsina2011-1.0.0.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [alsina2011]: Remove: archive file [/home/abi/fetcher/tmp/alsina2011-1.1.0.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [alsina2011]: success
+[2024-05-17 11:42:16] INFO root fetch - processPackages [MuonDataLib]: Remove: archive file [/home/abi/fetcher/tmp/muondatalib-0.5.0b0.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [MuonDataLib]: Remove: archive file [/home/abi/fetcher/tmp/muondatalib-0.5.0b1.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [MuonDataLib]: success
+[2024-05-17 11:42:16] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.6.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.7.tar.gz]
+[2024-05-17 11:42:16] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 11:42:17] INFO root fetch - processPackages [invenio-oauth2server]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauth2server-2.2.1.tar.gz]
+[2024-05-17 11:42:17] INFO root fetch - processPackages [invenio-oauth2server]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauth2server-2.3.0.tar.gz]
+[2024-05-17 11:42:17] INFO root fetch - main [MainThread]: End processing [invenio-oauth2server]: success
+[2024-05-17 11:42:17] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.0.tar.gz]
+[2024-05-17 11:42:17] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.1.tar.gz]
+[2024-05-17 11:42:17] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
+[2024-05-17 11:42:17] INFO root fetch - main [MainThread]: Store serial: [23251576]

@@ -12230,3 +12230,78 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:21:42] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-9.0.1.tar.gz]
 [2024-05-17 05:21:42] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
 [2024-05-17 05:21:42] INFO root fetch - main [MainThread]: Store serial: [23247764]
+[2024-05-17 05:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247764]
+[2024-05-17 05:23:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-readers-web
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-vector-stores-azureaisearch
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PKDevTools
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-utterance-plugin-cancel
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: altscore
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2024-05-17 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PKNSETools
+[2024-05-17 05:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: html2object
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240516.108] Old Version: [0.1.20240513.106]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240516.118] Old Version: [0.13.20240512.115]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024051603] Old Version: [3.3.3.dev2024051503]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-readers-web]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Downloading https://files.pythonhosted.org/packages/9c/36/e5701195eadd465a391dd17c552439ef568925d269cd9fba787a0032b042/llama_index_vector_stores_azureaisearch-0.1.5.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/f0/66/f0d3da8887b9984989029b56c40c8648d4349bb056d2b3a57aaef44106dd/PKNSETools-0.1.20240513.106.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/32/eb/fe20cd461aaa39414ed49dca468742f68ae87d6b1f63cae5e2f5a196cd2a/PKDevTools-0.13.20240512.115.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [html2object]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-17 05:23:51] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/ec/c2/5a3b1062f8db12002f79a72b6f1f59381fb05273bcdd73728bccf4364d10/keras_nightly-3.3.3.dev2024051503.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: Downloading https://files.pythonhosted.org/packages/63/53/6bce45f905e81ca9247260625db8af4a35ca8b1f2f017a63a19d2c930102/ovos_utterance_plugin_cancel-0.0.1a2-py3-none-any.whl
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/41/30/f0a9b5b9942a884a82dd47ccc650d77fa490627945042c8a88f2846837e8/llama_index_readers_web-0.1.8.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Downloading https://files.pythonhosted.org/packages/a4/f2/effb8dc0d3f492417d71ee72be0182fe2242de4c1edba092fc18a284437e/llama_index_vector_stores_azureaisearch-0.1.6.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [html2object]: Downloading https://files.pythonhosted.org/packages/2b/c0/e0024e3eea2b87d028996c389145446b45a4b68431c35393f3b24cd8f42f/html2object-1.0.0.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/c8/1e/2575bb830d38978d7145feb6b3048dcdbb3381b85849cd7833371c125ea5/PKNSETools-0.1.20240516.108.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/c4/ec/eab0c68f4e2c72590a90fa19972619cb2f41cc715cf394f76889c45c1e5c/PKDevTools-0.13.20240516.118.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240512.115.tar.gz tmp/PKDevTools-0.13.20240516.118.tar.gz --markdown 20240517/P/PKDevTools/0.13.20240512.115-0.13.20240516.118/README.md --exclude *.pyd
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-05-17 05:23:51] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240513.106.tar.gz tmp/PKNSETools-0.1.20240516.108.tar.gz --markdown 20240517/P/PKNSETools/0.1.20240513.106-0.1.20240516.108/README.md --exclude *.pyd
+[2024-05-17 05:23:51] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-05-17 05:23:51] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240517/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-17 05:23:51] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/f4/c7/838e9a70c12c3a686a43ed2f3446495e288eeda34f5c6beb0f2e4d86d5ff/keras_nightly-3.3.3.dev2024051603.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: executing diffoscope
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_azureaisearch-0.1.5.tar.gz tmp/llama_index_vector_stores_azureaisearch-0.1.6.tar.gz --markdown 20240517/l/llama-index-vector-stores-azureaisearch/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 05:23:51] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: Downloading https://files.pythonhosted.org/packages/58/b7/a854fc7f326d8c3bac80abcbebc612871b7341c4b38cf53e56d6c51c5a4f/ovos_utterance_plugin_cancel-0.0.1a3-py3-none-any.whl
+[2024-05-17 05:23:51] INFO root fetch - processPackages [html2object]: Downloading https://files.pythonhosted.org/packages/f5/28/f22104f1d02a40ad4862b956b4a82fed9ec64f4e59760b2ea1101a095a3b/html2object-1.1.0.tar.gz
+[2024-05-17 05:23:51] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/80/7d/000003000811a7cc0a90a8b0b5a0d488b1dc29ade556562a3aa034792793/llama_index_readers_web-0.1.9.tar.gz
+[2024-05-17 05:23:52] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-17 05:23:52] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024051503.tar.gz tmp/keras_nightly-3.3.3.dev2024051603.tar.gz --markdown 20240517/k/keras-nightly/3.3.3.dev2024051503-3.3.3.dev2024051603/README.md --exclude *.pyd
+[2024-05-17 05:23:52] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: executing diffoscope
+[2024-05-17 05:23:52] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utterance_plugin_cancel-0.0.1a2-py3-none-any.whl.zip tmp/ovos_utterance_plugin_cancel-0.0.1a3-py3-none-any.whl.zip --markdown 20240517/o/ovos-utterance-plugin-cancel/0.0.1a2-0.0.1a3/README.md --exclude *.pyd
+[2024-05-17 05:23:52] INFO root fetch - processPackages [llama-index-readers-web]: executing diffoscope
+[2024-05-17 05:23:52] INFO root fetch - processPackages [llama-index-readers-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_web-0.1.8.tar.gz tmp/llama_index_readers_web-0.1.9.tar.gz --markdown 20240517/l/llama-index-readers-web/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 05:23:52] INFO root fetch - processPackages [html2object]: executing diffoscope
+[2024-05-17 05:23:52] INFO root fetch - processPackages [html2object]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2object-1.0.0.tar.gz tmp/html2object-1.1.0.tar.gz --markdown 20240517/h/html2object/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-17 05:23:52] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_azureaisearch-0.1.5.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [llama-index-vector-stores-azureaisearch]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_azureaisearch-0.1.6.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-azureaisearch]: success
+[2024-05-17 05:23:52] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240512.115.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240516.118.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-05-17 05:23:52] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240513.106.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240516.108.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-05-17 05:23:52] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-05-17 05:23:52] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utterance_plugin_cancel-0.0.1a2-py3-none-any.whl.zip]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [ovos-utterance-plugin-cancel]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utterance_plugin_cancel-0.0.1a3-py3-none-any.whl.zip]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [ovos-utterance-plugin-cancel]: success
+[2024-05-17 05:23:52] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.8.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.9.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [llama-index-readers-web]: success
+[2024-05-17 05:23:52] INFO root fetch - processPackages [html2object]: Remove: archive file [/home/abi/fetcher/tmp/html2object-1.0.0.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - processPackages [html2object]: Remove: archive file [/home/abi/fetcher/tmp/html2object-1.1.0.tar.gz]
+[2024-05-17 05:23:52] INFO root fetch - main [MainThread]: End processing [html2object]: success
+[2024-05-17 05:23:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051503.tar.gz]
+[2024-05-17 05:23:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051603.tar.gz]
+[2024-05-17 05:23:54] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-17 05:23:54] INFO root fetch - main [MainThread]: Store serial: [23247787]

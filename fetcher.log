@@ -11275,3 +11275,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:18:20] INFO root fetch - processPackages [raise-utils]: Remove: archive file [/home/abi/fetcher/tmp/raise_utils-2.2.2.tar.gz]
 [2024-05-17 04:18:20] INFO root fetch - main [MainThread]: End processing [raise-utils]: success
 [2024-05-17 04:18:20] INFO root fetch - main [MainThread]: Store serial: [23247428]
+[2024-05-17 04:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247428]
+[2024-05-17 04:20:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 04:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tesla-fleet-api
+[2024-05-17 04:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goodpy
+[2024-05-17 04:20:30] INFO root fetch - processPackages [goodpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-17 04:20:30] INFO root fetch - processPackages [tesla-fleet-api]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-17 04:20:30] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/b9/6c/f480f4287769636e25f5d5fe274c2b29bb105fd37c1062202c795d0f4d89/goodpy-0.0.6-py2.py3-none-any.whl
+[2024-05-17 04:20:30] INFO root fetch - processPackages [tesla-fleet-api]: Downloading https://files.pythonhosted.org/packages/a8/43/22557f5eee1dcbb990fc879c88f0eabf17ee6ceed249b0680f354698798e/tesla_fleet_api-0.5.8.tar.gz
+[2024-05-17 04:20:30] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/7f/2f/d50bbd602dabd798aa0677a1d1b1dff5b0aa82315bce3da3bbcecbc71b71/goodpy-0.0.7-py2.py3-none-any.whl
+[2024-05-17 04:20:30] INFO root fetch - processPackages [goodpy]: executing diffoscope
+[2024-05-17 04:20:30] INFO root fetch - processPackages [goodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodpy-0.0.6-py2.py3-none-any.whl.zip tmp/goodpy-0.0.7-py2.py3-none-any.whl.zip --markdown 20240517/g/goodpy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-17 04:20:31] INFO root fetch - processPackages [tesla-fleet-api]: Downloading https://files.pythonhosted.org/packages/05/b5/2095dab08ad055d1a9d7d6fb069e7e1febca6ec8343a72456b3ff6cce41e/tesla_fleet_api-0.5.9.tar.gz
+[2024-05-17 04:20:31] INFO root fetch - processPackages [tesla-fleet-api]: executing diffoscope
+[2024-05-17 04:20:31] INFO root fetch - processPackages [tesla-fleet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla_fleet_api-0.5.8.tar.gz tmp/tesla_fleet_api-0.5.9.tar.gz --markdown 20240517/t/tesla-fleet-api/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-17 04:20:31] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-17 04:20:31] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.7-py2.py3-none-any.whl.zip]
+[2024-05-17 04:20:31] INFO root fetch - main [MainThread]: End processing [goodpy]: success
+[2024-05-17 04:20:31] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.8.tar.gz]
+[2024-05-17 04:20:31] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.9.tar.gz]
+[2024-05-17 04:20:31] INFO root fetch - main [MainThread]: End processing [tesla-fleet-api]: success
+[2024-05-17 04:20:31] INFO root fetch - main [MainThread]: Store serial: [23247433]

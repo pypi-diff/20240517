@@ -2948,3 +2948,39 @@
 [2024-05-17 02:41:45] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.7.0.tar.gz]
 [2024-05-17 02:41:45] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
 [2024-05-17 02:41:45] INFO root fetch - main [MainThread]: Store serial: [23244592]
+[2024-05-17 02:43:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244592]
+[2024-05-17 02:43:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 02:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exploration
+[2024-05-17 02:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlure
+[2024-05-17 02:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-large-scale-prediction
+[2024-05-17 02:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gendc-python
+[2024-05-17 02:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sfkijwezdovspmkf
+[2024-05-17 02:43:53] INFO root fetch - processPackages [gendc-python]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-17 02:43:53] INFO root fetch - processPackages [gendc-python]: Downloading https://files.pythonhosted.org/packages/3e/b4/6b16b833408b20b93a6f967bf983d9e2dd9eb2a6c6e7308dceede04fb32c/gendc_python-0.2.4-py3-none-any.whl
+[2024-05-17 02:43:53] WARNING root fetch - processPackages [aind-large-scale-prediction]: Skipping, unable to determine old version
+[2024-05-17 02:43:53] INFO root fetch - main [MainThread]: End processing [aind-large-scale-prediction] error
+[2024-05-17 02:43:53] INFO root fetch - processPackages [exploration]: New version: [0.7.4] Old Version: [0.7.2]
+[2024-05-17 02:43:53] INFO root fetch - processPackages [torchlure]: New version: [0.2405.2] Old Version: [0.2405.1.dev1]
+[2024-05-17 02:43:53] WARNING root fetch - processPackages [sfkijwezdovspmkf]: Skipping, unable to determine old version
+[2024-05-17 02:43:53] INFO root fetch - main [MainThread]: End processing [sfkijwezdovspmkf] error
+[2024-05-17 02:43:54] INFO root fetch - processPackages [torchlure]: Downloading https://files.pythonhosted.org/packages/05/46/6dc038a09acfb2d1f4f9c44c52b963d71b8195936dd6aad9179e5050bb8d/torchlure-0.2405.1.dev1.tar.gz
+[2024-05-17 02:43:54] INFO root fetch - processPackages [exploration]: Downloading https://files.pythonhosted.org/packages/22/0d/d3912cb08ecd05febb2b371d324cd1dead53a43f8087d11a2cb6b8f10348/exploration-0.7.2.tar.gz
+[2024-05-17 02:43:54] INFO root fetch - processPackages [gendc-python]: Downloading https://files.pythonhosted.org/packages/72/59/753a63e56a378d0ff51354b0ac2b1f76b84e7471fc81b96527da7ed28a34/gendc_python-0.2.5-py3-none-any.whl
+[2024-05-17 02:43:54] INFO root fetch - processPackages [gendc-python]: executing diffoscope
+[2024-05-17 02:43:54] INFO root fetch - processPackages [gendc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gendc_python-0.2.4-py3-none-any.whl.zip tmp/gendc_python-0.2.5-py3-none-any.whl.zip --markdown 20240517/g/gendc-python/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-17 02:43:54] INFO root fetch - processPackages [torchlure]: Downloading https://files.pythonhosted.org/packages/b7/07/0c8361be2b0d00f983ef1c58e42f05b742b868d7635b4c186dfc83ca4cf0/torchlure-0.2405.2.tar.gz
+[2024-05-17 02:43:54] INFO root fetch - processPackages [exploration]: Downloading https://files.pythonhosted.org/packages/8a/2d/ea257cba9541a27f350f334f7e7741bc790c599fd08bcac43725a3c66ab1/exploration-0.7.4.tar.gz
+[2024-05-17 02:43:54] INFO root fetch - processPackages [torchlure]: executing diffoscope
+[2024-05-17 02:43:54] INFO root fetch - processPackages [torchlure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlure-0.2405.1.dev1.tar.gz tmp/torchlure-0.2405.2.tar.gz --markdown 20240517/t/torchlure/0.2405.1.dev1-0.2405.2/README.md --exclude *.pyd
+[2024-05-17 02:43:54] INFO root fetch - processPackages [exploration]: executing diffoscope
+[2024-05-17 02:43:54] INFO root fetch - processPackages [exploration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exploration-0.7.2.tar.gz tmp/exploration-0.7.4.tar.gz --markdown 20240517/e/exploration/0.7.2-0.7.4/README.md --exclude *.pyd
+[2024-05-17 02:43:54] INFO root fetch - processPackages [gendc-python]: Remove: archive file [/home/abi/fetcher/tmp/gendc_python-0.2.4-py3-none-any.whl.zip]
+[2024-05-17 02:43:54] INFO root fetch - processPackages [gendc-python]: Remove: archive file [/home/abi/fetcher/tmp/gendc_python-0.2.5-py3-none-any.whl.zip]
+[2024-05-17 02:43:54] INFO root fetch - main [MainThread]: End processing [gendc-python]: success
+[2024-05-17 02:43:55] INFO root fetch - processPackages [torchlure]: Remove: archive file [/home/abi/fetcher/tmp/torchlure-0.2405.1.dev1.tar.gz]
+[2024-05-17 02:43:55] INFO root fetch - processPackages [torchlure]: Remove: archive file [/home/abi/fetcher/tmp/torchlure-0.2405.2.tar.gz]
+[2024-05-17 02:43:55] INFO root fetch - main [MainThread]: End processing [torchlure]: success
+[2024-05-17 02:43:55] INFO root fetch - processPackages [exploration]: Remove: archive file [/home/abi/fetcher/tmp/exploration-0.7.2.tar.gz]
+[2024-05-17 02:43:55] INFO root fetch - processPackages [exploration]: Remove: archive file [/home/abi/fetcher/tmp/exploration-0.7.4.tar.gz]
+[2024-05-17 02:43:55] INFO root fetch - main [MainThread]: End processing [exploration]: success
+[2024-05-17 02:43:55] INFO root fetch - main [MainThread]: Store serial: [23244606]

@@ -16192,3 +16192,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:52:59] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.4.tar.gz]
 [2024-05-17 08:52:59] INFO root fetch - main [MainThread]: End processing [g3tables]: success
 [2024-05-17 08:52:59] INFO root fetch - main [MainThread]: Store serial: [23249327]
+[2024-05-17 08:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249327]
+[2024-05-17 08:55:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g3projects
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbo-bbo
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autotuning_methodology
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalellm
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyventim
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snappi
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-onelogin
+[2024-05-17 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbo-calibcam
+[2024-05-17 08:55:08] INFO root fetch - processPackages [snappi]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-17 08:55:08] WARNING root fetch - processPackages [scalellm]: Skipping, unable to determine old version
+[2024-05-17 08:55:08] INFO root fetch - main [MainThread]: End processing [scalellm] error
+[2024-05-17 08:55:08] WARNING root fetch - processPackages [pyventim]: Skipping, unable to determine old version
+[2024-05-17 08:55:08] INFO root fetch - main [MainThread]: End processing [pyventim] error
+[2024-05-17 08:55:08] INFO root fetch - processPackages [bbo-bbo]: New version: [0.2.9] Old Version: [0.2.6]
+[2024-05-17 08:55:08] INFO root fetch - processPackages [g3projects]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-17 08:55:08] INFO root fetch - processPackages [autotuning_methodology]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2024-05-17 08:55:08] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1715926867] Old Version: [0.7.0a1715762143]
+[2024-05-17 08:55:08] INFO root fetch - processPackages [bbo-calibcam]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-17 08:55:08] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/28/ad/dd89dc68872cabcd5050f881b9c10bb11d29172ad022899896e7324fb0ef/snappi-1.3.0.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [g3projects]: Downloading https://files.pythonhosted.org/packages/a1/8b/c929621cc5876ea31c31d687fab732b4942785779e93cac65413af1320c9/g3projects-0.2.2.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-bbo]: Downloading https://files.pythonhosted.org/packages/84/10/86db2a6e25fc19f1a55454ce2fc576726a207d516394963fed8e7abfe1fe/bbo_bbo-0.2.6.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/dc/d0/1d2e7ab3197b3257b45f430542175598a8591d5156dd83d9cc147ab92549/pulumi_onelogin-0.7.0a1715762143.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [autotuning_methodology]: Downloading https://files.pythonhosted.org/packages/65/87/09b6a600bdb9b63e3d290e416e36bde9ef408682beb84dc9a1f4b2e681e7/autotuning_methodology-1.0.0b2.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/da/7a/29730ba2491790690eddd42c2461d21822b786186203b0904c6b2b2a6ca3/bbo-calibcam-2.4.1.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [g3projects]: Downloading https://files.pythonhosted.org/packages/3d/eb/1279bdeff5a7c0cbb50ad9c9e6b4693f1f49967f84f3be92919f06c7af35/g3projects-0.2.3.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/1b/c6/33fde32fb3ea4cc3cf53d32d00362fc14ef48dae05c993b52498dcff7b37/snappi-1.4.0.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-bbo]: Downloading https://files.pythonhosted.org/packages/23/34/fdfac43f0a3e78ceb13e6d9976813c7791d6828a8625b5cd65d93a10db63/bbo_bbo-0.2.9.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/a5/1a/4d9a5bd0134d274ae510f5e7389abfbd0387589a499d5903fa3e1185b1b1/pulumi_onelogin-0.7.0a1715926867.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [g3projects]: executing diffoscope
+[2024-05-17 08:55:09] INFO root fetch - processPackages [g3projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3projects-0.2.2.tar.gz tmp/g3projects-0.2.3.tar.gz --markdown 20240517/g/g3projects/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/32/3b/5b7b7d8b3f23786e462156f3e1732291ddd3511ba799bc10b04066074395/bbo_calibcam-2.4.2-py3-none-any.whl
+[2024-05-17 08:55:09] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2024-05-17 08:55:09] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-1.3.0.tar.gz tmp/snappi-1.4.0.tar.gz --markdown 20240517/s/snappi/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-bbo]: executing diffoscope
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-bbo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo_bbo-0.2.6.tar.gz tmp/bbo_bbo-0.2.9.tar.gz --markdown 20240517/b/bbo-bbo/0.2.6-0.2.9/README.md --exclude *.pyd
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-calibcam]: executing diffoscope
+[2024-05-17 08:55:09] INFO root fetch - processPackages [bbo-calibcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-calibcam-2.4.1.tar.gz tmp/bbo_calibcam-2.4.2-py3-none-any.whl.zip --markdown 20240517/b/bbo-calibcam/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-17 08:55:09] INFO root fetch - processPackages [autotuning_methodology]: Downloading https://files.pythonhosted.org/packages/d8/04/9461195fecb61a36dd02a474ee5c298ffd838f1fc1b5a829880a1fe46880/autotuning_methodology-1.0.0b3.tar.gz
+[2024-05-17 08:55:09] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-17 08:55:09] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1715762143.tar.gz tmp/pulumi_onelogin-0.7.0a1715926867.tar.gz --markdown 20240517/p/pulumi-onelogin/0.7.0a1715762143-0.7.0a1715926867/README.md --exclude *.pyd
+[2024-05-17 08:55:10] INFO root fetch - processPackages [g3projects]: Remove: archive file [/home/abi/fetcher/tmp/g3projects-0.2.2.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - processPackages [g3projects]: Remove: archive file [/home/abi/fetcher/tmp/g3projects-0.2.3.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - main [MainThread]: End processing [g3projects]: success
+[2024-05-17 08:55:10] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo-calibcam-2.4.1.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo_calibcam-2.4.2-py3-none-any.whl.zip]
+[2024-05-17 08:55:10] INFO root fetch - main [MainThread]: End processing [bbo-calibcam]: success
+[2024-05-17 08:55:10] INFO root fetch - processPackages [bbo-bbo]: Remove: archive file [/home/abi/fetcher/tmp/bbo_bbo-0.2.6.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - processPackages [bbo-bbo]: Remove: archive file [/home/abi/fetcher/tmp/bbo_bbo-0.2.9.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - main [MainThread]: End processing [bbo-bbo]: success
+[2024-05-17 08:55:10] INFO root fetch - processPackages [autotuning_methodology]: executing diffoscope
+[2024-05-17 08:55:10] INFO root fetch - processPackages [autotuning_methodology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotuning_methodology-1.0.0b2.tar.gz tmp/autotuning_methodology-1.0.0b3.tar.gz --markdown 20240517/a/autotuning_methodology/1.0.0b2-1.0.0b3/README.md --exclude *.pyd
+[2024-05-17 08:55:10] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715762143.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715926867.tar.gz]
+[2024-05-17 08:55:10] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-17 08:55:11] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b2.tar.gz]
+[2024-05-17 08:55:11] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b3.tar.gz]
+[2024-05-17 08:55:11] INFO root fetch - main [MainThread]: End processing [autotuning_methodology]: success
+[2024-05-17 08:55:12] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-1.3.0.tar.gz]
+[2024-05-17 08:55:12] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-1.4.0.tar.gz]
+[2024-05-17 08:55:12] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2024-05-17 08:55:12] INFO root fetch - main [MainThread]: Store serial: [23249349]

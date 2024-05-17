@@ -18271,3 +18271,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:56:07] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.4.tar.gz]
 [2024-05-17 09:56:07] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
 [2024-05-17 09:56:07] INFO root fetch - main [MainThread]: Store serial: [23250155]
+[2024-05-17 09:58:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250155]
+[2024-05-17 09:58:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 09:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glabpkg
+[2024-05-17 09:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2024-05-17 09:58:19] INFO root fetch - processPackages [glabpkg]: New version: [4.0.0] Old Version: [3.1.0]
+[2024-05-17 09:58:19] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/9e/71/656424d7dc4d671df398a64a15883861e1f56c80d93f6199d4c1912ffbe3/glabpkg-3.1.0.tar.gz
+[2024-05-17 09:58:19] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240517] Old Version: [2.17.0.dev20240516]
+[2024-05-17 09:58:19] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/16/c6/685217a6ac4c1a2ea7b58c6bf8031d3c6ee39b87fcf4e738ea0fc026e239/glabpkg-4.0.0.tar.gz
+[2024-05-17 09:58:19] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/3e/22/3e16bab79e81bf09469de80b6a7bba4a4eb8928de6563f5d948b578be531/tf_nightly-2.17.0.dev20240516-cp39-cp39-win_amd64.whl
+[2024-05-17 09:58:19] INFO root fetch - processPackages [glabpkg]: executing diffoscope
+[2024-05-17 09:58:19] INFO root fetch - processPackages [glabpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glabpkg-3.1.0.tar.gz tmp/glabpkg-4.0.0.tar.gz --markdown 20240517/g/glabpkg/3.1.0-4.0.0/README.md --exclude *.pyd
+[2024-05-17 09:58:19] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/10/9f/47e8d4581751309235f50c162c0509b95e613a6c0df9b2de0683d13ff36d/tf_nightly-2.17.0.dev20240517-cp39-cp39-win_amd64.whl
+[2024-05-17 09:58:19] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-17 09:58:19] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240516-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240517-cp39-cp39-win_amd64.whl.zip --markdown 20240517/t/tf-nightly/2.17.0.dev20240516-2.17.0.dev20240517/README.md --exclude *.pyd
+[2024-05-17 09:58:20] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-3.1.0.tar.gz]
+[2024-05-17 09:58:20] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-4.0.0.tar.gz]
+[2024-05-17 09:58:20] INFO root fetch - main [MainThread]: End processing [glabpkg]: success
+[2024-05-17 09:58:20] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240516-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 09:58:20] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240517-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 09:58:20] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-17 09:58:20] INFO root fetch - main [MainThread]: Store serial: [23250163]

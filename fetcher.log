@@ -11600,3 +11600,42 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:39:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.2.tar.gz]
 [2024-05-17 04:39:04] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2024-05-17 04:39:04] INFO root fetch - main [MainThread]: Store serial: [23247525]
+[2024-05-17 04:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247525]
+[2024-05-17 04:41:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 04:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch
+[2024-05-17 04:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trieve-py-client
+[2024-05-17 04:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aily-code-sdk-core
+[2024-05-17 04:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coretex
+[2024-05-17 04:41:20] INFO root fetch - processPackages [aily-code-sdk-core]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2024-05-17 04:41:20] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-17 04:41:20] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/ae/90/4b75ecf80107c031cd623681d6f2898069a2ae4327c11002b083451e2060/aily_code_sdk_core-0.1.0b1.tar.gz
+[2024-05-17 04:41:20] INFO root fetch - processPackages [trieve-py-client]: New version: [0.8.5] Old Version: [0.8.2]
+[2024-05-17 04:41:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-05-17 04:41:20] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-17 04:41:20] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/f2/57/b8825c07526bf27338aa4d2a63963c067009f8c8b035b6333a1aa5b52c3e/aily_code_sdk_core-0.1.0b2.tar.gz
+[2024-05-17 04:41:20] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/96/8e/f0a7a00b00bb8def68902061c4f544ae96be141c42815ae695220f941dac/trieve_py_client-0.8.2-py3-none-any.whl
+[2024-05-17 04:41:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-05-17 04:41:20] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-05-17 04:41:20] INFO root fetch - processPackages [aily-code-sdk-core]: executing diffoscope
+[2024-05-17 04:41:20] INFO root fetch - processPackages [aily-code-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk_core-0.1.0b1.tar.gz tmp/aily_code_sdk_core-0.1.0b2.tar.gz --markdown 20240517/a/aily-code-sdk-core/0.1.0b1-0.1.0b2/README.md --exclude *.pyd
+[2024-05-17 04:41:20] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-05-17 04:41:20] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240517/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-17 04:41:20] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/d7/9b/b0214baabe39229fb32063f3ead8654c82efe0187eb67fc3983d4c5c3f8a/trieve_py_client-0.8.5-py3-none-any.whl
+[2024-05-17 04:41:20] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-05-17 04:41:20] INFO root fetch - processPackages [trieve-py-client]: executing diffoscope
+[2024-05-17 04:41:20] INFO root fetch - processPackages [trieve-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieve_py_client-0.8.2-py3-none-any.whl.zip tmp/trieve_py_client-0.8.5-py3-none-any.whl.zip --markdown 20240517/t/trieve-py-client/0.8.2-0.8.5/README.md --exclude *.pyd
+[2024-05-17 04:41:20] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-05-17 04:41:20] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240517/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-17 04:41:21] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b1.tar.gz]
+[2024-05-17 04:41:21] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b2.tar.gz]
+[2024-05-17 04:41:21] INFO root fetch - main [MainThread]: End processing [aily-code-sdk-core]: success
+[2024-05-17 04:41:21] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-05-17 04:41:21] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-05-17 04:41:21] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-05-17 04:41:21] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-05-17 04:41:21] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-05-17 04:41:21] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-05-17 04:41:22] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.2-py3-none-any.whl.zip]
+[2024-05-17 04:41:22] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.5-py3-none-any.whl.zip]
+[2024-05-17 04:41:22] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
+[2024-05-17 04:41:22] INFO root fetch - main [MainThread]: Store serial: [23247536]

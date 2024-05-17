@@ -22233,3 +22233,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:05:35] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-05-17 12:05:35] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-05-17 12:05:35] INFO root fetch - main [MainThread]: Store serial: [23251885]
+[2024-05-17 12:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251885]
+[2024-05-17 12:07:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uat-breeze-connect
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-asynctools
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twinlib
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PROMINENT-methylation
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalhoub2017
+[2024-05-17 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zermelo-api-vogk
+[2024-05-17 12:07:44] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 12:07:44] INFO root fetch - processPackages [kcli]: New version: [99.0.202405170951] Old Version: [99.0.202405161150]
+[2024-05-17 12:07:44] INFO root fetch - processPackages [PROMINENT-methylation]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-17 12:07:44] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/3a/3b/c0c0f449e28922959170b3ece0fec9eaae36e9e9c7e2e3a0c46308f430be/zermelo_api_vogk-0.3.8.tar.gz
+[2024-05-17 12:07:44] WARNING root fetch - processPackages [chalhoub2017]: Skipping, unable to determine old version
+[2024-05-17 12:07:44] INFO root fetch - main [MainThread]: End processing [chalhoub2017] error
+[2024-05-17 12:07:44] INFO root fetch - processPackages [python-asynctools]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-05-17 12:07:44] WARNING root fetch - processPackages [twinlib]: Skipping, unable to determine old version
+[2024-05-17 12:07:44] INFO root fetch - main [MainThread]: End processing [twinlib] error
+[2024-05-17 12:07:44] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc38] Old Version: [1.0.14rc37]
+[2024-05-17 12:07:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1f/e1/0e8ee2566176a1daf08c344480a03c2b700fd9f720b2eb5fb58673d9227c/kcli-99.0.202405161150.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/36/96/b083392dba52edd8fc01811f18e9a0cf92be9f7c6b40afdf5f86446ee401/PROMINENT_methylation-0.1.2.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/52/21/8ccd37309bb7538a1e69ddd04a7814f594d9ae60bb3bf3b096de79d126cd/uat_breeze_connect-1.0.14rc37.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [python-asynctools]: Downloading https://files.pythonhosted.org/packages/a9/ef/16c183e648444888f060cc1fea2b88580cd39deb357ecf105b5a4ef88ea4/python_asynctools-0.0.2.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/1c/b9/31e4e920bd13e8b2ca86471dcdb09fd51184a0ae8eca06e82344caad1ac6/zermelo_api_vogk-0.3.9.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-17 12:07:45] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-0.3.8.tar.gz tmp/zermelo_api_vogk-0.3.9.tar.gz --markdown 20240517/z/zermelo-api-vogk/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 12:07:45] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/14/5a/eb2cc649d551dc7e0054cbb8d7633f6c956c59a9361b93a47824e46acdc9/PROMINENT_methylation-0.1.4.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/dc/e4/406f728f32df50a596c4fa0ba042d2c6573835dad0b4c1c88b5676233a49/kcli-99.0.202405170951.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [python-asynctools]: Downloading https://files.pythonhosted.org/packages/ca/02/0f8d9ca147b348cd558c5d9c767dfd5acc52c1d6f8c3f74c8c7ca94b7016/python_asynctools-0.0.2.1.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [PROMINENT-methylation]: executing diffoscope
+[2024-05-17 12:07:45] INFO root fetch - processPackages [PROMINENT-methylation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PROMINENT_methylation-0.1.2.tar.gz tmp/PROMINENT_methylation-0.1.4.tar.gz --markdown 20240517/P/PROMINENT-methylation/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-17 12:07:45] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/5d/7b/1f359182299baafeaecd74991f22e66939b890d7f68a20f084103fe575d0/uat_breeze_connect-1.0.14rc38.tar.gz
+[2024-05-17 12:07:45] INFO root fetch - processPackages [python-asynctools]: executing diffoscope
+[2024-05-17 12:07:45] INFO root fetch - processPackages [python-asynctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_asynctools-0.0.2.tar.gz tmp/python_asynctools-0.0.2.1.tar.gz --markdown 20240517/p/python-asynctools/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-05-17 12:07:45] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2024-05-17 12:07:45] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat_breeze_connect-1.0.14rc37.tar.gz tmp/uat_breeze_connect-1.0.14rc38.tar.gz --markdown 20240517/u/uat-breeze-connect/1.0.14rc37-1.0.14rc38/README.md --exclude *.pyd
+[2024-05-17 12:07:45] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-17 12:07:45] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405161150.tar.gz tmp/kcli-99.0.202405170951.tar.gz --markdown 20240517/k/kcli/99.0.202405161150-99.0.202405170951/README.md --exclude *.pyd
+[2024-05-17 12:07:46] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-0.3.8.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-0.3.9.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-17 12:07:46] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.2.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.4.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - main [MainThread]: End processing [PROMINENT-methylation]: success
+[2024-05-17 12:07:46] INFO root fetch - processPackages [python-asynctools]: Remove: archive file [/home/abi/fetcher/tmp/python_asynctools-0.0.2.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - processPackages [python-asynctools]: Remove: archive file [/home/abi/fetcher/tmp/python_asynctools-0.0.2.1.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - main [MainThread]: End processing [python-asynctools]: success
+[2024-05-17 12:07:46] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat_breeze_connect-1.0.14rc37.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat_breeze_connect-1.0.14rc38.tar.gz]
+[2024-05-17 12:07:46] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2024-05-17 12:07:47] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405161150.tar.gz]
+[2024-05-17 12:07:47] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405170951.tar.gz]
+[2024-05-17 12:07:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-17 12:07:47] INFO root fetch - main [MainThread]: Store serial: [23251911]

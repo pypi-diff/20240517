@@ -15994,3 +15994,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:44:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-05-17 08:44:06] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-05-17 08:44:06] INFO root fetch - main [MainThread]: Store serial: [23249259]
+[2024-05-17 08:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249259]
+[2024-05-17 08:46:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophecy-libs
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacyrerank
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-drafts-resources
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-rdm-records
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WSPP
+[2024-05-17 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lapidary
+[2024-05-17 08:46:16] INFO root fetch - processPackages [spacyrerank]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-17 08:46:16] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-drafts-resources]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-17 08:46:16] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-17 08:46:16] INFO root fetch - processPackages [lapidary]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 08:46:16] WARNING root fetch - processPackages [WSPP]: Skipping, unable to determine old version
+[2024-05-17 08:46:16] INFO root fetch - main [MainThread]: End processing [WSPP] error
+[2024-05-17 08:46:16] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/55/76/33bee869318f0649491daffa2a2a5fe4f4e00803592485578825d34efea0/spacyrerank-0.0.5.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/7b/45/81940eb02fc224da6d2d44395676bbb1afe736ab711768612300c01fbd86/cdk-sops-secrets-1.8.0.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-drafts-resources]: Downloading https://files.pythonhosted.org/packages/ec/3b/16de66ea5e1a67f39c204ad2f8d52b7d8f8898f813ccf817fa9766c85a5e/invenio-drafts-resources-3.0.0.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [lapidary]: Downloading https://files.pythonhosted.org/packages/e2/7a/de17a6c0e2edf456384d23bacdc8bcafddfbb49095df09e25bf69773e504/lapidary-0.8.0.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/bc/2d/1d5d998c5934fd5472ff000a6fb24fd515e09bdb34c38e00d06f30ea629f/spacyrerank-0.0.6.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-17 08:46:16] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240517/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-drafts-resources]: Downloading https://files.pythonhosted.org/packages/90/d2/0b262c0aa3ae43d939d58c3450859ed04eec783bc359e1f583dccee69cab/invenio-drafts-resources-3.1.0.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [spacyrerank]: executing diffoscope
+[2024-05-17 08:46:16] INFO root fetch - processPackages [spacyrerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacyrerank-0.0.5.tar.gz tmp/spacyrerank-0.0.6.tar.gz --markdown 20240517/s/spacyrerank/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-drafts-resources]: executing diffoscope
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-drafts-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-drafts-resources-3.0.0.tar.gz tmp/invenio-drafts-resources-3.1.0.tar.gz --markdown 20240517/i/invenio-drafts-resources/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-17 08:46:16] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-05-17 08:46:16] INFO root fetch - processPackages [lapidary]: Downloading https://files.pythonhosted.org/packages/70/c7/3ab81b125148f95d81a0fe792bc5f2629c7f219092dc187376602c1b3387/lapidary-0.9.0.tar.gz
+[2024-05-17 08:46:17] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/7e/46/519cccd50ec7e39e4f48ec5e601f6e1e91e852648d2520c7e34555797121/cdk-sops-secrets-1.8.1.tar.gz
+[2024-05-17 08:46:17] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-05-17 08:46:17] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240517/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-17 08:46:17] INFO root fetch - processPackages [lapidary]: executing diffoscope
+[2024-05-17 08:46:17] INFO root fetch - processPackages [lapidary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapidary-0.8.0.tar.gz tmp/lapidary-0.9.0.tar.gz --markdown 20240517/l/lapidary/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 08:46:17] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-05-17 08:46:17] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.8.0.tar.gz tmp/cdk-sops-secrets-1.8.1.tar.gz --markdown 20240517/c/cdk-sops-secrets/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-17 08:46:17] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-17 08:46:17] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-17 08:46:17] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-17 08:46:17] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.5.tar.gz]
+[2024-05-17 08:46:17] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.6.tar.gz]
+[2024-05-17 08:46:17] INFO root fetch - main [MainThread]: End processing [spacyrerank]: success
+[2024-05-17 08:46:17] INFO root fetch - processPackages [lapidary]: Remove: archive file [/home/abi/fetcher/tmp/lapidary-0.8.0.tar.gz]
+[2024-05-17 08:46:17] INFO root fetch - processPackages [lapidary]: Remove: archive file [/home/abi/fetcher/tmp/lapidary-0.9.0.tar.gz]
+[2024-05-17 08:46:17] INFO root fetch - main [MainThread]: End processing [lapidary]: success
+[2024-05-17 08:46:18] INFO root fetch - processPackages [invenio-drafts-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-drafts-resources-3.0.0.tar.gz]
+[2024-05-17 08:46:18] INFO root fetch - processPackages [invenio-drafts-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-drafts-resources-3.1.0.tar.gz]
+[2024-05-17 08:46:18] INFO root fetch - main [MainThread]: End processing [invenio-drafts-resources]: success
+[2024-05-17 08:46:18] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.0.tar.gz]
+[2024-05-17 08:46:18] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.1.tar.gz]
+[2024-05-17 08:46:18] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-05-17 08:46:21] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-05-17 08:46:21] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-05-17 08:46:21] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-05-17 08:46:21] INFO root fetch - main [MainThread]: Store serial: [23249282]

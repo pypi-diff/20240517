@@ -1,0 +1,403 @@
+# Comparing `tmp/cdk-sops-secrets-1.8.0.tar.gz` & `tmp/cdk-sops-secrets-1.8.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "cdk-sops-secrets-1.8.0.tar", last modified: Thu May 16 13:57:35 2024, max compression
++gzip compressed data, was "cdk-sops-secrets-1.8.1.tar", last modified: Thu May 16 14:09:28 2024, max compression
+```
+
+## Comparing `cdk-sops-secrets-1.8.0.tar` & `cdk-sops-secrets-1.8.1.tar`
+
+### file list
+
+```diff
+@@ -1,21 +1,21 @@
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 13:57:35.228165 cdk-sops-secrets-1.8.0/
+--rw-r--r--   0 runner    (1001) docker     (127)    11358 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (127)       23 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/MANIFEST.in
+--rw-r--r--   0 runner    (1001) docker     (127)    12662 2024-05-16 13:57:35.228165 cdk-sops-secrets-1.8.0/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)    11721 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/README.md
+--rw-r--r--   0 runner    (1001) docker     (127)      234 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/pyproject.toml
+--rw-r--r--   0 runner    (1001) docker     (127)       38 2024-05-16 13:57:35.228165 cdk-sops-secrets-1.8.0/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (127)     1794 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/setup.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 13:57:35.216165 cdk-sops-secrets-1.8.0/src/
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 13:57:35.216165 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/
+--rw-r--r--   0 runner    (1001) docker     (127)    84982 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/__init__.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 13:57:35.220165 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/_jsii/
+--rw-r--r--   0 runner    (1001) docker     (127)      475 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/_jsii/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)  8966558 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/_jsii/cdk-sops-secrets@1.8.0.jsii.tgz
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-16 13:57:25.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/py.typed
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 13:57:35.220165 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (127)    12662 2024-05-16 13:57:35.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      433 2024-05-16 13:57:35.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-16 13:57:35.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (127)      110 2024-05-16 13:57:35.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       17 2024-05-16 13:57:35.000000 cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/top_level.txt
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 14:09:28.887076 cdk-sops-secrets-1.8.1/
++-rw-r--r--   0 runner    (1001) docker     (127)    11358 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (127)       23 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/MANIFEST.in
++-rw-r--r--   0 runner    (1001) docker     (127)    12662 2024-05-16 14:09:28.887076 cdk-sops-secrets-1.8.1/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)    11721 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/README.md
++-rw-r--r--   0 runner    (1001) docker     (127)      234 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/pyproject.toml
++-rw-r--r--   0 runner    (1001) docker     (127)       38 2024-05-16 14:09:28.887076 cdk-sops-secrets-1.8.1/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (127)     1794 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 14:09:28.871075 cdk-sops-secrets-1.8.1/src/
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 14:09:28.875076 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/
++-rw-r--r--   0 runner    (1001) docker     (127)    84982 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/__init__.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 14:09:28.875076 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/_jsii/
++-rw-r--r--   0 runner    (1001) docker     (127)      475 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/_jsii/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)  8966758 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/_jsii/cdk-sops-secrets@1.8.1.jsii.tgz
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-16 14:09:17.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/py.typed
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-16 14:09:28.875076 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (127)    12662 2024-05-16 14:09:28.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      433 2024-05-16 14:09:28.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-16 14:09:28.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (127)      110 2024-05-16 14:09:28.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       17 2024-05-16 14:09:28.000000 cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/top_level.txt
+```
+
+### Comparing `cdk-sops-secrets-1.8.0/LICENSE` & `cdk-sops-secrets-1.8.1/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `cdk-sops-secrets-1.8.0/PKG-INFO` & `cdk-sops-secrets-1.8.1/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: cdk-sops-secrets
+-Version: 1.8.0
++Version: 1.8.1
+ Summary: CDK Constructs that syncs your sops secrets into AWS SecretsManager secrets.
+ Home-page: https://constructs.dev/packages/cdk-sops-secrets
+ Author: Markus Siebert<markus.siebert@deutschebahn.com>
+ License: Apache-2.0
+ Project-URL: Source, https://github.com/dbsystel/cdk-sops-secrets.git
+ Classifier: Intended Audience :: Developers
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `cdk-sops-secrets-1.8.0/README.md` & `cdk-sops-secrets-1.8.1/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `cdk-sops-secrets-1.8.0/setup.py` & `cdk-sops-secrets-1.8.1/setup.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+ import json
+ import setuptools
+ 
+ kwargs = json.loads(
+     """
+ {
+     "name": "cdk-sops-secrets",
+-    "version": "1.8.0",
++    "version": "1.8.1",
+     "description": "CDK Constructs that syncs your sops secrets into AWS SecretsManager secrets.",
+     "license": "Apache-2.0",
+     "url": "https://constructs.dev/packages/cdk-sops-secrets",
+     "long_description_content_type": "text/markdown",
+     "author": "Markus Siebert<markus.siebert@deutschebahn.com>",
+     "bdist_wheel": {
+         "universal": true
+@@ -22,15 +22,15 @@
+     },
+     "packages": [
+         "cdk_sops_secrets",
+         "cdk_sops_secrets._jsii"
+     ],
+     "package_data": {
+         "cdk_sops_secrets._jsii": [
+-            "cdk-sops-secrets@1.8.0.jsii.tgz"
++            "cdk-sops-secrets@1.8.1.jsii.tgz"
+         ],
+         "cdk_sops_secrets": [
+             "py.typed"
+         ]
+     },
+     "python_requires": "~=3.8",
+     "install_requires": [
+```
+
+### Comparing `cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/__init__.py` & `cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `cdk-sops-secrets-1.8.0/src/cdk_sops_secrets/_jsii/cdk-sops-secrets@1.8.0.jsii.tgz` & `cdk-sops-secrets-1.8.1/src/cdk_sops_secrets/_jsii/cdk-sops-secrets@1.8.1.jsii.tgz`
+
+ * *Files 26% similar despite different names*
+
+#### Comparing `cdk-sops-secrets@1.8.0.jsii.tgz-content` & `cdk-sops-secrets@1.8.1.jsii.tgz-content`
+
+##### file list
+
+```diff
+@@ -1,11 +1,11 @@
+--rw-r--r--   0        0        0   119445 1985-10-26 08:15:00.000000 package/.jsii
++-rw-r--r--   0        0        0   119800 1985-10-26 08:15:00.000000 package/.jsii
+ -rw-r--r--   0        0        0    11358 1985-10-26 08:15:00.000000 package/LICENSE
+ -rw-r--r--   0        0        0     1214 1985-10-26 08:15:00.000000 package/LICENSE-3RD-PARTY
+ -rw-r--r--   0        0        0    38182 1985-10-26 08:15:00.000000 package/lib/index.js
+--rw-r--r--   0        0        0     5277 1985-10-26 08:15:00.000000 package/package.json
++-rw-r--r--   0        0        0     5801 1985-10-26 08:15:00.000000 package/package.json
+ -rw-r--r--   0        0        0    64402 1985-10-26 08:15:00.000000 package/API.md
+ -rw-r--r--   0        0        0      313 1985-10-26 08:15:00.000000 package/CONTRIBUTING.md
+--rw-r--r--   0        0        0      175 1985-10-26 08:15:00.000000 package/MAINTAINERS.md
++-rw-r--r--   0        0        0      218 1985-10-26 08:15:00.000000 package/MAINTAINERS.md
+ -rw-r--r--   0        0        0    11786 1985-10-26 08:15:00.000000 package/README.md
+ -rw-r--r--   0        0        0     5410 1985-10-26 08:15:00.000000 package/lib/index.d.ts
+ -rw-r--r--   0        0        0  8948839 1985-10-26 08:15:00.000000 package/assets/cdk-sops-lambda.zip
+```
+
+##### package/.jsii
+
+###### Pretty-printed
+
+ * *Similarity: 0.9277777777777777%*
+
+ * *Differences: {"'fingerprint'": "'0XmlC8wFUCiQZNavBYR4ovx864B+4JBVpEhGjYoGb2E='",*
+
+ * * "'targets'": "{'dotnet': OrderedDict([('namespace', 'Db.De.Systel'), ('packageId', "*
+
+ * *              "'Db.De.Systel.CdkSopsSecrets')]), 'go': OrderedDict([('moduleName', "*
+
+ * *              "'github.com/dbsystel/cdk-sops-secrets')]), 'java': OrderedDict([('maven', "*
+
+ * *              "OrderedDict([('artifactId', 'cdk-sops-secrets'), ('groupId', 'de.db.systel')])), "*
+
+ * *              "('package', 'de.db.systel.cdkSopsSecrets')])}",*
+
+ * * "'version'": "'1.8.1 […]*
+
+```diff
+@@ -2771,15 +2771,15 @@
+             }
+         }
+     },
+     "description": "CDK Constructs that syncs your sops secrets into AWS SecretsManager secrets.",
+     "docs": {
+         "stability": "experimental"
+     },
+-    "fingerprint": "6T9GjHCnABh6IOvWt7rwha3z9vSOrTVMMiHzl0gabNw=",
++    "fingerprint": "0XmlC8wFUCiQZNavBYR4ovx864B+4JBVpEhGjYoGb2E=",
+     "homepage": "https://constructs.dev/packages/cdk-sops-secrets",
+     "jsiiVersion": "1.98.0 (build 00b106d)",
+     "keywords": [
+         "cdk",
+         "gitops",
+         "kms",
+         "mozilla/sops",
+@@ -2802,14 +2802,28 @@
+     },
+     "repository": {
+         "type": "git",
+         "url": "https://github.com/dbsystel/cdk-sops-secrets.git"
+     },
+     "schema": "jsii/0.10.0",
+     "targets": {
++        "dotnet": {
++            "namespace": "Db.De.Systel",
++            "packageId": "Db.De.Systel.CdkSopsSecrets"
++        },
++        "go": {
++            "moduleName": "github.com/dbsystel/cdk-sops-secrets"
++        },
++        "java": {
++            "maven": {
++                "artifactId": "cdk-sops-secrets",
++                "groupId": "de.db.systel"
++            },
++            "package": "de.db.systel.cdkSopsSecrets"
++        },
+         "js": {
+             "npm": "cdk-sops-secrets"
+         },
+         "python": {
+             "distName": "cdk-sops-secrets",
+             "module": "cdk_sops_secrets"
+         }
+@@ -3692,9 +3706,9 @@
+                     "name": "ASSET"
+                 }
+             ],
+             "name": "UploadType",
+             "symbolId": "src/index:UploadType"
+         }
+     },
+-    "version": "1.8.0"
++    "version": "1.8.1"
+ }
+```
+
+##### package/lib/index.js
+
+###### js-beautify {}
+
+```diff
+@@ -159,15 +159,15 @@
+         this.versionId = cr.getAttString('VersionId');
+     }
+ }
+ exports.SopsSync = SopsSync;
+ _a = JSII_RTTI_SYMBOL_1;
+ SopsSync[_a] = {
+     fqn: "cdk-sops-secrets.SopsSync",
+-    version: "1.8.0"
++    version: "1.8.1"
+ };
+ class SopsSyncProvider extends aws_lambda_1.SingletonFunction {
+     constructor(scope, id) {
+         super(scope, id ?? 'SopsSyncProvider', {
+             code: aws_lambda_1.Code.fromAsset(scope.node.tryGetContext('sops_sync_provider_asset_path') ||
+                 path.join(__dirname, '../assets/cdk-sops-lambda.zip')),
+             runtime: aws_lambda_1.Runtime.PROVIDED_AL2,
+@@ -186,15 +186,15 @@
+         this.sopsAgeKeys.push(key);
+     }
+ }
+ exports.SopsSyncProvider = SopsSyncProvider;
+ _b = JSII_RTTI_SYMBOL_1;
+ SopsSyncProvider[_b] = {
+     fqn: "cdk-sops-secrets.SopsSyncProvider",
+-    version: "1.8.0"
++    version: "1.8.1"
+ };
+ /**
+  * A drop in replacement for the normal Secret, that is populated with the encrypted
+  * content of the given sops file.
+  */
+ class SopsSecret extends constructs_1.Construct {
+     constructor(scope, id, props) {
+@@ -251,10 +251,10 @@
+         return this.secretValueFromJson('');
+     }
+ }
+ exports.SopsSecret = SopsSecret;
+ _c = JSII_RTTI_SYMBOL_1;
+ SopsSecret[_c] = {
+     fqn: "cdk-sops-secrets.SopsSecret",
+-    version: "1.8.0"
++    version: "1.8.1"
+ };
+ //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSx5QkFBeUI7QUFDekIsNkJBQTZCO0FBQzdCLG1DQUFtQztBQUNuQyw2Q0FVcUI7QUFPckIsaURBQWdEO0FBQ2hELHVEQUEwRTtBQUMxRSw2REFBa0Q7QUFDbEQsdUVBT3dDO0FBQ3hDLDJDQUF1QztBQUV2QyxJQUFZLFVBU1g7QUFURCxXQUFZLFVBQVU7SUFDcEI7O09BRUc7SUFDSCwrQkFBaUIsQ0FBQTtJQUNqQjs7T0FFRztJQUNILDZCQUFlLENBQUE7QUFDakIsQ0FBQyxFQVRXLFVBQVUsR0FBVixrQkFBVSxLQUFWLGtCQUFVLFFBU3JCO0FBNEZEOztHQUVHO0FBQ0gsTUFBYSxRQUFTLFNBQVEsc0JBQVM7SUFxQnJDLFlBQVksS0FBZ0IsRUFBRSxFQUFVLEVBQUUsS0FBb0I7UUFDNUQsS0FBSyxDQUFDLEtBQUssRUFBRSxFQUFFLENBQUMsQ0FBQztRQUVqQixJQUFJLENBQUMsWUFBWSxHQUFHLEtBQUssQ0FBQyxhQUFhLElBQUksSUFBSSxDQUFDO1FBQ2hELElBQUksQ0FBQyxPQUFPLEdBQUcsS0FBSyxDQUFDLE9BQU8sSUFBSSxJQUFJLENBQUM7UUFDckMsSUFBSSxDQUFDLGlCQUFpQixHQUFHLEtBQUssQ0FBQyxlQUFlLElBQUksSUFBSSxDQUFDO1FBRXZELE1BQU0sUUFBUSxHQUFHLEtBQUssQ0FBQyxZQUFZLElBQUksSUFBSSxnQkFBZ0IsQ0FBQyxLQUFLLENBQUMsQ0FBQztRQUVuRSxJQUFJLFVBQVUsR0FBRyxLQUFLLENBQUMsVUFBVSxJQUFJLFVBQVUsQ0FBQyxNQUFNLENBQUM7UUFDdkQsSUFBSSxjQUFjLEdBQ2hCLEtBQUssQ0FBQyxjQUFjLENBQUM7UUFDdkIsSUFBSSxTQUFTLEdBQXNCLFNBQVMsQ0FBQztRQUM3QyxJQUFJLFVBQVUsR0FBa0QsU0FBUyxDQUFDO1FBQzFFLElBQUksVUFB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J3BhdGgnO1xuLy9pbXBvcnQgKiBhcyBjcnlwdG8gZnJvbSAnY3J5cHRvJztcbmltcG9ydCB7XG4gIEFubm90YXRpb25zLFxuICBDdXN0b21SZXNvdXJjZSxcbiAgRHVyYXRpb24sXG4gIEZpbGVTeXN0ZW0sXG4gIExhenksXG4gIFJlbW92YWxQb2xpY3ksXG4gIFJlc291cmNlRW52aXJvbm1lbnQsXG4gIFNlY3JldFZhbHVlLFxuICBTdGFjayxcbn0gZnJvbSAnYXdzLWNkay1saWInO1xuaW1wb3J0IHtcbiAgSUdyYW50YWJsZSxcbiAgR3JhbnQsXG4gIFBvbGljeVN0YXRlbWVudCxcbiAgQWRkVG9SZXNvdXJjZVBvbGljeVJlc3VsdCxcbn0gZnJvbSAnYXdzLWNkay1saWIvYXdzLWlhbSc7XG5pbXBvcnQgeyBJS2V5LCBLZXkgfSBmcm9tICdhd3MtY2RrLWxpYi9hd3Mta21zJztcbmltcG9ydCB7IENvZGUsIFJ1bnRpbWUsIFNpbmdsZXRvbkZ1bmN0aW9uIH0gZnJvbSAnYXdzLWNkay1saWIvYXdzLWxhbWJkYSc7XG5pbXBvcnQgeyBBc3NldCB9IGZyb20gJ2F3cy1jZGstbGliL2F3cy1zMy1hc3NldHMnO1xuaW1wb3J0IHtcbiAgSVNlY3JldCxcbiAgSVNlY3JldEF0dGFjaG1lbnRUYXJnZXQsXG4gIFJvdGF0aW9uU2NoZWR1bGUsXG4gIFJvdGF0aW9uU2NoZWR1bGVPcHRpb25zLFxuICBTZWNyZXQsXG4gIFNlY3JldFByb3BzLFxufSBmcm9tICdhd3MtY2RrLWxpYi9hd3Mtc2VjcmV0c21hbmFnZXInO1xuaW1wb3J0IHsgQ29uc3RydWN0IH0gZnJvbSAnY29uc3RydWN0cyc7XG5cbmV4cG9ydCBlbnVtIFVwbG9hZFR5cGUge1xuICAvKipcbiAgICogUGFzcyB0aGUgc2VjcmV0IGRhdGEgaW5saW5lIChiYXNlNjQgZW5jb2RlZCBhbmQgY29tcHJlc3NlZClcbiAgICovXG4gIElOTElORSA9ICdJTkxJTkUnLFxuICAvKipcbiAgICogVXBsYW9kIHRoZSBzZWNlcnQgZGF0YSBhcyBhc3NldFxuICAgKi9cbiAgQVNTRVQgPSAnQVNTRVQnLFxufVxuXG4vKipcbiAqIENvbmZpZ3VyYXRpb24gb3B0aW9ucyBmb3IgdGhlIFNvcHNTeW5jXG4gKi9cbmV4cG9ydCBpbnRlcmZhY2UgU29wc1N5bmNPcHRpb25zIHtcbiAgLyoqXG4gICAqIFRoZSBjdXN0b20gcmVzb3VyY2UgcHJvdmlkZXIgdG8gdXNlLiBJZiB5b3UgZG9uJ3Qgc3BlY2lmeSBhbnksIGEgbmV3XG4gICAqIHByb3ZpZGVyIHdpbGwgYmUgY3JlYXRlZCAtIG9yIGlmIGFscmVhZHkgZXhpc3RzIHdpdGhpbiB0aGlzIHN0YWNrIC0gcmV1c2VkLlxuICAgKlxuICAgKiBAZGVmYXVsdCAtIEEgbmV3IHNpbmdsZXRvbiBwcm92aWRlciB3aWxsIGJlIGNyZWF0ZWRcbiAgICovXG4gIHJlYWRvbmx5IHNvcHNQcm92aWRlcj86IFNvcHNTeW5jUHJvdmlkZXI7XG5cbiAgLyoqXG4gICAqIFRoZSBmaWxlcGF0aCB0byB0aGUgc29wcyBmaWxlXG4gICAqL1xuICByZWFkb25seSBzb3BzRmlsZVBhdGg/OiBzdHJpbmc7XG5cbiAgLyoqXG4gICAqIElmIHlvdSB3YW50IHRvIHBhc3MgdGhlIHNvcHMgZmlsZSB2aWEgczMsIHlvdSBjYW4gc3BlY2lmeSB0aGUgYnVja2V0XG4gICAqIHlvdSBjYW4gdXNlIGNmbiBwYXJhbWV0ZXIgaGVyZVxuICAgKiBCb3RoLCBzb3BzUzNCdWNrZXQgYW5kIHNvcHNTM0tleSBoYXZlIHRvIGJlIHNwZWNpZmllZFxuICAgKi9cbiAgcmVhZG9ubHkgc29wc1MzQnVja2V0Pzogc3RyaW5nO1xuICAvKipcbiAgICogSWYgeW91IHdhbnQgdG8gcGFzcyB0aGUgc29wcyBmaWxlIHZpYSBzMywgeW91IGNhbiBzcGVjaWZ5IHRoZSBrZXkgaW5zaWRlIHRoZSBidWNrZXRcbiAgICogeW91IGNhbiB1c2UgY2ZuIHBhcmFtZXRlciBoZXJlXG4gICAqIEJvdGgsIHNvcHNTM0J1Y2tldCBhbmQgc29wc1MzS2V5IGhhdmUgdG8gYmUgc3BlY2lmaWVkXG4gICAqL1xuICByZWFkb25seSBzb3BzUzNLZXk/OiBzdHJpbmc7XG5cbiAgLyoqXG4gICAqIEhvdyBzaG91bGQgdGhlIHNlY3JldCBiZSBwYXNzZWQgdG8gdGhlIEN1c3RvbVJlc291cmNlP1xuICAgKiBAZGVmYXVsdCBJTkxJTkVcbiAgICovXG4gIHJlYWRvbmx5IHVwbG9hZFR5cGU/OiBVcGxvYWRUeXBlO1xuXG4gIC8qKlxuICAgKiBUaGUgZm9ybWF0IG9mIHRoZSBzb3BzIGZpbGUuXG4gICAqXG4gICAqIEBkZWZhdWx0IC0gVGhlIGZpbGVmb3JtYXQgd2lsbCBiZSBkZXJpdmVkIGZyb20gdGhlIGZpbGUgZW5kaW5nXG4gICAqL1xuICByZWFkb25seSBzb3BzRmlsZUZvcm1hdD86IHVuZGVmaW5lZCB8ICdqc29uJyB8ICd5YW1sJyB8ICdkb3RlbnYnO1xuXG4gIC8qKlxuICAgKiBUaGUga21zS2V5IHVzZWQgdG8gZW5jcnlwdCB0aGUgc29wcyBmaWxlLiBFbmNyeXB0IHBlcm1pc3Npb25zXG4gICAqIHdpbGwgYmUgZ3JhbnRlZCB0byB0aGUgY3VzdG9tIHJlc291cmNlIHByb3ZpZGVyLlxuICAgKlxuICAgKiBAZGVmYXVsdCAtIFRoZSBrZXkgd2lsbCBiZSBkZXJpdmVkIGZyb20gdGhlIHNvcHMgZmlsZVxuICAgKi9cbiAgcmVhZG9ubHkgc29wc0ttc0tleT86IElLZXlbXTtcblxuICAvKipcbiAgICogVGhlIGFnZSBrZXkgdGhhdCBzaG91bGQgYmUgdXNlZCBmb3IgZW5jcnlwdGlvbi5cbiAgICovXG4gIHJlYWRvbmx5IHNvcHNBZ2VLZXk/OiBTZWNyZXRWYWx1ZTtcblxuICAvKipcbiAgICogU2hvdWxkIHRoZSBlbmNyeXB0ZWQgc29wcyB2YWx1ZSBzaG91bGQgYmUgY29udmVydGVkIHRvIEpTT04/XG4gICAqIE9ubHkgSlNPTiBjYW4gYmUgaGFuZGxlZCBieSBjbG91ZCBmb3JtYXRpb25zIGR5bmFtaWMgcmVmZXJlbmNlcy5cbiAgICpcbiAgICogQGRlZmF1bHQgdHJ1ZVxuICAgKi9cbiAgcmVhZG9ubHkgY29udmVydFRvSlNPTj86IGJvb2xlYW47XG5cbiAgLyoqXG4gICAqIFNob3VsZCB0aGUgc3RydWN0dXJlIGJlIGZsYXR0ZW5lZD8gVGhlIHJlc3VsdCB3aWxsIGJlIGEgZmxhdCBzdHJ1Y3R1cmUgYW5kIGFsbFxuICAgKiBvYmplY3Qga2V5cyB3aWxsIGJlIHJlcGxhY2VkIHdpdGggdGhlIGZ1bGwganNvbnBhdGggYXMga2V5LlxuICAgKiBUaGlzIGlzIHVzZWZ1bGwgZm9yIGR5bmFtaWMgcmVmZXJlbmNlcywgYXMgdGhvc2UgZG9uJ3Qgc3VwcG9ydCBuZXN0ZWQgb2JqZWN0cy5cbiAgICpcbiAgICogQGRlZmF1bHQgdHJ1ZVxuICAgKi9cbiAgcmVhZG9ubHkgZmxhdHRlbj86IGJvb2xlYW47XG5cbiAgLyoqXG4gICAqIFNoYWxsIGFsbCB2YWx1ZXMgYmUgZmxhdHRlbmVkPyBUaGlzIGlzIHVzZWZ1bGwgZm9yIGR5bmFtaWMgcmVmZXJlbmNlcywgYXMgdGhlcmVcbiAgICogYXJlIGxvb2t1cCBlcnJvcnMgZm9yIGNlcnRhaW4gZmxvYXQgdHlwZXNcbiAgICovXG4gIHJlYWRvbmx5IHN0cmluZ2lmeVZhbHVlcz86IGJvb2xlYW47XG59XG5cbi8qKlxuICogVGhlIGNvbmZpZ3VyYXRpb24gb3B0aW9ucyBleHRlbmRlZCBieSB0aGUgdGFyZ2V0IFNlY3JldFxuICovXG5leHBvcnQgaW50ZXJmYWNlIFNvcHNTeW5jUHJvcHMgZXh0ZW5kcyBTb3BzU3luY09wdGlvbnMge1xuICAvKipcbiAgICogVGhlIHNlY3JldCB0aGF0IHdpbGwgYmUgcG9wdWxhdGVkIHdpdGggdGhlIGVuY3J5cHRlZCBzb3BzIGZpbGUgY29udGVudC5cbiAgICovXG4gIHJlYWRvbmx5IHNlY3JldDogSVNlY3JldDtcbn1cblxuLyoqXG4gKiBUaGUgY3VzdG9tIHJlc291cmNlLCB0aGF0IGlzIHN5bmNpbmcgdGhlIGNvbnRlbnQgZnJvbSBhIHNvcHMgZmlsZSB0byBhIHNlY3JldC5cbiAqL1xuZXhwb3J0IGNsYXNzIFNvcHNTeW5jIGV4dGVuZHMgQ29uc3RydWN0IHtcbiAgLyoqXG4gICAqIFRoZSBjdXJyZW50IHZlcnNpb25JZCBvZiB0aGUgc2VjcmV0IHBvcHVsYXRlZCB2aWEgdGhpcyByZXNvdXJjZVxuICAgKi9cbiAgcmVhZG9ubHkgdmVyc2lvbklkOiBzdHJpbmc7XG5cbiAgLyoqXG4gICAqIFdhcyB0aGUgZm9ybWF0IGNvbnZlcnRlZCB0byBqc29uP1xuICAgKi9cbiAgcmVhZG9ubHkgY29udmVyVG9KU09OOiBib29sZWFuO1xuXG4gIC8qKlxuICAgKiBXYXMgdGhlIHN0cnVjdHVyZSBmbGF0dGVuZWQ/XG4gICAqL1xuICByZWFkb25seSBmbGF0dGVuOiBib29sZWFuO1xuXG4gIC8qKlxuICAgKiBXZXJlIHRoZSB2YWx1ZXMgc3RyaW5naWZpZWQ/XG4gICAqL1xuICByZWFkb25seSBzdHJpbmdpZmllZFZhbHVlczogYm9vbGVhbjtcblxuICBjb25zdHJ1Y3RvcihzY29wZTogQ29uc3RydWN0LCBpZDogc3RyaW5nLCBwcm9wczogU29wc1N5bmNQcm9wcykge1xuICAgIHN1cGVyKHNjb3BlLCBpZCk7XG5cbiAgICB0aGlzLmNvbnZlclRvSlNPTiA9IHByb3BzLmNvbnZlcnRUb0pTT04gPz8gdHJ1ZTtcbiAgICB0aGlzLmZsYXR0ZW4gPSBwcm9wcy5mbGF0dGVuID8/IHRydWU7XG4gICAgdGhpcy5zdHJpbmdpZmllZFZhbHVlcyA9IHByb3BzLnN0cmluZ2lmeVZhbHVlcyA/PyB0cnVlO1xuXG4gICAgY29uc3QgcHJvdmlkZXIgPSBwcm9wcy5zb3BzUHJvdmlkZXIgPz8gbmV3IFNvcHNTeW5jUHJvdmlkZXIoc2NvcGUpO1xuXG4gICAgbGV0IHVwbG9hZFR5cGUgPSBwcm9wcy51cGxvYWRUeXBlID8/IFVwbG9hZFR5cGUuSU5MSU5FO1xuICAgIGxldCBzb3BzRmlsZUZvcm1hdDogJ2pzb24nIHwgJ3lhbWwnIHwgJ2RvdGVudicgfCB1bmRlZmluZWQgPVxuICAgICAgcHJvcHMuc29wc0ZpbGVGb3JtYXQ7XG4gICAgbGV0IHNvcHNBc3NldDogQXNzZXQgfCB1bmRlZmluZWQgPSB1bmRlZmluZWQ7XG4gICAgbGV0IHNvcHNJbmxpbmU6IHsgQ29udGVudDogc3RyaW5nOyBIYXNoOiBzdHJpbmcgfSB8IHVuZGVmaW5lZCA9IHVuZGVmaW5lZDtcbiAgICBsZXQgc29wc1MzRmlsZTogeyBCdWNrZXQ6IHN0cmluZzsgS2V5OiBzdHJpbmcgfSB8IHVuZGVmaW5lZCA9IHVuZGVmaW5lZDtcblxuICAgIGlmIChcbiAgICAgIHByb3BzLnNvcHNGaWxlUGF0aCAhPT0gdW5kZWZpbmVkICYmXG4gICAgICAocHJvcHMuc29wc1MzQnVja2V0ICE9PSB1bmRlZmluZWQgfHwgcHJvcHMuc29wc1MzS2V5ICE9PSB1bmRlZmluZWQpXG4gICAgKSB7XG4gICAgICB0aHJvdyBuZXcgRXJyb3IoXG4gICAgICAgICdZb3UgY2FuIGVpdGhlciBzcGVjaWZ5IHNvcHNGaWxlUGF0aCBvciBzb3BzUzNCdWNrZXQgYW5kIHNvcHNTM0tleSEnLFxuICAgICAgKTtcbiAgICB9XG5cbiAgICBpZiAocHJvcHMuc29wc0ZpbGVQYXRoICE9PSB1bmRlZmluZWQpIHtcbiAgICAgIGNvbnN0IF9zb3BzRmlsZUZvcm1hdCA9XG4gICAgICAgIHByb3BzLnNvcHNGaWxlRm9ybWF0ID8/IHByb3BzLnNvcHNGaWxlUGF0aC5zcGxpdCgnLicpLnBvcCgpO1xuICAgICAgc3dpdGNoIChfc29wc0ZpbGVGb3JtYXQpIHtcbiAgICAgICAgY2FzZSAnanNvbic6IHtcbiAgICAgICAgICBzb3BzRmlsZUZvcm1hdCA9ICdqc29uJztcbiAgICAgICAgICBicmVhaztcbiAgICAgICAgfVxuICAgICAgICBjYXNlICd5YW1sJzoge1xuICAgICAgICAgIHNvcHNGaWxlRm9ybWF0ID0gJ3lhbWwnO1xuICAgICAgICAgIGJyZWFrO1xuICAgICAgICB9XG4gICAgICAgIGNhc2UgJ3ltbCc6IHtcbiAgICAgICAgICBzb3BzRmlsZUZvcm1hdCA9ICd5YW1sJztcbiAgICAgICAgICBicmVhaztcbiAgICAgICAgfVxuICAgICAgICBjYXNlICdlbnYnOiB7XG4gICAgICAgICAgc29wc0ZpbGVGb3JtYXQgPSAnZG90ZW52JztcbiAgICAgICAgICBicmVhaztcbiAgICAgICAgfVxuICAgICAgICBkZWZhdWx0OiB7XG4gICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBVbnN1cHBvcnRlZCBzb3BzRmlsZUZvcm1hdCAke19zb3BzRmlsZUZvcm1hdH1gKTtcbiAgICAgICAgfVxuICAgICAgfVxuXG4gICAgICBpZiAoIWZzLmV4aXN0c1N5bmMocHJvcHMuc29wc0ZpbGVQYXRoKSkge1xuICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYEZpbGUgJHtwcm9wcy5zb3BzRmlsZVBhdGh9IGRvZXMgbm90IGV4aXN0IWApO1xuICAgICAgfVxuXG4gICAgICBzd2l0Y2ggKHVwbG9hZFR5cGUpIHtcbiAgICAgICAgY2FzZSBVcGxvYWRUeXBlLklOTElORToge1xuICAgICAgICAgIHNvcHNJbmxpbmUgPSB7XG4gICAgICAgICAgICBDb250ZW50OiBmcy5yZWFkRmlsZVN5bmMocHJvcHMuc29wc0ZpbGVQYXRoKS50b1N0cmluZygnYmFzZTY0JyksXG4gICAgICAgICAgICAvLyBXZSBjYWxjdWxhdGUgdGhlIGhhc2ggdGhlIHNhbWUgd2F5IGFzIGl0IHdvdWxkIGJlIGRvbmUgYnkgbmV3IEFzc2V0KC4uKSAtIHNvIHdlIGNhbiBlbnN1cmUgc3RhYmxlIHZlcnNpb24gbmFtZXMgZXZlbiBpZiBzd2l0Y2hpbmcgZnJvbSBJTkxJTkUgdG8gQVNTRVQgYW5kIHZpY2V2ZXJzYS5cbiAgICAgICAgICAgIEhhc2g6IEZpbGVTeXN0ZW0uZmluZ2VycHJpbnQocHJvcHMuc29wc0ZpbGVQYXRoKSxcbiAgICAgICAgICB9O1xuICAgICAgICAgIGJyZWFrO1xuICAgICAgICB9XG4gICAgICAgIGNhc2UgVXBsb2FkVHlwZS5BU1NFVDoge1xuICAgICAgICAgIHNvcHNBc3NldCA9IG5ldyBBc3NldCh0aGlzLCAnQXNzZXQnLCB7XG4gICAgICAgICAgICBwYXRoOiBwcm9wcy5zb3BzRmlsZVBhdGgsXG4gICAgICAgICAgfSk7XG4gICAgICAgICAgc29wc1MzRmlsZSA9IHtcbiAgICAgICAgICAgIEJ1Y2tldDogc29wc0Fzc2V0LmJ1Y2tldC5idWNrZXROYW1lLFxuICAgICAgICAgICAgS2V5OiBzb3BzQXNzZXQuczNPYmplY3RLZXksXG4gICAgICAgICAgfTtcbiAgICAgICAgICBicmVhaztcbiAgICAgICAgfVxuICAgICAgfVxuXG4gICAgICBpZiAocHJvdmlkZXIucm9sZSAhPT0gdW5kZWZpbmVkKSB7XG4gICAgICAgIGlmIChwcm9wcy5zb3BzS21zS2V5ICE9PSB1bmRlZmluZWQpIHtcbiAgICAgICAgICBwcm9wcy5zb3BzS21zS2V5LmZvckVhY2goKGtleSkgPT4ga2V5LmdyYW50RGVjcnlwdChwcm92aWRlci5yb2xlISkpO1xuICAgICAgICB9XG4gICAgICAgIGNvbnN0IGZpbGVDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKHByb3BzLnNvcHNGaWxlUGF0aCk7XG4gICAgICAgIC8vIEhhbmRsZSBrZXlzXG4gICAgICAgIGNvbnN0IHJlZ2V4S2V5ID0gL2Fybjphd3M6a21zOlthLXowLTktXSs6W1xcZF0rOmtleVxcL1thLXowLTktXSsvZztcbiAgICAgICAgY29uc3QgcmVzdWx0c0tleSA9IGZpbGVDb250ZW50LnRvU3RyaW5nKCkubWF0Y2gocmVnZXhLZXkpO1xuICAgICAgICBpZiAocmVzdWx0c0tleSAhPT0gdW5kZWZpbmVkKSB7XG4gICAgICAgICAgcmVzdWx0c0tleT8uZm9yRWFjaCgocmVzdWx0LCBpbmRleCkgPT5cbiAgICAgICAgICAgIEtleS5mcm9tS2V5QXJuKHRoaXMsIGBTb3BzS2V5JHtpbmRleH1gLCByZXN1bHQpLmdyYW50RGVjcnlwdChcbiAgICAgICAgICAgICAgcHJvdmlkZXIucm9sZSEsXG4gICAgICAgICAgICApLFxuICAgICAgICAgICk7XG4gICAgICAgIH1cbiAgICAgICAgY29uc3QgcmVnZXhBbGlhcyA9IC9hcm46YXdzOmttczpbYS16MC05LV0rOltcXGRdKzphbGlhc1xcL1thLXowLTktXSsvZztcbiAgICAgICAgY29uc3QgcmVzdWx0c0FsaWFzID0gZmlsZUNvbnRlbnQudG9TdHJpbmcoKS5tYXRjaChyZWdleEFsaWFzKTtcbiAgICAgICAgaWYgKHJlc3VsdHNBbGlhcyAhPT0gdW5kZWZpbmVkKSB7XG4gICAgICAgICAgcmVzdWx0c0FsaWFzPy5mb3JFYWNoKChyZXN1bHQsIGluZGV4KSA9PlxuICAgICAgICAgICAgS2V5LmZyb21Mb29rdXAodGhpcywgYFNvcHNBbGlhcyR7aW5kZXh9YCwge1xuICAgICAgICAgICAgICBhbGlhc05hbWU6IGBhbGlhcy8ke3Jlc3VsdC5zcGxpdCgnLycpLnNsaWNlKDEpLmpvaW4oJy8nKX1gLFxuICAgICAgICAgICAgfSkuZ3JhbnREZWNyeXB0KHByb3ZpZGVyLnJvbGUhKSxcbiAgICAgICAgICApO1xuICAgICAgICB9XG4gICAgICAgIHByb3BzLnNlY3JldC5ncmFudFdyaXRlKHByb3ZpZGVyKTtcbiAgICAgICAgaWYgKHNvcHNBc3NldCAhPT0gdW5kZWZpbmVkKSB7XG4gICAgICAgICAgc29wc0Fzc2V0LmJ1Y2tldC5ncmFudFJlYWQocHJvdmlkZXIpO1xuICAgICAgICB9XG4gICAgICAgIC8qKlxuICAgICAgICAgKiBmaXhlcyAjMjM0XG4gICAgICAgICAqIElmIHRoZSBrbXMga2V5IGZvciBzZWNyZXRzIGVuY3J5cHRpb24gaXMgYW4gSUtleVxuICAgICAgICAgKiB0aGVyZSB3aWxsIGJlIG5vIHBlcm1pc3Npb25zIG90aGVyd2lzZVxuICAgICAgICAgKi9cbiAgICAgICAgaWYgKFxuICAgICAgICAgIHByb3BzLnNlY3JldC5lbmNyeXB0aW9uS2V5ICE9PSB1bmRlZmluZWQgJiZcbiAgICAgICAgICAhKHByb3BzLnNlY3JldC5lbmNyeXB0aW9uS2V5IGluc3RhbmNlb2YgS2V5KVxuICAgICAgICApIHtcbiAgICAgICAgICBwcm9wcy5zZWNyZXQuZW5jcnlwdGlvbktleS5ncmFudEVuY3J5cHREZWNyeXB0KHByb3ZpZGVyKTtcbiAgICAgICAgfVxuICAgICAgfSBlbHNlIHtcbiAgICAgICAgQW5ub3RhdGlvbnMub2YodGhpcykuYWRkV2FybmluZyhcbiAgICAgICAgICBgUGxlYXNlIGVuc3VyZSBwcm9wcGVyIHBlcm1pc3Npb25zIGZvciB0aGUgcGFzc2VkIGxhbWJkYSBmdW5jdGlvbjpcXG4gIC0gd3JpdGUgQWNjZXNzIHRvIHRoZSBzZWNyZXRcXG4gIC0gZW5jcnlwdCB3aXRoIHRoZSBzb3BzS21zS2V5JHtcbiAgICAgICAgICAgIHVwbG9hZFR5cGUgPT09IFVwbG9hZFR5cGUuQVNTRVRcbiAgICAgICAgICAgICAgPyAnXFxuICAtIGRvd25sb2FkIGZyb20gYXNzZXQgYnVja2V0J1xuICAgICAgICAgICAgICA6ICcnXG4gICAgICAgICAgfWAsXG4gICAgICAgICk7XG4gICAgICB9XG4gICAgICBpZiAocHJvcHMuc29wc0FnZUtleSAhPT0gdW5kZWZpbmVkKSB7XG4gICAgICAgIHByb3ZpZGVyLmFkZEFnZUtleShwcm9wcy5zb3BzQWdlS2V5KTtcbiAgICAgIH1cbiAgICB9IGVsc2UgaWYgKFxuICAgICAgcHJvcHMuc29wc1MzQnVja2V0ICE9PSB1bmRlZmluZWQgJiZcbiAgICAgIHByb3BzLnNvcHNTM0tleSAhPT0gdW5kZWZpbmVkXG4gICAgKSB7XG4gICAgICBzb3BzUzNGaWxlID0ge1xuICAgICAgICBCdWNrZXQ6IHByb3BzLnNvcHNTM0J1Y2tldCxcbiAgICAgICAgS2V5OiBwcm9wcy5zb3BzUzNLZXksXG4gICAgICB9O1xuICAgICAgdXBsb2FkVHlwZSA9IFVwbG9hZFR5cGUuQVNTRVQ7XG4gICAgICBBbm5vdGF0aW9ucy5vZih0aGlzKS5hZGRXYXJuaW5nKFxuICAgICAgICAnWW91IGhhdmUgdG8gbWFudWFsbHkgYWRkIHBlcm1pc3Npb25zIHRvIHRoZSBzb3BzIHByb3ZpZGVyIHRvIChwZXJtaXNzaW9uIHRvIGRvd25sb2FkIGZpbGUsIHRvIGRlY3J5cHQgc29wcyBmaWxlKSEnLFxuICAgICAgKTtcbiAgICB9IGVsc2Uge1xuICAgICAgdGhyb3cgbmV3IEVycm9yKFxuICAgICAgICAnWW91IGhhdmUgdG8gc3BlY2lmeSBib3RoIHNvcHNTM0J1Y2tldCBhbmQgc29wc1MzS2V5IG9yIG5laXRoZXIhJyxcbiAgICAgICk7XG4gICAgfVxuXG4gICAgaWYgKHNvcHNGaWxlRm9ybWF0ID09PSB1bmRlZmluZWQpIHtcbiAgICAgIHRocm93IG5ldyBFcnJvcignWW91IGhhdmUgdG8gc3BlY2lmeSBzb3BzRmlsZUZvcm1hdCEnKTtcbiAgICB9XG5cbiAgICBjb25zdCBjciA9IG5ldyBDdXN0b21SZXNvdXJjZSh0aGlzLCAnUmVzb3VyY2UnLCB7XG4gICAgICBzZXJ2aWNlVG9rZW46IHByb3ZpZGVyLmZ1bmN0aW9uQXJuLFxuICAgICAgcmVzb3VyY2VUeXBlOiAnQ3VzdG9tOjpTb3BzU3luYycsXG4gICAgICBwcm9wZXJ0aWVzOiB7XG4gICAgICAgIFNlY3JldEFSTjogcHJvcHMuc2VjcmV0LnNlY3JldEFybixcbiAgICAgICAgU29wc1MzRmlsZTogc29wc1MzRmlsZSxcbiAgICAgICAgU29wc0lubGluZTogc29wc0lubGluZSxcbiAgICAgICAgQ29udmVydFRvSlNPTjogdGhpcy5jb252ZXJUb0pTT04sXG4gICAgICAgIEZsYXR0ZW46IHRoaXMuZmxhdHRlbixcbiAgICAgICAgRm9ybWF0OiBzb3BzRmlsZUZvcm1hdCxcbiAgICAgICAgU3RyaW5naWZpZWRWYWx1ZXM6IHRoaXMuc3RyaW5naWZpZWRWYWx1ZXMsXG4gICAgICB9LFxuICAgIH0pO1xuICAgIHRoaXMudmVyc2lvbklkID0gY3IuZ2V0QXR0U3RyaW5nKCdWZXJzaW9uSWQnKTtcbiAgfVxufVxuXG5leHBvcnQgY2xhc3MgU29wc1N5bmNQcm92aWRlciBleHRlbmRzIFNpbmdsZXRvbkZ1bmN0aW9uIGltcGxlbWVudHMgSUdyYW50YWJsZSB7XG4gIHByaXZhdGUgc29wc0FnZUtleXM6IFNlY3JldFZhbHVlW107XG5cbiAgY29uc3RydWN0b3Ioc2NvcGU6IENvbnN0cnVjdCwgaWQ/OiBzdHJpbmcpIHtcbiAgICBzdXBlcihzY29wZSwgaWQgPz8gJ1NvcHNTeW5jUHJvdmlkZXInLCB7XG4gICAgICBjb2RlOiBDb2RlLmZyb21Bc3NldChcbiAgICAgICAgc2NvcGUubm9kZS50cnlHZXRDb250ZXh0KCdzb3BzX3N5bmNfcHJvdmlkZXJfYXNzZXRfcGF0aCcpIHx8XG4gICAgICAgICAgcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uL2Fzc2V0cy9jZGstc29wcy1sYW1iZGEuemlwJyksXG4gICAgICApLFxuICAgICAgcnVudGltZTogUnVudGltZS5QUk9WSURFRF9BTDIsXG4gICAgICBoYW5kbGVyOiAnYm9vdHN0cmFwJyxcbiAgICAgIHV1aWQ6ICdTb3BzU3luY1Byb3ZpZGVyJyxcbiAgICAgIHRpbWVvdXQ6IER1cmF0aW9uLnNlY29uZHMoNjApLFxuICAgICAgZW52aXJvbm1lbnQ6IHtcbiAgICAgICAgU09QU19BR0VfS0VZOiBMYXp5LnN0cmluZyh7XG4gICAgICAgICAgcHJvZHVjZTogKCkgPT5cbiAgICAgICAgICAgICh0aGlzLnNvcHNBZ2VLZXlzLm1hcCgoc2VjcmV0KSA9PiBzZWNyZXQudG9TdHJpbmcoKSkgPz8gW10pLmpvaW4oXG4gICAgICAgICAgICAgICdcXG4nLFxuICAgICAgICAgICAgKSxcbiAgICAgICAgfSksXG4gICAgICB9LFxuICAgIH0pO1xuICAgIHRoaXMuc29wc0FnZUtleXMgPSBbXTtcbiAgfVxuXG4gIHB1YmxpYyBhZGRBZ2VLZXkoa2V5OiBTZWNyZXRWYWx1ZSkge1xuICAgIHRoaXMuc29wc0FnZUtleXMucHVzaChrZXkpO1xuICB9XG59XG5cbi8qKlxuICogVGhlIGNvbmZpZ3VyYXRpb24gb3B0aW9ucyBvZiB0aGUgU29wc1NlY3JldFxuICovXG5leHBvcnQgaW50ZXJmYWNlIFNvcHNTZWNyZXRQcm9wcyBleHRlbmRzIFNlY3JldFByb3BzLCBTb3BzU3luY09wdGlvbnMge31cblxuLyoqXG4gKiBBIGRyb3AgaW4gcmVwbGFjZW1lbnQgZm9yIHRoZSBub3JtYWwgU2VjcmV0LCB0aGF0IGlzIHBvcHVsYXRlZCB3aXRoIHRoZSBlbmNyeXB0ZWRcbiAqIGNvbnRlbnQgb2YgdGhlIGdpdmVuIHNvcHMgZmlsZS5cbiAqL1xuZXhwb3J0IGNsYXNzIFNvcHNTZWNyZXQgZXh0ZW5kcyBDb25zdHJ1Y3QgaW1wbGVtZW50cyBJU2VjcmV0IHtcbiAgcHJpdmF0ZSByZWFkb25seSBzZWNyZXQ6IFNlY3JldDtcbiAgcmVhZG9ubHkgZW5jcnlwdGlvbktleT86IElLZXkgfCB1bmRlZmluZWQ7XG4gIHJlYWRvbmx5IHNlY3JldEFybjogc3RyaW5nO1xuICByZWFkb25seSBzZWNyZXRGdWxsQXJuPzogc3RyaW5nIHwgdW5kZWZpbmVkO1xuICByZWFkb25seSBzZWNyZXROYW1lOiBzdHJpbmc7XG4gIHJlYWRvbmx5IHN0YWNrOiBTdGFjaztcbiAgcmVhZG9ubHkgZW52OiBSZXNvdXJjZUVudmlyb25tZW50O1xuXG4gIHJlYWRvbmx5IHN5bmM6IFNvcHNTeW5jO1xuICBwdWJsaWMgY29uc3RydWN0b3Ioc2NvcGU6IENvbnN0cnVjdCwgaWQ6IHN0cmluZywgcHJvcHM6IFNvcHNTZWNyZXRQcm9wcykge1xuICAgIHN1cGVyKHNjb3BlLCBpZCk7XG4gICAgdGhpcy5zZWNyZXQgPSBuZXcgU2VjcmV0KHRoaXMsICdSZXNvdXJjZScsIHByb3BzIGFzIFNlY3JldFByb3BzKTtcblxuICAgIC8vIEZ1bGxmaWxsIHNlY3JldCBJbnRlcmZhY2VcbiAgICB0aGlzLmVuY3J5cHRpb25LZXkgPSB0aGlzLnNlY3JldC5lbmNyeXB0aW9uS2V5O1xuICAgIHRoaXMuc2VjcmV0QXJuID0gdGhpcy5zZWNyZXQuc2VjcmV0QXJuO1xuICAgIHRoaXMuc2VjcmV0TmFtZSA9IHRoaXMuc2VjcmV0LnNlY3JldE5hbWU7XG4gICAgdGhpcy5zdGFjayA9IFN0YWNrLm9mKHNjb3BlKTtcbiAgICB0aGlzLmVudiA9IHtcbiAgICAgIGFjY291bnQ6IHRoaXMuc3RhY2suYWNjb3VudCxcbiAgICAgIHJlZ2lvbjogdGhpcy5zdGFjay5yZWdpb24sXG4gICAgfTtcblxuICAgIHRoaXMuc3luYyA9IG5ldyBTb3BzU3luYyh0aGlzLCAnU29wc1N5bmMnLCB7XG4gICAgICBzZWNyZXQ6IHRoaXMuc2VjcmV0LFxuICAgICAgLi4uKHByb3BzIGFzIFNvcHNTeW5jT3B0aW9ucyksXG4gICAgfSk7XG4gIH1cblxuICAvKipcbiAgICogUmV0dXJucyB0aGUgY3VycmVudCB2ZXJzaW9uSWQgdGhhdCB3YXMgY3JlYXRlZCB2aWEgdGhlIFNvcHNTeW5jXG4gICAqL1xuICBwdWJsaWMgY3VycmVudFZlcnNpb25JZCgpOiBzdHJpbmcge1xuICAgIHJldHVybiB0aGlzLnN5bmMudmVyc2lvbklkO1xuICB9XG5cbiAgcHVibGljIGdyYW50UmVhZChncmFudGVlOiBJR3JhbnRhYmxlLCB2ZXJzaW9uU3RhZ2VzPzogc3RyaW5nW10pOiBHcmFudCB7XG4gICAgcmV0dXJuIHRoaXMuc2VjcmV0LmdyYW50UmVhZChncmFudGVlLCB2ZXJzaW9uU3RhZ2VzKTtcbiAgfVxuICBwdWJsaWMgZ3JhbnRXcml0ZShfZ3JhbnRlZTogSUdyYW50YWJsZSk6IEdyYW50IHtcbiAgICB0aHJvdyBuZXcgRXJyb3IoXG4gICAgICBgTWV0aG9kIGdyYW50V3JpdGUoLi4uKSBub3QgYWxsb3dlZCBhcyB0aGlzIHNlY3JldCBpcyBtYW5hZ2VkIGJ5IFNvcHNTeW5jYCxcbiAgICApO1xuICB9XG4gIHB1YmxpYyBhZGRSb3RhdGlvblNjaGVkdWxlKFxuICAgIGlkOiBzdHJpbmcsXG4gICAgb3B0aW9uczogUm90YXRpb25TY2hlZHVsZU9wdGlvbnMsXG4gICk6IFJvdGF0aW9uU2NoZWR1bGUge1xuICAgIHRocm93IG5ldyBFcnJvcihcbiAgICAgIGBNZXRob2QgYWRkVG90YXRpb25TY2hlZHVsZSgnJHtpZH0nLCAke0pTT04uc3RyaW5naWZ5KFxuICAgICAgICBvcHRpb25zLFxuICAgICAgKX0pIG5vdCBhbGxvd2VkIGFzIHRoaXMgc2VjcmV0IGlzIG1hbmFnZWQgYnkgU29wc1N5bmNgLFxuICAgICk7XG4gIH1cbiAgcHVibGljIGFkZFRvUmVzb3VyY2VQb2xpY3koXG4gICAgc3RhdGVtZW50OiBQb2xpY3lTdGF0ZW1lbnQsXG4gICk6IEFkZFRvUmVzb3VyY2VQb2xpY3lSZXN1bHQge1xuICAgIHJldHVybiB0aGlzLnNlY3JldC5hZGRUb1Jlc291cmNlUG9saWN5KHN0YXRlbWVudCk7XG4gIH1cbiAgcHVibGljIGRlbnlBY2NvdW50Um9vdERlbGV0ZSgpOiB2b2lkIHtcbiAgICByZXR1cm4gdGhpcy5zZWNyZXQuZGVueUFjY291bnRSb290RGVsZXRlKCk7XG4gIH1cbiAgcHVibGljIGF0dGFjaCh0YXJnZXQ6IElTZWNyZXRBdHRhY2htZW50VGFyZ2V0KTogSVNlY3JldCB7XG4gICAgcmV0dXJuIHRoaXMuc2VjcmV0LmF0dGFjaCh0YXJnZXQpO1xuICB9XG4gIHB1YmxpYyBhcHBseVJlbW92YWxQb2xpY3kocG9saWN5OiBSZW1vdmFsUG9saWN5KTogdm9pZCB7XG4gICAgcmV0dXJuIHRoaXMuc2VjcmV0LmFwcGx5UmVtb3ZhbFBvbGljeShwb2xpY3kpO1xuICB9XG5cbiAgcHVibGljIHNlY3JldFZhbHVlRnJvbUpzb24oanNvbkZpZWxkOiBzdHJpbmcpIHtcbiAgICByZXR1cm4gU2VjcmV0VmFsdWUuc2VjcmV0c01hbmFnZXIodGhpcy5zZWNyZXRBcm4sIHtcbiAgICAgIGpzb25GaWVsZCxcbiAgICAgIHZlcnNpb25JZDogdGhpcy5zeW5jLnZlcnNpb25JZCxcbiAgICB9KTtcbiAgfVxuXG4gIHB1YmxpYyBnZXQgc2VjcmV0VmFsdWUoKTogU2VjcmV0VmFsdWUge1xuICAgIHJldHVybiB0aGlzLnNlY3JldFZhbHVlRnJvbUpzb24oJycpO1xuICB9XG59XG4iXX0=
+```
+
+##### package/package.json
+
+###### Pretty-printed
+
+ * *Similarity: 0.96697695035461%*
+
+ * *Differences: {"'jsii'": "{'targets': {'java': OrderedDict([('package', 'de.db.systel.cdkSopsSecrets'), "*
+
+ * *           "('maven', OrderedDict([('groupId', 'de.db.systel'), ('artifactId', "*
+
+ * *           "'cdk-sops-secrets')]))]), 'dotnet': OrderedDict([('namespace', 'Db.De.Systel'), "*
+
+ * *           "('packageId', 'Db.De.Systel.CdkSopsSecrets')]), 'go': OrderedDict([('moduleName', "*
+
+ * *           "'github.com/dbsystel/cdk-sops-secrets')])}}",*
+
+ * * "'scripts'": "{'package:dotnet': 'npx projen package:dotnet', 'package:go': 'npx projen "*
+
+ * * […]*
+
+```diff
+@@ -75,14 +75,28 @@
+         "watchPathIgnorePatterns": [
+             "/node_modules/"
+         ]
+     },
+     "jsii": {
+         "outdir": "dist",
+         "targets": {
++            "dotnet": {
++                "namespace": "Db.De.Systel",
++                "packageId": "Db.De.Systel.CdkSopsSecrets"
++            },
++            "go": {
++                "moduleName": "github.com/dbsystel/cdk-sops-secrets"
++            },
++            "java": {
++                "maven": {
++                    "artifactId": "cdk-sops-secrets",
++                    "groupId": "de.db.systel"
++                },
++                "package": "de.db.systel.cdkSopsSecrets"
++            },
+             "python": {
+                 "distName": "cdk-sops-secrets",
+                 "module": "cdk_sops_secrets"
+             }
+         },
+         "tsc": {
+             "outDir": "lib",
+@@ -142,14 +156,17 @@
+         "integ:secret-multikms:deploy": "npx projen integ:secret-multikms:deploy",
+         "integ:secret-multikms:destroy": "npx projen integ:secret-multikms:destroy",
+         "integ:secret-multikms:snapshot": "npx projen integ:secret-multikms:snapshot",
+         "integ:secret-multikms:watch": "npx projen integ:secret-multikms:watch",
+         "integ:snapshot-all": "npx projen integ:snapshot-all",
+         "package": "npx projen package",
+         "package-all": "npx projen package-all",
++        "package:dotnet": "npx projen package:dotnet",
++        "package:go": "npx projen package:go",
++        "package:java": "npx projen package:java",
+         "package:js": "npx projen package:js",
+         "package:python": "npx projen package:python",
+         "post-compile": "npx projen post-compile",
+         "post-upgrade": "npx projen post-upgrade",
+         "pre-compile": "npx projen pre-compile",
+         "projen": "npx projen",
+         "release": "npx projen release",
+@@ -157,9 +174,9 @@
+         "test:watch": "npx projen test:watch",
+         "unbump": "npx projen unbump",
+         "upgrade": "npx projen upgrade",
+         "watch": "npx projen watch"
+     },
+     "stability": "experimental",
+     "types": "lib/index.d.ts",
+-    "version": "1.8.0"
++    "version": "1.8.1"
+ }
+```
+
+##### package/MAINTAINERS.md
+
+```diff
+@@ -1,4 +1,5 @@
+ This page lists all active maintainers of this repository in alphabetical order.
+ 
+ [henrysachs](https://github.com/henrysachs)
+-[markussiebert](https://github.com/markussiebert)
++[markussiebert](https://github.com/markussiebert)
++[thomaskrause](https://github.com/obirah)
+```
+
+### Comparing `cdk-sops-secrets-1.8.0/src/cdk_sops_secrets.egg-info/PKG-INFO` & `cdk-sops-secrets-1.8.1/src/cdk_sops_secrets.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: cdk-sops-secrets
+-Version: 1.8.0
++Version: 1.8.1
+ Summary: CDK Constructs that syncs your sops secrets into AWS SecretsManager secrets.
+ Home-page: https://constructs.dev/packages/cdk-sops-secrets
+ Author: Markus Siebert<markus.siebert@deutschebahn.com>
+ License: Apache-2.0
+ Project-URL: Source, https://github.com/dbsystel/cdk-sops-secrets.git
+ Classifier: Intended Audience :: Developers
+ Classifier: Operating System :: OS Independent
+```
+

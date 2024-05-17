@@ -12836,3 +12836,51 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:58:59] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-9.0.3.tar.gz]
 [2024-05-17 05:58:59] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
 [2024-05-17 05:58:59] INFO root fetch - main [MainThread]: Store serial: [23248041]
+[2024-05-17 06:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248041]
+[2024-05-17 06:01:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 06:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyriak
+[2024-05-17 06:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-cloudflare
+[2024-05-17 06:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydrobot
+[2024-05-17 06:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpservice
+[2024-05-17 06:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuzzquery
+[2024-05-17 06:01:09] INFO root fetch - processPackages [hydrobot]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-17 06:01:09] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-17 06:01:09] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2024-05-17 06:01:09] INFO root fetch - processPackages [pyriak]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-17 06:01:09] INFO root fetch - processPackages [fuzzquery]: New version: [2024.5.17] Old Version: [2024.5.16]
+[2024-05-17 06:01:09] INFO root fetch - processPackages [hydrobot]: Downloading https://files.pythonhosted.org/packages/80/a8/ee7b9e69f4c1617206f324ac7c496a2bbf08e0ff6c72a54b908bc7637a46/hydrobot-0.5.2.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/ef/1d/47980234b22b73ec1a015c99f0266dc8e67a9f9df050d7bc149ca49d2ce8/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [pyriak]: Downloading https://files.pythonhosted.org/packages/9f/c9/dcaf6754012639face9e39e223d1ecf48d68e896b244e0cba295bc84e1f5/pyriak-0.1.0.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/17/5f/bfdf74c10c42f99c69d6af074a4ed02c469d7f91fb42e09b1b3f493ae866/fuzzquery-2024.5.16.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [hydrobot]: Downloading https://files.pythonhosted.org/packages/35/f7/5795dcd72330e3613f6fcfb4eb299c6f8a8a294a70cabd7cccf97e11c277/hydrobot-0.6.0.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [pyriak]: Downloading https://files.pythonhosted.org/packages/46/12/3b8255ee02b8042902ef0d620011dab065faa27e01f232ec2671027023ad/pyriak-0.2.0.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/c3/a8/1706ad13b32b36bea7b753a37798555957af6021b50c7fd9800163d3c689/fuzzquery-2024.5.17.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2024-05-17 06:01:09] INFO root fetch - processPackages [hydrobot]: executing diffoscope
+[2024-05-17 06:01:09] INFO root fetch - processPackages [hydrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrobot-0.5.2.tar.gz tmp/hydrobot-0.6.0.tar.gz --markdown 20240517/h/hydrobot/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-17 06:01:09] INFO root fetch - processPackages [pyriak]: executing diffoscope
+[2024-05-17 06:01:09] INFO root fetch - processPackages [pyriak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriak-0.1.0.tar.gz tmp/pyriak-0.2.0.tar.gz --markdown 20240517/p/pyriak/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-17 06:01:09] INFO root fetch - processPackages [fuzzquery]: executing diffoscope
+[2024-05-17 06:01:09] INFO root fetch - processPackages [fuzzquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzquery-2024.5.16.tar.gz tmp/fuzzquery-2024.5.17.tar.gz --markdown 20240517/f/fuzzquery/2024.5.16-2024.5.17/README.md --exclude *.pyd
+[2024-05-17 06:01:09] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2024-05-17 06:01:09] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20240517/m/mpservice/0.9.9-0.9.9.post1/README.md --exclude *.pyd
+[2024-05-17 06:01:10] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Downloading https://files.pythonhosted.org/packages/a1/76/e6a7ef5b0999691153ea9a178c77941e95bd157fd1c0a4140a6e760e6613/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz
+[2024-05-17 06:01:10] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-2024.5.16.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-2024.5.17.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - main [MainThread]: End processing [fuzzquery]: success
+[2024-05-17 06:01:10] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: executing diffoscope
+[2024-05-17 06:01:10] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz --markdown 20240517/c/cdktf-cdktf-provider-cloudflare/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-17 06:01:10] INFO root fetch - processPackages [pyriak]: Remove: archive file [/home/abi/fetcher/tmp/pyriak-0.1.0.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - processPackages [pyriak]: Remove: archive file [/home/abi/fetcher/tmp/pyriak-0.2.0.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - main [MainThread]: End processing [pyriak]: success
+[2024-05-17 06:01:10] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2024-05-17 06:01:10] INFO root fetch - processPackages [hydrobot]: Remove: archive file [/home/abi/fetcher/tmp/hydrobot-0.5.2.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - processPackages [hydrobot]: Remove: archive file [/home/abi/fetcher/tmp/hydrobot-0.6.0.tar.gz]
+[2024-05-17 06:01:10] INFO root fetch - main [MainThread]: End processing [hydrobot]: success
+[2024-05-17 06:01:14] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.2.tar.gz]
+[2024-05-17 06:01:14] INFO root fetch - processPackages [cdktf-cdktf-provider-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-cloudflare-9.0.3.tar.gz]
+[2024-05-17 06:01:14] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-cloudflare]: success
+[2024-05-17 06:01:14] INFO root fetch - main [MainThread]: Store serial: [23248057]

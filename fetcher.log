@@ -11639,3 +11639,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:41:22] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.5-py3-none-any.whl.zip]
 [2024-05-17 04:41:22] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
 [2024-05-17 04:41:22] INFO root fetch - main [MainThread]: Store serial: [23247536]
+[2024-05-17 04:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247536]
+[2024-05-17 04:43:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 04:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exl2conv
+[2024-05-17 04:43:38] INFO root fetch - processPackages [exl2conv]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-05-17 04:43:38] INFO root fetch - processPackages [exl2conv]: Downloading https://files.pythonhosted.org/packages/05/0c/851e8c36360273d60dec141c4403784e791eb558857edde7721e7d1eb717/exl2conv-0.0.20.tar.gz
+[2024-05-17 04:43:38] INFO root fetch - processPackages [exl2conv]: Downloading https://files.pythonhosted.org/packages/62/84/8b158cbb0be613c3add2cd8d1a781ccefcacac7b0f5e6740ea96cb79ec81/exl2conv-0.0.21.tar.gz
+[2024-05-17 04:43:38] INFO root fetch - processPackages [exl2conv]: executing diffoscope
+[2024-05-17 04:43:38] INFO root fetch - processPackages [exl2conv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exl2conv-0.0.20.tar.gz tmp/exl2conv-0.0.21.tar.gz --markdown 20240517/e/exl2conv/0.0.20-0.0.21/README.md --exclude *.pyd
+[2024-05-17 04:43:40] INFO root fetch - processPackages [exl2conv]: Remove: archive file [/home/abi/fetcher/tmp/exl2conv-0.0.20.tar.gz]
+[2024-05-17 04:43:40] INFO root fetch - processPackages [exl2conv]: Remove: archive file [/home/abi/fetcher/tmp/exl2conv-0.0.21.tar.gz]
+[2024-05-17 04:43:40] INFO root fetch - main [MainThread]: End processing [exl2conv]: success
+[2024-05-17 04:43:40] INFO root fetch - main [MainThread]: Store serial: [23247540]

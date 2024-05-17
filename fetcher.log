@@ -13905,3 +13905,42 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:17:26] INFO root fetch - processPackages [sft-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/sft-data-generator-0.0.3.tar.gz]
 [2024-05-17 07:17:26] INFO root fetch - main [MainThread]: End processing [sft-data-generator]: success
 [2024-05-17 07:17:26] INFO root fetch - main [MainThread]: Store serial: [23248476]
+[2024-05-17 07:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248476]
+[2024-05-17 07:19:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 07:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sttn
+[2024-05-17 07:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbSQL-connect
+[2024-05-17 07:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marimo
+[2024-05-17 07:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-salesforce
+[2024-05-17 07:19:35] INFO root fetch - processPackages [dbSQL-connect]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-17 07:19:35] INFO root fetch - processPackages [dbSQL-connect]: Downloading https://files.pythonhosted.org/packages/f4/23/7c1a2d95c13ce0e7c08442c3c9a12e298bea0ee236ae3daf1faac92e0fd4/dbSQL_connect-0.0.2.tar.gz
+[2024-05-17 07:19:35] INFO root fetch - processPackages [sttn]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-17 07:19:35] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-17 07:19:35] INFO root fetch - processPackages [marimo]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-17 07:19:36] INFO root fetch - processPackages [sttn]: Downloading https://files.pythonhosted.org/packages/96/06/bc16b92ba81ea852eb56c99c828324474136a75ac25d6421eda3472e9463/sttn-0.3.3.tar.gz
+[2024-05-17 07:19:36] INFO root fetch - processPackages [dbSQL-connect]: Downloading https://files.pythonhosted.org/packages/52/38/9bf55f409a521b6d7335a55cbafc439a9ab3cd522e21c7e3226536e9d476/dbSQL_connect-0.0.3.tar.gz
+[2024-05-17 07:19:36] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/f5/9b/84e4d5092ee2ce5c3baeeb6e11bafb66cbc98b6e2a67a430048305aded89/marimo-0.5.2.tar.gz
+[2024-05-17 07:19:36] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/5a/bc/dd53179ac39fa0c948b03814f7a0f3ea56ff7d61e79644d48298941e44b3/airbyte_source_salesforce-2.5.8.tar.gz
+[2024-05-17 07:19:36] INFO root fetch - processPackages [dbSQL-connect]: executing diffoscope
+[2024-05-17 07:19:36] INFO root fetch - processPackages [dbSQL-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbSQL_connect-0.0.2.tar.gz tmp/dbSQL_connect-0.0.3.tar.gz --markdown 20240517/d/dbSQL-connect/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-17 07:19:36] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/af/14/5e6ec129c317e6125da32345043611eebfe5d2c8999948acbcb76cf613e2/airbyte_source_salesforce-2.5.9.tar.gz
+[2024-05-17 07:19:36] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-05-17 07:19:36] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.5.8.tar.gz tmp/airbyte_source_salesforce-2.5.9.tar.gz --markdown 20240517/a/airbyte-source-salesforce/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-05-17 07:19:36] INFO root fetch - processPackages [dbSQL-connect]: Remove: archive file [/home/abi/fetcher/tmp/dbSQL_connect-0.0.2.tar.gz]
+[2024-05-17 07:19:36] INFO root fetch - processPackages [dbSQL-connect]: Remove: archive file [/home/abi/fetcher/tmp/dbSQL_connect-0.0.3.tar.gz]
+[2024-05-17 07:19:36] INFO root fetch - main [MainThread]: End processing [dbSQL-connect]: success
+[2024-05-17 07:19:36] INFO root fetch - processPackages [sttn]: Downloading https://files.pythonhosted.org/packages/1d/da/2bd5d83b7e05a531729504460f60873bae141f8a52570a0f325886136b13/sttn-0.3.4.tar.gz
+[2024-05-17 07:19:36] INFO root fetch - processPackages [sttn]: executing diffoscope
+[2024-05-17 07:19:36] INFO root fetch - processPackages [sttn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sttn-0.3.3.tar.gz tmp/sttn-0.3.4.tar.gz --markdown 20240517/s/sttn/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-17 07:19:37] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.8.tar.gz]
+[2024-05-17 07:19:37] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.9.tar.gz]
+[2024-05-17 07:19:37] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-05-17 07:19:37] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/6e/59/49c3e9c869c7276bb7b1fe91fd64c20f2aa5f1f6dd6149dc5839dd4bfcca/marimo-0.6.0.tar.gz
+[2024-05-17 07:19:37] INFO root fetch - processPackages [sttn]: Remove: archive file [/home/abi/fetcher/tmp/sttn-0.3.3.tar.gz]
+[2024-05-17 07:19:37] INFO root fetch - processPackages [sttn]: Remove: archive file [/home/abi/fetcher/tmp/sttn-0.3.4.tar.gz]
+[2024-05-17 07:19:37] INFO root fetch - main [MainThread]: End processing [sttn]: success
+[2024-05-17 07:19:39] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-05-17 07:19:39] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.5.2.tar.gz tmp/marimo-0.6.0.tar.gz --markdown 20240517/m/marimo/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-17 07:21:23] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.5.2.tar.gz]
+[2024-05-17 07:21:23] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.0.tar.gz]
+[2024-05-17 07:21:23] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-05-17 07:21:23] INFO root fetch - main [MainThread]: Store serial: [23248489]

@@ -14332,3 +14332,63 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:39:34] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.6.tar.gz]
 [2024-05-17 07:39:34] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
 [2024-05-17 07:39:34] INFO root fetch - main [MainThread]: Store serial: [23248626]
+[2024-05-17 07:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248626]
+[2024-05-17 07:41:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oelint-adv
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudamqp
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-civo
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delphix-dct-api
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reqs-cli
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zorch
+[2024-05-17 07:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datalibro-backend
+[2024-05-17 07:41:43] INFO root fetch - processPackages [zorch]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-17 07:41:43] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-17 07:41:43] INFO root fetch - processPackages [oelint-adv]: New version: [5.3.1] Old Version: [5.3.0]
+[2024-05-17 07:41:43] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/12/94/7789805d4c4219d6c5a4712efe63dc6fcd077c208f395d1d331455c4fa34/datalibro_backend-1.1.8.tar.gz
+[2024-05-17 07:41:43] WARNING root fetch - processPackages [reqs-cli]: Skipping, unable to determine old version
+[2024-05-17 07:41:43] INFO root fetch - main [MainThread]: End processing [reqs-cli] error
+[2024-05-17 07:41:43] INFO root fetch - processPackages [delphix-dct-api]: New version: [9.0.0rc3] Old Version: [9.0.0rc2]
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715923260] Old Version: [2.4.0a1715752908]
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/9e/b5/9c26296298aec4a4e5722e9719347016966bf67de7211f0520677274c755/oelint_adv-5.3.0.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/16/3a/a8cbd11df0da19b45fe7dcd4d730a272b20c9535cd94c7d5840fd04d1a9d/zorch-0.0.0.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/90/ca/b58c5783f46a6a55bbc75f63c8c98c3f4ae6050a4daba38a7b6bc6a92a1a/pulumi_civo-2.4.0a1715752908.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/bb/87/21d8d43cd1d47753f43b488346b68bb02e276ba99e71258f60d3c6f504e8/delphix-dct-api-9.0.0rc2.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/26/e1/0503058f9916bf7d61fa0391ce6975564fa49002462a1d235a78b1f0609d/datalibro_backend-1.1.9.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-17 07:41:43] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.8.tar.gz tmp/datalibro_backend-1.1.9.tar.gz --markdown 20240517/d/datalibro-backend/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240517/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-17 07:41:43] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/e5/1a/88098be103dcde033cd0897cd40b73fce8e752305228f5c09b859c47b023/oelint_adv-5.3.1.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/3c/ac/d6e3c1bf9a3c82c34a2dfeacd9943a628efeaeece36b3ab59d6f61ea1a56/zorch-0.0.1.tar.gz
+[2024-05-17 07:41:43] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/5d/73/a023d3dc07a566bcacebecf5b2c1cb80677cd6226d20186568ee18e7d72a/pulumi_civo-2.4.0a1715923260.tar.gz
+[2024-05-17 07:41:44] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2024-05-17 07:41:44] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-5.3.0.tar.gz tmp/oelint_adv-5.3.1.tar.gz --markdown 20240517/o/oelint-adv/5.3.0-5.3.1/README.md --exclude *.pyd
+[2024-05-17 07:41:44] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/cf/59/1ebda927c866f75511f4dfd6d6e4005c7178413d53de4fcf7a4c0bbc8f1b/delphix-dct-api-9.0.0rc3.tar.gz
+[2024-05-17 07:41:44] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 07:41:44] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.0.tar.gz tmp/zorch-0.0.1.tar.gz --markdown 20240517/z/zorch/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-17 07:41:44] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-17 07:41:44] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715752908.tar.gz tmp/pulumi_civo-2.4.0a1715923260.tar.gz --markdown 20240517/p/pulumi-civo/2.4.0a1715752908-2.4.0a1715923260/README.md --exclude *.pyd
+[2024-05-17 07:41:44] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2024-05-17 07:41:44] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-9.0.0rc2.tar.gz tmp/delphix-dct-api-9.0.0rc3.tar.gz --markdown 20240517/d/delphix-dct-api/9.0.0rc2-9.0.0rc3/README.md --exclude *.pyd
+[2024-05-17 07:41:44] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.8.tar.gz]
+[2024-05-17 07:41:44] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.9.tar.gz]
+[2024-05-17 07:41:44] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-17 07:41:44] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-05-17 07:41:44] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-05-17 07:41:44] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-05-17 07:41:44] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.0.tar.gz]
+[2024-05-17 07:41:44] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.1.tar.gz]
+[2024-05-17 07:41:44] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 07:41:45] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715752908.tar.gz]
+[2024-05-17 07:41:45] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715923260.tar.gz]
+[2024-05-17 07:41:45] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-17 07:41:45] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.3.0.tar.gz]
+[2024-05-17 07:41:45] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.3.1.tar.gz]
+[2024-05-17 07:41:45] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2024-05-17 07:41:47] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc2.tar.gz]
+[2024-05-17 07:41:47] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc3.tar.gz]
+[2024-05-17 07:41:47] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2024-05-17 07:41:47] INFO root fetch - main [MainThread]: Store serial: [23248646]

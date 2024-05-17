@@ -19438,3 +19438,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:40:36] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.2.4.tar.gz]
 [2024-05-17 10:40:36] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
 [2024-05-17 10:40:36] INFO root fetch - main [MainThread]: Store serial: [23250726]
+[2024-05-17 10:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250726]
+[2024-05-17 10:42:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qBitrr2
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exasol-toolbox
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt-idax-adapter
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: puan-db-python
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramodels
+[2024-05-17 10:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-tax
+[2024-05-17 10:42:47] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.4] Old Version: [4.6.3]
+[2024-05-17 10:42:47] INFO root fetch - processPackages [antchain-tax]: New version: [1.8.8] Old Version: [1.8.6]
+[2024-05-17 10:42:48] INFO root fetch - processPackages [puan-db-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-17 10:42:48] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-17 10:42:48] INFO root fetch - processPackages [exasol-toolbox]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ccxt-idax-adapter]: New version: [4.3.26] Old Version: [4.3.25]
+[2024-05-17 10:42:48] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/0d/80/bfd87b1281106234beea27491d84f96823566019faeff48686c822b2b985/qbitrr2-4.6.3.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [puan-db-python]: Downloading https://files.pythonhosted.org/packages/cd/07/a8b489104355fa11e045ada017f235fbe7404da8e1873f50bbe74b87eb50/puan_db_python-0.1.1.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [antchain-tax]: Downloading https://files.pythonhosted.org/packages/70/d2/a772174cf17e572af6e3a793c5a4d1d3397681ad55bf68d3cd134db08d32/antchain_tax-1.8.6.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/2e/eb/bd4143bec8479f23fd69b39a5770d21f1b1157e569082d151a26481ba2e3/exasol_toolbox-0.8.0.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/7f/83/05151e0b7e56d661b062a7933685d4c276bed637d03023c96c900e69ae96/ccxt-idax-adapter-4.3.25.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/6c/ef/df1e0d58264d596a753e476fa00939360f4134c9baa3346b6af3aa88f268/qbitrr2-4.6.4.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240517/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-17 10:42:48] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 10:42:48] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.3.tar.gz tmp/qbitrr2-4.6.4.tar.gz --markdown 20240517/q/qBitrr2/4.6.3-4.6.4/README.md --exclude *.pyd
+[2024-05-17 10:42:48] INFO root fetch - processPackages [antchain-tax]: Downloading https://files.pythonhosted.org/packages/1d/d7/6f663c0379133962c06b8b727bdba23ae0d5174ac230fbdfd8507b8f9a93/antchain_tax-1.8.8.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-17 10:42:48] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240517/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-17 10:42:48] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/ee/68/823061ed5af0888aa233e71bfb2d162de2ec6850af8ea1b2919eca60ea70/exasol_toolbox-0.9.0.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [puan-db-python]: Downloading https://files.pythonhosted.org/packages/62/aa/f78d656c5616871677fcfad89bd7dbedcbe03e6ec6d51c0b0c8b8f0c7355/puan_db_python-0.1.2.tar.gz
+[2024-05-17 10:42:48] INFO root fetch - processPackages [antchain-tax]: executing diffoscope
+[2024-05-17 10:42:48] INFO root fetch - processPackages [antchain-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_tax-1.8.6.tar.gz tmp/antchain_tax-1.8.8.tar.gz --markdown 20240517/a/antchain-tax/1.8.6-1.8.8/README.md --exclude *.pyd
+[2024-05-17 10:42:48] INFO root fetch - processPackages [exasol-toolbox]: executing diffoscope
+[2024-05-17 10:42:48] INFO root fetch - processPackages [exasol-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_toolbox-0.8.0.tar.gz tmp/exasol_toolbox-0.9.0.tar.gz --markdown 20240517/e/exasol-toolbox/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 10:42:48] INFO root fetch - processPackages [puan-db-python]: executing diffoscope
+[2024-05-17 10:42:48] INFO root fetch - processPackages [puan-db-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puan_db_python-0.1.1.tar.gz tmp/puan_db_python-0.1.2.tar.gz --markdown 20240517/p/puan-db-python/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 10:42:48] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/0f/06/61db9e1c1c912949461b1f9af335c665c1ebd2267a9121c2bd42bf093b27/ccxt-idax-adapter-4.3.26.tar.gz
+[2024-05-17 10:42:49] INFO root fetch - processPackages [ccxt-idax-adapter]: executing diffoscope
+[2024-05-17 10:42:49] INFO root fetch - processPackages [ccxt-idax-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-idax-adapter-4.3.25.tar.gz tmp/ccxt-idax-adapter-4.3.26.tar.gz --markdown 20240517/c/ccxt-idax-adapter/4.3.25-4.3.26/README.md --exclude *.pyd
+[2024-05-17 10:42:49] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-17 10:42:49] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.3.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.4.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 10:42:49] INFO root fetch - processPackages [exasol-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/exasol_toolbox-0.8.0.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - processPackages [exasol-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/exasol_toolbox-0.9.0.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - main [MainThread]: End processing [exasol-toolbox]: success
+[2024-05-17 10:42:49] INFO root fetch - processPackages [antchain-tax]: Remove: archive file [/home/abi/fetcher/tmp/antchain_tax-1.8.6.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - processPackages [antchain-tax]: Remove: archive file [/home/abi/fetcher/tmp/antchain_tax-1.8.8.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - main [MainThread]: End processing [antchain-tax]: success
+[2024-05-17 10:42:49] INFO root fetch - processPackages [puan-db-python]: Remove: archive file [/home/abi/fetcher/tmp/puan_db_python-0.1.1.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - processPackages [puan-db-python]: Remove: archive file [/home/abi/fetcher/tmp/puan_db_python-0.1.2.tar.gz]
+[2024-05-17 10:42:49] INFO root fetch - main [MainThread]: End processing [puan-db-python]: success
+[2024-05-17 10:42:51] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-17 10:42:51] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-17 10:42:51] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-17 10:42:52] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.25.tar.gz]
+[2024-05-17 10:42:52] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.26.tar.gz]
+[2024-05-17 10:42:52] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
+[2024-05-17 10:42:52] INFO root fetch - main [MainThread]: Store serial: [23250750]

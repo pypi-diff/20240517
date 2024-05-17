@@ -3014,3 +3014,60 @@
 [2024-05-17 02:46:15] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405160044.tar.gz]
 [2024-05-17 02:46:15] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-17 02:46:15] INFO root fetch - main [MainThread]: Store serial: [23244623]
+[2024-05-17 02:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244623]
+[2024-05-17 02:48:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 02:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-17 02:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-composition
+[2024-05-17 02:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyoda-time
+[2024-05-17 02:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vesselasid
+[2024-05-17 02:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2024-05-17 02:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yoto-api
+[2024-05-17 02:48:23] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-17 02:48:23] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 02:48:23] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 02:48:23] INFO root fetch - processPackages [mass-composition]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-17 02:48:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [pyoda-time]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-17 02:48:24] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 02:48:24] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/0c/23/4e44bcfec68b2e64c06e6a1733157d5c30f758df58141e1e306d899d3838/mass_composition-0.6.3.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [pyoda-time]: Downloading https://files.pythonhosted.org/packages/20/84/7ab05c643c9572364d2470b9cf0ddeb20a931b1c35149b8bcd4de98c2f7d/pyoda_time-0.6.0.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-05-17 02:48:24] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240517/v/vesselasid/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 02:48:24] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-17 02:48:24] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240517/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 02:48:24] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/0a/4a/c7a5c23dd742f91de1ee4b6b84957efba6fa9ede4086e958f56c080f6758/mass_composition-0.6.4.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-17 02:48:24] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.6.3.tar.gz tmp/mass_composition-0.6.4.tar.gz --markdown 20240517/m/mass-composition/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-17 02:48:24] INFO root fetch - processPackages [pyoda-time]: Downloading https://files.pythonhosted.org/packages/09/8e/bd41b2c39e711ef1a9fcb6011aa83e7556e8dfc7561ed8f7675bf6959362/pyoda_time-0.7.0.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-17 02:48:24] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240517/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-17 02:48:24] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-17 02:48:24] INFO root fetch - processPackages [pyoda-time]: executing diffoscope
+[2024-05-17 02:48:24] INFO root fetch - processPackages [pyoda-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoda_time-0.6.0.tar.gz tmp/pyoda_time-0.7.0.tar.gz --markdown 20240517/p/pyoda-time/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-17 02:48:24] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-17 02:48:24] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240517/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 02:48:25] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-05-17 02:48:25] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-17 02:48:25] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.3.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.4.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-17 02:48:25] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-17 02:48:25] INFO root fetch - processPackages [pyoda-time]: Remove: archive file [/home/abi/fetcher/tmp/pyoda_time-0.6.0.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - processPackages [pyoda-time]: Remove: archive file [/home/abi/fetcher/tmp/pyoda_time-0.7.0.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: End processing [pyoda-time]: success
+[2024-05-17 02:48:25] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-17 02:48:25] INFO root fetch - main [MainThread]: Store serial: [23244639]

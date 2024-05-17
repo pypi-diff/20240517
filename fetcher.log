@@ -12497,3 +12497,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:37:02] INFO root fetch - processPackages [cdict]: Remove: archive file [/home/abi/fetcher/tmp/cdict-2.1.4.tar.gz]
 [2024-05-17 05:37:02] INFO root fetch - main [MainThread]: End processing [cdict]: success
 [2024-05-17 05:37:02] INFO root fetch - main [MainThread]: Store serial: [23247854]
+[2024-05-17 05:39:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247854]
+[2024-05-17 05:39:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 05:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-17 05:39:10] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240516.379] Old Version: [0.44.20240516.378]
+[2024-05-17 05:39:10] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/f6/73/034689beb006085148c394d2ad1b60e74412e12a5387ab268ab76d4763c9/pkscreener-0.44.20240516.378.tar.gz
+[2024-05-17 05:39:11] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/77/4e/c403c7dfa39f5a546424b8a7b5a2835012df936024f93712889bf247ad26/pkscreener-0.44.20240516.379.tar.gz
+[2024-05-17 05:39:11] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-17 05:39:11] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240516.378.tar.gz tmp/pkscreener-0.44.20240516.379.tar.gz --markdown 20240517/p/pkscreener/0.44.20240516.378-0.44.20240516.379/README.md --exclude *.pyd
+[2024-05-17 05:39:12] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240516.378.tar.gz]
+[2024-05-17 05:39:12] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240516.379.tar.gz]
+[2024-05-17 05:39:12] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-17 05:39:12] INFO root fetch - main [MainThread]: Store serial: [23247857]

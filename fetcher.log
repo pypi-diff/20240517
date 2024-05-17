@@ -3165,3 +3165,24 @@
 [2024-05-17 02:59:30] INFO root fetch - processPackages [cengal-app-dir-path-finder]: Remove: archive file [/home/abi/fetcher/tmp/cengal_app_dir_path_finder-1.1.0.tar.gz]
 [2024-05-17 02:59:30] INFO root fetch - main [MainThread]: End processing [cengal-app-dir-path-finder]: success
 [2024-05-17 02:59:30] INFO root fetch - main [MainThread]: Store serial: [23244682]
+[2024-05-17 03:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244682]
+[2024-05-17 03:01:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 03:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zarr
+[2024-05-17 03:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-05-17 03:01:39] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 03:01:39] INFO root fetch - processPackages [zarr]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-05-17 03:01:39] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-17 03:01:39] INFO root fetch - processPackages [zarr]: Downloading https://files.pythonhosted.org/packages/e1/2a/5ff78005e06a0ba3648013ba012d73479cc1a6924bf1ac2ad1a27814f15f/zarr-2.9.4.tar.gz
+[2024-05-17 03:01:40] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-17 03:01:40] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-17 03:01:40] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240517/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 03:01:40] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-17 03:01:40] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-17 03:01:40] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-17 03:01:41] INFO root fetch - processPackages [zarr]: Downloading https://files.pythonhosted.org/packages/d6/5c/79d0837d512a3f74c1a04ef9cd036fcf7872d3fa698aad3d68416a35c444/zarr-2.9.5.tar.gz
+[2024-05-17 03:01:42] INFO root fetch - processPackages [zarr]: executing diffoscope
+[2024-05-17 03:01:42] INFO root fetch - processPackages [zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarr-2.9.4.tar.gz tmp/zarr-2.9.5.tar.gz --markdown 20240517/z/zarr/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-05-17 03:02:00] INFO root fetch - processPackages [zarr]: Remove: archive file [/home/abi/fetcher/tmp/zarr-2.9.4.tar.gz]
+[2024-05-17 03:02:00] INFO root fetch - processPackages [zarr]: Remove: archive file [/home/abi/fetcher/tmp/zarr-2.9.5.tar.gz]
+[2024-05-17 03:02:00] INFO root fetch - main [MainThread]: End processing [zarr]: success
+[2024-05-17 03:02:00] INFO root fetch - main [MainThread]: Store serial: [23244688]

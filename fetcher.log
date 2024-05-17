@@ -14777,3 +14777,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 07:57:02] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715924269.tar.gz]
 [2024-05-17 07:57:02] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
 [2024-05-17 07:57:02] INFO root fetch - main [MainThread]: Store serial: [23248757]
+[2024-05-17 07:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248757]
+[2024-05-17 07:59:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-17 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zorch
+[2024-05-17 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lm-format-enforcer
+[2024-05-17 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-dnsimple
+[2024-05-17 07:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nldcsc
+[2024-05-17 07:59:12] INFO root fetch - processPackages [zorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 07:59:12] INFO root fetch - processPackages [nldcsc]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-17 07:59:12] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:59:12] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/3c/ac/d6e3c1bf9a3c82c34a2dfeacd9943a628efeaeece36b3ab59d6f61ea1a56/zorch-0.0.1.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [lm-format-enforcer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-17 07:59:12] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1715923925] Old Version: [3.5.0a1715755898]
+[2024-05-17 07:59:12] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [nldcsc]: Downloading https://files.pythonhosted.org/packages/7d/6b/df1d9f06e499a66a5d9330c82d02c2faa794c3acb63adf9b958a22860c87/nldcsc-0.2.7.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [lm-format-enforcer]: Downloading https://files.pythonhosted.org/packages/8a/bd/01f4485f47e3636e57dfee24bad759773231042a69db930b15d968682315/lm_format_enforcer-0.9.8.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/74/7b/57b3f12a16c75e1cf4fd8996619a73569d7645e4c785fa43ce106bd60c45/pulumi_dnsimple-3.5.0a1715755898.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/0e/da/7375f0da16b3c3cb69b66452e2eff5605c1d15714efdaf62a68edb8db880/zorch-0.0.2.tar.gz
+[2024-05-17 07:59:12] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:59:12] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:59:13] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 07:59:13] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.1.tar.gz tmp/zorch-0.0.2.tar.gz --markdown 20240517/z/zorch/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-17 07:59:13] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/47/6c/588770a45f756390066a0987b040f1f7cde87aecf827bd82053cea7af16d/pulumi_dnsimple-3.5.0a1715923925.tar.gz
+[2024-05-17 07:59:13] INFO root fetch - processPackages [nldcsc]: Downloading https://files.pythonhosted.org/packages/97/96/84810000fa139a12725b5a635330d5db38dbb4d670b491e9a8d7b60bbffb/nldcsc-0.2.8.tar.gz
+[2024-05-17 07:59:13] INFO root fetch - processPackages [lm-format-enforcer]: Downloading https://files.pythonhosted.org/packages/2a/94/8833d38190a2393888e5f6682b3abf17a9fd32ec22d8a967c1e511b16c5a/lm_format_enforcer-0.9.9.tar.gz
+[2024-05-17 07:59:13] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-17 07:59:13] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1715755898.tar.gz tmp/pulumi_dnsimple-3.5.0a1715923925.tar.gz --markdown 20240517/p/pulumi-dnsimple/3.5.0a1715755898-3.5.0a1715923925/README.md --exclude *.pyd
+[2024-05-17 07:59:13] INFO root fetch - processPackages [nldcsc]: executing diffoscope
+[2024-05-17 07:59:13] INFO root fetch - processPackages [nldcsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nldcsc-0.2.7.tar.gz tmp/nldcsc-0.2.8.tar.gz --markdown 20240517/n/nldcsc/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-17 07:59:13] INFO root fetch - processPackages [lm-format-enforcer]: executing diffoscope
+[2024-05-17 07:59:13] INFO root fetch - processPackages [lm-format-enforcer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_format_enforcer-0.9.8.tar.gz tmp/lm_format_enforcer-0.9.9.tar.gz --markdown 20240517/l/lm-format-enforcer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-17 07:59:13] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.1.tar.gz]
+[2024-05-17 07:59:13] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.2.tar.gz]
+[2024-05-17 07:59:13] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 07:59:13] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:59:13] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:59:13] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:59:13] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715755898.tar.gz]
+[2024-05-17 07:59:13] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715923925.tar.gz]
+[2024-05-17 07:59:13] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-17 07:59:14] INFO root fetch - processPackages [nldcsc]: Remove: archive file [/home/abi/fetcher/tmp/nldcsc-0.2.7.tar.gz]
+[2024-05-17 07:59:14] INFO root fetch - processPackages [nldcsc]: Remove: archive file [/home/abi/fetcher/tmp/nldcsc-0.2.8.tar.gz]
+[2024-05-17 07:59:14] INFO root fetch - main [MainThread]: End processing [nldcsc]: success
+[2024-05-17 07:59:14] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.8.tar.gz]
+[2024-05-17 07:59:14] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.9.tar.gz]
+[2024-05-17 07:59:14] INFO root fetch - main [MainThread]: End processing [lm-format-enforcer]: success
+[2024-05-17 07:59:14] INFO root fetch - main [MainThread]: Store serial: [23248772]

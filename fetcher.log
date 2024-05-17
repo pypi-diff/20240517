@@ -13719,3 +13719,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:02:24] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-17 07:02:24] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-17 07:02:24] INFO root fetch - main [MainThread]: Store serial: [23248374]
+[2024-05-17 07:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248374]
+[2024-05-17 07:04:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-ms-core
+[2024-05-17 07:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thepipe-api
+[2024-05-17 07:04:32] INFO root fetch - processPackages [thepipe-api]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-17 07:04:32] INFO root fetch - processPackages [python-ms-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 07:04:32] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/d6/d4/593ddc5326963b7c9973385f2817c1cf2dfec81a6d41ff9eddec44d77e86/thepipe_api-0.3.4.tar.gz
+[2024-05-17 07:04:32] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/ac/c0/9b53713c6abbcd1a74bf421acfb3e7dfa2f48c59fbae1b8b1688be0a4eb4/thepipe_api-0.3.5.tar.gz
+[2024-05-17 07:04:33] INFO root fetch - processPackages [python-ms-core]: Downloading https://files.pythonhosted.org/packages/8b/cb/b66113396fd3898574b01935799477bc74fd098ed667fcdd87c3b3fa8d82/python_ms_core-0.0.8-py3-none-any.whl
+[2024-05-17 07:04:33] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-05-17 07:04:33] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.3.4.tar.gz tmp/thepipe_api-0.3.5.tar.gz --markdown 20240517/t/thepipe-api/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-17 07:04:33] INFO root fetch - processPackages [python-ms-core]: Downloading https://files.pythonhosted.org/packages/36/68/f44aaef418d79d525b7c72f7705b33327f55471582b3f3d12e768365b053/python_ms_core-0.0.9-py3-none-any.whl
+[2024-05-17 07:04:33] INFO root fetch - processPackages [python-ms-core]: executing diffoscope
+[2024-05-17 07:04:33] INFO root fetch - processPackages [python-ms-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ms_core-0.0.8-py3-none-any.whl.zip tmp/python_ms_core-0.0.9-py3-none-any.whl.zip --markdown 20240517/p/python-ms-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:04:33] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.3.4.tar.gz]
+[2024-05-17 07:04:33] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.3.5.tar.gz]
+[2024-05-17 07:04:33] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-05-17 07:04:34] INFO root fetch - processPackages [python-ms-core]: Remove: archive file [/home/abi/fetcher/tmp/python_ms_core-0.0.8-py3-none-any.whl.zip]
+[2024-05-17 07:04:34] INFO root fetch - processPackages [python-ms-core]: Remove: archive file [/home/abi/fetcher/tmp/python_ms_core-0.0.9-py3-none-any.whl.zip]
+[2024-05-17 07:04:34] INFO root fetch - main [MainThread]: End processing [python-ms-core]: success
+[2024-05-17 07:04:34] INFO root fetch - main [MainThread]: Store serial: [23248388]

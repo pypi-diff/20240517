@@ -11899,3 +11899,42 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:59:45] INFO root fetch - processPackages [diffusersv]: Remove: archive file [/home/abi/fetcher/tmp/diffusersv-0.28.0.dev0.tar.gz]
 [2024-05-17 04:59:45] INFO root fetch - main [MainThread]: End processing [diffusersv]: success
 [2024-05-17 04:59:45] INFO root fetch - main [MainThread]: Store serial: [23247633]
+[2024-05-17 05:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247633]
+[2024-05-17 05:01:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 05:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fitz-utils
+[2024-05-17 05:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-17 05:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-17 05:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenopype
+[2024-05-17 05:01:55] INFO root fetch - processPackages [phenopype]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-17 05:01:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715911746] Old Version: [0.0.21a1715888064]
+[2024-05-17 05:01:55] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-17 05:01:55] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/b1/2d/205c1c642adecca2bad7074cc0b2ed8b0262c721a89a41b0579eea982769/phenopype-5.0.0.tar.gz
+[2024-05-17 05:01:55] INFO root fetch - processPackages [fitz-utils]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-05-17 05:01:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/24/bd/63e9a9e157372083ab7833aec184dda63e4cb5e04388fe8612352510ff5a/pulumi_kubernetes_the_hard_way-0.0.21a1715888064.tar.gz
+[2024-05-17 05:01:55] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-17 05:01:56] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/5d/3c/024f493c5bbd7c8274c8de94e7b8f5de4d6681ea645d8fe90ebc70930533/phenopype-5.0.1.tar.gz
+[2024-05-17 05:01:56] INFO root fetch - processPackages [fitz-utils]: Downloading https://files.pythonhosted.org/packages/9f/43/93e6996b2eccfc4e0fc88d1830b41a8b9dd2df32797f9fbc79d829ee61d3/fitz_utils-0.0.16.tar.gz
+[2024-05-17 05:01:56] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-17 05:01:56] INFO root fetch - processPackages [phenopype]: executing diffoscope
+[2024-05-17 05:01:56] INFO root fetch - processPackages [phenopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenopype-5.0.0.tar.gz tmp/phenopype-5.0.1.tar.gz --markdown 20240517/p/phenopype/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-17 05:01:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b3/14/faf437f3d31e1ea01908c6dc01d37abbedd29da3e3c1613137808b523882/pulumi_kubernetes_the_hard_way-0.0.21a1715911746.tar.gz
+[2024-05-17 05:01:56] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-17 05:01:56] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240517/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-17 05:01:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-17 05:01:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715888064.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715911746.tar.gz --markdown 20240517/p/pulumi-kubernetes-the-hard-way/0.0.21a1715888064-0.0.21a1715911746/README.md --exclude *.pyd
+[2024-05-17 05:01:56] INFO root fetch - processPackages [fitz-utils]: Downloading https://files.pythonhosted.org/packages/f2/36/61b4aa727fccf58df4bff39c37ad0afba84050e3ac081a371e5c90ed4be9/fitz_utils-0.0.17.tar.gz
+[2024-05-17 05:01:56] INFO root fetch - processPackages [fitz-utils]: executing diffoscope
+[2024-05-17 05:01:56] INFO root fetch - processPackages [fitz-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitz_utils-0.0.16.tar.gz tmp/fitz_utils-0.0.17.tar.gz --markdown 20240517/f/fitz-utils/0.0.16-0.0.17/README.md --exclude *.pyd
+[2024-05-17 05:01:57] INFO root fetch - processPackages [phenopype]: Remove: archive file [/home/abi/fetcher/tmp/phenopype-5.0.0.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - processPackages [phenopype]: Remove: archive file [/home/abi/fetcher/tmp/phenopype-5.0.1.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - main [MainThread]: End processing [phenopype]: success
+[2024-05-17 05:01:57] INFO root fetch - processPackages [fitz-utils]: Remove: archive file [/home/abi/fetcher/tmp/fitz_utils-0.0.16.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - processPackages [fitz-utils]: Remove: archive file [/home/abi/fetcher/tmp/fitz_utils-0.0.17.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - main [MainThread]: End processing [fitz-utils]: success
+[2024-05-17 05:01:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715888064.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715911746.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-17 05:01:57] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-17 05:01:57] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-17 05:01:57] INFO root fetch - main [MainThread]: Store serial: [23247645]

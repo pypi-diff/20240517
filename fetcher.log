@@ -2350,3 +2350,42 @@
 [2024-05-17 02:06:50] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2024-05-17 02:06:50] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2024-05-17 02:06:50] INFO root fetch - main [MainThread]: Store serial: [23244295]
+[2024-05-17 02:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244295]
+[2024-05-17 02:09:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-05-17 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compressed-tensors-nightly
+[2024-05-17 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-05-17 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multidecoder
+[2024-05-17 02:09:00] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240516] Old Version: [0.3.3.20240514]
+[2024-05-17 02:09:00] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240516] Old Version: [0.0.8.dev20240515]
+[2024-05-17 02:09:00] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-17 02:09:00] INFO root fetch - processPackages [multidecoder]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-17 02:09:00] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/02/ef/10b00b24322013d302cfc57d97a9851990ac553a1e467953748c861f4ad3/compressed_tensors_nightly-0.3.3.20240514-py3-none-any.whl
+[2024-05-17 02:09:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/a3/e8/03a6481da2b562ebb2aac7f875b4e7c71300963f0847281136ec162dac34/jaxutils-nightly-0.0.8.dev20240515.tar.gz
+[2024-05-17 02:09:00] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-17 02:09:01] INFO root fetch - processPackages [multidecoder]: Downloading https://files.pythonhosted.org/packages/0d/54/b8eac7f7086534543e87e7b64eb343ac2acc4b9678053c51c5708e8c72b0/multidecoder-1.3.3.tar.gz
+[2024-05-17 02:09:01] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/5f/66/fb7b964982a18f9e30b9eec5c1ef5c97e074ade5b6e944862e3e7dbc1830/compressed_tensors_nightly-0.3.3.20240516-py3-none-any.whl
+[2024-05-17 02:09:01] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-05-17 02:09:01] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240514-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240516-py3-none-any.whl.zip --markdown 20240517/c/compressed-tensors-nightly/0.3.3.20240514-0.3.3.20240516/README.md --exclude *.pyd
+[2024-05-17 02:09:01] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-17 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/dd/f5/9ba8a95a96d812f2b356bf1f5f74fab01501eeddb3abd629a8ecf629cd85/jaxutils-nightly-0.0.8.dev20240516.tar.gz
+[2024-05-17 02:09:01] INFO root fetch - processPackages [multidecoder]: Downloading https://files.pythonhosted.org/packages/21/b4/76e6047ecd425d7f969c7172490e1b89f0e8ee8841fcf4bb912600255bbb/multidecoder-1.3.4.tar.gz
+[2024-05-17 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-17 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240515.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240516.tar.gz --markdown 20240517/j/jaxutils-nightly/0.0.8.dev20240515-0.0.8.dev20240516/README.md --exclude *.pyd
+[2024-05-17 02:09:01] INFO root fetch - processPackages [multidecoder]: executing diffoscope
+[2024-05-17 02:09:01] INFO root fetch - processPackages [multidecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidecoder-1.3.3.tar.gz tmp/multidecoder-1.3.4.tar.gz --markdown 20240517/m/multidecoder/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-17 02:09:01] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-17 02:09:01] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240517/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-17 02:09:01] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240514-py3-none-any.whl.zip]
+[2024-05-17 02:09:01] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240516-py3-none-any.whl.zip]
+[2024-05-17 02:09:01] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-05-17 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240515.tar.gz]
+[2024-05-17 02:09:01] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240516.tar.gz]
+[2024-05-17 02:09:01] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-17 02:09:02] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-17 02:09:02] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-17 02:09:02] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-17 02:09:02] INFO root fetch - processPackages [multidecoder]: Remove: archive file [/home/abi/fetcher/tmp/multidecoder-1.3.3.tar.gz]
+[2024-05-17 02:09:02] INFO root fetch - processPackages [multidecoder]: Remove: archive file [/home/abi/fetcher/tmp/multidecoder-1.3.4.tar.gz]
+[2024-05-17 02:09:02] INFO root fetch - main [MainThread]: End processing [multidecoder]: success
+[2024-05-17 02:09:02] INFO root fetch - main [MainThread]: Store serial: [23244306]

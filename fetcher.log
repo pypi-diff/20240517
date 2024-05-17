@@ -13991,3 +13991,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:23:36] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
 [2024-05-17 07:23:36] INFO root fetch - main [MainThread]: End processing [snakemake]: success
 [2024-05-17 07:23:36] INFO root fetch - main [MainThread]: Store serial: [23248508]
+[2024-05-17 07:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248508]
+[2024-05-17 07:25:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 07:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddeagentlib
+[2024-05-17 07:25:47] INFO root fetch - processPackages [ddeagentlib]: New version: [0.3] Old Version: [0.2]
+[2024-05-17 07:25:47] INFO root fetch - processPackages [ddeagentlib]: Downloading https://files.pythonhosted.org/packages/27/aa/a27582a913a9fcf1f0fced7f9f10a4ee83ebeab6ce2cf463534134fd6aef/ddeagentlib-0.2.tar.gz
+[2024-05-17 07:25:47] INFO root fetch - processPackages [ddeagentlib]: Downloading https://files.pythonhosted.org/packages/f2/eb/ccc5acf3c40136dc1978aa110c70c90821461747bf3aa37a51e01363d977/ddeagentlib-0.3.tar.gz
+[2024-05-17 07:25:47] INFO root fetch - processPackages [ddeagentlib]: executing diffoscope
+[2024-05-17 07:25:47] INFO root fetch - processPackages [ddeagentlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddeagentlib-0.2.tar.gz tmp/ddeagentlib-0.3.tar.gz --markdown 20240517/d/ddeagentlib/0.2-0.3/README.md --exclude *.pyd
+[2024-05-17 07:25:48] INFO root fetch - processPackages [ddeagentlib]: Remove: archive file [/home/abi/fetcher/tmp/ddeagentlib-0.2.tar.gz]
+[2024-05-17 07:25:48] INFO root fetch - processPackages [ddeagentlib]: Remove: archive file [/home/abi/fetcher/tmp/ddeagentlib-0.3.tar.gz]
+[2024-05-17 07:25:48] INFO root fetch - main [MainThread]: End processing [ddeagentlib]: success
+[2024-05-17 07:25:48] INFO root fetch - main [MainThread]: Store serial: [23248515]

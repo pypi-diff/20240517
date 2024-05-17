@@ -11429,3 +11429,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:25:25] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post37-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-17 04:25:25] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-17 04:25:25] INFO root fetch - main [MainThread]: Store serial: [23247472]
+[2024-05-17 04:27:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247472]
+[2024-05-17 04:27:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 04:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naif-eop-high-prec
+[2024-05-17 04:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatllm
+[2024-05-17 04:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quaker-db
+[2024-05-17 04:27:35] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.16] Old Version: [2024.2.9]
+[2024-05-17 04:27:35] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-17 04:27:35] INFO root fetch - processPackages [quaker-db]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-17 04:27:35] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/e1/59/e3a6830edaba8186c7efa9572180066dd630288b9f582886ff1128f69c87/naif_eop_high_prec-2024.2.9.tar.gz
+[2024-05-17 04:27:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-17 04:27:36] INFO root fetch - processPackages [quaker-db]: Downloading https://files.pythonhosted.org/packages/7c/81/5477ae0891cd8165be04a21cc9af10ec2944343d8bcc338a76e6ad240214/quaker_db-1.0.0.tar.gz
+[2024-05-17 04:27:36] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-17 04:27:36] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-17 04:27:36] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240517/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-17 04:27:36] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/7e/73/954b9ff0054199abad8d7ccaa691b9e4d3c02ca146d1e7b4f984f9b99578/naif_eop_high_prec-2024.5.16.tar.gz
+[2024-05-17 04:27:36] INFO root fetch - processPackages [quaker-db]: Downloading https://files.pythonhosted.org/packages/85/db/870677ba5dfe3ba001d3ef2647ae7318402e474de8fa50e4e243f4c00d1b/quaker_db-2.0.0.tar.gz
+[2024-05-17 04:27:36] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-17 04:27:36] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.2.9.tar.gz tmp/naif_eop_high_prec-2024.5.16.tar.gz --markdown 20240517/n/naif-eop-high-prec/2024.2.9-2024.5.16/README.md --exclude *.pyd
+[2024-05-17 04:27:36] INFO root fetch - processPackages [quaker-db]: executing diffoscope
+[2024-05-17 04:27:36] INFO root fetch - processPackages [quaker-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quaker_db-1.0.0.tar.gz tmp/quaker_db-2.0.0.tar.gz --markdown 20240517/q/quaker-db/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-17 04:27:37] INFO root fetch - processPackages [quaker-db]: Remove: archive file [/home/abi/fetcher/tmp/quaker_db-1.0.0.tar.gz]
+[2024-05-17 04:27:37] INFO root fetch - processPackages [quaker-db]: Remove: archive file [/home/abi/fetcher/tmp/quaker_db-2.0.0.tar.gz]
+[2024-05-17 04:27:37] INFO root fetch - main [MainThread]: End processing [quaker-db]: success
+[2024-05-17 04:27:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-17 04:27:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-17 04:27:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-17 04:27:40] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.2.9.tar.gz]
+[2024-05-17 04:27:40] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.16.tar.gz]
+[2024-05-17 04:27:40] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-17 04:27:40] INFO root fetch - main [MainThread]: Store serial: [23247482]

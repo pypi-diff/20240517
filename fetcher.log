@@ -11833,3 +11833,54 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:55:09] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.3.1-py3-none-any.whl.zip]
 [2024-05-17 04:55:09] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2024-05-17 04:55:09] INFO root fetch - main [MainThread]: Store serial: [23247602]
+[2024-05-17 04:57:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247602]
+[2024-05-17 04:57:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 04:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metamist
+[2024-05-17 04:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zorch
+[2024-05-17 04:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixee
+[2024-05-17 04:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-common
+[2024-05-17 04:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TreeSAK
+[2024-05-17 04:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biopipen
+[2024-05-17 04:57:27] INFO root fetch - processPackages [fastapi-common]: New version: [0.3.9.2] Old Version: [0.3.12.0]
+[2024-05-17 04:57:27] INFO root fetch - processPackages [metamist]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-05-17 04:57:27] INFO root fetch - processPackages [pixee]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 04:57:27] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-17 04:57:27] INFO root fetch - processPackages [fastapi-common]: Downloading https://files.pythonhosted.org/packages/2d/73/34aa6b2ca651a91d7b9a8d310499e52561ca2d55b42ec82ea50ede824f81/fastapi-common-0.3.12.0.tar.gz
+[2024-05-17 04:57:27] WARNING root fetch - processPackages [zorch]: Skipping, unable to determine old version
+[2024-05-17 04:57:27] INFO root fetch - main [MainThread]: End processing [zorch] error
+[2024-05-17 04:57:27] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 04:57:27] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-17 04:57:27] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/5b/a4/8c064a30b0083dcebd2d71f8bf2f4e0fef1b1a448bfb9d2b6e3ae03b70bb/pixee-0.8.8.tar.gz
+[2024-05-17 04:57:27] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/29/55/77615bacd555115a0485aa104e8f1d14957ee9a495478067bd37f6b142bc/metamist-6.9.0.tar.gz
+[2024-05-17 04:57:27] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2024-05-17 04:57:27] INFO root fetch - processPackages [fastapi-common]: Downloading https://files.pythonhosted.org/packages/08/5f/e0ca95d99ff27a275f86d7173d3bdc8caf611c266fe3b0610abc2e93ef0a/fastapi-common-0.3.9.2.tar.gz
+[2024-05-17 04:57:27] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-17 04:57:28] INFO root fetch - processPackages [fastapi-common]: executing diffoscope
+[2024-05-17 04:57:28] INFO root fetch - processPackages [fastapi-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-common-0.3.12.0.tar.gz tmp/fastapi-common-0.3.9.2.tar.gz --markdown 20240517/f/fastapi-common/0.3.12.0-0.3.9.2/README.md --exclude *.pyd
+[2024-05-17 04:57:28] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-17 04:57:28] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240517/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-17 04:57:28] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/4b/72/e1bc6d293dedf2878eaaec17f90d95b929e5eb8dfd9a25b19410e5a4b21f/metamist-6.9.1.tar.gz
+[2024-05-17 04:57:28] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/53/b5/24fce3a62a4797a39ab5b7a963272cc337656db2b464b6ce19dd488a974f/pixee-0.8.9.tar.gz
+[2024-05-17 04:57:28] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2024-05-17 04:57:28] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-05-17 04:57:28] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.9.0.tar.gz tmp/metamist-6.9.1.tar.gz --markdown 20240517/m/metamist/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-05-17 04:57:28] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2024-05-17 04:57:28] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20240517/b/biopipen/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 04:57:28] INFO root fetch - processPackages [pixee]: executing diffoscope
+[2024-05-17 04:57:28] INFO root fetch - processPackages [pixee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixee-0.8.8.tar.gz tmp/pixee-0.8.9.tar.gz --markdown 20240517/p/pixee/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 04:57:28] INFO root fetch - processPackages [fastapi-common]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-common-0.3.12.0.tar.gz]
+[2024-05-17 04:57:28] INFO root fetch - processPackages [fastapi-common]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-common-0.3.9.2.tar.gz]
+[2024-05-17 04:57:28] INFO root fetch - main [MainThread]: End processing [fastapi-common]: success
+[2024-05-17 04:57:28] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-17 04:57:28] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-17 04:57:28] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-17 04:57:29] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2024-05-17 04:57:29] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2024-05-17 04:57:29] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2024-05-17 04:57:29] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.8.tar.gz]
+[2024-05-17 04:57:29] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
+[2024-05-17 04:57:29] INFO root fetch - main [MainThread]: End processing [pixee]: success
+[2024-05-17 04:57:30] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
+[2024-05-17 04:57:30] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
+[2024-05-17 04:57:30] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-05-17 04:57:30] INFO root fetch - main [MainThread]: Store serial: [23247627]

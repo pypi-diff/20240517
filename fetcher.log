@@ -10614,3 +10614,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 03:43:11] INFO root fetch - processPackages [types-aiobotocore-sagemaker-edge]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-sagemaker-edge-2.9.1.tar.gz]
 [2024-05-17 03:43:11] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-sagemaker-edge]: success
 [2024-05-17 03:43:12] INFO root fetch - main [MainThread]: Store serial: [23247210]
+[2024-05-17 03:45:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247210]
+[2024-05-17 03:45:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 03:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-aiobotocore-sagemaker
+[2024-05-17 03:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-aiobotocore-sagemaker-runtime
+[2024-05-17 03:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iudex
+[2024-05-17 03:45:22] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:45:22] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:45:22] INFO root fetch - processPackages [iudex]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-17 03:45:22] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: Downloading https://files.pythonhosted.org/packages/6b/75/ce406bf81a62a456bb09ae1940fad628fe09af8f0de8828cae0f479f576f/types-aiobotocore-sagemaker-runtime-2.9.0.tar.gz
+[2024-05-17 03:45:22] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: Downloading https://files.pythonhosted.org/packages/e0/ba/cff8570b83ea73ea47164830aff1bce103d337d80cbdb93458a9cbd96a15/types-aiobotocore-sagemaker-2.9.0.tar.gz
+[2024-05-17 03:45:22] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/9e/4d/d22711011e5e63aff9b40852a57e8a3f9ff8e3843a15a2d0761be494fec3/iudex-0.4.9.tar.gz
+[2024-05-17 03:45:22] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/fd/ef/36f150819e014d191782bc25dfece1ff7a4555762964cb505cf6e99c6a92/iudex-0.5.0.tar.gz
+[2024-05-17 03:45:23] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-17 03:45:23] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.4.9.tar.gz tmp/iudex-0.5.0.tar.gz --markdown 20240517/i/iudex/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-17 03:45:23] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: Downloading https://files.pythonhosted.org/packages/9e/7d/067a64a51b261f959e527b5077ba668a46ee42829200411fb89b4f472b36/types-aiobotocore-sagemaker-2.9.1.tar.gz
+[2024-05-17 03:45:23] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.9.tar.gz]
+[2024-05-17 03:45:23] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.0.tar.gz]
+[2024-05-17 03:45:23] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-17 03:45:23] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: executing diffoscope
+[2024-05-17 03:45:23] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-sagemaker-2.9.0.tar.gz tmp/types-aiobotocore-sagemaker-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-sagemaker/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:45:23] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: Downloading https://files.pythonhosted.org/packages/12/de/fbc52c0bb870aa0e2124456432252464e16a1b3694b695d4ae9f7ad100b0/types-aiobotocore-sagemaker-runtime-2.9.1.tar.gz
+[2024-05-17 03:45:23] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: executing diffoscope
+[2024-05-17 03:45:23] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-sagemaker-runtime-2.9.0.tar.gz tmp/types-aiobotocore-sagemaker-runtime-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-sagemaker-runtime/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:45:24] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-sagemaker-runtime-2.9.0.tar.gz]
+[2024-05-17 03:45:24] INFO root fetch - processPackages [types-aiobotocore-sagemaker-runtime]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-sagemaker-runtime-2.9.1.tar.gz]
+[2024-05-17 03:45:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-sagemaker-runtime]: success
+[2024-05-17 03:45:24] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-sagemaker-2.9.0.tar.gz]
+[2024-05-17 03:45:24] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-sagemaker-2.9.1.tar.gz]
+[2024-05-17 03:45:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-sagemaker]: success
+[2024-05-17 03:45:24] INFO root fetch - main [MainThread]: Store serial: [23247220]

@@ -13014,3 +13014,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:10:06] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
 [2024-05-17 06:10:06] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-05-17 06:10:06] INFO root fetch - main [MainThread]: Store serial: [23248105]
+[2024-05-17 06:12:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248105]
+[2024-05-17 06:12:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDIOPT
+[2024-05-17 06:12:15] INFO root fetch - processPackages [pyDIOPT]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 06:12:15] INFO root fetch - processPackages [pyDIOPT]: Downloading https://files.pythonhosted.org/packages/5c/1b/57ed9d3e72cb742ae84ec1bd9dcedd4a020eb3b5692b22119f25253f4012/pydiopt-0.1.1.tar.gz
+[2024-05-17 06:12:16] INFO root fetch - processPackages [pyDIOPT]: Downloading https://files.pythonhosted.org/packages/f1/25/77b7cb661005f93a21bdc29b1743b65e98772f5fd02a407a7dbd74459b14/pydiopt-0.1.2.tar.gz
+[2024-05-17 06:12:16] INFO root fetch - processPackages [pyDIOPT]: executing diffoscope
+[2024-05-17 06:12:16] INFO root fetch - processPackages [pyDIOPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiopt-0.1.1.tar.gz tmp/pydiopt-0.1.2.tar.gz --markdown 20240517/p/pyDIOPT/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 06:12:16] INFO root fetch - processPackages [pyDIOPT]: Remove: archive file [/home/abi/fetcher/tmp/pydiopt-0.1.1.tar.gz]
+[2024-05-17 06:12:16] INFO root fetch - processPackages [pyDIOPT]: Remove: archive file [/home/abi/fetcher/tmp/pydiopt-0.1.2.tar.gz]
+[2024-05-17 06:12:16] INFO root fetch - main [MainThread]: End processing [pyDIOPT]: success
+[2024-05-17 06:12:16] INFO root fetch - main [MainThread]: Store serial: [23248109]

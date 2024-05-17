@@ -17999,3 +17999,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:46:22] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.2.tar.gz]
 [2024-05-17 09:46:22] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
 [2024-05-17 09:46:22] INFO root fetch - main [MainThread]: Store serial: [23249996]
+[2024-05-17 09:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249996]
+[2024-05-17 09:48:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-watson-machine-learning
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neverlib
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nutrical
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xigua-proxy
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WSPProjectppchem
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stadb
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mteb
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moto-ext
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wxc
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leeselab-project-creator
+[2024-05-17 09:48:31] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-17 09:48:31] INFO root fetch - processPackages [leeselab-project-creator]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-17 09:48:31] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-17 09:48:31] INFO root fetch - processPackages [moto-ext]: New version: [5.0.7.post1] Old Version: [5.0.6.post2]
+[2024-05-17 09:48:31] WARNING root fetch - processPackages [WSPProjectppchem]: Skipping, unable to determine old version
+[2024-05-17 09:48:31] INFO root fetch - processPackages [WSPProjectppchem]: Start processing: usb-protocol
+[2024-05-17 09:48:31] INFO root fetch - main [MainThread]: End processing [WSPProjectppchem] error
+[2024-05-17 09:48:31] INFO root fetch - processPackages [nutrical]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-17 09:48:31] WARNING root fetch - processPackages [neverlib]: Skipping, unable to determine old version
+[2024-05-17 09:48:31] INFO root fetch - main [MainThread]: End processing [neverlib] error
+[2024-05-17 09:48:31] WARNING root fetch - processPackages [xigua-proxy]: Skipping, unable to determine old version
+[2024-05-17 09:48:31] INFO root fetch - main [MainThread]: End processing [xigua-proxy] error
+[2024-05-17 09:48:31] INFO root fetch - processPackages [stadb]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-17 09:48:31] INFO root fetch - processPackages [wxc]: New version: [7.1.2] Old Version: [7.1.1]
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-17 09:48:31] WARNING root fetch - processPackages [usb-protocol]: Skipping, unable to determine old version
+[2024-05-17 09:48:31] INFO root fetch - main [MainThread]: End processing [usb-protocol] error
+[2024-05-17 09:48:31] INFO root fetch - processPackages [leeselab-project-creator]: Downloading https://files.pythonhosted.org/packages/91/66/cb5717bb881b3b2d3b0b4bf0764f2aebdb055cb6acdd831f305d5e94dee2/leeselab-project-creator-1.1.0.tar.gz
+[2024-05-17 09:48:31] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/a8/ac/a609692ef26ae0b5341afdcf415405a5cc31f7b3c47fa1d4857fa987df66/nutrical-0.0.6.tar.gz
+[2024-05-17 09:48:31] INFO root fetch - processPackages [stadb]: Downloading https://files.pythonhosted.org/packages/ef/30/16da7d8037f058f5ceff873d5b7b283877382ad9cf0c84297fbeab2a0772/stadb-0.0.5.tar.gz
+[2024-05-17 09:48:31] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2024-05-17 09:48:31] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/44/7a/31eda162615342852cf51765f4f577a0a521490629741489bef0f37dabf9/moto_ext-5.0.6.post2.tar.gz
+[2024-05-17 09:48:31] INFO root fetch - processPackages [wxc]: Downloading https://files.pythonhosted.org/packages/fc/e2/091c74467e0fabc7ce3dfcc9c983587ba566b14ca10e78806bf313656d34/wxc-7.1.1.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/3a/51/a4ac3977bcbc81d7e29b18116bdb52db7b615b7d0e786dc9f8470cefb2e2/nutrical-0.0.9.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-17 09:48:32] INFO root fetch - processPackages [stadb]: Downloading https://files.pythonhosted.org/packages/19/f8/682da10ad8e1256c0fe8e35213dde56b8b6819ad206d9682f3d9be8f8dbd/stadb-0.0.6.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.6.tar.gz tmp/nutrical-0.0.9.tar.gz --markdown 20240517/n/nutrical/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:48:32] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-17 09:48:32] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240517/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-17 09:48:32] INFO root fetch - processPackages [leeselab-project-creator]: Downloading https://files.pythonhosted.org/packages/8d/bd/fe0e0321319b3c4956004bc2063d1f7a95a80d6cd367adb66611c9fc6ecd/leeselab_project_creator-1.1.1.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [stadb]: executing diffoscope
+[2024-05-17 09:48:32] INFO root fetch - processPackages [stadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadb-0.0.5.tar.gz tmp/stadb-0.0.6.tar.gz --markdown 20240517/s/stadb/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-17 09:48:32] INFO root fetch - processPackages [wxc]: Downloading https://files.pythonhosted.org/packages/29/a5/6cfb75754a7534cf3d2f810fc673d346983122ce81cc38d54cfaa6496d0c/wxc-7.1.2.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [leeselab-project-creator]: executing diffoscope
+[2024-05-17 09:48:32] INFO root fetch - processPackages [leeselab-project-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leeselab-project-creator-1.1.0.tar.gz tmp/leeselab_project_creator-1.1.1.tar.gz --markdown 20240517/l/leeselab-project-creator/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-17 09:48:32] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/0f/c2/e264c8f4b3960db6fd37a8e376112846d38feb0a024f1b4c39cc292b544e/moto_ext-5.0.7.post1.tar.gz
+[2024-05-17 09:48:32] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2024-05-17 09:48:32] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20240517/i/ibm-watson-machine-learning/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-17 09:48:32] INFO root fetch - processPackages [wxc]: executing diffoscope
+[2024-05-17 09:48:32] INFO root fetch - processPackages [wxc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxc-7.1.1.tar.gz tmp/wxc-7.1.2.tar.gz --markdown 20240517/w/wxc/7.1.1-7.1.2/README.md --exclude *.pyd
+[2024-05-17 09:48:32] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.6.tar.gz]
+[2024-05-17 09:48:32] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.9.tar.gz]
+[2024-05-17 09:48:32] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-17 09:48:33] INFO root fetch - processPackages [stadb]: Remove: archive file [/home/abi/fetcher/tmp/stadb-0.0.5.tar.gz]
+[2024-05-17 09:48:33] INFO root fetch - processPackages [stadb]: Remove: archive file [/home/abi/fetcher/tmp/stadb-0.0.6.tar.gz]
+[2024-05-17 09:48:33] INFO root fetch - main [MainThread]: End processing [stadb]: success
+[2024-05-17 09:48:33] INFO root fetch - processPackages [leeselab-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/leeselab-project-creator-1.1.0.tar.gz]
+[2024-05-17 09:48:33] INFO root fetch - processPackages [leeselab-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/leeselab_project_creator-1.1.1.tar.gz]
+[2024-05-17 09:48:33] INFO root fetch - main [MainThread]: End processing [leeselab-project-creator]: success
+[2024-05-17 09:48:33] INFO root fetch - processPackages [wxc]: Remove: archive file [/home/abi/fetcher/tmp/wxc-7.1.1.tar.gz]
+[2024-05-17 09:48:33] INFO root fetch - processPackages [wxc]: Remove: archive file [/home/abi/fetcher/tmp/wxc-7.1.2.tar.gz]
+[2024-05-17 09:48:33] INFO root fetch - main [MainThread]: End processing [wxc]: success
+[2024-05-17 09:48:33] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-05-17 09:48:33] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto_ext-5.0.6.post2.tar.gz tmp/moto_ext-5.0.7.post1.tar.gz --markdown 20240517/m/moto-ext/5.0.6.post2-5.0.7.post1/README.md --exclude *.pyd
+[2024-05-17 09:48:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-17 09:48:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-17 09:48:35] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-17 09:48:36] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2024-05-17 09:48:36] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2024-05-17 09:48:36] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2024-05-17 09:51:33] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2024-05-17 09:51:33] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2024-05-17 09:51:33] INFO root fetch - main [MainThread]: Store serial: [23250038]

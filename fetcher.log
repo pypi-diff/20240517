@@ -20825,3 +20825,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:18:04] INFO root fetch - processPackages [meteva]: Remove: archive file [/home/abi/fetcher/tmp/meteva-1.8.3.tar.gz]
 [2024-05-17 11:18:04] INFO root fetch - main [MainThread]: End processing [meteva]: success
 [2024-05-17 11:18:04] INFO root fetch - main [MainThread]: Store serial: [23251278]
+[2024-05-17 11:20:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251278]
+[2024-05-17 11:20:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 11:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almgroad
+[2024-05-17 11:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salure-helpers-sap
+[2024-05-17 11:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retrodevem
+[2024-05-17 11:20:18] INFO root fetch - processPackages [retrodevem]: New version: [0.2] Old Version: [0.1]
+[2024-05-17 11:20:18] INFO root fetch - processPackages [almgroad]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-17 11:20:18] INFO root fetch - processPackages [salure-helpers-sap]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-05-17 11:20:18] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/72/a5/064c5a6644374d3a8c73e9d369695ffc53ba61691887d57a3e65ca5dac5b/almgroad-0.0.9-py3-none-any.whl
+[2024-05-17 11:20:18] INFO root fetch - processPackages [retrodevem]: Downloading https://files.pythonhosted.org/packages/61/a5/6df24f96cd902a1275a7e772a8b66d4a70bd8d1fc08cadc892bef0b45f34/retrodevem-0.1.tar.gz
+[2024-05-17 11:20:18] INFO root fetch - processPackages [salure-helpers-sap]: Downloading https://files.pythonhosted.org/packages/fc/5c/19433d5217fe7c7b57ccf67faecbd56a3945f13e3cfb8cfe9d7d7999ee11/salure_helpers_sap-1.5.7.tar.gz
+[2024-05-17 11:20:18] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/86/7b/4a144fad3694823516277bed9164f068a22ef4278bf8f79967d0dc807b09/almgroad-0.1.0-py3-none-any.whl
+[2024-05-17 11:20:18] INFO root fetch - processPackages [almgroad]: executing diffoscope
+[2024-05-17 11:20:18] INFO root fetch - processPackages [almgroad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almgroad-0.0.9-py3-none-any.whl.zip tmp/almgroad-0.1.0-py3-none-any.whl.zip --markdown 20240517/a/almgroad/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-17 11:20:18] INFO root fetch - processPackages [salure-helpers-sap]: Downloading https://files.pythonhosted.org/packages/47/ad/4d2eedcb5e2f426d9a78eaa426d128334964db87c0e75df762ae6f79ed45/salure_helpers_sap-1.5.8.tar.gz
+[2024-05-17 11:20:18] INFO root fetch - processPackages [salure-helpers-sap]: executing diffoscope
+[2024-05-17 11:20:18] INFO root fetch - processPackages [salure-helpers-sap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_sap-1.5.7.tar.gz tmp/salure_helpers_sap-1.5.8.tar.gz --markdown 20240517/s/salure-helpers-sap/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-05-17 11:20:18] INFO root fetch - processPackages [retrodevem]: Downloading https://files.pythonhosted.org/packages/92/76/68a249fe599c72550edd5722076a79d62517b40ec844f63083cee07dc59e/retrodevem-0.2.tar.gz
+[2024-05-17 11:20:19] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.9-py3-none-any.whl.zip]
+[2024-05-17 11:20:19] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.1.0-py3-none-any.whl.zip]
+[2024-05-17 11:20:19] INFO root fetch - main [MainThread]: End processing [almgroad]: success
+[2024-05-17 11:20:19] INFO root fetch - processPackages [salure-helpers-sap]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_sap-1.5.7.tar.gz]
+[2024-05-17 11:20:19] INFO root fetch - processPackages [salure-helpers-sap]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_sap-1.5.8.tar.gz]
+[2024-05-17 11:20:19] INFO root fetch - main [MainThread]: End processing [salure-helpers-sap]: success
+[2024-05-17 11:20:19] INFO root fetch - processPackages [retrodevem]: executing diffoscope
+[2024-05-17 11:20:19] INFO root fetch - processPackages [retrodevem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrodevem-0.1.tar.gz tmp/retrodevem-0.2.tar.gz --markdown 20240517/r/retrodevem/0.1-0.2/README.md --exclude *.pyd
+[2024-05-17 11:20:20] INFO root fetch - processPackages [retrodevem]: Remove: archive file [/home/abi/fetcher/tmp/retrodevem-0.1.tar.gz]
+[2024-05-17 11:20:20] INFO root fetch - processPackages [retrodevem]: Remove: archive file [/home/abi/fetcher/tmp/retrodevem-0.2.tar.gz]
+[2024-05-17 11:20:20] INFO root fetch - main [MainThread]: End processing [retrodevem]: success
+[2024-05-17 11:20:20] INFO root fetch - main [MainThread]: Store serial: [23251285]

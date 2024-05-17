@@ -11510,3 +11510,42 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:32:14] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.6.tar.gz]
 [2024-05-17 04:32:14] INFO root fetch - main [MainThread]: End processing [pixeltable]: success
 [2024-05-17 04:32:14] INFO root fetch - main [MainThread]: Store serial: [23247496]
+[2024-05-17 04:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247496]
+[2024-05-17 04:34:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp_python_sdk
+[2024-05-17 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sherpa-onnx
+[2024-05-17 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveramp-automation
+[2024-05-17 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feather-extract
+[2024-05-17 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afeng-py-tools
+[2024-05-17 04:34:29] INFO root fetch - processPackages [liveramp-automation]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-17 04:34:29] WARNING root fetch - processPackages [rp_python_sdk]: Skipping, unable to determine old version
+[2024-05-17 04:34:29] INFO root fetch - main [MainThread]: End processing [rp_python_sdk] error
+[2024-05-17 04:34:29] INFO root fetch - processPackages [feather-extract]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 04:34:29] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-17 04:34:29] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/f0/be/d41a6dc05ceeaa9f43b48d52789da6b9dddac41bc0cd98b4e22b18c05f8d/liveramp_automation-1.4.1.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.9.25] Old Version: [1.9.24]
+[2024-05-17 04:34:29] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/0e/0f/872c61250bf0a81c1436d3636b17baf8206d00b95a19c2a48fdb76150f74/feather_extract-0.1.8.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/86/bd/4d28b893c72bd818c9dfa9b7a7d371f4f7f99e450b3a148aaf7800122285/sherpa-onnx-1.9.24.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/cd/e0/26923ae98b8e73acb5bb86f3831727ee1cfd566fd452bef31f7751e0c336/liveramp_automation-1.4.2.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-17 04:34:29] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240517/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-17 04:34:29] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/85/b6/3b2e6a05848f2a32c99c9a81651f460a986106bbfdf38a23df79681ac69e/feather_extract-0.1.9.tar.gz
+[2024-05-17 04:34:29] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-05-17 04:34:29] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.4.1.tar.gz tmp/liveramp_automation-1.4.2.tar.gz --markdown 20240517/l/liveramp-automation/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-17 04:34:29] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/a2/c9/f731fd06a01bb50adf76eeb468db6569b7c124f7368d455d899451f7d1f4/sherpa_onnx-1.9.25-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-17 04:34:30] INFO root fetch - processPackages [feather-extract]: executing diffoscope
+[2024-05-17 04:34:30] INFO root fetch - processPackages [feather-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feather_extract-0.1.8.tar.gz tmp/feather_extract-0.1.9.tar.gz --markdown 20240517/f/feather-extract/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 04:34:30] WARNING root fetch - processPackages [sherpa-onnx]: Skipping package: exceeds size limit 15350284>=10485760
+[2024-05-17 04:34:30] INFO root fetch - main [MainThread]: End processing [sherpa-onnx] error
+[2024-05-17 04:34:30] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.8.tar.gz]
+[2024-05-17 04:34:30] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.9.tar.gz]
+[2024-05-17 04:34:30] INFO root fetch - main [MainThread]: End processing [feather-extract]: success
+[2024-05-17 04:34:30] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.1.tar.gz]
+[2024-05-17 04:34:30] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.2.tar.gz]
+[2024-05-17 04:34:30] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-05-17 04:34:30] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-17 04:34:30] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-17 04:34:30] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-17 04:34:30] INFO root fetch - main [MainThread]: Store serial: [23247510]

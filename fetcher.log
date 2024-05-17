@@ -13184,3 +13184,30 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:27:26] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.5.0.tar.gz]
 [2024-05-17 06:27:26] INFO root fetch - main [MainThread]: End processing [dyff-client]: success
 [2024-05-17 06:27:26] INFO root fetch - main [MainThread]: Store serial: [23248181]
+[2024-05-17 06:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248181]
+[2024-05-17 06:29:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 06:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlglot
+[2024-05-17 06:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bittrade-kraken-websocket
+[2024-05-17 06:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banjara
+[2024-05-17 06:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django_medicio_dental
+[2024-05-17 06:29:35] WARNING root fetch - processPackages [django_medicio_dental]: Skipping, unable to determine old version
+[2024-05-17 06:29:35] INFO root fetch - main [MainThread]: End processing [django_medicio_dental] error
+[2024-05-17 06:29:35] INFO root fetch - processPackages [bittrade-kraken-websocket]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 06:29:35] WARNING root fetch - processPackages [banjara]: Skipping, unable to determine old version
+[2024-05-17 06:29:35] INFO root fetch - main [MainThread]: End processing [banjara] error
+[2024-05-17 06:29:35] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2024-05-17 06:29:35] INFO root fetch - processPackages [bittrade-kraken-websocket]: Downloading https://files.pythonhosted.org/packages/db/4a/edc12e959ba2484d782a3ce1698bdfd6c4060c5cbad01d1a79c7099a3567/bittrade_kraken_websocket-0.3.8.tar.gz
+[2024-05-17 06:29:35] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2024-05-17 06:29:35] INFO root fetch - processPackages [bittrade-kraken-websocket]: Downloading https://files.pythonhosted.org/packages/d7/31/186c6108d81bf855c606923b6da4ab8636bf9a1158194ecb7890ccd78f27/bittrade_kraken_websocket-0.3.9.tar.gz
+[2024-05-17 06:29:36] INFO root fetch - processPackages [bittrade-kraken-websocket]: executing diffoscope
+[2024-05-17 06:29:36] INFO root fetch - processPackages [bittrade-kraken-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_kraken_websocket-0.3.8.tar.gz tmp/bittrade_kraken_websocket-0.3.9.tar.gz --markdown 20240517/b/bittrade-kraken-websocket/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 06:29:36] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2024-05-17 06:29:36] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2024-05-17 06:29:36] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20240517/s/sqlglot/9.0.5-9.0.6/README.md --exclude *.pyd
+[2024-05-17 06:29:36] INFO root fetch - processPackages [bittrade-kraken-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_kraken_websocket-0.3.8.tar.gz]
+[2024-05-17 06:29:36] INFO root fetch - processPackages [bittrade-kraken-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_kraken_websocket-0.3.9.tar.gz]
+[2024-05-17 06:29:36] INFO root fetch - main [MainThread]: End processing [bittrade-kraken-websocket]: success
+[2024-05-17 06:29:37] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2024-05-17 06:29:37] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2024-05-17 06:29:37] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2024-05-17 06:29:37] INFO root fetch - main [MainThread]: Store serial: [23248195]

@@ -10920,3 +10920,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 03:58:35] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
 [2024-05-17 03:58:35] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
 [2024-05-17 03:58:35] INFO root fetch - main [MainThread]: Store serial: [23247306]
+[2024-05-17 04:00:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247306]
+[2024-05-17 04:00:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 04:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rag-assistant
+[2024-05-17 04:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feather-extract
+[2024-05-17 04:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentrons
+[2024-05-17 04:00:44] INFO root fetch - processPackages [opentrons]: New version: [7.3.0a3] Old Version: [7.3.0a1]
+[2024-05-17 04:00:44] INFO root fetch - processPackages [feather-extract]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 04:00:44] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 04:00:44] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/5e/c6/4d726968fbb91cf3e49be0ab216d0210418d1fc5fb71a998c26b4edccf9e/feather_extract-0.1.4.tar.gz
+[2024-05-17 04:00:44] INFO root fetch - processPackages [opentrons]: Downloading https://files.pythonhosted.org/packages/55/c8/fe24d052fa99653a73e39a525134d48c63ef90fbd2340db5b5cef5ffffdf/opentrons-7.3.0a1.tar.gz
+[2024-05-17 04:00:44] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/f6/7e/9ee477674545f967f6348fe99878fd51fe9957a77c16458fe1bb2d5e690e/feather_extract-0.1.5.tar.gz
+[2024-05-17 04:00:44] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/3b/52/6f41ac23256c6a9d01685177c9d28106a7f13f472355eab1f059ddbb4dce/rag_assistant-0.1.2.tar.gz
+[2024-05-17 04:00:44] INFO root fetch - processPackages [feather-extract]: executing diffoscope
+[2024-05-17 04:00:44] INFO root fetch - processPackages [feather-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feather_extract-0.1.4.tar.gz tmp/feather_extract-0.1.5.tar.gz --markdown 20240517/f/feather-extract/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 04:00:45] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/df/00/f95f5f0298d26c6c6e908ef9709c24024a93bcf0ebd1f68a249f60438f82/rag_assistant-0.1.3.tar.gz
+[2024-05-17 04:00:45] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-17 04:00:45] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.2.tar.gz tmp/rag_assistant-0.1.3.tar.gz --markdown 20240517/r/rag-assistant/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 04:00:45] INFO root fetch - processPackages [opentrons]: Downloading https://files.pythonhosted.org/packages/07/1a/a10d9628b37fc7521c07ccba3745e8e5ac1e182f30daab2d8063ba81ca59/opentrons-7.3.0a3.tar.gz
+[2024-05-17 04:00:45] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.4.tar.gz]
+[2024-05-17 04:00:45] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.5.tar.gz]
+[2024-05-17 04:00:45] INFO root fetch - main [MainThread]: End processing [feather-extract]: success
+[2024-05-17 04:00:45] INFO root fetch - processPackages [opentrons]: executing diffoscope
+[2024-05-17 04:00:45] INFO root fetch - processPackages [opentrons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons-7.3.0a1.tar.gz tmp/opentrons-7.3.0a3.tar.gz --markdown 20240517/o/opentrons/7.3.0a1-7.3.0a3/README.md --exclude *.pyd
+[2024-05-17 04:00:45] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.2.tar.gz]
+[2024-05-17 04:00:45] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.3.tar.gz]
+[2024-05-17 04:00:45] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-17 04:00:47] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.3.0a1.tar.gz]
+[2024-05-17 04:00:47] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.3.0a3.tar.gz]
+[2024-05-17 04:00:47] INFO root fetch - main [MainThread]: End processing [opentrons]: success
+[2024-05-17 04:00:47] INFO root fetch - main [MainThread]: Store serial: [23247315]

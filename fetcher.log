@@ -11789,3 +11789,47 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:52:38] INFO root fetch - processPackages [fastapi-common]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-common-0.3.9.2.tar.gz]
 [2024-05-17 04:52:38] INFO root fetch - main [MainThread]: End processing [fastapi-common]: success
 [2024-05-17 04:52:38] INFO root fetch - main [MainThread]: Store serial: [23247589]
+[2024-05-17 04:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247589]
+[2024-05-17 04:54:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 04:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grpc-accesslog
+[2024-05-17 04:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainmeta
+[2024-05-17 04:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rp
+[2024-05-17 04:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jennifer-python
+[2024-05-17 04:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medicafe
+[2024-05-17 04:54:46] INFO root fetch - processPackages [medicafe]: New version: [0.240516.1] Old Version: [0.240516.0]
+[2024-05-17 04:54:46] INFO root fetch - processPackages [chainmeta]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 04:54:46] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/24/06/4eb9d43bdda3d2c8234815d4c12f5b0b6658588f6862af0a1f3c113f8048/medicafe-0.240516.0.tar.gz
+[2024-05-17 04:54:46] INFO root fetch - processPackages [chainmeta]: Downloading https://files.pythonhosted.org/packages/bd/30/e455bcd097156b01b5583953b24efc8e77e258e38e8929a307d1fcdef0cb/chainmeta-0.0.4.tar.gz
+[2024-05-17 04:54:46] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.3.1] Old Version: [5.6.3.0]
+[2024-05-17 04:54:46] INFO root fetch - processPackages [grpc-accesslog]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-17 04:54:46] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-17 04:54:47] INFO root fetch - processPackages [chainmeta]: Downloading https://files.pythonhosted.org/packages/32/1c/16fbf3c04ecb8c8e2927c577f9a8f5ca70503dfffd7f1a9935a14b951e43/chainmeta-0.0.5.tar.gz
+[2024-05-17 04:54:47] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/0c/e5/be43e930bc8e7b13e0564298edb21f5602292a5da855445153e1609a9c41/jennifer_python-5.6.3.0-py3-none-any.whl
+[2024-05-17 04:54:47] INFO root fetch - processPackages [grpc-accesslog]: Downloading https://files.pythonhosted.org/packages/5e/17/be0e97d0a402cd3239f0285262b35a2a6cbd2d2530ad2811ad1e36e0dd7a/grpc_accesslog-0.2.1.tar.gz
+[2024-05-17 04:54:47] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-17 04:54:47] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-17 04:54:47] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-17 04:54:47] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/ce/5c/21b98d0d103c52532e1c5bc60f67522df64670fcdbe86d11508df325740d/medicafe-0.240516.1.tar.gz
+[2024-05-17 04:54:47] INFO root fetch - processPackages [chainmeta]: executing diffoscope
+[2024-05-17 04:54:47] INFO root fetch - processPackages [chainmeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainmeta-0.0.4.tar.gz tmp/chainmeta-0.0.5.tar.gz --markdown 20240517/c/chainmeta/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 04:54:47] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-17 04:54:47] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240516.0.tar.gz tmp/medicafe-0.240516.1.tar.gz --markdown 20240517/m/medicafe/0.240516.0-0.240516.1/README.md --exclude *.pyd
+[2024-05-17 04:54:47] INFO root fetch - processPackages [grpc-accesslog]: Downloading https://files.pythonhosted.org/packages/67/c1/8a448a54db2a78c52ffdbf732a855cbcf8f8c1a9b8178debd3adcee15bb9/grpc_accesslog-0.3.0.tar.gz
+[2024-05-17 04:54:47] INFO root fetch - processPackages [grpc-accesslog]: executing diffoscope
+[2024-05-17 04:54:47] INFO root fetch - processPackages [grpc-accesslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_accesslog-0.2.1.tar.gz tmp/grpc_accesslog-0.3.0.tar.gz --markdown 20240517/g/grpc-accesslog/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-17 04:54:47] INFO root fetch - processPackages [chainmeta]: Remove: archive file [/home/abi/fetcher/tmp/chainmeta-0.0.4.tar.gz]
+[2024-05-17 04:54:47] INFO root fetch - processPackages [chainmeta]: Remove: archive file [/home/abi/fetcher/tmp/chainmeta-0.0.5.tar.gz]
+[2024-05-17 04:54:47] INFO root fetch - main [MainThread]: End processing [chainmeta]: success
+[2024-05-17 04:54:48] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240516.0.tar.gz]
+[2024-05-17 04:54:48] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240516.1.tar.gz]
+[2024-05-17 04:54:48] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-17 04:54:48] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc_accesslog-0.2.1.tar.gz]
+[2024-05-17 04:54:48] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc_accesslog-0.3.0.tar.gz]
+[2024-05-17 04:54:48] INFO root fetch - main [MainThread]: End processing [grpc-accesslog]: success
+[2024-05-17 04:54:49] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/5b/b0/45aa9449e6b79012b1c53cc8e7c789fa0c6cdf2d3154ee64897b23c13fe1/jennifer_python-5.6.3.1-py3-none-any.whl
+[2024-05-17 04:54:49] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2024-05-17 04:54:49] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.3.0-py3-none-any.whl.zip tmp/jennifer_python-5.6.3.1-py3-none-any.whl.zip --markdown 20240517/j/jennifer-python/5.6.3.0-5.6.3.1/README.md --exclude *.pyd
+[2024-05-17 04:55:09] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.3.0-py3-none-any.whl.zip]
+[2024-05-17 04:55:09] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.3.1-py3-none-any.whl.zip]
+[2024-05-17 04:55:09] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2024-05-17 04:55:09] INFO root fetch - main [MainThread]: Store serial: [23247602]

@@ -11173,3 +11173,51 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:13:58] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
 [2024-05-17 04:13:58] INFO root fetch - main [MainThread]: End processing [pixee]: success
 [2024-05-17 04:13:58] INFO root fetch - main [MainThread]: Store serial: [23247389]
+[2024-05-17 04:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247389]
+[2024-05-17 04:16:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 04:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feather-extract
+[2024-05-17 04:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: servicenow-api
+[2024-05-17 04:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveramp-automation
+[2024-05-17 04:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2024-05-17 04:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akasha-terminal
+[2024-05-17 04:16:07] INFO root fetch - processPackages [feather-extract]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-17 04:16:07] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 04:16:07] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 04:16:08] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-17 04:16:08] INFO root fetch - processPackages [liveramp-automation]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-17 04:16:08] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-17 04:16:08] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/fb/f5/66e9ff97d17bc8d1408359fbc98feb1047d0f674376c62aad95afbaa7aa3/feather_extract-0.1.6.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-17 04:16:08] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/b8/c6/a1391fe5abec2b435175c55d7f4e4abc3a84361f72dd068528be71f55d49/liveramp_automation-1.4.0.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/0b/2f/8bcfe43dc2b71d607dcf82b5adf9c7c0f4d139f7fc3b5ebc871e6944c7ad/feather_extract-0.1.7.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-17 04:16:08] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240517/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 04:16:08] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-05-17 04:16:08] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240517/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 04:16:08] INFO root fetch - processPackages [feather-extract]: executing diffoscope
+[2024-05-17 04:16:08] INFO root fetch - processPackages [feather-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feather_extract-0.1.6.tar.gz tmp/feather_extract-0.1.7.tar.gz --markdown 20240517/f/feather-extract/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-17 04:16:08] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-17 04:16:08] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240517/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-17 04:16:08] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/f0/be/d41a6dc05ceeaa9f43b48d52789da6b9dddac41bc0cd98b4e22b18c05f8d/liveramp_automation-1.4.1.tar.gz
+[2024-05-17 04:16:08] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-05-17 04:16:08] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.4.0.tar.gz tmp/liveramp_automation-1.4.1.tar.gz --markdown 20240517/l/liveramp-automation/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-17 04:16:09] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-17 04:16:09] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-17 04:16:09] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-17 04:16:09] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.6.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.7.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - main [MainThread]: End processing [feather-extract]: success
+[2024-05-17 04:16:09] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-05-17 04:16:09] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.0.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.1.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-05-17 04:16:09] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-17 04:16:09] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-17 04:16:09] INFO root fetch - main [MainThread]: Store serial: [23247403]

@@ -19576,3 +19576,140 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:45:11] INFO root fetch - processPackages [osl]: Remove: archive file [/home/abi/fetcher/tmp/osl-0.6.0.tar.gz]
 [2024-05-17 10:45:11] INFO root fetch - main [MainThread]: End processing [osl]: success
 [2024-05-17 10:45:11] INFO root fetch - main [MainThread]: Store serial: [23250780]
+[2024-05-17 10:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250780]
+[2024-05-17 10:47:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pbixray
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudcix
+[2024-05-17 10:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aochagavia-example-lib
+[2024-05-17 10:47:22] WARNING root fetch - processPackages [aochagavia-example-lib]: Skipping, unable to determine old version
+[2024-05-17 10:47:22] INFO root fetch - processPackages [aochagavia-example-lib]: Start processing: flet-page-manager
+[2024-05-17 10:47:22] INFO root fetch - main [MainThread]: End processing [aochagavia-example-lib] error
+[2024-05-17 10:47:22] INFO root fetch - processPackages [flet-page-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240517] Old Version: [2.17.0.dev20240516]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [pbixray]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:47:22] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-17 10:47:23] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/33/1a/57d6482e3da3524221edb8ccbb91b1c79d3252cc602ed47e3418feb99c2e/flet_page_manager-0.1.8-py312-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/99/b7/99bd0826d12a648d52d4c28e7df7d0ec3f8e5f1ff519e2b01c19f85c1328/pbixray-0.1.4-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c4/d7/75a6690f51caf36401134f2e20b69eed07c9cf4891018a0daad609ebdba4/tf_nightly_cpu-2.17.0.dev20240516-cp39-cp39-win_amd64.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-05-17 10:47:23] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240517/c/cloudcix/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/d0/5d/678b6874fb51e5925f3e679bc267cfc323a742ba4426ccc79dbfc8fc69e0/pbixray-0.1.5-py3-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/86/4c/18b0b81869d6b1ab634315c62039335353bfb8b497ed60871e5463b01f76/tf_nightly_cpu-2.17.0.dev20240517-cp39-cp39-win_amd64.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/49/05/93a453b6e0ac11c58c07ed319d5b7a8329f04cfd69f5dd4c8a71ea9fba5c/flet_page_manager-0.1.9-py312-none-any.whl
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [flet-page-manager]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [flet-page-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_page_manager-0.1.8-py312-none-any.whl.zip tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip --markdown 20240517/f/flet-page-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.4-py3-none-any.whl.zip tmp/pbixray-0.1.5-py3-none-any.whl.zip --markdown 20240517/p/pbixray/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:47:23] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-17 10:47:23] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240516-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240517-cp39-cp39-win_amd64.whl.zip --markdown 20240517/t/tf-nightly-cpu/2.17.0.dev20240516-2.17.0.dev20240517/README.md --exclude *.pyd
+[2024-05-17 10:47:24] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [cloudcix]: Start processing: musc
+[2024-05-17 10:47:24] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-05-17 10:47:24] INFO root fetch - processPackages [musc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.8-py312-none-any.whl.zip]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [flet-page-manager]: Start processing: cryptoadvance.specter
+[2024-05-17 10:47:24] INFO root fetch - main [MainThread]: End processing [flet-page-manager]: success
+[2024-05-17 10:47:24] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.3rc3] Old Version: [2.0.3rc2]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [musc]: Downloading https://files.pythonhosted.org/packages/3c/51/4413f64639edf3efe5b5aeeb36135a5d3a2dacc97528fa8a8916d3bfeaaa/musc-0.1.0.tar.gz
+[2024-05-17 10:47:24] INFO root fetch - processPackages [pbixray]: Remove: archive file [/home/abi/fetcher/tmp/pbixray-0.1.4-py3-none-any.whl.zip]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [pbixray]: Remove: archive file [/home/abi/fetcher/tmp/pbixray-0.1.5-py3-none-any.whl.zip]
+[2024-05-17 10:47:24] INFO root fetch - processPackages [pbixray]: Start processing: neuralmap-python
+[2024-05-17 10:47:24] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:24] INFO root fetch - processPackages [pbixray]: Start processing: hotsos
+[2024-05-17 10:47:24] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:24] INFO root fetch - processPackages [pbixray]: Start processing: ppss-auth
+[2024-05-17 10:47:24] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:25] WARNING root fetch - processPackages [neuralmap-python]: Skipping, unable to determine old version
+[2024-05-17 10:47:25] INFO root fetch - processPackages [neuralmap-python]: Start processing: midi-beeper
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [neuralmap-python] error
+[2024-05-17 10:47:25] INFO root fetch - processPackages [pbixray]: Start processing: PepperPepper
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:25] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240516-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 10:47:25] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240517-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:25] INFO root fetch - processPackages [midi-beeper]: New version: [1.8] Old Version: [1.79.1]
+[2024-05-17 10:47:25] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-17 10:47:25] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/b7/98/60509d187b7e9ecb5266c3c2c95bff8628f30d49eafc6251731c6e4d67f0/cryptoadvance.specter-2.0.3rc2.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:25] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-17 10:47:25] INFO root fetch - processPackages [ppss-auth]: New version: [0.9.5] Old Version: [0.9.4.4]
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-17 10:47:25] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13676766>=10485760
+[2024-05-17 10:47:25] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2024-05-17 10:47:25] INFO root fetch - processPackages [midi-beeper]: Downloading https://files.pythonhosted.org/packages/f8/64/dad90677c83af1b4787365115b61997db9f060977c6820e211ac5a2d725c/midi_beeper-1.79.1.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [musc]: Downloading https://files.pythonhosted.org/packages/3b/ae/27f731ccaed0894a6fbb4bcf3367aa81e92be3456c0a2fb5be508377dfb9/musc-0.1.1.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [ppss-auth]: Downloading https://files.pythonhosted.org/packages/9f/4d/616ddc471de440735834fed4b7116556f0f72249ce6f4ac81e1b26e4f97b/ppss_auth-0.9.4.4.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [musc]: executing diffoscope
+[2024-05-17 10:47:25] INFO root fetch - processPackages [musc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musc-0.1.0.tar.gz tmp/musc-0.1.1.tar.gz --markdown 20240517/m/musc/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 10:47:25] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-17 10:47:25] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240517/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-17 10:47:25] INFO root fetch - processPackages [midi-beeper]: Downloading https://files.pythonhosted.org/packages/ed/76/d06b954e7dea58e3a4a025db6a682e9dd0d8ed215157e32913c9e91443b2/midi_beeper-1.8.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [midi-beeper]: executing diffoscope
+[2024-05-17 10:47:25] INFO root fetch - processPackages [midi-beeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi_beeper-1.79.1.tar.gz tmp/midi_beeper-1.8.tar.gz --markdown 20240517/m/midi-beeper/1.79.1-1.8/README.md --exclude *.pyd
+[2024-05-17 10:47:25] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [ppss-auth]: Downloading https://files.pythonhosted.org/packages/58/62/52b6eebcac0d22c560b582083e034d61f3f5954bc451c6bcf40e73e59400/ppss_auth-0.9.5.tar.gz
+[2024-05-17 10:47:25] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-17 10:47:25] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240517/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-17 10:47:26] INFO root fetch - processPackages [ppss-auth]: executing diffoscope
+[2024-05-17 10:47:26] INFO root fetch - processPackages [ppss-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppss_auth-0.9.4.4.tar.gz tmp/ppss_auth-0.9.5.tar.gz --markdown 20240517/p/ppss-auth/0.9.4.4-0.9.5/README.md --exclude *.pyd
+[2024-05-17 10:47:26] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-17 10:47:26] INFO root fetch - processPackages [musc]: Remove: archive file [/home/abi/fetcher/tmp/musc-0.1.0.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - processPackages [musc]: Remove: archive file [/home/abi/fetcher/tmp/musc-0.1.1.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - main [MainThread]: End processing [musc]: success
+[2024-05-17 10:47:26] INFO root fetch - processPackages [midi-beeper]: Remove: archive file [/home/abi/fetcher/tmp/midi_beeper-1.79.1.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - processPackages [midi-beeper]: Remove: archive file [/home/abi/fetcher/tmp/midi_beeper-1.8.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - main [MainThread]: End processing [midi-beeper]: success
+[2024-05-17 10:47:26] INFO root fetch - processPackages [ppss-auth]: Remove: archive file [/home/abi/fetcher/tmp/ppss_auth-0.9.4.4.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - processPackages [ppss-auth]: Remove: archive file [/home/abi/fetcher/tmp/ppss_auth-0.9.5.tar.gz]
+[2024-05-17 10:47:26] INFO root fetch - main [MainThread]: End processing [ppss-auth]: success
+[2024-05-17 10:47:27] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-17 10:47:27] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-17 10:47:27] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-17 10:47:27] INFO root fetch - main [MainThread]: Store serial: [23250833]

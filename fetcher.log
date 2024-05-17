@@ -20275,3 +20275,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:59:37] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-testsuitesmanagement-0.7.7.tar.gz]
 [2024-05-17 10:59:37] INFO root fetch - main [MainThread]: End processing [robotframework-testsuitesmanagement]: success
 [2024-05-17 10:59:37] INFO root fetch - main [MainThread]: Store serial: [23251056]
+[2024-05-17 11:01:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251056]
+[2024-05-17 11:01:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cns
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loggram
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuralmap-client
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-robotlog2db
+[2024-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m1-api-wrapper
+[2024-05-17 11:01:48] WARNING root fetch - processPackages [loggram]: Skipping, unable to determine old version
+[2024-05-17 11:01:48] INFO root fetch - main [MainThread]: End processing [loggram] error
+[2024-05-17 11:01:48] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2024-05-17 11:01:49] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-17 11:01:49] INFO root fetch - main [MainThread]: End processing [cns] error
+[2024-05-17 11:01:49] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-17 11:01:49] WARNING root fetch - processPackages [neuralmap-client]: Skipping, unable to determine old version
+[2024-05-17 11:01:49] INFO root fetch - main [MainThread]: End processing [neuralmap-client] error
+[2024-05-17 11:01:49] INFO root fetch - processPackages [m1-api-wrapper]: New version: [3.0.0] Old Version: [2.1.3]
+[2024-05-17 11:01:49] INFO root fetch - processPackages [robotframework-robotlog2db]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-17 11:01:49] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [m1-api-wrapper]: Downloading https://files.pythonhosted.org/packages/ea/6c/33fe7a2042ceee05c9875e4e96edfb35b0da59a223fd28f8b5a00830a2a1/m1_api_wrapper-2.1.3.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/ed/84/7b9133e64d4e62236fb817742089fc821993baa377e868a0a66d44e8e858/robotframework-robotlog2db-1.4.1.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-17 11:01:49] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240517/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-17 11:01:49] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-17 11:01:49] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240517/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-17 11:01:49] INFO root fetch - processPackages [m1-api-wrapper]: Downloading https://files.pythonhosted.org/packages/e3/f6/1963035ba42089782ea6f316689fcbfd7753e852a2cae7a2894984e57322/m1_api_wrapper-3.0.0.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/63/05/aca8f8b996bff2159107a84693760eb15271335de40d3ac7b8ae6a85cde1/robotframework-robotlog2db-1.5.0.tar.gz
+[2024-05-17 11:01:49] INFO root fetch - processPackages [m1-api-wrapper]: executing diffoscope
+[2024-05-17 11:01:49] INFO root fetch - processPackages [m1-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m1_api_wrapper-2.1.3.tar.gz tmp/m1_api_wrapper-3.0.0.tar.gz --markdown 20240517/m/m1-api-wrapper/2.1.3-3.0.0/README.md --exclude *.pyd
+[2024-05-17 11:01:49] INFO root fetch - processPackages [robotframework-robotlog2db]: executing diffoscope
+[2024-05-17 11:01:49] INFO root fetch - processPackages [robotframework-robotlog2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robotlog2db-1.4.1.tar.gz tmp/robotframework-robotlog2db-1.5.0.tar.gz --markdown 20240517/r/robotframework-robotlog2db/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-17 11:01:50] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-17 11:01:50] INFO root fetch - processPackages [m1-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/m1_api_wrapper-2.1.3.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - processPackages [m1-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/m1_api_wrapper-3.0.0.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [m1-api-wrapper]: success
+[2024-05-17 11:01:50] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-17 11:01:50] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.4.1.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.5.0.tar.gz]
+[2024-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [robotframework-robotlog2db]: success
+[2024-05-17 11:01:50] INFO root fetch - main [MainThread]: Store serial: [23251080]

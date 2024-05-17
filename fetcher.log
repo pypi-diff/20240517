@@ -17745,3 +17745,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:32:52] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-05-17 09:32:52] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-05-17 09:32:52] INFO root fetch - main [MainThread]: Store serial: [23249888]
+[2024-05-17 09:34:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249888]
+[2024-05-17 09:35:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 09:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rke
+[2024-05-17 09:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clearml
+[2024-05-17 09:35:03] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2024-05-17 09:35:03] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1715928872] Old Version: [3.5.0a1715764629]
+[2024-05-17 09:35:03] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/7e/29/095ec92c0b253f5d8ad2c5fc3a6c437c0cdabc67716b99ae81f0d773ae77/clearml-1.9.2rc2-py2.py3-none-any.whl
+[2024-05-17 09:35:03] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/e0/63/96877a3c7d49ef6cf344e76377f4dab8f013424f43734e0eb611002ecef5/pulumi_rke-3.5.0a1715764629.tar.gz
+[2024-05-17 09:35:03] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/64/ac/7d3efa6cfbfc1098df033e69f9939529251edf83524f8ddacd70388df38b/pulumi_rke-3.5.0a1715928872.tar.gz
+[2024-05-17 09:35:03] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-17 09:35:03] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1715764629.tar.gz tmp/pulumi_rke-3.5.0a1715928872.tar.gz --markdown 20240517/p/pulumi-rke/3.5.0a1715764629-3.5.0a1715928872/README.md --exclude *.pyd
+[2024-05-17 09:35:03] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/ce/e8/0c335873c6ef72310890be41a2b4b804f0390e3b0c1a507bcbc4300d4229/clearml-1.9.3-py2.py3-none-any.whl
+[2024-05-17 09:35:04] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2024-05-17 09:35:04] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20240517/c/clearml/1.9.2rc2-1.9.3/README.md --exclude *.pyd
+[2024-05-17 09:35:04] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1715764629.tar.gz]
+[2024-05-17 09:35:04] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1715928872.tar.gz]
+[2024-05-17 09:35:04] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-17 09:35:05] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip]
+[2024-05-17 09:35:05] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
+[2024-05-17 09:35:05] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2024-05-17 09:35:05] INFO root fetch - main [MainThread]: Store serial: [23249896]

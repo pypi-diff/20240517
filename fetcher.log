@@ -21836,3 +21836,134 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:52:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405161150.tar.gz]
 [2024-05-17 11:52:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-17 11:52:21] INFO root fetch - main [MainThread]: Store serial: [23251661]
+[2024-05-17 11:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251661]
+[2024-05-17 11:54:30] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-location-orderpoint
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datadog-disk
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datadog-dns-check
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datadog-dotnetclr
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cesped
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadog-druid
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datadog-ecs-fargate
+[2024-05-17 11:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datadog-eks-fargate
+[2024-05-17 11:54:30] INFO root fetch - processPackages [bagbag]: New version: [0.68.7] Old Version: [0.68.6]
+[2024-05-17 11:54:30] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: New version: [16.0.2.0.1] Old Version: [16.0.2.0.0.2]
+[2024-05-17 11:54:31] INFO root fetch - processPackages [cesped]: New version: [24.5.2] Old Version: [24.5.0]
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [datadog-ecs-fargate]: Skipping, unable to determine old version
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [datadog-druid]: Skipping, unable to determine old version
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-ecs-fargate]: Start processing: FunID
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-ecs-fargate] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-druid]: Start processing: datadog-elastic
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-druid] error
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [datadog-disk]: Skipping, unable to determine old version
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-disk]: Start processing: datadog-envoy
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-disk] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [datadog-dotnetclr]: Skipping, unable to determine old version
+[2024-05-17 11:54:31] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/dc/68/9b0f86351207fcacbd6890053fd34cc345566640f5dce5126af3387be6cb/bagbag-0.68.6.tar.gz
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-dotnetclr]: Start processing: datadog-esxi
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [datadog-dns-check]: Skipping, unable to determine old version
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-dns-check]: Start processing: datadog-etcd
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-dotnetclr] error
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-dns-check] error
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [datadog-eks-fargate]: Skipping, unable to determine old version
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-eks-fargate]: Start processing: datadog-exchange-server
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-eks-fargate] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/6f/ce/b08c0973d7b836020203f1ced89033c8bee38208e518fa8d1816d42b4a99/odoo_addon_stock_location_orderpoint-16.0.2.0.0.2-py3-none-any.whl
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-esxi]: Unable to get metadata: No such project 'datadog-esxi'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-esxi]: Start processing: luke-roberts-cloud-api
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-esxi] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-elastic]: Unable to get metadata: No such project 'datadog-elastic'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-elastic]: Start processing: datadog-external-dns
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-elastic] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-envoy]: Unable to get metadata: No such project 'datadog-envoy'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-envoy]: Start processing: datadog-flink
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-etcd]: Unable to get metadata: No such project 'datadog-etcd'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-etcd]: Start processing: datadog-fluentd
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-envoy] error
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-etcd] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-exchange-server]: Unable to get metadata: No such project 'datadog-exchange-server'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-exchange-server]: Start processing: datadog-fluxcd
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-exchange-server] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2024-05-17 11:54:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 11:54:31] INFO root fetch - processPackages [cesped]: Downloading https://files.pythonhosted.org/packages/5b/cf/f7c068d8743c4a5337d3a28ed6bef675603b3ed211dcc99e04c4fcf42d5e/cesped-24.5.0.tar.gz
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/45/ea/e9bbe4361e6e9f4b4bb48f4d100a160bb8e1de5a147ab2fd1ee65f06b509/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl
+[2024-05-17 11:54:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/63/ca/57cfa6af1b1378b133eafd4714415ba5c7fdd1565e681d9596b056c08a4d/luke_roberts_cloud_api-0.0.8.tar.gz
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-fluentd]: Unable to get metadata: No such project 'datadog-fluentd'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-fluentd]: Start processing: datadog-foundationdb
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-fluentd] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-external-dns]: Unable to get metadata: No such project 'datadog-external-dns'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-external-dns]: Start processing: datadog-gearmand
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-external-dns] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/11/ed28ea255dc9b418d7800575b0fb16cbbbb110f8ceb3b9188e4eef3c7594/bagbag-0.68.7.tar.gz
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-flink]: Unable to get metadata: No such project 'datadog-flink'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-flink]: Start processing: datadog-gitlab
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-flink] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-fluxcd]: Unable to get metadata: No such project 'datadog-fluxcd'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-fluxcd]: Start processing: datadog-gitlab-runner
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-fluxcd] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-foundationdb]: Unable to get metadata: No such project 'datadog-foundationdb'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-foundationdb]: Start processing: datadog-glusterfs
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-foundationdb] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-gearmand]: Unable to get metadata: No such project 'datadog-gearmand'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-gearmand]: Start processing: flatpack
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-gearmand] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-gitlab]: Unable to get metadata: No such project 'datadog-gitlab'
+[2024-05-17 11:54:31] INFO root fetch - processPackages [datadog-gitlab]: Start processing: pytest-nhsd-apim
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-gitlab] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/fb/be/ce72ac914cc26a7b9dc1d778c8c9c78e0286fbc661df9708436b7475333f/luke_roberts_cloud_api-0.0.9.tar.gz
+[2024-05-17 11:54:31] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-gitlab-runner]: Unable to get metadata: No such project 'datadog-gitlab-runner'
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-gitlab-runner] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 11:54:31] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.6.tar.gz tmp/bagbag-0.68.7.tar.gz --markdown 20240517/b/bagbag/0.68.6-0.68.7/README.md --exclude *.pyd
+[2024-05-17 11:54:31] INFO root fetch - processPackages [cesped]: Downloading https://files.pythonhosted.org/packages/de/7c/95d46f2734d406bc023b413984d2962549e63fb10ed5cb1d5147bac9f087/cesped-24.5.2.tar.gz
+[2024-05-17 11:54:31] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 11:54:31] INFO root fetch - processPackages [pytest-nhsd-apim]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-17 11:54:31] ERROR root fetch - processPackages [datadog-glusterfs]: Unable to get metadata: No such project 'datadog-glusterfs'
+[2024-05-17 11:54:31] INFO root fetch - main [MainThread]: End processing [datadog-glusterfs] error
+[2024-05-17 11:54:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: executing diffoscope
+[2024-05-17 11:54:31] INFO root fetch - processPackages [luke-roberts-cloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luke_roberts_cloud_api-0.0.8.tar.gz tmp/luke_roberts_cloud_api-0.0.9.tar.gz --markdown 20240517/l/luke-roberts-cloud-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/e5/a8/d433d914ae04e0d2d39bbc2675bedbfffeeb4deb304bb653c38716ad347d/odoo_addon_stock_location_orderpoint-16.0.2.0.1-py3-none-any.whl
+[2024-05-17 11:54:31] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-17 11:54:31] INFO root fetch - processPackages [cesped]: executing diffoscope
+[2024-05-17 11:54:31] INFO root fetch - processPackages [cesped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesped-24.5.0.tar.gz tmp/cesped-24.5.2.tar.gz --markdown 20240517/c/cesped/24.5.0-24.5.2/README.md --exclude *.pyd
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: executing diffoscope
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.1-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-stock-location-orderpoint/16.0.2.0.0.2-16.0.2.0.1/README.md --exclude *.pyd
+[2024-05-17 11:54:31] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/aa/16/fdb29a4253442cce361a9587117065831ac9f70649bcdad472aaf61bdb86/pytest-nhsd-apim-3.3.8.tar.gz
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-17 11:54:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-account-financial-report/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-17 11:54:32] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 11:54:32] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 11:54:32] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 11:54:32] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.8.tar.gz]
+[2024-05-17 11:54:32] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.9.tar.gz]
+[2024-05-17 11:54:32] INFO root fetch - main [MainThread]: End processing [luke-roberts-cloud-api]: success
+[2024-05-17 11:54:32] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/bf/07/11cc23683e70e41d18ea2bd7260815d9009c337b16fad2276e35b51d2f26/pytest-nhsd-apim-3.3.9.tar.gz
+[2024-05-17 11:54:32] INFO root fetch - processPackages [pytest-nhsd-apim]: executing diffoscope
+[2024-05-17 11:54:32] INFO root fetch - processPackages [pytest-nhsd-apim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-nhsd-apim-3.3.8.tar.gz tmp/pytest-nhsd-apim-3.3.9.tar.gz --markdown 20240517/p/pytest-nhsd-apim/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-17 11:54:32] INFO root fetch - processPackages [cesped]: Remove: archive file [/home/abi/fetcher/tmp/cesped-24.5.0.tar.gz]
+[2024-05-17 11:54:32] INFO root fetch - processPackages [cesped]: Remove: archive file [/home/abi/fetcher/tmp/cesped-24.5.2.tar.gz]
+[2024-05-17 11:54:32] INFO root fetch - main [MainThread]: End processing [cesped]: success
+[2024-05-17 11:54:32] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 11:54:32] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.1-py3-none-any.whl.zip]
+[2024-05-17 11:54:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-location-orderpoint]: success
+[2024-05-17 11:54:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 11:54:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 11:54:33] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 11:54:33] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-17 11:54:33] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-17 11:54:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-17 11:54:33] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.6.tar.gz]
+[2024-05-17 11:54:33] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.7.tar.gz]
+[2024-05-17 11:54:33] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 11:54:33] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.8.tar.gz]
+[2024-05-17 11:54:33] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.9.tar.gz]
+[2024-05-17 11:54:33] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
+[2024-05-17 11:54:33] INFO root fetch - main [MainThread]: Store serial: [23251766]

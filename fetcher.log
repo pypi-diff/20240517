@@ -13232,3 +13232,78 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:31:49] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-17 06:31:49] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-17 06:31:49] INFO root fetch - main [MainThread]: Store serial: [23248201]
+[2024-05-17 06:33:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248201]
+[2024-05-17 06:33:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miservice-fork
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-base
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-libs
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-whd
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-oci
+[2024-05-17 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django_medicio_dental
+[2024-05-17 06:33:59] INFO root fetch - processPackages [django_medicio_dental]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2398.0] Old Version: [1.2397.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2398.0] Old Version: [1.2397.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2398.0] Old Version: [1.2397.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2398.0] Old Version: [1.2397.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [miservice-fork]: New version: [2.5.0] Old Version: [2.4.4]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/92/64/690f1402ae1cff6d8b1cfb37240b2e7251c0f5a8a96199bb83a50f830f8e/gardener_cicd_base-1.2397.0.tar.gz
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/5e/1b/9f3546655dbe866844b9ca7af6b77832371e7428f6d4c3c099bd700a29ab/gardener_cicd_cli-1.2397.0.tar.gz
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/d0/12/431a9da43f8bae8fcccfe23bc12ba54732f48444ff56075939f768ee9a2d/gardener_cicd_whd-1.2397.0.tar.gz
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2399.0] Old Version: [1.2398.0]
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/3c/49/c391ba6a298f48883e0040a0881e4677fc6e22fe7956e0dc106140b25d97/gardener_cicd_libs-1.2397.0.tar.gz
+[2024-05-17 06:33:59] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/9a/30/a00e6f8e7266dd548317d8eb8b852421c31fdd5dc0be6964a6e041c8581f/django_medicio_dental-2.0.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/01/4e/13f578f034a4e6a7fd0c5d54a5f7e608f1de84288a053c2de5b69ae7a8c6/miservice_fork-2.4.4.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/af/88/fa19156d8b0b1b28c59aee3e8efa49b15e7ea78bcf5c16dc53bc563007b2/gardener_cicd_dso-1.2398.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/aa/b4/844c944e4dc7d171740e9fc4e10a61403de16c01c9686b3766edd9d0e056/gardener_cicd_base-1.2398.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/e3/10/f67711501ec83ce7f0d6aa1c65088b9dc0b7f48132a0987b78b9bac0fe9a/gardener_cicd_whd-1.2398.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/13/2f/980b200048d1fecfa37a614455a198557189cc01a9e01b8535ec8c490ff3/gardener_cicd_cli-1.2398.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/0e/6f/839b95aca9e1b36ee1baf4483ecba45af44520d48a339c8868092d6c7e8e/gardener_cicd_libs-1.2398.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2397.0.tar.gz tmp/gardener_cicd_whd-1.2398.0.tar.gz --markdown 20240517/g/gardener-cicd-whd/1.2397.0-1.2398.0/README.md --exclude *.pyd
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2397.0.tar.gz tmp/gardener_cicd_base-1.2398.0.tar.gz --markdown 20240517/g/gardener-cicd-base/1.2397.0-1.2398.0/README.md --exclude *.pyd
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2397.0.tar.gz tmp/gardener_cicd_cli-1.2398.0.tar.gz --markdown 20240517/g/gardener-cicd-cli/1.2397.0-1.2398.0/README.md --exclude *.pyd
+[2024-05-17 06:34:00] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/d2/64/9bc44b2c39bc17a9bd6b627e621b27947e7b4fdf60fd640cc24e2fb718da/miservice_fork-2.5.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2397.0.tar.gz tmp/gardener_cicd_libs-1.2398.0.tar.gz --markdown 20240517/g/gardener-cicd-libs/1.2397.0-1.2398.0/README.md --exclude *.pyd
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/67/23/9773e519a7db14bcefd3c01d9a3d75ec4045e2e0756c929315d0f40e79d5/gardener_cicd_dso-1.2399.0.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240517/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-17 06:34:00] INFO root fetch - processPackages [miservice-fork]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [miservice-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miservice_fork-2.4.4.tar.gz tmp/miservice_fork-2.5.0.tar.gz --markdown 20240517/m/miservice-fork/2.4.4-2.5.0/README.md --exclude *.pyd
+[2024-05-17 06:34:00] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/17/e7/dd8f7381796d156fda5f0dbc1cafa807f09fa7f51dcef9b53b8c69624cc8/django_medicio_dental-2.0.1.tar.gz
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-17 06:34:00] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2398.0.tar.gz tmp/gardener_cicd_dso-1.2399.0.tar.gz --markdown 20240517/g/gardener-cicd-dso/1.2398.0-1.2399.0/README.md --exclude *.pyd
+[2024-05-17 06:34:01] INFO root fetch - processPackages [django_medicio_dental]: executing diffoscope
+[2024-05-17 06:34:01] INFO root fetch - processPackages [django_medicio_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_medicio_dental-2.0.0.tar.gz tmp/django_medicio_dental-2.0.1.tar.gz --markdown 20240517/d/django_medicio_dental/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2397.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2398.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-17 06:34:01] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.4.4.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.5.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [miservice-fork]: success
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2397.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2398.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2398.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2399.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2397.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2398.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2397.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2398.0.tar.gz]
+[2024-05-17 06:34:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-17 06:34:03] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-2.0.0.tar.gz]
+[2024-05-17 06:34:03] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-2.0.1.tar.gz]
+[2024-05-17 06:34:03] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
+[2024-05-17 06:34:03] INFO root fetch - main [MainThread]: Store serial: [23248225]

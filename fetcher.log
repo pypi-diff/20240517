@@ -22850,3 +22850,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:34:41] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.9.tar.gz]
 [2024-05-17 12:34:41] INFO root fetch - main [MainThread]: End processing [mdtraj]: success
 [2024-05-17 12:34:41] INFO root fetch - main [MainThread]: Store serial: [23252227]
+[2024-05-17 12:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252227]
+[2024-05-17 12:36:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 12:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luke-roberts-cloud-api
+[2024-05-17 12:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invoice-calculator
+[2024-05-17 12:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: people-local
+[2024-05-17 12:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-05-17 12:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftmq
+[2024-05-17 12:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python_dev_utils
+[2024-05-17 12:36:50] INFO root fetch - processPackages [luke-roberts-cloud-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 12:36:50] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 12:36:50] WARNING root fetch - processPackages [invoice-calculator]: Skipping, unable to determine old version
+[2024-05-17 12:36:50] INFO root fetch - main [MainThread]: End processing [invoice-calculator] error
+[2024-05-17 12:36:50] INFO root fetch - processPackages [ftmq]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-17 12:36:50] INFO root fetch - processPackages [people-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 12:36:50] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/63/ca/57cfa6af1b1378b133eafd4714415ba5c7fdd1565e681d9596b056c08a4d/luke_roberts_cloud_api-0.0.8.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [python_dev_utils]: New version: [2.0.0] Old Version: [1.9.0]
+[2024-05-17 12:36:50] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/01/3d/2cc1b18bd1d774dafc4dad72efea732aff2e8e46ac22ff0b86bd50922c89/ftmq-0.6.2.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/8b/1c/6315cdb848f482a3caf92189f2b65376a69c68543b2b6f4db62d865cb36e/people-local-0.0.8.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/fb/be/ce72ac914cc26a7b9dc1d778c8c9c78e0286fbc661df9708436b7475333f/luke_roberts_cloud_api-0.0.9.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/9d/81/fcce852d5f70ff0eed4fdf8d81caecf33b56475d957349cfb344c4de2663/python_dev_utils-1.9.0.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [luke-roberts-cloud-api]: executing diffoscope
+[2024-05-17 12:36:50] INFO root fetch - processPackages [luke-roberts-cloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luke_roberts_cloud_api-0.0.8.tar.gz tmp/luke_roberts_cloud_api-0.0.9.tar.gz --markdown 20240517/l/luke-roberts-cloud-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 12:36:50] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-17 12:36:50] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240517/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 12:36:50] INFO root fetch - processPackages [ftmq]: Downloading https://files.pythonhosted.org/packages/47/f4/bdbcf26531db26aa8a437aa6744f189c9a295f96507d5790ddd4f70d772f/ftmq-0.6.3.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/9a/2c/914fd3714f59dbd1bda89180c13babf09cb22aaf299f09ba73def2b97c99/python_dev_utils-2.0.0.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/cc/ba/07a77e133c7523ecf4191eb3efb5529e4cee964e55f5dff0504d09de7d34/people-local-0.0.9.tar.gz
+[2024-05-17 12:36:50] INFO root fetch - processPackages [ftmq]: executing diffoscope
+[2024-05-17 12:36:50] INFO root fetch - processPackages [ftmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmq-0.6.2.tar.gz tmp/ftmq-0.6.3.tar.gz --markdown 20240517/f/ftmq/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-17 12:36:51] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-17 12:36:51] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.9.0.tar.gz tmp/python_dev_utils-2.0.0.tar.gz --markdown 20240517/p/python_dev_utils/1.9.0-2.0.0/README.md --exclude *.pyd
+[2024-05-17 12:36:51] INFO root fetch - processPackages [people-local]: executing diffoscope
+[2024-05-17 12:36:51] INFO root fetch - processPackages [people-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/people-local-0.0.8.tar.gz tmp/people-local-0.0.9.tar.gz --markdown 20240517/p/people-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 12:36:51] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.8.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.9.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - main [MainThread]: End processing [luke-roberts-cloud-api]: success
+[2024-05-17 12:36:51] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-17 12:36:51] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.6.2.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - processPackages [ftmq]: Remove: archive file [/home/abi/fetcher/tmp/ftmq-0.6.3.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - main [MainThread]: End processing [ftmq]: success
+[2024-05-17 12:36:51] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.8.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.9.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - main [MainThread]: End processing [people-local]: success
+[2024-05-17 12:36:51] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.9.0.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-2.0.0.tar.gz]
+[2024-05-17 12:36:51] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-17 12:36:51] INFO root fetch - main [MainThread]: Store serial: [23252247]

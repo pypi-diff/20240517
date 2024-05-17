@@ -18226,3 +18226,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:53:56] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17159323.tar.gz]
 [2024-05-17 09:53:56] INFO root fetch - main [MainThread]: End processing [utilmy]: success
 [2024-05-17 09:53:56] INFO root fetch - main [MainThread]: Store serial: [23250134]
+[2024-05-17 09:56:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250134]
+[2024-05-17 09:56:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 09:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbSQL-connect
+[2024-05-17 09:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ffprint
+[2024-05-17 09:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-signedUrl-uploader
+[2024-05-17 09:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blockkit
+[2024-05-17 09:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-command
+[2024-05-17 09:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-roamlinks-with-pdf-plugin
+[2024-05-17 09:56:06] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-17 09:56:06] WARNING root fetch - processPackages [ffprint]: Skipping, unable to determine old version
+[2024-05-17 09:56:06] INFO root fetch - main [MainThread]: End processing [ffprint] error
+[2024-05-17 09:56:06] INFO root fetch - processPackages [dbSQL-connect]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 09:56:06] INFO root fetch - processPackages [blockkit]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-17 09:56:06] WARNING root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Skipping, unable to determine old version
+[2024-05-17 09:56:06] INFO root fetch - main [MainThread]: End processing [mkdocs-roamlinks-with-pdf-plugin] error
+[2024-05-17 09:56:06] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/e0/94/1c1c8f0ac84ed877b63ffed0f8e662fb754da3a64668b8adb4d33fdc2d6b/st_signedurl_uploader-1.2.3.tar.gz
+[2024-05-17 09:56:06] INFO root fetch - processPackages [dbSQL-connect]: Downloading https://files.pythonhosted.org/packages/52/38/9bf55f409a521b6d7335a55cbafc439a9ab3cd522e21c7e3226536e9d476/dbSQL_connect-0.0.3.tar.gz
+[2024-05-17 09:56:06] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-05-17 09:56:06] INFO root fetch - processPackages [blockkit]: Downloading https://files.pythonhosted.org/packages/aa/1d/2c9f5532ac6898109d84668b55a6670ff653d155fe92194c581fba7a6922/blockkit-1.8.4.tar.gz
+[2024-05-17 09:56:06] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-05-17 09:56:07] INFO root fetch - processPackages [blockkit]: Downloading https://files.pythonhosted.org/packages/7f/6e/bc10b0b185374685afc0ce067e2b9a5ff4917136c115600205146592e985/blockkit-1.9.0.tar.gz
+[2024-05-17 09:56:07] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/1b/04/484cc21094432c8721bb3eb873f09c22ba531e48f40ae4517df0f48e3a1c/st_signedurl_uploader-1.2.4.tar.gz
+[2024-05-17 09:56:07] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-05-17 09:56:07] INFO root fetch - processPackages [dbSQL-connect]: Downloading https://files.pythonhosted.org/packages/63/44/9692c4be7a5b1cb6caebb82a4980afffcf06ea25ba7b815aaf964f8e552e/dbSQL_connect-0.0.4.tar.gz
+[2024-05-17 09:56:07] INFO root fetch - processPackages [blockkit]: executing diffoscope
+[2024-05-17 09:56:07] INFO root fetch - processPackages [blockkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockkit-1.8.4.tar.gz tmp/blockkit-1.9.0.tar.gz --markdown 20240517/b/blockkit/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:56:07] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-05-17 09:56:07] INFO root fetch - processPackages [dbSQL-connect]: executing diffoscope
+[2024-05-17 09:56:07] INFO root fetch - processPackages [dbSQL-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbSQL_connect-0.0.3.tar.gz tmp/dbSQL_connect-0.0.4.tar.gz --markdown 20240517/d/dbSQL-connect/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 09:56:07] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240517/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-05-17 09:56:07] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-17 09:56:07] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.2.3.tar.gz tmp/st_signedurl_uploader-1.2.4.tar.gz --markdown 20240517/s/st-signedUrl-uploader/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-17 09:56:07] INFO root fetch - processPackages [dbSQL-connect]: Remove: archive file [/home/abi/fetcher/tmp/dbSQL_connect-0.0.3.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - processPackages [dbSQL-connect]: Remove: archive file [/home/abi/fetcher/tmp/dbSQL_connect-0.0.4.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - main [MainThread]: End processing [dbSQL-connect]: success
+[2024-05-17 09:56:07] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-05-17 09:56:07] INFO root fetch - processPackages [blockkit]: Remove: archive file [/home/abi/fetcher/tmp/blockkit-1.8.4.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - processPackages [blockkit]: Remove: archive file [/home/abi/fetcher/tmp/blockkit-1.9.0.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - main [MainThread]: End processing [blockkit]: success
+[2024-05-17 09:56:07] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.3.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.4.tar.gz]
+[2024-05-17 09:56:07] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-17 09:56:07] INFO root fetch - main [MainThread]: Store serial: [23250155]

@@ -22901,3 +22901,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:36:51] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-2.0.0.tar.gz]
 [2024-05-17 12:36:51] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
 [2024-05-17 12:36:51] INFO root fetch - main [MainThread]: Store serial: [23252247]
+[2024-05-17 12:38:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252247]
+[2024-05-17 12:39:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 12:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dggstools
+[2024-05-17 12:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlure
+[2024-05-17 12:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viser
+[2024-05-17 12:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-05-17 12:39:02] INFO root fetch - processPackages [torchlure]: New version: [0.2405.2] Old Version: [0.2405.1.dev1]
+[2024-05-17 12:39:02] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240516] Old Version: [1.0.0.dev20240515]
+[2024-05-17 12:39:02] INFO root fetch - processPackages [viser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 12:39:02] WARNING root fetch - processPackages [dggstools]: Skipping, unable to determine old version
+[2024-05-17 12:39:02] INFO root fetch - main [MainThread]: End processing [dggstools] error
+[2024-05-17 12:39:02] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/91/29/55e16908d566c32a12db97c1eed6dc46c1fbca89db92c4971c4c1e8ac09c/skypilot_nightly-1.0.0.dev20240515.tar.gz
+[2024-05-17 12:39:02] INFO root fetch - processPackages [torchlure]: Downloading https://files.pythonhosted.org/packages/05/46/6dc038a09acfb2d1f4f9c44c52b963d71b8195936dd6aad9179e5050bb8d/torchlure-0.2405.1.dev1.tar.gz
+[2024-05-17 12:39:02] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/43/1c/d574f1040f257213ab3e861ee33711d900666dbbaf4a2be7b1e32213f27b/viser-0.1.8.tar.gz
+[2024-05-17 12:39:02] INFO root fetch - processPackages [torchlure]: Downloading https://files.pythonhosted.org/packages/b7/07/0c8361be2b0d00f983ef1c58e42f05b742b868d7635b4c186dfc83ca4cf0/torchlure-0.2405.2.tar.gz
+[2024-05-17 12:39:02] INFO root fetch - processPackages [torchlure]: executing diffoscope
+[2024-05-17 12:39:02] INFO root fetch - processPackages [torchlure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlure-0.2405.1.dev1.tar.gz tmp/torchlure-0.2405.2.tar.gz --markdown 20240517/t/torchlure/0.2405.1.dev1-0.2405.2/README.md --exclude *.pyd
+[2024-05-17 12:39:02] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/25/75/d7f07ecc57f197d0b43a0b6e09f195343d4724699992aae7018de056d5db/skypilot_nightly-1.0.0.dev20240516.tar.gz
+[2024-05-17 12:39:02] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-17 12:39:02] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240515.tar.gz tmp/skypilot_nightly-1.0.0.dev20240516.tar.gz --markdown 20240517/s/skypilot-nightly/1.0.0.dev20240515-1.0.0.dev20240516/README.md --exclude *.pyd
+[2024-05-17 12:39:03] INFO root fetch - processPackages [torchlure]: Remove: archive file [/home/abi/fetcher/tmp/torchlure-0.2405.1.dev1.tar.gz]
+[2024-05-17 12:39:03] INFO root fetch - processPackages [torchlure]: Remove: archive file [/home/abi/fetcher/tmp/torchlure-0.2405.2.tar.gz]
+[2024-05-17 12:39:03] INFO root fetch - main [MainThread]: End processing [torchlure]: success
+[2024-05-17 12:39:03] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/c6/11/037d11188de9d326de379226a46229a7f59bdf1b4f74bf70f34d7d278638/viser-0.1.9.tar.gz
+[2024-05-17 12:39:04] INFO root fetch - processPackages [viser]: executing diffoscope
+[2024-05-17 12:39:04] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.1.8.tar.gz tmp/viser-0.1.9.tar.gz --markdown 20240517/v/viser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 12:39:04] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240515.tar.gz]
+[2024-05-17 12:39:04] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240516.tar.gz]
+[2024-05-17 12:39:04] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-17 12:39:05] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.1.8.tar.gz]
+[2024-05-17 12:39:05] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.1.9.tar.gz]
+[2024-05-17 12:39:05] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2024-05-17 12:39:05] INFO root fetch - main [MainThread]: Store serial: [23252267]

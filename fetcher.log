@@ -18541,3 +18541,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:11:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240516190825.tar.gz]
 [2024-05-17 10:11:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-17 10:11:32] INFO root fetch - main [MainThread]: Store serial: [23250251]
+[2024-05-17 10:13:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250251]
+[2024-05-17 10:13:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ImageDimensionChecker
+[2024-05-17 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threedigrid-builder
+[2024-05-17 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mosaik-csv
+[2024-05-17 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PROMINENT-methylation
+[2024-05-17 10:13:41] INFO root fetch - processPackages [threedigrid-builder]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 10:13:41] WARNING root fetch - processPackages [ImageDimensionChecker]: Skipping, unable to determine old version
+[2024-05-17 10:13:41] INFO root fetch - main [MainThread]: End processing [ImageDimensionChecker] error
+[2024-05-17 10:13:41] INFO root fetch - processPackages [mosaik-csv]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-17 10:13:41] WARNING root fetch - processPackages [PROMINENT-methylation]: Skipping, unable to determine old version
+[2024-05-17 10:13:41] INFO root fetch - main [MainThread]: End processing [PROMINENT-methylation] error
+[2024-05-17 10:13:41] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/2c/e1/9e264cac9dd3136894d0343e718af980cb8a07cf16a29809269d6ad4546f/threedigrid-builder-1.8.0.tar.gz
+[2024-05-17 10:13:41] INFO root fetch - processPackages [mosaik-csv]: Downloading https://files.pythonhosted.org/packages/d8/60/ed34d532f634f207cfa100cfc828484e7f91c9a28f228164d0610db9150a/mosaik-csv-2.0.0.tar.gz
+[2024-05-17 10:13:41] INFO root fetch - processPackages [mosaik-csv]: Downloading https://files.pythonhosted.org/packages/68/fb/9c9fe27526e72f571445c3751413a428fed029a9b4199c0d5eed9c002c3a/mosaik-csv-2.0.1.tar.gz
+[2024-05-17 10:13:42] INFO root fetch - processPackages [mosaik-csv]: executing diffoscope
+[2024-05-17 10:13:42] INFO root fetch - processPackages [mosaik-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaik-csv-2.0.0.tar.gz tmp/mosaik-csv-2.0.1.tar.gz --markdown 20240517/m/mosaik-csv/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-17 10:13:42] INFO root fetch - processPackages [mosaik-csv]: Remove: archive file [/home/abi/fetcher/tmp/mosaik-csv-2.0.0.tar.gz]
+[2024-05-17 10:13:42] INFO root fetch - processPackages [mosaik-csv]: Remove: archive file [/home/abi/fetcher/tmp/mosaik-csv-2.0.1.tar.gz]
+[2024-05-17 10:13:42] INFO root fetch - main [MainThread]: End processing [mosaik-csv]: success
+[2024-05-17 10:13:43] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/6b/de/d4fa81887befd3d08d5cf0d124803d3d142dbde109c6825cae8b8eb896e7/threedigrid-builder-1.9.0.tar.gz
+[2024-05-17 10:13:43] INFO root fetch - processPackages [threedigrid-builder]: executing diffoscope
+[2024-05-17 10:13:43] INFO root fetch - processPackages [threedigrid-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-builder-1.8.0.tar.gz tmp/threedigrid-builder-1.9.0.tar.gz --markdown 20240517/t/threedigrid-builder/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 10:13:44] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.8.0.tar.gz]
+[2024-05-17 10:13:44] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.9.0.tar.gz]
+[2024-05-17 10:13:44] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
+[2024-05-17 10:13:44] INFO root fetch - main [MainThread]: Store serial: [23250278]

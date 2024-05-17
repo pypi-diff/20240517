@@ -11095,3 +11095,51 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:09:34] INFO root fetch - processPackages [mindnlp]: Remove: archive file [/home/abi/fetcher/tmp/mindnlp-0.3.0-py3-none-any.whl.zip]
 [2024-05-17 04:09:34] INFO root fetch - main [MainThread]: End processing [mindnlp]: success
 [2024-05-17 04:09:34] INFO root fetch - main [MainThread]: Store serial: [23247366]
+[2024-05-17 04:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247366]
+[2024-05-17 04:11:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: traffic-anomaly
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixee
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandorasat
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-project-setup
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saw-client
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ai-project-setup]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-17 04:11:43] INFO root fetch - processPackages [pandorasat]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-17 04:11:43] INFO root fetch - processPackages [saw-client]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-17 04:11:43] INFO root fetch - processPackages [traffic-anomaly]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-17 04:11:43] INFO root fetch - processPackages [pixee]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 04:11:43] INFO root fetch - processPackages [ai-project-setup]: Downloading https://files.pythonhosted.org/packages/29/3e/3d41529b14f184cbb4772bff3b992f890a8cded57e0f0614636a1de21622/ai_project_setup-0.2.3.tar.gz
+[2024-05-17 04:11:43] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/e9/03/33ccbe5955637c887961b19fa47165f7fc563fc714b08cfbe8433169c0a4/pandorasat-0.5.8.tar.gz
+[2024-05-17 04:11:43] INFO root fetch - processPackages [traffic-anomaly]: Downloading https://files.pythonhosted.org/packages/d3/69/aaec5d09b4d4eb13365906dfbe952a9e1f448a350adf7e6b03470ec98fca/traffic_anomaly-0.0.1.tar.gz
+[2024-05-17 04:11:43] INFO root fetch - processPackages [saw-client]: Downloading https://files.pythonhosted.org/packages/e0/66/c74e9f466a91c599cb41131b8a4b79cbaafbe21f7da4786c9f0b62b02a20/saw_client-1.1.0.tar.gz
+[2024-05-17 04:11:43] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/6e/7f/fad7f2abafc034c096bae639835a53d880ffa596d25ddb1e43dbea00fcf9/pandorasat-0.5.9.tar.gz
+[2024-05-17 04:11:43] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/5b/a4/8c064a30b0083dcebd2d71f8bf2f4e0fef1b1a448bfb9d2b6e3ae03b70bb/pixee-0.8.8.tar.gz
+[2024-05-17 04:11:44] INFO root fetch - processPackages [ai-project-setup]: Downloading https://files.pythonhosted.org/packages/72/e5/c81c6774a275fbe52490e605142756f83288f6ba5df9c4dfc62e43b869dd/ai_project_setup-0.2.5.tar.gz
+[2024-05-17 04:11:44] INFO root fetch - processPackages [pandorasat]: executing diffoscope
+[2024-05-17 04:11:44] INFO root fetch - processPackages [pandorasat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandorasat-0.5.8.tar.gz tmp/pandorasat-0.5.9.tar.gz --markdown 20240517/p/pandorasat/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-17 04:11:44] INFO root fetch - processPackages [traffic-anomaly]: Downloading https://files.pythonhosted.org/packages/36/73/8cbec86c9103e7cf1fd41ffe92094336e467edf7eba6d60b89ccd5347d2e/traffic_anomaly-1.0.0.tar.gz
+[2024-05-17 04:11:44] INFO root fetch - processPackages [ai-project-setup]: executing diffoscope
+[2024-05-17 04:11:44] INFO root fetch - processPackages [ai-project-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_project_setup-0.2.3.tar.gz tmp/ai_project_setup-0.2.5.tar.gz --markdown 20240517/a/ai-project-setup/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-17 04:11:44] INFO root fetch - processPackages [saw-client]: Downloading https://files.pythonhosted.org/packages/44/ae/7b7a0f75e960354bcf815033805fe1475948b016b632d2f10a22f7b23937/saw_client-1.1.1.tar.gz
+[2024-05-17 04:11:44] INFO root fetch - processPackages [traffic-anomaly]: executing diffoscope
+[2024-05-17 04:11:44] INFO root fetch - processPackages [traffic-anomaly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traffic_anomaly-0.0.1.tar.gz tmp/traffic_anomaly-1.0.0.tar.gz --markdown 20240517/t/traffic-anomaly/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-17 04:11:44] INFO root fetch - processPackages [saw-client]: executing diffoscope
+[2024-05-17 04:11:44] INFO root fetch - processPackages [saw-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saw_client-1.1.0.tar.gz tmp/saw_client-1.1.1.tar.gz --markdown 20240517/s/saw-client/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-17 04:11:44] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/53/b5/24fce3a62a4797a39ab5b7a963272cc337656db2b464b6ce19dd488a974f/pixee-0.8.9.tar.gz
+[2024-05-17 04:11:44] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.8.tar.gz]
+[2024-05-17 04:11:44] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.9.tar.gz]
+[2024-05-17 04:11:44] INFO root fetch - main [MainThread]: End processing [pandorasat]: success
+[2024-05-17 04:11:44] INFO root fetch - processPackages [traffic-anomaly]: Remove: archive file [/home/abi/fetcher/tmp/traffic_anomaly-0.0.1.tar.gz]
+[2024-05-17 04:11:44] INFO root fetch - processPackages [traffic-anomaly]: Remove: archive file [/home/abi/fetcher/tmp/traffic_anomaly-1.0.0.tar.gz]
+[2024-05-17 04:11:44] INFO root fetch - main [MainThread]: End processing [traffic-anomaly]: success
+[2024-05-17 04:11:44] INFO root fetch - processPackages [ai-project-setup]: Remove: archive file [/home/abi/fetcher/tmp/ai_project_setup-0.2.3.tar.gz]
+[2024-05-17 04:11:44] INFO root fetch - processPackages [ai-project-setup]: Remove: archive file [/home/abi/fetcher/tmp/ai_project_setup-0.2.5.tar.gz]
+[2024-05-17 04:11:44] INFO root fetch - main [MainThread]: End processing [ai-project-setup]: success
+[2024-05-17 04:11:45] INFO root fetch - processPackages [saw-client]: Remove: archive file [/home/abi/fetcher/tmp/saw_client-1.1.0.tar.gz]
+[2024-05-17 04:11:45] INFO root fetch - processPackages [saw-client]: Remove: archive file [/home/abi/fetcher/tmp/saw_client-1.1.1.tar.gz]
+[2024-05-17 04:11:45] INFO root fetch - main [MainThread]: End processing [saw-client]: success
+[2024-05-17 04:11:45] INFO root fetch - processPackages [pixee]: executing diffoscope
+[2024-05-17 04:11:45] INFO root fetch - processPackages [pixee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixee-0.8.8.tar.gz tmp/pixee-0.8.9.tar.gz --markdown 20240517/p/pixee/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 04:11:46] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.8.tar.gz]
+[2024-05-17 04:11:46] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
+[2024-05-17 04:11:46] INFO root fetch - main [MainThread]: End processing [pixee]: success
+[2024-05-17 04:11:46] INFO root fetch - main [MainThread]: Store serial: [23247381]

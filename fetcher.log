@@ -12380,3 +12380,45 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:28:19] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.2.2.tar.gz]
 [2024-05-17 05:28:19] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
 [2024-05-17 05:28:19] INFO root fetch - main [MainThread]: Store serial: [23247808]
+[2024-05-17 05:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247808]
+[2024-05-17 05:30:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 05:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knita
+[2024-05-17 05:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp-nightly
+[2024-05-17 05:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mybox
+[2024-05-17 05:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twelvelabs
+[2024-05-17 05:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fmbench
+[2024-05-17 05:30:29] WARNING root fetch - processPackages [knita]: Skipping, unable to determine old version
+[2024-05-17 05:30:29] INFO root fetch - main [MainThread]: End processing [knita] error
+[2024-05-17 05:30:29] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-17 05:30:29] INFO root fetch - processPackages [twelvelabs]: New version: [0.1.24] Old Version: [0.1.23]
+[2024-05-17 05:30:29] INFO root fetch - processPackages [mybox]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-17 05:30:29] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 05:30:29] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-17 05:30:29] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/0f/f2/5f9c75d12b333a1110e05bcb8a63d58caf59c2290052b712c6996d8c23b9/twelvelabs-0.1.23.tar.gz
+[2024-05-17 05:30:29] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/13/f6/202f25da3129171e5c2cc6ccf7e2437ee5d65fafeeb9af158596ac60f7a8/mybox-2.0.8.tar.gz
+[2024-05-17 05:30:29] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-05-17 05:30:30] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-17 05:30:30] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/e7/2e/82e8dc4ae2ee9aa38dd9152116b4521a10b5221d7058f35245e94a163379/twelvelabs-0.1.24.tar.gz
+[2024-05-17 05:30:30] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-17 05:30:30] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240517/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-17 05:30:30] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/e7/74/17fd92b174ff8b20616c55e75350c20cfbb4a1b6a048c7c9f4abe75698ae/mybox-2.0.9.tar.gz
+[2024-05-17 05:30:30] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-05-17 05:30:30] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-17 05:30:30] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.8.tar.gz tmp/mybox-2.0.9.tar.gz --markdown 20240517/m/mybox/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-17 05:30:30] INFO root fetch - processPackages [twelvelabs]: executing diffoscope
+[2024-05-17 05:30:30] INFO root fetch - processPackages [twelvelabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twelvelabs-0.1.23.tar.gz tmp/twelvelabs-0.1.24.tar.gz --markdown 20240517/t/twelvelabs/0.1.23-0.1.24/README.md --exclude *.pyd
+[2024-05-17 05:30:30] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-05-17 05:30:30] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240517/f/fmbench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 05:30:30] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.8.tar.gz]
+[2024-05-17 05:30:30] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.9.tar.gz]
+[2024-05-17 05:30:30] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-17 05:30:31] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.23.tar.gz]
+[2024-05-17 05:30:31] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.24.tar.gz]
+[2024-05-17 05:30:31] INFO root fetch - main [MainThread]: End processing [twelvelabs]: success
+[2024-05-17 05:30:31] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-05-17 05:30:31] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-05-17 05:30:31] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-05-17 05:30:31] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-17 05:30:31] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-17 05:30:31] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-17 05:30:31] INFO root fetch - main [MainThread]: Store serial: [23247825]

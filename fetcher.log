@@ -2845,3 +2845,33 @@
 [2024-05-17 02:30:52] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.27.tar.gz]
 [2024-05-17 02:30:52] INFO root fetch - main [MainThread]: End processing [geocif]: success
 [2024-05-17 02:30:52] INFO root fetch - main [MainThread]: Store serial: [23244536]
+[2024-05-17 02:32:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244536]
+[2024-05-17 02:33:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 02:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-17 02:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-05-17 02:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentops
+[2024-05-17 02:33:02] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 02:33:02] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240516] Old Version: [0.1.5.dev20240515]
+[2024-05-17 02:33:02] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-17 02:33:02] INFO root fetch - processPackages [agentops]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 02:33:02] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/10/18/a2d8222fd897ad1716724c752b99c5547f8b5a5011a214e008cf2b32670e/aeppl_nightly-0.1.5.dev20240515.tar.gz
+[2024-05-17 02:33:02] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/92/69/e51fa1714f169f692e4fad0a42ebeb77c7a27c48f62b751c869ad6441c69/agentops-0.1.8.tar.gz
+[2024-05-17 02:33:02] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-17 02:33:02] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/27/5e/af4374aa84d39e6e12cbfcd3384b9689a9ccd323cce0cd6b685d901a345b/aeppl_nightly-0.1.5.dev20240516.tar.gz
+[2024-05-17 02:33:02] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-17 02:33:02] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240517/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 02:33:02] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-17 02:33:02] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240515.tar.gz tmp/aeppl_nightly-0.1.5.dev20240516.tar.gz --markdown 20240517/a/aeppl-nightly/0.1.5.dev20240515-0.1.5.dev20240516/README.md --exclude *.pyd
+[2024-05-17 02:33:02] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/df/2b/8fc76d629d8a83b0796612a27b966426550114c930eee5d730654fcd9fe9/agentops-0.1.9.tar.gz
+[2024-05-17 02:33:02] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-05-17 02:33:02] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.8.tar.gz tmp/agentops-0.1.9.tar.gz --markdown 20240517/a/agentops/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 02:33:03] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-17 02:33:03] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-17 02:33:03] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-17 02:33:03] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240515.tar.gz]
+[2024-05-17 02:33:03] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240516.tar.gz]
+[2024-05-17 02:33:03] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-17 02:33:03] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.8.tar.gz]
+[2024-05-17 02:33:03] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.9.tar.gz]
+[2024-05-17 02:33:03] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-05-17 02:33:03] INFO root fetch - main [MainThread]: Store serial: [23244544]

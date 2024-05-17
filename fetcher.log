@@ -16135,3 +16135,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:50:48] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.9.2.tar.gz]
 [2024-05-17 08:50:48] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2024-05-17 08:50:48] INFO root fetch - main [MainThread]: Store serial: [23249309]
+[2024-05-17 08:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249309]
+[2024-05-17 08:52:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandoc-jinja
+[2024-05-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-facebook-marketing
+[2024-05-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrioNet
+[2024-05-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamorph-airflow
+[2024-05-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: g3tables
+[2024-05-17 08:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forloop-modules
+[2024-05-17 08:52:57] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: New version: [3.0.0.dev202405021055] Old Version: [3.0.0.dev202404041423]
+[2024-05-17 08:52:57] INFO root fetch - processPackages [forloop-modules]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-17 08:52:57] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 08:52:57] INFO root fetch - processPackages [pandoc-jinja]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-17 08:52:57] INFO root fetch - processPackages [PrioNet]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 08:52:57] INFO root fetch - processPackages [g3tables]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-17 08:52:57] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/82/cc/ad867b05a4ec6deaa70d180402e90fbd9ddd108b1c324bfd248f3eacc918/forloop_modules-1.1.1.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/3f/72/cd78f383b92dd9c221ce42e243c1fd60965eebee94be2829807af86dab8b/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [pandoc-jinja]: Downloading https://files.pythonhosted.org/packages/3a/2b/9e5f116e4baaf28dc75646811b8fbc39ec4657cb56767832270f7c79e014/pandoc-jinja-0.2.2.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [PrioNet]: Downloading https://files.pythonhosted.org/packages/aa/01/334b05a9bc588ac3d96921a8f41b8922a42d9a76cba8e3a04652b844acef/prionet-0.0.1.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/34/2d/d3f6a57281a0cadeb60d54d1e73ee72f46d6f39a1b797b0ef6d170916555/g3tables-0.2.3.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/99/b8/0c36a045237cb94473bd0476ed54c96ee2a09b2e2be94230ea1eca2686ee/forloop_modules-1.1.2.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/7a/0b/89a13e4978f6a24ea0c93aa444d44ce92d7a515ba6df0c876e9e718ba7b8/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz
+[2024-05-17 08:52:57] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2024-05-17 08:52:57] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20240517/d/datamorph-airflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 08:52:58] INFO root fetch - processPackages [forloop-modules]: executing diffoscope
+[2024-05-17 08:52:58] INFO root fetch - processPackages [forloop-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_modules-1.1.1.tar.gz tmp/forloop_modules-1.1.2.tar.gz --markdown 20240517/f/forloop-modules/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-17 08:52:58] INFO root fetch - processPackages [PrioNet]: Downloading https://files.pythonhosted.org/packages/09/b2/7d9c4d609cd9b82a5fd0452fdc1ef2b29f216b1a12b2b27aa1fb38d0ab46/prionet-0.0.2.tar.gz
+[2024-05-17 08:52:58] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: executing diffoscope
+[2024-05-17 08:52:58] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz tmp/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz --markdown 20240517/a/airbyte-source-facebook-marketing/3.0.0.dev202404041423-3.0.0.dev202405021055/README.md --exclude *.pyd
+[2024-05-17 08:52:58] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/a3/70/00efb2219e1c419118eaa54e20b322f7d98f78e52b5339c679d6d291dd61/g3tables-0.2.4.tar.gz
+[2024-05-17 08:52:58] INFO root fetch - processPackages [pandoc-jinja]: Downloading https://files.pythonhosted.org/packages/3f/78/f34495cc370955f066e645efda66a5ba8994cee860efa4d3f892d6e3c517/pandoc_jinja-0.2.4.tar.gz
+[2024-05-17 08:52:58] INFO root fetch - processPackages [pandoc-jinja]: executing diffoscope
+[2024-05-17 08:52:58] INFO root fetch - processPackages [pandoc-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-jinja-0.2.2.tar.gz tmp/pandoc_jinja-0.2.4.tar.gz --markdown 20240517/p/pandoc-jinja/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-17 08:52:58] INFO root fetch - processPackages [PrioNet]: executing diffoscope
+[2024-05-17 08:52:58] INFO root fetch - processPackages [PrioNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prionet-0.0.1.tar.gz tmp/prionet-0.0.2.tar.gz --markdown 20240517/P/PrioNet/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-17 08:52:58] INFO root fetch - processPackages [g3tables]: executing diffoscope
+[2024-05-17 08:52:58] INFO root fetch - processPackages [g3tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3tables-0.2.3.tar.gz tmp/g3tables-0.2.4.tar.gz --markdown 20240517/g/g3tables/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-17 08:52:58] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2024-05-17 08:52:58] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - main [MainThread]: End processing [airbyte-source-facebook-marketing]: success
+[2024-05-17 08:52:58] INFO root fetch - processPackages [pandoc-jinja]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-jinja-0.2.2.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - processPackages [pandoc-jinja]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_jinja-0.2.4.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - main [MainThread]: End processing [pandoc-jinja]: success
+[2024-05-17 08:52:58] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.1.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.2.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - main [MainThread]: End processing [forloop-modules]: success
+[2024-05-17 08:52:58] INFO root fetch - processPackages [PrioNet]: Remove: archive file [/home/abi/fetcher/tmp/prionet-0.0.1.tar.gz]
+[2024-05-17 08:52:58] INFO root fetch - processPackages [PrioNet]: Remove: archive file [/home/abi/fetcher/tmp/prionet-0.0.2.tar.gz]
+[2024-05-17 08:52:59] INFO root fetch - main [MainThread]: End processing [PrioNet]: success
+[2024-05-17 08:52:59] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.3.tar.gz]
+[2024-05-17 08:52:59] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.4.tar.gz]
+[2024-05-17 08:52:59] INFO root fetch - main [MainThread]: End processing [g3tables]: success
+[2024-05-17 08:52:59] INFO root fetch - main [MainThread]: Store serial: [23249327]

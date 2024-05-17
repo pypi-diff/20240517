@@ -14422,3 +14422,29 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:43:58] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.3.tar.gz]
 [2024-05-17 07:43:58] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
 [2024-05-17 07:43:58] INFO root fetch - main [MainThread]: Store serial: [23248655]
+[2024-05-17 07:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248655]
+[2024-05-17 07:46:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 07:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wetb
+[2024-05-17 07:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-05-17 07:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capsolver-extension-python
+[2024-05-17 07:46:07] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 07:46:07] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:46:07] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-05-17 07:46:07] INFO root fetch - processPackages [capsolver-extension-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 07:46:07] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:46:07] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-05-17 07:46:07] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-05-17 07:46:07] INFO root fetch - processPackages [capsolver-extension-python]: Downloading https://files.pythonhosted.org/packages/53/bd/f6c4c4f56b08ccf53704100716f2f5ca6b2a5ea6887f350e33671c9e534c/capsolver_extension_python-1.0.1.tar.gz
+[2024-05-17 07:46:07] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:46:07] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:46:07] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:46:07] INFO root fetch - processPackages [capsolver-extension-python]: Downloading https://files.pythonhosted.org/packages/65/ec/b185c3d731d6bdba779c04574abd0afbf8d4cbf2e10eac582b27cecd5bcf/capsolver_extension_python-1.0.2.tar.gz
+[2024-05-17 07:46:07] INFO root fetch - processPackages [capsolver-extension-python]: executing diffoscope
+[2024-05-17 07:46:07] INFO root fetch - processPackages [capsolver-extension-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsolver_extension_python-1.0.1.tar.gz tmp/capsolver_extension_python-1.0.2.tar.gz --markdown 20240517/c/capsolver-extension-python/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 07:46:08] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:46:08] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:46:08] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:46:08] INFO root fetch - processPackages [capsolver-extension-python]: Remove: archive file [/home/abi/fetcher/tmp/capsolver_extension_python-1.0.1.tar.gz]
+[2024-05-17 07:46:08] INFO root fetch - processPackages [capsolver-extension-python]: Remove: archive file [/home/abi/fetcher/tmp/capsolver_extension_python-1.0.2.tar.gz]
+[2024-05-17 07:46:08] INFO root fetch - main [MainThread]: End processing [capsolver-extension-python]: success
+[2024-05-17 07:46:08] INFO root fetch - main [MainThread]: Store serial: [23248665]

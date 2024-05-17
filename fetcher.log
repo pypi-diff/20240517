@@ -18861,3 +18861,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:24:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-17 10:24:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-17 10:24:56] INFO root fetch - main [MainThread]: Store serial: [23250445]
+[2024-05-17 10:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250445]
+[2024-05-17 10:27:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynnacle-uno
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-text-component
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wallpaper-factory
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-collaborative-chat
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-ws-chat
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymodins
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qBitrr2
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wuji
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nisroterdampackage
+[2024-05-17 10:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sage-lib
+[2024-05-17 10:27:05] INFO root fetch - processPackages [wallpaper-factory]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 10:27:05] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 10:27:06] INFO root fetch - processPackages [pynnacle-uno]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 10:27:06] WARNING root fetch - processPackages [pymodins]: Skipping, unable to determine old version
+[2024-05-17 10:27:06] INFO root fetch - processPackages [pymodins]: Start processing: rid-ant
+[2024-05-17 10:27:06] INFO root fetch - main [MainThread]: End processing [pymodins] error
+[2024-05-17 10:27:06] INFO root fetch - processPackages [streamlit-text-component]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-17 10:27:06] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.3] Old Version: [4.6.2]
+[2024-05-17 10:27:06] INFO root fetch - processPackages [pynnacle-uno]: Downloading https://files.pythonhosted.org/packages/bb/f5/97fc7529a007e3a0b0020366267cfdfc1e7ae69ff697d44ca2bfdcfcf438/pynnacle_uno-1.0.0.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: New version: [0.1.0] Old Version: [0.0.0a0]
+[2024-05-17 10:27:06] WARNING root fetch - processPackages [nisroterdampackage]: Skipping, unable to determine old version
+[2024-05-17 10:27:06] INFO root fetch - main [MainThread]: End processing [nisroterdampackage] error
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-ws-chat]: New version: [0.1.0] Old Version: [0.0.0a0]
+[2024-05-17 10:27:06] INFO root fetch - processPackages [sage-lib]: New version: [0.1.5.2] Old Version: [0.1.5.1]
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [streamlit-text-component]: Downloading https://files.pythonhosted.org/packages/b9/35/1b03d8228efe1b80f44b84e17c1fc8e100aa66e8a04e0d5f37a8a8a10f42/streamlit-text-component-0.0.5.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wallpaper-factory]: Downloading https://files.pythonhosted.org/packages/9b/3b/3da606624ce6fffbfbc1fc9453cd73b74d02082102f62c17c68311917ec8/wallpaper_factory-0.0.8.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/b0/5e/8837faaf5437747cf83a28d18a07f10a46435b7bd2b93ef776dc6959ea86/qbitrr2-4.6.2.tar.gz
+[2024-05-17 10:27:06] WARNING root fetch - processPackages [rid-ant]: Skipping, unable to determine old version
+[2024-05-17 10:27:06] INFO root fetch - main [MainThread]: End processing [rid-ant] error
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: Downloading https://files.pythonhosted.org/packages/88/ca/8dfe6b60532c2f09a611a23414bf761e61ce7274e09aebee26c4a949dbed/jupyterlab_collaborative_chat-0.0.0a0-py3-none-any.whl
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-ws-chat]: Downloading https://files.pythonhosted.org/packages/a7/33/c95571a1253bd29e87c91b8e37afe4d7e84b465bb21d1f178bc600311b9d/jupyterlab_ws_chat-0.0.0a0-py3-none-any.whl
+[2024-05-17 10:27:06] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/05/bb/84a51c1582a3a165c1acfdd04c0acce36bdaae0e1295a131c3f125830241/sage_lib-0.1.5.1.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [pynnacle-uno]: Downloading https://files.pythonhosted.org/packages/23/18/f1ad4dcd3400f1d230e5e93af2170ee25ac0795028e02e651c17c819ea79/pynnacle_uno-1.0.1.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/0d/80/bfd87b1281106234beea27491d84f96823566019faeff48686c822b2b985/qbitrr2-4.6.3.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [pynnacle-uno]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [pynnacle-uno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynnacle_uno-1.0.0.tar.gz tmp/pynnacle_uno-1.0.1.tar.gz --markdown 20240517/p/pynnacle-uno/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wallpaper-factory]: Downloading https://files.pythonhosted.org/packages/82/85/f67ec9e590732b7fed48dd13c3f2e1fbc66e231c665d091bf5150eebfea7/wallpaper_factory-0.0.9.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240517/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: Downloading https://files.pythonhosted.org/packages/e1/2e/a7d570b1b3ac6ec2e6cde09ac9eb3fb182ce0add3a010100bca5fcc4fc9a/jupyterlab_collaborative_chat-0.1.0.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.2.tar.gz tmp/qbitrr2-4.6.3.tar.gz --markdown 20240517/q/qBitrr2/4.6.2-4.6.3/README.md --exclude *.pyd
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-ws-chat]: Downloading https://files.pythonhosted.org/packages/74/46/9d126a41b980472b15f7887e9c41883ccf928dd319d7de906f5d89e131b9/jupyterlab_ws_chat-0.1.0.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/a5/20/446fff0028abde5811fd21b20d0f09bde963f06837905579b8303dbf8a50/sage_lib-0.1.5.2.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [streamlit-text-component]: Downloading https://files.pythonhosted.org/packages/74/76/abd2cd7e199e9bb17580cc31a3a312913ae0f8c24b4339711d4bbf7680a5/streamlit-text-component-0.0.6.tar.gz
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wallpaper-factory]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [wallpaper-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallpaper_factory-0.0.8.tar.gz tmp/wallpaper_factory-0.0.9.tar.gz --markdown 20240517/w/wallpaper-factory/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_collaborative_chat-0.0.0a0-py3-none-any.whl.zip tmp/jupyterlab_collaborative_chat-0.1.0.tar.gz --markdown 20240517/j/jupyterlab-collaborative-chat/0.0.0a0-0.1.0/README.md --exclude *.pyd
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-ws-chat]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [jupyterlab-ws-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_ws_chat-0.0.0a0-py3-none-any.whl.zip tmp/jupyterlab_ws_chat-0.1.0.tar.gz --markdown 20240517/j/jupyterlab-ws-chat/0.0.0a0-0.1.0/README.md --exclude *.pyd
+[2024-05-17 10:27:06] INFO root fetch - processPackages [streamlit-text-component]: executing diffoscope
+[2024-05-17 10:27:06] INFO root fetch - processPackages [streamlit-text-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-text-component-0.0.5.tar.gz tmp/streamlit-text-component-0.0.6.tar.gz --markdown 20240517/s/streamlit-text-component/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-17 10:27:07] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-05-17 10:27:07] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.5.1.tar.gz tmp/sage_lib-0.1.5.2.tar.gz --markdown 20240517/s/sage-lib/0.1.5.1-0.1.5.2/README.md --exclude *.pyd
+[2024-05-17 10:27:07] INFO root fetch - processPackages [pynnacle-uno]: Remove: archive file [/home/abi/fetcher/tmp/pynnacle_uno-1.0.0.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [pynnacle-uno]: Remove: archive file [/home/abi/fetcher/tmp/pynnacle_uno-1.0.1.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [pynnacle-uno]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [jupyterlab-ws-chat]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_ws_chat-0.0.0a0-py3-none-any.whl.zip]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [jupyterlab-ws-chat]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_ws_chat-0.1.0.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-ws-chat]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [wallpaper-factory]: Remove: archive file [/home/abi/fetcher/tmp/wallpaper_factory-0.0.8.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [wallpaper-factory]: Remove: archive file [/home/abi/fetcher/tmp/wallpaper_factory-0.0.9.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [wallpaper-factory]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.2.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.3.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_collaborative_chat-0.0.0a0-py3-none-any.whl.zip]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [jupyterlab-collaborative-chat]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_collaborative_chat-0.1.0.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-collaborative-chat]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [streamlit-text-component]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-text-component-0.0.5.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [streamlit-text-component]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-text-component-0.0.6.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [streamlit-text-component]: success
+[2024-05-17 10:27:07] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.1.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.2.tar.gz]
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-05-17 10:27:07] INFO root fetch - main [MainThread]: Store serial: [23250479]

@@ -17517,3 +17517,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:21:55] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-05-17 09:21:55] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-05-17 09:21:55] INFO root fetch - main [MainThread]: Store serial: [23249794]
+[2024-05-17 09:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249794]
+[2024-05-17 09:24:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytket
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caraml-store
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vsphere
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cifer
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamorph-airflow
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-vault
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mosstool
+[2024-05-17 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woodAI
+[2024-05-17 09:24:04] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:24:04] INFO root fetch - processPackages [caraml-store]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-17 09:24:04] INFO root fetch - processPackages [woodAI]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pytket]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-17 09:24:04] WARNING root fetch - processPackages [cifer]: Skipping, unable to determine old version
+[2024-05-17 09:24:04] INFO root fetch - main [MainThread]: End processing [cifer] error
+[2024-05-17 09:24:04] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [caraml-store]: Downloading https://files.pythonhosted.org/packages/52/4f/f1a083893e5bbac7668d36617c1cb572172ff6c821eb062aaaca075281fe/caraml-store-0.1.6.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715929317] Old Version: [6.2.0a1715765997]
+[2024-05-17 09:24:04] WARNING root fetch - processPackages [mosstool]: Skipping, unable to determine old version
+[2024-05-17 09:24:04] INFO root fetch - main [MainThread]: End processing [mosstool] error
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/87/71/8e2aacad13dbd41170b8621d384ddc3a72b889ece814228b18aeef84611e/pytket-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-17 09:24:04] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10514285>=10485760
+[2024-05-17 09:24:04] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2024-05-17 09:24:04] INFO root fetch - processPackages [woodAI]: Downloading https://files.pythonhosted.org/packages/f9/c8/164eb9faf3f0737f563171a760d52c7c6351c95d7f24dd917a1e75ad2ee9/woodAI-1.0.0-py3-none-any.whl
+[2024-05-17 09:24:04] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e1/97/9b5ffc05c4fc05bd2ad035672eed7d514384642009928a08d8332deb26ac/pulumi_vault-6.2.0a1715765997.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [caraml-store]: Downloading https://files.pythonhosted.org/packages/a3/f0/d5a041508ac492f51f88c2034630ec68ac435d5a3e486cecb89196d0c17c/caraml-store-0.1.7.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2024-05-17 09:24:04] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20240517/d/datamorph-airflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:24:04] INFO root fetch - processPackages [caraml-store]: executing diffoscope
+[2024-05-17 09:24:04] INFO root fetch - processPackages [caraml-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caraml-store-0.1.6.tar.gz tmp/caraml-store-0.1.7.tar.gz --markdown 20240517/c/caraml-store/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240517/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-17 09:24:04] INFO root fetch - processPackages [woodAI]: Downloading https://files.pythonhosted.org/packages/be/d7/056837167173a75f5f42d4e4b5f0907dcd1de9a9ac4b620075334d7aa6ae/woodAI-1.0.1-py3-none-any.whl
+[2024-05-17 09:24:04] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/83/bb/1eac64330d4e3439f2237623db4a8cd07a3c8fc12483b2765856faca0d53/pulumi_vault-6.2.0a1715929317.tar.gz
+[2024-05-17 09:24:04] INFO root fetch - processPackages [woodAI]: executing diffoscope
+[2024-05-17 09:24:04] INFO root fetch - processPackages [woodAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woodAI-1.0.0-py3-none-any.whl.zip tmp/woodAI-1.0.1-py3-none-any.whl.zip --markdown 20240517/w/woodAI/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 09:24:05] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-17 09:24:05] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715765997.tar.gz tmp/pulumi_vault-6.2.0a1715929317.tar.gz --markdown 20240517/p/pulumi-vault/6.2.0a1715765997-6.2.0a1715929317/README.md --exclude *.pyd
+[2024-05-17 09:24:05] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2024-05-17 09:24:05] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2024-05-17 09:24:05] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2024-05-17 09:24:05] INFO root fetch - processPackages [woodAI]: Remove: archive file [/home/abi/fetcher/tmp/woodAI-1.0.0-py3-none-any.whl.zip]
+[2024-05-17 09:24:05] INFO root fetch - processPackages [woodAI]: Remove: archive file [/home/abi/fetcher/tmp/woodAI-1.0.1-py3-none-any.whl.zip]
+[2024-05-17 09:24:05] INFO root fetch - main [MainThread]: End processing [woodAI]: success
+[2024-05-17 09:24:05] INFO root fetch - processPackages [caraml-store]: Remove: archive file [/home/abi/fetcher/tmp/caraml-store-0.1.6.tar.gz]
+[2024-05-17 09:24:05] INFO root fetch - processPackages [caraml-store]: Remove: archive file [/home/abi/fetcher/tmp/caraml-store-0.1.7.tar.gz]
+[2024-05-17 09:24:05] INFO root fetch - main [MainThread]: End processing [caraml-store]: success
+[2024-05-17 09:24:05] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-17 09:24:05] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-17 09:24:05] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-17 09:24:06] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715765997.tar.gz]
+[2024-05-17 09:24:06] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715929317.tar.gz]
+[2024-05-17 09:24:06] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-17 09:24:06] INFO root fetch - main [MainThread]: Store serial: [23249834]

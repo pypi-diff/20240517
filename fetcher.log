@@ -10977,3 +10977,64 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:05:07] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.2.tar.gz]
 [2024-05-17 04:05:07] INFO root fetch - main [MainThread]: End processing [lambkid]: success
 [2024-05-17 04:05:07] INFO root fetch - main [MainThread]: Store serial: [23247323]
+[2024-05-17 04:07:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247323]
+[2024-05-17 04:07:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdrpa.tdworker
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psyke
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vsphere
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feather-extract
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TreeSAK
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-project-setup
+[2024-05-17 04:07:16] INFO root fetch - processPackages [feather-extract]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [tdrpa.tdworker]: New version: [1.1.4.9] Old Version: [1.1.4.8]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ai-project-setup]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [bagbag]: New version: [0.68.1] Old Version: [0.68.0]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [psyke]: New version: [0.8.9.dev2] Old Version: [0.8.9.dev1]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/f6/7e/9ee477674545f967f6348fe99878fd51fe9957a77c16458fe1bb2d5e690e/feather_extract-0.1.5.tar.gz
+[2024-05-17 04:07:16] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-17 04:07:16] INFO root fetch - processPackages [ai-project-setup]: Downloading https://files.pythonhosted.org/packages/11/05/a35e0a7f7e75506cecfab05891bc0c3b8e4cdb8b0ca8aa52e401e8a753b9/ai_project_setup-0.2.2.tar.gz
+[2024-05-17 04:07:16] ERROR root fetch - processPackages [tdrpa.tdworker]: Unable to fetch info: No such project/version 'tdrpa.tdworker' 1.1.4.8
+[2024-05-17 04:07:16] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker] error
+[2024-05-17 04:07:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/4e/11/06e408884a99b6f37ad3065d866c9cd2af966e46abd50cd85e28080b2acc/bagbag-0.68.0.tar.gz
+[2024-05-17 04:07:16] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/ab/b5/696be7464bce7f126e5e9e8aa8b23ba2204aff8da16cd803fa4dbca38907/psyke-0.8.9.dev1.tar.gz
+[2024-05-17 04:07:16] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-17 04:07:16] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-17 04:07:16] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/fb/f5/66e9ff97d17bc8d1408359fbc98feb1047d0f674376c62aad95afbaa7aa3/feather_extract-0.1.6.tar.gz
+[2024-05-17 04:07:17] INFO root fetch - processPackages [ai-project-setup]: Downloading https://files.pythonhosted.org/packages/29/3e/3d41529b14f184cbb4772bff3b992f890a8cded57e0f0614636a1de21622/ai_project_setup-0.2.3.tar.gz
+[2024-05-17 04:07:17] INFO root fetch - processPackages [feather-extract]: executing diffoscope
+[2024-05-17 04:07:17] INFO root fetch - processPackages [feather-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feather_extract-0.1.5.tar.gz tmp/feather_extract-0.1.6.tar.gz --markdown 20240517/f/feather-extract/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 04:07:17] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/40/db/c6cb9fa6d749fa70ca4f85c7434f78f994ffbd7cb53ee1ad189302867b11/psyke-0.8.9.dev2.tar.gz
+[2024-05-17 04:07:17] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/75/55/fe933dc358ac8d579a12175a44410530999c88b29dc2fdcbb97e246d3384/bagbag-0.68.1.tar.gz
+[2024-05-17 04:07:17] INFO root fetch - processPackages [ai-project-setup]: executing diffoscope
+[2024-05-17 04:07:17] INFO root fetch - processPackages [ai-project-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_project_setup-0.2.2.tar.gz tmp/ai_project_setup-0.2.3.tar.gz --markdown 20240517/a/ai-project-setup/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-17 04:07:17] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-05-17 04:07:17] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.9.dev1.tar.gz tmp/psyke-0.8.9.dev2.tar.gz --markdown 20240517/p/psyke/0.8.9.dev1-0.8.9.dev2/README.md --exclude *.pyd
+[2024-05-17 04:07:17] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 04:07:17] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.0.tar.gz tmp/bagbag-0.68.1.tar.gz --markdown 20240517/b/bagbag/0.68.0-0.68.1/README.md --exclude *.pyd
+[2024-05-17 04:07:17] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-17 04:07:17] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-17 04:07:17] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-17 04:07:17] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240517/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-17 04:07:17] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-17 04:07:17] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240517/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-17 04:07:17] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.5.tar.gz]
+[2024-05-17 04:07:17] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.6.tar.gz]
+[2024-05-17 04:07:17] INFO root fetch - main [MainThread]: End processing [feather-extract]: success
+[2024-05-17 04:07:17] INFO root fetch - processPackages [ai-project-setup]: Remove: archive file [/home/abi/fetcher/tmp/ai_project_setup-0.2.2.tar.gz]
+[2024-05-17 04:07:17] INFO root fetch - processPackages [ai-project-setup]: Remove: archive file [/home/abi/fetcher/tmp/ai_project_setup-0.2.3.tar.gz]
+[2024-05-17 04:07:17] INFO root fetch - main [MainThread]: End processing [ai-project-setup]: success
+[2024-05-17 04:07:18] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev1.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev2.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-05-17 04:07:18] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-17 04:07:18] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-17 04:07:18] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.0.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.1.tar.gz]
+[2024-05-17 04:07:18] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 04:07:18] INFO root fetch - main [MainThread]: Store serial: [23247349]

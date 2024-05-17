@@ -19504,3 +19504,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:42:52] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.26.tar.gz]
 [2024-05-17 10:42:52] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
 [2024-05-17 10:42:52] INFO root fetch - main [MainThread]: Store serial: [23250750]
+[2024-05-17 10:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250750]
+[2024-05-17 10:45:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osl
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuscia
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymodins
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-linkedmallretrieval20240501
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-access-sdk
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cnl2asp
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prediction-market-agent-tooling
+[2024-05-17 10:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bia-bob
+[2024-05-17 10:45:06] WARNING root fetch - processPackages [pymodins]: Skipping, unable to determine old version
+[2024-05-17 10:45:06] INFO root fetch - main [MainThread]: End processing [pymodins] error
+[2024-05-17 10:45:06] INFO root fetch - processPackages [osl]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-17 10:45:06] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-17 10:45:06] INFO root fetch - processPackages [kuscia]: New version: [0.0.2.dev240320] Old Version: [0.0.2.dev240103]
+[2024-05-17 10:45:06] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-17 10:45:06] INFO root fetch - processPackages [cnl2asp]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-17 10:45:06] WARNING root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: Skipping, unable to determine old version
+[2024-05-17 10:45:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmallretrieval20240501] error
+[2024-05-17 10:45:06] INFO root fetch - processPackages [bia-bob]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-17 10:45:06] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-05-17 10:45:06] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-17 10:45:06] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-17 10:45:06] INFO root fetch - processPackages [osl]: Downloading https://files.pythonhosted.org/packages/77/c5/e544f9f27599bc93de3a28348a327fa0c13de73f345934cad2af17adbdf9/osl-0.5.1.tar.gz
+[2024-05-17 10:45:06] INFO root fetch - processPackages [kuscia]: Downloading https://files.pythonhosted.org/packages/91/6e/b924041458c69605f286a2a8967c1a14b5050e437e61a859c372af321d16/kuscia-0.0.2.dev240103-py3-none-any.whl
+[2024-05-17 10:45:06] INFO root fetch - processPackages [cnl2asp]: Downloading https://files.pythonhosted.org/packages/ef/5b/adbb9708cc84dd1ffb1f3cf9980abdf1c16e34fdfe9d4265e8a5158523ad/cnl2asp-1.3.2.tar.gz
+[2024-05-17 10:45:06] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/b7/3a/6e5bc9079afd13bf0dcd60f6e468449b226d1a790645a9d7b1e52ca847bc/bia-bob-0.8.1.tar.gz
+[2024-05-17 10:45:06] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-05-17 10:45:06] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-17 10:45:06] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-05-17 10:45:06] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240517/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-17 10:45:06] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-17 10:45:07] INFO root fetch - processPackages [kuscia]: Downloading https://files.pythonhosted.org/packages/bd/ab/40cff3e93e82238c62129abe6f8db4720726a03bbb04ee02074b3f600d91/kuscia-0.0.2.dev240320-py3-none-any.whl
+[2024-05-17 10:45:07] INFO root fetch - processPackages [cnl2asp]: Downloading https://files.pythonhosted.org/packages/a1/40/58d189c84e7d7b0014b1eb24a863b5d0cd54750414b5d4a59b1ef1bec27e/cnl2asp-1.3.3.tar.gz
+[2024-05-17 10:45:07] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/d6/d4/1f46746fde5a1bab4220b9cdc0282a8d09ef134fc533bf3c175cd6640332/bia-bob-0.9.0.tar.gz
+[2024-05-17 10:45:07] INFO root fetch - processPackages [cnl2asp]: executing diffoscope
+[2024-05-17 10:45:07] INFO root fetch - processPackages [cnl2asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnl2asp-1.3.2.tar.gz tmp/cnl2asp-1.3.3.tar.gz --markdown 20240517/c/cnl2asp/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-17 10:45:07] INFO root fetch - processPackages [kuscia]: executing diffoscope
+[2024-05-17 10:45:07] INFO root fetch - processPackages [kuscia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuscia-0.0.2.dev240103-py3-none-any.whl.zip tmp/kuscia-0.0.2.dev240320-py3-none-any.whl.zip --markdown 20240517/k/kuscia/0.0.2.dev240103-0.0.2.dev240320/README.md --exclude *.pyd
+[2024-05-17 10:45:07] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-17 10:45:07] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240517/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-17 10:45:07] INFO root fetch - processPackages [bia-bob]: executing diffoscope
+[2024-05-17 10:45:07] INFO root fetch - processPackages [bia-bob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia-bob-0.8.1.tar.gz tmp/bia-bob-0.9.0.tar.gz --markdown 20240517/b/bia-bob/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-17 10:45:07] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-17 10:45:07] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-05-17 10:45:07] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-05-17 10:45:07] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-05-17 10:45:07] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-17 10:45:07] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240517/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-17 10:45:08] INFO root fetch - processPackages [cnl2asp]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp-1.3.2.tar.gz]
+[2024-05-17 10:45:08] INFO root fetch - processPackages [cnl2asp]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp-1.3.3.tar.gz]
+[2024-05-17 10:45:08] INFO root fetch - main [MainThread]: End processing [cnl2asp]: success
+[2024-05-17 10:45:08] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.8.1.tar.gz]
+[2024-05-17 10:45:08] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.9.0.tar.gz]
+[2024-05-17 10:45:08] INFO root fetch - main [MainThread]: End processing [bia-bob]: success
+[2024-05-17 10:45:08] INFO root fetch - processPackages [kuscia]: Remove: archive file [/home/abi/fetcher/tmp/kuscia-0.0.2.dev240103-py3-none-any.whl.zip]
+[2024-05-17 10:45:08] INFO root fetch - processPackages [kuscia]: Remove: archive file [/home/abi/fetcher/tmp/kuscia-0.0.2.dev240320-py3-none-any.whl.zip]
+[2024-05-17 10:45:08] INFO root fetch - main [MainThread]: End processing [kuscia]: success
+[2024-05-17 10:45:08] INFO root fetch - processPackages [osl]: Downloading https://files.pythonhosted.org/packages/11/2e/60ba406546e6303e703abf8258fd48c344b121144c3f6c1a2879b9de979e/osl-0.6.0.tar.gz
+[2024-05-17 10:45:08] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-17 10:45:08] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-17 10:45:08] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-17 10:45:09] INFO root fetch - processPackages [osl]: executing diffoscope
+[2024-05-17 10:45:09] INFO root fetch - processPackages [osl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osl-0.5.1.tar.gz tmp/osl-0.6.0.tar.gz --markdown 20240517/o/osl/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-17 10:45:10] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-17 10:45:10] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-17 10:45:10] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-17 10:45:11] INFO root fetch - processPackages [osl]: Remove: archive file [/home/abi/fetcher/tmp/osl-0.5.1.tar.gz]
+[2024-05-17 10:45:11] INFO root fetch - processPackages [osl]: Remove: archive file [/home/abi/fetcher/tmp/osl-0.6.0.tar.gz]
+[2024-05-17 10:45:11] INFO root fetch - main [MainThread]: End processing [osl]: success
+[2024-05-17 10:45:11] INFO root fetch - main [MainThread]: Store serial: [23250780]

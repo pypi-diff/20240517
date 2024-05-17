@@ -13038,3 +13038,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:14:28] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
 [2024-05-17 06:14:28] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-05-17 06:14:28] INFO root fetch - main [MainThread]: Store serial: [23248111]
+[2024-05-17 06:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248111]
+[2024-05-17 06:16:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdme
+[2024-05-17 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paramath
+[2024-05-17 06:16:36] INFO root fetch - processPackages [pdme]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-17 06:16:36] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/30/35/72e97b695564eb100462e44fd3fbcb58e182c9e5ac0c69afa1b612ea1682/pdme-1.3.0.tar.gz
+[2024-05-17 06:16:36] INFO root fetch - processPackages [paramath]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 06:16:37] INFO root fetch - processPackages [paramath]: Downloading https://files.pythonhosted.org/packages/0e/63/786a9d5b881f68fc34a8b66d0c8c58f2131964bcbfd7c34d8d65004e0b4d/paramath-0.1.0.tar.gz
+[2024-05-17 06:16:37] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/4a/e4/ae935be629209ccb2f8dba44cc954bef5ce7af6a2121577a63e0f1dabd2e/pdme-1.4.0.tar.gz
+[2024-05-17 06:16:37] INFO root fetch - processPackages [pdme]: executing diffoscope
+[2024-05-17 06:16:37] INFO root fetch - processPackages [pdme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdme-1.3.0.tar.gz tmp/pdme-1.4.0.tar.gz --markdown 20240517/p/pdme/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-17 06:16:37] INFO root fetch - processPackages [paramath]: Downloading https://files.pythonhosted.org/packages/6e/c3/2058ad4477a66bdc4cfd0f2c9b338a47ecc93bc91c2c7bc7c5514d07f57b/paramath-0.1.1.tar.gz
+[2024-05-17 06:16:37] INFO root fetch - processPackages [paramath]: executing diffoscope
+[2024-05-17 06:16:37] INFO root fetch - processPackages [paramath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramath-0.1.0.tar.gz tmp/paramath-0.1.1.tar.gz --markdown 20240517/p/paramath/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 06:16:38] INFO root fetch - processPackages [paramath]: Remove: archive file [/home/abi/fetcher/tmp/paramath-0.1.0.tar.gz]
+[2024-05-17 06:16:38] INFO root fetch - processPackages [paramath]: Remove: archive file [/home/abi/fetcher/tmp/paramath-0.1.1.tar.gz]
+[2024-05-17 06:16:38] INFO root fetch - main [MainThread]: End processing [paramath]: success
+[2024-05-17 06:16:38] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-1.3.0.tar.gz]
+[2024-05-17 06:16:38] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-1.4.0.tar.gz]
+[2024-05-17 06:16:38] INFO root fetch - main [MainThread]: End processing [pdme]: success
+[2024-05-17 06:16:38] INFO root fetch - main [MainThread]: Store serial: [23248119]

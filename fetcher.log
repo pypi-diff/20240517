@@ -17665,3 +17665,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:30:41] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-17 09:30:41] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-17 09:30:41] INFO root fetch - main [MainThread]: Store serial: [23249861]
+[2024-05-17 09:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249861]
+[2024-05-17 09:32:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-libvirt
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: themachinethatgoesping
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-ipython-client
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-lib
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-server
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cache-pydantic
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-bec-e2e
+[2024-05-17 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: livemetrics
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [livemetrics]: New version: [0.7.1] Old Version: [0.7]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [django-cache-pydantic]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1715930075] Old Version: [0.5.0a1715758769]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [livemetrics]: Downloading https://files.pythonhosted.org/packages/31/64/b1fa2b4a2135a55c3237c28815f37c7285ea7d4e11bf23301e0456352f02/livemetrics-0.7.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [django-cache-pydantic]: Downloading https://files.pythonhosted.org/packages/2f/d4/78af914b88a21d2ab4fbc1bb4eb3673e571101bc410c8155b661291962d1/django_cache_pydantic-0.1.0.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/a9/a1/4b011be07f27b5d6784c0ded402ace19c73d73efbce069e2ef156738700a/pulumi_libvirt-0.5.0a1715758769.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-17 09:32:50] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240517/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-05-17 09:32:50] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240517/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-05-17 09:32:51] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240517/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/4d/44/6f6ab06e4b1e7ad7e5d41454bb470d12cc64ed362904a4dba2fd3d6a1f44/themachinethatgoesping-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-17 09:32:51] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-05-17 09:32:51] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240517/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [livemetrics]: Downloading https://files.pythonhosted.org/packages/98/c7/ff9cd16a725b73286d20f2cb463f86bd51c9f0d55ba84c5ffdecb04297c4/livemetrics-0.7.1.tar.gz
+[2024-05-17 09:32:51] INFO root fetch - processPackages [django-cache-pydantic]: Downloading https://files.pythonhosted.org/packages/ba/df/eb18eee23321b170f9e9e6bb09ba6b7a8be5b6a6dbb3b87091dc63f3640e/django_cache_pydantic-0.1.1-py3-none-any.whl
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c5/50/9c7406216dad00316e28ab2d17bb9903e9868d0013c0992378b686dae05d/pulumi_libvirt-0.5.0a1715930075.tar.gz
+[2024-05-17 09:32:51] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 16251129>=10485760
+[2024-05-17 09:32:51] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1715758769.tar.gz tmp/pulumi_libvirt-0.5.0a1715930075.tar.gz --markdown 20240517/p/pulumi-libvirt/0.5.0a1715758769-0.5.0a1715930075/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-17 09:32:51] INFO root fetch - processPackages [livemetrics]: executing diffoscope
+[2024-05-17 09:32:51] INFO root fetch - processPackages [livemetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livemetrics-0.7.tar.gz tmp/livemetrics-0.7.1.tar.gz --markdown 20240517/l/livemetrics/0.7-0.7.1/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [django-cache-pydantic]: executing diffoscope
+[2024-05-17 09:32:51] INFO root fetch - processPackages [django-cache-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cache_pydantic-0.1.0.tar.gz tmp/django_cache_pydantic-0.1.1-py3-none-any.whl.zip --markdown 20240517/d/django-cache-pydantic/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240517/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-05-17 09:32:51] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-05-17 09:32:51] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-05-17 09:32:51] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-05-17 09:32:51] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-05-17 09:32:51] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-17 09:32:51] INFO root fetch - processPackages [django-cache-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/django_cache_pydantic-0.1.0.tar.gz]
+[2024-05-17 09:32:51] INFO root fetch - processPackages [django-cache-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/django_cache_pydantic-0.1.1-py3-none-any.whl.zip]
+[2024-05-17 09:32:51] INFO root fetch - main [MainThread]: End processing [django-cache-pydantic]: success
+[2024-05-17 09:32:52] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715758769.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715930075.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-17 09:32:52] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-05-17 09:32:52] INFO root fetch - processPackages [livemetrics]: Remove: archive file [/home/abi/fetcher/tmp/livemetrics-0.7.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - processPackages [livemetrics]: Remove: archive file [/home/abi/fetcher/tmp/livemetrics-0.7.1.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - main [MainThread]: End processing [livemetrics]: success
+[2024-05-17 09:32:52] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-05-17 09:32:52] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-17 09:32:52] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-17 09:32:52] INFO root fetch - main [MainThread]: Store serial: [23249888]

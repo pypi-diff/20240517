@@ -15210,3 +15210,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:16:46] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
 [2024-05-17 08:16:46] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-05-17 08:16:46] INFO root fetch - main [MainThread]: Store serial: [23248916]
+[2024-05-17 08:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248916]
+[2024-05-17 08:18:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kan-gpt
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-express-components
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SiEPIC
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: copernicusmarine
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrnnoise
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zorch
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitlinear
+[2024-05-17 08:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module-latest
+[2024-05-17 08:18:56] INFO root fetch - processPackages [SiEPIC]: New version: [0.5.7] Old Version: [0.5.5]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [bitlinear]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240516] Old Version: [20240515]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [zorch]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/a0/d1/05daf31be9ffe3ec3f78c43180d9b9490c0aa9ec118b92fa03fea7e7900a/bitlinear-1.2.1.tar.gz
+[2024-05-17 08:18:56] INFO root fetch - processPackages [kan-gpt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [copernicusmarine]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [pyrnnoise]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.96] Old Version: [0.0.95]
+[2024-05-17 08:18:56] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/d2/d0/3f5a18b81349edad4ce1d291617fcd1871f1bda67d09adf9950a20b60d17/zorch-0.0.6.tar.gz
+[2024-05-17 08:18:56] INFO root fetch - processPackages [SiEPIC]: Downloading https://files.pythonhosted.org/packages/db/b0/a2e07319f33dc8307781748b35c15d26f4185fbaf2afe9c346f0de164ed7/SiEPIC-0.5.5.tar.gz
+[2024-05-17 08:18:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d9/57/355d2b95a0b7cb626c834a6f7e77674a5e748fb3be373f2cfec8629af7b9/fake_bpy_module_latest-20240515.tar.gz
+[2024-05-17 08:18:56] INFO root fetch - processPackages [pyrnnoise]: Downloading https://files.pythonhosted.org/packages/e1/a1/b78b0d1bb958db7960b9367a7f21224762dda9ad5de9a4c80e8d39e65a80/pyrnnoise-0.1.9-py3-none-win_amd64.whl
+[2024-05-17 08:18:56] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/1f/28/d005e2ca3ca35ce5b8bc65b86438768d8eabc2b6f52e364eba9de3f56d2a/kan_gpt-1.0.2.tar.gz
+[2024-05-17 08:18:56] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/1f/ac/57c249f31bc1af1512f38ae3a3763ae1288b9f4f5c027ebf080ca7a9038f/dash_express_components-0.0.95.tar.gz
+[2024-05-17 08:18:56] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/ef/2c/462790a1cf907a0eeadf794ddc9810b8e4b939f6478efffdf964735d2479/copernicusmarine-1.2.1.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/bf/a0/75fc2c4170d35fb1a7605723b68b9cd28d1d2e0cbd176afc077833e6d119/zorch-0.0.9.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.6.tar.gz tmp/zorch-0.0.9.tar.gz --markdown 20240517/z/zorch/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/09/e7/df35d4dd56350dd5724af1544285e1957302e86caefddb5ae8c76ff98066/bitlinear-1.2.2.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [SiEPIC]: Downloading https://files.pythonhosted.org/packages/78/4b/a329502e3f473070275e4762db1f8e3b3352ae0985504804c2bc362ede59/siepic-0.5.7.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/3a/15/39f0580ffe9a0a413d804f93dd38850ceb5437f575bf66c22d30786d40ff/kan_gpt-1.0.3.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [bitlinear]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [bitlinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitlinear-1.2.1.tar.gz tmp/bitlinear-1.2.2.tar.gz --markdown 20240517/b/bitlinear/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/a2/89/35f6ded5ffed55a13b1557cac06c8855d9639b8d232f633f7a479077d60b/copernicusmarine-1.2.2.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/52/1c/dc27aef3112097719c2f317250111b067fbb797dafa1192d829bc9d6c4ea/fake_bpy_module_latest-20240516.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [SiEPIC]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [SiEPIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiEPIC-0.5.5.tar.gz tmp/siepic-0.5.7.tar.gz --markdown 20240517/S/SiEPIC/0.5.5-0.5.7/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/6c/cd/7f9fef18ecd811373b85274e95b278062c4929a8650274d591d39db06f11/dash_express_components-0.0.96.tar.gz
+[2024-05-17 08:18:57] INFO root fetch - processPackages [kan-gpt]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [kan-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kan_gpt-1.0.2.tar.gz tmp/kan_gpt-1.0.3.tar.gz --markdown 20240517/k/kan-gpt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [copernicusmarine]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [copernicusmarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicusmarine-1.2.1.tar.gz tmp/copernicusmarine-1.2.2.tar.gz --markdown 20240517/c/copernicusmarine/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [pyrnnoise]: Downloading https://files.pythonhosted.org/packages/6b/bd/ad1e75b24b902bd80174495804bba4bb7aa8a2c7a6fb581789074fb2abf0/pyrnnoise-0.2.0-py3-none-manylinux1_x86_64.whl
+[2024-05-17 08:18:57] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240515.tar.gz tmp/fake_bpy_module_latest-20240516.tar.gz --markdown 20240517/f/fake-bpy-module-latest/20240515-20240516/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2024-05-17 08:18:57] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.95.tar.gz tmp/dash_express_components-0.0.96.tar.gz --markdown 20240517/d/dash-express-components/0.0.95-0.0.96/README.md --exclude *.pyd
+[2024-05-17 08:18:57] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.6.tar.gz]
+[2024-05-17 08:18:57] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.9.tar.gz]
+[2024-05-17 08:18:57] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 08:18:57] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.1.tar.gz]
+[2024-05-17 08:18:57] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.2.tar.gz]
+[2024-05-17 08:18:57] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
+[2024-05-17 08:18:58] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.2.tar.gz]
+[2024-05-17 08:18:58] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.3.tar.gz]
+[2024-05-17 08:18:58] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
+[2024-05-17 08:18:58] INFO root fetch - processPackages [pyrnnoise]: executing diffoscope
+[2024-05-17 08:18:58] INFO root fetch - processPackages [pyrnnoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrnnoise-0.1.9-py3-none-win_amd64.whl.zip tmp/pyrnnoise-0.2.0-py3-none-manylinux1_x86_64.whl.zip --markdown 20240517/p/pyrnnoise/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-17 08:18:58] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.1.tar.gz]
+[2024-05-17 08:18:58] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.2.tar.gz]
+[2024-05-17 08:18:58] INFO root fetch - main [MainThread]: End processing [copernicusmarine]: success
+[2024-05-17 08:18:58] INFO root fetch - processPackages [SiEPIC]: Remove: archive file [/home/abi/fetcher/tmp/SiEPIC-0.5.5.tar.gz]
+[2024-05-17 08:18:58] INFO root fetch - processPackages [SiEPIC]: Remove: archive file [/home/abi/fetcher/tmp/siepic-0.5.7.tar.gz]
+[2024-05-17 08:18:58] INFO root fetch - main [MainThread]: End processing [SiEPIC]: success
+[2024-05-17 08:19:02] INFO root fetch - processPackages [pyrnnoise]: Remove: archive file [/home/abi/fetcher/tmp/pyrnnoise-0.1.9-py3-none-win_amd64.whl.zip]
+[2024-05-17 08:19:02] INFO root fetch - processPackages [pyrnnoise]: Remove: archive file [/home/abi/fetcher/tmp/pyrnnoise-0.2.0-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-17 08:19:02] INFO root fetch - main [MainThread]: End processing [pyrnnoise]: success
+[2024-05-17 08:19:03] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.95.tar.gz]
+[2024-05-17 08:19:03] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.96.tar.gz]
+[2024-05-17 08:19:03] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2024-05-17 08:19:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240515.tar.gz]
+[2024-05-17 08:19:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240516.tar.gz]
+[2024-05-17 08:19:05] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-17 08:19:05] INFO root fetch - main [MainThread]: Store serial: [23248936]

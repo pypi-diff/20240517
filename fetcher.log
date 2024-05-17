@@ -22113,3 +22113,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:01:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051609.tar.gz]
 [2024-05-17 12:01:11] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-17 12:01:11] INFO root fetch - main [MainThread]: Store serial: [23251843]
+[2024-05-17 12:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251843]
+[2024-05-17 12:03:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: REMLA-Test-Lib-version
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasherlock
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: influxdb3-python
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt-idax-adapter
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bundle-cpp
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abaqus2py
+[2024-05-17 12:03:20] INFO root fetch - processPackages [datasherlock]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-17 12:03:20] INFO root fetch - processPackages [REMLA-Test-Lib-version]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-17 12:03:20] INFO root fetch - processPackages [influxdb3-python]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ccxt-idax-adapter]: New version: [4.3.26] Old Version: [4.3.25]
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bagbag]: New version: [0.68.8] Old Version: [0.68.7]
+[2024-05-17 12:03:20] WARNING root fetch - processPackages [abaqus2py]: Skipping, unable to determine old version
+[2024-05-17 12:03:20] INFO root fetch - main [MainThread]: End processing [abaqus2py] error
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bundle-cpp]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/7f/83/05151e0b7e56d661b062a7933685d4c276bed637d03023c96c900e69ae96/ccxt-idax-adapter-4.3.25.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [datasherlock]: Downloading https://files.pythonhosted.org/packages/d1/9a/b556a7b55f9a590030000fc2b6345f284604f843719437407ab82dd6cd82/datasherlock-0.0.7.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/11/ed28ea255dc9b418d7800575b0fb16cbbbb110f8ceb3b9188e4eef3c7594/bagbag-0.68.7.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/0a/15/76aa2ff3e1e599d636f50029dd8b34e360c8ec414fbb000b91a3e3bb1882/influxdb3-python-0.3.6.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/c0/47/e18bc4460faa8b4428b7b1193e28552265603ecb93311ac61251b9a2d14c/REMLA-Test-Lib-version-0.0.8.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bundle-cpp]: Downloading https://files.pythonhosted.org/packages/c7/2f/44c2ca893137bd5eecf484561cc18ee4c3ee97be26d3607e2a471c94ecda/bundle_cpp-0.1.2.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [datasherlock]: Downloading https://files.pythonhosted.org/packages/1a/0f/eec064dcea5dbc1521a6bc0134289f24b59baec503a9e23edfd379acea94/datasherlock-0.0.8.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/78/f8/b7823e680c9a0949cc49f5e0446b4804c30a36aab1090bcc09da36a923f2/REMLA-Test-Lib-version-0.1.0.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [datasherlock]: executing diffoscope
+[2024-05-17 12:03:20] INFO root fetch - processPackages [datasherlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasherlock-0.0.7.tar.gz tmp/datasherlock-0.0.8.tar.gz --markdown 20240517/d/datasherlock/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/8c/8a/ea119a45ec9a2d940ec23cc6f6ebf2ab0b679347794665e74f0d9d90fb88/influxdb3_python-0.4.0.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [REMLA-Test-Lib-version]: executing diffoscope
+[2024-05-17 12:03:20] INFO root fetch - processPackages [REMLA-Test-Lib-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REMLA-Test-Lib-version-0.0.8.tar.gz tmp/REMLA-Test-Lib-version-0.1.0.tar.gz --markdown 20240517/R/REMLA-Test-Lib-version/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-17 12:03:20] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/0f/06/61db9e1c1c912949461b1f9af335c665c1ebd2267a9121c2bd42bf093b27/ccxt-idax-adapter-4.3.26.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bundle-cpp]: Downloading https://files.pythonhosted.org/packages/73/71/c6cb15944077be8af77a406f341078f72a6efac01c8eda9c210dab38b370/bundle_cpp-0.1.3.tar.gz
+[2024-05-17 12:03:20] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2024-05-17 12:03:20] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.3.6.tar.gz tmp/influxdb3_python-0.4.0.tar.gz --markdown 20240517/i/influxdb3-python/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 12:03:20] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.7.tar.gz tmp/bagbag-0.68.8.tar.gz --markdown 20240517/b/bagbag/0.68.7-0.68.8/README.md --exclude *.pyd
+[2024-05-17 12:03:21] INFO root fetch - processPackages [bundle-cpp]: executing diffoscope
+[2024-05-17 12:03:21] INFO root fetch - processPackages [bundle-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundle_cpp-0.1.2.tar.gz tmp/bundle_cpp-0.1.3.tar.gz --markdown 20240517/b/bundle-cpp/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 12:03:21] INFO root fetch - processPackages [ccxt-idax-adapter]: executing diffoscope
+[2024-05-17 12:03:21] INFO root fetch - processPackages [ccxt-idax-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-idax-adapter-4.3.25.tar.gz tmp/ccxt-idax-adapter-4.3.26.tar.gz --markdown 20240517/c/ccxt-idax-adapter/4.3.25-4.3.26/README.md --exclude *.pyd
+[2024-05-17 12:03:21] INFO root fetch - processPackages [datasherlock]: Remove: archive file [/home/abi/fetcher/tmp/datasherlock-0.0.7.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - processPackages [datasherlock]: Remove: archive file [/home/abi/fetcher/tmp/datasherlock-0.0.8.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - main [MainThread]: End processing [datasherlock]: success
+[2024-05-17 12:03:21] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.0.8.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.1.0.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - main [MainThread]: End processing [REMLA-Test-Lib-version]: success
+[2024-05-17 12:03:21] INFO root fetch - processPackages [bundle-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bundle_cpp-0.1.2.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - processPackages [bundle-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bundle_cpp-0.1.3.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - main [MainThread]: End processing [bundle-cpp]: success
+[2024-05-17 12:03:21] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.3.6.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3_python-0.4.0.tar.gz]
+[2024-05-17 12:03:21] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2024-05-17 12:03:22] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.7.tar.gz]
+[2024-05-17 12:03:22] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-05-17 12:03:22] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 12:03:24] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.25.tar.gz]
+[2024-05-17 12:03:24] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.26.tar.gz]
+[2024-05-17 12:03:24] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
+[2024-05-17 12:03:24] INFO root fetch - main [MainThread]: Store serial: [23251864]

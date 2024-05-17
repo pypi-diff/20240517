@@ -11221,3 +11221,57 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:16:09] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
 [2024-05-17 04:16:09] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-17 04:16:09] INFO root fetch - main [MainThread]: Store serial: [23247403]
+[2024-05-17 04:18:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247403]
+[2024-05-17 04:18:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipper-shippy
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-utils
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glidergun
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raise-utils
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxstudio
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mbrs
+[2024-05-17 04:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liveramp-automation
+[2024-05-17 04:18:18] INFO root fetch - processPackages [liveramp-automation]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-17 04:18:18] INFO root fetch - processPackages [shipper-shippy]: New version: [2.37.5] Old Version: [2.37.4]
+[2024-05-17 04:18:18] WARNING root fetch - processPackages [mbrs]: Skipping, unable to determine old version
+[2024-05-17 04:18:18] INFO root fetch - main [MainThread]: End processing [mbrs] error
+[2024-05-17 04:18:18] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/b8/c6/a1391fe5abec2b435175c55d7f4e4abc3a84361f72dd068528be71f55d49/liveramp_automation-1.4.0.tar.gz
+[2024-05-17 04:18:18] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-17 04:18:18] WARNING root fetch - processPackages [onnxstudio]: Skipping, unable to determine old version
+[2024-05-17 04:18:18] INFO root fetch - main [MainThread]: End processing [onnxstudio] error
+[2024-05-17 04:18:18] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/23/78/5ea003a1d6f19eefe1beca1164f7646ab6b8a1dcd36351dc0a72ac6610c7/shipper_shippy-2.37.4.tar.gz
+[2024-05-17 04:18:18] INFO root fetch - processPackages [glidergun]: New version: [0.5.4] Old Version: [0.5.1]
+[2024-05-17 04:18:18] INFO root fetch - processPackages [raise-utils]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-17 04:18:19] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/f3/43/7b4f502e4125bec08062233784b2aee624684ce7ae60e982c5d3e564c3a0/cpg-utils-5.0.8.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [glidergun]: Downloading https://files.pythonhosted.org/packages/72/0d/0efd913137a75f36b14ee782fd0d612be0d2885a762d5e2d391e8f37da3d/glidergun-0.5.1.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/f0/be/d41a6dc05ceeaa9f43b48d52789da6b9dddac41bc0cd98b4e22b18c05f8d/liveramp_automation-1.4.1.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/73/ea/7a388b1840d6e676ccbe1054659652d060a54e8547018b1c9391a1af8bae/shipper_shippy-2.37.5.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [raise-utils]: Downloading https://files.pythonhosted.org/packages/35/b0/96883a461e51af529847d9add8120bc3129ddc0064fedb757d7eaad5cf4d/raise_utils-2.2.1.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-05-17 04:18:19] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.4.0.tar.gz tmp/liveramp_automation-1.4.1.tar.gz --markdown 20240517/l/liveramp-automation/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-17 04:18:19] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-17 04:18:19] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.37.4.tar.gz tmp/shipper_shippy-2.37.5.tar.gz --markdown 20240517/s/shipper-shippy/2.37.4-2.37.5/README.md --exclude *.pyd
+[2024-05-17 04:18:19] INFO root fetch - processPackages [glidergun]: Downloading https://files.pythonhosted.org/packages/44/33/7925bc8f7af8acd7837b558a0eff52c0d36d779f53c5967f17f29f8f30bf/glidergun-0.5.4.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/38/95/5c9c4efa53a32208c9bdfa75641004f2e14bb4c516e0b634d7c48e65afe7/cpg-utils-5.0.9.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [glidergun]: executing diffoscope
+[2024-05-17 04:18:19] INFO root fetch - processPackages [glidergun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glidergun-0.5.1.tar.gz tmp/glidergun-0.5.4.tar.gz --markdown 20240517/g/glidergun/0.5.1-0.5.4/README.md --exclude *.pyd
+[2024-05-17 04:18:19] INFO root fetch - processPackages [raise-utils]: Downloading https://files.pythonhosted.org/packages/23/43/af3d5e87e0ab51eeb0a27de14eefa25b4896c66d8a78651324d99a61e176/raise_utils-2.2.2.tar.gz
+[2024-05-17 04:18:19] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-05-17 04:18:19] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.8.tar.gz tmp/cpg-utils-5.0.9.tar.gz --markdown 20240517/c/cpg-utils/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-17 04:18:19] INFO root fetch - processPackages [raise-utils]: executing diffoscope
+[2024-05-17 04:18:19] INFO root fetch - processPackages [raise-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raise_utils-2.2.1.tar.gz tmp/raise_utils-2.2.2.tar.gz --markdown 20240517/r/raise-utils/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-17 04:18:19] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.4.tar.gz]
+[2024-05-17 04:18:19] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.5.tar.gz]
+[2024-05-17 04:18:19] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-17 04:18:20] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.0.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.1.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-05-17 04:18:20] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.8.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.9.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-05-17 04:18:20] INFO root fetch - processPackages [glidergun]: Remove: archive file [/home/abi/fetcher/tmp/glidergun-0.5.1.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - processPackages [glidergun]: Remove: archive file [/home/abi/fetcher/tmp/glidergun-0.5.4.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - main [MainThread]: End processing [glidergun]: success
+[2024-05-17 04:18:20] INFO root fetch - processPackages [raise-utils]: Remove: archive file [/home/abi/fetcher/tmp/raise_utils-2.2.1.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - processPackages [raise-utils]: Remove: archive file [/home/abi/fetcher/tmp/raise_utils-2.2.2.tar.gz]
+[2024-05-17 04:18:20] INFO root fetch - main [MainThread]: End processing [raise-utils]: success
+[2024-05-17 04:18:20] INFO root fetch - main [MainThread]: Store serial: [23247428]

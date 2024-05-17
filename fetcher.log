@@ -14580,3 +14580,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 07:48:19] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715923420.tar.gz]
 [2024-05-17 07:48:19] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-05-17 07:48:19] INFO root fetch - main [MainThread]: Store serial: [23248680]
+[2024-05-17 07:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248680]
+[2024-05-17 07:50:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdrpa.tdworker
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypinnacle
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudinit
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-databricks
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatpack
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-oracle
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trust-plutus-namematch
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geogpt-agent-lib
+[2024-05-17 07:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-consul
+[2024-05-17 07:50:28] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [0.5] Old Version: [0.3]
+[2024-05-17 07:50:28] WARNING root fetch - processPackages [tdrpa.tdworker]: Skipping, unable to determine old version
+[2024-05-17 07:50:28] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker] error
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-05-17 07:50:28] INFO root fetch - processPackages [dbt-oracle]: New version: [1.7.5rc1] Old Version: [1.7.5]
+[2024-05-17 07:50:28] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1715923547] Old Version: [1.5.0a1715753351]
+[2024-05-17 07:50:28] WARNING root fetch - processPackages [pypinnacle]: Skipping, unable to determine old version
+[2024-05-17 07:50:28] INFO root fetch - main [MainThread]: End processing [pypinnacle] error
+[2024-05-17 07:50:28] WARNING root fetch - processPackages [geogpt-agent-lib]: Skipping, unable to determine old version
+[2024-05-17 07:50:28] INFO root fetch - main [MainThread]: End processing [geogpt-agent-lib] error
+[2024-05-17 07:50:28] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/aa/15/be848a02c8635e0efc701bf6620bebf8365c3dbf5bbb44f97454bb94deec/dbt_oracle-1.7.5.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/1f/f4/5d1c7b30622e401ff5b94a867efe8d79c08741fab7b682b42d37e05678d0/pulumi_cloudinit-1.5.0a1715753351.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/e6/4a/2c9617a023f78d63178ea08c299b276b514bc08928bef61287cb2346f895/trust_plutus_namematch-0.5.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/dd/71/9381ec35ac4666e115341ef77e21db4fbe946ef64916273e111663674bf7/dbt_oracle-1.7.5rc1.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-17 07:50:28] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-0.3.tar.gz tmp/trust_plutus_namematch-0.5.tar.gz --markdown 20240517/t/trust-plutus-namematch/0.3-0.5/README.md --exclude *.pyd
+[2024-05-17 07:50:28] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:50:28] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:50:28] INFO root fetch - processPackages [dbt-oracle]: executing diffoscope
+[2024-05-17 07:50:28] INFO root fetch - processPackages [dbt-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_oracle-1.7.5.tar.gz tmp/dbt_oracle-1.7.5rc1.tar.gz --markdown 20240517/d/dbt-oracle/1.7.5-1.7.5rc1/README.md --exclude *.pyd
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240517/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/76/8c/16718d73bdbe003a81da83beafb5b49635e8cd38519708fc6f219a6afc62/pulumi_cloudinit-1.5.0a1715923547.tar.gz
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1715753351.tar.gz tmp/pulumi_cloudinit-1.5.0a1715923547.tar.gz --markdown 20240517/p/pulumi-cloudinit/1.5.0a1715753351-1.5.0a1715923547/README.md --exclude *.pyd
+[2024-05-17 07:50:28] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-17 07:50:29] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-17 07:50:29] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240517/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-17 07:50:29] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-0.3.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-0.5.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-17 07:50:29] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:50:29] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715753351.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715923547.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-17 07:50:29] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt_oracle-1.7.5.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt_oracle-1.7.5rc1.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - main [MainThread]: End processing [dbt-oracle]: success
+[2024-05-17 07:50:29] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-17 07:50:29] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-17 07:50:30] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-05-17 07:50:30] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-05-17 07:50:30] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-05-17 07:50:30] INFO root fetch - main [MainThread]: Store serial: [23248714]

@@ -21132,3 +21132,168 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:30:00] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-17 11:30:00] INFO root fetch - main [MainThread]: End processing [nostr-sdk]: success
 [2024-05-17 11:30:00] INFO root fetch - main [MainThread]: Store serial: [23251411]
+[2024-05-17 11:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251411]
+[2024-05-17 11:32:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filedata
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cid-cmd
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saagieapi
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: influxdb-client
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dja-sepp
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bingo-elastic
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2024-05-17 11:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epam.indigo
+[2024-05-17 11:32:27] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [saagieapi]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [cid-cmd]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [filedata]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [influxdb-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [bingo-elastic]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [epam.indigo]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-05-17 11:32:27] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/5c/ed/884eca2938832ab61618f345af624ca4ff52afe2afb7cd41bb407963edb2/dja_sepp-0.1.2.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/a6/7b/67b4739b7f0567d5dc406edb8d222313d6c7ef6b8508d827b677fc09689a/nucliadb_dataset-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e1/db/e4b50198d7f815cfbc1d3d07f9c3786eaf218e526688ecfbde95ea159cfa/nucliadb-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/13/a2/aae4c44b17b9199b39c700b112eff088ea683cede5994a88dcd5093d830b/nucliadb_models-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/37/57/625c8bad283c4a236abdd86523d5182566fc964f3a6553ffd29e89d7dc3e/saagieapi-2.9.1.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/91/78/8c8ddd2017040d8a4fd42a30b10a41df04c60dcd3310ee05d75d5d210b30/cid_cmd-0.3.3.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [filedata]: Downloading https://files.pythonhosted.org/packages/e5/bc/691cc6c3066e2b947292ec0eb4c0d64c460a42a8c8a08239771a13b5fbd5/filedata-0.2.5.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/6d/cd/04a2f25555f373f632dbc074e0d2f89db55708716d7884c4a097a82d2ef3/bingo_elastic-1.9.0rc3-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [influxdb-client]: Downloading https://files.pythonhosted.org/packages/6b/c7/e041992533b8c8ad59bcdda740b5552b8c12b864a8478178e88e6191bfcf/influxdb_client-1.8.0.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/9c/79/5347eba118f9933e0a487d8029ab2b0766b1bd05b392c56497ddedd20d89/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/99/83/f3a1e3ea9567d181fb486b3db402cf32846ddf51135b04a3f277803ded30/dja_sepp-0.1.3.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/64/43/12aa18cdd50c5ff1bf35bbb11ed4737442b87c1b14620d84a665b48d091e/nucliadb_dataset-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/a7/d6/e30b665331ce0fdf3e93a3115adaeee6cc044655808d08ee4d684a6d5d64/nucliadb_models-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/34/48/07e71b999b241e27c6ae98156a3367c6f7ab78917c2ede16c342a90e81a8/saagieapi-2.9.2.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-17 11:32:27] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.2.tar.gz tmp/dja_sepp-0.1.3.tar.gz --markdown 20240517/d/dja-sepp/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/bb/19/d14da7bcf5f8ea1e32dcef0c85aea0888f0ca3bdbf90f6c8ac084dce4024/nucliadb-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:27] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/6f/78/6e948cd85d2c6dd37dd9c40fff22fc8ec839621d4f709703e52b029b0a46/cid_cmd-0.3.4.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb-dataset/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:27] INFO root fetch - processPackages [filedata]: Downloading https://files.pythonhosted.org/packages/b9/47/c623d30d3234a238f4bac0a32f9491cf29e4303439eec45b5c1213eaaab4/filedata-0.2.6.tar.gz
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-17 11:32:27] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb-models/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/34/fb/8816f55d488eeaa423309aa1b297f9a04a91087d26fb5d4641f534342096/bingo_elastic-1.9.0rc4-py3-none-any.whl
+[2024-05-17 11:32:28] INFO root fetch - processPackages [saagieapi]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [saagieapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saagieapi-2.9.1.tar.gz tmp/saagieapi-2.9.2.tar.gz --markdown 20240517/s/saagieapi/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [influxdb-client]: Downloading https://files.pythonhosted.org/packages/82/d5/4b351cc68164b2ac6adb747709b285eb045866fce9afb69d45d367e0f482/influxdb_client-1.9.0.tar.gz
+[2024-05-17 11:32:28] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid_cmd-0.3.3.tar.gz tmp/cid_cmd-0.3.4.tar.gz --markdown 20240517/c/cid-cmd/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [filedata]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [filedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filedata-0.2.5.tar.gz tmp/filedata-0.2.6.tar.gz --markdown 20240517/f/filedata/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [influxdb-client]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [influxdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb_client-1.8.0.tar.gz tmp/influxdb_client-1.9.0.tar.gz --markdown 20240517/i/influxdb-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [bingo-elastic]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [bingo-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip --markdown 20240517/b/bingo-elastic/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/74/8b/89f1c05a7600f204968e2f264edc40664ea3e59f6c837d3f189bdd08f1d0/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl
+[2024-05-17 11:32:28] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.2.tar.gz]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.3.tar.gz]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [dja-sepp]: Start processing: nucliadb-protos
+[2024-05-17 11:32:28] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2024-05-17 11:32:28] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-17 11:32:28] INFO root fetch - processPackages [epam.indigo]: executing diffoscope
+[2024-05-17 11:32:28] INFO root fetch - processPackages [epam.indigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip --markdown 20240517/e/epam.indigo/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-models]: Start processing: imsciences
+[2024-05-17 11:32:28] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/88/ac/b0e5ed94a9c7e330974f300bec336f7d3feda7743438541402a213edeb9a/nucliadb_protos-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:28] INFO root fetch - processPackages [imsciences]: New version: [0.5.6.8] Old Version: [0.5.6.7]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [filedata]: Remove: archive file [/home/abi/fetcher/tmp/filedata-0.2.5.tar.gz]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [filedata]: Remove: archive file [/home/abi/fetcher/tmp/filedata-0.2.6.tar.gz]
+[2024-05-17 11:32:28] INFO root fetch - processPackages [filedata]: Start processing: nucliadb-telemetry
+[2024-05-17 11:32:28] INFO root fetch - main [MainThread]: End processing [filedata]: success
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/d2/52/eeae0d97e61035814f44ed56ac22cf158e918f2210f514a0a8efbd4f6067/nucliadb_sdk-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/20/9c/7614d4dbfe1f25c89702b65564da97aaa5d5485ae12406520934958383ce/imsciences-0.5.6.7.tar.gz
+[2024-05-17 11:32:29] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.9.1.tar.gz]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.9.2.tar.gz]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [saagieapi]: Start processing: nucliadb-utils
+[2024-05-17 11:32:29] INFO root fetch - main [MainThread]: End processing [saagieapi]: success
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f6/24/5d3fedcb6ca25896ca1278a9048b7b820f2068080b6d3ed67e03b2571bad/nucliadb_telemetry-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [bingo-elastic]: Start processing: iac-init
+[2024-05-17 11:32:29] INFO root fetch - main [MainThread]: End processing [bingo-elastic]: success
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post511] Old Version: [3.1.0.post510]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [iac-init]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/58/d1/70e6e71ec27dfe3945aa52904bd0e052d52bf8d93e053e138ad05c874cf8/nucliadb_utils-3.1.0.post510-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/f5/fe/dfa18608328af1efc32a33d44063885db9f0ea31218a894f2239d36aaec8/imsciences-0.5.6.8.tar.gz
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/dd/2d/583eae71cd960176a2b9c75dbef2e0aed080a9b3a02f9f370a7931369d79/nucliadb_protos-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/7f/a8/6827269b6513e86e6245ccc4da0efbb9dbbaa88786b32d0a017edec7eea1/iac_init-0.6.1.tar.gz
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/37/22/69ed23dbc39064df4b6c385e9944beea3f49599a97e1f9e38ad603606ab0/nucliadb_sdk-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-17 11:32:29] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.6.7.tar.gz tmp/imsciences-0.5.6.8.tar.gz --markdown 20240517/i/imsciences/0.5.6.7-0.5.6.8/README.md --exclude *.pyd
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb-protos/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/1d/cf/d5eed7adebbebe40cbccc1c80b52c6ed2fd5e2815b94b8e9e8705ff7a6c0/nucliadb_telemetry-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb-sdk/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:29] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.3.tar.gz]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.4.tar.gz]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [cid-cmd]: Start processing: mkdocs-roamlinks-with-pdf-plugin
+[2024-05-17 11:32:29] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2024-05-17 11:32:29] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1f/c0/3e2e7458c9b070fae72f5bc6e54520efa8a17e499b82e9db87da901007cd/iac_init-0.6.2.tar.gz
+[2024-05-17 11:32:29] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb-telemetry/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/ed/ad/64515bb3df0b59af18e1522657a9e1e2dc453b45970667fc1367ed7209d5/nucliadb_utils-3.1.0.post511-py3-none-any.whl
+[2024-05-17 11:32:29] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-17 11:32:29] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.6.1.tar.gz tmp/iac_init-0.6.2.tar.gz --markdown 20240517/i/iac-init/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-17 11:32:29] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Downloading https://files.pythonhosted.org/packages/8a/5a/fff801e1eb919335f4982c91d906c4521189519562226844b52651a34202/mkdocs-roamlinks-with-pdf-plugin-1.0.2.tar.gz
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-17 11:32:29] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post510-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post511-py3-none-any.whl.zip --markdown 20240517/n/nucliadb-utils/3.1.0.post510-3.1.0.post511/README.md --exclude *.pyd
+[2024-05-17 11:32:30] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Downloading https://files.pythonhosted.org/packages/f5/fc/9e6c7f6aedb3efe1b11a69e6ea2b6ae9e33f325e23f05c7acd2e6708e711/mkdocs-roamlinks-with-pdf-plugin-2.0.0.tar.gz
+[2024-05-17 11:32:30] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: executing diffoscope
+[2024-05-17 11:32:30] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.2.tar.gz tmp/mkdocs-roamlinks-with-pdf-plugin-2.0.0.tar.gz --markdown 20240517/m/mkdocs-roamlinks-with-pdf-plugin/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-17 11:32:30] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.6.7.tar.gz]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.6.8.tar.gz]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [imsciences]: Start processing: ibek
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-17 11:32:30] INFO root fetch - processPackages [ibek]: New version: [3.5.0b1] Old Version: [3.4.0b2]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-17 11:32:30] INFO root fetch - processPackages [ibek]: Downloading https://files.pythonhosted.org/packages/5c/6d/685b830f0cf773118f37ff7e26368361b6bbf288ab01f53d8365512dcd35/ibek-3.4.0b2.tar.gz
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-17 11:32:30] INFO root fetch - processPackages [ibek]: Downloading https://files.pythonhosted.org/packages/52/27/94b7952d2654f3f0b1704acc47a79f083ee265f391c0916c46d6b3f86f6a/ibek-3.5.0b1.tar.gz
+[2024-05-17 11:32:30] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.1.tar.gz]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.2.tar.gz]
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post510-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post511-py3-none-any.whl.zip]
+[2024-05-17 11:32:30] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-17 11:32:31] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.2.tar.gz]
+[2024-05-17 11:32:31] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-roamlinks-with-pdf-plugin-2.0.0.tar.gz]
+[2024-05-17 11:32:31] INFO root fetch - main [MainThread]: End processing [mkdocs-roamlinks-with-pdf-plugin]: success
+[2024-05-17 11:32:31] INFO root fetch - processPackages [ibek]: executing diffoscope
+[2024-05-17 11:32:31] INFO root fetch - processPackages [ibek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibek-3.4.0b2.tar.gz tmp/ibek-3.5.0b1.tar.gz --markdown 20240517/i/ibek/3.4.0b2-3.5.0b1/README.md --exclude *.pyd
+[2024-05-17 11:32:32] INFO root fetch - processPackages [ibek]: Remove: archive file [/home/abi/fetcher/tmp/ibek-3.4.0b2.tar.gz]
+[2024-05-17 11:32:32] INFO root fetch - processPackages [ibek]: Remove: archive file [/home/abi/fetcher/tmp/ibek-3.5.0b1.tar.gz]
+[2024-05-17 11:32:32] INFO root fetch - main [MainThread]: End processing [ibek]: success
+[2024-05-17 11:32:32] INFO root fetch - processPackages [influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/influxdb_client-1.8.0.tar.gz]
+[2024-05-17 11:32:32] INFO root fetch - processPackages [influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/influxdb_client-1.9.0.tar.gz]
+[2024-05-17 11:32:32] INFO root fetch - main [MainThread]: End processing [influxdb-client]: success
+[2024-05-17 11:33:12] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip]
+[2024-05-17 11:33:12] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
+[2024-05-17 11:33:12] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
+[2024-05-17 11:33:12] INFO root fetch - main [MainThread]: Store serial: [23251463]

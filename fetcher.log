@@ -13571,3 +13571,56 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:53:40] INFO root fetch - processPackages [globalcache]: Remove: archive file [/home/abi/fetcher/tmp/globalcache-0.2.1.tar.gz]
 [2024-05-17 06:53:40] INFO root fetch - main [MainThread]: End processing [globalcache]: success
 [2024-05-17 06:53:40] INFO root fetch - main [MainThread]: Store serial: [23248316]
+[2024-05-17 06:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248316]
+[2024-05-17 06:55:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 06:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-l10n-spain
+[2024-05-17 06:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-microservice-helper
+[2024-05-17 06:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat
+[2024-05-17 06:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spdl
+[2024-05-17 06:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod390
+[2024-05-17 06:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: treasury-gov-pandas
+[2024-05-17 06:55:49] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.5.0]
+[2024-05-17 06:55:49] INFO root fetch - processPackages [spdl]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-05-17 06:55:49] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [17.0.1.0.1.8] Old Version: [17.0.1.0.1.6]
+[2024-05-17 06:55:49] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-17 06:55:49] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/d8/c7/03aed0ba828a6aff09fdfee8c2c3f7ae8e001b65cd2d906d6e826c03c18a/odoo_addon_l10n_es_aeat_mod390-16.0.2.5.0-py3-none-any.whl
+[2024-05-17 06:55:49] INFO root fetch - processPackages [fastapi-microservice-helper]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-17 06:55:49] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20240411.0] Old Version: [16.0.20240325.0]
+[2024-05-17 06:55:49] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/e5/63/a037a211cfeec9cb64e58f2129cf6de46a8daabf1a0aa5457484c6b94485/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl
+[2024-05-17 06:55:49] INFO root fetch - processPackages [spdl]: Downloading https://files.pythonhosted.org/packages/04/de/dd3d076659e41f02d2643aba9083ade466f504766b516dfc29e06c645fcc/spdl-0.0.2-cp312-cp312-manylinux_2_27_x86_64.whl
+[2024-05-17 06:55:50] WARNING root fetch - processPackages [spdl]: Skipping package: exceeds size limit 34152529>=10485760
+[2024-05-17 06:55:50] INFO root fetch - main [MainThread]: End processing [spdl] error
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/a3/e6/c245e51d946f392c0b73a4ecd53f724e59f5c4fa36b9cf5a19054cced65b/odoo_addons_oca_l10n_spain-16.0.20240325.0-py3-none-any.whl
+[2024-05-17 06:55:50] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/7a/2c/076e1b9c8e52564146e460a88a5719146f6a0dd79ad4def97c44ed7c74e9/treasury_gov_pandas-0.0.5.tar.gz
+[2024-05-17 06:55:50] INFO root fetch - processPackages [fastapi-microservice-helper]: Downloading https://files.pythonhosted.org/packages/cd/0f/89603835388e44bc3f9e4e3d9797c26059aebb3074e359d5adb870c64958/fastapi_microservice_helper-0.0.7.tar.gz
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/27/f0/43420bb39b66756733b86ea6de12a1fdb3e357ef5925e607967af75c3afc/odoo_addon_l10n_es_aeat-17.0.1.0.1.8-py3-none-any.whl
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/b8/7a/7bf6a5888a0b75121790cc3a1449d011a59d16ee11e3d5800e26ace7f875/odoo_addon_l10n_es_aeat_mod390-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.8-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-l10n-es-aeat/17.0.1.0.1.6-17.0.1.0.1.8/README.md --exclude *.pyd
+[2024-05-17 06:55:50] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/d7/6a/3ab2504c23f915b377d5ec0f2cf353004ded98fc0960bda11bfdf5ce1117/treasury_gov_pandas-0.0.6.tar.gz
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/91/b6/0094f5fdd88490fa3aae32cc5836c5d6db588b0a707653189cc7d2d69503/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl
+[2024-05-17 06:55:50] INFO root fetch - processPackages [fastapi-microservice-helper]: Downloading https://files.pythonhosted.org/packages/7c/24/01a679cf188c4e90052a94967e6741dcb046199329a3153ef398ff555b96/fastapi_microservice_helper-0.0.9.tar.gz
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: executing diffoscope
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.5.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod390-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-l10n-es-aeat-mod390/16.0.2.5.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-17 06:55:50] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-17 06:55:50] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.5.tar.gz tmp/treasury_gov_pandas-0.0.6.tar.gz --markdown 20240517/t/treasury-gov-pandas/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2024-05-17 06:55:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20240325.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl.zip --markdown 20240517/o/odoo-addons-oca-l10n-spain/16.0.20240325.0-16.0.20240411.0/README.md --exclude *.pyd
+[2024-05-17 06:55:50] INFO root fetch - processPackages [fastapi-microservice-helper]: executing diffoscope
+[2024-05-17 06:55:50] INFO root fetch - processPackages [fastapi-microservice-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_microservice_helper-0.0.7.tar.gz tmp/fastapi_microservice_helper-0.0.9.tar.gz --markdown 20240517/f/fastapi-microservice-helper/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-17 06:55:51] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.5.tar.gz]
+[2024-05-17 06:55:51] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.6.tar.gz]
+[2024-05-17 06:55:51] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-17 06:55:51] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-05-17 06:55:51] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-05-17 06:55:51] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2024-05-17 06:55:51] INFO root fetch - processPackages [fastapi-microservice-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_microservice_helper-0.0.7.tar.gz]
+[2024-05-17 06:55:51] INFO root fetch - processPackages [fastapi-microservice-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_microservice_helper-0.0.9.tar.gz]
+[2024-05-17 06:55:51] INFO root fetch - main [MainThread]: End processing [fastapi-microservice-helper]: success
+[2024-05-17 06:55:51] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.5.0-py3-none-any.whl.zip]
+[2024-05-17 06:55:51] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 06:55:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
+[2024-05-17 06:55:51] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip]
+[2024-05-17 06:55:51] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-05-17 06:55:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2024-05-17 06:55:51] INFO root fetch - main [MainThread]: Store serial: [23248333]

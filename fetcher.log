@@ -16087,3 +16087,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:48:34] INFO root fetch - processPackages [fortigate-api]: Remove: archive file [/home/abi/fetcher/tmp/fortigate_api-2.0.2.tar.gz]
 [2024-05-17 08:48:34] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
 [2024-05-17 08:48:34] INFO root fetch - main [MainThread]: Store serial: [23249294]
+[2024-05-17 08:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249294]
+[2024-05-17 08:50:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: async-wrapper
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlflow-skinny
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-null
+[2024-05-17 08:50:43] INFO root fetch - processPackages [async-wrapper]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-17 08:50:43] INFO root fetch - processPackages [mlflow-skinny]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ragdaemon]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-17 08:50:43] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-17 08:50:43] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1715926439] Old Version: [0.1.0a1715761248]
+[2024-05-17 08:50:43] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/a0/65/07aa0de206e61b5f450e00ca8afcaaffc4b436b71b9a0b0c66f36db91b3c/async_wrapper-0.8.2.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/48/26/727b33a7f9e022349c3f81bb84a3dfef0432751eef5d515b246579f730b9/mlflow-skinny-2.9.1.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/6d/96/06a7ffb5bbab1dd0f168d3940c2be3240a4842e3d40af28ff13b9387f987/ragdaemon-0.4.6.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/09/80/a2a669a8c4621bb4fc787beb0ce417cecb38ac9ca280a7e8a2c53cf77e82/pulumi_null-0.1.0a1715761248.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/be/99/266c48802e6e202ce3081923a30c366dab09b4a52317c21f72cfd2de0c7e/async_wrapper-0.8.3.tar.gz
+[2024-05-17 08:50:43] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-17 08:50:43] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240517/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-17 08:50:43] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/ca/bb/b3fe0dda4ace3733c9aecab3a5a04198ca7ade88fe9f5c5949afe02e8ee5/ragdaemon-0.4.7.tar.gz
+[2024-05-17 08:50:44] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/6b/78/3d1384e247f2496b10a3b3031f9547777fe054629e30f097e52a1e748596/pulumi_null-0.1.0a1715926439.tar.gz
+[2024-05-17 08:50:44] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-17 08:50:44] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.4.6.tar.gz tmp/ragdaemon-0.4.7.tar.gz --markdown 20240517/r/ragdaemon/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-17 08:50:44] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2024-05-17 08:50:44] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.8.2.tar.gz tmp/async_wrapper-0.8.3.tar.gz --markdown 20240517/a/async-wrapper/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-17 08:50:44] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-17 08:50:44] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1715761248.tar.gz tmp/pulumi_null-0.1.0a1715926439.tar.gz --markdown 20240517/p/pulumi-null/0.1.0a1715761248-0.1.0a1715926439/README.md --exclude *.pyd
+[2024-05-17 08:50:44] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715761248.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715926439.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-17 08:50:44] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.8.2.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.8.3.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2024-05-17 08:50:44] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-17 08:50:44] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.6.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.7.tar.gz]
+[2024-05-17 08:50:44] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-17 08:50:44] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/22/7b/f6b90fbf43dc32eda3a86fda871c15d4b094948383dde0139ea601cf6513/mlflow-skinny-2.9.2.tar.gz
+[2024-05-17 08:50:45] INFO root fetch - processPackages [mlflow-skinny]: executing diffoscope
+[2024-05-17 08:50:45] INFO root fetch - processPackages [mlflow-skinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-skinny-2.9.1.tar.gz tmp/mlflow-skinny-2.9.2.tar.gz --markdown 20240517/m/mlflow-skinny/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-17 08:50:48] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.9.1.tar.gz]
+[2024-05-17 08:50:48] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.9.2.tar.gz]
+[2024-05-17 08:50:48] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
+[2024-05-17 08:50:48] INFO root fetch - main [MainThread]: Store serial: [23249309]

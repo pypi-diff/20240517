@@ -13803,3 +13803,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:08:56] INFO root fetch - processPackages [openadapt]: Remove: archive file [/home/abi/fetcher/tmp/openadapt-0.9.0.tar.gz]
 [2024-05-17 07:08:56] INFO root fetch - main [MainThread]: End processing [openadapt]: success
 [2024-05-17 07:08:56] INFO root fetch - main [MainThread]: Store serial: [23248444]
+[2024-05-17 07:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248444]
+[2024-05-17 07:11:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 07:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-microservice-helper
+[2024-05-17 07:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapix-py
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapi-microservice-helper]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapi-microservice-helper]: Downloading https://files.pythonhosted.org/packages/cd/0f/89603835388e44bc3f9e4e3d9797c26059aebb3074e359d5adb870c64958/fastapi_microservice_helper-0.0.7.tar.gz
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapix-py]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapi-microservice-helper]: Downloading https://files.pythonhosted.org/packages/7c/24/01a679cf188c4e90052a94967e6741dcb046199329a3153ef398ff555b96/fastapi_microservice_helper-0.0.9.tar.gz
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/49/d5/9978d36c1171fb0b2bf9a2877173019b4c728c086c86543f2e89c33488dd/fastapix_py-0.8.3-py3-none-any.whl
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapi-microservice-helper]: executing diffoscope
+[2024-05-17 07:11:07] INFO root fetch - processPackages [fastapi-microservice-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_microservice_helper-0.0.7.tar.gz tmp/fastapi_microservice_helper-0.0.9.tar.gz --markdown 20240517/f/fastapi-microservice-helper/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:11:08] INFO root fetch - processPackages [fastapi-microservice-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_microservice_helper-0.0.7.tar.gz]
+[2024-05-17 07:11:08] INFO root fetch - processPackages [fastapi-microservice-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_microservice_helper-0.0.9.tar.gz]
+[2024-05-17 07:11:08] INFO root fetch - main [MainThread]: End processing [fastapi-microservice-helper]: success
+[2024-05-17 07:11:08] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/e2/bd/d1c560b2a7c5256574f74bba6bc0c763633067e58ae41fa8bc761ffb5b76/fastapix_py-0.9.0-py3-none-any.whl
+[2024-05-17 07:11:09] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-05-17 07:11:09] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.8.3-py3-none-any.whl.zip tmp/fastapix_py-0.9.0-py3-none-any.whl.zip --markdown 20240517/f/fastapix-py/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-17 07:13:03] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.8.3-py3-none-any.whl.zip]
+[2024-05-17 07:13:03] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.0-py3-none-any.whl.zip]
+[2024-05-17 07:13:03] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-05-17 07:13:03] INFO root fetch - main [MainThread]: Store serial: [23248449]

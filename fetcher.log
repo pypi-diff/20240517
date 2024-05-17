@@ -2460,3 +2460,114 @@
 [2024-05-17 02:13:22] INFO root fetch - processPackages [prettypretty]: Remove: archive file [/home/abi/fetcher/tmp/prettypretty-0.2.0.tar.gz]
 [2024-05-17 02:13:22] INFO root fetch - main [MainThread]: End processing [prettypretty]: success
 [2024-05-17 02:13:22] INFO root fetch - main [MainThread]: Store serial: [23244352]
+[2024-05-17 02:15:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244352]
+[2024-05-17 02:15:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-skylight
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bambooai
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-ignite
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-server-sdk
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: predibase-api
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: predibase
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CluSex
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iipyper
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ai-server-sdk]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [predibase]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240516] Old Version: [0.6.0.dev20240515]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [iipyper]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [CluSex]: New version: [2.3.8] Old Version: [2.3.6]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [predibase-api]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/ee/36/fdba8a87c1b1ad64c8d0d1a3f1d65038819a9b2960f08585df890979c959/pytorch_ignite-0.6.0.dev20240515.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [ai-server-sdk]: Downloading https://files.pythonhosted.org/packages/c1/03/bbbfad6b937d92ca3ace4087a1a494f5632bdfac3651e6c6d14766ad8af6/ai-server-sdk-0.0.14.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/aa/c9/397c7ccd97273320d2617aab083c03247a5a554b344cabb4fd5ca9fd873d/predibase-2024.4.7.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [iipyper]: Downloading https://files.pythonhosted.org/packages/04/8d/71915041491bad375f3d2714b2b6a6bf22a124fc2f85aa9a85b078506179/iipyper-0.1.2.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [CluSex]: Downloading https://files.pythonhosted.org/packages/d6/db/cf292bed6b944bd1be8908c117e48223362b52dd36981692d6d967857108/CluSex-2.3.6.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-17 02:15:32] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/50/0a/2bbc4d934413ba88af00e4955f22d28e77237cdb9ae1ed22a04d9c1075a2/predibase-api-2024.4.8.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240517/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240517/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [iipyper]: Downloading https://files.pythonhosted.org/packages/77/8b/88d354502949be6f7ab2563ac9d77c90a4e3441d549ac7e46b1a6bcdfefe/iipyper-0.1.3.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/2e/67/cd184a6417119da75e844a712e19f0db906d8055552cb642d43479ecb958/pytorch_ignite-0.6.0.dev20240516.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [ai-server-sdk]: Downloading https://files.pythonhosted.org/packages/59/78/ca91725e97d1000ba69e21635a0c719d4829f6c4a69b1ac914909824a6bc/ai-server-sdk-0.0.9.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/ca/cd/b17b23e2d0c06fdfe48cf52d870000d2a26d738bc131e900af697dbc8fce/predibase-api-2024.5.1.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/57/81/d2f1533a2c021c901fa45981d33807f0cda149030b94ba7b2a72fa3428af/predibase-2024.4.8.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240517/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [iipyper]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [iipyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iipyper-0.1.2.tar.gz tmp/iipyper-0.1.3.tar.gz --markdown 20240517/i/iipyper/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240515.tar.gz tmp/pytorch_ignite-0.6.0.dev20240516.tar.gz --markdown 20240517/p/pytorch-ignite/0.6.0.dev20240515-0.6.0.dev20240516/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [ai-server-sdk]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [ai-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-server-sdk-0.0.14.tar.gz tmp/ai-server-sdk-0.0.9.tar.gz --markdown 20240517/a/ai-server-sdk/0.0.14-0.0.9/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2024.4.8.tar.gz tmp/predibase-api-2024.5.1.tar.gz --markdown 20240517/p/predibase-api/2024.4.8-2024.5.1/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2024.4.7.tar.gz tmp/predibase-2024.4.8.tar.gz --markdown 20240517/p/predibase/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240517/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-17 02:15:33] INFO root fetch - processPackages [CluSex]: Downloading https://files.pythonhosted.org/packages/56/ef/4ecb933a602244d374384d26b054bba0a552194ef2f8eef3a99cd94c764e/clusex-2.3.8.tar.gz
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-events-notify]: Start processing: hdfs-native
+[2024-05-17 02:15:33] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-17 02:15:33] INFO root fetch - processPackages [hdfs-native]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-17 02:15:33] INFO root fetch - processPackages [cdk-skylight]: Start processing: aind-metadata-service
+[2024-05-17 02:15:33] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [hdfs-native]: Downloading https://files.pythonhosted.org/packages/22/2d/9e2b2e5918d66ac383206c3674bffc3b3764cd0eedc9311a73e566c5785b/hdfs_native-0.8.0.tar.gz
+[2024-05-17 02:15:34] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.8.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.5.1.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [CluSex]: executing diffoscope
+[2024-05-17 02:15:34] INFO root fetch - processPackages [CluSex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CluSex-2.3.6.tar.gz tmp/clusex-2.3.8.tar.gz --markdown 20240517/C/CluSex/2.3.6-2.3.8/README.md --exclude *.pyd
+[2024-05-17 02:15:34] INFO root fetch - processPackages [iipyper]: Remove: archive file [/home/abi/fetcher/tmp/iipyper-0.1.2.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [iipyper]: Remove: archive file [/home/abi/fetcher/tmp/iipyper-0.1.3.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [iipyper]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/34/35/c02f8b44914d6a85f1023defeda0fe5ddd5fe80fc706a609e07dfc6a3845/aind_metadata_service-0.9.2.tar.gz
+[2024-05-17 02:15:34] INFO root fetch - processPackages [ai-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai-server-sdk-0.0.14.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [ai-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai-server-sdk-0.0.9.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [ai-server-sdk]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [hdfs-native]: Downloading https://files.pythonhosted.org/packages/a5/0f/05f5d86e7c96e909d3dfd9e6a40c051c2ad81e55e1ec691a261150f5a502/hdfs_native-0.9.1.tar.gz
+[2024-05-17 02:15:34] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/8d/21/4002c1a012a7d5ba809815a5f290da4eb533b72db75fac51db8980b8a36f/aind_metadata_service-0.9.3.tar.gz
+[2024-05-17 02:15:34] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.7.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.8.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2024-05-17 02:15:34] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.9.2.tar.gz tmp/aind_metadata_service-0.9.3.tar.gz --markdown 20240517/a/aind-metadata-service/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-17 02:15:34] INFO root fetch - processPackages [hdfs-native]: executing diffoscope
+[2024-05-17 02:15:34] INFO root fetch - processPackages [hdfs-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdfs_native-0.8.0.tar.gz tmp/hdfs_native-0.9.1.tar.gz --markdown 20240517/h/hdfs-native/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-17 02:15:34] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-17 02:15:34] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240515.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240516.tar.gz]
+[2024-05-17 02:15:34] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-17 02:15:35] INFO root fetch - processPackages [CluSex]: Remove: archive file [/home/abi/fetcher/tmp/CluSex-2.3.6.tar.gz]
+[2024-05-17 02:15:35] INFO root fetch - processPackages [CluSex]: Remove: archive file [/home/abi/fetcher/tmp/clusex-2.3.8.tar.gz]
+[2024-05-17 02:15:35] INFO root fetch - main [MainThread]: End processing [CluSex]: success
+[2024-05-17 02:15:35] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.9.2.tar.gz]
+[2024-05-17 02:15:35] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.9.3.tar.gz]
+[2024-05-17 02:15:35] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2024-05-17 02:15:35] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.8.0.tar.gz]
+[2024-05-17 02:15:35] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.9.1.tar.gz]
+[2024-05-17 02:15:35] INFO root fetch - main [MainThread]: End processing [hdfs-native]: success
+[2024-05-17 02:15:35] INFO root fetch - main [MainThread]: Store serial: [23244393]

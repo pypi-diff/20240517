@@ -3118,3 +3118,30 @@
 [2024-05-17 02:55:09] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.7.tar.gz]
 [2024-05-17 02:55:09] INFO root fetch - main [MainThread]: End processing [xursparks]: success
 [2024-05-17 02:55:09] INFO root fetch - main [MainThread]: Store serial: [23244655]
+[2024-05-17 02:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244655]
+[2024-05-17 02:57:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 02:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dnbnoebmogzyyctn
+[2024-05-17 02:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtqhnlavhpihrisj
+[2024-05-17 02:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-netapp
+[2024-05-17 02:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2024-05-17 02:57:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-17 02:57:17] WARNING root fetch - processPackages [dnbnoebmogzyyctn]: Skipping, unable to determine old version
+[2024-05-17 02:57:17] INFO root fetch - processPackages [google-cloud-netapp]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 02:57:17] INFO root fetch - main [MainThread]: End processing [dnbnoebmogzyyctn] error
+[2024-05-17 02:57:17] WARNING root fetch - processPackages [xtqhnlavhpihrisj]: Skipping, unable to determine old version
+[2024-05-17 02:57:17] INFO root fetch - main [MainThread]: End processing [xtqhnlavhpihrisj] error
+[2024-05-17 02:57:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-17 02:57:18] INFO root fetch - processPackages [google-cloud-netapp]: Downloading https://files.pythonhosted.org/packages/7b/fe/7cccc437e292e23695d353ee6a4d1261f6792058daa8082cba173342a207/google-cloud-netapp-0.3.8.tar.gz
+[2024-05-17 02:57:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-17 02:57:18] INFO root fetch - processPackages [google-cloud-netapp]: Downloading https://files.pythonhosted.org/packages/a5/35/7248b0694df4370f3417b852f0a5da0cbc562ff53080267792875b7761b7/google-cloud-netapp-0.3.9.tar.gz
+[2024-05-17 02:57:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-17 02:57:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240517/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-17 02:57:18] INFO root fetch - processPackages [google-cloud-netapp]: executing diffoscope
+[2024-05-17 02:57:18] INFO root fetch - processPackages [google-cloud-netapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-netapp-0.3.8.tar.gz tmp/google-cloud-netapp-0.3.9.tar.gz --markdown 20240517/g/google-cloud-netapp/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 02:57:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-17 02:57:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-17 02:57:19] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-17 02:57:19] INFO root fetch - processPackages [google-cloud-netapp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-netapp-0.3.8.tar.gz]
+[2024-05-17 02:57:19] INFO root fetch - processPackages [google-cloud-netapp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-netapp-0.3.9.tar.gz]
+[2024-05-17 02:57:19] INFO root fetch - main [MainThread]: End processing [google-cloud-netapp]: success
+[2024-05-17 02:57:19] INFO root fetch - main [MainThread]: Store serial: [23244669]

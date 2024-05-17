@@ -12557,3 +12557,65 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:41:24] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
 [2024-05-17 05:41:24] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2024-05-17 05:41:24] INFO root fetch - main [MainThread]: Store serial: [23247870]
+[2024-05-17 05:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247870]
+[2024-05-17 05:43:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opengamedata-core
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-launchdarkly
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seismic-rna
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rag-assistant
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: furrow1k
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ouro-py
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afeng-py-tools
+[2024-05-17 05:43:33] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ouro-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [seismic-rna]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [furrow1k]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [opengamedata-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 05:43:33] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/df/00/f95f5f0298d26c6c6e908ef9709c24024a93bcf0ebd1f68a249f60438f82/rag_assistant-0.1.3.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ouro-py]: Downloading https://files.pythonhosted.org/packages/83/0e/3ba56e09317240db69a047956b7f0833bc55ce77bc2f31afa4b88cfb2f27/ouro_py-0.0.1.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/53/f2/8420279ae686df28989f0588c8721f9d88b14d4957345c82135aa63930bd/seismic_rna-0.9.7.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: Downloading https://files.pythonhosted.org/packages/43/b5/a77782b8573de4824b084758c33e1adb898baf129d083229f186478cf8ad/cdktf-cdktf-provider-launchdarkly-4.1.2.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/6a/91/cbdaf0cae5f72954d276e46ebb18b67dbff71ba83d8879c17d598ec2318b/rag_assistant-0.1.4.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [opengamedata-core]: Downloading https://files.pythonhosted.org/packages/90/f5/f0efe87ace39d42cdab544aba226f2276c1994d39ee021cbac51579ba42b/opengamedata_core-0.0.4.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/b1/d1/6c56e3720c9ca76387b1ba1ba37cc9c4530c33c782cb235f9966efdc994b/furrow1k-1.0.4.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-17 05:43:33] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.3.tar.gz tmp/rag_assistant-0.1.4.tar.gz --markdown 20240517/r/rag-assistant/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 05:43:33] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-17 05:43:33] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240517/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ouro-py]: Downloading https://files.pythonhosted.org/packages/74/a0/b3835205893eb0bb6c466966319c1fe6eb0edf55cf106e2e527280441e41/ouro_py-0.0.2.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/d0/35/3fbf78412931648a41c93df835a262b529cef359c336ee54c1985db609b0/furrow1k-1.1.0.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [opengamedata-core]: Downloading https://files.pythonhosted.org/packages/83/84/92586f7d72c31d3e529dd2f9c8bd32d29f3cf2838e91f4cd60f1efcd5b03/opengamedata_core-0.0.5.tar.gz
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ouro-py]: executing diffoscope
+[2024-05-17 05:43:33] INFO root fetch - processPackages [ouro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ouro_py-0.0.1.tar.gz tmp/ouro_py-0.0.2.tar.gz --markdown 20240517/o/ouro-py/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-17 05:43:33] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: Downloading https://files.pythonhosted.org/packages/cd/82/38c46563f6bb8a6768668df9e13b4cbcb35f2711c44e7f081d28a7a97f67/cdktf-cdktf-provider-launchdarkly-4.1.3.tar.gz
+[2024-05-17 05:43:34] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-17 05:43:34] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-1.0.4.tar.gz tmp/furrow1k-1.1.0.tar.gz --markdown 20240517/f/furrow1k/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-17 05:43:34] INFO root fetch - processPackages [opengamedata-core]: executing diffoscope
+[2024-05-17 05:43:34] INFO root fetch - processPackages [opengamedata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_core-0.0.4.tar.gz tmp/opengamedata_core-0.0.5.tar.gz --markdown 20240517/o/opengamedata-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 05:43:34] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.3.tar.gz]
+[2024-05-17 05:43:34] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.4.tar.gz]
+[2024-05-17 05:43:34] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-17 05:43:34] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.4.tar.gz]
+[2024-05-17 05:43:34] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.1.0.tar.gz]
+[2024-05-17 05:43:34] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-17 05:43:34] INFO root fetch - processPackages [ouro-py]: Remove: archive file [/home/abi/fetcher/tmp/ouro_py-0.0.1.tar.gz]
+[2024-05-17 05:43:34] INFO root fetch - processPackages [ouro-py]: Remove: archive file [/home/abi/fetcher/tmp/ouro_py-0.0.2.tar.gz]
+[2024-05-17 05:43:34] INFO root fetch - main [MainThread]: End processing [ouro-py]: success
+[2024-05-17 05:43:34] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: executing diffoscope
+[2024-05-17 05:43:34] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-launchdarkly-4.1.2.tar.gz tmp/cdktf-cdktf-provider-launchdarkly-4.1.3.tar.gz --markdown 20240517/c/cdktf-cdktf-provider-launchdarkly/4.1.2-4.1.3/README.md --exclude *.pyd
+[2024-05-17 05:43:34] WARNING root fetch - processPackages [seismic-rna]: Skipping package: exceeds size limit 25833813>=10485760
+[2024-05-17 05:43:34] INFO root fetch - main [MainThread]: End processing [seismic-rna] error
+[2024-05-17 05:43:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-17 05:43:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-17 05:43:35] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-17 05:43:35] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.4.tar.gz]
+[2024-05-17 05:43:35] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.5.tar.gz]
+[2024-05-17 05:43:35] INFO root fetch - main [MainThread]: End processing [opengamedata-core]: success
+[2024-05-17 05:43:35] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-launchdarkly-4.1.2.tar.gz]
+[2024-05-17 05:43:35] INFO root fetch - processPackages [cdktf-cdktf-provider-launchdarkly]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-launchdarkly-4.1.3.tar.gz]
+[2024-05-17 05:43:35] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-launchdarkly]: success
+[2024-05-17 05:43:35] INFO root fetch - main [MainThread]: Store serial: [23247891]

@@ -2287,3 +2287,24 @@
 [2024-05-17 02:02:26] INFO root fetch - processPackages [BL-Python.all]: Remove: archive file [/home/abi/fetcher/tmp/bl_python_all-0.2.2.tar.gz]
 [2024-05-17 02:02:26] INFO root fetch - main [MainThread]: End processing [BL-Python.all]: success
 [2024-05-17 02:02:26] INFO root fetch - main [MainThread]: Store serial: [23244274]
+[2024-05-17 02:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244274]
+[2024-05-17 02:04:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 02:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lotgi
+[2024-05-17 02:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-17 02:04:35] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240516.429] Old Version: [2.0.0.20240515.434]
+[2024-05-17 02:04:35] INFO root fetch - processPackages [lotgi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 02:04:36] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/43/e2/44e3deed05d39b7053c8ea889908a4980676c82265c38171124046c5a862/mct-nightly-2.0.0.20240515.434.tar.gz
+[2024-05-17 02:04:36] INFO root fetch - processPackages [lotgi]: Downloading https://files.pythonhosted.org/packages/8d/28/92f7bd37ac2fb6e70a980f2c153c3ac6dc152b5570eb3e61c866e24dec5c/lotgi-0.0.8.tar.gz
+[2024-05-17 02:04:36] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/43/cd/5334ed659d21c64290c974382b2d89106733a6127178602edde000d0c5d9/mct-nightly-2.0.0.20240516.429.tar.gz
+[2024-05-17 02:04:36] INFO root fetch - processPackages [lotgi]: Downloading https://files.pythonhosted.org/packages/ff/cc/827ac4cf6e61fa30a2673fb16fae29c60209edd16c53c012f3b83fb3a168/lotgi-0.0.9.tar.gz
+[2024-05-17 02:04:36] INFO root fetch - processPackages [lotgi]: executing diffoscope
+[2024-05-17 02:04:36] INFO root fetch - processPackages [lotgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lotgi-0.0.8.tar.gz tmp/lotgi-0.0.9.tar.gz --markdown 20240517/l/lotgi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 02:04:36] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-17 02:04:36] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240515.434.tar.gz tmp/mct-nightly-2.0.0.20240516.429.tar.gz --markdown 20240517/m/mct-nightly/2.0.0.20240515.434-2.0.0.20240516.429/README.md --exclude *.pyd
+[2024-05-17 02:04:37] INFO root fetch - processPackages [lotgi]: Remove: archive file [/home/abi/fetcher/tmp/lotgi-0.0.8.tar.gz]
+[2024-05-17 02:04:37] INFO root fetch - processPackages [lotgi]: Remove: archive file [/home/abi/fetcher/tmp/lotgi-0.0.9.tar.gz]
+[2024-05-17 02:04:37] INFO root fetch - main [MainThread]: End processing [lotgi]: success
+[2024-05-17 02:04:38] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240515.434.tar.gz]
+[2024-05-17 02:04:38] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240516.429.tar.gz]
+[2024-05-17 02:04:38] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-17 02:04:38] INFO root fetch - main [MainThread]: Store serial: [23244280]

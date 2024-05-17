@@ -20855,3 +20855,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:20:20] INFO root fetch - processPackages [retrodevem]: Remove: archive file [/home/abi/fetcher/tmp/retrodevem-0.2.tar.gz]
 [2024-05-17 11:20:20] INFO root fetch - main [MainThread]: End processing [retrodevem]: success
 [2024-05-17 11:20:20] INFO root fetch - main [MainThread]: Store serial: [23251285]
+[2024-05-17 11:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251285]
+[2024-05-17 11:22:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olas-operate-middleware
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-roamlinks-with-pdf-plugin
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tqsdk2-fclib
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tqsdk2
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solar-registry
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ara-cli
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snewpy
+[2024-05-17 11:22:33] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [tqsdk2]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [tqsdk2-fclib]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.43] Old Version: [0.1.4.42]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [snewpy]: New version: [1.5.1] Old Version: [1.5]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 11:22:33] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Downloading https://files.pythonhosted.org/packages/b1/13/387b679043c0e8fd85902b7ace08841529ab704764ac5ebaaf4fd127a70d/mkdocs-roamlinks-with-pdf-plugin-1.0.0.tar.gz
+[2024-05-17 11:22:33] INFO root fetch - processPackages [tqsdk2]: Downloading https://files.pythonhosted.org/packages/2e/c7/c1a2cbaadb15be4eb1fc4b33b8119a62e91a34faaee336f388baea7310a1/tqsdk2-2.2.8-cp39-cp39-win_amd64.whl
+[2024-05-17 11:22:33] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-17 11:22:33] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-17 11:22:33] INFO root fetch - processPackages [snewpy]: Downloading https://files.pythonhosted.org/packages/12/a5/7e53b7abbc839ca0cf337f5571f2debcd6f7ef0dc888cef46776536bd9f3/snewpy-1.5.tar.gz
+[2024-05-17 11:22:33] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/7d/da/3e66d8f35319610f6ac0eb63710470dd89b1dde9ed5b988d79e0fcde7cf6/ara_cli-0.1.4.42.tar.gz
+[2024-05-17 11:22:33] INFO root fetch - processPackages [tqsdk2-fclib]: Downloading https://files.pythonhosted.org/packages/75/55/8418695aafd3691cac0464dbf0a445982cad00ed5db8fde0b20532163540/tqsdk2_fclib-2.2.9-py3-none-win_amd64.whl
+[2024-05-17 11:22:33] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Downloading https://files.pythonhosted.org/packages/d4/d8/82418682bdeabce56216cc1b9046dc60734d48bce440eb9d5fd6840a73dc/mkdocs-roamlinks-with-pdf-plugin-1.0.1.tar.gz
+[2024-05-17 11:22:34] WARNING root fetch - processPackages [tqsdk2-fclib]: Skipping package: exceeds size limit 65285996>=10485760
+[2024-05-17 11:22:34] INFO root fetch - main [MainThread]: End processing [tqsdk2-fclib] error
+[2024-05-17 11:22:34] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: executing diffoscope
+[2024-05-17 11:22:34] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.0.tar.gz tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.1.tar.gz --markdown 20240517/m/mkdocs-roamlinks-with-pdf-plugin/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 11:22:34] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-17 11:22:34] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-17 11:22:34] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/75/6b/9008d2997f5d644d88ce2db9fe7ececdae0b01c624564616a78f108c1837/ara_cli-0.1.4.43.tar.gz
+[2024-05-17 11:22:34] INFO root fetch - processPackages [snewpy]: Downloading https://files.pythonhosted.org/packages/14/bc/63412838b655f68cf09ac862aec7dd164c801b3fb73cade6e94716bed37e/snewpy-1.5.1.tar.gz
+[2024-05-17 11:22:34] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-17 11:22:34] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240517/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-17 11:22:34] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-17 11:22:34] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240517/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 11:22:34] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-17 11:22:34] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.42.tar.gz tmp/ara_cli-0.1.4.43.tar.gz --markdown 20240517/a/ara-cli/0.1.4.42-0.1.4.43/README.md --exclude *.pyd
+[2024-05-17 11:22:34] INFO root fetch - processPackages [snewpy]: executing diffoscope
+[2024-05-17 11:22:34] INFO root fetch - processPackages [snewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snewpy-1.5.tar.gz tmp/snewpy-1.5.1.tar.gz --markdown 20240517/s/snewpy/1.5-1.5.1/README.md --exclude *.pyd
+[2024-05-17 11:22:34] INFO root fetch - processPackages [tqsdk2]: Downloading https://files.pythonhosted.org/packages/76/a2/5da7eee3192d16dfebde47cadb289915907f26ff3a5f0e4d09c6243ad0f9/tqsdk2-2.2.9-cp39-cp39-win_amd64.whl
+[2024-05-17 11:22:34] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.0.tar.gz]
+[2024-05-17 11:22:34] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.1.tar.gz]
+[2024-05-17 11:22:34] INFO root fetch - main [MainThread]: End processing [mkdocs-roamlinks-with-pdf-plugin]: success
+[2024-05-17 11:22:34] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-17 11:22:34] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-17 11:22:34] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-17 11:22:34] INFO root fetch - processPackages [tqsdk2]: executing diffoscope
+[2024-05-17 11:22:34] INFO root fetch - processPackages [tqsdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqsdk2-2.2.8-cp39-cp39-win_amd64.whl.zip tmp/tqsdk2-2.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20240517/t/tqsdk2/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-17 11:22:34] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-17 11:22:34] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-17 11:22:34] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-17 11:22:35] INFO root fetch - processPackages [snewpy]: Remove: archive file [/home/abi/fetcher/tmp/snewpy-1.5.tar.gz]
+[2024-05-17 11:22:35] INFO root fetch - processPackages [snewpy]: Remove: archive file [/home/abi/fetcher/tmp/snewpy-1.5.1.tar.gz]
+[2024-05-17 11:22:35] INFO root fetch - main [MainThread]: End processing [snewpy]: success
+[2024-05-17 11:22:35] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.42.tar.gz]
+[2024-05-17 11:22:35] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.43.tar.gz]
+[2024-05-17 11:22:35] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-17 11:22:35] INFO root fetch - processPackages [tqsdk2]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk2-2.2.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 11:22:35] INFO root fetch - processPackages [tqsdk2]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk2-2.2.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 11:22:35] INFO root fetch - main [MainThread]: End processing [tqsdk2]: success
+[2024-05-17 11:22:35] INFO root fetch - main [MainThread]: Store serial: [23251315]

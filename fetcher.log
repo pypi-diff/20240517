@@ -19291,3 +19291,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:36:10] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev2.tar.gz]
 [2024-05-17 10:36:10] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-17 10:36:10] INFO root fetch - main [MainThread]: Store serial: [23250604]
+[2024-05-17 10:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250604]
+[2024-05-17 10:38:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odlabel-onnx
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nostr-dvm
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rqdatac
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dooc
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: groupdocs-viewer-net
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aochagavia-example-lib
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cpg-workflows
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jolt-docker
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: storybuilder
+[2024-05-17 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jolt
+[2024-05-17 10:38:20] WARNING root fetch - processPackages [odlabel-onnx]: Skipping, unable to determine old version
+[2024-05-17 10:38:20] INFO root fetch - processPackages [odlabel-onnx]: Start processing: cloudcix
+[2024-05-17 10:38:20] INFO root fetch - main [MainThread]: End processing [odlabel-onnx] error
+[2024-05-17 10:38:20] INFO root fetch - processPackages [nostr-dvm]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-17 10:38:20] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-17 10:38:20] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.95] Old Version: [0.9.93]
+[2024-05-17 10:38:20] INFO root fetch - processPackages [jolt]: New version: [0.9.97] Old Version: [0.9.95]
+[2024-05-17 10:38:20] WARNING root fetch - processPackages [dooc]: Skipping, unable to determine old version
+[2024-05-17 10:38:20] INFO root fetch - processPackages [dooc]: Start processing: boostrsa
+[2024-05-17 10:38:20] INFO root fetch - main [MainThread]: End processing [dooc] error
+[2024-05-17 10:38:21] WARNING root fetch - processPackages [aochagavia-example-lib]: Skipping, unable to determine old version
+[2024-05-17 10:38:21] INFO root fetch - main [MainThread]: End processing [aochagavia-example-lib] error
+[2024-05-17 10:38:21] WARNING root fetch - processPackages [groupdocs-viewer-net]: Skipping, unable to determine old version
+[2024-05-17 10:38:21] INFO root fetch - main [MainThread]: End processing [groupdocs-viewer-net] error
+[2024-05-17 10:38:21] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.33]
+[2024-05-17 10:38:21] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/63/c7/bb856870d7251364cd1fd0e3c9f24596e7912b0491e0e1da1b20743bf02f/nostr_dvm-0.3.9.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [boostrsa]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-17 10:38:21] INFO root fetch - processPackages [rqdatac]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/18/39/073ecb0a9c17c9b36216fa00f733a95be6171d7d71cbade0058f937ce53b/jolt-0.9.95.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/26/62/452989784baa50b01d7f659db526c624f2c7d7e41df0fcf02fc0f039fcf8/boostrsa-0.0.1.dev2-py3-none-any.whl
+[2024-05-17 10:38:21] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/8e/df/1572bf18c1c7615d4e3a2759637838e559cb18c20d3b2fa3bb3e88d2ba19/storybuilder-0.0.33-py3-none-any.whl
+[2024-05-17 10:38:21] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/71/73/e35afd3901fc58c618047a4c3c78e5f6b393d512bf4a043d25819d51d852/rqdatac-3.0.5-cp39-cp39-win_amd64.whl
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/65/3b/fcaa54d80d4d38a7f457352705a6b33e69dcd69a3514df6f2b49d9fce7bd/jolt_docker-0.9.95.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/cf/1e/068e7b8bff7d0eadf039a015bb6286f250cc8a3cf5edf54927424bb4fe1e/jolt-0.9.97.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/0b/bd/1e46a80ca8de6d0779daf58a5bcb27cd05d03e137543fc920bba029c351a/nostr_dvm-0.4.0.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.93.tar.gz tmp/jolt_docker-0.9.95.tar.gz --markdown 20240517/j/jolt-docker/0.9.93-0.9.95/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [boostrsa]: Downloading https://files.pythonhosted.org/packages/35/df/868abaffdc1d578222cd0ba75e1d59e22addf90f2ed7ab726eece5ad2a96/boostrsa-0.0.1.dev3.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240517/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.95.tar.gz tmp/jolt-0.9.97.tar.gz --markdown 20240517/j/jolt/0.9.95-0.9.97/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.3.9.tar.gz tmp/nostr_dvm-0.4.0.tar.gz --markdown 20240517/n/nostr-dvm/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [boostrsa]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [boostrsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boostrsa-0.0.1.dev2-py3-none-any.whl.zip tmp/boostrsa-0.0.1.dev3.tar.gz --markdown 20240517/b/boostrsa/0.0.1.dev2-0.0.1.dev3/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/2c/bd/1bf9b570579463ab9af7acf024b17f1ad5eeb7e386957f52fee29febb570/rqdatac-3.0.6-cp39-cp39-win_amd64.whl
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-05-17 10:38:21] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240517/c/cloudcix/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.33-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240517/s/storybuilder/0.0.33-0.0.9/README.md --exclude *.pyd
+[2024-05-17 10:38:21] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2024-05-17 10:38:21] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-3.0.5-cp39-cp39-win_amd64.whl.zip tmp/rqdatac-3.0.6-cp39-cp39-win_amd64.whl.zip --markdown 20240517/r/rqdatac/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-05-17 10:38:22] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.93.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.95.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2024-05-17 10:38:22] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [boostrsa]: Remove: archive file [/home/abi/fetcher/tmp/boostrsa-0.0.1.dev3.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [boostrsa]: success
+[2024-05-17 10:38:22] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.9.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.0.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-17 10:38:22] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.33-py3-none-any.whl.zip]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-17 10:38:22] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.95.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2024-05-17 10:38:22] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-17 10:38:22] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-05-17 10:38:22] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-05-17 10:38:23] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 10:38:23] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 10:38:23] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2024-05-17 10:38:23] INFO root fetch - main [MainThread]: Store serial: [23250702]

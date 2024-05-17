@@ -20603,3 +20603,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:08:59] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.3.tar.gz]
 [2024-05-17 11:08:59] INFO root fetch - main [MainThread]: End processing [pyatf]: success
 [2024-05-17 11:08:59] INFO root fetch - main [MainThread]: Store serial: [23251176]
+[2024-05-17 11:11:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251176]
+[2024-05-17 11:11:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-filewrap
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preciseLake
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mujoco_controllers
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbelt
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydev
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luna-soc
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: research-roc-utils
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fig2sketch
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcinside-scraper
+[2024-05-17 11:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: met-annot-unifier
+[2024-05-17 11:11:13] INFO root fetch - processPackages [python-filewrap]: New version: [0.0.4] Old Version: [0.0.3.1]
+[2024-05-17 11:11:13] INFO root fetch - processPackages [fig2sketch]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-17 11:11:13] INFO root fetch - processPackages [hydev]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-17 11:11:13] WARNING root fetch - processPackages [preciseLake]: Skipping, unable to determine old version
+[2024-05-17 11:11:13] INFO root fetch - main [MainThread]: End processing [preciseLake] error
+[2024-05-17 11:11:13] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/3d/d5/edfc90d34414c93f370788a4d609fe1892a77da52233b62842fe3a95cd7b/python_filewrap-0.0.3.1.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [mujoco_controllers]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 11:11:13] WARNING root fetch - processPackages [dcinside-scraper]: Skipping, unable to determine old version
+[2024-05-17 11:11:13] INFO root fetch - main [MainThread]: End processing [dcinside-scraper] error
+[2024-05-17 11:11:13] INFO root fetch - processPackages [vbelt]: New version: [0.8.1] Old Version: [0.7.5]
+[2024-05-17 11:11:13] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/72/c0/ce232d1a6843708a9dd483d56c0c06fcad97fd1cf6cac09e24d861648dbc/fig2sketch-0.3.0.tar.gz
+[2024-05-17 11:11:13] WARNING root fetch - processPackages [luna-soc]: Skipping, unable to determine old version
+[2024-05-17 11:11:13] INFO root fetch - main [MainThread]: End processing [luna-soc] error
+[2024-05-17 11:11:13] INFO root fetch - processPackages [research-roc-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 11:11:13] INFO root fetch - processPackages [met-annot-unifier]: New version: [0.0.6a0] Old Version: [0.0.6]
+[2024-05-17 11:11:13] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/6f/63/956325c7c278d9a7abb90a44cefb50490e75fb149460d89428e7da14af9b/hydev-1.6.0.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [mujoco_controllers]: Downloading https://files.pythonhosted.org/packages/3f/18/80a4a35ff388c456c4f983e46b0ec8b6e8d2e47b24a495f4168729f612b5/mujoco_controllers-0.0.1.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [vbelt]: Downloading https://files.pythonhosted.org/packages/37/44/34fe9f1776ccf76b1603c80fe4c722e4b01721066211b7b6f8d1f9ffb814/vbelt-0.7.5.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/57/5a/6048affa7f94df0252553ce648e1a5f7f007079a2d88992a898dc09a7516/research_roc_utils-0.1.0.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [met-annot-unifier]: Downloading https://files.pythonhosted.org/packages/86/9d/a90e3586adc85d6660721736f0e1bb97f0978de73655df78c0d729c94df6/met_annot_unifier-0.0.6.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/b9/df/d82ecc3ffb2ad43184ec33b9952d40a7517921babb2e31bcdedfc4900245/python_filewrap-0.0.4.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/7e/7c/b042aa760d827c8e88729f1bfb5a2b7a2b7490120f0adbe22fd13b3e08a1/fig2sketch-0.3.1.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [python-filewrap]: executing diffoscope
+[2024-05-17 11:11:13] INFO root fetch - processPackages [python-filewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_filewrap-0.0.3.1.tar.gz tmp/python_filewrap-0.0.4.tar.gz --markdown 20240517/p/python-filewrap/0.0.3.1-0.0.4/README.md --exclude *.pyd
+[2024-05-17 11:11:13] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/7f/0a/4087410df59da13c26b55b5208b3a80a1779e6f0d8c5c24b8b5312ee318f/hydev-1.6.1.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [mujoco_controllers]: Downloading https://files.pythonhosted.org/packages/f9/91/efdf9f6eefdcf851c30c9ca2a4376f442997ffee034d26cbfa037701bf11/mujoco_controllers-0.0.2.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [fig2sketch]: executing diffoscope
+[2024-05-17 11:11:13] INFO root fetch - processPackages [fig2sketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fig2sketch-0.3.0.tar.gz tmp/fig2sketch-0.3.1.tar.gz --markdown 20240517/f/fig2sketch/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-17 11:11:13] INFO root fetch - processPackages [vbelt]: Downloading https://files.pythonhosted.org/packages/15/2a/f43c007b35216cc00271fa7f518d4ea0eaa2c2c150a3f409b6b035fe471e/vbelt-0.8.1.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [hydev]: executing diffoscope
+[2024-05-17 11:11:13] INFO root fetch - processPackages [hydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydev-1.6.0.tar.gz tmp/hydev-1.6.1.tar.gz --markdown 20240517/h/hydev/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-17 11:11:13] INFO root fetch - processPackages [met-annot-unifier]: Downloading https://files.pythonhosted.org/packages/59/9e/c4dd3ae9a3b6b161851f5d64a03bed114fca0bdf5d7fb17688ee38090e30/met_annot_unifier-0.0.6a0.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/3b/6d/a5d6b03c97ff56c2907423b054a0b1cd44e142ef42efc49be851602a584a/research_roc_utils-0.1.1.tar.gz
+[2024-05-17 11:11:13] INFO root fetch - processPackages [vbelt]: executing diffoscope
+[2024-05-17 11:11:13] INFO root fetch - processPackages [vbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbelt-0.7.5.tar.gz tmp/vbelt-0.8.1.tar.gz --markdown 20240517/v/vbelt/0.7.5-0.8.1/README.md --exclude *.pyd
+[2024-05-17 11:11:13] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-05-17 11:11:13] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.1.0.tar.gz tmp/research_roc_utils-0.1.1.tar.gz --markdown 20240517/r/research-roc-utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 11:11:13] INFO root fetch - processPackages [met-annot-unifier]: executing diffoscope
+[2024-05-17 11:11:13] INFO root fetch - processPackages [met-annot-unifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/met_annot_unifier-0.0.6.tar.gz tmp/met_annot_unifier-0.0.6a0.tar.gz --markdown 20240517/m/met-annot-unifier/0.0.6-0.0.6a0/README.md --exclude *.pyd
+[2024-05-17 11:11:14] INFO root fetch - processPackages [mujoco_controllers]: executing diffoscope
+[2024-05-17 11:11:14] INFO root fetch - processPackages [mujoco_controllers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_controllers-0.0.1.tar.gz tmp/mujoco_controllers-0.0.2.tar.gz --markdown 20240517/m/mujoco_controllers/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-17 11:11:14] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.3.1.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.4.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - main [MainThread]: End processing [python-filewrap]: success
+[2024-05-17 11:11:14] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.6.0.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.6.1.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - main [MainThread]: End processing [hydev]: success
+[2024-05-17 11:11:14] INFO root fetch - processPackages [fig2sketch]: Remove: archive file [/home/abi/fetcher/tmp/fig2sketch-0.3.0.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - processPackages [fig2sketch]: Remove: archive file [/home/abi/fetcher/tmp/fig2sketch-0.3.1.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - main [MainThread]: End processing [fig2sketch]: success
+[2024-05-17 11:11:14] INFO root fetch - processPackages [vbelt]: Remove: archive file [/home/abi/fetcher/tmp/vbelt-0.7.5.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - processPackages [vbelt]: Remove: archive file [/home/abi/fetcher/tmp/vbelt-0.8.1.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - main [MainThread]: End processing [vbelt]: success
+[2024-05-17 11:11:14] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.1.0.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.1.1.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-05-17 11:11:14] INFO root fetch - processPackages [met-annot-unifier]: Remove: archive file [/home/abi/fetcher/tmp/met_annot_unifier-0.0.6.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - processPackages [met-annot-unifier]: Remove: archive file [/home/abi/fetcher/tmp/met_annot_unifier-0.0.6a0.tar.gz]
+[2024-05-17 11:11:14] INFO root fetch - main [MainThread]: End processing [met-annot-unifier]: success
+[2024-05-17 11:11:15] INFO root fetch - processPackages [mujoco_controllers]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_controllers-0.0.1.tar.gz]
+[2024-05-17 11:11:15] INFO root fetch - processPackages [mujoco_controllers]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_controllers-0.0.2.tar.gz]
+[2024-05-17 11:11:15] INFO root fetch - main [MainThread]: End processing [mujoco_controllers]: success
+[2024-05-17 11:11:15] INFO root fetch - main [MainThread]: Store serial: [23251215]

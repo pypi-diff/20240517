@@ -12984,3 +12984,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:07:55] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.119.tar.gz]
 [2024-05-17 06:07:55] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-17 06:07:55] INFO root fetch - main [MainThread]: Store serial: [23248093]
+[2024-05-17 06:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248093]
+[2024-05-17 06:10:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 06:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspyre-toolbox
+[2024-05-17 06:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sparkapi
+[2024-05-17 06:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-05-17 06:10:05] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 06:10:05] INFO root fetch - processPackages [inspyre-toolbox]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-17 06:10:05] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-17 06:10:05] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/f7/a7/c7ab32f8ebbfebb29e1f350e2217cdc35a953053ff477fe42549215ce8a2/nonebot_plugin_sparkapi-1.0.8.tar.gz
+[2024-05-17 06:10:05] INFO root fetch - processPackages [inspyre-toolbox]: Downloading https://files.pythonhosted.org/packages/41/61/e6135d198a7ffc2404d976424b5f9ac5d084919e2169d56a305705822995/inspyre_toolbox-1.5.0.tar.gz
+[2024-05-17 06:10:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-17 06:10:05] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/c6/13/f0e875e54fd95200c623a5eba48618d69a995d87db99efd16b383d91d317/nonebot_plugin_sparkapi-1.0.9.tar.gz
+[2024-05-17 06:10:05] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: executing diffoscope
+[2024-05-17 06:10:05] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz --markdown 20240517/n/nonebot-plugin-sparkapi/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 06:10:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-17 06:10:06] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-17 06:10:06] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240517/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-17 06:10:06] INFO root fetch - processPackages [inspyre-toolbox]: Downloading https://files.pythonhosted.org/packages/f1/9f/fe476c408f48c78cff8a5f65adee4e4e2cb595c89defdb993986cc9f38a5/inspyre_toolbox-1.5.1.tar.gz
+[2024-05-17 06:10:06] INFO root fetch - processPackages [inspyre-toolbox]: executing diffoscope
+[2024-05-17 06:10:06] INFO root fetch - processPackages [inspyre-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspyre_toolbox-1.5.0.tar.gz tmp/inspyre_toolbox-1.5.1.tar.gz --markdown 20240517/i/inspyre-toolbox/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-17 06:10:06] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz]
+[2024-05-17 06:10:06] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz]
+[2024-05-17 06:10:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
+[2024-05-17 06:10:06] INFO root fetch - processPackages [inspyre-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/inspyre_toolbox-1.5.0.tar.gz]
+[2024-05-17 06:10:06] INFO root fetch - processPackages [inspyre-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/inspyre_toolbox-1.5.1.tar.gz]
+[2024-05-17 06:10:06] INFO root fetch - main [MainThread]: End processing [inspyre-toolbox]: success
+[2024-05-17 06:10:06] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-17 06:10:06] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-17 06:10:06] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-17 06:10:06] INFO root fetch - main [MainThread]: Store serial: [23248105]

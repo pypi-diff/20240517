@@ -13770,3 +13770,36 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:06:45] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-05-17 07:06:45] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-05-17 07:06:45] INFO root fetch - main [MainThread]: Store serial: [23248397]
+[2024-05-17 07:08:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248397]
+[2024-05-17 07:08:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 07:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arducam-rgbir-remosaic
+[2024-05-17 07:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imy
+[2024-05-17 07:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openadapt
+[2024-05-17 07:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Scratch-Messaging-Client
+[2024-05-17 07:08:54] INFO root fetch - processPackages [imy]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-17 07:08:54] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/e0/67/e2f0c48173b8641bb2fefa5e2abfdb04e634d14a2f249d16f5ea2d2b59f3/imy-0.3.2.tar.gz
+[2024-05-17 07:08:54] INFO root fetch - processPackages [arducam-rgbir-remosaic]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 07:08:54] WARNING root fetch - processPackages [Scratch-Messaging-Client]: Skipping, unable to determine old version
+[2024-05-17 07:08:54] INFO root fetch - main [MainThread]: End processing [Scratch-Messaging-Client] error
+[2024-05-17 07:08:54] INFO root fetch - processPackages [openadapt]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-17 07:08:54] INFO root fetch - processPackages [arducam-rgbir-remosaic]: Downloading https://files.pythonhosted.org/packages/04/30/8b8229c309e852c6e40b586bf78ca6bf2b22ff92d8702f2492882ed4c836/arducam_rgbir_remosaic-1.0.0-cp39-cp39-win_amd64.whl
+[2024-05-17 07:08:55] INFO root fetch - processPackages [openadapt]: Downloading https://files.pythonhosted.org/packages/79/02/9909659ccbba301efcb1ca065eb1d9413e5e760d2cefd4a01ba5e723511b/openadapt-0.8.1.tar.gz
+[2024-05-17 07:08:55] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/22/be/f528141e3a139c65c3cf4dc22c06b5c4bd9d44e8e61807acab3db395105c/imy-0.3.3.tar.gz
+[2024-05-17 07:08:55] INFO root fetch - processPackages [imy]: executing diffoscope
+[2024-05-17 07:08:55] INFO root fetch - processPackages [imy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imy-0.3.2.tar.gz tmp/imy-0.3.3.tar.gz --markdown 20240517/i/imy/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-17 07:08:55] INFO root fetch - processPackages [arducam-rgbir-remosaic]: Downloading https://files.pythonhosted.org/packages/be/9d/798dff07b796fda720cf1ba2835fc4fec16e427c9a35f894202fbfd3147a/arducam_rgbir_remosaic-1.0.1-cp39-cp39-win_amd64.whl
+[2024-05-17 07:08:55] INFO root fetch - processPackages [openadapt]: Downloading https://files.pythonhosted.org/packages/b7/9c/6198cbb491bbd32347e3741b41ee70e6ad1916e573ef76ae3aeb9e0fc8ef/openadapt-0.9.0.tar.gz
+[2024-05-17 07:08:55] INFO root fetch - processPackages [openadapt]: executing diffoscope
+[2024-05-17 07:08:55] INFO root fetch - processPackages [openadapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openadapt-0.8.1.tar.gz tmp/openadapt-0.9.0.tar.gz --markdown 20240517/o/openadapt/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-17 07:08:55] INFO root fetch - processPackages [arducam-rgbir-remosaic]: executing diffoscope
+[2024-05-17 07:08:55] INFO root fetch - processPackages [arducam-rgbir-remosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arducam_rgbir_remosaic-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/arducam_rgbir_remosaic-1.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20240517/a/arducam-rgbir-remosaic/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 07:08:55] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.3.2.tar.gz]
+[2024-05-17 07:08:55] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.3.3.tar.gz]
+[2024-05-17 07:08:55] INFO root fetch - main [MainThread]: End processing [imy]: success
+[2024-05-17 07:08:55] INFO root fetch - processPackages [arducam-rgbir-remosaic]: Remove: archive file [/home/abi/fetcher/tmp/arducam_rgbir_remosaic-1.0.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 07:08:55] INFO root fetch - processPackages [arducam-rgbir-remosaic]: Remove: archive file [/home/abi/fetcher/tmp/arducam_rgbir_remosaic-1.0.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 07:08:55] INFO root fetch - main [MainThread]: End processing [arducam-rgbir-remosaic]: success
+[2024-05-17 07:08:56] INFO root fetch - processPackages [openadapt]: Remove: archive file [/home/abi/fetcher/tmp/openadapt-0.8.1.tar.gz]
+[2024-05-17 07:08:56] INFO root fetch - processPackages [openadapt]: Remove: archive file [/home/abi/fetcher/tmp/openadapt-0.9.0.tar.gz]
+[2024-05-17 07:08:56] INFO root fetch - main [MainThread]: End processing [openadapt]: success
+[2024-05-17 07:08:56] INFO root fetch - main [MainThread]: Store serial: [23248444]

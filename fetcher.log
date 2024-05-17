@@ -22344,3 +22344,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:10:03] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.6.tar.gz]
 [2024-05-17 12:10:03] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-17 12:10:03] INFO root fetch - main [MainThread]: Store serial: [23251934]
+[2024-05-17 12:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251934]
+[2024-05-17 12:12:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dbchat
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nornir-infrahub
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numerous-files
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amino.fix.fix
+[2024-05-17 12:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvispr
+[2024-05-17 12:12:14] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-17 12:12:14] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-17 12:12:14] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 12:12:14] INFO root fetch - processPackages [kfish]: New version: [99.0.202405170954] Old Version: [99.0.202405161153]
+[2024-05-17 12:12:14] INFO root fetch - processPackages [pyvispr]: New version: [2024.9] Old Version: [2024.8]
+[2024-05-17 12:12:14] INFO root fetch - processPackages [nornir-infrahub]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-17 12:12:14] WARNING root fetch - processPackages [numerous-files]: Skipping, unable to determine old version
+[2024-05-17 12:12:14] INFO root fetch - main [MainThread]: End processing [numerous-files] error
+[2024-05-17 12:12:14] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/77/ad/6b7b6f8c930faab55587c553518afbedd866891d62f29a31b3289f19c3b3/kfish-99.0.202405161153-py3-none-any.whl
+[2024-05-17 12:12:14] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/59/17/5f6f24877572d0273ee1927d9d5b187616342a0f9828b6f89ed75f65411e/amino_fix_fix-1.1.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [nornir-infrahub]: Downloading https://files.pythonhosted.org/packages/e5/d1/6732b8dffe12e44e0a25234d8718a1228198bc8dda5360ee24823137a363/nornir_infrahub-0.3.0.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/34/1e/3a9b2faf80009bf72563532e3ec8ce21910773e97b728daaf8d62dacd707/pyvispr-2024.8.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0a/24/9ab6c5b844d66a196fe97708972d1eb183818e93339063ae09ca37ce1fb9/kfish-99.0.202405170954-py3-none-any.whl
+[2024-05-17 12:12:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-17 12:12:14] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-17 12:12:14] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405161153-py3-none-any.whl.zip tmp/kfish-99.0.202405170954-py3-none-any.whl.zip --markdown 20240517/k/kfish/99.0.202405161153-99.0.202405170954/README.md --exclude *.pyd
+[2024-05-17 12:12:14] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 12:12:14] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 12:12:15] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-17 12:12:15] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240517/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-17 12:12:15] INFO root fetch - processPackages [nornir-infrahub]: Downloading https://files.pythonhosted.org/packages/59/23/2d425b17a2b65579e2c46fda61875159bd02a873c94b112ad1a8ac474aee/nornir_infrahub-0.3.1.tar.gz
+[2024-05-17 12:12:15] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/32/15/9ac18a3704bc6f181e69f9ce58fe926c0407b9aaf023d2f681387f017f1f/amino_fix_fix-1.1.1.tar.gz
+[2024-05-17 12:12:15] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/c7/88/6f48e09503df3a4b4a74ddf7f68e7e73d487b28935d020a641320a6de3a2/pyvispr-2024.9.tar.gz
+[2024-05-17 12:12:15] INFO root fetch - processPackages [nornir-infrahub]: executing diffoscope
+[2024-05-17 12:12:15] INFO root fetch - processPackages [nornir-infrahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_infrahub-0.3.0.tar.gz tmp/nornir_infrahub-0.3.1.tar.gz --markdown 20240517/n/nornir-infrahub/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-17 12:12:15] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-05-17 12:12:15] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino_fix_fix-1.1.tar.gz tmp/amino_fix_fix-1.1.1.tar.gz --markdown 20240517/a/amino.fix.fix/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-17 12:12:15] INFO root fetch - processPackages [pyvispr]: executing diffoscope
+[2024-05-17 12:12:15] INFO root fetch - processPackages [pyvispr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvispr-2024.8.tar.gz tmp/pyvispr-2024.9.tar.gz --markdown 20240517/p/pyvispr/2024.8-2024.9/README.md --exclude *.pyd
+[2024-05-17 12:12:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405161153-py3-none-any.whl.zip]
+[2024-05-17 12:12:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405170954-py3-none-any.whl.zip]
+[2024-05-17 12:12:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-17 12:12:15] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 12:12:15] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 12:12:15] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 12:12:15] INFO root fetch - processPackages [nornir-infrahub]: Remove: archive file [/home/abi/fetcher/tmp/nornir_infrahub-0.3.0.tar.gz]
+[2024-05-17 12:12:15] INFO root fetch - processPackages [nornir-infrahub]: Remove: archive file [/home/abi/fetcher/tmp/nornir_infrahub-0.3.1.tar.gz]
+[2024-05-17 12:12:15] INFO root fetch - main [MainThread]: End processing [nornir-infrahub]: success
+[2024-05-17 12:12:16] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino_fix_fix-1.1.tar.gz]
+[2024-05-17 12:12:16] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino_fix_fix-1.1.1.tar.gz]
+[2024-05-17 12:12:16] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-05-17 12:12:16] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-17 12:12:16] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-17 12:12:16] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-17 12:12:16] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.8.tar.gz]
+[2024-05-17 12:12:16] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.9.tar.gz]
+[2024-05-17 12:12:16] INFO root fetch - main [MainThread]: End processing [pyvispr]: success
+[2024-05-17 12:12:16] INFO root fetch - main [MainThread]: Store serial: [23251956]

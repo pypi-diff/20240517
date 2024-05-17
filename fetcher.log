@@ -14448,3 +14448,135 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:46:08] INFO root fetch - processPackages [capsolver-extension-python]: Remove: archive file [/home/abi/fetcher/tmp/capsolver_extension_python-1.0.2.tar.gz]
 [2024-05-17 07:46:08] INFO root fetch - main [MainThread]: End processing [capsolver-extension-python]: success
 [2024-05-17 07:46:08] INFO root fetch - main [MainThread]: Store serial: [23248665]
+[2024-05-17 07:48:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248665]
+[2024-05-17 07:48:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 07:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuredevops
+[2024-05-17 07:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danila-lib
+[2024-05-17 07:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flatpack
+[2024-05-17 07:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siat
+[2024-05-17 07:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paloalto-panorama-sdk
+[2024-05-17 07:48:17] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:48:17] INFO root fetch - processPackages [danila-lib]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-17 07:48:17] INFO root fetch - processPackages [paloalto-panorama-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 07:48:17] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1715923420] Old Version: [3.1.0a1715752747]
+[2024-05-17 07:48:17] INFO root fetch - processPackages [siat]: New version: [3.0.44] Old Version: [3.0.43]
+[2024-05-17 07:48:17] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/46/54/d545e58e1868ca90487e82d548c536e2e1600897eb9a358e546a161ba580/danila-lib-1.4.5.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/79/0c/2b43f96aef26864c65b0f23bbb0966534a632eba1d6476e129f058611e1c/pulumi_azuredevops-3.1.0a1715752747.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/83/d3/b6efabd8a6235efceb434d07dae09558b9accf83f6a86ad2d4544051d32f/paloalto_panorama_sdk-0.0.8.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:48:17] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:48:17] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ee/ac/e4eaa10c58c144d27a758d8f02e8250a31c8ac9df2ed4fa89a4578439e28/danila-lib-1.4.6.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/6b/fe/1794f0724afc8f14bf959b40b479c6658eaee80bd5f76e91f030a9989e8f/siat-3.0.44-py3-none-any.whl
+[2024-05-17 07:48:17] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/14/7e/e5ddc8aba876569a4e2ebe394e2ccf59e5e4773b0badb06801d9a5216d64/paloalto_panorama_sdk-0.0.9.tar.gz
+[2024-05-17 07:48:17] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/8d/00/2c9a56c22999ab169626e4ead58d375874a82dd584de7ccbfa4df4a2082e/pulumi_azuredevops-3.1.0a1715923420.tar.gz
+[2024-05-17 07:48:18] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-17 07:48:18] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.5.tar.gz tmp/danila-lib-1.4.6.tar.gz --markdown 20240517/d/danila-lib/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-17 07:48:18] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-17 07:48:18] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715752747.tar.gz tmp/pulumi_azuredevops-3.1.0a1715923420.tar.gz --markdown 20240517/p/pulumi-azuredevops/3.1.0a1715752747-3.1.0a1715923420/README.md --exclude *.pyd
+[2024-05-17 07:48:18] INFO root fetch - processPackages [paloalto-panorama-sdk]: executing diffoscope
+[2024-05-17 07:48:18] INFO root fetch - processPackages [paloalto-panorama-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloalto_panorama_sdk-0.0.8.tar.gz tmp/paloalto_panorama_sdk-0.0.9.tar.gz --markdown 20240517/p/paloalto-panorama-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:48:18] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-17 07:48:18] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.43-py3-none-any.whl.zip tmp/siat-3.0.44-py3-none-any.whl.zip --markdown 20240517/s/siat/3.0.43-3.0.44/README.md --exclude *.pyd
+[2024-05-17 07:48:18] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:48:18] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:48:18] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:48:18] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.5.tar.gz]
+[2024-05-17 07:48:18] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.6.tar.gz]
+[2024-05-17 07:48:18] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-17 07:48:18] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.8.tar.gz]
+[2024-05-17 07:48:18] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.9.tar.gz]
+[2024-05-17 07:48:18] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk]: success
+[2024-05-17 07:48:18] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-17T07:48:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-17 07:48:18] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-17 07:48:19] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715752747.tar.gz]
+[2024-05-17 07:48:19] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715923420.tar.gz]
+[2024-05-17 07:48:19] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-17 07:48:19] INFO root fetch - main [MainThread]: Store serial: [23248680]

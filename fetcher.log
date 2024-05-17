@@ -10876,3 +10876,47 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 03:56:24] INFO root fetch - processPackages [robustintelligence]: Remove: archive file [/home/abi/fetcher/tmp/robustintelligence-0.1.0rc9.tar.gz]
 [2024-05-17 03:56:24] INFO root fetch - main [MainThread]: End processing [robustintelligence]: success
 [2024-05-17 03:56:24] INFO root fetch - main [MainThread]: Store serial: [23247293]
+[2024-05-17 03:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247293]
+[2024-05-17 03:58:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaze2
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-project-setup
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalk-harness
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abcli
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-encoder
+[2024-05-17 03:58:33] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ai-project-setup]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 03:58:33] INFO root fetch - processPackages [abcli]: New version: [8.164.1] Old Version: [8.163.1]
+[2024-05-17 03:58:33] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7c/90/84301b959ac6d36df06a47914ed72028dd322ce98b182c5c22e0217236b4/abcli-8.163.1.tar.gz
+[2024-05-17 03:58:33] INFO root fetch - processPackages [ai-project-setup]: Downloading https://files.pythonhosted.org/packages/3f/ff/eeda397a229029641c9ea83ac594083401536b31e9e6f80fd747183fce01/ai_project_setup-0.2.1.tar.gz
+[2024-05-17 03:58:33] INFO root fetch - processPackages [blaze2]: New version: [2.2.1] Old Version: [2.2.0a1]
+[2024-05-17 03:58:33] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-17 03:58:33] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-17 03:58:34] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-17 03:58:34] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7e/b5/afe64461b90bc473f011b5d6fd179ba39530c8a516d60b6c79f2c9c9180f/abcli-8.164.1.tar.gz
+[2024-05-17 03:58:34] INFO root fetch - processPackages [blaze2]: Downloading https://files.pythonhosted.org/packages/a6/fe/ecc286f12ea6ab44f54685fe8639339813db6e652a02b6a63d849c7bb4a3/blaze2-2.2.0a1-py3-none-any.whl
+[2024-05-17 03:58:34] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-05-17 03:58:34] INFO root fetch - processPackages [ai-project-setup]: Downloading https://files.pythonhosted.org/packages/11/05/a35e0a7f7e75506cecfab05891bc0c3b8e4cdb8b0ca8aa52e401e8a753b9/ai_project_setup-0.2.2.tar.gz
+[2024-05-17 03:58:34] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-17 03:58:34] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240517/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 03:58:34] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-17 03:58:34] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.163.1.tar.gz tmp/abcli-8.164.1.tar.gz --markdown 20240517/a/abcli/8.163.1-8.164.1/README.md --exclude *.pyd
+[2024-05-17 03:58:34] INFO root fetch - processPackages [ai-project-setup]: executing diffoscope
+[2024-05-17 03:58:34] INFO root fetch - processPackages [ai-project-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_project_setup-0.2.1.tar.gz tmp/ai_project_setup-0.2.2.tar.gz --markdown 20240517/a/ai-project-setup/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 03:58:34] WARNING root fetch - processPackages [blaze2]: Skipping package: exceeds size limit 17398119>=10485760
+[2024-05-17 03:58:34] INFO root fetch - main [MainThread]: End processing [blaze2] error
+[2024-05-17 03:58:34] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-05-17 03:58:34] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-05-17 03:58:34] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240517/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-17 03:58:34] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-17 03:58:34] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-17 03:58:34] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-17 03:58:34] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.163.1.tar.gz]
+[2024-05-17 03:58:34] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.164.1.tar.gz]
+[2024-05-17 03:58:34] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-17 03:58:35] INFO root fetch - processPackages [ai-project-setup]: Remove: archive file [/home/abi/fetcher/tmp/ai_project_setup-0.2.1.tar.gz]
+[2024-05-17 03:58:35] INFO root fetch - processPackages [ai-project-setup]: Remove: archive file [/home/abi/fetcher/tmp/ai_project_setup-0.2.2.tar.gz]
+[2024-05-17 03:58:35] INFO root fetch - main [MainThread]: End processing [ai-project-setup]: success
+[2024-05-17 03:58:35] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-05-17 03:58:35] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-05-17 03:58:35] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-05-17 03:58:35] INFO root fetch - main [MainThread]: Store serial: [23247306]

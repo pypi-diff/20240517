@@ -14983,3 +14983,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:07:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-05-17 08:07:59] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-05-17 08:07:59] INFO root fetch - main [MainThread]: Store serial: [23248844]
+[2024-05-17 08:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248844]
+[2024-05-17 08:10:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: couchformation
+[2024-05-17 08:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zorch
+[2024-05-17 08:10:08] INFO root fetch - processPackages [zorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 08:10:08] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/9c/6f/6e8a62940f8ac3f0f08624da402a7c7774e189ceac51c10730b975429f7a/zorch-0.0.3.tar.gz
+[2024-05-17 08:10:08] INFO root fetch - processPackages [couchformation]: New version: [4.0.0a9] Old Version: [4.0.0a354]
+[2024-05-17 08:10:08] INFO root fetch - processPackages [couchformation]: Downloading https://files.pythonhosted.org/packages/ae/06/67b6d0d04910362321cd6e5968a17c49232dadba425f28a37eb894492490/couchformation-4.0.0a354.tar.gz
+[2024-05-17 08:10:09] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/e4/a5/fedd666c956fba0aff57ee787cf9e97f978423d11d9e2cb5f607374bf48d/zorch-0.0.4.tar.gz
+[2024-05-17 08:10:09] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 08:10:09] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.3.tar.gz tmp/zorch-0.0.4.tar.gz --markdown 20240517/z/zorch/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 08:10:09] INFO root fetch - processPackages [couchformation]: Downloading https://files.pythonhosted.org/packages/61/f4/c73bc8a2527cc4024bfb6d029d9e9a85e440eb6b03bb0043dcf32aeb67c3/couchformation-4.0.0a9.tar.gz
+[2024-05-17 08:10:09] INFO root fetch - processPackages [couchformation]: executing diffoscope
+[2024-05-17 08:10:09] INFO root fetch - processPackages [couchformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchformation-4.0.0a354.tar.gz tmp/couchformation-4.0.0a9.tar.gz --markdown 20240517/c/couchformation/4.0.0a354-4.0.0a9/README.md --exclude *.pyd
+[2024-05-17 08:10:09] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.3.tar.gz]
+[2024-05-17 08:10:09] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.4.tar.gz]
+[2024-05-17 08:10:09] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 08:10:09] INFO root fetch - processPackages [couchformation]: Remove: archive file [/home/abi/fetcher/tmp/couchformation-4.0.0a354.tar.gz]
+[2024-05-17 08:10:09] INFO root fetch - processPackages [couchformation]: Remove: archive file [/home/abi/fetcher/tmp/couchformation-4.0.0a9.tar.gz]
+[2024-05-17 08:10:09] INFO root fetch - main [MainThread]: End processing [couchformation]: success
+[2024-05-17 08:10:09] INFO root fetch - main [MainThread]: Store serial: [23248852]

@@ -22700,3 +22700,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:25:46] INFO root fetch - processPackages [privacera-shield]: Remove: archive file [/home/abi/fetcher/tmp/privacera_shield-1.1.5-py3-none-any.whl.zip]
 [2024-05-17 12:25:46] INFO root fetch - main [MainThread]: End processing [privacera-shield]: success
 [2024-05-17 12:25:46] INFO root fetch - main [MainThread]: Store serial: [23252158]
+[2024-05-17 12:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252158]
+[2024-05-17 12:27:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 12:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: probe-design
+[2024-05-17 12:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openlit
+[2024-05-17 12:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RetrieverVectorDB
+[2024-05-17 12:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yara-x
+[2024-05-17 12:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: infrahub-sync
+[2024-05-17 12:27:55] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 12:27:55] INFO root fetch - processPackages [infrahub-sync]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-17 12:27:55] INFO root fetch - processPackages [RetrieverVectorDB]: New version: [0.4] Old Version: [0.3]
+[2024-05-17 12:27:55] INFO root fetch - processPackages [openlit]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-17 12:27:55] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-17 12:27:55] INFO root fetch - processPackages [RetrieverVectorDB]: Downloading https://files.pythonhosted.org/packages/5b/4c/21a27cf08e7d316444db6a927e675166501df4e5cfbd0a3a009deb0f32b7/RetrieverVectorDB-0.3.tar.gz
+[2024-05-17 12:27:55] INFO root fetch - processPackages [yara-x]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-17 12:27:56] INFO root fetch - processPackages [infrahub-sync]: Downloading https://files.pythonhosted.org/packages/08/66/744d0098f4186e24417bd07a4ce86abe1f4a4e9ab084ee026cee5c71a5c9/infrahub_sync-0.3.0.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/2c/d1/4bb673e0c4332ca2cc0af93dff549bcc01a3e16fc6ea3805a852af19dea4/openlit-1.5.0.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [yara-x]: Downloading https://files.pythonhosted.org/packages/87/9e/1e3271e3a76979dd22c1bae0891703078218561a49d1db349111a111cb31/yara_x-0.2.1.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [RetrieverVectorDB]: Downloading https://files.pythonhosted.org/packages/c0/92/2a341a1239ff15e4615b41165b2c988a3a2aeab9f79e7cb0bdc28cd45d73/RetrieverVectorDB-0.4.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-17 12:27:56] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240517/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 12:27:56] INFO root fetch - processPackages [RetrieverVectorDB]: executing diffoscope
+[2024-05-17 12:27:56] INFO root fetch - processPackages [RetrieverVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RetrieverVectorDB-0.3.tar.gz tmp/RetrieverVectorDB-0.4.tar.gz --markdown 20240517/R/RetrieverVectorDB/0.3-0.4/README.md --exclude *.pyd
+[2024-05-17 12:27:56] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/22/c8/9c3464ae6d58c9957e189917af7644173308758584bf39f9e0aea838ffbe/openlit-1.6.0.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [infrahub-sync]: Downloading https://files.pythonhosted.org/packages/aa/88/1c5240b9402405688f15cd893fdefdc0ef4110e882190be0e031abccaea9/infrahub_sync-0.4.0.tar.gz
+[2024-05-17 12:27:56] INFO root fetch - processPackages [infrahub-sync]: executing diffoscope
+[2024-05-17 12:27:56] INFO root fetch - processPackages [infrahub-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahub_sync-0.3.0.tar.gz tmp/infrahub_sync-0.4.0.tar.gz --markdown 20240517/i/infrahub-sync/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-17 12:27:56] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-17 12:27:56] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.5.0.tar.gz tmp/openlit-1.6.0.tar.gz --markdown 20240517/o/openlit/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-17 12:27:56] INFO root fetch - processPackages [yara-x]: Downloading https://files.pythonhosted.org/packages/78/de/837a316189d606a81069f38243ffbd67645928e692cd67f7bea871b362ea/yara_x-0.3.0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 12:27:56] INFO root fetch - processPackages [RetrieverVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/RetrieverVectorDB-0.3.tar.gz]
+[2024-05-17 12:27:56] INFO root fetch - processPackages [RetrieverVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/RetrieverVectorDB-0.4.tar.gz]
+[2024-05-17 12:27:56] INFO root fetch - main [MainThread]: End processing [RetrieverVectorDB]: success
+[2024-05-17 12:27:57] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-17 12:27:57] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-17 12:27:57] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-17 12:27:57] INFO root fetch - processPackages [infrahub-sync]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sync-0.3.0.tar.gz]
+[2024-05-17 12:27:57] INFO root fetch - processPackages [infrahub-sync]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sync-0.4.0.tar.gz]
+[2024-05-17 12:27:57] INFO root fetch - main [MainThread]: End processing [infrahub-sync]: success
+[2024-05-17 12:27:57] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.5.0.tar.gz]
+[2024-05-17 12:27:57] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.6.0.tar.gz]
+[2024-05-17 12:27:57] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-17 12:27:59] INFO root fetch - processPackages [yara-x]: executing diffoscope
+[2024-05-17 12:27:59] INFO root fetch - processPackages [yara-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yara_x-0.2.1.tar.gz tmp/yara_x-0.3.0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240517/y/yara-x/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-17 12:28:00] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.2.1.tar.gz]
+[2024-05-17 12:28:00] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.3.0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-17 12:28:00] INFO root fetch - main [MainThread]: End processing [yara-x]: success
+[2024-05-17 12:28:00] INFO root fetch - main [MainThread]: Store serial: [23252174]

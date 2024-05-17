@@ -19155,3 +19155,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:31:35] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
 [2024-05-17 10:31:35] INFO root fetch - main [MainThread]: End processing [foscat]: success
 [2024-05-17 10:31:35] INFO root fetch - main [MainThread]: Store serial: [23250551]
+[2024-05-17 10:33:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250551]
+[2024-05-17 10:33:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnl2asp-test
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-representations-extractor
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: niapy
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traceloop-sdk
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web-ui-helper
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scalellm
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coolbg
+[2024-05-17 10:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RetrieverVectorDB
+[2024-05-17 10:33:48] INFO root fetch - processPackages [cnl2asp-test]: New version: [3.1.0.post1] Old Version: [3.1.0]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [web-ui-helper]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [scalellm]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [niapy]: New version: [2.3.1] Old Version: [2.1.0]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [video-representations-extractor]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-17 10:33:48] WARNING root fetch - processPackages [RetrieverVectorDB]: Skipping, unable to determine old version
+[2024-05-17 10:33:48] INFO root fetch - processPackages [RetrieverVectorDB]: Start processing: retrodevem
+[2024-05-17 10:33:48] INFO root fetch - main [MainThread]: End processing [RetrieverVectorDB] error
+[2024-05-17 10:33:48] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [cnl2asp-test]: Downloading https://files.pythonhosted.org/packages/08/6e/0e0571448b547caac1e0f4a62ccad8f7361bacb3a36b5ff4c95787a2413a/cnl2asp_test-3.1.0.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-17 10:33:48] ERROR root fetch - processPackages [scalellm]: Unable to fetch info: No such project/version 'scalellm' 0.0.10
+[2024-05-17 10:33:48] INFO root fetch - processPackages [scalellm]: Start processing: odoo-addon-stock-quant-manual-assign
+[2024-05-17 10:33:48] INFO root fetch - main [MainThread]: End processing [scalellm] error
+[2024-05-17 10:33:48] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-17 10:33:48] WARNING root fetch - processPackages [retrodevem]: Skipping, unable to determine old version
+[2024-05-17 10:33:48] INFO root fetch - processPackages [retrodevem]: Start processing: steam-sdk
+[2024-05-17 10:33:48] INFO root fetch - main [MainThread]: End processing [retrodevem] error
+[2024-05-17 10:33:48] INFO root fetch - processPackages [niapy]: Downloading https://files.pythonhosted.org/packages/f3/1c/ced98422079ae209c1910bd511a0c54b0c8f32f17224aba136f155824817/niapy-2.1.0.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.6]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [video-representations-extractor]: Downloading https://files.pythonhosted.org/packages/e4/f3/29bbee35d1052d401ec969fc90e81070ce11a91c47e347d971b61d374068/video-representations-extractor-1.0.3.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [steam-sdk]: New version: [2024.5.6] Old Version: [2024.5.4]
+[2024-05-17 10:33:48] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [cnl2asp-test]: Downloading https://files.pythonhosted.org/packages/5d/5d/f52c3472429779cf195b569309cbb29242883ea512a60a07c7a6261d4214/cnl2asp_test-3.1.0.post1.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/6d/39/d0a6797db1e4015fdf9444b9d23fa1be21772b61f37ec0830570039cb5c2/web-ui-helper-0.1.0.tar.gz
+[2024-05-17 10:33:48] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/95/65/b759987690865f38d18677d376b34eff088282111b133a764bcd92d6cf22/odoo_addon_stock_quant_manual_assign-16.0.1.0.1.6-py3-none-any.whl
+[2024-05-17 10:33:48] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-17 10:33:48] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240517/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-17 10:33:48] INFO root fetch - processPackages [cnl2asp-test]: executing diffoscope
+[2024-05-17 10:33:48] INFO root fetch - processPackages [cnl2asp-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnl2asp_test-3.1.0.tar.gz tmp/cnl2asp_test-3.1.0.post1.tar.gz --markdown 20240517/c/cnl2asp-test/3.1.0-3.1.0.post1/README.md --exclude *.pyd
+[2024-05-17 10:33:48] INFO root fetch - processPackages [niapy]: Downloading https://files.pythonhosted.org/packages/f8/da/85899e0d115bcef752343f9f6db791d3a4143bea5aaab2d4168801c0a7e7/niapy-2.3.1.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.9.tar.gz tmp/web-ui-helper-0.1.0.tar.gz --markdown 20240517/w/web-ui-helper/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/ce/fd/be8fb70588efb73850ef2c02933b3a23d9be7b703e09ff3d59c3c2193410/steam-sdk-2024.5.4.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [video-representations-extractor]: Downloading https://files.pythonhosted.org/packages/32/16/e24f5fca164437804f6c1e595a6bfb82236aeff73e5dcef18790c0caa462/video-representations-extractor-1.0.4.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [niapy]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [niapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niapy-2.1.0.tar.gz tmp/niapy-2.3.1.tar.gz --markdown 20240517/n/niapy/2.1.0-2.3.1/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240517/t/traceloop-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [video-representations-extractor]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [video-representations-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-representations-extractor-1.0.3.tar.gz tmp/video-representations-extractor-1.0.4.tar.gz --markdown 20240517/v/video-representations-extractor/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/09/79/e04a8a6148ae4b7d2e3973f4d9eff09bb850bee97ac108bbf22a4d420aa7/odoo_addon_stock_quant_manual_assign-16.0.1.1.0-py3-none-any.whl
+[2024-05-17 10:33:49] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/6e/08/6e630cabf7dacbc39b1d1cd9027250c836b1d8992c84797eb9cf72f583e7/steam-sdk-2024.5.6.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-17 10:33:49] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_quant_manual_assign-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_stock_quant_manual_assign-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-stock-quant-manual-assign/16.0.1.0.1.6-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2024.5.4.tar.gz tmp/steam-sdk-2024.5.6.tar.gz --markdown 20240517/s/steam-sdk/2024.5.4-2024.5.6/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [coolbg]: Start processing: MeUtils
+[2024-05-17 10:33:49] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [cnl2asp-test]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp_test-3.1.0.tar.gz]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [cnl2asp-test]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp_test-3.1.0.post1.tar.gz]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [cnl2asp-test]: Start processing: web-ui-helper
+[2024-05-17 10:33:49] INFO root fetch - main [MainThread]: End processing [cnl2asp-test]: success
+[2024-05-17 10:33:49] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.1.0.tar.gz]
+[2024-05-17 10:33:49] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-17 10:33:49] INFO root fetch - processPackages [web-ui-helper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240517/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-17 10:33:49] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240517/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-17 10:33:50] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-17 10:33:50] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240517/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-17 10:33:50] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/22/b3/f44b0540f67738a9fd35a1b6e036fbeb9a1a6508438759d445c065d8a4dd/web-ui-helper-0.1.1.tar.gz
+[2024-05-17 10:33:50] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-05-17 10:33:50] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-05-17 10:33:50] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-05-17 10:33:50] INFO root fetch - processPackages [niapy]: Remove: archive file [/home/abi/fetcher/tmp/niapy-2.1.0.tar.gz]
+[2024-05-17 10:33:50] INFO root fetch - processPackages [niapy]: Remove: archive file [/home/abi/fetcher/tmp/niapy-2.3.1.tar.gz]
+[2024-05-17 10:33:50] INFO root fetch - main [MainThread]: End processing [niapy]: success
+[2024-05-17 10:33:50] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/a1/cc/99d709cdd2e2e4e453a0668ca7dfc748954adef8d07dee1625668f1de1a0/web-ui-helper-0.1.2.tar.gz
+[2024-05-17 10:33:50] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-17 10:33:50] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.1.1.tar.gz tmp/web-ui-helper-0.1.2.tar.gz --markdown 20240517/w/web-ui-helper/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 10:33:50] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_manual_assign-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2024-05-17 10:33:50] INFO root fetch - processPackages [odoo-addon-stock-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_manual_assign-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-17 10:33:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-quant-manual-assign]: success
+[2024-05-17 10:33:50] INFO root fetch - processPackages [video-representations-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video-representations-extractor-1.0.3.tar.gz]
+[2024-05-17 10:33:50] INFO root fetch - processPackages [video-representations-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video-representations-extractor-1.0.4.tar.gz]
+[2024-05-17 10:33:50] INFO root fetch - main [MainThread]: End processing [video-representations-extractor]: success
+[2024-05-17 10:33:51] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.1.1.tar.gz]
+[2024-05-17 10:33:51] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.1.2.tar.gz]
+[2024-05-17 10:33:51] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-17 10:33:51] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.4.tar.gz]
+[2024-05-17 10:33:51] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.6.tar.gz]
+[2024-05-17 10:33:51] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2024-05-17 10:33:51] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.5.tar.gz]
+[2024-05-17 10:33:51] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
+[2024-05-17 10:33:51] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-17 10:33:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-17 10:33:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-17 10:33:52] INFO root fetch - main [MainThread]: Store serial: [23250600]

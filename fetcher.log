@@ -13645,3 +13645,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:58:01] INFO root fetch - processPackages [skt]: Remove: archive file [/home/abi/fetcher/tmp/skt-0.2.99.tar.gz]
 [2024-05-17 06:58:01] INFO root fetch - main [MainThread]: End processing [skt]: success
 [2024-05-17 06:58:01] INFO root fetch - main [MainThread]: Store serial: [23248340]
+[2024-05-17 07:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248340]
+[2024-05-17 07:00:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 07:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: munet
+[2024-05-17 07:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runnable
+[2024-05-17 07:00:11] INFO root fetch - processPackages [runnable]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-17 07:00:12] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-17 07:00:12] INFO root fetch - processPackages [runnable]: Downloading https://files.pythonhosted.org/packages/fd/12/a6987242384f8de219d06560beb703effa7808fb974256653220f5031c0c/runnable-0.9.0.tar.gz
+[2024-05-17 07:00:12] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2024-05-17 07:00:12] INFO root fetch - processPackages [runnable]: Downloading https://files.pythonhosted.org/packages/6d/f2/c89c9ce1844a24b3e073f0f60183f8dbebf2b6e21e472caeb603666786ba/runnable-0.9.1.tar.gz
+[2024-05-17 07:00:12] INFO root fetch - processPackages [runnable]: executing diffoscope
+[2024-05-17 07:00:12] INFO root fetch - processPackages [runnable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runnable-0.9.0.tar.gz tmp/runnable-0.9.1.tar.gz --markdown 20240517/r/runnable/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-17 07:00:12] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2024-05-17 07:00:12] INFO root fetch - processPackages [munet]: executing diffoscope
+[2024-05-17 07:00:12] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20240517/m/munet/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-17 07:00:13] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.0.tar.gz]
+[2024-05-17 07:00:13] INFO root fetch - processPackages [runnable]: Remove: archive file [/home/abi/fetcher/tmp/runnable-0.9.1.tar.gz]
+[2024-05-17 07:00:13] INFO root fetch - main [MainThread]: End processing [runnable]: success
+[2024-05-17 07:00:13] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.8.tar.gz]
+[2024-05-17 07:00:13] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
+[2024-05-17 07:00:13] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2024-05-17 07:00:13] INFO root fetch - main [MainThread]: Store serial: [23248350]

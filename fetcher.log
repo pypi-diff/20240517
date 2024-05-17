@@ -3186,3 +3186,24 @@
 [2024-05-17 03:02:00] INFO root fetch - processPackages [zarr]: Remove: archive file [/home/abi/fetcher/tmp/zarr-2.9.5.tar.gz]
 [2024-05-17 03:02:00] INFO root fetch - main [MainThread]: End processing [zarr]: success
 [2024-05-17 03:02:00] INFO root fetch - main [MainThread]: Store serial: [23244688]
+[2024-05-17 03:04:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244688]
+[2024-05-17 03:04:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 03:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-common
+[2024-05-17 03:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycde
+[2024-05-17 03:04:09] INFO root fetch - processPackages [mns-common]: New version: [1.1.0.8] Old Version: [1.1.0.7]
+[2024-05-17 03:04:09] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev994] Old Version: [0.3.1.dev989]
+[2024-05-17 03:04:09] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/a0/23/804fe1f0d72964cd4b3811d1c04a8a130cd77a40701332253539c15d8cea/mns_common-1.1.0.7.tar.gz
+[2024-05-17 03:04:09] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/a1/40/adb2c1e8f8ff5f10258691b88b10dabeaafd037af1cad5e9ac7582690313/pycde-0.3.1.dev989-cp39-cp39-win_amd64.whl
+[2024-05-17 03:04:09] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/04/24/765602d76f9d2451736adef00d84159fa1854779fd6b3e054da09f7c6d03/mns_common-1.1.0.8.tar.gz
+[2024-05-17 03:04:09] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-17 03:04:09] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.7.tar.gz tmp/mns_common-1.1.0.8.tar.gz --markdown 20240517/m/mns-common/1.1.0.7-1.1.0.8/README.md --exclude *.pyd
+[2024-05-17 03:04:10] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/d3/77/07b6c8df59ce15add5a5ecb8ced80219aaf40a4a9a925a4ec0a7cb9820a7/pycde-0.3.1.dev994-cp39-cp39-win_amd64.whl
+[2024-05-17 03:04:10] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.7.tar.gz]
+[2024-05-17 03:04:10] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.8.tar.gz]
+[2024-05-17 03:04:10] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-17 03:04:11] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2024-05-17 03:04:11] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.3.1.dev989-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.3.1.dev994-cp39-cp39-win_amd64.whl.zip --markdown 20240517/p/pycde/0.3.1.dev989-0.3.1.dev994/README.md --exclude *.pyd
+[2024-05-17 03:05:19] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.3.1.dev989-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 03:05:19] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.3.1.dev994-cp39-cp39-win_amd64.whl.zip]
+[2024-05-17 03:05:19] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2024-05-17 03:05:19] INFO root fetch - main [MainThread]: Store serial: [23244694]

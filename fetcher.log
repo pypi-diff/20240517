@@ -21967,3 +21967,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:54:33] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.9.tar.gz]
 [2024-05-17 11:54:33] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
 [2024-05-17 11:54:33] INFO root fetch - main [MainThread]: Store serial: [23251766]
+[2024-05-17 11:56:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251766]
+[2024-05-17 11:56:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlm-v1.0
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xigua-proxy
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databend-driver
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efootprint
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arborize
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matrix-gptbot
+[2024-05-17 11:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sleeplab-format
+[2024-05-17 11:56:43] INFO root fetch - processPackages [matrix-gptbot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 11:56:43] INFO root fetch - processPackages [xigua-proxy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 11:56:43] INFO root fetch - processPackages [efootprint]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-17 11:56:43] INFO root fetch - processPackages [kfish]: New version: [99.0.202405170954] Old Version: [99.0.202405161153]
+[2024-05-17 11:56:43] WARNING root fetch - processPackages [mlm-v1.0]: Skipping, unable to determine old version
+[2024-05-17 11:56:43] INFO root fetch - main [MainThread]: End processing [mlm-v1.0] error
+[2024-05-17 11:56:43] INFO root fetch - processPackages [arborize]: New version: [4.1.0] Old Version: [4.0.0b6]
+[2024-05-17 11:56:43] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-17 11:56:43] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/d7/32/d681dfe9679a330ec33035a50c701126ddd8222d0218a7eaf134bff2583f/matrix_gptbot-0.3.8.tar.gz
+[2024-05-17 11:56:43] INFO root fetch - processPackages [efootprint]: Downloading https://files.pythonhosted.org/packages/3d/ca/ebe0d1251433b2532f6c289f0a796cb2bd1f46cc307ccb8a9c064865e5b5/efootprint-2.1.2.tar.gz
+[2024-05-17 11:56:44] INFO root fetch - processPackages [sleeplab-format]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-17 11:56:44] INFO root fetch - processPackages [xigua-proxy]: Downloading https://files.pythonhosted.org/packages/4c/c2/93d1b6d96eac44f3dbe70ac59190ef5c8d737bf8dcd702d38b617115928d/xigua_proxy-0.0.1.tar.gz
+[2024-05-17 11:56:44] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/77/ad/6b7b6f8c930faab55587c553518afbedd866891d62f29a31b3289f19c3b3/kfish-99.0.202405161153-py3-none-any.whl
+[2024-05-17 11:56:44] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-05-17 11:56:44] INFO root fetch - processPackages [arborize]: Downloading https://files.pythonhosted.org/packages/72/40/466168ae82e3ae97919efdfa84fed11b505d6a4395edb97bf276abe1b6c0/arborize-4.0.0b6.tar.gz
+[2024-05-17 11:56:44] INFO root fetch - processPackages [sleeplab-format]: Downloading https://files.pythonhosted.org/packages/7b/2f/06e7b3ee4741a6a89c26d3308d8980cb38ffc10b0d5958ff6a223bba6da0/sleeplab_format-0.4.0.tar.gz
+[2024-05-17 11:56:45] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/6c/4a/2439a6a79129802308a126448cca1849029134a6e490258c44e9b81d1ea5/matrix_gptbot-0.3.9.tar.gz
+[2024-05-17 11:56:45] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0a/24/9ab6c5b844d66a196fe97708972d1eb183818e93339063ae09ca37ce1fb9/kfish-99.0.202405170954-py3-none-any.whl
+[2024-05-17 11:56:45] INFO root fetch - processPackages [arborize]: Downloading https://files.pythonhosted.org/packages/31/bd/5fcafc6b46a81d08d4a96902711e5b606d6e6de65f9e510240d0133b111b/arborize-4.1.0.tar.gz
+[2024-05-17 11:56:45] INFO root fetch - processPackages [xigua-proxy]: Downloading https://files.pythonhosted.org/packages/1d/de/a8fa39fce92a4339a30101137008ab71aebf86c36b9cb1b24d05edc3eed6/xigua_proxy-0.0.2.tar.gz
+[2024-05-17 11:56:45] INFO root fetch - processPackages [sleeplab-format]: Downloading https://files.pythonhosted.org/packages/1e/4b/2efabad72858bc4c4103ef55a0271c7f5cd2778f8bd3af9423e1173448a9/sleeplab_format-0.4.1.tar.gz
+[2024-05-17 11:56:45] INFO root fetch - processPackages [matrix-gptbot]: executing diffoscope
+[2024-05-17 11:56:45] INFO root fetch - processPackages [matrix-gptbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_gptbot-0.3.8.tar.gz tmp/matrix_gptbot-0.3.9.tar.gz --markdown 20240517/m/matrix-gptbot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 11:56:45] INFO root fetch - processPackages [efootprint]: Downloading https://files.pythonhosted.org/packages/f7/bd/04519f8ac40c4cf6cf506e4861d9af94092f081c3512c005598e49252f88/efootprint-2.1.3.tar.gz
+[2024-05-17 11:56:45] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-17 11:56:45] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405161153-py3-none-any.whl.zip tmp/kfish-99.0.202405170954-py3-none-any.whl.zip --markdown 20240517/k/kfish/99.0.202405161153-99.0.202405170954/README.md --exclude *.pyd
+[2024-05-17 11:56:45] INFO root fetch - processPackages [xigua-proxy]: executing diffoscope
+[2024-05-17 11:56:45] INFO root fetch - processPackages [xigua-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xigua_proxy-0.0.1.tar.gz tmp/xigua_proxy-0.0.2.tar.gz --markdown 20240517/x/xigua-proxy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-17 11:56:45] INFO root fetch - processPackages [arborize]: executing diffoscope
+[2024-05-17 11:56:45] INFO root fetch - processPackages [arborize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arborize-4.0.0b6.tar.gz tmp/arborize-4.1.0.tar.gz --markdown 20240517/a/arborize/4.0.0b6-4.1.0/README.md --exclude *.pyd
+[2024-05-17 11:56:45] INFO root fetch - processPackages [efootprint]: executing diffoscope
+[2024-05-17 11:56:45] INFO root fetch - processPackages [efootprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efootprint-2.1.2.tar.gz tmp/efootprint-2.1.3.tar.gz --markdown 20240517/e/efootprint/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-17 11:56:45] INFO root fetch - processPackages [sleeplab-format]: executing diffoscope
+[2024-05-17 11:56:45] INFO root fetch - processPackages [sleeplab-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleeplab_format-0.4.0.tar.gz tmp/sleeplab_format-0.4.1.tar.gz --markdown 20240517/s/sleeplab-format/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-17 11:56:46] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-05-17 11:56:46] INFO root fetch - processPackages [xigua-proxy]: Remove: archive file [/home/abi/fetcher/tmp/xigua_proxy-0.0.1.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [xigua-proxy]: Remove: archive file [/home/abi/fetcher/tmp/xigua_proxy-0.0.2.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - main [MainThread]: End processing [xigua-proxy]: success
+[2024-05-17 11:56:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405161153-py3-none-any.whl.zip]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405170954-py3-none-any.whl.zip]
+[2024-05-17 11:56:46] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-17 11:56:46] INFO root fetch - processPackages [arborize]: Remove: archive file [/home/abi/fetcher/tmp/arborize-4.0.0b6.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [arborize]: Remove: archive file [/home/abi/fetcher/tmp/arborize-4.1.0.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - main [MainThread]: End processing [arborize]: success
+[2024-05-17 11:56:46] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-05-17 11:56:46] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240517/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-17 11:56:46] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.8.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [efootprint]: Remove: archive file [/home/abi/fetcher/tmp/efootprint-2.1.2.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.9.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [efootprint]: Remove: archive file [/home/abi/fetcher/tmp/efootprint-2.1.3.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - main [MainThread]: End processing [matrix-gptbot]: success
+[2024-05-17 11:56:46] INFO root fetch - main [MainThread]: End processing [efootprint]: success
+[2024-05-17 11:56:46] INFO root fetch - processPackages [sleeplab-format]: Remove: archive file [/home/abi/fetcher/tmp/sleeplab_format-0.4.0.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - processPackages [sleeplab-format]: Remove: archive file [/home/abi/fetcher/tmp/sleeplab_format-0.4.1.tar.gz]
+[2024-05-17 11:56:46] INFO root fetch - main [MainThread]: End processing [sleeplab-format]: success
+[2024-05-17 11:56:47] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-05-17 11:56:47] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-05-17 11:56:47] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-05-17 11:56:47] INFO root fetch - main [MainThread]: Store serial: [23251796]

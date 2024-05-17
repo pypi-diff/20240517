@@ -17389,3 +17389,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:19:40] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-05-17 09:19:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-05-17 09:19:40] INFO root fetch - main [MainThread]: Store serial: [23249745]
+[2024-05-17 09:21:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249745]
+[2024-05-17 09:21:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: url-obfuscated
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-ws-chat
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-spotinst
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-snowflake
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-tailscale
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-tingwu
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-tls
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-venafi
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: georeader-spaceml
+[2024-05-17 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autotuning_methodology
+[2024-05-17 09:21:51] INFO root fetch - processPackages [autotuning_methodology]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [autotuning_methodology]: Downloading https://files.pythonhosted.org/packages/65/87/09b6a600bdb9b63e3d290e416e36bde9ef408682beb84dc9a1f4b2e681e7/autotuning_methodology-1.0.0b2.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-17 09:21:51] WARNING root fetch - processPackages [jupyterlab-ws-chat]: Skipping, unable to determine old version
+[2024-05-17 09:21:51] INFO root fetch - processPackages [jupyterlab-ws-chat]: Start processing: pulumi-wavefront
+[2024-05-17 09:21:51] INFO root fetch - main [MainThread]: End processing [jupyterlab-ws-chat] error
+[2024-05-17 09:21:51] INFO root fetch - processPackages [url-obfuscated]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [georeader-spaceml]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1715929182] Old Version: [5.1.0a1715765706]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1715929422] Old Version: [3.2.0a1715766625]
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Downloading https://files.pythonhosted.org/packages/e8/1a/e08117dd464fcf9428e93710e678774a4d934a024cd8dc6fe55571669fd3/aliyun-python-sdk-tingwu-1.0.6.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [url-obfuscated]: Downloading https://files.pythonhosted.org/packages/b8/1e/7ec60095682039fb9b4cd128e94da450628e6c4d84f420e1ff047dfc4f4d/url-obfuscated-0.0.1.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/fb/6a/e4a06f007ab9d4bea52cfb29ae3bf00837fd4dd5d3c8bd2a837065c4d6d0/pulumi_tls-5.1.0a1715765706.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [georeader-spaceml]: Downloading https://files.pythonhosted.org/packages/5e/39/611574e928f7f608efddf16d797916a882be07311252a83fcea138687004/georeader-spaceml-1.1.1.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/e9/db/b6788c4f7bfaa7f402fc5a01d077f4499b9cc59d5c4399e45ea6b2618709/pulumi_wavefront-3.2.0a1715766625.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [autotuning_methodology]: Downloading https://files.pythonhosted.org/packages/d8/04/9461195fecb61a36dd02a474ee5c298ffd838f1fc1b5a829880a1fe46880/autotuning_methodology-1.0.0b3.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Downloading https://files.pythonhosted.org/packages/36/6a/35af3919a1ec663efe828061b922c97523148e9c36c80de4be7a9b844d6b/aliyun-python-sdk-tingwu-1.0.7.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [url-obfuscated]: Downloading https://files.pythonhosted.org/packages/e0/0a/a44e7a1bfb867b2d26a60275d88c0c10df5dbde32e0266004dfed4eb0e43/url-obfuscated-1.0.0.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [autotuning_methodology]: executing diffoscope
+[2024-05-17 09:21:51] INFO root fetch - processPackages [autotuning_methodology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotuning_methodology-1.0.0b2.tar.gz tmp/autotuning_methodology-1.0.0b3.tar.gz --markdown 20240517/a/autotuning_methodology/1.0.0b2-1.0.0b3/README.md --exclude *.pyd
+[2024-05-17 09:21:51] INFO root fetch - processPackages [georeader-spaceml]: Downloading https://files.pythonhosted.org/packages/84/db/3d0815a4044da37d58ce06ab30137340689bb42c42b09aa1dc912f05b9c8/georeader-spaceml-1.1.2.tar.gz
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240517/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-17 09:21:51] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/fb/8f/45346687441bf10566999aef68ed6870726eb6817a89642465ced816b30d/pulumi_tls-5.1.0a1715929182.tar.gz
+[2024-05-17 09:21:52] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-tingwu-1.0.6.tar.gz tmp/aliyun-python-sdk-tingwu-1.0.7.tar.gz --markdown 20240517/a/aliyun-python-sdk-tingwu/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/77/39/66845821d93e5f2090de4dadb1580f06a7b6b0432e0e553129713a0123e6/pulumi_wavefront-3.2.0a1715929422.tar.gz
+[2024-05-17 09:21:52] INFO root fetch - processPackages [url-obfuscated]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [url-obfuscated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url-obfuscated-0.0.1.tar.gz tmp/url-obfuscated-1.0.0.tar.gz --markdown 20240517/u/url-obfuscated/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240517/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [georeader-spaceml]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [georeader-spaceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georeader-spaceml-1.1.1.tar.gz tmp/georeader-spaceml-1.1.2.tar.gz --markdown 20240517/g/georeader-spaceml/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240517/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1715765706.tar.gz tmp/pulumi_tls-5.1.0a1715929182.tar.gz --markdown 20240517/p/pulumi-tls/5.1.0a1715765706-5.1.0a1715929182/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1715766625.tar.gz tmp/pulumi_wavefront-3.2.0a1715929422.tar.gz --markdown 20240517/p/pulumi-wavefront/3.2.0a1715766625-3.2.0a1715929422/README.md --exclude *.pyd
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-17 09:21:52] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240517/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-venafi]: Start processing: MASSIVEChem
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [MASSIVEChem]: New version: [3.3] Old Version: [3.2]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tingwu-1.0.6.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tingwu-1.0.7.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Start processing: xinference
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-tingwu]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [url-obfuscated]: Remove: archive file [/home/abi/fetcher/tmp/url-obfuscated-0.0.1.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [url-obfuscated]: Remove: archive file [/home/abi/fetcher/tmp/url-obfuscated-1.0.0.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715765706.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [url-obfuscated]: Start processing: pywindmill
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [url-obfuscated]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715929182.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/2a/de/07ad446cadd478619a49720455cf65527ec2a92a618dd05ced815aadf30e/massivechem-3.2.tar.gz
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-tls]: Start processing: pulumi-sumologic
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pywindmill]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [georeader-spaceml]: Remove: archive file [/home/abi/fetcher/tmp/georeader-spaceml-1.1.1.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [georeader-spaceml]: Remove: archive file [/home/abi/fetcher/tmp/georeader-spaceml-1.1.2.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [georeader-spaceml]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715766625.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715929422.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pywindmill]: Downloading https://files.pythonhosted.org/packages/cb/ec/e9a97b087bee6f10d43692db8f7d9fd6a8c1b0239fd4e5456f630e7d3412/pywindmill-1.0.0.1-py3-none-any.whl
+[2024-05-17 09:21:53] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-17 09:21:53] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/85/5a/d1a6a9d24d1766b2e291b168d72acabf3536c8864660df9719ebf502bfbc/massivechem-3.3.tar.gz
+[2024-05-17 09:21:53] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-05-17 09:21:53] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-17 09:21:53] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-3.2.tar.gz tmp/massivechem-3.3.tar.gz --markdown 20240517/M/MASSIVEChem/3.2-3.3/README.md --exclude *.pyd
+[2024-05-17 09:21:53] INFO root fetch - processPackages [pywindmill]: Downloading https://files.pythonhosted.org/packages/9c/81/871a2697f77d78534cda775bac87e81b9140aea199b001f70945c023a4b9/pywindmill-1.0.0.2-py3-none-any.whl
+[2024-05-17 09:21:53] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b2.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b3.tar.gz]
+[2024-05-17 09:21:53] INFO root fetch - main [MainThread]: End processing [autotuning_methodology]: success
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pywindmill]: executing diffoscope
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pywindmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywindmill-1.0.0.1-py3-none-any.whl.zip tmp/pywindmill-1.0.0.2-py3-none-any.whl.zip --markdown 20240517/p/pywindmill/1.0.0.1-1.0.0.2/README.md --exclude *.pyd
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240517/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-17 09:21:54] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.2.tar.gz]
+[2024-05-17 09:21:54] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.3.tar.gz]
+[2024-05-17 09:21:54] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pywindmill]: Remove: archive file [/home/abi/fetcher/tmp/pywindmill-1.0.0.1-py3-none-any.whl.zip]
+[2024-05-17 09:21:54] INFO root fetch - processPackages [pywindmill]: Remove: archive file [/home/abi/fetcher/tmp/pywindmill-1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 09:21:54] INFO root fetch - main [MainThread]: End processing [pywindmill]: success
+[2024-05-17 09:21:55] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-17 09:21:55] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-17 09:21:55] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-17 09:21:55] INFO root fetch - main [MainThread]: Store serial: [23249794]

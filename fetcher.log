@@ -20965,3 +20965,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:24:50] INFO root fetch - processPackages [django-allauth]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-0.9.0.tar.gz]
 [2024-05-17 11:24:50] INFO root fetch - main [MainThread]: End processing [django-allauth]: success
 [2024-05-17 11:24:50] INFO root fetch - main [MainThread]: Store serial: [23251325]
+[2024-05-17 11:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251325]
+[2024-05-17 11:27:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindgard
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RetrieverVectorDB
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dja-sepp
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkglts
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bsphud
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optimum-benchmark
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbrython-execution
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agit
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plutobook
+[2024-05-17 11:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mteb
+[2024-05-17 11:27:05] INFO root fetch - processPackages [agit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 11:27:05] INFO root fetch - processPackages [RetrieverVectorDB]: New version: [0.2] Old Version: [0.1]
+[2024-05-17 11:27:05] WARNING root fetch - processPackages [dja-sepp]: Skipping, unable to determine old version
+[2024-05-17 11:27:05] INFO root fetch - processPackages [dja-sepp]: Start processing: tfrecord-slow
+[2024-05-17 11:27:05] INFO root fetch - main [MainThread]: End processing [dja-sepp] error
+[2024-05-17 11:27:05] INFO root fetch - processPackages [mindgard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 11:27:05] WARNING root fetch - processPackages [optimum-benchmark]: Skipping, unable to determine old version
+[2024-05-17 11:27:05] INFO root fetch - main [MainThread]: End processing [optimum-benchmark] error
+[2024-05-17 11:27:05] INFO root fetch - processPackages [plutobook]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-05-17 11:27:05] INFO root fetch - processPackages [bsphud]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 11:27:05] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-17 11:27:05] WARNING root fetch - processPackages [cbrython-execution]: Skipping, unable to determine old version
+[2024-05-17 11:27:05] INFO root fetch - main [MainThread]: End processing [cbrython-execution] error
+[2024-05-17 11:27:05] INFO root fetch - processPackages [pkglts]: New version: [7.3.0] Old Version: [7.2.0]
+[2024-05-17 11:27:05] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/9c/b1/49266284532823bcff62b68da03adcba0ce12145cfedf619217e68b90784/mindgard-0.8.0.tar.gz
+[2024-05-17 11:27:05] INFO root fetch - processPackages [bsphud]: Downloading https://files.pythonhosted.org/packages/92/66/067cb8fcba2259ccf042b4c292c1e552d8e53d97219b4dfc7728af5e3311/bsphud-1.0.1.tar.gz
+[2024-05-17 11:27:05] INFO root fetch - processPackages [tfrecord-slow]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-17 11:27:05] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-17 11:27:05] INFO root fetch - processPackages [RetrieverVectorDB]: Downloading https://files.pythonhosted.org/packages/1d/94/4f778733914e79eeb7a78181b48de6a2e5fdb5b486bc24b95999710e5fde/RetrieverVectorDB-0.1.tar.gz
+[2024-05-17 11:27:05] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/8e/35/84e9bd83f61584d50d2835f5305579d1de65e01385e73fb4b7ce38c3eaea/agit-0.1.8.tar.gz
+[2024-05-17 11:27:05] INFO root fetch - processPackages [plutobook]: Downloading https://files.pythonhosted.org/packages/95/12/3ee9c55a5727bf6cc5e4537744d93f553e0cec5b71362482fcd39160f17c/plutobook-0.0.16-cp312-cp312-win_amd64.whl
+[2024-05-17 11:27:05] INFO root fetch - processPackages [pkglts]: Downloading https://files.pythonhosted.org/packages/e3/9a/50b9f85bb7ff023dda2f9d49eebae39ecbfe4d2f12f7ab586f1f9695a09c/pkglts-7.2.0.tar.gz
+[2024-05-17 11:27:05] WARNING root fetch - processPackages [plutobook]: Skipping package: exceeds size limit 21067264>=10485760
+[2024-05-17 11:27:05] INFO root fetch - main [MainThread]: End processing [plutobook] error
+[2024-05-17 11:27:05] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/7e/4c/bb9faf41e10e5a437ec67dc4bb056e2c3bbe467aafa2590996fdefa61786/tfrecord_slow-0.5.1.tar.gz
+[2024-05-17 11:27:05] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/3d/46/43c1e357331fd69e429226f32578c8023c748ab62ec8721f3c7388d325b1/mindgard-0.9.0.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [bsphud]: Downloading https://files.pythonhosted.org/packages/c1/4a/72ff9197d12183c4874f2903b270546c1bfca2de5ae61b9bd7f95821c900/bsphud-1.0.2.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mindgard]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mindgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindgard-0.8.0.tar.gz tmp/mindgard-0.9.0.tar.gz --markdown 20240517/m/mindgard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [RetrieverVectorDB]: Downloading https://files.pythonhosted.org/packages/46/2c/5ee3779e4f6ffec60819c554d7ed5f2d163b5f4f8c56b210bde80a4436fc/RetrieverVectorDB-0.2.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/60/33/b2bf26349fba7328d66c4a5b6fd237c552d1830b8eff1e2aa7cf9aab1d1f/agit-0.1.9.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [bsphud]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [bsphud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsphud-1.0.1.tar.gz tmp/bsphud-1.0.2.tar.gz --markdown 20240517/b/bsphud/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [agit]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [agit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agit-0.1.8.tar.gz tmp/agit-0.1.9.tar.gz --markdown 20240517/a/agit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [RetrieverVectorDB]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [RetrieverVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RetrieverVectorDB-0.1.tar.gz tmp/RetrieverVectorDB-0.2.tar.gz --markdown 20240517/R/RetrieverVectorDB/0.1-0.2/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240517/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/ca/7b/98b2af77671c3978d7e5600aa44fb25ce1c4a96dbcd32d7ec9066b993ff1/tfrecord_slow-0.6.0.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [pkglts]: Downloading https://files.pythonhosted.org/packages/ef/90/dfd5ea35181d7ae0fdabb79078034bc1e3fd58ce1c1ce866fabe173faa23/pkglts-7.3.0.tar.gz
+[2024-05-17 11:27:06] INFO root fetch - processPackages [tfrecord-slow]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [tfrecord-slow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecord_slow-0.5.1.tar.gz tmp/tfrecord_slow-0.6.0.tar.gz --markdown 20240517/t/tfrecord-slow/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [pkglts]: executing diffoscope
+[2024-05-17 11:27:06] INFO root fetch - processPackages [pkglts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglts-7.2.0.tar.gz tmp/pkglts-7.3.0.tar.gz --markdown 20240517/p/pkglts/7.2.0-7.3.0/README.md --exclude *.pyd
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.8.0.tar.gz]
+[2024-05-17 11:27:06] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.9.0.tar.gz]
+[2024-05-17 11:27:06] INFO root fetch - main [MainThread]: End processing [mindgard]: success
+[2024-05-17 11:27:06] INFO root fetch - processPackages [RetrieverVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/RetrieverVectorDB-0.1.tar.gz]
+[2024-05-17 11:27:06] INFO root fetch - processPackages [RetrieverVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/RetrieverVectorDB-0.2.tar.gz]
+[2024-05-17 11:27:06] INFO root fetch - main [MainThread]: End processing [RetrieverVectorDB]: success
+[2024-05-17 11:27:06] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.8.tar.gz]
+[2024-05-17 11:27:06] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.9.tar.gz]
+[2024-05-17 11:27:06] INFO root fetch - main [MainThread]: End processing [agit]: success
+[2024-05-17 11:27:07] INFO root fetch - processPackages [bsphud]: Remove: archive file [/home/abi/fetcher/tmp/bsphud-1.0.1.tar.gz]
+[2024-05-17 11:27:07] INFO root fetch - processPackages [bsphud]: Remove: archive file [/home/abi/fetcher/tmp/bsphud-1.0.2.tar.gz]
+[2024-05-17 11:27:07] INFO root fetch - main [MainThread]: End processing [bsphud]: success
+[2024-05-17 11:27:07] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.5.1.tar.gz]
+[2024-05-17 11:27:07] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.6.0.tar.gz]
+[2024-05-17 11:27:07] INFO root fetch - main [MainThread]: End processing [tfrecord-slow]: success
+[2024-05-17 11:27:08] INFO root fetch - processPackages [pkglts]: Remove: archive file [/home/abi/fetcher/tmp/pkglts-7.2.0.tar.gz]
+[2024-05-17 11:27:08] INFO root fetch - processPackages [pkglts]: Remove: archive file [/home/abi/fetcher/tmp/pkglts-7.3.0.tar.gz]
+[2024-05-17 11:27:08] INFO root fetch - main [MainThread]: End processing [pkglts]: success
+[2024-05-17 11:27:09] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-17 11:27:09] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-17 11:27:09] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-17 11:27:09] INFO root fetch - main [MainThread]: Store serial: [23251361]

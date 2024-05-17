@@ -12476,3 +12476,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:34:52] INFO root fetch - processPackages [cdict]: Remove: archive file [/home/abi/fetcher/tmp/cdict-2.1.4.tar.gz]
 [2024-05-17 05:34:52] INFO root fetch - main [MainThread]: End processing [cdict]: success
 [2024-05-17 05:34:52] INFO root fetch - main [MainThread]: Store serial: [23247843]
+[2024-05-17 05:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247843]
+[2024-05-17 05:37:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdict
+[2024-05-17 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zorch
+[2024-05-17 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zorch
+[2024-05-17 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zorch
+[2024-05-17 05:37:01] WARNING root fetch - processPackages [zorch]: Skipping, unable to determine old version
+[2024-05-17 05:37:01] INFO root fetch - main [MainThread]: End processing [zorch] error
+[2024-05-17 05:37:01] WARNING root fetch - processPackages [zorch]: Skipping, unable to determine old version
+[2024-05-17 05:37:01] INFO root fetch - main [MainThread]: End processing [zorch] error
+[2024-05-17 05:37:01] WARNING root fetch - processPackages [zorch]: Skipping, unable to determine old version
+[2024-05-17 05:37:01] INFO root fetch - main [MainThread]: End processing [zorch] error
+[2024-05-17 05:37:01] INFO root fetch - processPackages [cdict]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-17 05:37:01] INFO root fetch - processPackages [cdict]: Downloading https://files.pythonhosted.org/packages/85/84/946e0281b55765673b2aa70f4be0836f1cf851d8f296e4ce3c7f9fa5f13c/cdict-2.1.3.tar.gz
+[2024-05-17 05:37:01] INFO root fetch - processPackages [cdict]: Downloading https://files.pythonhosted.org/packages/04/05/0b86125f1f19f50ca7dedbb0bb6630d5a40bc12bb6d1bd36f9264e682e14/cdict-2.1.4.tar.gz
+[2024-05-17 05:37:01] INFO root fetch - processPackages [cdict]: executing diffoscope
+[2024-05-17 05:37:01] INFO root fetch - processPackages [cdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdict-2.1.3.tar.gz tmp/cdict-2.1.4.tar.gz --markdown 20240517/c/cdict/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-17 05:37:02] INFO root fetch - processPackages [cdict]: Remove: archive file [/home/abi/fetcher/tmp/cdict-2.1.3.tar.gz]
+[2024-05-17 05:37:02] INFO root fetch - processPackages [cdict]: Remove: archive file [/home/abi/fetcher/tmp/cdict-2.1.4.tar.gz]
+[2024-05-17 05:37:02] INFO root fetch - main [MainThread]: End processing [cdict]: success
+[2024-05-17 05:37:02] INFO root fetch - main [MainThread]: Store serial: [23247854]

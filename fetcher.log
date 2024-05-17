@@ -13532,3 +13532,42 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:51:30] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
 [2024-05-17 06:51:30] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
 [2024-05-17 06:51:30] INFO root fetch - main [MainThread]: Store serial: [23248304]
+[2024-05-17 06:53:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248304]
+[2024-05-17 06:53:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 06:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq-cli
+[2024-05-17 06:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-05-17 06:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: globalcache
+[2024-05-17 06:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-es-payment-order-confirming-sabadell
+[2024-05-17 06:53:39] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-17 06:53:39] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 06:53:39] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Downloading https://files.pythonhosted.org/packages/23/87/9a9825c897ba77580774a92816766c8c2a7e8e4a471ab2a6cf51843f6b4f/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-17 06:53:39] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-17 06:53:39] INFO root fetch - processPackages [globalcache]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-17 06:53:39] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 06:53:39] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/77/12/f6085cb5e734b498bd4d377cfdb7d3cdd34a549ffc12b4b1f7827608c086/pyqqq_cli-0.3.0.tar.gz
+[2024-05-17 06:53:39] INFO root fetch - processPackages [globalcache]: Downloading https://files.pythonhosted.org/packages/52/49/4946e0dc008d1c986d38d7ca03eddba315e9cedcba145ffcb6a1f7fc9529/globalcache-0.2.0.tar.gz
+[2024-05-17 06:53:39] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Downloading https://files.pythonhosted.org/packages/4b/7f/44cd72d9805b386046e177c29a689267fad0bb7e35025438a10294b3ccf1/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-17 06:53:39] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 06:53:39] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 06:53:39] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 06:53:39] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: executing diffoscope
+[2024-05-17 06:53:39] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-l10n-es-payment-order-confirming-sabadell/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-17 06:53:39] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/b3/10/1c6b9766e03b9c97325a1a142b8cf866c71189ca04c96f416721254f243e/pyqqq_cli-0.3.1.tar.gz
+[2024-05-17 06:53:40] INFO root fetch - processPackages [globalcache]: Downloading https://files.pythonhosted.org/packages/18/95/bc30874437299698f72374e710ca282e1e3b119ed8df0684511e84913965/globalcache-0.2.1.tar.gz
+[2024-05-17 06:53:40] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-05-17 06:53:40] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.3.0.tar.gz tmp/pyqqq_cli-0.3.1.tar.gz --markdown 20240517/p/pyqqq-cli/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-17 06:53:40] INFO root fetch - processPackages [globalcache]: executing diffoscope
+[2024-05-17 06:53:40] INFO root fetch - processPackages [globalcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalcache-0.2.0.tar.gz tmp/globalcache-0.2.1.tar.gz --markdown 20240517/g/globalcache/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 06:53:40] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-17 06:53:40] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-17 06:53:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-payment-order-confirming-sabadell]: success
+[2024-05-17 06:53:40] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 06:53:40] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 06:53:40] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 06:53:40] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.3.0.tar.gz]
+[2024-05-17 06:53:40] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.3.1.tar.gz]
+[2024-05-17 06:53:40] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-05-17 06:53:40] INFO root fetch - processPackages [globalcache]: Remove: archive file [/home/abi/fetcher/tmp/globalcache-0.2.0.tar.gz]
+[2024-05-17 06:53:40] INFO root fetch - processPackages [globalcache]: Remove: archive file [/home/abi/fetcher/tmp/globalcache-0.2.1.tar.gz]
+[2024-05-17 06:53:40] INFO root fetch - main [MainThread]: End processing [globalcache]: success
+[2024-05-17 06:53:40] INFO root fetch - main [MainThread]: Store serial: [23248316]

@@ -10797,3 +10797,52 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 03:52:01] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.3.tar.gz]
 [2024-05-17 03:52:01] INFO root fetch - main [MainThread]: End processing [vbpy]: success
 [2024-05-17 03:52:01] INFO root fetch - main [MainThread]: Store serial: [23247264]
+[2024-05-17 03:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247264]
+[2024-05-17 03:54:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanqueue
+[2024-05-17 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelmerge
+[2024-05-17 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abcli
+[2024-05-17 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abcli
+[2024-05-17 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpg-workflows
+[2024-05-17 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jgtml
+[2024-05-17 03:54:10] INFO root fetch - processPackages [modelmerge]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-17 03:54:10] INFO root fetch - processPackages [jgtml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 03:54:10] INFO root fetch - processPackages [abcli]: New version: [8.164.1] Old Version: [8.163.1]
+[2024-05-17 03:54:10] INFO root fetch - processPackages [abcli]: New version: [8.164.1] Old Version: [8.163.1]
+[2024-05-17 03:54:10] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-17 03:54:10] WARNING root fetch - processPackages [beanqueue]: Skipping, unable to determine old version
+[2024-05-17 03:54:10] INFO root fetch - main [MainThread]: End processing [beanqueue] error
+[2024-05-17 03:54:10] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/2c/24/7f3fb66cd91e2e4ceb21a024a10aba8f5ba6561eb4b9b8c4c961055b929b/modelmerge-0.4.0.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/24/aa/db47d03e50f3ded4102b246ebd27aec21b7deedbe9e4624a24644f7a7392/jgtml-0.0.8.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7c/90/84301b959ac6d36df06a47914ed72028dd322ce98b182c5c22e0217236b4/abcli-8.163.1.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7c/90/84301b959ac6d36df06a47914ed72028dd322ce98b182c5c22e0217236b4/abcli-8.163.1.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/12/f5/435d6d259546ba6a9a515dc4a6d6557949bddfacfb511697a4b47fb54f89/jgtml-0.0.9.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/ba/53/ac97bc4ee1b351ccb8f0378bc76d0f04a5b548611594f06764d6771a1198/modelmerge-0.4.1.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [jgtml]: executing diffoscope
+[2024-05-17 03:54:10] INFO root fetch - processPackages [jgtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtml-0.0.8.tar.gz tmp/jgtml-0.0.9.tar.gz --markdown 20240517/j/jgtml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 03:54:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7e/b5/afe64461b90bc473f011b5d6fd179ba39530c8a516d60b6c79f2c9c9180f/abcli-8.164.1.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7e/b5/afe64461b90bc473f011b5d6fd179ba39530c8a516d60b6c79f2c9c9180f/abcli-8.164.1.tar.gz
+[2024-05-17 03:54:10] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-17 03:54:10] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.4.0.tar.gz tmp/modelmerge-0.4.1.tar.gz --markdown 20240517/m/modelmerge/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-17 03:54:10] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-17 03:54:11] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-17 03:54:11] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240517/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-17 03:54:11] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-17 03:54:11] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.163.1.tar.gz tmp/abcli-8.164.1.tar.gz --markdown 20240517/a/abcli/8.163.1-8.164.1/README.md --exclude *.pyd
+[2024-05-17 03:54:11] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-17 03:54:11] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.163.1.tar.gz tmp/abcli-8.164.1.tar.gz --markdown 20240517/a/abcli/8.163.1-8.164.1/README.md --exclude *.pyd
+[2024-05-17 03:54:11] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.8.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.9.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [jgtml]: success
+[2024-05-17 03:54:11] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.4.0.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.4.1.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-17 03:54:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.163.1.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.164.1.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-17 03:54:11] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-17 03:54:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-17 03:54:11] INFO root fetch - main [MainThread]: Store serial: [23247285]

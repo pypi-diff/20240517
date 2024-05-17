@@ -16054,3 +16054,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:46:21] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
 [2024-05-17 08:46:21] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2024-05-17 08:46:21] INFO root fetch - main [MainThread]: Store serial: [23249282]
+[2024-05-17 08:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249282]
+[2024-05-17 08:48:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packaging-demo-avr
+[2024-05-17 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-wallet-pay
+[2024-05-17 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: t4_geom_convert
+[2024-05-17 08:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fortigate-api
+[2024-05-17 08:48:30] INFO root fetch - processPackages [telegram-wallet-pay]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-17 08:48:30] WARNING root fetch - processPackages [packaging-demo-avr]: Skipping, unable to determine old version
+[2024-05-17 08:48:30] INFO root fetch - main [MainThread]: End processing [packaging-demo-avr] error
+[2024-05-17 08:48:30] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/19/10/10f9fad90609d7b559dbac0468d6eec3c0a7370db14e1f473e7e09142d8a/telegram_wallet_pay-0.6.0.tar.gz
+[2024-05-17 08:48:30] INFO root fetch - processPackages [fortigate-api]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-17 08:48:30] INFO root fetch - processPackages [t4_geom_convert]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-17 08:48:30] INFO root fetch - processPackages [t4_geom_convert]: Downloading https://files.pythonhosted.org/packages/ce/f9/69bb49d8c51dcd6019ce118ebfce7fbeffcbab85fcd6b5d2e7daf441bc81/t4_geom_convert-1.0.0.tar.gz
+[2024-05-17 08:48:30] INFO root fetch - processPackages [fortigate-api]: Downloading https://files.pythonhosted.org/packages/fd/ba/b1a7ad01b9891b2cd76a3b97a5800e3b0f4d7cd8732527882c1208703883/fortigate_api-2.0.1.tar.gz
+[2024-05-17 08:48:30] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/6c/64/4aa6de6c3defbf9a54059dcd37b2dcb6e1368827b79a2cfd0e359a3a58cf/telegram_wallet_pay-0.7.0.tar.gz
+[2024-05-17 08:48:30] INFO root fetch - processPackages [telegram-wallet-pay]: executing diffoscope
+[2024-05-17 08:48:30] INFO root fetch - processPackages [telegram-wallet-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_wallet_pay-0.6.0.tar.gz tmp/telegram_wallet_pay-0.7.0.tar.gz --markdown 20240517/t/telegram-wallet-pay/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-17 08:48:31] INFO root fetch - processPackages [t4_geom_convert]: Downloading https://files.pythonhosted.org/packages/db/94/66eaec7881fb8a87f12c6ff87798656a22eaefed60a608fce4ace9aaade9/t4_geom_convert-1.1.0.tar.gz
+[2024-05-17 08:48:31] INFO root fetch - processPackages [fortigate-api]: Downloading https://files.pythonhosted.org/packages/cf/38/73928831e9bc6fcd79c23fda6e35313f81071c07794816a451cc7d64e704/fortigate_api-2.0.2.tar.gz
+[2024-05-17 08:48:31] INFO root fetch - processPackages [t4_geom_convert]: executing diffoscope
+[2024-05-17 08:48:31] INFO root fetch - processPackages [t4_geom_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4_geom_convert-1.0.0.tar.gz tmp/t4_geom_convert-1.1.0.tar.gz --markdown 20240517/t/t4_geom_convert/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-17 08:48:31] INFO root fetch - processPackages [fortigate-api]: executing diffoscope
+[2024-05-17 08:48:31] INFO root fetch - processPackages [fortigate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortigate_api-2.0.1.tar.gz tmp/fortigate_api-2.0.2.tar.gz --markdown 20240517/f/fortigate-api/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-17 08:48:31] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.6.0.tar.gz]
+[2024-05-17 08:48:31] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.7.0.tar.gz]
+[2024-05-17 08:48:31] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
+[2024-05-17 08:48:32] INFO root fetch - processPackages [t4_geom_convert]: Remove: archive file [/home/abi/fetcher/tmp/t4_geom_convert-1.0.0.tar.gz]
+[2024-05-17 08:48:32] INFO root fetch - processPackages [t4_geom_convert]: Remove: archive file [/home/abi/fetcher/tmp/t4_geom_convert-1.1.0.tar.gz]
+[2024-05-17 08:48:32] INFO root fetch - main [MainThread]: End processing [t4_geom_convert]: success
+[2024-05-17 08:48:34] INFO root fetch - processPackages [fortigate-api]: Remove: archive file [/home/abi/fetcher/tmp/fortigate_api-2.0.1.tar.gz]
+[2024-05-17 08:48:34] INFO root fetch - processPackages [fortigate-api]: Remove: archive file [/home/abi/fetcher/tmp/fortigate_api-2.0.2.tar.gz]
+[2024-05-17 08:48:34] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
+[2024-05-17 08:48:34] INFO root fetch - main [MainThread]: Store serial: [23249294]

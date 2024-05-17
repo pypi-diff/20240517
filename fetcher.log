@@ -11738,3 +11738,36 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:48:16] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-17 04:48:16] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-17 04:48:16] INFO root fetch - main [MainThread]: Store serial: [23247563]
+[2024-05-17 04:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247563]
+[2024-05-17 04:50:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 04:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abses
+[2024-05-17 04:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtorrent-rpc
+[2024-05-17 04:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demeterchain
+[2024-05-17 04:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pixee
+[2024-05-17 04:50:25] INFO root fetch - processPackages [abses]: New version: [0.6.4.post0] Old Version: [0.6.4]
+[2024-05-17 04:50:25] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.6.4] Old Version: [0.6.2]
+[2024-05-17 04:50:25] INFO root fetch - processPackages [pixee]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 04:50:25] ERROR root fetch - processPackages [demeterchain]: Unable to get metadata: No such project 'demeterchain'
+[2024-05-17 04:50:25] INFO root fetch - main [MainThread]: End processing [demeterchain] error
+[2024-05-17 04:50:25] INFO root fetch - processPackages [abses]: Downloading https://files.pythonhosted.org/packages/71/d0/3304a479cd78292d6ad9362977d141ef5f0b5e9c6539f3e68e1465ad0636/abses-0.6.4.tar.gz
+[2024-05-17 04:50:25] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/5b/a4/8c064a30b0083dcebd2d71f8bf2f4e0fef1b1a448bfb9d2b6e3ae03b70bb/pixee-0.8.8.tar.gz
+[2024-05-17 04:50:25] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/02/ed/e7e41dd6e42a9f507ba9e46ea78e4016fceb1589de3006a7d2030dae49ce/rtorrent_rpc-0.6.2.tar.gz
+[2024-05-17 04:50:25] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/27/be/bee21501c0606a2b12f582e643a77a4233f658941a117ae4cba54e7c1050/rtorrent_rpc-0.6.4.tar.gz
+[2024-05-17 04:50:25] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2024-05-17 04:50:25] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.6.2.tar.gz tmp/rtorrent_rpc-0.6.4.tar.gz --markdown 20240517/r/rtorrent-rpc/0.6.2-0.6.4/README.md --exclude *.pyd
+[2024-05-17 04:50:25] INFO root fetch - processPackages [abses]: Downloading https://files.pythonhosted.org/packages/7e/b3/95ccfdadb81f5b147e58e963d25b1f50430bdb62a8f31455a10bedb516aa/abses-0.6.4.post0.tar.gz
+[2024-05-17 04:50:25] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/53/b5/24fce3a62a4797a39ab5b7a963272cc337656db2b464b6ce19dd488a974f/pixee-0.8.9.tar.gz
+[2024-05-17 04:50:25] INFO root fetch - processPackages [abses]: executing diffoscope
+[2024-05-17 04:50:25] INFO root fetch - processPackages [abses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abses-0.6.4.tar.gz tmp/abses-0.6.4.post0.tar.gz --markdown 20240517/a/abses/0.6.4-0.6.4.post0/README.md --exclude *.pyd
+[2024-05-17 04:50:26] INFO root fetch - processPackages [pixee]: executing diffoscope
+[2024-05-17 04:50:26] INFO root fetch - processPackages [pixee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixee-0.8.8.tar.gz tmp/pixee-0.8.9.tar.gz --markdown 20240517/p/pixee/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 04:50:26] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.6.2.tar.gz]
+[2024-05-17 04:50:26] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.6.4.tar.gz]
+[2024-05-17 04:50:26] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2024-05-17 04:50:27] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.6.4.tar.gz]
+[2024-05-17 04:50:27] INFO root fetch - processPackages [abses]: Remove: archive file [/home/abi/fetcher/tmp/abses-0.6.4.post0.tar.gz]
+[2024-05-17 04:50:27] INFO root fetch - main [MainThread]: End processing [abses]: success
+[2024-05-17 04:50:27] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.8.tar.gz]
+[2024-05-17 04:50:27] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
+[2024-05-17 04:50:27] INFO root fetch - main [MainThread]: End processing [pixee]: success
+[2024-05-17 04:50:27] INFO root fetch - main [MainThread]: Store serial: [23247577]

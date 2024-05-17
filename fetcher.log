@@ -15640,3 +15640,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:28:24] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.96.tar.gz]
 [2024-05-17 08:28:24] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
 [2024-05-17 08:28:24] INFO root fetch - main [MainThread]: Store serial: [23249066]
+[2024-05-17 08:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249066]
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadog-checks-dev
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadog-checks-downloader
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datadog-cilium
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydra-fsl
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datadog-cisco-aci
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datadog-cisco-secure-firewall
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadog-citrix-hypervisor
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datadog-clickhouse
+[2024-05-17 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datadog-cloud-foundry-api
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-cloud-foundry-api]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-cloud-foundry-api]: Start processing: datadog-cloudera
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-cloud-foundry-api] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-cilium]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-cilium]: Start processing: datadog-cockroachdb
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-cilium] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-checks-downloader]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-checks-downloader]: Start processing: datadog-confluent-platform
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-cisco-aci]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-checks-downloader] error
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-cisco-aci]: Start processing: datadog-consul
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-cisco-aci] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-citrix-hypervisor]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-citrix-hypervisor]: Start processing: datadog-coredns
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-citrix-hypervisor] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-clickhouse]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-cisco-secure-firewall]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-clickhouse]: Start processing: datadog-couch
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-clickhouse] error
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-cisco-secure-firewall]: Start processing: datadog-couchbase
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-cisco-secure-firewall] error
+[2024-05-17 08:30:33] INFO root fetch - processPackages [pydra-fsl]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-cloudera]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-cloudera]: Start processing: datadog-crio
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-cloudera] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-confluent-platform]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-confluent-platform]: Start processing: datadog-datadog-checks-dependency-provider
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-confluent-platform] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-cockroachdb]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-cockroachdb]: Start processing: datadog-datadog-cluster-agent
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-cockroachdb] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-consul]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-consul]: Start processing: datadog-dcgm
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-consul] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-coredns]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-coredns]: Start processing: datadog-directory
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-coredns] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-couchbase]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-couchbase]: Start processing: odoo-addon-sale-stock-picking-blocking
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-couchbase] error
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-couch]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-couch]: Start processing: docmesh-cli
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-couch] error
+[2024-05-17 08:30:33] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-17 08:30:33] WARNING root fetch - processPackages [datadog-crio]: Skipping, unable to determine old version
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-crio]: Start processing: WrenchCL
+[2024-05-17 08:30:33] INFO root fetch - main [MainThread]: End processing [datadog-crio] error
+[2024-05-17 08:30:33] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2024-05-17 08:30:33] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-17 08:30:33] INFO root fetch - processPackages [pydra-fsl]: Downloading https://files.pythonhosted.org/packages/01/95/5681f06f697e05dd675fd56473ea56f5b4a9a90862261bc27fe200af5c30/pydra_fsl-0.0.9.tar.gz
+[2024-05-17 08:30:34] WARNING root fetch - processPackages [datadog-datadog-checks-dependency-provider]: Skipping, unable to determine old version
+[2024-05-17 08:30:34] INFO root fetch - processPackages [datadog-datadog-checks-dependency-provider]: Start processing: pathling
+[2024-05-17 08:30:34] INFO root fetch - main [MainThread]: End processing [datadog-datadog-checks-dependency-provider] error
+[2024-05-17 08:30:34] WARNING root fetch - processPackages [datadog-datadog-cluster-agent]: Skipping, unable to determine old version
+[2024-05-17 08:30:34] INFO root fetch - main [MainThread]: End processing [datadog-datadog-cluster-agent] error
+[2024-05-17 08:30:34] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-17 08:30:34] WARNING root fetch - processPackages [datadog-dcgm]: Skipping, unable to determine old version
+[2024-05-17 08:30:34] INFO root fetch - main [MainThread]: End processing [datadog-dcgm] error
+[2024-05-17 08:30:34] WARNING root fetch - processPackages [datadog-directory]: Skipping, unable to determine old version
+[2024-05-17 08:30:34] INFO root fetch - main [MainThread]: End processing [datadog-directory] error
+[2024-05-17 08:30:34] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/49/d3/6848d5ebac0431aacc67ccf4cca45543dbb34521696d521abbfa7a6fe10d/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-17 08:30:34] INFO root fetch - processPackages [WrenchCL]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pathling]: New version: [7.0.0.dev1] Old Version: [7.0.0.dev0]
+[2024-05-17 08:30:34] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/fe/6a/53bd01941e232b63e84f471c6be56dff69f9263f8fb53486492c1af75ff6/docmesh_cli-0.0.6.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pydra-fsl]: Downloading https://files.pythonhosted.org/packages/bc/30/cb46016bd4704b8c7c02e240f5f4b9177a8c4404d92c329aadc03f01186b/pydra_fsl-0.1.0.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/55/f1/e8cfb336a46a6770147249632890f05d82a97b5738c90b48d097bc62a82b/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/9e/21/863d2b75d9a4e7be39f1def0a8712c96b65a5c3b6fdec70d12385a310aa7/pathling-7.0.0.dev0.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/2f/a0/42f64feda8dbe3981a5af310bec189cfbb0bbb8caca905d6b6de3d6687e0/WrenchCL-1.9.1.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2024-05-17 08:30:34] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240517/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pydra-fsl]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pydra-fsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra_fsl-0.0.9.tar.gz tmp/pydra_fsl-0.1.0.tar.gz --markdown 20240517/p/pydra-fsl/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-17 08:30:34] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-sale-stock-picking-blocking/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-17 08:30:34] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/4022ad2c4e3a2e194a176d53a830f6251051073939121183d777d7ec3448/docmesh_cli-0.0.7.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20240517/d/datadog-checks-dev/9.4.0-9.4.1/README.md --exclude *.pyd
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/7c/79/edb34f70fd6a83f3c05fcec9ba22c7430a3851d354e90bcac859610c4d35/pathling-7.0.0.dev1.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.6.tar.gz tmp/docmesh_cli-0.0.7.tar.gz --markdown 20240517/d/docmesh-cli/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-17 08:30:34] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/1e/85/f749a27463c2e9ea766cf7466a1ae8698277db1b8f985dfd99868db909ab/WrenchCL-2.0.0.tar.gz
+[2024-05-17 08:30:34] INFO root fetch - processPackages [WrenchCL]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [WrenchCL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WrenchCL-1.9.1.tar.gz tmp/WrenchCL-2.0.0.tar.gz --markdown 20240517/W/WrenchCL/1.9.1-2.0.0/README.md --exclude *.pyd
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pathling]: executing diffoscope
+[2024-05-17 08:30:34] INFO root fetch - processPackages [pathling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathling-7.0.0.dev0.tar.gz tmp/pathling-7.0.0.dev1.tar.gz --markdown 20240517/p/pathling/7.0.0.dev0-7.0.0.dev1/README.md --exclude *.pyd
+[2024-05-17 08:30:35] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-17 08:30:35] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.6.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.7.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-17 08:30:35] INFO root fetch - processPackages [pydra-fsl]: Remove: archive file [/home/abi/fetcher/tmp/pydra_fsl-0.0.9.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - processPackages [pydra-fsl]: Remove: archive file [/home/abi/fetcher/tmp/pydra_fsl-0.1.0.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - main [MainThread]: End processing [pydra-fsl]: success
+[2024-05-17 08:30:35] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-1.9.1.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-2.0.0.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - main [MainThread]: End processing [WrenchCL]: success
+[2024-05-17 08:30:35] INFO root fetch - processPackages [pathling]: Remove: archive file [/home/abi/fetcher/tmp/pathling-7.0.0.dev0.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - processPackages [pathling]: Remove: archive file [/home/abi/fetcher/tmp/pathling-7.0.0.dev1.tar.gz]
+[2024-05-17 08:30:35] INFO root fetch - main [MainThread]: End processing [pathling]: success
+[2024-05-17 08:30:35] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 08:30:35] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-17 08:30:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-picking-blocking]: success
+[2024-05-17 08:30:36] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip]
+[2024-05-17 08:30:36] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
+[2024-05-17 08:30:36] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2024-05-17 08:30:36] INFO root fetch - main [MainThread]: Store serial: [23249161]

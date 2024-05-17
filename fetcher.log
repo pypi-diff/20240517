@@ -2984,3 +2984,33 @@
 [2024-05-17 02:43:55] INFO root fetch - processPackages [exploration]: Remove: archive file [/home/abi/fetcher/tmp/exploration-0.7.4.tar.gz]
 [2024-05-17 02:43:55] INFO root fetch - main [MainThread]: End processing [exploration]: success
 [2024-05-17 02:43:55] INFO root fetch - main [MainThread]: Store serial: [23244606]
+[2024-05-17 02:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244606]
+[2024-05-17 02:46:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfkijwezdovspmkf
+[2024-05-17 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-17 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ouro-py
+[2024-05-17 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zdoddacffiycddyw
+[2024-05-17 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluxional
+[2024-05-17 02:46:05] WARNING root fetch - processPackages [ouro-py]: Skipping, unable to determine old version
+[2024-05-17 02:46:05] INFO root fetch - main [MainThread]: End processing [ouro-py] error
+[2024-05-17 02:46:05] WARNING root fetch - processPackages [sfkijwezdovspmkf]: Skipping, unable to determine old version
+[2024-05-17 02:46:05] INFO root fetch - main [MainThread]: End processing [sfkijwezdovspmkf] error
+[2024-05-17 02:46:05] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405160044] Old Version: [4.9.4.dev202405150044]
+[2024-05-17 02:46:05] WARNING root fetch - processPackages [zdoddacffiycddyw]: Skipping, unable to determine old version
+[2024-05-17 02:46:05] INFO root fetch - main [MainThread]: End processing [zdoddacffiycddyw] error
+[2024-05-17 02:46:05] INFO root fetch - processPackages [fluxional]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-17 02:46:05] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/a8/74/2ca2785cf7d0541e579a6e7167d4b3273e084eb40ddee79be8ac5dcfed26/tfds-nightly-4.9.4.dev202405150044.tar.gz
+[2024-05-17 02:46:06] INFO root fetch - processPackages [fluxional]: Downloading https://files.pythonhosted.org/packages/5b/fd/25af40133370d04eef2e3d1b14dc05c5e2eaaa092a2a7a663bf45d2bec4b/fluxional-0.1.7.tar.gz
+[2024-05-17 02:46:06] INFO root fetch - processPackages [fluxional]: Downloading https://files.pythonhosted.org/packages/93/b4/0dd6769920edea95a2a04cca455865f6e3dc8af7b1637539631d14c5b64d/fluxional-0.1.8.tar.gz
+[2024-05-17 02:46:06] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/49/cb/674aec09379dfe711e1bfe2a5c957c25b94949bf2a45c6d27f6d802346f3/tfds-nightly-4.9.4.dev202405160044.tar.gz
+[2024-05-17 02:46:06] INFO root fetch - processPackages [fluxional]: executing diffoscope
+[2024-05-17 02:46:06] INFO root fetch - processPackages [fluxional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxional-0.1.7.tar.gz tmp/fluxional-0.1.8.tar.gz --markdown 20240517/f/fluxional/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-17 02:46:06] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-17 02:46:06] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405150044.tar.gz tmp/tfds-nightly-4.9.4.dev202405160044.tar.gz --markdown 20240517/t/tfds-nightly/4.9.4.dev202405150044-4.9.4.dev202405160044/README.md --exclude *.pyd
+[2024-05-17 02:46:07] INFO root fetch - processPackages [fluxional]: Remove: archive file [/home/abi/fetcher/tmp/fluxional-0.1.7.tar.gz]
+[2024-05-17 02:46:07] INFO root fetch - processPackages [fluxional]: Remove: archive file [/home/abi/fetcher/tmp/fluxional-0.1.8.tar.gz]
+[2024-05-17 02:46:07] INFO root fetch - main [MainThread]: End processing [fluxional]: success
+[2024-05-17 02:46:15] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405150044.tar.gz]
+[2024-05-17 02:46:15] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405160044.tar.gz]
+[2024-05-17 02:46:15] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-17 02:46:15] INFO root fetch - main [MainThread]: Store serial: [23244623]

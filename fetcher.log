@@ -16492,3 +16492,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:01:53] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-17 09:01:53] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-17 09:01:53] INFO root fetch - main [MainThread]: Store serial: [23249432]
+[2024-05-17 09:03:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249432]
+[2024-05-17 09:04:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-openstack
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rabbitmq
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-random
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orderly-set
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arjunbasiccalculator
+[2024-05-17 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-inventory
+[2024-05-17 09:04:03] WARNING root fetch - processPackages [orderly-set]: Skipping, unable to determine old version
+[2024-05-17 09:04:03] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.9]
+[2024-05-17 09:04:03] INFO root fetch - main [MainThread]: End processing [orderly-set] error
+[2024-05-17 09:04:03] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-17 09:04:03] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/16/6c/ec131073889fd8f864662b52daee4d59841129ad6de01dc2796b9eef7567/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-17 09:04:03] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1715927156] Old Version: [3.4.0a1715763149]
+[2024-05-17 09:04:03] WARNING root fetch - processPackages [arjunbasiccalculator]: Skipping, unable to determine old version
+[2024-05-17 09:04:03] INFO root fetch - main [MainThread]: End processing [arjunbasiccalculator] error
+[2024-05-17 09:04:03] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-17 09:04:03] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-17 09:04:03] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-17 09:04:03] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/8b/b1/729747b63e05b4774694afe210272401c9e0140769b29d24bc53896927d6/odoo_addon_stock_inventory-16.0.2.0.0-py3-none-any.whl
+[2024-05-17 09:04:03] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/3b/d4/cec37b54ee036dc4c846a9d6f14086b73a54db05a0b490769a7bb5890b43/pulumi_rabbitmq-3.4.0a1715763149.tar.gz
+[2024-05-17 09:04:03] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-17 09:04:03] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-17 09:04:03] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2024-05-17 09:04:03] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-stock-inventory/16.0.1.0.0.9-16.0.2.0.0/README.md --exclude *.pyd
+[2024-05-17 09:04:03] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-17 09:04:04] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-17 09:04:04] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240517/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/b2/13/ce2de4e13e56658ca163fe9f52a6350570fa51eeeaafd81d1057eb01fd80/pulumi_rabbitmq-3.4.0a1715927156.tar.gz
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715763149.tar.gz tmp/pulumi_rabbitmq-3.4.0a1715927156.tar.gz --markdown 20240517/p/pulumi-rabbitmq/3.4.0a1715763149-3.4.0a1715927156/README.md --exclude *.pyd
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240517/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240517/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-17 09:04:04] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-17 09:04:04] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-17 09:04:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2024-05-17 09:04:04] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-17 09:04:04] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-17 09:04:04] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715763149.tar.gz]
+[2024-05-17 09:04:04] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715927156.tar.gz]
+[2024-05-17 09:04:04] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-17 09:04:05] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-17 09:04:05] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-17 09:04:05] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-17 09:04:07] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-17 09:04:07] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-17 09:04:07] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-17 09:04:07] INFO root fetch - main [MainThread]: Store serial: [23249455]

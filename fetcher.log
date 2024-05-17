@@ -21776,3 +21776,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:50:07] INFO root fetch - processPackages [mpd-now-playable]: Remove: archive file [/home/abi/fetcher/tmp/mpd_now_playable-1.2.0.tar.gz]
 [2024-05-17 11:50:07] INFO root fetch - main [MainThread]: End processing [mpd-now-playable]: success
 [2024-05-17 11:50:07] INFO root fetch - main [MainThread]: Store serial: [23251642]
+[2024-05-17 11:52:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251642]
+[2024-05-17 11:52:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygradflow
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youtrack-sdk
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: REMLA-Test-Lib-version
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reverse-engineering-assistant
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scsdpy
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torspy
+[2024-05-17 11:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2024-05-17 11:52:18] INFO root fetch - processPackages [youtrack-sdk]: New version: [1.0.202404221301] Old Version: [1.0.202403140829]
+[2024-05-17 11:52:18] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 11:52:18] INFO root fetch - processPackages [torspy]: New version: [0.3] Old Version: [0.2]
+[2024-05-17 11:52:18] WARNING root fetch - processPackages [scsdpy]: Skipping, unable to determine old version
+[2024-05-17 11:52:18] INFO root fetch - main [MainThread]: End processing [scsdpy] error
+[2024-05-17 11:52:18] INFO root fetch - processPackages [kcli]: New version: [99.0.202405161150] Old Version: [99.0.202405161052]
+[2024-05-17 11:52:18] INFO root fetch - processPackages [reverse-engineering-assistant]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-17 11:52:18] INFO root fetch - processPackages [REMLA-Test-Lib-version]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-05-17 11:52:18] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [torspy]: Downloading https://files.pythonhosted.org/packages/76/1a/bf705f8331dbdccc4b72862982a0749828979ca3cd9812b75674a495f512/torspy-0.2.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/16/e8/3ed515940e6127c6640667be5d8a13ea1a447d6a810a53660b8a2766e4ad/kcli-99.0.202405161052.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [youtrack-sdk]: Downloading https://files.pythonhosted.org/packages/39/60/f8d590f2997016f9e410f7e1a28b05816fe9d0e312a22b387e96be0ce014/youtrack_sdk-1.0.202403140829.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [reverse-engineering-assistant]: Downloading https://files.pythonhosted.org/packages/65/d6/4ae62ca4f5361a7105902634a14cab9c53f303ee9017bba6e0ee310ae4c1/reverse_engineering_assistant-2.9.1.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/d0/1c/6987aec76bcbb4809cbc16ac087b37c251565232af1243b57d3ab51dfb24/REMLA-Test-Lib-version-0.0.7.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [torspy]: Downloading https://files.pythonhosted.org/packages/0d/3d/20d5d4b40b186ceac94e8caa737270987888d4bff91957d71fa658e806ef/torspy-0.3.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-17 11:52:18] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240517/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 11:52:18] INFO root fetch - processPackages [youtrack-sdk]: Downloading https://files.pythonhosted.org/packages/c2/bb/8f7aee915a08b11c81c1595405bd0e8533bab4f7a2ad990623238dc33f05/youtrack_sdk-1.0.202404221301.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [torspy]: executing diffoscope
+[2024-05-17 11:52:18] INFO root fetch - processPackages [torspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torspy-0.2.tar.gz tmp/torspy-0.3.tar.gz --markdown 20240517/t/torspy/0.2-0.3/README.md --exclude *.pyd
+[2024-05-17 11:52:18] INFO root fetch - processPackages [reverse-engineering-assistant]: Downloading https://files.pythonhosted.org/packages/79/ac/588bfabff8a94fe5733a1bb6f9f3a51a3b8877a98e9fdd256ba3bd473d24/reverse_engineering_assistant-2.9.2.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/78/f8/b7823e680c9a0949cc49f5e0446b4804c30a36aab1090bcc09da36a923f2/REMLA-Test-Lib-version-0.1.0.tar.gz
+[2024-05-17 11:52:18] INFO root fetch - processPackages [youtrack-sdk]: executing diffoscope
+[2024-05-17 11:52:18] INFO root fetch - processPackages [youtrack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtrack_sdk-1.0.202403140829.tar.gz tmp/youtrack_sdk-1.0.202404221301.tar.gz --markdown 20240517/y/youtrack-sdk/1.0.202403140829-1.0.202404221301/README.md --exclude *.pyd
+[2024-05-17 11:52:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1f/e1/0e8ee2566176a1daf08c344480a03c2b700fd9f720b2eb5fb58673d9227c/kcli-99.0.202405161150.tar.gz
+[2024-05-17 11:52:19] INFO root fetch - processPackages [reverse-engineering-assistant]: executing diffoscope
+[2024-05-17 11:52:19] INFO root fetch - processPackages [reverse-engineering-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse_engineering_assistant-2.9.1.tar.gz tmp/reverse_engineering_assistant-2.9.2.tar.gz --markdown 20240517/r/reverse-engineering-assistant/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-17 11:52:19] INFO root fetch - processPackages [REMLA-Test-Lib-version]: executing diffoscope
+[2024-05-17 11:52:19] INFO root fetch - processPackages [REMLA-Test-Lib-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REMLA-Test-Lib-version-0.0.7.tar.gz tmp/REMLA-Test-Lib-version-0.1.0.tar.gz --markdown 20240517/R/REMLA-Test-Lib-version/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-05-17 11:52:19] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-17 11:52:19] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405161052.tar.gz tmp/kcli-99.0.202405161150.tar.gz --markdown 20240517/k/kcli/99.0.202405161052-99.0.202405161150/README.md --exclude *.pyd
+[2024-05-17 11:52:19] INFO root fetch - processPackages [torspy]: Remove: archive file [/home/abi/fetcher/tmp/torspy-0.2.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - processPackages [torspy]: Remove: archive file [/home/abi/fetcher/tmp/torspy-0.3.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - main [MainThread]: End processing [torspy]: success
+[2024-05-17 11:52:19] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-17 11:52:19] INFO root fetch - processPackages [youtrack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/youtrack_sdk-1.0.202403140829.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - processPackages [youtrack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/youtrack_sdk-1.0.202404221301.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - main [MainThread]: End processing [youtrack-sdk]: success
+[2024-05-17 11:52:19] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.0.7.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.1.0.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - main [MainThread]: End processing [REMLA-Test-Lib-version]: success
+[2024-05-17 11:52:19] INFO root fetch - processPackages [reverse-engineering-assistant]: Remove: archive file [/home/abi/fetcher/tmp/reverse_engineering_assistant-2.9.1.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - processPackages [reverse-engineering-assistant]: Remove: archive file [/home/abi/fetcher/tmp/reverse_engineering_assistant-2.9.2.tar.gz]
+[2024-05-17 11:52:19] INFO root fetch - main [MainThread]: End processing [reverse-engineering-assistant]: success
+[2024-05-17 11:52:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405161052.tar.gz]
+[2024-05-17 11:52:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405161150.tar.gz]
+[2024-05-17 11:52:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-17 11:52:21] INFO root fetch - main [MainThread]: Store serial: [23251661]

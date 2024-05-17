@@ -18076,3 +18076,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:51:33] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2024-05-17 09:51:33] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2024-05-17 09:51:33] INFO root fetch - main [MainThread]: Store serial: [23250038]
+[2024-05-17 09:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250038]
+[2024-05-17 09:53:42] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vectara-skunk-client
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-alchemy
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal-client
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudpy-org
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web-ui-helper
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pg-sync-roles
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nipype2pydra
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SuchTree
+[2024-05-17 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simpleworkspace
+[2024-05-17 09:53:42] INFO root fetch - processPackages [clean-alchemy]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [nipype2pydra]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [cloudpy-org]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.208] Old Version: [1.2.207]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-17 09:53:42] INFO root fetch - processPackages [SuchTree]: New version: [1.1] Old Version: [1.0]
+[2024-05-17 09:53:42] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-17 09:53:42] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-17 09:53:42] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/7b/89/9fa2935bff0dab31f6d91b8fc5f0a9781c41806135c9e36885e859fbad61/cloudpy_org-1.5.3.tar.gz
+[2024-05-17 09:53:42] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-17 09:53:42] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/8f/92/01d48208e03c05d43f1cdc72449859cf8f755f3ee77013bde2710d3b8368/clean-alchemy-0.1.tar.gz
+[2024-05-17 09:53:42] INFO root fetch - processPackages [nipype2pydra]: Downloading https://files.pythonhosted.org/packages/b5/27/91dfebc596a535d1893bc3bbf9fb70029af981cad23380b48ee5b85edf66/nipype2pydra-0.3.4.tar.gz
+[2024-05-17 09:53:42] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f3/ea/1f01aed8402846caae3ae3c6cabbdbd596c5e3a6876580e8eaa59c900b98/simpleworkspace-1.2.207.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [SuchTree]: Downloading https://files.pythonhosted.org/packages/80/7b/cb43325ded3be58949ebbf5d7b5d487b8cc09c4eaa70c873e32150b9309f/SuchTree-1.0.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/44/6a/3f99055e438423c216b1facaf114e87a2da8681a01a9809424abd1e41f28/vectara-skunk-client-0.4.8.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-17 09:53:43] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/e0/69/03ccc8849cc47eaae0b7b4b874e72ad3b779a0d241e0e2ddd8e16af40601/cloudpy_org-1.5.4.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-17 09:53:43] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240517/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/9a/90/e47160ecd3e0a4dc7052afed892e69a152704a4a362bac58879355b8d95d/clean-alchemy-0.1.1.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240517/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240517/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [nipype2pydra]: Downloading https://files.pythonhosted.org/packages/a0/ca/1dbbec8abd6777757d0e4091c2de73437989d234465fd9f28f9695ef2aa4/nipype2pydra-0.3.5.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.5.3.tar.gz tmp/cloudpy_org-1.5.4.tar.gz --markdown 20240517/c/cloudpy-org/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/4a/3f/c8c79ad48e7fb6fbc7edc2bc5ade9f74ef3e0870a14e26058f4b2059975f/simpleworkspace-1.2.208.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [clean-alchemy]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [clean-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-alchemy-0.1.tar.gz tmp/clean-alchemy-0.1.1.tar.gz --markdown 20240517/c/clean-alchemy/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240517/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [SuchTree]: Downloading https://files.pythonhosted.org/packages/c5/9d/c702697f00bc7e6689b460a978e04a1f0ef137aa69d888663daae450776e/suchtree-1.1.tar.gz
+[2024-05-17 09:53:43] INFO root fetch - processPackages [nipype2pydra]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [nipype2pydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nipype2pydra-0.3.4.tar.gz tmp/nipype2pydra-0.3.5.tar.gz --markdown 20240517/n/nipype2pydra/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.207.tar.gz tmp/simpleworkspace-1.2.208.tar.gz --markdown 20240517/s/simpleworkspace/1.2.207-1.2.208/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.8.tar.gz tmp/vectara-skunk-client-0.4.9.tar.gz --markdown 20240517/v/vectara-skunk-client/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-17 09:53:43] INFO root fetch - processPackages [SuchTree]: executing diffoscope
+[2024-05-17 09:53:43] INFO root fetch - processPackages [SuchTree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuchTree-1.0.tar.gz tmp/suchtree-1.1.tar.gz --markdown 20240517/S/SuchTree/1.0-1.1/README.md --exclude *.pyd
+[2024-05-17 09:53:44] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [modal-client]: Start processing: itkdb-gtk
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.9.1.dev1] Old Version: [0.9.0]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pg-sync-roles]: Start processing: pydotbot
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pydotbot]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.5.3.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.5.4.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [cloudpy-org]: Start processing: cxalio-studio-tools
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [web-ui-helper]: Start processing: pulumi-azure
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1a/b8/7833d7c1b2daafa9d6f24f8602ffcdba3f8ef0d826aa1c272cabd5e979af/itkdb_gtk-0.9.0.tar.gz
+[2024-05-17 09:53:44] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.1.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [clean-alchemy]: Start processing: xmonkey-namonica
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [clean-alchemy]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [nipype2pydra]: Remove: archive file [/home/abi/fetcher/tmp/nipype2pydra-0.3.4.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [nipype2pydra]: Remove: archive file [/home/abi/fetcher/tmp/nipype2pydra-0.3.5.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [nipype2pydra]: Start processing: new-pykube
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [nipype2pydra]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 09:53:44] WARNING root fetch - processPackages [new-pykube]: Skipping, unable to determine old version
+[2024-05-17 09:53:44] INFO root fetch - processPackages [new-pykube]: Start processing: utilmy
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [new-pykube] error
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pydotbot]: Downloading https://files.pythonhosted.org/packages/aa/9a/59ab845e50718857ba44a086c2e1cb3939caf3c6bdd755fc30a664d18dc4/pydotbot-0.9.2.tar.gz
+[2024-05-17 09:53:44] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.8.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/96/7f/7e68da1dfb2b64f5714ed568a566c7f6f1f9f1c509bdfb4c44450c480847/cxalio_studio_tools-0.2.5.tar.gz
+[2024-05-17 09:53:44] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/13/a7/03d30164cba13b0c5f9cc41ec7d8e1db06d82f1e660a01ed20eaf8aa0a95/itkdb_gtk-0.9.1.dev1.tar.gz
+[2024-05-17 09:53:44] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.207.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.208.tar.gz]
+[2024-05-17 09:53:44] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-17 09:53:44] INFO root fetch - processPackages [utilmy]: New version: [0.1.17159323] Old Version: [0.1.17154240]
+[2024-05-17 09:53:44] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-17 09:53:44] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-17 09:53:44] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2024-05-17 09:53:44] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.9.0.tar.gz tmp/itkdb_gtk-0.9.1.dev1.tar.gz --markdown 20240517/i/itkdb-gtk/0.9.0-0.9.1.dev1/README.md --exclude *.pyd
+[2024-05-17 09:53:44] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/ba/6e/5c613ce076219b2eb4dae2962a86d668a4a7e149742d5159c6c07ee879ce/cxalio_studio_tools-0.2.6.tar.gz
+[2024-05-17 09:53:45] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-17 09:53:45] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/b3/19/276f1fef83605862fbf067b485d619453572704385b7e4fd02a197245810/utilmy-0.1.17154240.tar.gz
+[2024-05-17 09:53:45] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-17 09:53:45] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-17 09:53:45] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-17 09:53:45] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-17 09:53:45] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.2.5.tar.gz tmp/cxalio_studio_tools-0.2.6.tar.gz --markdown 20240517/c/cxalio-studio-tools/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-17 09:53:45] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-17 09:53:45] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240517/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 09:53:45] INFO root fetch - processPackages [pydotbot]: Downloading https://files.pythonhosted.org/packages/86/4a/8cee9e295f9748bf3e272b098740fb75c98254d812f4ef6075a5a623ce64/pydotbot-0.9.3.tar.gz
+[2024-05-17 09:53:45] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-17 09:53:45] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.0.tar.gz]
+[2024-05-17 09:53:45] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
+[2024-05-17 09:53:45] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2024-05-17 09:53:45] INFO root fetch - processPackages [pydotbot]: executing diffoscope
+[2024-05-17 09:53:45] INFO root fetch - processPackages [pydotbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydotbot-0.9.2.tar.gz tmp/pydotbot-0.9.3.tar.gz --markdown 20240517/p/pydotbot/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-17 09:53:45] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-17 09:53:45] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-17 09:53:45] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-17 09:53:45] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.5.tar.gz]
+[2024-05-17 09:53:45] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.6.tar.gz]
+[2024-05-17 09:53:45] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-17 09:53:46] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-17 09:53:46] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240517/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-17 09:53:46] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/4d/86/2d328cfd4e3e7e87091dbce99b37f45a5c11b4f946193c630000b9d1de85/utilmy-0.1.17159323.tar.gz
+[2024-05-17 09:53:46] INFO root fetch - processPackages [SuchTree]: Remove: archive file [/home/abi/fetcher/tmp/SuchTree-1.0.tar.gz]
+[2024-05-17 09:53:46] INFO root fetch - processPackages [SuchTree]: Remove: archive file [/home/abi/fetcher/tmp/suchtree-1.1.tar.gz]
+[2024-05-17 09:53:46] INFO root fetch - main [MainThread]: End processing [SuchTree]: success
+[2024-05-17 09:53:46] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-05-17 09:53:46] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17154240.tar.gz tmp/utilmy-0.1.17159323.tar.gz --markdown 20240517/u/utilmy/0.1.17154240-0.1.17159323/README.md --exclude *.pyd
+[2024-05-17 09:53:46] INFO root fetch - processPackages [pydotbot]: Remove: archive file [/home/abi/fetcher/tmp/pydotbot-0.9.2.tar.gz]
+[2024-05-17 09:53:46] INFO root fetch - processPackages [pydotbot]: Remove: archive file [/home/abi/fetcher/tmp/pydotbot-0.9.3.tar.gz]
+[2024-05-17 09:53:46] INFO root fetch - main [MainThread]: End processing [pydotbot]: success
+[2024-05-17 09:53:55] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-17 09:53:55] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-17 09:53:55] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-17 09:53:56] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17154240.tar.gz]
+[2024-05-17 09:53:56] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17159323.tar.gz]
+[2024-05-17 09:53:56] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-05-17 09:53:56] INFO root fetch - main [MainThread]: Store serial: [23250134]

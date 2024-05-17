@@ -11143,3 +11143,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:11:46] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
 [2024-05-17 04:11:46] INFO root fetch - main [MainThread]: End processing [pixee]: success
 [2024-05-17 04:11:46] INFO root fetch - main [MainThread]: Store serial: [23247381]
+[2024-05-17 04:13:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247381]
+[2024-05-17 04:13:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 04:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbpy
+[2024-05-17 04:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixee
+[2024-05-17 04:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperstruct
+[2024-05-17 04:13:55] INFO root fetch - processPackages [vbpy]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-17 04:13:55] INFO root fetch - processPackages [pixee]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 04:13:55] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/9c/2d/5705fbed0ce9a2b08685bd78f768758d371e50e6e40b254b51842389761d/vbpy-2.0.3.tar.gz
+[2024-05-17 04:13:55] INFO root fetch - processPackages [hyperstruct]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 04:13:55] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/5b/a4/8c064a30b0083dcebd2d71f8bf2f4e0fef1b1a448bfb9d2b6e3ae03b70bb/pixee-0.8.8.tar.gz
+[2024-05-17 04:13:56] INFO root fetch - processPackages [hyperstruct]: Downloading https://files.pythonhosted.org/packages/13/47/538738501dafabc6c7c74afe3cdda8f6360d749d29425b2e121c2ed269a1/hyperstruct-0.0.3.tar.gz
+[2024-05-17 04:13:56] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/df/86/39040d699921c753c2ce7e8f1ae0794ebbb928411927779d5c56652da345/vbpy-2.0.4.tar.gz
+[2024-05-17 04:13:56] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-17 04:13:56] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.3.tar.gz tmp/vbpy-2.0.4.tar.gz --markdown 20240517/v/vbpy/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-17 04:13:56] INFO root fetch - processPackages [hyperstruct]: Downloading https://files.pythonhosted.org/packages/aa/ff/fccce7b52a0ef8698968afd0bd3b00cb3400b30d530f0c1b28ac94d23ee5/hyperstruct-0.0.4.tar.gz
+[2024-05-17 04:13:56] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/53/b5/24fce3a62a4797a39ab5b7a963272cc337656db2b464b6ce19dd488a974f/pixee-0.8.9.tar.gz
+[2024-05-17 04:13:56] INFO root fetch - processPackages [hyperstruct]: executing diffoscope
+[2024-05-17 04:13:56] INFO root fetch - processPackages [hyperstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperstruct-0.0.3.tar.gz tmp/hyperstruct-0.0.4.tar.gz --markdown 20240517/h/hyperstruct/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 04:13:56] INFO root fetch - processPackages [pixee]: executing diffoscope
+[2024-05-17 04:13:56] INFO root fetch - processPackages [pixee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixee-0.8.8.tar.gz tmp/pixee-0.8.9.tar.gz --markdown 20240517/p/pixee/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 04:13:56] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.3.tar.gz]
+[2024-05-17 04:13:56] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.4.tar.gz]
+[2024-05-17 04:13:56] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-17 04:13:57] INFO root fetch - processPackages [hyperstruct]: Remove: archive file [/home/abi/fetcher/tmp/hyperstruct-0.0.3.tar.gz]
+[2024-05-17 04:13:57] INFO root fetch - processPackages [hyperstruct]: Remove: archive file [/home/abi/fetcher/tmp/hyperstruct-0.0.4.tar.gz]
+[2024-05-17 04:13:57] INFO root fetch - main [MainThread]: End processing [hyperstruct]: success
+[2024-05-17 04:13:58] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.8.tar.gz]
+[2024-05-17 04:13:58] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.9.tar.gz]
+[2024-05-17 04:13:58] INFO root fetch - main [MainThread]: End processing [pixee]: success
+[2024-05-17 04:13:58] INFO root fetch - main [MainThread]: Store serial: [23247389]

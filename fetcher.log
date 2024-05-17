@@ -13417,3 +13417,14 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:42:47] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.1.2.tar.gz]
 [2024-05-17 06:42:47] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-05-17 06:42:47] INFO root fetch - main [MainThread]: Store serial: [23248258]
+[2024-05-17 06:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248258]
+[2024-05-17 06:44:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 06:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Scratch-Messaging-Client
+[2024-05-17 06:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rollnw
+[2024-05-17 06:44:56] WARNING root fetch - processPackages [Scratch-Messaging-Client]: Skipping, unable to determine old version
+[2024-05-17 06:44:56] INFO root fetch - main [MainThread]: End processing [Scratch-Messaging-Client] error
+[2024-05-17 06:44:56] INFO root fetch - processPackages [rollnw]: New version: [0.9.dev0] Old Version: [0.8.dev0]
+[2024-05-17 06:44:56] INFO root fetch - processPackages [rollnw]: Downloading https://files.pythonhosted.org/packages/9a/a8/893f5e80c099abd8d03a09da95325e7159a521131b00b712e04d19d521e4/rollnw-0.8.dev0.tar.gz
+[2024-05-17 06:44:56] WARNING root fetch - processPackages [rollnw]: Skipping package: exceeds size limit 26393268>=10485760
+[2024-05-17 06:44:56] INFO root fetch - main [MainThread]: End processing [rollnw] error
+[2024-05-17 06:44:56] INFO root fetch - main [MainThread]: Store serial: [23248271]

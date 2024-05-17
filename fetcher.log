@@ -21393,3 +21393,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:36:58] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.2-py3-none-any.whl.zip]
 [2024-05-17 11:36:58] INFO root fetch - main [MainThread]: End processing [dara-components]: success
 [2024-05-17 11:36:58] INFO root fetch - main [MainThread]: Store serial: [23251515]
+[2024-05-17 11:39:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251515]
+[2024-05-17 11:39:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mecord-cli
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dja-sepp
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ph-utils
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-command
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spacy-llm
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zermelo-api-vogk
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ostorlab
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dlc-run
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dja-sepp
+[2024-05-17 11:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gui-executor
+[2024-05-17 11:39:36] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 11:39:36] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 11:39:36] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 11:39:36] INFO root fetch - processPackages [gui-executor]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-17 11:39:36] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-05-17 11:39:37] INFO root fetch - processPackages [spacy-llm]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dlc-run]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 11:39:37] INFO root fetch - processPackages [ph-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-17 11:39:37] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-17 11:39:37] INFO root fetch - processPackages [ostorlab]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-17 11:39:37] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/3a/3b/c0c0f449e28922959170b3ece0fec9eaae36e9e9c7e2e3a0c46308f430be/zermelo_api_vogk-0.3.8.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/99/83/f3a1e3ea9567d181fb486b3db402cf32846ddf51135b04a3f277803ded30/dja_sepp-0.1.3.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/99/83/f3a1e3ea9567d181fb486b3db402cf32846ddf51135b04a3f277803ded30/dja_sepp-0.1.3.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [gui-executor]: Downloading https://files.pythonhosted.org/packages/5f/49/c056d6fc89f032816bc54b744806caf7587c16c880612b5326e33b99c386/gui-executor-0.9.8.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/2e/c5/db9d8131757821614d908dd54152e2c21619fe19e219e853eeeffd836184/dlc_run-0.0.4.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/6e/5f/6f7f7eb672a82909f07dd45673d69c7baa594d427d30046657fac7cd58b8/spacy-llm-0.7.1.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [ph-utils]: Downloading https://files.pythonhosted.org/packages/2f/ff/9c58b5fa52cc7687636a343139bf29d086ef74761ae1adac8984504beab0/ph-utils-0.0.7.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/dd/d3/8dae0b55fa1c673a94a616f9c1c6a6603f0069d5a2f0f27ca05bddad9cdd/ostorlab-1.0.8.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/1c/b9/31e4e920bd13e8b2ca86471dcdb09fd51184a0ae8eca06e82344caad1ac6/zermelo_api_vogk-0.3.9.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/a6/40/b610143fa2369fad21c75fbe2d4eebb7d1d6d66ae6a990c399e8756b487c/dja_sepp-0.1.4.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/a6/40/b610143fa2369fad21c75fbe2d4eebb7d1d6d66ae6a990c399e8756b487c/dja_sepp-0.1.4.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-0.3.8.tar.gz tmp/zermelo_api_vogk-0.3.9.tar.gz --markdown 20240517/z/zermelo-api-vogk/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.3.tar.gz tmp/dja_sepp-0.1.4.tar.gz --markdown 20240517/d/dja-sepp/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 11:39:37] INFO root fetch - processPackages [gui-executor]: Downloading https://files.pythonhosted.org/packages/4f/80/94c75c97bf2a96d4eed593763b533bcdd57fb77666e81b924eccbceb3621/gui-executor-0.9.9.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/32/a6/c9a65b1d7765778af02b2d43fa2b2ba0453d1580255f7f0eaad8487a834f/spacy_llm-0.7.2.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.3.tar.gz tmp/dja_sepp-0.1.4.tar.gz --markdown 20240517/d/dja-sepp/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 11:39:37] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240517/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-05-17 11:39:37] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/d7/97/77e3d8fd451b2a7a0ccd7b723180a2933bb82293296150c264d373f1be45/dlc_run-0.0.5.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/5f/8c/c577e3732cafc384d512d4337a00d9f6ab6502735a140a1e656f092a126a/ostorlab-1.0.9.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [ph-utils]: Downloading https://files.pythonhosted.org/packages/d8/11/310d6b84acae23261d82a37edb620e4602f491efd7ded83af320b0fc46ba/ph_utils-0.0.8.tar.gz
+[2024-05-17 11:39:37] INFO root fetch - processPackages [gui-executor]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [gui-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gui-executor-0.9.8.tar.gz tmp/gui-executor-0.9.9.tar.gz --markdown 20240517/g/gui-executor/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-17 11:39:37] INFO root fetch - processPackages [spacy-llm]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [spacy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-llm-0.7.1.tar.gz tmp/spacy_llm-0.7.2.tar.gz --markdown 20240517/s/spacy-llm/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dlc-run]: executing diffoscope
+[2024-05-17 11:39:37] INFO root fetch - processPackages [dlc-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlc_run-0.0.4.tar.gz tmp/dlc_run-0.0.5.tar.gz --markdown 20240517/d/dlc-run/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 11:39:38] INFO root fetch - processPackages [ph-utils]: executing diffoscope
+[2024-05-17 11:39:38] INFO root fetch - processPackages [ph-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ph-utils-0.0.7.tar.gz tmp/ph_utils-0.0.8.tar.gz --markdown 20240517/p/ph-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-17 11:39:38] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-17 11:39:38] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240517/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-17 11:39:38] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2024-05-17 11:39:38] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-1.0.8.tar.gz tmp/ostorlab-1.0.9.tar.gz --markdown 20240517/o/ostorlab/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-17 11:39:38] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-0.3.8.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-0.3.9.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [zermelo-api-vogk]: Start processing: radix-engine-toolkit
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-17 11:39:38] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [pulumi-command]: Start processing: bagbag
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-05-17 11:39:38] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.3.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.4.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-17 11:39:38] INFO root fetch - processPackages [radix-engine-toolkit]: New version: [2.1.0.dev6] Old Version: [2.1.0.dev5]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.4.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.5.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [dlc-run]: success
+[2024-05-17 11:39:38] INFO root fetch - processPackages [ph-utils]: Remove: archive file [/home/abi/fetcher/tmp/ph-utils-0.0.7.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [ph-utils]: Remove: archive file [/home/abi/fetcher/tmp/ph_utils-0.0.8.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [ph-utils]: success
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-17 11:39:38] INFO root fetch - processPackages [bagbag]: New version: [0.68.7] Old Version: [0.68.6]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [gui-executor]: Remove: archive file [/home/abi/fetcher/tmp/gui-executor-0.9.8.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - processPackages [gui-executor]: Remove: archive file [/home/abi/fetcher/tmp/gui-executor-0.9.9.tar.gz]
+[2024-05-17 11:39:38] INFO root fetch - main [MainThread]: End processing [gui-executor]: success
+[2024-05-17 11:39:38] INFO root fetch - processPackages [radix-engine-toolkit]: Downloading https://files.pythonhosted.org/packages/44/b0/8e15e2f52233b89ffd3d8a9f9040855ffa4b1706470226bc82f15dbf80ff/radix_engine_toolkit-2.1.0.dev5-py3-none-any.whl
+[2024-05-17 11:39:39] WARNING root fetch - processPackages [radix-engine-toolkit]: Skipping package: exceeds size limit 28888626>=10485760
+[2024-05-17 11:39:39] INFO root fetch - main [MainThread]: End processing [radix-engine-toolkit] error
+[2024-05-17 11:39:39] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-17 11:39:39] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-17 11:39:39] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-17 11:39:39] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/dc/68/9b0f86351207fcacbd6890053fd34cc345566640f5dce5126af3387be6cb/bagbag-0.68.6.tar.gz
+[2024-05-17 11:39:39] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.7.1.tar.gz]
+[2024-05-17 11:39:39] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy_llm-0.7.2.tar.gz]
+[2024-05-17 11:39:39] INFO root fetch - main [MainThread]: End processing [spacy-llm]: success
+[2024-05-17 11:39:39] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/11/ed28ea255dc9b418d7800575b0fb16cbbbb110f8ceb3b9188e4eef3c7594/bagbag-0.68.7.tar.gz
+[2024-05-17 11:39:40] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 11:39:40] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.6.tar.gz tmp/bagbag-0.68.7.tar.gz --markdown 20240517/b/bagbag/0.68.6-0.68.7/README.md --exclude *.pyd
+[2024-05-17 11:39:41] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.8.tar.gz]
+[2024-05-17 11:39:41] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.9.tar.gz]
+[2024-05-17 11:39:41] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2024-05-17 11:39:41] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.6.tar.gz]
+[2024-05-17 11:39:41] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.7.tar.gz]
+[2024-05-17 11:39:41] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 11:39:41] INFO root fetch - main [MainThread]: Store serial: [23251547]

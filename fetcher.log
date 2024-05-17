@@ -16546,3 +16546,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:04:07] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-17 09:04:07] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-17 09:04:07] INFO root fetch - main [MainThread]: Store serial: [23249455]
+[2024-05-17 09:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249455]
+[2024-05-17 09:06:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 09:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zorch
+[2024-05-17 09:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptflow-tracing
+[2024-05-17 09:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptflow-core
+[2024-05-17 09:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptflow-devkit
+[2024-05-17 09:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptflow-azure
+[2024-05-17 09:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptflow
+[2024-05-17 09:06:16] INFO root fetch - processPackages [zorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 09:06:16] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/50/d5/20b0dac0ae23cf0da1ac26121361a57833e4c90c03953c298d882b7d835d/zorch-0.0.8.tar.gz
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-devkit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-tracing]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-azure]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/f0/6f/51cb0283b12115e724744081fdb4d93250bebda5ec967df66d7d854482d5/promptflow-1.8.0-py3-none-any.whl
+[2024-05-17 09:06:16] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/bf/a0/75fc2c4170d35fb1a7605723b68b9cd28d1d2e0cbd176afc077833e6d119/zorch-0.0.9.tar.gz
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/a7/80/a42998ec0e0d7a76bcd3a43d1f267fad31864cde8300a116126c2d5669fb/promptflow_devkit-1.8.0-py3-none-any.whl
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/25/4d/3b703134fd3c50f59bb1c3fea4210db6b74f9f4694cd97b5bbfc941ffa83/promptflow_core-1.8.0-py3-none-any.whl
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/49/14/dbc959af05f0dfaebeb90ad196ce4d9f95f03555385ad4f68e402357d929/promptflow_tracing-1.8.0-py3-none-any.whl
+[2024-05-17 09:06:16] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/36/ea/080a767769525e5743710e7a54e425b2aae998dc9e2f711689a2efc5e291/promptflow_azure-1.8.0-py3-none-any.whl
+[2024-05-17 09:06:16] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 09:06:16] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.8.tar.gz tmp/zorch-0.0.9.tar.gz --markdown 20240517/z/zorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/54/f1/131d0ea16e3b4d8203def8bb39dfc821716ed4fad106d3fa0516adcff1c7/promptflow-1.9.0-py3-none-any.whl
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/89/f6/ceefcf4302f79a1f1d9df02ed0266df362bf7d7c01b08f56e1ca8f3347bb/promptflow_tracing-1.9.0-py3-none-any.whl
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow]: executing diffoscope
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow-1.8.0-py3-none-any.whl.zip tmp/promptflow-1.9.0-py3-none-any.whl.zip --markdown 20240517/p/promptflow/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/62/87/641981f0ea8dbe256baa83a45e12e5c38b68f597813b5c496db878bad92a/promptflow_azure-1.9.0-py3-none-any.whl
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/b9/6b/1cb0f975e7cde850d15e6259f87d53caa3e79bd4120c3f476e341adb29ad/promptflow_core-1.9.0-py3-none-any.whl
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-tracing]: executing diffoscope
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-tracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip --markdown 20240517/p/promptflow-tracing/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/e4/f8/fdd16738d6d12c1a789acd81c40c3bc37795f33919a608f44e37a08e22e0/promptflow_devkit-1.9.0-py3-none-any.whl
+[2024-05-17 09:06:17] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.8.tar.gz]
+[2024-05-17 09:06:17] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.9.tar.gz]
+[2024-05-17 09:06:17] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-core]: executing diffoscope
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_core-1.8.0-py3-none-any.whl.zip tmp/promptflow_core-1.9.0-py3-none-any.whl.zip --markdown 20240517/p/promptflow-core/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-azure]: executing diffoscope
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip --markdown 20240517/p/promptflow-azure/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-devkit]: executing diffoscope
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip --markdown 20240517/p/promptflow-devkit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:17] INFO root fetch - main [MainThread]: End processing [promptflow]: success
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:17] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:17] INFO root fetch - main [MainThread]: End processing [promptflow-tracing]: success
+[2024-05-17 09:06:19] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:19] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:19] INFO root fetch - main [MainThread]: End processing [promptflow-core]: success
+[2024-05-17 09:06:20] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:20] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:20] INFO root fetch - main [MainThread]: End processing [promptflow-azure]: success
+[2024-05-17 09:06:42] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:42] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
+[2024-05-17 09:06:42] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
+[2024-05-17 09:06:42] INFO root fetch - main [MainThread]: Store serial: [23249471]

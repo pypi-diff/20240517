@@ -11884,3 +11884,18 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:57:30] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
 [2024-05-17 04:57:30] INFO root fetch - main [MainThread]: End processing [metamist]: success
 [2024-05-17 04:57:30] INFO root fetch - main [MainThread]: Store serial: [23247627]
+[2024-05-17 04:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247627]
+[2024-05-17 04:59:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 04:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffusersv
+[2024-05-17 04:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xwind
+[2024-05-17 04:59:39] INFO root fetch - processPackages [diffusersv]: New version: [0.28.0.dev0] Old Version: [0.25.dev0]
+[2024-05-17 04:59:39] WARNING root fetch - processPackages [xwind]: Skipping, unable to determine old version
+[2024-05-17 04:59:39] INFO root fetch - main [MainThread]: End processing [xwind] error
+[2024-05-17 04:59:39] INFO root fetch - processPackages [diffusersv]: Downloading https://files.pythonhosted.org/packages/ee/c0/9fd51347ee758bd0b5f49c06fc8faa6e93793b88cbe417951805818f1f6a/diffusersv-0.25.dev0.tar.gz
+[2024-05-17 04:59:39] INFO root fetch - processPackages [diffusersv]: Downloading https://files.pythonhosted.org/packages/11/cd/5ae8ec6cbcfc36918e805056797a480684341535c34badc21ad3fd9354de/diffusersv-0.28.0.dev0.tar.gz
+[2024-05-17 04:59:39] INFO root fetch - processPackages [diffusersv]: executing diffoscope
+[2024-05-17 04:59:39] INFO root fetch - processPackages [diffusersv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusersv-0.25.dev0.tar.gz tmp/diffusersv-0.28.0.dev0.tar.gz --markdown 20240517/d/diffusersv/0.25.dev0-0.28.0.dev0/README.md --exclude *.pyd
+[2024-05-17 04:59:45] INFO root fetch - processPackages [diffusersv]: Remove: archive file [/home/abi/fetcher/tmp/diffusersv-0.25.dev0.tar.gz]
+[2024-05-17 04:59:45] INFO root fetch - processPackages [diffusersv]: Remove: archive file [/home/abi/fetcher/tmp/diffusersv-0.28.0.dev0.tar.gz]
+[2024-05-17 04:59:45] INFO root fetch - main [MainThread]: End processing [diffusersv]: success
+[2024-05-17 04:59:45] INFO root fetch - main [MainThread]: Store serial: [23247633]

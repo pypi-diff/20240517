@@ -3101,3 +3101,20 @@
 [2024-05-17 02:50:54] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-17 02:50:54] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-17 02:50:54] INFO root fetch - main [MainThread]: Store serial: [23244644]
+[2024-05-17 02:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244644]
+[2024-05-17 02:53:02] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-17 02:55:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244647]
+[2024-05-17 02:55:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 02:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sojhldqcwnerwxdk
+[2024-05-17 02:55:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xursparks
+[2024-05-17 02:55:08] INFO root fetch - processPackages [xursparks]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-17 02:55:08] WARNING root fetch - processPackages [sojhldqcwnerwxdk]: Skipping, unable to determine old version
+[2024-05-17 02:55:08] INFO root fetch - main [MainThread]: End processing [sojhldqcwnerwxdk] error
+[2024-05-17 02:55:08] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/e6/ad/24d1300b106e31c79927508bab66a88764f88733a36eb9738a56da798493/xursparks-1.0.6.tar.gz
+[2024-05-17 02:55:08] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/89/b3/5d799d55211177c4b702694722c27b9daff0ae083eb602286ed63f669e1b/xursparks-1.0.7.tar.gz
+[2024-05-17 02:55:08] INFO root fetch - processPackages [xursparks]: executing diffoscope
+[2024-05-17 02:55:08] INFO root fetch - processPackages [xursparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xursparks-1.0.6.tar.gz tmp/xursparks-1.0.7.tar.gz --markdown 20240517/x/xursparks/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-17 02:55:09] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.6.tar.gz]
+[2024-05-17 02:55:09] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.7.tar.gz]
+[2024-05-17 02:55:09] INFO root fetch - main [MainThread]: End processing [xursparks]: success
+[2024-05-17 02:55:09] INFO root fetch - main [MainThread]: Store serial: [23244655]

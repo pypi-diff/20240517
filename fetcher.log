@@ -20917,3 +20917,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:22:35] INFO root fetch - processPackages [tqsdk2]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk2-2.2.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-17 11:22:35] INFO root fetch - main [MainThread]: End processing [tqsdk2]: success
 [2024-05-17 11:22:35] INFO root fetch - main [MainThread]: Store serial: [23251315]
+[2024-05-17 11:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251315]
+[2024-05-17 11:24:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splunktaucclib
+[2024-05-17 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-allauth
+[2024-05-17 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cldfgeojson
+[2024-05-17 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-roamlinks-with-pdf-plugin
+[2024-05-17 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindgard
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Downloading https://files.pythonhosted.org/packages/d4/d8/82418682bdeabce56216cc1b9046dc60734d48bce440eb9d5fd6840a73dc/mkdocs-roamlinks-with-pdf-plugin-1.0.1.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [cldfgeojson]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-17 11:24:49] INFO root fetch - processPackages [splunktaucclib]: New version: [6.2.0] Old Version: [6.1.1]
+[2024-05-17 11:24:49] INFO root fetch - processPackages [django-allauth]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mindgard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 11:24:49] INFO root fetch - processPackages [cldfgeojson]: Downloading https://files.pythonhosted.org/packages/80/1f/defc1342e8aac0645904aede1301f1ba876a5b0f9ce6ab1ae71f167d608e/cldfgeojson-0.2.0.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [django-allauth]: Downloading https://files.pythonhosted.org/packages/f9/f6/3fb178b47347574c7db41ca4d819e7b88498f632383f0cdd4f2ad333e0ed/django-allauth-0.8.3.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [splunktaucclib]: Downloading https://files.pythonhosted.org/packages/42/83/941516207396968d52df6e69ac02ffff5e4174964b14d6260f9ea1035826/splunktaucclib-6.1.1-py3-none-any.whl
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Downloading https://files.pythonhosted.org/packages/8a/5a/fff801e1eb919335f4982c91d906c4521189519562226844b52651a34202/mkdocs-roamlinks-with-pdf-plugin-1.0.2.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/9c/b1/49266284532823bcff62b68da03adcba0ce12145cfedf619217e68b90784/mindgard-0.8.0.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: executing diffoscope
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.1.tar.gz tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.2.tar.gz --markdown 20240517/m/mkdocs-roamlinks-with-pdf-plugin/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 11:24:49] INFO root fetch - processPackages [cldfgeojson]: Downloading https://files.pythonhosted.org/packages/e8/05/2cf3c7db4b4d48260e7a9f024cc008572e7fac1858c6867f84557e404191/cldfgeojson-0.2.1.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [splunktaucclib]: Downloading https://files.pythonhosted.org/packages/c2/cc/006e57d79cefac2d7421f8b7c6ebabfae19152e57ccdd01d6c2ddb773af4/splunktaucclib-6.2.0.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [django-allauth]: Downloading https://files.pythonhosted.org/packages/72/0c/b18370f287130b7262638eeee7edb2abe16f4d5e4685065be0c44bae18e0/django-allauth-0.9.0.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [cldfgeojson]: executing diffoscope
+[2024-05-17 11:24:49] INFO root fetch - processPackages [cldfgeojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cldfgeojson-0.2.0.tar.gz tmp/cldfgeojson-0.2.1.tar.gz --markdown 20240517/c/cldfgeojson/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/3d/46/43c1e357331fd69e429226f32578c8023c748ab62ec8721f3c7388d325b1/mindgard-0.9.0.tar.gz
+[2024-05-17 11:24:49] INFO root fetch - processPackages [django-allauth]: executing diffoscope
+[2024-05-17 11:24:49] INFO root fetch - processPackages [django-allauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allauth-0.8.3.tar.gz tmp/django-allauth-0.9.0.tar.gz --markdown 20240517/d/django-allauth/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-17 11:24:49] INFO root fetch - processPackages [splunktaucclib]: executing diffoscope
+[2024-05-17 11:24:49] INFO root fetch - processPackages [splunktaucclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunktaucclib-6.1.1-py3-none-any.whl.zip tmp/splunktaucclib-6.2.0.tar.gz --markdown 20240517/s/splunktaucclib/6.1.1-6.2.0/README.md --exclude *.pyd
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mindgard]: executing diffoscope
+[2024-05-17 11:24:49] INFO root fetch - processPackages [mindgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindgard-0.8.0.tar.gz tmp/mindgard-0.9.0.tar.gz --markdown 20240517/m/mindgard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 11:24:50] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.1.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - processPackages [mkdocs-roamlinks-with-pdf-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-roamlinks-with-pdf-plugin-1.0.2.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - main [MainThread]: End processing [mkdocs-roamlinks-with-pdf-plugin]: success
+[2024-05-17 11:24:50] INFO root fetch - processPackages [cldfgeojson]: Remove: archive file [/home/abi/fetcher/tmp/cldfgeojson-0.2.0.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - processPackages [cldfgeojson]: Remove: archive file [/home/abi/fetcher/tmp/cldfgeojson-0.2.1.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - main [MainThread]: End processing [cldfgeojson]: success
+[2024-05-17 11:24:50] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.8.0.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.9.0.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - main [MainThread]: End processing [mindgard]: success
+[2024-05-17 11:24:50] INFO root fetch - processPackages [splunktaucclib]: Remove: archive file [/home/abi/fetcher/tmp/splunktaucclib-6.1.1-py3-none-any.whl.zip]
+[2024-05-17 11:24:50] INFO root fetch - processPackages [splunktaucclib]: Remove: archive file [/home/abi/fetcher/tmp/splunktaucclib-6.2.0.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - main [MainThread]: End processing [splunktaucclib]: success
+[2024-05-17 11:24:50] INFO root fetch - processPackages [django-allauth]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-0.8.3.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - processPackages [django-allauth]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-0.9.0.tar.gz]
+[2024-05-17 11:24:50] INFO root fetch - main [MainThread]: End processing [django-allauth]: success
+[2024-05-17 11:24:50] INFO root fetch - main [MainThread]: Store serial: [23251325]

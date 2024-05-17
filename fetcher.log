@@ -18292,3 +18292,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:58:20] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240517-cp39-cp39-win_amd64.whl.zip]
 [2024-05-17 09:58:20] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
 [2024-05-17 09:58:20] INFO root fetch - main [MainThread]: Store serial: [23250163]
+[2024-05-17 10:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250163]
+[2024-05-17 10:00:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-global-discount
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serverless-wsgi
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: functionize-notebook
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elody
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xinference-client
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qBitrr2
+[2024-05-17 10:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: allen1989
+[2024-05-17 10:00:29] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-05-17 10:00:29] INFO root fetch - processPackages [serverless-wsgi]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-17 10:00:29] WARNING root fetch - processPackages [functionize-notebook]: Skipping, unable to determine old version
+[2024-05-17 10:00:29] INFO root fetch - main [MainThread]: End processing [functionize-notebook] error
+[2024-05-17 10:00:29] INFO root fetch - processPackages [xinference-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-17 10:00:29] INFO root fetch - processPackages [odoo-addon-account-global-discount]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.2.3]
+[2024-05-17 10:00:29] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.2] Old Version: [4.6.1]
+[2024-05-17 10:00:29] INFO root fetch - processPackages [allen1989]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-17 10:00:29] INFO root fetch - processPackages [serverless-wsgi]: Downloading https://files.pythonhosted.org/packages/4d/1b/1080f2379054c3457b459aeb5dd11c436ff0aef6b1b34c0189fc2c05631d/serverless-wsgi-3.0.2.tar.gz
+[2024-05-17 10:00:29] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/01/f8/6be0069f1ea330b9405d66898cc8a0cc47ee74901d0530c00f074430a190/elody-0.0.80.tar.gz
+[2024-05-17 10:00:29] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/36/32/c6439403090bc100d81be206bb25dd710ab42d8c3fafb66d4071d996dd05/qbitrr2-4.6.1.tar.gz
+[2024-05-17 10:00:29] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/6d/b8/345520866b2a4eb03a3d6c561cf46ac494e6acf0df5c25ed27d73a37d6c4/xinference-client-0.9.3.tar.gz
+[2024-05-17 10:00:29] INFO root fetch - processPackages [odoo-addon-account-global-discount]: Downloading https://files.pythonhosted.org/packages/1f/6c/3bb387137c0b26d605e6b3d6543c8283ec7ab270851e1180b5dba8d644b5/odoo_addon_account_global_discount-15.0.1.0.2.3-py3-none-any.whl
+[2024-05-17 10:00:29] INFO root fetch - processPackages [allen1989]: Downloading https://files.pythonhosted.org/packages/60/41/ae51b6b5d0ba3dc3a5daf72cf2d604f29db4ce856a59d57cf5185515d72f/allen1989-0.1.0.tar.gz
+[2024-05-17 10:00:30] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/b0/5e/8837faaf5437747cf83a28d18a07f10a46435b7bd2b93ef776dc6959ea86/qbitrr2-4.6.2.tar.gz
+[2024-05-17 10:00:30] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-17 10:00:30] INFO root fetch - processPackages [serverless-wsgi]: Downloading https://files.pythonhosted.org/packages/11/a6/9e84dc6c6557bdc4347973cba63a2bbacf6e4da46a8018ed0788f7a7a8e5/serverless-wsgi-3.0.3.tar.gz
+[2024-05-17 10:00:30] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/d9/51/a0c540e0cc12db8debdfbcd787c091fe47401f5b510b3dced4113987d99c/xinference-client-0.9.4.tar.gz
+[2024-05-17 10:00:30] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-17 10:00:30] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.80.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240517/e/elody/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-05-17 10:00:30] INFO root fetch - processPackages [odoo-addon-account-global-discount]: Downloading https://files.pythonhosted.org/packages/6d/b2/7c357ae2541adfa351bbbd542365a76fff8ca9d0853b9734147cc764a724/odoo_addon_account_global_discount-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-17 10:00:30] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 10:00:30] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.1.tar.gz tmp/qbitrr2-4.6.2.tar.gz --markdown 20240517/q/qBitrr2/4.6.1-4.6.2/README.md --exclude *.pyd
+[2024-05-17 10:00:30] INFO root fetch - processPackages [serverless-wsgi]: executing diffoscope
+[2024-05-17 10:00:30] INFO root fetch - processPackages [serverless-wsgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-wsgi-3.0.2.tar.gz tmp/serverless-wsgi-3.0.3.tar.gz --markdown 20240517/s/serverless-wsgi/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-17 10:00:30] INFO root fetch - processPackages [allen1989]: Downloading https://files.pythonhosted.org/packages/ff/5c/3df949cd0096f83dc07047048cc681348777ab096405850c2d9063c4efea/allen1989-0.2.0.tar.gz
+[2024-05-17 10:00:30] INFO root fetch - processPackages [xinference-client]: executing diffoscope
+[2024-05-17 10:00:30] INFO root fetch - processPackages [xinference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-client-0.9.3.tar.gz tmp/xinference-client-0.9.4.tar.gz --markdown 20240517/x/xinference-client/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-17 10:00:30] INFO root fetch - processPackages [odoo-addon-account-global-discount]: executing diffoscope
+[2024-05-17 10:00:30] INFO root fetch - processPackages [odoo-addon-account-global-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_global_discount-15.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_account_global_discount-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-account-global-discount/15.0.1.0.2.3-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-17 10:00:30] INFO root fetch - processPackages [allen1989]: executing diffoscope
+[2024-05-17 10:00:30] INFO root fetch - processPackages [allen1989]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allen1989-0.1.0.tar.gz tmp/allen1989-0.2.0.tar.gz --markdown 20240517/a/allen1989/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-17 10:00:30] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.80.tar.gz]
+[2024-05-17 10:00:30] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-17 10:00:30] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-17 10:00:30] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.1.tar.gz]
+[2024-05-17 10:00:30] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.2.tar.gz]
+[2024-05-17 10:00:30] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 10:00:30] INFO root fetch - processPackages [serverless-wsgi]: Remove: archive file [/home/abi/fetcher/tmp/serverless-wsgi-3.0.2.tar.gz]
+[2024-05-17 10:00:30] INFO root fetch - processPackages [serverless-wsgi]: Remove: archive file [/home/abi/fetcher/tmp/serverless-wsgi-3.0.3.tar.gz]
+[2024-05-17 10:00:30] INFO root fetch - main [MainThread]: End processing [serverless-wsgi]: success
+[2024-05-17 10:00:31] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.3.tar.gz]
+[2024-05-17 10:00:31] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.4.tar.gz]
+[2024-05-17 10:00:31] INFO root fetch - main [MainThread]: End processing [xinference-client]: success
+[2024-05-17 10:00:31] INFO root fetch - processPackages [odoo-addon-account-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_global_discount-15.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-17 10:00:31] INFO root fetch - processPackages [odoo-addon-account-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_global_discount-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-17 10:00:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-global-discount]: success
+[2024-05-17 10:00:31] INFO root fetch - processPackages [allen1989]: Remove: archive file [/home/abi/fetcher/tmp/allen1989-0.1.0.tar.gz]
+[2024-05-17 10:00:31] INFO root fetch - processPackages [allen1989]: Remove: archive file [/home/abi/fetcher/tmp/allen1989-0.2.0.tar.gz]
+[2024-05-17 10:00:31] INFO root fetch - main [MainThread]: End processing [allen1989]: success
+[2024-05-17 10:00:31] INFO root fetch - main [MainThread]: Store serial: [23250183]

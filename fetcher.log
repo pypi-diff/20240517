@@ -18445,3 +18445,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:04:55] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-17 10:04:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-customer-deposit]: success
 [2024-05-17 10:04:55] INFO root fetch - main [MainThread]: Store serial: [23250216]
+[2024-05-17 10:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250216]
+[2024-05-17 10:07:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 10:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-modeltranslation
+[2024-05-17 10:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-fasthtml
+[2024-05-17 10:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-wallet-pay
+[2024-05-17 10:07:05] INFO root fetch - processPackages [telegram-wallet-pay]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-17 10:07:05] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/6c/64/4aa6de6c3defbf9a54059dcd37b2dcb6e1368827b79a2cfd0e359a3a58cf/telegram_wallet_pay-0.7.0.tar.gz
+[2024-05-17 10:07:05] WARNING root fetch - processPackages [python-fasthtml]: Skipping, unable to determine old version
+[2024-05-17 10:07:05] INFO root fetch - main [MainThread]: End processing [python-fasthtml] error
+[2024-05-17 10:07:05] INFO root fetch - processPackages [django-modeltranslation]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-17 10:07:06] INFO root fetch - processPackages [django-modeltranslation]: Downloading https://files.pythonhosted.org/packages/9e/01/d441cf6e79ae464a19985c24f68e20dd636e925fe74eff84b55f43c284bc/django-modeltranslation-0.9.tar.gz
+[2024-05-17 10:07:06] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/df/f6/8397699e41b6b97651b373bb7d2ec80b55efb5c80d2fcda82324768a20b5/telegram_wallet_pay-0.8.0.tar.gz
+[2024-05-17 10:07:06] INFO root fetch - processPackages [telegram-wallet-pay]: executing diffoscope
+[2024-05-17 10:07:06] INFO root fetch - processPackages [telegram-wallet-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_wallet_pay-0.7.0.tar.gz tmp/telegram_wallet_pay-0.8.0.tar.gz --markdown 20240517/t/telegram-wallet-pay/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-17 10:07:06] INFO root fetch - processPackages [django-modeltranslation]: Downloading https://files.pythonhosted.org/packages/d5/35/af034d89c42b08db5ea0b8f25009e09e41317feb9def4928eeaf3cc57f52/django-modeltranslation-0.9.1.tar.gz
+[2024-05-17 10:07:06] INFO root fetch - processPackages [django-modeltranslation]: executing diffoscope
+[2024-05-17 10:07:06] INFO root fetch - processPackages [django-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-modeltranslation-0.9.tar.gz tmp/django-modeltranslation-0.9.1.tar.gz --markdown 20240517/d/django-modeltranslation/0.9-0.9.1/README.md --exclude *.pyd
+[2024-05-17 10:07:06] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.7.0.tar.gz]
+[2024-05-17 10:07:06] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.8.0.tar.gz]
+[2024-05-17 10:07:06] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
+[2024-05-17 10:07:07] INFO root fetch - processPackages [django-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltranslation-0.9.tar.gz]
+[2024-05-17 10:07:07] INFO root fetch - processPackages [django-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltranslation-0.9.1.tar.gz]
+[2024-05-17 10:07:07] INFO root fetch - main [MainThread]: End processing [django-modeltranslation]: success
+[2024-05-17 10:07:07] INFO root fetch - main [MainThread]: Store serial: [23250227]

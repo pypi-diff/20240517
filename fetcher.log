@@ -2389,3 +2389,11 @@
 [2024-05-17 02:09:02] INFO root fetch - processPackages [multidecoder]: Remove: archive file [/home/abi/fetcher/tmp/multidecoder-1.3.4.tar.gz]
 [2024-05-17 02:09:02] INFO root fetch - main [MainThread]: End processing [multidecoder]: success
 [2024-05-17 02:09:02] INFO root fetch - main [MainThread]: Store serial: [23244306]
+[2024-05-17 02:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244306]
+[2024-05-17 02:11:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 02:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vhs-decode
+[2024-05-17 02:11:11] INFO root fetch - processPackages [vhs-decode]: New version: [0.2.7.dev4] Old Version: [0.2.7]
+[2024-05-17 02:11:11] INFO root fetch - processPackages [vhs-decode]: Downloading https://files.pythonhosted.org/packages/49/0c/00731dfc1fb706c0ed1e8c0a9f2fa646ad38152803b41ac5274c30f3fb42/vhs_decode-0.2.7.tar.gz
+[2024-05-17 02:11:11] WARNING root fetch - processPackages [vhs-decode]: Skipping package: exceeds size limit 55587939>=10485760
+[2024-05-17 02:11:11] INFO root fetch - main [MainThread]: End processing [vhs-decode] error
+[2024-05-17 02:11:11] INFO root fetch - main [MainThread]: Store serial: [23244327]

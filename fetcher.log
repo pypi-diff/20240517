@@ -13854,3 +13854,54 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:15:16] INFO root fetch - processPackages [rten-convert]: Remove: archive file [/home/abi/fetcher/tmp/rten_convert-0.9.0.tar.gz]
 [2024-05-17 07:15:16] INFO root fetch - main [MainThread]: End processing [rten-convert]: success
 [2024-05-17 07:15:16] INFO root fetch - main [MainThread]: Store serial: [23248461]
+[2024-05-17 07:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248461]
+[2024-05-17 07:17:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mail-multicompany
+[2024-05-17 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-intercompany-bidirectional
+[2024-05-17 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-intercompany
+[2024-05-17 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sft-data-generator
+[2024-05-17 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2024-05-17 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-multi-company
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.0]
+[2024-05-17 07:17:25] WARNING root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: Skipping, unable to determine old version
+[2024-05-17 07:17:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-intercompany-bidirectional] error
+[2024-05-17 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Downloading https://files.pythonhosted.org/packages/a3/94/71f2060b4457d1e12df9cc582ecd9fe826bdd01d9287bf631f6e412abec9/odoo_addon_mail_multicompany-16.0.1.1.0-py3-none-any.whl
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20240516.0] Old Version: [16.0.20240409.0]
+[2024-05-17 07:17:25] INFO root fetch - processPackages [sft-data-generator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-17 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Downloading https://files.pythonhosted.org/packages/58/54/0f466017f39abc4e44fa4ba72306b4a3c857d840ae8903297ab5b32f3d71/odoo_addon_stock_intercompany-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-17 07:17:25] INFO root fetch - processPackages [sft-data-generator]: Downloading https://files.pythonhosted.org/packages/c2/a8/83be7a9cf2dac7531b9bacb8b9368fd5c53eb2ae884848244255085e821b/sft-data-generator-0.0.2.tar.gz
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Downloading https://files.pythonhosted.org/packages/3e/db/25d270176257ba696340e80d12e14d4b1ae3919570ffd9f94ced7d7d846b/odoo_addon_mail_multicompany-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/b2/e6/92311a61a839ed19787e957863500c9df3154f9827fd6246399895f7cbec/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl
+[2024-05-17 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: executing diffoscope
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_multicompany-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_mail_multicompany-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-mail-multicompany/16.0.1.1.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-17 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-17 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240517/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Downloading https://files.pythonhosted.org/packages/d2/5a/9ba0c51106d09f6d9f174821934704700a9aba9d31c6b354a7dc2065510e/odoo_addon_stock_intercompany-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-17 07:17:25] INFO root fetch - processPackages [sft-data-generator]: Downloading https://files.pythonhosted.org/packages/e1/33/253dda90dae6d2867392b26857129a610260e1a134d82fe43635d9240599/sft-data-generator-0.0.3.tar.gz
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/7f/4c/5db37341339d2b5fc7579f2bc9d16af58147c5df6a5c2de736043e19a90d/odoo_addons_oca_multi_company-16.0.20240516.0-py3-none-any.whl
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: executing diffoscope
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_intercompany-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_stock_intercompany-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-stock-intercompany/16.0.1.0.0.5-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-17 07:17:25] INFO root fetch - processPackages [sft-data-generator]: executing diffoscope
+[2024-05-17 07:17:25] INFO root fetch - processPackages [sft-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sft-data-generator-0.0.2.tar.gz tmp/sft-data-generator-0.0.3.tar.gz --markdown 20240517/s/sft-data-generator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2024-05-17 07:17:25] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20240516.0-py3-none-any.whl.zip --markdown 20240517/o/odoo-addons-oca-multi-company/16.0.20240409.0-16.0.20240516.0/README.md --exclude *.pyd
+[2024-05-17 07:17:26] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_multicompany-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-17 07:17:26] INFO root fetch - processPackages [odoo-addon-mail-multicompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_multicompany-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 07:17:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-multicompany]: success
+[2024-05-17 07:17:26] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-17 07:17:26] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-17 07:17:26] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-17 07:17:26] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl.zip]
+[2024-05-17 07:17:26] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20240516.0-py3-none-any.whl.zip]
+[2024-05-17 07:17:26] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2024-05-17 07:17:26] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-17 07:17:26] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-17 07:17:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-intercompany]: success
+[2024-05-17 07:17:26] INFO root fetch - processPackages [sft-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/sft-data-generator-0.0.2.tar.gz]
+[2024-05-17 07:17:26] INFO root fetch - processPackages [sft-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/sft-data-generator-0.0.3.tar.gz]
+[2024-05-17 07:17:26] INFO root fetch - main [MainThread]: End processing [sft-data-generator]: success
+[2024-05-17 07:17:26] INFO root fetch - main [MainThread]: Store serial: [23248476]

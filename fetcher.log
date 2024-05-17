@@ -22748,3 +22748,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:28:00] INFO root fetch - processPackages [yara-x]: Remove: archive file [/home/abi/fetcher/tmp/yara_x-0.3.0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-17 12:28:00] INFO root fetch - main [MainThread]: End processing [yara-x]: success
 [2024-05-17 12:28:00] INFO root fetch - main [MainThread]: Store serial: [23252174]
+[2024-05-17 12:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252174]
+[2024-05-17 12:30:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 12:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrahub-sync
+[2024-05-17 12:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superlinked
+[2024-05-17 12:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StdioBridge
+[2024-05-17 12:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: risb
+[2024-05-17 12:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlm-v1.0
+[2024-05-17 12:30:10] INFO root fetch - processPackages [infrahub-sync]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-17 12:30:10] WARNING root fetch - processPackages [mlm-v1.0]: Skipping, unable to determine old version
+[2024-05-17 12:30:10] INFO root fetch - main [MainThread]: End processing [mlm-v1.0] error
+[2024-05-17 12:30:10] INFO root fetch - processPackages [infrahub-sync]: Downloading https://files.pythonhosted.org/packages/08/66/744d0098f4186e24417bd07a4ce86abe1f4a4e9ab084ee026cee5c71a5c9/infrahub_sync-0.3.0.tar.gz
+[2024-05-17 12:30:10] INFO root fetch - processPackages [risb]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-17 12:30:10] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-17 12:30:10] WARNING root fetch - processPackages [StdioBridge]: Skipping, unable to determine old version
+[2024-05-17 12:30:10] INFO root fetch - main [MainThread]: End processing [StdioBridge] error
+[2024-05-17 12:30:10] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-05-17 12:30:10] INFO root fetch - processPackages [infrahub-sync]: Downloading https://files.pythonhosted.org/packages/aa/88/1c5240b9402405688f15cd893fdefdc0ef4110e882190be0e031abccaea9/infrahub_sync-0.4.0.tar.gz
+[2024-05-17 12:30:10] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/93/15/96006e4971e553ff808c53a743c9b6e910a78cc1dcae779e3b5d50231e9d/risb-0.1.0.tar.gz
+[2024-05-17 12:30:10] INFO root fetch - processPackages [infrahub-sync]: executing diffoscope
+[2024-05-17 12:30:10] INFO root fetch - processPackages [infrahub-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahub_sync-0.3.0.tar.gz tmp/infrahub_sync-0.4.0.tar.gz --markdown 20240517/i/infrahub-sync/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-17 12:30:10] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-17 12:30:10] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/2c/97/27c8a6bead21750773a276c10f2270f04af603d3aa8d0b818a78f900e299/risb-0.1.1.tar.gz
+[2024-05-17 12:30:10] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-17 12:30:10] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240517/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-17 12:30:11] INFO root fetch - processPackages [risb]: executing diffoscope
+[2024-05-17 12:30:11] INFO root fetch - processPackages [risb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risb-0.1.0.tar.gz tmp/risb-0.1.1.tar.gz --markdown 20240517/r/risb/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-17 12:30:11] INFO root fetch - processPackages [infrahub-sync]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sync-0.3.0.tar.gz]
+[2024-05-17 12:30:11] INFO root fetch - processPackages [infrahub-sync]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sync-0.4.0.tar.gz]
+[2024-05-17 12:30:11] INFO root fetch - main [MainThread]: End processing [infrahub-sync]: success
+[2024-05-17 12:30:11] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-05-17 12:30:11] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-17 12:30:11] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-17 12:30:11] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.1.0.tar.gz]
+[2024-05-17 12:30:11] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.1.1.tar.gz]
+[2024-05-17 12:30:11] INFO root fetch - main [MainThread]: End processing [risb]: success
+[2024-05-17 12:30:11] INFO root fetch - main [MainThread]: Store serial: [23252202]

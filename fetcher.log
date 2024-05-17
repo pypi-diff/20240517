@@ -20229,3 +20229,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:57:23] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.4-py3-none-any.whl.zip]
 [2024-05-17 10:57:23] INFO root fetch - main [MainThread]: End processing [vistudio]: success
 [2024-05-17 10:57:23] INFO root fetch - main [MainThread]: Store serial: [23251039]
+[2024-05-17 10:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251039]
+[2024-05-17 10:59:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastselenium
+[2024-05-17 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: why-tools
+[2024-05-17 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: why-tools
+[2024-05-17 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-testsuitesmanagement
+[2024-05-17 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: popoll-backend
+[2024-05-17 10:59:35] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b7] Old Version: [0.0.2b6]
+[2024-05-17 10:59:35] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-17 10:59:35] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b7] Old Version: [0.0.2b6]
+[2024-05-17 10:59:35] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.53] Old Version: [0.0.52]
+[2024-05-17 10:59:35] INFO root fetch - processPackages [fastselenium]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 10:59:35] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/38/e9/74dc8b8fb3d78ff1c0947cc6a54001c374b66327777190d93c41626c37a8/why-tools-0.0.2b6.tar.gz
+[2024-05-17 10:59:35] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/38/e9/74dc8b8fb3d78ff1c0947cc6a54001c374b66327777190d93c41626c37a8/why-tools-0.0.2b6.tar.gz
+[2024-05-17 10:59:35] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/c9/ec/b5f2e24c0788f95e67daed0465611a80c68fb7bf51f9e86b069dcc591c5b/popoll_backend-0.0.52.tar.gz
+[2024-05-17 10:59:35] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: Downloading https://files.pythonhosted.org/packages/9c/73/d85797c22bb3641ef66c09cfc4085043ace628e61558f4fd6da6861a0494/robotframework-testsuitesmanagement-0.7.6.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [fastselenium]: Downloading https://files.pythonhosted.org/packages/1d/f5/f0b88dc5bb75249a32384b4d80123fc6669faa279d897985f5fb51183842/fastselenium-0.0.4.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/a2/ae/51979ba74e1b2027ab51c4641e34b0868c2db67062b0f5446c155250c546/popoll_backend-0.0.53.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/f1/6c/a0edcaa9ec8e171c903e865f5c80d38c4444383d6808e3bf0496a320872c/why-tools-0.0.2b7.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/f1/6c/a0edcaa9ec8e171c903e865f5c80d38c4444383d6808e3bf0496a320872c/why-tools-0.0.2b7.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-17 10:59:36] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.52.tar.gz tmp/popoll_backend-0.0.53.tar.gz --markdown 20240517/p/popoll-backend/0.0.52-0.0.53/README.md --exclude *.pyd
+[2024-05-17 10:59:36] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: Downloading https://files.pythonhosted.org/packages/43/ae/44011e69401de2724602e52ad90c9094375c8e77837aea4a0ed61c0d302d/robotframework-testsuitesmanagement-0.7.7.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b6.tar.gz tmp/why-tools-0.0.2b7.tar.gz --markdown 20240517/w/why-tools/0.0.2b6-0.0.2b7/README.md --exclude *.pyd
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b6.tar.gz tmp/why-tools-0.0.2b7.tar.gz --markdown 20240517/w/why-tools/0.0.2b6-0.0.2b7/README.md --exclude *.pyd
+[2024-05-17 10:59:36] INFO root fetch - processPackages [fastselenium]: Downloading https://files.pythonhosted.org/packages/19/07/ea41c9d859d4ce6ad74e94223978eaa270d84f221e2d296ec7b0b364092f/fastselenium-0.0.5.tar.gz
+[2024-05-17 10:59:36] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: executing diffoscope
+[2024-05-17 10:59:36] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-testsuitesmanagement-0.7.6.tar.gz tmp/robotframework-testsuitesmanagement-0.7.7.tar.gz --markdown 20240517/r/robotframework-testsuitesmanagement/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-17 10:59:36] INFO root fetch - processPackages [fastselenium]: executing diffoscope
+[2024-05-17 10:59:36] INFO root fetch - processPackages [fastselenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastselenium-0.0.4.tar.gz tmp/fastselenium-0.0.5.tar.gz --markdown 20240517/f/fastselenium/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b6.tar.gz]
+[2024-05-17 10:59:36] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b7.tar.gz]
+[2024-05-17 10:59:36] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-17 10:59:37] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-17 10:59:37] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.52.tar.gz]
+[2024-05-17 10:59:37] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.53.tar.gz]
+[2024-05-17 10:59:37] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-17 10:59:37] INFO root fetch - processPackages [fastselenium]: Remove: archive file [/home/abi/fetcher/tmp/fastselenium-0.0.4.tar.gz]
+[2024-05-17 10:59:37] INFO root fetch - processPackages [fastselenium]: Remove: archive file [/home/abi/fetcher/tmp/fastselenium-0.0.5.tar.gz]
+[2024-05-17 10:59:37] INFO root fetch - main [MainThread]: End processing [fastselenium]: success
+[2024-05-17 10:59:37] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-testsuitesmanagement-0.7.6.tar.gz]
+[2024-05-17 10:59:37] INFO root fetch - processPackages [robotframework-testsuitesmanagement]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-testsuitesmanagement-0.7.7.tar.gz]
+[2024-05-17 10:59:37] INFO root fetch - main [MainThread]: End processing [robotframework-testsuitesmanagement]: success
+[2024-05-17 10:59:37] INFO root fetch - main [MainThread]: Store serial: [23251056]

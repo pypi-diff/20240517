@@ -2818,3 +2818,30 @@
 [2024-05-17 02:28:42] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.3.tar.gz]
 [2024-05-17 02:28:42] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2024-05-17 02:28:42] INFO root fetch - main [MainThread]: Store serial: [23244522]
+[2024-05-17 02:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244522]
+[2024-05-17 02:30:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 02:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-05-17 02:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: premath
+[2024-05-17 02:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocif
+[2024-05-17 02:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taxbrain
+[2024-05-17 02:30:51] WARNING root fetch - processPackages [premath]: Skipping, unable to determine old version
+[2024-05-17 02:30:51] INFO root fetch - main [MainThread]: End processing [premath] error
+[2024-05-17 02:30:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-17 02:30:51] INFO root fetch - processPackages [geocif]: New version: [0.1.27] Old Version: [0.1.26]
+[2024-05-17 02:30:51] WARNING root fetch - processPackages [taxbrain]: Skipping, unable to determine old version
+[2024-05-17 02:30:51] INFO root fetch - main [MainThread]: End processing [taxbrain] error
+[2024-05-17 02:30:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-17 02:30:51] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/d7/46/47493bd76a6b2ac7060284da1cca3ca199d5cf8d1c0d77df96616b930826/geocif-0.1.26.tar.gz
+[2024-05-17 02:30:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-17 02:30:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-17 02:30:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240517/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-17 02:30:51] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/93/89/b039892aafedad019c5cc655f98ef0dac28beae52e58f3ebbe18e8e3ffe2/geocif-0.1.27.tar.gz
+[2024-05-17 02:30:51] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-17 02:30:51] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.1.26.tar.gz tmp/geocif-0.1.27.tar.gz --markdown 20240517/g/geocif/0.1.26-0.1.27/README.md --exclude *.pyd
+[2024-05-17 02:30:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-17 02:30:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-17 02:30:52] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-17 02:30:52] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.26.tar.gz]
+[2024-05-17 02:30:52] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.27.tar.gz]
+[2024-05-17 02:30:52] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-17 02:30:52] INFO root fetch - main [MainThread]: Store serial: [23244536]

@@ -13026,3 +13026,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:12:16] INFO root fetch - processPackages [pyDIOPT]: Remove: archive file [/home/abi/fetcher/tmp/pydiopt-0.1.2.tar.gz]
 [2024-05-17 06:12:16] INFO root fetch - main [MainThread]: End processing [pyDIOPT]: success
 [2024-05-17 06:12:16] INFO root fetch - main [MainThread]: Store serial: [23248109]
+[2024-05-17 06:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248109]
+[2024-05-17 06:14:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2024-05-17 06:14:26] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-17 06:14:26] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-17 06:14:27] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-17 06:14:27] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-17 06:14:27] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240517/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-17 06:14:28] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-17 06:14:28] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-17 06:14:28] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-17 06:14:28] INFO root fetch - main [MainThread]: Store serial: [23248111]

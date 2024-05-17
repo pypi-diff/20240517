@@ -22934,3 +22934,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:39:05] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.1.9.tar.gz]
 [2024-05-17 12:39:05] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2024-05-17 12:39:05] INFO root fetch - main [MainThread]: Store serial: [23252267]
+[2024-05-17 12:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252267]
+[2024-05-17 12:41:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 12:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt-nightly
+[2024-05-17 12:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newsdataapi
+[2024-05-17 12:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fluke-fl
+[2024-05-17 12:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuclia
+[2024-05-17 12:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: patchpy
+[2024-05-17 12:41:14] INFO root fetch - processPackages [nuclia]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-17 12:41:14] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-17 12:41:14] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/e9/82/752e979d5b5dbccf8b6f8e3b6f78bfd51adab60c33f74cc73a56a385bd30/nuclia-2.0.8.tar.gz
+[2024-05-17 12:41:14] WARNING root fetch - processPackages [patchpy]: Skipping, unable to determine old version
+[2024-05-17 12:41:14] INFO root fetch - main [MainThread]: End processing [patchpy] error
+[2024-05-17 12:41:14] INFO root fetch - processPackages [newsdataapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 12:41:14] WARNING root fetch - processPackages [fluke-fl]: Skipping, unable to determine old version
+[2024-05-17 12:41:14] INFO root fetch - main [MainThread]: End processing [fluke-fl] error
+[2024-05-17 12:41:14] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-17 12:41:14] INFO root fetch - processPackages [newsdataapi]: Downloading https://files.pythonhosted.org/packages/e5/7d/5300119f2e6bf567bcaa29a4d17f34c36753dc605d1b2add32487962f07b/newsdataapi-0.1.8.tar.gz
+[2024-05-17 12:41:14] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/78/f2/63b702f5412142ac1d7eebe86ca1852440a8d920473171ec10d9528e4b1b/nuclia-2.0.9.tar.gz
+[2024-05-17 12:41:14] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-17 12:41:14] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2024-05-17 12:41:14] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-2.0.8.tar.gz tmp/nuclia-2.0.9.tar.gz --markdown 20240517/n/nuclia/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-17 12:41:14] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-17 12:41:14] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240517/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-17 12:41:15] INFO root fetch - processPackages [newsdataapi]: Downloading https://files.pythonhosted.org/packages/ae/95/9f687408ac756e9c97aceda28b870ea1aeec922c270c6dca58d52ab3d62d/newsdataapi-0.1.9.tar.gz
+[2024-05-17 12:41:15] INFO root fetch - processPackages [newsdataapi]: executing diffoscope
+[2024-05-17 12:41:15] INFO root fetch - processPackages [newsdataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsdataapi-0.1.8.tar.gz tmp/newsdataapi-0.1.9.tar.gz --markdown 20240517/n/newsdataapi/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 12:41:15] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-2.0.8.tar.gz]
+[2024-05-17 12:41:15] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-2.0.9.tar.gz]
+[2024-05-17 12:41:15] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2024-05-17 12:41:15] INFO root fetch - processPackages [newsdataapi]: Remove: archive file [/home/abi/fetcher/tmp/newsdataapi-0.1.8.tar.gz]
+[2024-05-17 12:41:15] INFO root fetch - processPackages [newsdataapi]: Remove: archive file [/home/abi/fetcher/tmp/newsdataapi-0.1.9.tar.gz]
+[2024-05-17 12:41:15] INFO root fetch - main [MainThread]: End processing [newsdataapi]: success
+[2024-05-17 12:41:15] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-17 12:41:15] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-17 12:41:15] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-17 12:41:15] INFO root fetch - main [MainThread]: Store serial: [23252293]

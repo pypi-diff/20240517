@@ -20492,3 +20492,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:06:41] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.1.5.tar.gz]
 [2024-05-17 11:06:41] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
 [2024-05-17 11:06:41] INFO root fetch - main [MainThread]: Store serial: [23251142]
+[2024-05-17 11:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251142]
+[2024-05-17 11:08:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mfu
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ayeaye-fossa
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funfunc
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ensure-packages
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyoframe
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iguana
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: common-tools-ai-bnq
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-commission-geo-assign-product-domain
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vipas
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-base-view-inheritance-extension
+[2024-05-17 11:08:55] INFO root fetch - processPackages [iguana]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 11:08:55] INFO root fetch - processPackages [vipas]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 11:08:55] INFO root fetch - processPackages [mfu]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 11:08:55] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-17 11:08:55] INFO root fetch - processPackages [pyoframe]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 11:08:55] INFO root fetch - processPackages [ensure-packages]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: New version: [14.0.2.0.1] Old Version: [14.0.2.0.0]
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.2.dev2]
+[2024-05-17 11:08:56] INFO root fetch - processPackages [funfunc]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 11:08:56] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/b9/09/5b19608071f4aabc0fe94b4c820077655e106f8e027991a06f81caabce50/vipas-0.1.1.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [iguana]: Downloading https://files.pythonhosted.org/packages/ed/27/f00e672868d5a63cdc7edbbc44939b5d86127fbb9a7c02c3e61250079f31/iguana-0.1.5.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [mfu]: Downloading https://files.pythonhosted.org/packages/70/8e/c2566f748a38f5e5eda53822fba615c7e3755daeb6863114dfcf08a6777c/mfu-0.0.7.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/6c/b1/2f897c04ca86827c0683751c73c8162ecfe948c2914544481327f59c0db9/common-tools-ai-bnq-0.1.7.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [pyoframe]: Downloading https://files.pythonhosted.org/packages/6f/42/173f915d18a005f32ca0090a0e02a9fe7612566fed08d23f349bada90309/pyoframe-0.0.4.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ensure-packages]: Downloading https://files.pythonhosted.org/packages/a9/5e/d19ce00acbded0bb7126a90dc1836d71bd6aa076868a80b64a2ea9c6aa33/ensure_packages-0.1.4.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/01/49/67545e1be94636c9a956e3c25b0fc8c92c32da01a318656b3b505abb68bf/odoo14_addon_base_view_inheritance_extension-14.0.2.0.0-py3-none-any.whl
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Downloading https://files.pythonhosted.org/packages/a8/41/93f2f651af97384d27d738c5e578b00a9423b72d872c706ede6f4a45a798/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.2.2.dev2-py3-none-any.whl
+[2024-05-17 11:08:56] INFO root fetch - processPackages [funfunc]: Downloading https://files.pythonhosted.org/packages/67/ac/137803cc3f169dfdb1c181247f968ee50c6e2864f053e086393465a44ae3/funfunc-0.2.1.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/2f/3e/ada7cc4195fd221d19ad241f8a4448d35a6adea133fd2f949e406c75c963/common-tools-ai-bnq-0.1.8.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/33/e9/f518498a2ab557570a350f2d6462b7baa7e5e6373c0b25608898a9d876f6/vipas-0.1.2.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [iguana]: Downloading https://files.pythonhosted.org/packages/3d/18/14a6b2d0e1873b6c5d0cee70e39c355d2a6d8343118e03db14d4c0d54bc0/iguana-0.1.6.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [mfu]: Downloading https://files.pythonhosted.org/packages/f4/b5/a9cca8aec3e60497c8e91ce7ed20197f4563a4227c14dde6f097e5c1da01/mfu-0.0.8.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.7.tar.gz tmp/common-tools-ai-bnq-0.1.8.tar.gz --markdown 20240517/c/common-tools-ai-bnq/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240517/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.1.1.tar.gz tmp/vipas-0.1.2.tar.gz --markdown 20240517/v/vipas/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [iguana]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [iguana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iguana-0.1.5.tar.gz tmp/iguana-0.1.6.tar.gz --markdown 20240517/i/iguana/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ensure-packages]: Downloading https://files.pythonhosted.org/packages/cf/3a/ddd3f3443bd82d5f0c526b9ad8bf447214fce3fa65d0132c0fecb7012a4f/ensure_packages-0.1.5.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [mfu]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [mfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfu-0.0.7.tar.gz tmp/mfu-0.0.8.tar.gz --markdown 20240517/m/mfu/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/77/cb/5df44b145d0421eca19831a958f01a836204f38b6fa12c0cc9156e40a55e/odoo14_addon_base_view_inheritance_extension-14.0.2.0.1-py3-none-any.whl
+[2024-05-17 11:08:56] INFO root fetch - processPackages [funfunc]: Downloading https://files.pythonhosted.org/packages/35/60/95c4257b441dfea01e49d46c38f5f27816aded37b90788043bd6b5453cd5/funfunc-0.2.2.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Downloading https://files.pythonhosted.org/packages/50/5b/7a78d332da5e9ecf6d1a5dfe0d522f323820c7d638ba62d9785b1e68f28e/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.0-py3-none-any.whl
+[2024-05-17 11:08:56] INFO root fetch - processPackages [pyoframe]: Downloading https://files.pythonhosted.org/packages/66/15/ad35f7d5b0cece20039453181b4ca4629d42173e057d3420f55b32622421/pyoframe-0.0.5.tar.gz
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_view_inheritance_extension-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_base_view_inheritance_extension-14.0.2.0.1-py3-none-any.whl.zip --markdown 20240517/o/odoo14-addon-base-view-inheritance-extension/14.0.2.0.0-14.0.2.0.1/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.2.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.0-py3-none-any.whl.zip --markdown 20240517/o/odoo14-addon-sale-commission-geo-assign-product-domain/14.0.1.2.2.dev2-14.0.1.3.0/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [funfunc]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [funfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfunc-0.2.1.tar.gz tmp/funfunc-0.2.2.tar.gz --markdown 20240517/f/funfunc/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ensure-packages]: executing diffoscope
+[2024-05-17 11:08:56] INFO root fetch - processPackages [ensure-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensure_packages-0.1.4.tar.gz tmp/ensure_packages-0.1.5.tar.gz --markdown 20240517/e/ensure-packages/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 11:08:57] INFO root fetch - processPackages [pyoframe]: executing diffoscope
+[2024-05-17 11:08:57] INFO root fetch - processPackages [pyoframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoframe-0.0.4.tar.gz tmp/pyoframe-0.0.5.tar.gz --markdown 20240517/p/pyoframe/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 11:08:57] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.1.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.2.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [vipas]: Start processing: pyatf
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.7.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.8.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [common-tools-ai-bnq]: Start processing: python-filewrap
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [pyatf]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [python-filewrap]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [iguana]: Remove: archive file [/home/abi/fetcher/tmp/iguana-0.1.5.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [iguana]: Remove: archive file [/home/abi/fetcher/tmp/iguana-0.1.6.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [iguana]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [mfu]: Remove: archive file [/home/abi/fetcher/tmp/mfu-0.0.7.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [mfu]: Remove: archive file [/home/abi/fetcher/tmp/mfu-0.0.8.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [mfu]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/99/9d/aec862def83a006e7b9d35ceecf657e73021f10f2906ee08d33528b6e3c3/python_filewrap-0.0.3.tar.gz
+[2024-05-17 11:08:57] INFO root fetch - processPackages [funfunc]: Remove: archive file [/home/abi/fetcher/tmp/funfunc-0.2.1.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [funfunc]: Remove: archive file [/home/abi/fetcher/tmp/funfunc-0.2.2.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [funfunc]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [ensure-packages]: Remove: archive file [/home/abi/fetcher/tmp/ensure_packages-0.1.4.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [ensure-packages]: Remove: archive file [/home/abi/fetcher/tmp/ensure_packages-0.1.5.tar.gz]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [ensure-packages]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [pyatf]: Downloading https://files.pythonhosted.org/packages/c5/b1/10379290a177c44b6a335fa4d47110229d81a2659d9b3ea84bfd6af1160d/pyatf-0.0.2.tar.gz
+[2024-05-17 11:08:57] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.2.2.dev2-py3-none-any.whl.zip]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-geo-assign-product-domain]: success
+[2024-05-17 11:08:57] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_view_inheritance_extension-14.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-17 11:08:57] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_view_inheritance_extension-14.0.2.0.1-py3-none-any.whl.zip]
+[2024-05-17 11:08:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-view-inheritance-extension]: success
+[2024-05-17 11:08:58] INFO root fetch - processPackages [pyoframe]: Remove: archive file [/home/abi/fetcher/tmp/pyoframe-0.0.4.tar.gz]
+[2024-05-17 11:08:58] INFO root fetch - processPackages [pyoframe]: Remove: archive file [/home/abi/fetcher/tmp/pyoframe-0.0.5.tar.gz]
+[2024-05-17 11:08:58] INFO root fetch - main [MainThread]: End processing [pyoframe]: success
+[2024-05-17 11:08:58] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/3d/d5/edfc90d34414c93f370788a4d609fe1892a77da52233b62842fe3a95cd7b/python_filewrap-0.0.3.1.tar.gz
+[2024-05-17 11:08:58] INFO root fetch - processPackages [python-filewrap]: executing diffoscope
+[2024-05-17 11:08:58] INFO root fetch - processPackages [python-filewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_filewrap-0.0.3.tar.gz tmp/python_filewrap-0.0.3.1.tar.gz --markdown 20240517/p/python-filewrap/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-05-17 11:08:58] INFO root fetch - processPackages [pyatf]: Downloading https://files.pythonhosted.org/packages/35/2f/8f021884b600f1c84099b570acbe568d30fa22fa83a00b4856e11a7c0963/pyatf-0.0.3.tar.gz
+[2024-05-17 11:08:58] INFO root fetch - processPackages [pyatf]: executing diffoscope
+[2024-05-17 11:08:58] INFO root fetch - processPackages [pyatf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatf-0.0.2.tar.gz tmp/pyatf-0.0.3.tar.gz --markdown 20240517/p/pyatf/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-17 11:08:58] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.3.tar.gz]
+[2024-05-17 11:08:58] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.3.1.tar.gz]
+[2024-05-17 11:08:58] INFO root fetch - main [MainThread]: End processing [python-filewrap]: success
+[2024-05-17 11:08:59] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.2.tar.gz]
+[2024-05-17 11:08:59] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.3.tar.gz]
+[2024-05-17 11:08:59] INFO root fetch - main [MainThread]: End processing [pyatf]: success
+[2024-05-17 11:08:59] INFO root fetch - main [MainThread]: Store serial: [23251176]

@@ -11459,3 +11459,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:27:40] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.16.tar.gz]
 [2024-05-17 04:27:40] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2024-05-17 04:27:40] INFO root fetch - main [MainThread]: Store serial: [23247482]
+[2024-05-17 04:29:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247482]
+[2024-05-17 04:29:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feather-extract
+[2024-05-17 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-05-17 04:29:56] INFO root fetch - processPackages [feather-extract]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-17 04:29:56] INFO root fetch - processPackages [medicafe]: New version: [0.240516.0] Old Version: [0.240515.5]
+[2024-05-17 04:29:56] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/0b/2f/8bcfe43dc2b71d607dcf82b5adf9c7c0f4d139f7fc3b5ebc871e6944c7ad/feather_extract-0.1.7.tar.gz
+[2024-05-17 04:29:56] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/c6/e3/024bbf0e8970df9aa0e72eba7e9b5908486bf5dcc374f3c60b52a6c299f9/medicafe-0.240515.5.tar.gz
+[2024-05-17 04:29:56] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/0e/0f/872c61250bf0a81c1436d3636b17baf8206d00b95a19c2a48fdb76150f74/feather_extract-0.1.8.tar.gz
+[2024-05-17 04:29:56] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/24/06/4eb9d43bdda3d2c8234815d4c12f5b0b6658588f6862af0a1f3c113f8048/medicafe-0.240516.0.tar.gz
+[2024-05-17 04:29:56] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-17 04:29:56] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240515.5.tar.gz tmp/medicafe-0.240516.0.tar.gz --markdown 20240517/m/medicafe/0.240515.5-0.240516.0/README.md --exclude *.pyd
+[2024-05-17 04:29:56] INFO root fetch - processPackages [feather-extract]: executing diffoscope
+[2024-05-17 04:29:56] INFO root fetch - processPackages [feather-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feather_extract-0.1.7.tar.gz tmp/feather_extract-0.1.8.tar.gz --markdown 20240517/f/feather-extract/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-17 04:29:57] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.7.tar.gz]
+[2024-05-17 04:29:57] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.8.tar.gz]
+[2024-05-17 04:29:57] INFO root fetch - main [MainThread]: End processing [feather-extract]: success
+[2024-05-17 04:29:57] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240515.5.tar.gz]
+[2024-05-17 04:29:57] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240516.0.tar.gz]
+[2024-05-17 04:29:57] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-17 04:29:57] INFO root fetch - main [MainThread]: Store serial: [23247488]

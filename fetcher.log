@@ -15121,3 +15121,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:14:34] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715924846.tar.gz]
 [2024-05-17 08:14:34] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
 [2024-05-17 08:14:34] INFO root fetch - main [MainThread]: Store serial: [23248890]
+[2024-05-17 08:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248890]
+[2024-05-17 08:16:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zorch
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g2p-mix
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gitlab
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ec
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kafka
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mailgun
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotinst-sdk2
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spacyrerank
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bitlinear
+[2024-05-17 08:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metabase-query-api
+[2024-05-17 08:16:43] INFO root fetch - processPackages [g2p-mix]: New version: [0.4.6] Old Version: [0.4.2]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [bitlinear]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [metabase-query-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [zorch]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [spacyrerank]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [spotinst-sdk2]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/f2/48/748f79972f8b60082e1ae0f1d38f89b196651db00b59f32ec0065cdac69a/bitlinear-1.2.0.tar.gz
+[2024-05-17 08:16:43] INFO root fetch - processPackages [metabase-query-api]: Downloading https://files.pythonhosted.org/packages/3a/17/7e3a7a382999123f3a268097a4f9ec317d88392cb04a4cb88158b258d817/metabase_query_api-1.1.0-py3-none-any.whl
+[2024-05-17 08:16:43] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/ef/68/309528ef44602008545183aef543c69f4114e75e75491b0c0f9394a8b785/g2p-mix-0.4.2.tar.gz
+[2024-05-17 08:16:43] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/d2/d0/3f5a18b81349edad4ce1d291617fcd1871f1bda67d09adf9950a20b60d17/zorch-0.0.6.tar.gz
+[2024-05-17 08:16:43] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715924897] Old Version: [3.8.0a1715693085]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1715924552] Old Version: [0.9.0a1715756314]
+[2024-05-17 08:16:43] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/23/e3/0802fa2a200a5b3d0433a035b7a743e8d528730cc6d542a39ff6a1d724d0/spacyrerank-0.0.3.tar.gz
+[2024-05-17 08:16:43] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1715925120] Old Version: [3.6.0a1715759346]
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/ab/6b/702126d5e6541451bc4e49bb2163bb1633f0057d563e3074edfac0b378d5/spotinst-sdk2-3.1.0.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/a8/66/eeae258c2dac4b9049eaf7f119af1c026e9f0b062395e2eb39f8d1cdd06e/pulumi_kafka-3.8.0a1715693085.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/06/ef/bcb07999612bd71dabff3bb043d3918eb31788b93f2d918f1b9a46bbb5c1/pulumi_mailgun-3.6.0a1715759346.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [metabase-query-api]: Downloading https://files.pythonhosted.org/packages/3c/c0/589e39aff0507796d3effcf2061e0f6c786394a2d0c2c02fcafeec075bbc/metabase_query_api-1.1.1-py3-none-any.whl
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/d4/d7/ce75bd786606a587a883e1ba35629c54bd75c960cc86c22b937d58a0fc69/pulumi_ec-0.9.0a1715756314.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/bf/a0/75fc2c4170d35fb1a7605723b68b9cd28d1d2e0cbd176afc077833e6d119/zorch-0.0.9.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/a0/d1/05daf31be9ffe3ec3f78c43180d9b9490c0aa9ec118b92fa03fea7e7900a/bitlinear-1.2.1.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/f0/90/0ede5d2f6cbd8efe31baca0d70fab972c4b0f8b5f5ccb95ae76beab82d5e/spacyrerank-0.0.4.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [metabase-query-api]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [metabase-query-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabase_query_api-1.1.0-py3-none-any.whl.zip tmp/metabase_query_api-1.1.1-py3-none-any.whl.zip --markdown 20240517/m/metabase-query-api/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-17 08:16:44] ERROR root fetch - processPackages [g2p-mix]: Unable to fetch info: No such project/version 'g2p-mix' 0.4.6
+[2024-05-17 08:16:44] INFO root fetch - main [MainThread]: End processing [g2p-mix] error
+[2024-05-17 08:16:44] INFO root fetch - processPackages [bitlinear]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [bitlinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitlinear-1.2.0.tar.gz tmp/bitlinear-1.2.1.tar.gz --markdown 20240517/b/bitlinear/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.6.tar.gz tmp/zorch-0.0.9.tar.gz --markdown 20240517/z/zorch/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spacyrerank]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spacyrerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacyrerank-0.0.3.tar.gz tmp/spacyrerank-0.0.4.tar.gz --markdown 20240517/s/spacyrerank/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/e2/02/b5c3c733b68249a14c4c0e9a5855e5e43e73889f4cb4176d0d27f1eed298/spotinst-sdk2-3.2.0.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/21/60/cd0046c59f2ea74358896557a25fec7b17b289a804a65c039f5e6744defa/pulumi_kafka-3.8.0a1715924897.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/5a/8b/44de30c30c27603a71a83b2e9c5e1aaed25e2266e4a5617915d583feade9/pulumi_ec-0.9.0a1715924552.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/16/5a/5091e49bcab7c719e3632dc6b30af3d01e3bfd04a278937aa36cd32e8c5b/pulumi_mailgun-3.6.0a1715925120.tar.gz
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spotinst-sdk2]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [spotinst-sdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-sdk2-3.1.0.tar.gz tmp/spotinst-sdk2-3.2.0.tar.gz --markdown 20240517/s/spotinst-sdk2/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715693085.tar.gz tmp/pulumi_kafka-3.8.0a1715924897.tar.gz --markdown 20240517/p/pulumi-kafka/3.8.0a1715693085-3.8.0a1715924897/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240517/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.9.0a1715756314.tar.gz tmp/pulumi_ec-0.9.0a1715924552.tar.gz --markdown 20240517/p/pulumi-ec/0.9.0a1715756314-0.9.0a1715924552/README.md --exclude *.pyd
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-17 08:16:44] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1715759346.tar.gz tmp/pulumi_mailgun-3.6.0a1715925120.tar.gz --markdown 20240517/p/pulumi-mailgun/3.6.0a1715759346-3.6.0a1715925120/README.md --exclude *.pyd
+[2024-05-17 08:16:45] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.6.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.9.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.0.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.1.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [metabase-query-api]: Remove: archive file [/home/abi/fetcher/tmp/metabase_query_api-1.1.0-py3-none-any.whl.zip]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [metabase-query-api]: Remove: archive file [/home/abi/fetcher/tmp/metabase_query_api-1.1.1-py3-none-any.whl.zip]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [metabase-query-api]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.3.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.4.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [spacyrerank]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715759346.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715925120.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715756314.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715924552.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715693085.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715924897.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-17 08:16:45] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.1.0.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.2.0.tar.gz]
+[2024-05-17 08:16:45] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
+[2024-05-17 08:16:46] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-05-17 08:16:46] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-05-17 08:16:46] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-17 08:16:46] INFO root fetch - main [MainThread]: Store serial: [23248916]

@@ -17892,3 +17892,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:39:43] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.4.tar.gz]
 [2024-05-17 09:39:43] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
 [2024-05-17 09:39:43] INFO root fetch - main [MainThread]: Store serial: [23249938]
+[2024-05-17 09:41:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249938]
+[2024-05-17 09:41:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web-ui-helper
+[2024-05-17 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffoscope
+[2024-05-17 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-mandate-contact
+[2024-05-17 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-banking-mandate
+[2024-05-17 09:41:52] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:41:53] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2024-05-17 09:41:53] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-05-17 09:41:53] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2024-05-17 09:41:53] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/cb/c5/cc82bcccde56d44c92e8dca11744e0b975072bfb0301e019fe2050baead6/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Downloading https://files.pythonhosted.org/packages/5b/a3/95f54f174587f399312b67e6514387be828a8f5956f7b3ea276952ed4f10/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-17 09:41:53] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-17 09:41:53] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240517/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Downloading https://files.pythonhosted.org/packages/59/b4/509fb507cb4b8d47923959457fb928b80064e527df528dde7b1df04324ed/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/72/1d/3e28ace559574b81ba6056688b9264223da52b5314acee2ed7602d32f47c/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: executing diffoscope
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-account-banking-mandate-contact/16.0.1.0.1.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2024-05-17 09:41:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-account-banking-mandate/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-17 09:41:54] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-17 09:41:54] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-17 09:41:54] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-17 09:41:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-17 09:41:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-17 09:41:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate-contact]: success
+[2024-05-17 09:41:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-17 09:41:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-17 09:41:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2024-05-17 09:41:55] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2024-05-17 09:41:56] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2024-05-17 09:41:56] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20240517/d/diffoscope/98-99/README.md --exclude *.pyd
+[2024-05-17 09:41:59] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2024-05-17 09:41:59] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2024-05-17 09:41:59] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2024-05-17 09:41:59] INFO root fetch - main [MainThread]: Store serial: [23249951]

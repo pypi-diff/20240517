@@ -15763,3 +15763,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:30:36] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
 [2024-05-17 08:30:36] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
 [2024-05-17 08:30:36] INFO root fetch - main [MainThread]: Store serial: [23249161]
+[2024-05-17 08:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249161]
+[2024-05-17 08:32:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: photobooth-app
+[2024-05-17 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gemmapy
+[2024-05-17 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kan-gpt
+[2024-05-17 08:32:46] INFO root fetch - processPackages [kan-gpt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-17 08:32:46] INFO root fetch - processPackages [photobooth-app]: New version: [3.0a2] Old Version: [3.0a1]
+[2024-05-17 08:32:46] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/25/21/a585491afcba28e0061f8329147bd6aa278927a938a91b4629072c0cd02e/photobooth_app-3.0a1.tar.gz
+[2024-05-17 08:32:46] INFO root fetch - processPackages [gemmapy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 08:32:46] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/1f/28/d005e2ca3ca35ce5b8bc65b86438768d8eabc2b6f52e364eba9de3f56d2a/kan_gpt-1.0.2.tar.gz
+[2024-05-17 08:32:46] WARNING root fetch - processPackages [photobooth-app]: Skipping package: exceeds size limit 18962665>=10485760
+[2024-05-17 08:32:46] INFO root fetch - main [MainThread]: End processing [photobooth-app] error
+[2024-05-17 08:32:46] INFO root fetch - processPackages [gemmapy]: Downloading https://files.pythonhosted.org/packages/a6/d9/8d989bb552a6766c913d3f2cc6028dc9fc0b629afee79f7ef48d514cb2ee/gemmapy-1.0.0.tar.gz
+[2024-05-17 08:32:46] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/3a/15/39f0580ffe9a0a413d804f93dd38850ceb5437f575bf66c22d30786d40ff/kan_gpt-1.0.3.tar.gz
+[2024-05-17 08:32:47] INFO root fetch - processPackages [kan-gpt]: executing diffoscope
+[2024-05-17 08:32:47] INFO root fetch - processPackages [kan-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kan_gpt-1.0.2.tar.gz tmp/kan_gpt-1.0.3.tar.gz --markdown 20240517/k/kan-gpt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-17 08:32:47] INFO root fetch - processPackages [gemmapy]: Downloading https://files.pythonhosted.org/packages/9c/38/566c826c3135eb8d3444fa5c1ab5c10b34e1e6f48d7606f63b6dd7d6678a/gemmapy-1.0.1.tar.gz
+[2024-05-17 08:32:47] INFO root fetch - processPackages [gemmapy]: executing diffoscope
+[2024-05-17 08:32:47] INFO root fetch - processPackages [gemmapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemmapy-1.0.0.tar.gz tmp/gemmapy-1.0.1.tar.gz --markdown 20240517/g/gemmapy/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 08:32:47] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.2.tar.gz]
+[2024-05-17 08:32:47] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.3.tar.gz]
+[2024-05-17 08:32:47] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
+[2024-05-17 08:32:49] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.0.tar.gz]
+[2024-05-17 08:32:49] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.1.tar.gz]
+[2024-05-17 08:32:49] INFO root fetch - main [MainThread]: End processing [gemmapy]: success
+[2024-05-17 08:32:49] INFO root fetch - main [MainThread]: Store serial: [23249170]

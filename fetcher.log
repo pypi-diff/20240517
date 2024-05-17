@@ -14825,3 +14825,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 07:59:14] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.9.tar.gz]
 [2024-05-17 07:59:14] INFO root fetch - main [MainThread]: End processing [lm-format-enforcer]: success
 [2024-05-17 07:59:14] INFO root fetch - main [MainThread]: Store serial: [23248772]
+[2024-05-17 08:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248772]
+[2024-05-17 08:01:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudflare
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botasaurus-requests
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyWebman
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-dbchat
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitlinear
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf2tf
+[2024-05-17 08:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metabase-query-api
+[2024-05-17 08:01:24] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-17 08:01:24] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-17 08:01:24] INFO root fetch - processPackages [botasaurus-requests]: New version: [4.0.5] Old Version: [4.0.3]
+[2024-05-17 08:01:24] INFO root fetch - processPackages [danila-lib]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-17 08:01:24] INFO root fetch - processPackages [bitlinear]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-17 08:01:24] INFO root fetch - processPackages [cf2tf]: New version: [0.8.1a3] Old Version: [0.8.1a2]
+[2024-05-17 08:01:24] WARNING root fetch - processPackages [pyWebman]: Skipping, unable to determine old version
+[2024-05-17 08:01:24] INFO root fetch - main [MainThread]: End processing [pyWebman] error
+[2024-05-17 08:01:24] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [metabase-query-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-17 08:01:24] INFO root fetch - processPackages [botasaurus-requests]: Downloading https://files.pythonhosted.org/packages/b4/d4/9a90f2a3e89484d0b654f132968bf2bddb04c1568876bda0d2057e5bd6b8/botasaurus_requests-4.0.3.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/46/54/d545e58e1868ca90487e82d548c536e2e1600897eb9a358e546a161ba580/danila-lib-1.4.5.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/42/e8/f73519ce9aaa756e256eb42920da9e9d9e9f4231eeb751d33eab4d4e35e3/bitlinear-1.1.0.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [metabase-query-api]: Downloading https://files.pythonhosted.org/packages/3a/17/7e3a7a382999123f3a268097a4f9ec317d88392cb04a4cb88158b258d817/metabase_query_api-1.1.0-py3-none-any.whl
+[2024-05-17 08:01:24] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/42/8e/94cfc18130797e927786c31387f1f2eeddf985a3f8e7fe6ab734c69a8267/cf2tf-0.8.1a2.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ee/ac/e4eaa10c58c144d27a758d8f02e8250a31c8ac9df2ed4fa89a4578439e28/danila-lib-1.4.6.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [botasaurus-requests]: Downloading https://files.pythonhosted.org/packages/b0/df/0e0b8fdc7b55c3c6611a425de490f1ca6dd072dbb0ce6f44b1452c98eb31/botasaurus_requests-4.0.5.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-17 08:01:24] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-17 08:01:24] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.5.tar.gz tmp/danila-lib-1.4.6.tar.gz --markdown 20240517/d/danila-lib/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-17 08:01:24] INFO root fetch - processPackages [botasaurus-requests]: executing diffoscope
+[2024-05-17 08:01:24] INFO root fetch - processPackages [botasaurus-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_requests-4.0.3.tar.gz tmp/botasaurus_requests-4.0.5.tar.gz --markdown 20240517/b/botasaurus-requests/4.0.3-4.0.5/README.md --exclude *.pyd
+[2024-05-17 08:01:24] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/f2/48/748f79972f8b60082e1ae0f1d38f89b196651db00b59f32ec0065cdac69a/bitlinear-1.2.0.tar.gz
+[2024-05-17 08:01:25] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-17 08:01:25] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240517/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-17 08:01:25] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-17 08:01:25] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240517/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-17 08:01:25] INFO root fetch - processPackages [bitlinear]: executing diffoscope
+[2024-05-17 08:01:25] INFO root fetch - processPackages [bitlinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitlinear-1.1.0.tar.gz tmp/bitlinear-1.2.0.tar.gz --markdown 20240517/b/bitlinear/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-17 08:01:25] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/08/cc/7a83a1d06489bee6b45cb2bdeb48640f10336ce40b0995687ef37ffeac26/cf2tf-0.8.1a3.tar.gz
+[2024-05-17 08:01:25] INFO root fetch - processPackages [metabase-query-api]: Downloading https://files.pythonhosted.org/packages/3c/c0/589e39aff0507796d3effcf2061e0f6c786394a2d0c2c02fcafeec075bbc/metabase_query_api-1.1.1-py3-none-any.whl
+[2024-05-17 08:01:25] INFO root fetch - processPackages [metabase-query-api]: executing diffoscope
+[2024-05-17 08:01:25] INFO root fetch - processPackages [metabase-query-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabase_query_api-1.1.0-py3-none-any.whl.zip tmp/metabase_query_api-1.1.1-py3-none-any.whl.zip --markdown 20240517/m/metabase-query-api/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-17 08:01:25] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-17 08:01:25] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.8.1a2.tar.gz tmp/cf2tf-0.8.1a3.tar.gz --markdown 20240517/c/cf2tf/0.8.1a2-0.8.1a3/README.md --exclude *.pyd
+[2024-05-17 08:01:25] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.5.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.6.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-17 08:01:25] INFO root fetch - processPackages [botasaurus-requests]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_requests-4.0.3.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - processPackages [botasaurus-requests]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_requests-4.0.5.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - main [MainThread]: End processing [botasaurus-requests]: success
+[2024-05-17 08:01:25] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.1.0.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.0.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
+[2024-05-17 08:01:25] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-17 08:01:25] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-17 08:01:26] INFO root fetch - processPackages [metabase-query-api]: Remove: archive file [/home/abi/fetcher/tmp/metabase_query_api-1.1.0-py3-none-any.whl.zip]
+[2024-05-17 08:01:26] INFO root fetch - processPackages [metabase-query-api]: Remove: archive file [/home/abi/fetcher/tmp/metabase_query_api-1.1.1-py3-none-any.whl.zip]
+[2024-05-17 08:01:26] INFO root fetch - main [MainThread]: End processing [metabase-query-api]: success
+[2024-05-17 08:01:26] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a2.tar.gz]
+[2024-05-17 08:01:26] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a3.tar.gz]
+[2024-05-17 08:01:26] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-17 08:01:26] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-17 08:01:26] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-17 08:01:26] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-17 08:01:26] INFO root fetch - main [MainThread]: Store serial: [23248795]

@@ -13094,3 +13094,36 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:20:53] INFO root fetch - processPackages [reynard-the-robot]: Remove: archive file [/home/abi/fetcher/tmp/reynard_the_robot-0.2.1-py3-none-any.whl.zip]
 [2024-05-17 06:20:53] INFO root fetch - main [MainThread]: End processing [reynard-the-robot]: success
 [2024-05-17 06:20:53] INFO root fetch - main [MainThread]: Store serial: [23248142]
+[2024-05-17 06:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248142]
+[2024-05-17 06:23:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 06:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelmerge
+[2024-05-17 06:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyff-audit
+[2024-05-17 06:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automated-ml-pipeline-framework
+[2024-05-17 06:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rahavard
+[2024-05-17 06:23:02] INFO root fetch - processPackages [modelmerge]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-17 06:23:02] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/a2/87/4177d143a6ec6d4d33cf9910a3fdce245097a43e74ee2d40f0bc81522468/modelmerge-0.4.3.tar.gz
+[2024-05-17 06:23:02] WARNING root fetch - processPackages [automated-ml-pipeline-framework]: Skipping, unable to determine old version
+[2024-05-17 06:23:02] INFO root fetch - main [MainThread]: End processing [automated-ml-pipeline-framework] error
+[2024-05-17 06:23:02] INFO root fetch - processPackages [rahavard]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-17 06:23:02] INFO root fetch - processPackages [dyff-audit]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-17 06:23:02] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/7d/bf/209843e5629c5a97b850e1214327fc2aadde5854be633c294364729a93e0/dyff_audit-0.3.2.tar.gz
+[2024-05-17 06:23:02] INFO root fetch - processPackages [rahavard]: Downloading https://files.pythonhosted.org/packages/a7/c9/9ec057ab923ad53a2e88558cbeef5ba4355cfc95373b16cdc56a6797b632/rahavard-0.0.14.tar.gz
+[2024-05-17 06:23:02] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/8d/b3/2ff258da20757471ea5aa99e9cab4646f95e41adb8fa30fbc83d13fcf34e/modelmerge-0.4.4.tar.gz
+[2024-05-17 06:23:02] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-17 06:23:02] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.4.3.tar.gz tmp/modelmerge-0.4.4.tar.gz --markdown 20240517/m/modelmerge/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-17 06:23:03] INFO root fetch - processPackages [rahavard]: Downloading https://files.pythonhosted.org/packages/ed/ed/1d667469052ec3440045cff8b96643ec8a73ae200169fdc18e7deb55ebf2/rahavard-0.0.15.tar.gz
+[2024-05-17 06:23:03] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/8c/bd/de57891d5a36cfb6775c9675b889516d7b9e63f24e1a317c0bcd3a5c7716/dyff_audit-0.3.3.tar.gz
+[2024-05-17 06:23:03] INFO root fetch - processPackages [rahavard]: executing diffoscope
+[2024-05-17 06:23:03] INFO root fetch - processPackages [rahavard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rahavard-0.0.14.tar.gz tmp/rahavard-0.0.15.tar.gz --markdown 20240517/r/rahavard/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-17 06:23:03] INFO root fetch - processPackages [dyff-audit]: executing diffoscope
+[2024-05-17 06:23:03] INFO root fetch - processPackages [dyff-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_audit-0.3.2.tar.gz tmp/dyff_audit-0.3.3.tar.gz --markdown 20240517/d/dyff-audit/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-17 06:23:03] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.4.3.tar.gz]
+[2024-05-17 06:23:03] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.4.4.tar.gz]
+[2024-05-17 06:23:03] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-17 06:23:03] INFO root fetch - processPackages [rahavard]: Remove: archive file [/home/abi/fetcher/tmp/rahavard-0.0.14.tar.gz]
+[2024-05-17 06:23:03] INFO root fetch - processPackages [rahavard]: Remove: archive file [/home/abi/fetcher/tmp/rahavard-0.0.15.tar.gz]
+[2024-05-17 06:23:03] INFO root fetch - main [MainThread]: End processing [rahavard]: success
+[2024-05-17 06:23:03] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff_audit-0.3.2.tar.gz]
+[2024-05-17 06:23:03] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff_audit-0.3.3.tar.gz]
+[2024-05-17 06:23:03] INFO root fetch - main [MainThread]: End processing [dyff-audit]: success
+[2024-05-17 06:23:03] INFO root fetch - main [MainThread]: Store serial: [23248158]

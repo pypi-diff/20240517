@@ -10965,3 +10965,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:02:57] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
 [2024-05-17 04:02:57] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
 [2024-05-17 04:02:57] INFO root fetch - main [MainThread]: Store serial: [23247321]
+[2024-05-17 04:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247321]
+[2024-05-17 04:05:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 04:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-05-17 04:05:06] INFO root fetch - processPackages [lambkid]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-17 04:05:06] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/49/5e/964af64f8fd32adb02fff9152204d00f7f239263fa437f10498833ac59bd/lambkid-0.2.1.tar.gz
+[2024-05-17 04:05:06] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/3f/f7/04c45ee3066caa2d70c28147f83c1339969e66d46a034c62a415ff847c66/lambkid-0.2.2.tar.gz
+[2024-05-17 04:05:06] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-17 04:05:06] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.1.tar.gz tmp/lambkid-0.2.2.tar.gz --markdown 20240517/l/lambkid/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-17 04:05:07] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.1.tar.gz]
+[2024-05-17 04:05:07] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.2.tar.gz]
+[2024-05-17 04:05:07] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-17 04:05:07] INFO root fetch - main [MainThread]: Store serial: [23247323]

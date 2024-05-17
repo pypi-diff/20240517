@@ -15004,3 +15004,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:10:09] INFO root fetch - processPackages [couchformation]: Remove: archive file [/home/abi/fetcher/tmp/couchformation-4.0.0a9.tar.gz]
 [2024-05-17 08:10:09] INFO root fetch - main [MainThread]: End processing [couchformation]: success
 [2024-05-17 08:10:09] INFO root fetch - main [MainThread]: Store serial: [23248852]
+[2024-05-17 08:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248852]
+[2024-05-17 08:12:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila-lib
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-mate
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacyrerank
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-http
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitlinear
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-github
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zorch
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: g2p-mix
+[2024-05-17 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xplainable
+[2024-05-17 08:12:20] INFO root fetch - processPackages [spacyrerank]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [bitlinear]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [g2p-mix]: New version: [0.4.5] Old Version: [0.4.2]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [zorch]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [danila-lib]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [xplainable]: New version: [1.2.3] Old Version: [1.2.2.post1]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240516] Old Version: [2.6.0.dev20240515]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1715924824] Old Version: [0.1.0a1715757618]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [sqlalchemy-mate]: New version: [2.0.0.1] Old Version: [2.0.0.0]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1715924735] Old Version: [6.3.0a1715757032]
+[2024-05-17 08:12:20] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/c9/dc/83b5cc0492512a59aaa41e907f8f7bfe4dd0ffaccabf8c3f0e12fabeb53b/spacyrerank-0.0.1.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/ef/68/309528ef44602008545183aef543c69f4114e75e75491b0c0f9394a8b785/g2p-mix-0.4.2.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/e4/a5/fedd666c956fba0aff57ee787cf9e97f978423d11d9e2cb5f607374bf48d/zorch-0.0.4.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ee/ac/e4eaa10c58c144d27a758d8f02e8250a31c8ac9df2ed4fa89a4578439e28/danila-lib-1.4.6.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/42/e8/f73519ce9aaa756e256eb42920da9e9d9e9f4231eeb751d33eab4d4e35e3/bitlinear-1.1.0.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a6/7e/93c84cda64b22398fa4e69669569979c125f6c8f3c3d54068bf0c177d146/pyg_nightly-2.6.0.dev20240515.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/60/56/05e5b58413b30edfbc5f8c2caad0acc1ae6cb79b96a2acbaf4330ed3704f/pulumi_http-0.1.0a1715757618.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [sqlalchemy-mate]: Downloading https://files.pythonhosted.org/packages/7d/e6/62aa62270b5bf806f6ed03401d87c25f45d1988f5a1863c270d1881fd3e2/sqlalchemy_mate-2.0.0.0.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/18/b1/1b7de82f37fb3505c60a01fba347f9754b68dcf196fd4bf46fe079cb037a/xplainable-1.2.2.post1.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/34/1f/ce20d5e9984a6f83c3f1834e543590bad67c48839ab76e8fbf8d5990b54b/pulumi_github-6.3.0a1715757032.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/23/e3/0802fa2a200a5b3d0433a035b7a743e8d528730cc6d542a39ff6a1d724d0/spacyrerank-0.0.3.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/f2/48/748f79972f8b60082e1ae0f1d38f89b196651db00b59f32ec0065cdac69a/bitlinear-1.2.0.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/d2/d0/3f5a18b81349edad4ce1d291617fcd1871f1bda67d09adf9950a20b60d17/zorch-0.0.6.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/eb/e6/ef92c1681bb25210e83838df316d42592a96f77fe78f5de50fadcdc57847/danila-lib-1.4.7.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [spacyrerank]: executing diffoscope
+[2024-05-17 08:12:20] INFO root fetch - processPackages [spacyrerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacyrerank-0.0.1.tar.gz tmp/spacyrerank-0.0.3.tar.gz --markdown 20240517/s/spacyrerank/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/5f/ab/f5ec14eb7d56bb8200ac4c7ab10682b6eab5e9250741aa5576ec70a21fda/pulumi_http-0.1.0a1715924824.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [bitlinear]: executing diffoscope
+[2024-05-17 08:12:20] INFO root fetch - processPackages [bitlinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitlinear-1.1.0.tar.gz tmp/bitlinear-1.2.0.tar.gz --markdown 20240517/b/bitlinear/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-17 08:12:20] INFO root fetch - processPackages [sqlalchemy-mate]: Downloading https://files.pythonhosted.org/packages/4d/ec/09330bc7cec41ee93d05feeb3965d451ed9aedd064acc72b6dab50cebe8c/sqlalchemy_mate-2.0.0.1.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/00/95/0f3b39de49f6ef83c3cdfcd46be7a960583ede9a9445ced8a2d85c1f54e8/pyg_nightly-2.6.0.dev20240516.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 08:12:20] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.4.tar.gz tmp/zorch-0.0.6.tar.gz --markdown 20240517/z/zorch/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-17 08:12:20] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/ae/92/6bf0ab1341675f1e14720c7d8e56edbec4fce1c16d06e1937f086f27df5c/g2p-mix-0.4.5.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1715757618.tar.gz tmp/pulumi_http-0.1.0a1715924824.tar.gz --markdown 20240517/p/pulumi-http/0.1.0a1715757618-0.1.0a1715924824/README.md --exclude *.pyd
+[2024-05-17 08:12:20] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-17 08:12:20] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.6.tar.gz tmp/danila-lib-1.4.7.tar.gz --markdown 20240517/d/danila-lib/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-17 08:12:20] INFO root fetch - processPackages [sqlalchemy-mate]: executing diffoscope
+[2024-05-17 08:12:20] INFO root fetch - processPackages [sqlalchemy-mate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_mate-2.0.0.0.tar.gz tmp/sqlalchemy_mate-2.0.0.1.tar.gz --markdown 20240517/s/sqlalchemy-mate/2.0.0.0-2.0.0.1/README.md --exclude *.pyd
+[2024-05-17 08:12:20] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/e8/02/436cc58ae03be7e7aaff889277cfaa92e3a7e092120209c90123785445d1/pulumi_github-6.3.0a1715924735.tar.gz
+[2024-05-17 08:12:20] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/92/91/dc3d31acfe2db508a064e51a4e8fde8270154c5c03518908b93f2be4eb27/xplainable-1.2.3.tar.gz
+[2024-05-17 08:12:21] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-17 08:12:21] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240515.tar.gz tmp/pyg_nightly-2.6.0.dev20240516.tar.gz --markdown 20240517/p/pyg-nightly/2.6.0.dev20240515-2.6.0.dev20240516/README.md --exclude *.pyd
+[2024-05-17 08:12:21] INFO root fetch - processPackages [xplainable]: executing diffoscope
+[2024-05-17 08:12:21] INFO root fetch - processPackages [xplainable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable-1.2.2.post1.tar.gz tmp/xplainable-1.2.3.tar.gz --markdown 20240517/x/xplainable/1.2.2.post1-1.2.3/README.md --exclude *.pyd
+[2024-05-17 08:12:21] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-17 08:12:21] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1715757032.tar.gz tmp/pulumi_github-6.3.0a1715924735.tar.gz --markdown 20240517/p/pulumi-github/6.3.0a1715757032-6.3.0a1715924735/README.md --exclude *.pyd
+[2024-05-17 08:12:21] INFO root fetch - processPackages [g2p-mix]: executing diffoscope
+[2024-05-17 08:12:21] INFO root fetch - processPackages [g2p-mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p-mix-0.4.2.tar.gz tmp/g2p-mix-0.4.5.tar.gz --markdown 20240517/g/g2p-mix/0.4.2-0.4.5/README.md --exclude *.pyd
+[2024-05-17 08:12:21] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.4.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.6.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 08:12:21] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.1.0.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.0.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
+[2024-05-17 08:12:21] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.1.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.3.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - main [MainThread]: End processing [spacyrerank]: success
+[2024-05-17 08:12:21] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715757618.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715924824.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-17 08:12:21] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.6.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.7.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-17 08:12:21] INFO root fetch - processPackages [sqlalchemy-mate]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mate-2.0.0.0.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - processPackages [sqlalchemy-mate]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mate-2.0.0.1.tar.gz]
+[2024-05-17 08:12:21] INFO root fetch - main [MainThread]: End processing [sqlalchemy-mate]: success
+[2024-05-17 08:12:22] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.2.tar.gz]
+[2024-05-17 08:12:22] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.5.tar.gz]
+[2024-05-17 08:12:22] INFO root fetch - processPackages [xplainable]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-1.2.2.post1.tar.gz]
+[2024-05-17 08:12:22] INFO root fetch - processPackages [xplainable]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-1.2.3.tar.gz]
+[2024-05-17 08:12:22] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
+[2024-05-17 08:12:22] INFO root fetch - main [MainThread]: End processing [xplainable]: success
+[2024-05-17 08:12:22] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715757032.tar.gz]
+[2024-05-17 08:12:22] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715924735.tar.gz]
+[2024-05-17 08:12:22] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-17 08:12:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240515.tar.gz]
+[2024-05-17 08:12:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240516.tar.gz]
+[2024-05-17 08:12:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-17 08:12:23] INFO root fetch - main [MainThread]: Store serial: [23248880]

@@ -10644,3 +10644,114 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 03:45:24] INFO root fetch - processPackages [types-aiobotocore-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-sagemaker-2.9.1.tar.gz]
 [2024-05-17 03:45:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-sagemaker]: success
 [2024-05-17 03:45:24] INFO root fetch - main [MainThread]: Store serial: [23247220]
+[2024-05-17 03:47:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247220]
+[2024-05-17 03:47:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-fn
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycommons
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skpro
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmonkey-namonica
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-aiobotocore-kafkaconnect
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-aiobotocore-kendra
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-aiobotocore-kendra-ranking
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-aiobotocore-keyspaces
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudforet-console-api-v2
+[2024-05-17 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-aiobotocore
+[2024-05-17 03:47:34] INFO root fetch - processPackages [types-aiobotocore-kendra]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [skpro]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [gpt-fn]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-17 03:47:35] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kendra]: Downloading https://files.pythonhosted.org/packages/42/de/46ba620a6bf534023d344ada45e038bbb8a618bc6087313db5c4e0624bf7/types-aiobotocore-kendra-2.9.0.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/48/93/a4acc159b77e1daf8ace7f12579835019fa4f13776238ffcdc4c9652e560/gpt_fn-0.1.4.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: Downloading https://files.pythonhosted.org/packages/00/de/4692e45e654dfc6f24895bd8075c871a748fa6a090ea4c75629895e64423/types-aiobotocore-keyspaces-2.9.0.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: Downloading https://files.pythonhosted.org/packages/87/92/679f1ac368dbf4e18d9fc462e4fa8031f68ab368db173acf506469300434/types-aiobotocore-kendra-ranking-2.9.0.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: Downloading https://files.pythonhosted.org/packages/bf/0d/7ab0d288342c609499e72fa2e6441899912497050e9e6b55f31c3f2f430f/types-aiobotocore-kafkaconnect-2.9.0.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [skpro]: Downloading https://files.pythonhosted.org/packages/8c/63/a492b90de4f6cc9189b381d460b8be1a6ca1a5ff222d848ae3c67625aab2/skpro-2.2.2.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore]: Downloading https://files.pythonhosted.org/packages/96/dc/c0a38917a0890cb828bcf1b3b561ca39602bd19d6d27ce64b1d475da4c73/types-aiobotocore-2.9.0.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-17 03:47:35] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240517/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 03:47:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-05-17 03:47:35] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240517/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-17 03:47:35] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/2f/11/8b27e98c097003820bf0dd723579419afe5592110726d4e8df725cd2a85c/gpt_fn-0.1.5.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: Downloading https://files.pythonhosted.org/packages/3d/47/df37cc5ce64fd9b36d7d770f926f934431e707896960e6b1f3d4cc5be2cd/types-aiobotocore-kendra-ranking-2.9.1.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [skpro]: Downloading https://files.pythonhosted.org/packages/6f/24/59d6801110fe9528e67ce9c071854b306931ee265c52a3bfe7ca0e49c44c/skpro-2.3.0.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-05-17 03:47:35] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2024-05-17 03:47:35] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.1.4.tar.gz tmp/gpt_fn-0.1.5.tar.gz --markdown 20240517/g/gpt-fn/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 03:47:35] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: Downloading https://files.pythonhosted.org/packages/36/10/f4cba4eb2d475e0d1c920ab112d5873f8480bdb19d4cf36ab2c7121a90b8/types-aiobotocore-kafkaconnect-2.9.1.tar.gz
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore]: Downloading https://files.pythonhosted.org/packages/20/6c/bd04e378acc41804a313a968d254a684f7a627d828be09d46c1d396bdd28/types-aiobotocore-2.9.1.tar.gz
+[2024-05-17 03:47:36] INFO root fetch - processPackages [skpro]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [skpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skpro-2.2.2.tar.gz tmp/skpro-2.3.0.tar.gz --markdown 20240517/s/skpro/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240517/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-kendra-ranking-2.9.0.tar.gz tmp/types-aiobotocore-kendra-ranking-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-kendra-ranking/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [cloudforet-console-api-v2]: Start processing: types-aiobotocore-lite
+[2024-05-17 03:47:36] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-05-17 03:47:36] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [xmonkey-namonica]: Start processing: mauth-client
+[2024-05-17 03:47:36] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-kafkaconnect-2.9.0.tar.gz tmp/types-aiobotocore-kafkaconnect-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-kafkaconnect/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-lite]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-2.9.0.tar.gz tmp/types-aiobotocore-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: Downloading https://files.pythonhosted.org/packages/47/fa/094db8ea0398a9e30ebe8e8402f52f59b433a5a1021802b4661d5bd98314/types-aiobotocore-keyspaces-2.9.1.tar.gz
+[2024-05-17 03:47:36] INFO root fetch - processPackages [mauth-client]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kendra]: Downloading https://files.pythonhosted.org/packages/0e/e9/c0b4f12363a3a3bb5fd670b59f783a1d337fbbd713f35e0cbb65cd38c768/types-aiobotocore-kendra-2.9.1.tar.gz
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-keyspaces-2.9.0.tar.gz tmp/types-aiobotocore-keyspaces-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-keyspaces/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-lite]: Downloading https://files.pythonhosted.org/packages/6f/e7/06097a27938cffaac20180abb3e0aa234c6c889619671a25ac98587e145a/types-aiobotocore-lite-2.9.0.tar.gz
+[2024-05-17 03:47:36] INFO root fetch - processPackages [mauth-client]: Downloading https://files.pythonhosted.org/packages/63/90/2df60c2b262b97e7f3878f5e90f8c5bcc99b17140fe45c0b78335b7fbc44/mauth_client-1.6.4.tar.gz
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kendra]: executing diffoscope
+[2024-05-17 03:47:36] INFO root fetch - processPackages [types-aiobotocore-kendra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-kendra-2.9.0.tar.gz tmp/types-aiobotocore-kendra-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-kendra/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:47:36] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.1.4.tar.gz]
+[2024-05-17 03:47:36] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.1.5.tar.gz]
+[2024-05-17 03:47:36] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-kendra-ranking-2.9.0.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-kendra-ranking]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-kendra-ranking-2.9.1.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-kendra-ranking]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-kafkaconnect-2.9.0.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-kafkaconnect]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-kafkaconnect-2.9.1.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-kafkaconnect]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [mauth-client]: Downloading https://files.pythonhosted.org/packages/60/25/a374a3b4263526d73e778640426586ddd28db71c3e149b622d09fe00ddaf/mauth_client-1.6.5.tar.gz
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-lite]: Downloading https://files.pythonhosted.org/packages/42/fd/3243ed0257d0f788ebcaaeb751a56444c2c34a5d9dc55dbdbd08cbaf4537/types-aiobotocore-lite-2.9.1.tar.gz
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-2.9.0.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-2.9.1.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [types-aiobotocore]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [mauth-client]: executing diffoscope
+[2024-05-17 03:47:37] INFO root fetch - processPackages [mauth-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mauth_client-1.6.4.tar.gz tmp/mauth_client-1.6.5.tar.gz --markdown 20240517/m/mauth-client/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-keyspaces-2.9.0.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-keyspaces]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-keyspaces-2.9.1.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-keyspaces]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [skpro]: Remove: archive file [/home/abi/fetcher/tmp/skpro-2.2.2.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [skpro]: Remove: archive file [/home/abi/fetcher/tmp/skpro-2.3.0.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [skpro]: success
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-lite]: executing diffoscope
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lite-2.9.0.tar.gz tmp/types-aiobotocore-lite-2.9.1.tar.gz --markdown 20240517/t/types-aiobotocore-lite/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-kendra]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-kendra-2.9.0.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - processPackages [types-aiobotocore-kendra]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-kendra-2.9.1.tar.gz]
+[2024-05-17 03:47:37] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-kendra]: success
+[2024-05-17 03:47:38] INFO root fetch - processPackages [mauth-client]: Remove: archive file [/home/abi/fetcher/tmp/mauth_client-1.6.4.tar.gz]
+[2024-05-17 03:47:38] INFO root fetch - processPackages [mauth-client]: Remove: archive file [/home/abi/fetcher/tmp/mauth_client-1.6.5.tar.gz]
+[2024-05-17 03:47:38] INFO root fetch - main [MainThread]: End processing [mauth-client]: success
+[2024-05-17 03:47:38] INFO root fetch - processPackages [types-aiobotocore-lite]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lite-2.9.0.tar.gz]
+[2024-05-17 03:47:38] INFO root fetch - processPackages [types-aiobotocore-lite]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lite-2.9.1.tar.gz]
+[2024-05-17 03:47:38] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lite]: success
+[2024-05-17 03:47:38] INFO root fetch - main [MainThread]: Store serial: [23247253]

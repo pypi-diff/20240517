@@ -15914,3 +15914,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:39:44] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-17 08:39:44] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-17 08:39:44] INFO root fetch - main [MainThread]: Store serial: [23249228]
+[2024-05-17 08:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249228]
+[2024-05-17 08:41:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-image
+[2024-05-17 08:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-mysql
+[2024-05-17 08:41:53] INFO root fetch - processPackages [dask-image]: New version: [2024.5.0rc1] Old Version: [2023.8.1]
+[2024-05-17 08:41:53] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/15/3d/6c9067b1c539ec927ef5f335762558f763844da19d839f885b1a5e2888fb/dask-image-2023.8.1.tar.gz
+[2024-05-17 08:41:53] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1715925987] Old Version: [3.3.0a1715760588]
+[2024-05-17 08:41:53] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/f1/77/517eefa12f0d8ea471ad8fad6e6bf8e617aa41f2f97af2ca7d94f55950e1/dask_image-2024.5.0rc1.tar.gz
+[2024-05-17 08:41:53] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/34/66/8b3107fbf3996225cb891dd945f50a83b644ae9b2cd448d8a0c38705b9e6/pulumi_mysql-3.3.0a1715760588.tar.gz
+[2024-05-17 08:41:53] INFO root fetch - processPackages [dask-image]: executing diffoscope
+[2024-05-17 08:41:53] INFO root fetch - processPackages [dask-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-image-2023.8.1.tar.gz tmp/dask_image-2024.5.0rc1.tar.gz --markdown 20240517/d/dask-image/2023.8.1-2024.5.0rc1/README.md --exclude *.pyd
+[2024-05-17 08:41:53] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/70/c6/96c347e0040a430dd853da0ded15d4905689631b2f45ae9703053efca488/pulumi_mysql-3.3.0a1715925987.tar.gz
+[2024-05-17 08:41:53] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-17 08:41:53] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1715760588.tar.gz tmp/pulumi_mysql-3.3.0a1715925987.tar.gz --markdown 20240517/p/pulumi-mysql/3.3.0a1715760588-3.3.0a1715925987/README.md --exclude *.pyd
+[2024-05-17 08:41:54] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask-image-2023.8.1.tar.gz]
+[2024-05-17 08:41:54] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask_image-2024.5.0rc1.tar.gz]
+[2024-05-17 08:41:54] INFO root fetch - main [MainThread]: End processing [dask-image]: success
+[2024-05-17 08:41:54] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715760588.tar.gz]
+[2024-05-17 08:41:54] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715925987.tar.gz]
+[2024-05-17 08:41:54] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-17 08:41:54] INFO root fetch - main [MainThread]: Store serial: [23249237]

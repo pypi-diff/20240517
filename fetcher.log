@@ -14024,3 +14024,74 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:27:58] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.908.tar.gz]
 [2024-05-17 07:27:58] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-05-17 07:27:58] INFO root fetch - main [MainThread]: Store serial: [23248526]
+[2024-05-17 07:30:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248526]
+[2024-05-17 07:30:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pozalabs-compose
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moesifapi
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracktour
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-archive
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simglucose
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2024-05-17 07:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-cdk
+[2024-05-17 07:30:07] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-17 07:30:07] INFO root fetch - processPackages [simglucose]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 07:30:07] INFO root fetch - processPackages [moesifapi]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-17 07:30:08] INFO root fetch - processPackages [tracktour]: New version: [0.0.5rc1] Old Version: [0.0.5]
+[2024-05-17 07:30:08] INFO root fetch - processPackages [simglucose]: Downloading https://files.pythonhosted.org/packages/b8/a4/cd0e3e25e252cf641f9d200b2a28be317f3207f870ddbd280fad3a313a15/simglucose-0.2.8.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1715922700] Old Version: [0.1.0a1715751430]
+[2024-05-17 07:30:08] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.90.0] Old Version: [0.9.5]
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/cb/d8/67c8c79197df431d20a77f24d82ab592deff9d073ce66535f7e50da4659f/moesifapi-1.4.5.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [tracktour]: Downloading https://files.pythonhosted.org/packages/17/7d/c44f0e03cd6c74fa676c87cc53a9211022c257d77518ce2b54d648effcf9/tracktour-0.0.5.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-05-17 07:30:08] WARNING root fetch - processPackages [tracktour]: Skipping package: exceeds size limit 13042570>=10485760
+[2024-05-17 07:30:08] INFO root fetch - main [MainThread]: End processing [tracktour] error
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/20/04/0305f0204bdf5ac5be19788cb3c5bb7ec01cbc30464d80bea516a7fbebf9/pulumi_archive-0.1.0a1715751430.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-17 07:30:08] INFO root fetch - processPackages [simglucose]: Downloading https://files.pythonhosted.org/packages/5d/5d/c3486537e14c3b8081a2bc3c59f017b694145b3df9016a9cc9f84e41e504/simglucose-0.2.9.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240517/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/1b/16/d1e679c703c24e75e0ee21b6821456b664436fead14e9037102ed9168850/moesifapi-1.4.6.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [simglucose]: executing diffoscope
+[2024-05-17 07:30:08] INFO root fetch - processPackages [simglucose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simglucose-0.2.8.tar.gz tmp/simglucose-0.2.9.tar.gz --markdown 20240517/s/simglucose/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-17 07:30:08] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240517/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-17 07:30:08] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/46/0f/f4c3d36ded4e948b0605af75c2c16719d920096812ada41dce8fec6b32fa/airbyte_cdk-0.90.0.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/37/22/a0c3181e12aea04c3f294806fb8d802ee841f7a441d2fe4a52795c0b3c52/pulumi_archive-0.1.0a1715922700.tar.gz
+[2024-05-17 07:30:08] INFO root fetch - processPackages [moesifapi]: executing diffoscope
+[2024-05-17 07:30:08] INFO root fetch - processPackages [moesifapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifapi-1.4.5.tar.gz tmp/moesifapi-1.4.6.tar.gz --markdown 20240517/m/moesifapi/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-17 07:30:08] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240517/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-17 07:30:09] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-17 07:30:09] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-05-17 07:30:09] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1715751430.tar.gz tmp/pulumi_archive-0.1.0a1715922700.tar.gz --markdown 20240517/p/pulumi-archive/0.1.0a1715751430-0.1.0a1715922700/README.md --exclude *.pyd
+[2024-05-17 07:30:09] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.5.tar.gz tmp/airbyte_cdk-0.90.0.tar.gz --markdown 20240517/a/airbyte-cdk/0.9.5-0.90.0/README.md --exclude *.pyd
+[2024-05-17 07:30:09] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-17 07:30:09] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-17 07:30:09] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-17 07:30:09] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-17 07:30:09] INFO root fetch - processPackages [simglucose]: Remove: archive file [/home/abi/fetcher/tmp/simglucose-0.2.8.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - processPackages [simglucose]: Remove: archive file [/home/abi/fetcher/tmp/simglucose-0.2.9.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - main [MainThread]: End processing [simglucose]: success
+[2024-05-17 07:30:09] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715751430.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715922700.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-17 07:30:09] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.5.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.6.tar.gz]
+[2024-05-17 07:30:09] INFO root fetch - main [MainThread]: End processing [moesifapi]: success
+[2024-05-17 07:30:10] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-17 07:30:10] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-17 07:30:10] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-17 07:30:10] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-05-17 07:30:10] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-0.90.0.tar.gz]
+[2024-05-17 07:30:10] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-05-17 07:30:10] INFO root fetch - main [MainThread]: Store serial: [23248548]

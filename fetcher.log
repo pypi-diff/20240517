@@ -22036,3 +22036,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:56:47] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
 [2024-05-17 11:56:47] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
 [2024-05-17 11:56:47] INFO root fetch - main [MainThread]: Store serial: [23251796]
+[2024-05-17 11:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251796]
+[2024-05-17 11:58:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrahub
+[2024-05-17 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segysak
+[2024-05-17 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qBitrr2
+[2024-05-17 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opengate-core
+[2024-05-17 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcs-aux
+[2024-05-17 11:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: REMLA-Test-Lib-version
+[2024-05-17 11:58:57] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.7] Old Version: [4.6.6]
+[2024-05-17 11:58:57] INFO root fetch - processPackages [funcs-aux]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-17 11:58:57] INFO root fetch - processPackages [REMLA-Test-Lib-version]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-05-17 11:58:57] WARNING root fetch - processPackages [infrahub]: Skipping, unable to determine old version
+[2024-05-17 11:58:57] INFO root fetch - main [MainThread]: End processing [infrahub] error
+[2024-05-17 11:58:57] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/c8/d7/acb1a5fa0833cf2db9fcfb799a2734aaf590c9ec8fa0eeaddb7c9261c0e7/qbitrr2-4.6.6.tar.gz
+[2024-05-17 11:58:57] INFO root fetch - processPackages [opengate-core]: New version: [10.0b8] Old Version: [10.0b7]
+[2024-05-17 11:58:57] INFO root fetch - processPackages [segysak]: New version: [0.4rc1] Old Version: [0.4.1]
+[2024-05-17 11:58:57] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/5b/94/1a4cf12702bd3e76b11c7b95ae495d2de6041fa04fbe2fd6b6f0dbf9ab86/funcs_aux-0.1.6.tar.gz
+[2024-05-17 11:58:57] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/d0/1c/6987aec76bcbb4809cbc16ac087b37c251565232af1243b57d3ab51dfb24/REMLA-Test-Lib-version-0.0.7.tar.gz
+[2024-05-17 11:58:57] INFO root fetch - processPackages [segysak]: Downloading https://files.pythonhosted.org/packages/98/54/79e9372bc23a108db309831284eade473f8ab3b8006307af3c64daeb41e5/segysak-0.4.1-py3-none-any.whl
+[2024-05-17 11:58:57] INFO root fetch - processPackages [opengate-core]: Downloading https://files.pythonhosted.org/packages/06/65/f591374bfa0319accf3b98aac819a1d5246f55fae7b0d4486c77e6eae3ab/opengate_core-10.0b7-cp39-cp39-win_amd64.whl
+[2024-05-17 11:58:57] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/78/f8/b7823e680c9a0949cc49f5e0446b4804c30a36aab1090bcc09da36a923f2/REMLA-Test-Lib-version-0.1.0.tar.gz
+[2024-05-17 11:58:57] WARNING root fetch - processPackages [opengate-core]: Skipping package: exceeds size limit 15547566>=10485760
+[2024-05-17 11:58:57] INFO root fetch - main [MainThread]: End processing [opengate-core] error
+[2024-05-17 11:58:57] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/ff/9e/898defa7713d77ee0d49197598b8b9992bef1b5d55dff31db4da233581ef/qbitrr2-4.6.7.tar.gz
+[2024-05-17 11:58:57] INFO root fetch - processPackages [REMLA-Test-Lib-version]: executing diffoscope
+[2024-05-17 11:58:57] INFO root fetch - processPackages [REMLA-Test-Lib-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REMLA-Test-Lib-version-0.0.7.tar.gz tmp/REMLA-Test-Lib-version-0.1.0.tar.gz --markdown 20240517/R/REMLA-Test-Lib-version/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-05-17 11:58:57] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/23/c8/6647fa1c2b837c1bcabeb5e9dbe5bae0b79bd7de208cdce2c62441924dd6/funcs_aux-0.1.7.tar.gz
+[2024-05-17 11:58:57] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 11:58:57] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.6.tar.gz tmp/qbitrr2-4.6.7.tar.gz --markdown 20240517/q/qBitrr2/4.6.6-4.6.7/README.md --exclude *.pyd
+[2024-05-17 11:58:57] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-17 11:58:57] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.1.6.tar.gz tmp/funcs_aux-0.1.7.tar.gz --markdown 20240517/f/funcs-aux/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-17 11:58:57] INFO root fetch - processPackages [segysak]: Downloading https://files.pythonhosted.org/packages/ec/bf/f8e2e6fe96263d399285a0cfd966e38b2180d9706db212b1c1a8e33fec9b/segysak-0.4rc1-py3-none-any.whl
+[2024-05-17 11:58:58] INFO root fetch - processPackages [segysak]: executing diffoscope
+[2024-05-17 11:58:58] INFO root fetch - processPackages [segysak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segysak-0.4.1-py3-none-any.whl.zip tmp/segysak-0.4rc1-py3-none-any.whl.zip --markdown 20240517/s/segysak/0.4.1-0.4rc1/README.md --exclude *.pyd
+[2024-05-17 11:58:58] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.6.tar.gz]
+[2024-05-17 11:58:58] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.7.tar.gz]
+[2024-05-17 11:58:58] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-17 11:58:58] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.0.7.tar.gz]
+[2024-05-17 11:58:58] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.1.0.tar.gz]
+[2024-05-17 11:58:58] INFO root fetch - main [MainThread]: End processing [REMLA-Test-Lib-version]: success
+[2024-05-17 11:58:58] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.6.tar.gz]
+[2024-05-17 11:58:58] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.7.tar.gz]
+[2024-05-17 11:58:58] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 11:58:58] INFO root fetch - processPackages [segysak]: Remove: archive file [/home/abi/fetcher/tmp/segysak-0.4.1-py3-none-any.whl.zip]
+[2024-05-17 11:58:58] INFO root fetch - processPackages [segysak]: Remove: archive file [/home/abi/fetcher/tmp/segysak-0.4rc1-py3-none-any.whl.zip]
+[2024-05-17 11:58:58] INFO root fetch - main [MainThread]: End processing [segysak]: success
+[2024-05-17 11:58:58] INFO root fetch - main [MainThread]: Store serial: [23251814]

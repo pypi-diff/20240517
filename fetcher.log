@@ -3145,3 +3145,23 @@
 [2024-05-17 02:57:19] INFO root fetch - processPackages [google-cloud-netapp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-netapp-0.3.9.tar.gz]
 [2024-05-17 02:57:19] INFO root fetch - main [MainThread]: End processing [google-cloud-netapp]: success
 [2024-05-17 02:57:19] INFO root fetch - main [MainThread]: Store serial: [23244669]
+[2024-05-17 02:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244669]
+[2024-05-17 02:59:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 02:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cengal-app-dir-path-finder
+[2024-05-17 02:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nm-magic-wand-nightly
+[2024-05-17 02:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: techsparx
+[2024-05-17 02:59:29] INFO root fetch - processPackages [cengal-app-dir-path-finder]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-17 02:59:29] WARNING root fetch - processPackages [techsparx]: Skipping, unable to determine old version
+[2024-05-17 02:59:29] INFO root fetch - main [MainThread]: End processing [techsparx] error
+[2024-05-17 02:59:29] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240517] Old Version: [0.2.2.20240516]
+[2024-05-17 02:59:29] INFO root fetch - processPackages [cengal-app-dir-path-finder]: Downloading https://files.pythonhosted.org/packages/8b/10/55c1b8ae633efec3bd892e1a973c2fb7b93c0e2b67ac91bfa2847de41763/cengal_app_dir_path_finder-1.0.0.tar.gz
+[2024-05-17 02:59:29] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/6e/34/7432b67e82c35ea91d0766ca70163e0eae16d5d284998da05615362d38e9/nm_magic_wand_nightly-0.2.2.20240516-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-05-17 02:59:29] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76882657>=10485760
+[2024-05-17 02:59:29] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-05-17 02:59:29] INFO root fetch - processPackages [cengal-app-dir-path-finder]: Downloading https://files.pythonhosted.org/packages/d3/2d/86fde5fbdfa710bda3920da00a6b509c9f6217fe43120b54a0a64b017e55/cengal_app_dir_path_finder-1.1.0.tar.gz
+[2024-05-17 02:59:30] INFO root fetch - processPackages [cengal-app-dir-path-finder]: executing diffoscope
+[2024-05-17 02:59:30] INFO root fetch - processPackages [cengal-app-dir-path-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal_app_dir_path_finder-1.0.0.tar.gz tmp/cengal_app_dir_path_finder-1.1.0.tar.gz --markdown 20240517/c/cengal-app-dir-path-finder/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-17 02:59:30] INFO root fetch - processPackages [cengal-app-dir-path-finder]: Remove: archive file [/home/abi/fetcher/tmp/cengal_app_dir_path_finder-1.0.0.tar.gz]
+[2024-05-17 02:59:30] INFO root fetch - processPackages [cengal-app-dir-path-finder]: Remove: archive file [/home/abi/fetcher/tmp/cengal_app_dir_path_finder-1.1.0.tar.gz]
+[2024-05-17 02:59:30] INFO root fetch - main [MainThread]: End processing [cengal-app-dir-path-finder]: success
+[2024-05-17 02:59:30] INFO root fetch - main [MainThread]: Store serial: [23244682]

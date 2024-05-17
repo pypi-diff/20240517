@@ -14930,3 +14930,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:05:46] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2024-05-17 08:05:46] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2024-05-17 08:05:46] INFO root fetch - main [MainThread]: Store serial: [23248822]
+[2024-05-17 08:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248822]
+[2024-05-17 08:07:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 08:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeharvest
+[2024-05-17 08:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfastertransformer-devel
+[2024-05-17 08:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g2p-mix
+[2024-05-17 08:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DynamicForms
+[2024-05-17 08:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2024-05-17 08:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-datadog
+[2024-05-17 08:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-17 08:07:55] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-17 08:07:55] INFO root fetch - processPackages [g2p-mix]: New version: [0.4.5] Old Version: [0.4.2]
+[2024-05-17 08:07:55] INFO root fetch - processPackages [homeharvest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-17 08:07:55] INFO root fetch - processPackages [xfastertransformer-devel]: New version: [1.6.0] Old Version: [1.4.0]
+[2024-05-17 08:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-17 08:07:55] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2024-05-17 08:07:55] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-17 08:07:55] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/ee/35/82f17de156d1492ba0d7f70a81ed3e1f7ab03e7c2ff18bdee5221afa91e5/homeharvest-0.3.8.tar.gz
+[2024-05-17 08:07:55] INFO root fetch - processPackages [xfastertransformer-devel]: Downloading https://files.pythonhosted.org/packages/ab/ee/e6f08edbbfde6272cdd0c7f79a69b0c81fbfcdb1cc33466998cd9495f183/xfastertransformer_devel-1.4.0-py3-none-any.whl
+[2024-05-17 08:07:55] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/ef/68/309528ef44602008545183aef543c69f4114e75e75491b0c0f9394a8b785/g2p-mix-0.4.2.tar.gz
+[2024-05-17 08:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-17 08:07:55] WARNING root fetch - processPackages [xfastertransformer-devel]: Skipping package: exceeds size limit 31565215>=10485760
+[2024-05-17 08:07:55] INFO root fetch - main [MainThread]: End processing [xfastertransformer-devel] error
+[2024-05-17 08:07:55] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-17 08:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-17 08:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240517/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-17 08:07:55] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2024-05-17 08:07:56] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/14/3a/bcc101a19e2e5e446203d0d2bd533ee0645cf7ab9697bb8e9dc45c839790/homeharvest-0.3.9.tar.gz
+[2024-05-17 08:07:56] INFO root fetch - processPackages [homeharvest]: executing diffoscope
+[2024-05-17 08:07:56] INFO root fetch - processPackages [homeharvest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeharvest-0.3.8.tar.gz tmp/homeharvest-0.3.9.tar.gz --markdown 20240517/h/homeharvest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-17 08:07:56] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2024-05-17 08:07:56] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20240517/D/DynamicForms/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-17 08:07:56] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/ae/92/6bf0ab1341675f1e14720c7d8e56edbec4fce1c16d06e1937f086f27df5c/g2p-mix-0.4.5.tar.gz
+[2024-05-17 08:07:56] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-17 08:07:56] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-17 08:07:56] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240517/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-17 08:07:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-17 08:07:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-17 08:07:56] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-17 08:07:56] INFO root fetch - processPackages [g2p-mix]: executing diffoscope
+[2024-05-17 08:07:56] INFO root fetch - processPackages [g2p-mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p-mix-0.4.2.tar.gz tmp/g2p-mix-0.4.5.tar.gz --markdown 20240517/g/g2p-mix/0.4.2-0.4.5/README.md --exclude *.pyd
+[2024-05-17 08:07:56] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.8.tar.gz]
+[2024-05-17 08:07:56] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.9.tar.gz]
+[2024-05-17 08:07:56] INFO root fetch - main [MainThread]: End processing [homeharvest]: success
+[2024-05-17 08:07:57] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.2.tar.gz]
+[2024-05-17 08:07:57] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.5.tar.gz]
+[2024-05-17 08:07:57] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
+[2024-05-17 08:07:57] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2024-05-17 08:07:57] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2024-05-17 08:07:57] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2024-05-17 08:07:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-17 08:07:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-17 08:07:59] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-17 08:07:59] INFO root fetch - main [MainThread]: Store serial: [23248844]

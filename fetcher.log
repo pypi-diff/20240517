@@ -15496,3 +15496,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:23:57] INFO root fetch - processPackages [pyrnnoise]: Remove: archive file [/home/abi/fetcher/tmp/pyrnnoise-0.2.0-py3-none-manylinux1_x86_64.whl.zip]
 [2024-05-17 08:23:57] INFO root fetch - main [MainThread]: End processing [pyrnnoise]: success
 [2024-05-17 08:23:57] INFO root fetch - main [MainThread]: Store serial: [23249015]
+[2024-05-17 08:26:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249015]
+[2024-05-17 08:26:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zorch
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-core
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-runtime
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalellm
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protein-turnover
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NorrisUtils
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-image
+[2024-05-17 08:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: general-navigation
+[2024-05-17 08:26:07] INFO root fetch - processPackages [zorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 08:26:07] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-17 08:26:07] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 08:26:07] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/50/d5/20b0dac0ae23cf0da1ac26121361a57833e4c90c03953c298d882b7d835d/zorch-0.0.8.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [protein-turnover]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-17 08:26:07] INFO root fetch - processPackages [NorrisUtils]: New version: [1.5.0] Old Version: [1.4.6]
+[2024-05-17 08:26:07] WARNING root fetch - processPackages [scalellm]: Skipping, unable to determine old version
+[2024-05-17 08:26:07] INFO root fetch - processPackages [general-navigation]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-17 08:26:07] INFO root fetch - main [MainThread]: End processing [scalellm] error
+[2024-05-17 08:26:07] INFO root fetch - processPackages [dask-image]: New version: [2024.5.0rc1] Old Version: [2023.8.1]
+[2024-05-17 08:26:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/46/e4/b8b784d02ff40fb81ee92e22234342be140f5280dd3f62e74ab324851dc8/docmesh_core-0.0.4.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/67/85/34020a389deba9aab5931bb1036d8b84a3df028de08890eaeacf3b4085c3/protein_turnover-0.3.7.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/7b/65/95cd41ba6613deb19eca3690ed099df78960533556a7d2dc3508f3eb3ec9/NorrisUtils-1.4.6.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/15/3d/6c9067b1c539ec927ef5f335762558f763844da19d839f885b1a5e2888fb/dask-image-2023.8.1.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/bf/a0/75fc2c4170d35fb1a7605723b68b9cd28d1d2e0cbd176afc077833e6d119/zorch-0.0.9.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/67/98/cccdee921a960f1b22d311a3b866aec0589aa7345a3c6a410d3796b5e9ed/general_navigation-0.4.0.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 08:26:07] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.8.tar.gz tmp/zorch-0.0.9.tar.gz --markdown 20240517/z/zorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 08:26:07] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-17 08:26:07] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240517/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-17 08:26:07] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/b3/48/a98c6e656ac0fc84685030b255bd447dc3cda2dec3fde235450ef5cc71c2/docmesh_core-0.0.5.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/2b/41/ed20ef7a7c7f382f3937e4b5d25413253bce57655b6b74cfb7bfd4a63c36/NorrisUtils-1.5.0.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/f1/77/517eefa12f0d8ea471ad8fad6e6bf8e617aa41f2f97af2ca7d94f55950e1/dask_image-2024.5.0rc1.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/38/8f/767e304cd304905cc70dee8473f3d19976fcef7b4ccf0d37097a8afd6feb/protein_turnover-0.3.8.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-17 08:26:07] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.4.tar.gz tmp/docmesh_core-0.0.5.tar.gz --markdown 20240517/d/docmesh-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 08:26:07] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-17 08:26:07] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.4.6.tar.gz tmp/NorrisUtils-1.5.0.tar.gz --markdown 20240517/N/NorrisUtils/1.4.6-1.5.0/README.md --exclude *.pyd
+[2024-05-17 08:26:07] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/a3/e4/77f36ce7877ac81c0edc8dba67aa240c1b30135d625414d005cf44912ff3/general_navigation-0.5.0.tar.gz
+[2024-05-17 08:26:07] INFO root fetch - processPackages [protein-turnover]: executing diffoscope
+[2024-05-17 08:26:07] INFO root fetch - processPackages [protein-turnover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_turnover-0.3.7.tar.gz tmp/protein_turnover-0.3.8.tar.gz --markdown 20240517/p/protein-turnover/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-17 08:26:07] INFO root fetch - processPackages [dask-image]: executing diffoscope
+[2024-05-17 08:26:07] INFO root fetch - processPackages [dask-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-image-2023.8.1.tar.gz tmp/dask_image-2024.5.0rc1.tar.gz --markdown 20240517/d/dask-image/2023.8.1-2024.5.0rc1/README.md --exclude *.pyd
+[2024-05-17 08:26:08] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.8.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.9.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 08:26:08] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-17 08:26:08] WARNING root fetch - processPackages [general-navigation]: Skipping package: exceeds size limit 15356181>=10485760
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [general-navigation] error
+[2024-05-17 08:26:08] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.4.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.5.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-17 08:26:08] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.3.7.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.3.8.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [protein-turnover]: success
+[2024-05-17 08:26:08] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.6.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.5.0.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-17 08:26:08] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask-image-2023.8.1.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask_image-2024.5.0rc1.tar.gz]
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [dask-image]: success
+[2024-05-17 08:26:08] INFO root fetch - main [MainThread]: Store serial: [23249042]

@@ -18568,3 +18568,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:13:44] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.9.0.tar.gz]
 [2024-05-17 10:13:44] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
 [2024-05-17 10:13:44] INFO root fetch - main [MainThread]: Store serial: [23250278]
+[2024-05-17 10:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250278]
+[2024-05-17 10:15:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PROMINENT-methylation
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MASSIVEChem
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-api-framework
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transkribus-rest-api
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: midi-beeper
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wuji
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clean-alchemy
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-asynctools
+[2024-05-17 10:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-layout-category-hide-detail
+[2024-05-17 10:15:53] WARNING root fetch - processPackages [PROMINENT-methylation]: Skipping, unable to determine old version
+[2024-05-17 10:15:53] INFO root fetch - main [MainThread]: End processing [PROMINENT-methylation] error
+[2024-05-17 10:15:53] INFO root fetch - processPackages [MASSIVEChem]: New version: [3.9] Old Version: [3.6]
+[2024-05-17 10:15:53] INFO root fetch - processPackages [clean-alchemy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 10:15:53] INFO root fetch - processPackages [open-api-framework]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-17 10:15:53] INFO root fetch - processPackages [midi-beeper]: New version: [1.79.1] Old Version: [1.79]
+[2024-05-17 10:15:53] INFO root fetch - processPackages [transkribus-rest-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-17 10:15:53] WARNING root fetch - processPackages [python-asynctools]: Skipping, unable to determine old version
+[2024-05-17 10:15:53] INFO root fetch - main [MainThread]: End processing [python-asynctools] error
+[2024-05-17 10:15:53] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: New version: [14.0.1.0.4.dev3] Old Version: [14.0.1.0.4.dev2]
+[2024-05-17 10:15:53] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/12/b5/0ac5cc0787da644388073534bbea7c0877e9dc051b628a14c41c36452919/massivechem-3.6.tar.gz
+[2024-05-17 10:15:53] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 10:15:53] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/fd/ea/80d8322e779492c14a8cd1ef172e54f815aaee46693e29260d912d6f675f/clean-alchemy-0.1.3.tar.gz
+[2024-05-17 10:15:53] INFO root fetch - processPackages [open-api-framework]: Downloading https://files.pythonhosted.org/packages/4a/0f/d5ab9739afc703a046016814168aaa33456b2db68ec9f6225882cb2ed8f3/open_api_framework-0.1.0.tar.gz
+[2024-05-17 10:15:53] INFO root fetch - processPackages [midi-beeper]: Downloading https://files.pythonhosted.org/packages/5a/b8/786bfeb98a6e59e2b860adc36a35886eab144562eace2f8290f15d338ebf/midi-beeper-1.79.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [transkribus-rest-api]: Downloading https://files.pythonhosted.org/packages/4f/86/edcb367a6229624a6466b61649482296dc6f7042db503fa7dd214f46c6d3/transkribus_rest_api-0.3.0.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: Downloading https://files.pythonhosted.org/packages/a9/68/59374efcec0040d7aca0705b6426299e042cbc788e33d74b02f54e95b6c3/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev2-py3-none-any.whl
+[2024-05-17 10:15:54] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/39/2d/ddea5d00e5cb4bf232b721ae38e335019f4fd901c3d54f646d515f5f1737/clean-alchemy-0.1.4.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/dd/61/55d3ca46c6341edacef73b13cc7529dbc5c9827b609ead8dc39667a40081/massivechem-3.9.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [midi-beeper]: Downloading https://files.pythonhosted.org/packages/f8/64/dad90677c83af1b4787365115b61997db9f060977c6820e211ac5a2d725c/midi_beeper-1.79.1.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [open-api-framework]: Downloading https://files.pythonhosted.org/packages/c6/60/9c25484e3a9725a10dbd31ed35dbc180848e4ce79437ace5bcc75496fd9c/open_api_framework-0.2.0.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [clean-alchemy]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [clean-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-alchemy-0.1.3.tar.gz tmp/clean-alchemy-0.1.4.tar.gz --markdown 20240517/c/clean-alchemy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 10:15:54] INFO root fetch - processPackages [transkribus-rest-api]: Downloading https://files.pythonhosted.org/packages/c6/aa/efc354a5aec7193aa13b3cdc8489daf99d076ed67a3e2118bf24eea13bd2/transkribus_rest_api-0.3.1.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-17 10:15:54] INFO root fetch - processPackages [midi-beeper]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [midi-beeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midi-beeper-1.79.tar.gz tmp/midi_beeper-1.79.1.tar.gz --markdown 20240517/m/midi-beeper/1.79-1.79.1/README.md --exclude *.pyd
+[2024-05-17 10:15:54] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-3.6.tar.gz tmp/massivechem-3.9.tar.gz --markdown 20240517/M/MASSIVEChem/3.6-3.9/README.md --exclude *.pyd
+[2024-05-17 10:15:54] INFO root fetch - processPackages [open-api-framework]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [open-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_api_framework-0.1.0.tar.gz tmp/open_api_framework-0.2.0.tar.gz --markdown 20240517/o/open-api-framework/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-17 10:15:54] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: Downloading https://files.pythonhosted.org/packages/2b/0b/d26ba6816b93aa7ed45e2dc7994fd04458c1e1d7d0658c61b0291bb731f7/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev3-py3-none-any.whl
+[2024-05-17 10:15:54] INFO root fetch - processPackages [transkribus-rest-api]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [transkribus-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transkribus_rest_api-0.3.0.tar.gz tmp/transkribus_rest_api-0.3.1.tar.gz --markdown 20240517/t/transkribus-rest-api/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-17 10:15:54] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240517/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 10:15:54] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: executing diffoscope
+[2024-05-17 10:15:54] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev3-py3-none-any.whl.zip --markdown 20240517/o/odoo14-addon-sale-layout-category-hide-detail/14.0.1.0.4.dev2-14.0.1.0.4.dev3/README.md --exclude *.pyd
+[2024-05-17 10:15:55] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.3.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.4.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [clean-alchemy]: success
+[2024-05-17 10:15:55] INFO root fetch - processPackages [midi-beeper]: Remove: archive file [/home/abi/fetcher/tmp/midi-beeper-1.79.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [midi-beeper]: Remove: archive file [/home/abi/fetcher/tmp/midi_beeper-1.79.1.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [midi-beeper]: success
+[2024-05-17 10:15:55] INFO root fetch - processPackages [open-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/open_api_framework-0.1.0.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [open-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/open_api_framework-0.2.0.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [open-api-framework]: success
+[2024-05-17 10:15:55] INFO root fetch - processPackages [transkribus-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/transkribus_rest_api-0.3.0.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [transkribus-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/transkribus_rest_api-0.3.1.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [transkribus-rest-api]: success
+[2024-05-17 10:15:55] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-17 10:15:55] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.6.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.9.tar.gz]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-17 10:15:55] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2024-05-17 10:15:55] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev3-py3-none-any.whl.zip]
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-layout-category-hide-detail]: success
+[2024-05-17 10:15:55] INFO root fetch - main [MainThread]: Store serial: [23250306]

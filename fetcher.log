@@ -18640,3 +18640,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:15:55] INFO root fetch - processPackages [odoo14-addon-sale-layout-category-hide-detail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_layout_category_hide_detail-14.0.1.0.4.dev3-py3-none-any.whl.zip]
 [2024-05-17 10:15:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-layout-category-hide-detail]: success
 [2024-05-17 10:15:55] INFO root fetch - main [MainThread]: Store serial: [23250306]
+[2024-05-17 10:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250306]
+[2024-05-17 10:18:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnl2asp-test
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grasp_planning
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neorl2
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-ui-helper
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qBitrr2
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wuji
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codeviz
+[2024-05-17 10:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clean-alchemy
+[2024-05-17 10:18:04] INFO root fetch - processPackages [clean-alchemy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-17 10:18:04] INFO root fetch - processPackages [grasp_planning]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-17 10:18:04] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 10:18:04] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 10:18:04] INFO root fetch - processPackages [cnl2asp-test]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-05-17 10:18:04] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/c0/b6/4ddd86e83522a6e5d43d313843f0b70eeba1bfd483b7d4626582aa26cb73/grasp_planning-0.5.3.tar.gz
+[2024-05-17 10:18:04] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/39/2d/ddea5d00e5cb4bf232b721ae38e335019f4fd901c3d54f646d515f5f1737/clean-alchemy-0.1.4.tar.gz
+[2024-05-17 10:18:04] WARNING root fetch - processPackages [neorl2]: Skipping, unable to determine old version
+[2024-05-17 10:18:04] INFO root fetch - main [MainThread]: End processing [neorl2] error
+[2024-05-17 10:18:04] WARNING root fetch - processPackages [codeviz]: Skipping, unable to determine old version
+[2024-05-17 10:18:04] INFO root fetch - main [MainThread]: End processing [codeviz] error
+[2024-05-17 10:18:04] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-17 10:18:04] INFO root fetch - processPackages [qBitrr2]: New version: [4.6.3] Old Version: [4.6.2]
+[2024-05-17 10:18:04] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/b0/5e/8837faaf5437747cf83a28d18a07f10a46435b7bd2b93ef776dc6959ea86/qbitrr2-4.6.2.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [cnl2asp-test]: Downloading https://files.pythonhosted.org/packages/5e/ab/8a9983170ba2a32bf3c45717e944322149692293f63ac6526c2da05caee5/cnl2asp_test-3.0.3.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/90/6b/82dbd9eb7edb2fde407746a7bb8e1d64045b32081fe3f3c350809c0696f0/grasp_planning-0.5.4.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/3f/e0/c15e36e062704f8bb5fd0000dc7e4758fe98071de9feac4041d479225b2a/clean-alchemy-0.1.5.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-17 10:18:05] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240517/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 10:18:05] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-17 10:18:05] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240517/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 10:18:05] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/0d/80/bfd87b1281106234beea27491d84f96823566019faeff48686c822b2b985/qbitrr2-4.6.3.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-17 10:18:05] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.5.3.tar.gz tmp/grasp_planning-0.5.4.tar.gz --markdown 20240517/g/grasp_planning/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-17 10:18:05] INFO root fetch - processPackages [cnl2asp-test]: Downloading https://files.pythonhosted.org/packages/08/6e/0e0571448b547caac1e0f4a62ccad8f7361bacb3a36b5ff4c95787a2413a/cnl2asp_test-3.1.0.tar.gz
+[2024-05-17 10:18:05] INFO root fetch - processPackages [clean-alchemy]: executing diffoscope
+[2024-05-17 10:18:05] INFO root fetch - processPackages [clean-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-alchemy-0.1.4.tar.gz tmp/clean-alchemy-0.1.5.tar.gz --markdown 20240517/c/clean-alchemy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-17 10:18:05] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-17 10:18:05] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.6.2.tar.gz tmp/qbitrr2-4.6.3.tar.gz --markdown 20240517/q/qBitrr2/4.6.2-4.6.3/README.md --exclude *.pyd
+[2024-05-17 10:18:05] INFO root fetch - processPackages [cnl2asp-test]: executing diffoscope
+[2024-05-17 10:18:05] INFO root fetch - processPackages [cnl2asp-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnl2asp_test-3.0.3.tar.gz tmp/cnl2asp_test-3.1.0.tar.gz --markdown 20240517/c/cnl2asp-test/3.0.3-3.1.0/README.md --exclude *.pyd
+[2024-05-17 10:18:06] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-17 10:18:06] INFO root fetch - processPackages [cnl2asp-test]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp_test-3.0.3.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - processPackages [cnl2asp-test]: Remove: archive file [/home/abi/fetcher/tmp/cnl2asp_test-3.1.0.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: End processing [cnl2asp-test]: success
+[2024-05-17 10:18:06] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.4.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.5.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: End processing [clean-alchemy]: success
+[2024-05-17 10:18:06] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.3.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.4.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-17 10:18:06] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-17 10:18:06] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.2.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.6.3.tar.gz]
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-17 10:18:06] INFO root fetch - main [MainThread]: Store serial: [23250334]

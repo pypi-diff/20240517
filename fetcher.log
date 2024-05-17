@@ -12305,3 +12305,54 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:23:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051603.tar.gz]
 [2024-05-17 05:23:54] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-17 05:23:54] INFO root fetch - main [MainThread]: Store serial: [23247787]
+[2024-05-17 05:25:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247787]
+[2024-05-17 05:26:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 05:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splitpdf-pro
+[2024-05-17 05:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xursparks
+[2024-05-17 05:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelmerge
+[2024-05-17 05:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-snowflake
+[2024-05-17 05:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2024-05-17 05:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PythonToSW
+[2024-05-17 05:26:04] INFO root fetch - processPackages [modelmerge]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-17 05:26:04] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [9.0.4] Old Version: [9.0.3]
+[2024-05-17 05:26:04] INFO root fetch - processPackages [PythonToSW]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-17 05:26:04] INFO root fetch - processPackages [xursparks]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-17 05:26:04] INFO root fetch - processPackages [bagbag]: New version: [0.68.5] Old Version: [0.68.4]
+[2024-05-17 05:26:04] WARNING root fetch - processPackages [splitpdf-pro]: Skipping, unable to determine old version
+[2024-05-17 05:26:04] INFO root fetch - main [MainThread]: End processing [splitpdf-pro] error
+[2024-05-17 05:26:04] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/ba/53/ac97bc4ee1b351ccb8f0378bc76d0f04a5b548611594f06764d6771a1198/modelmerge-0.4.1.tar.gz
+[2024-05-17 05:26:04] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/c9/7e/7d2a16598cbac16948b6aee248b69c7a3f1969fe6d9d6090c92523c0c71f/PythonToSW-1.2.0.tar.gz
+[2024-05-17 05:26:04] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/89/b3/5d799d55211177c4b702694722c27b9daff0ae083eb602286ed63f669e1b/xursparks-1.0.7.tar.gz
+[2024-05-17 05:26:04] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/50/dd/34643057ed61de4a237a77a5eee60bf0ede8a8743bbe0850bebec5c04ca3/bagbag-0.68.4.tar.gz
+[2024-05-17 05:26:04] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/87/59/1e42265f5a62860e91de7eca69df7a796732140960d944277f15c7834354/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz
+[2024-05-17 05:26:05] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/3f/2d/e1624f7befc5737f06a7f1ca74b84ae7e01cc0f830f23594be32ab77dcf1/modelmerge-0.4.2.tar.gz
+[2024-05-17 05:26:05] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/45/bb/d48f1ccb39cd931f70af0ee2ebb53ccad243fdcc1d9c40ea7c9532c49bbf/xursparks-1.0.8.tar.gz
+[2024-05-17 05:26:05] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/20/22/2e88393325bc0fe9d921d0ff2c572f13c077f2aff333a72a03357f2264f1/PythonToSW-1.2.1.tar.gz
+[2024-05-17 05:26:05] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/67/38/e6eb87a0a9269e9cb34519f3eba7882bf282651cabe2d89010f9790c48b3/bagbag-0.68.5.tar.gz
+[2024-05-17 05:26:05] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-17 05:26:05] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.4.1.tar.gz tmp/modelmerge-0.4.2.tar.gz --markdown 20240517/m/modelmerge/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-17 05:26:05] INFO root fetch - processPackages [xursparks]: executing diffoscope
+[2024-05-17 05:26:05] INFO root fetch - processPackages [xursparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xursparks-1.0.7.tar.gz tmp/xursparks-1.0.8.tar.gz --markdown 20240517/x/xursparks/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-17 05:26:05] INFO root fetch - processPackages [PythonToSW]: executing diffoscope
+[2024-05-17 05:26:05] INFO root fetch - processPackages [PythonToSW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToSW-1.2.0.tar.gz tmp/PythonToSW-1.2.1.tar.gz --markdown 20240517/P/PythonToSW/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-17 05:26:05] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 05:26:05] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.4.tar.gz tmp/bagbag-0.68.5.tar.gz --markdown 20240517/b/bagbag/0.68.4-0.68.5/README.md --exclude *.pyd
+[2024-05-17 05:26:05] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/c0/6f/a1d64f04dbd47c282d0ec29d3a9a1a51346734468ca5477007fcff1598cc/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz
+[2024-05-17 05:26:05] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2024-05-17 05:26:05] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz --markdown 20240517/c/cdktf-cdktf-provider-snowflake/9.0.3-9.0.4/README.md --exclude *.pyd
+[2024-05-17 05:26:05] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.7.tar.gz]
+[2024-05-17 05:26:05] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.8.tar.gz]
+[2024-05-17 05:26:05] INFO root fetch - main [MainThread]: End processing [xursparks]: success
+[2024-05-17 05:26:05] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.4.1.tar.gz]
+[2024-05-17 05:26:05] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.4.2.tar.gz]
+[2024-05-17 05:26:05] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-17 05:26:06] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.2.0.tar.gz]
+[2024-05-17 05:26:06] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.2.1.tar.gz]
+[2024-05-17 05:26:06] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
+[2024-05-17 05:26:06] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.4.tar.gz]
+[2024-05-17 05:26:06] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.5.tar.gz]
+[2024-05-17 05:26:06] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 05:26:08] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz]
+[2024-05-17 05:26:08] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz]
+[2024-05-17 05:26:08] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2024-05-17 05:26:08] INFO root fetch - main [MainThread]: Store serial: [23247802]

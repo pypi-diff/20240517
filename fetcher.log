@@ -13307,3 +13307,15 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:34:03] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-2.0.1.tar.gz]
 [2024-05-17 06:34:03] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
 [2024-05-17 06:34:03] INFO root fetch - main [MainThread]: Store serial: [23248225]
+[2024-05-17 06:36:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248225]
+[2024-05-17 06:36:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-17 06:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamini
+[2024-05-17 06:36:13] INFO root fetch - processPackages [lamini]: New version: [2.2.0a1] Old Version: [2.1.8]
+[2024-05-17 06:36:13] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/7a/87/4056c635ac9b89a39da2e5c34816871b12f6d2af3ce186cb0b9eb8a7e6f9/lamini-2.1.8-123-py3-none-any.whl
+[2024-05-17 06:36:13] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/28/72/cc2b8108370aaac7a06035d93e54cf90b509f9abcaee5a76c14eb7466dd4/lamini-2.2.0a1-124-py3-none-any.whl
+[2024-05-17 06:36:13] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-05-17 06:36:13] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.8-123-py3-none-any.whl.zip tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip --markdown 20240517/l/lamini/2.1.8-2.2.0a1/README.md --exclude *.pyd
+[2024-05-17 06:36:14] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.8-123-py3-none-any.whl.zip]
+[2024-05-17 06:36:14] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip]
+[2024-05-17 06:36:14] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-05-17 06:36:14] INFO root fetch - main [MainThread]: Store serial: [23248227]

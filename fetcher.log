@@ -22448,3 +22448,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:14:28] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
 [2024-05-17 12:14:28] INFO root fetch - main [MainThread]: End processing [sparse]: success
 [2024-05-17 12:14:28] INFO root fetch - main [MainThread]: Store serial: [23251971]
+[2024-05-17 12:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251971]
+[2024-05-17 12:16:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 12:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-17 12:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokengeex
+[2024-05-17 12:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luke-roberts-cloud-api
+[2024-05-17 12:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torspy
+[2024-05-17 12:16:39] INFO root fetch - processPackages [luke-roberts-cloud-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 12:16:39] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/63/ca/57cfa6af1b1378b133eafd4714415ba5c7fdd1565e681d9596b056c08a4d/luke_roberts_cloud_api-0.0.8.tar.gz
+[2024-05-17 12:16:39] INFO root fetch - processPackages [torspy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 12:16:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-17 12:16:39] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/fb/be/ce72ac914cc26a7b9dc1d778c8c9c78e0286fbc661df9708436b7475333f/luke_roberts_cloud_api-0.0.9.tar.gz
+[2024-05-17 12:16:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/9d/c5/c9d7f80c3361456b9af7d0fa7951cd99634dd13f59f4bd3fef1b2b3f0280/pyrt_lib_rasmusklitgaard-0.4.5.tar.gz
+[2024-05-17 12:16:39] INFO root fetch - processPackages [torspy]: Downloading https://files.pythonhosted.org/packages/b0/b3/0159e100bec85b9bbb5b1b357cc9c4f82700f4d6ea7fa6a3a72faa8cdedb/torspy-1.0.0.tar.gz
+[2024-05-17 12:16:39] INFO root fetch - processPackages [luke-roberts-cloud-api]: executing diffoscope
+[2024-05-17 12:16:39] INFO root fetch - processPackages [luke-roberts-cloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luke_roberts_cloud_api-0.0.8.tar.gz tmp/luke_roberts_cloud_api-0.0.9.tar.gz --markdown 20240517/l/luke-roberts-cloud-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 12:16:39] INFO root fetch - processPackages [torspy]: Downloading https://files.pythonhosted.org/packages/e5/6e/66cdeb038831164e8197dcee89c44077c6c292139a1c77ec5656dc69b75e/torspy-1.0.1.tar.gz
+[2024-05-17 12:16:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/f2/53/b6ba7929582607a23746d4e1144ea0dc69873e93e61649531047758d5706/pyrt_lib_rasmusklitgaard-0.4.6.tar.gz
+[2024-05-17 12:16:40] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-17 12:16:40] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.4.5.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.4.6.tar.gz --markdown 20240517/p/pyrt-lib-rasmusklitgaard/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-17 12:16:40] INFO root fetch - processPackages [tokengeex]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 12:16:40] INFO root fetch - processPackages [torspy]: executing diffoscope
+[2024-05-17 12:16:40] INFO root fetch - processPackages [torspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torspy-1.0.0.tar.gz tmp/torspy-1.0.1.tar.gz --markdown 20240517/t/torspy/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 12:16:40] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.8.tar.gz]
+[2024-05-17 12:16:40] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.9.tar.gz]
+[2024-05-17 12:16:40] INFO root fetch - main [MainThread]: End processing [luke-roberts-cloud-api]: success
+[2024-05-17 12:16:40] INFO root fetch - processPackages [tokengeex]: Downloading https://files.pythonhosted.org/packages/75/ae/7bf057efb344313622941be62afd0e044cfb0dbf99766e36d1816f1eb154/tokengeex-1.0.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl
+[2024-05-17 12:16:40] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.5.tar.gz]
+[2024-05-17 12:16:40] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.6.tar.gz]
+[2024-05-17 12:16:40] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-17 12:16:40] INFO root fetch - processPackages [torspy]: Remove: archive file [/home/abi/fetcher/tmp/torspy-1.0.0.tar.gz]
+[2024-05-17 12:16:40] INFO root fetch - processPackages [torspy]: Remove: archive file [/home/abi/fetcher/tmp/torspy-1.0.1.tar.gz]
+[2024-05-17 12:16:40] INFO root fetch - main [MainThread]: End processing [torspy]: success
+[2024-05-17 12:16:41] INFO root fetch - processPackages [tokengeex]: Downloading https://files.pythonhosted.org/packages/d5/08/6784eca63822001149957f79b9fb15570d1a97701562e8af8210ce417f4c/tokengeex-1.0.1-cp37-cp37m-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-05-17 12:16:42] INFO root fetch - processPackages [tokengeex]: executing diffoscope
+[2024-05-17 12:16:42] INFO root fetch - processPackages [tokengeex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokengeex-1.0.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip tmp/tokengeex-1.0.1-cp37-cp37m-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20240517/t/tokengeex/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 12:16:56] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-1.0.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip]
+[2024-05-17 12:16:56] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-1.0.1-cp37-cp37m-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-05-17 12:16:56] INFO root fetch - main [MainThread]: End processing [tokengeex]: success
+[2024-05-17 12:16:56] INFO root fetch - main [MainThread]: Store serial: [23252028]

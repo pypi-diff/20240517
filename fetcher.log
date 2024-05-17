@@ -22784,3 +22784,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:30:11] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.1.1.tar.gz]
 [2024-05-17 12:30:11] INFO root fetch - main [MainThread]: End processing [risb]: success
 [2024-05-17 12:30:11] INFO root fetch - main [MainThread]: Store serial: [23252202]
+[2024-05-17 12:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252202]
+[2024-05-17 12:32:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ufo2ft
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: probe-design
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kebihelp
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathtemplate
+[2024-05-17 12:32:22] WARNING root fetch - processPackages [kebihelp]: Skipping, unable to determine old version
+[2024-05-17 12:32:22] INFO root fetch - main [MainThread]: End processing [kebihelp] error
+[2024-05-17 12:32:22] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-17 12:32:22] INFO root fetch - processPackages [pathtemplate]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 12:32:22] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ufo2ft]: New version: [3.2.3] Old Version: [3.2.2]
+[2024-05-17 12:32:22] INFO root fetch - processPackages [pathtemplate]: Downloading https://files.pythonhosted.org/packages/1d/b9/5b8f5f149f8e88c413c6c9cf05413d270c2c0f4f20f1ba58704d88fa5af0/pathtemplate-0.1.1.tar.gz
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ufo2ft]: Downloading https://files.pythonhosted.org/packages/65/0d/bebbd570af115b3c6ece66eac2db833b5cf50f05e0fe55b104961d23fcb9/ufo2ft-3.2.2.tar.gz
+[2024-05-17 12:32:22] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-17 12:32:22] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-17 12:32:22] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240517/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-17 12:32:22] INFO root fetch - processPackages [ufo2ft]: Downloading https://files.pythonhosted.org/packages/e7/f4/e047dd640a795d3b4ad3153c2753c8c338af4bcbed555cd154920eaa91c6/ufo2ft-3.2.3.tar.gz
+[2024-05-17 12:32:23] INFO root fetch - processPackages [pathtemplate]: Downloading https://files.pythonhosted.org/packages/a8/d9/1f165cbfdbe7ca0d9f3f7520859763f09e8e8199eed65c770c291ba252ab/pathtemplate-0.1.2.tar.gz
+[2024-05-17 12:32:23] INFO root fetch - processPackages [ufo2ft]: executing diffoscope
+[2024-05-17 12:32:23] INFO root fetch - processPackages [ufo2ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufo2ft-3.2.2.tar.gz tmp/ufo2ft-3.2.3.tar.gz --markdown 20240517/u/ufo2ft/3.2.2-3.2.3/README.md --exclude *.pyd
+[2024-05-17 12:32:23] INFO root fetch - processPackages [pathtemplate]: executing diffoscope
+[2024-05-17 12:32:23] INFO root fetch - processPackages [pathtemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathtemplate-0.1.1.tar.gz tmp/pathtemplate-0.1.2.tar.gz --markdown 20240517/p/pathtemplate/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 12:32:23] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-17 12:32:23] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-17 12:32:23] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-17 12:32:23] INFO root fetch - processPackages [pathtemplate]: Remove: archive file [/home/abi/fetcher/tmp/pathtemplate-0.1.1.tar.gz]
+[2024-05-17 12:32:23] INFO root fetch - processPackages [pathtemplate]: Remove: archive file [/home/abi/fetcher/tmp/pathtemplate-0.1.2.tar.gz]
+[2024-05-17 12:32:23] INFO root fetch - main [MainThread]: End processing [pathtemplate]: success
+[2024-05-17 12:32:26] INFO root fetch - processPackages [ufo2ft]: Remove: archive file [/home/abi/fetcher/tmp/ufo2ft-3.2.2.tar.gz]
+[2024-05-17 12:32:26] INFO root fetch - processPackages [ufo2ft]: Remove: archive file [/home/abi/fetcher/tmp/ufo2ft-3.2.3.tar.gz]
+[2024-05-17 12:32:26] INFO root fetch - main [MainThread]: End processing [ufo2ft]: success
+[2024-05-17 12:32:26] INFO root fetch - main [MainThread]: Store serial: [23252214]

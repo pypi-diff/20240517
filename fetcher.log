@@ -13428,3 +13428,47 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:44:56] WARNING root fetch - processPackages [rollnw]: Skipping package: exceeds size limit 26393268>=10485760
 [2024-05-17 06:44:56] INFO root fetch - main [MainThread]: End processing [rollnw] error
 [2024-05-17 06:44:56] INFO root fetch - main [MainThread]: Store serial: [23248271]
+[2024-05-17 06:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248271]
+[2024-05-17 06:47:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffmpeg-media-type
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fibsem
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autolamella
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thepipe-api
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 06:47:05] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-17 06:47:05] INFO root fetch - processPackages [fibsem]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-17 06:47:05] INFO root fetch - processPackages [autolamella]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-17 06:47:05] INFO root fetch - processPackages [thepipe-api]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/f7/b0/90a96f8c09fdd9ca73e863bf16bb154bfc78d9641d1dd71c41e53ed5a9e6/ffmpeg_media_type-1.0.1.tar.gz
+[2024-05-17 06:47:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-17 06:47:05] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/4e/ae/8048dff3e2eeb2c922176c5c412f1aed2346897e814bb76d175a9c1cd82e/fibsem-0.3.3.tar.gz
+[2024-05-17 06:47:05] INFO root fetch - processPackages [autolamella]: Downloading https://files.pythonhosted.org/packages/ab/1f/7b5e68dcf0ef6ca20c900fac3b5a4c789846e76221048422138454f2bc04/autolamella-0.3.3.tar.gz
+[2024-05-17 06:47:05] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/d6/d4/593ddc5326963b7c9973385f2817c1cf2dfec81a6d41ff9eddec44d77e86/thepipe_api-0.3.4.tar.gz
+[2024-05-17 06:47:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-17 06:47:05] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/a8/a5/f498fcce528440594e95ef4f57539cbf3d0ce07861a9a0aea348d276043c/ffmpeg_media_type-1.0.2.tar.gz
+[2024-05-17 06:47:06] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-17 06:47:06] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240517/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-17 06:47:06] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2024-05-17 06:47:06] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-1.0.1.tar.gz tmp/ffmpeg_media_type-1.0.2.tar.gz --markdown 20240517/f/ffmpeg-media-type/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 06:47:06] WARNING root fetch - processPackages [autolamella]: Skipping package: exceeds size limit 29142284>=10485760
+[2024-05-17 06:47:06] INFO root fetch - main [MainThread]: End processing [autolamella] error
+[2024-05-17 06:47:06] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/9f/62/1216f24d3f73e3d59fdd03335ac32354d65b09adf33df98bbe0e5557435c/fibsem-0.3.4.tar.gz
+[2024-05-17 06:47:06] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.1.tar.gz]
+[2024-05-17 06:47:06] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.2.tar.gz]
+[2024-05-17 06:47:06] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2024-05-17 06:47:06] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-17 06:47:06] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-17 06:47:06] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-17 06:47:06] INFO root fetch - processPackages [fibsem]: executing diffoscope
+[2024-05-17 06:47:06] INFO root fetch - processPackages [fibsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibsem-0.3.3.tar.gz tmp/fibsem-0.3.4.tar.gz --markdown 20240517/f/fibsem/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-17 06:47:07] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/ac/c0/9b53713c6abbcd1a74bf421acfb3e7dfa2f48c59fbae1b8b1688be0a4eb4/thepipe_api-0.3.5.tar.gz
+[2024-05-17 06:47:08] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-05-17 06:47:08] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.3.4.tar.gz tmp/thepipe_api-0.3.5.tar.gz --markdown 20240517/t/thepipe-api/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-17 06:47:09] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.3.4.tar.gz]
+[2024-05-17 06:47:09] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.3.5.tar.gz]
+[2024-05-17 06:47:09] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-05-17 06:47:09] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.3.3.tar.gz]
+[2024-05-17 06:47:09] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.3.4.tar.gz]
+[2024-05-17 06:47:09] INFO root fetch - main [MainThread]: End processing [fibsem]: success
+[2024-05-17 06:47:09] INFO root fetch - main [MainThread]: Store serial: [23248287]

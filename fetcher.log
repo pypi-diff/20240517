@@ -2875,3 +2875,27 @@
 [2024-05-17 02:33:03] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.9.tar.gz]
 [2024-05-17 02:33:03] INFO root fetch - main [MainThread]: End processing [agentops]: success
 [2024-05-17 02:33:03] INFO root fetch - main [MainThread]: Store serial: [23244544]
+[2024-05-17 02:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244544]
+[2024-05-17 02:35:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 02:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-05-17 02:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntrac-sdk
+[2024-05-17 02:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ouro-py
+[2024-05-17 02:35:13] WARNING root fetch - processPackages [ouro-py]: Skipping, unable to determine old version
+[2024-05-17 02:35:13] INFO root fetch - main [MainThread]: End processing [ouro-py] error
+[2024-05-17 02:35:13] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 02:35:13] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-17 02:35:13] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/12/06/2483c9f3160c69ded539017aae36b09ce2e93ce6d7263c1778cf90f8498b/syntrac_sdk-0.0.8.tar.gz
+[2024-05-17 02:35:13] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-17 02:35:14] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/c9/07/5f237ff74c59375a8932ad01c4053f310c64d14031d5866b82336d9fc317/syntrac_sdk-0.0.9.tar.gz
+[2024-05-17 02:35:14] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-17 02:35:14] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-05-17 02:35:14] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.8.tar.gz tmp/syntrac_sdk-0.0.9.tar.gz --markdown 20240517/s/syntrac-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 02:35:14] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-17 02:35:14] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240517/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-17 02:35:14] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.8.tar.gz]
+[2024-05-17 02:35:14] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.9.tar.gz]
+[2024-05-17 02:35:14] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-05-17 02:35:15] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-17 02:35:15] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-17 02:35:15] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-17 02:35:15] INFO root fetch - main [MainThread]: Store serial: [23244554]

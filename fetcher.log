@@ -11480,3 +11480,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:29:57] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240516.0.tar.gz]
 [2024-05-17 04:29:57] INFO root fetch - main [MainThread]: End processing [medicafe]: success
 [2024-05-17 04:29:57] INFO root fetch - main [MainThread]: Store serial: [23247488]
+[2024-05-17 04:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247488]
+[2024-05-17 04:32:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 04:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandorasat
+[2024-05-17 04:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixeltable
+[2024-05-17 04:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-pruning
+[2024-05-17 04:32:12] INFO root fetch - processPackages [fc-pruning]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 04:32:12] INFO root fetch - processPackages [pandorasat]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-17 04:32:12] INFO root fetch - processPackages [pixeltable]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-17 04:32:12] INFO root fetch - processPackages [fc-pruning]: Downloading https://files.pythonhosted.org/packages/ef/65/1df4b1d753fb0d30cac409d59ff9b529a1e0e44cb7522c778fb9a7a09e92/fc_pruning-0.0.8.tar.gz
+[2024-05-17 04:32:12] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/e9/03/33ccbe5955637c887961b19fa47165f7fc563fc714b08cfbe8433169c0a4/pandorasat-0.5.8.tar.gz
+[2024-05-17 04:32:12] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/d0/5a/e3d09d84c093bf73a24f4743e79dcad472af267f74c2acc595f0554cd400/pixeltable-0.2.5.tar.gz
+[2024-05-17 04:32:12] INFO root fetch - processPackages [fc-pruning]: Downloading https://files.pythonhosted.org/packages/dc/cf/b28755154c93468dea6192908ed75101aa4ae5c85df475fe558f59e35258/fc_pruning-0.0.9.tar.gz
+[2024-05-17 04:32:12] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/6e/7f/fad7f2abafc034c096bae639835a53d880ffa596d25ddb1e43dbea00fcf9/pandorasat-0.5.9.tar.gz
+[2024-05-17 04:32:13] INFO root fetch - processPackages [fc-pruning]: executing diffoscope
+[2024-05-17 04:32:13] INFO root fetch - processPackages [fc-pruning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc_pruning-0.0.8.tar.gz tmp/fc_pruning-0.0.9.tar.gz --markdown 20240517/f/fc-pruning/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pandorasat]: executing diffoscope
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pandorasat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandorasat-0.5.8.tar.gz tmp/pandorasat-0.5.9.tar.gz --markdown 20240517/p/pandorasat/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/78/df/e8e437cec514bb0e59c7d2771f5b3187e12908c11c472021febaa7514b70/pixeltable-0.2.6.tar.gz
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pixeltable]: executing diffoscope
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pixeltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeltable-0.2.5.tar.gz tmp/pixeltable-0.2.6.tar.gz --markdown 20240517/p/pixeltable/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-17 04:32:13] INFO root fetch - processPackages [fc-pruning]: Remove: archive file [/home/abi/fetcher/tmp/fc_pruning-0.0.8.tar.gz]
+[2024-05-17 04:32:13] INFO root fetch - processPackages [fc-pruning]: Remove: archive file [/home/abi/fetcher/tmp/fc_pruning-0.0.9.tar.gz]
+[2024-05-17 04:32:13] INFO root fetch - main [MainThread]: End processing [fc-pruning]: success
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.8.tar.gz]
+[2024-05-17 04:32:13] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.9.tar.gz]
+[2024-05-17 04:32:13] INFO root fetch - main [MainThread]: End processing [pandorasat]: success
+[2024-05-17 04:32:14] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.5.tar.gz]
+[2024-05-17 04:32:14] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.2.6.tar.gz]
+[2024-05-17 04:32:14] INFO root fetch - main [MainThread]: End processing [pixeltable]: success
+[2024-05-17 04:32:14] INFO root fetch - main [MainThread]: Store serial: [23247496]

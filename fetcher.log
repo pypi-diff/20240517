@@ -14392,3 +14392,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:41:47] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc3.tar.gz]
 [2024-05-17 07:41:47] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2024-05-17 07:41:47] INFO root fetch - main [MainThread]: Store serial: [23248646]
+[2024-05-17 07:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248646]
+[2024-05-17 07:43:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 07:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-05-17 07:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PygameExp
+[2024-05-17 07:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g2p-mix
+[2024-05-17 07:43:56] INFO root fetch - processPackages [PygameExp]: New version: [1.0.0] Old Version: [0.1]
+[2024-05-17 07:43:56] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-17 07:43:56] INFO root fetch - processPackages [g2p-mix]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-17 07:43:56] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-17 07:43:56] INFO root fetch - processPackages [PygameExp]: Downloading https://files.pythonhosted.org/packages/80/0d/662d87f38ed712b037b8238c49bbc05b1b5fa99829922aa18c862502d486/PygameExp-0.1.tar.gz
+[2024-05-17 07:43:56] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-17 07:43:56] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/ef/68/309528ef44602008545183aef543c69f4114e75e75491b0c0f9394a8b785/g2p-mix-0.4.2.tar.gz
+[2024-05-17 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-17 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240517/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-17 07:43:57] INFO root fetch - processPackages [PygameExp]: Downloading https://files.pythonhosted.org/packages/fd/25/8fd571078268bea0890a7dff1eafe011a693fef1b1598df014f4c88a1ee4/PygameExp-1.0.0.tar.gz
+[2024-05-17 07:43:57] INFO root fetch - processPackages [PygameExp]: executing diffoscope
+[2024-05-17 07:43:57] INFO root fetch - processPackages [PygameExp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PygameExp-0.1.tar.gz tmp/PygameExp-1.0.0.tar.gz --markdown 20240517/P/PygameExp/0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-17 07:43:57] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/5c/da/45bf6861edb60b744a80e069a9167927dcd17eca1dfa688d5539443610f8/g2p-mix-0.4.3.tar.gz
+[2024-05-17 07:43:57] INFO root fetch - processPackages [g2p-mix]: executing diffoscope
+[2024-05-17 07:43:57] INFO root fetch - processPackages [g2p-mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p-mix-0.4.2.tar.gz tmp/g2p-mix-0.4.3.tar.gz --markdown 20240517/g/g2p-mix/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-17 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-17 07:43:57] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-17 07:43:57] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-17 07:43:57] INFO root fetch - processPackages [PygameExp]: Remove: archive file [/home/abi/fetcher/tmp/PygameExp-0.1.tar.gz]
+[2024-05-17 07:43:57] INFO root fetch - processPackages [PygameExp]: Remove: archive file [/home/abi/fetcher/tmp/PygameExp-1.0.0.tar.gz]
+[2024-05-17 07:43:57] INFO root fetch - main [MainThread]: End processing [PygameExp]: success
+[2024-05-17 07:43:58] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.2.tar.gz]
+[2024-05-17 07:43:58] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.3.tar.gz]
+[2024-05-17 07:43:58] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
+[2024-05-17 07:43:58] INFO root fetch - main [MainThread]: Store serial: [23248655]

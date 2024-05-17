@@ -15562,3 +15562,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:26:08] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask_image-2024.5.0rc1.tar.gz]
 [2024-05-17 08:26:08] INFO root fetch - main [MainThread]: End processing [dask-image]: success
 [2024-05-17 08:26:08] INFO root fetch - main [MainThread]: Store serial: [23249042]
+[2024-05-17 08:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249042]
+[2024-05-17 08:28:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-agent
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zorch
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roktools
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-express-components
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-linode
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: czitools
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datadog-checkpoint-quantum-firewall
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docmesh-server
+[2024-05-17 08:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datadog-checks-base
+[2024-05-17 08:28:17] INFO root fetch - processPackages [zorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 08:28:17] INFO root fetch - processPackages [roktools]: New version: [6.3.1] Old Version: [6.3.0]
+[2024-05-17 08:28:17] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.96] Old Version: [0.0.95]
+[2024-05-17 08:28:18] ERROR root fetch - processPackages [datadog-checkpoint-quantum-firewall]: Unable to get metadata: No such project 'datadog-checkpoint-quantum-firewall'
+[2024-05-17 08:28:18] INFO root fetch - main [MainThread]: End processing [datadog-checkpoint-quantum-firewall] error
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-17 08:28:18] INFO root fetch - processPackages [datadog-checks-base]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-05-17 08:28:18] INFO root fetch - processPackages [czitools]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-17 08:28:18] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/50/d5/20b0dac0ae23cf0da1ac26121361a57833e4c90c03953c298d882b7d835d/zorch-0.0.8.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-17 08:28:18] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/1f/ac/57c249f31bc1af1512f38ae3a3763ae1288b9f4f5c027ebf080ca7a9038f/dash_express_components-0.0.95.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 08:28:18] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/24/0c/003749da2f0f475767d1ced38b51d35cce58b9f5866889a3fc0ff0b94cb7/roktools-6.3.0.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/28/66/44dc27fa232de95435272971a8fab14b7be4aaabe801cd7ce66fb73a9a3d/docmesh_agent-0.0.5.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [zorch]: Downloading https://files.pythonhosted.org/packages/bf/a0/75fc2c4170d35fb1a7605723b68b9cd28d1d2e0cbd176afc077833e6d119/zorch-0.0.9.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/43/33/0058df29cd2f889d75fd3b628c22d38554e17b2fe2867f0de729b045318d/datadog_checks_base-9.5.0-py2.py3-none-any.whl
+[2024-05-17 08:28:18] INFO root fetch - processPackages [czitools]: Downloading https://files.pythonhosted.org/packages/22/87/81e0598f2f050b19b17c94f82ef3281b2eb668f5b6c0d15339ca96eb9ff2/czitools-0.6.0.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/4d/fc/bd97515e8f1310280580626090f983e5d36a1ac81a67e1651f0a7dbb349a/docmesh_server-0.0.3.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [zorch]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [zorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorch-0.0.8.tar.gz tmp/zorch-0.0.9.tar.gz --markdown 20240517/z/zorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/6c/cd/7f9fef18ecd811373b85274e95b278062c4929a8650274d591d39db06f11/dash_express_components-0.0.96.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/ae/3d/56a7a661d303956f34f45a940c50200478247a3fbd8a1210db8a35555351/roktools-6.3.1.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/0a/c8/e5d65b578b20a4ff8e0ea57392bbb9c3cb24b9445cd426c981917e10e354/docmesh_agent-0.0.6.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.95.tar.gz tmp/dash_express_components-0.0.96.tar.gz --markdown 20240517/d/dash-express-components/0.0.95-0.0.96/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-6.3.0.tar.gz tmp/roktools-6.3.1.tar.gz --markdown 20240517/r/roktools/6.3.0-6.3.1/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [czitools]: Downloading https://files.pythonhosted.org/packages/cf/0c/6058d99b58309c9081d87d2323bc3129e53aae77b5026d0cb2c1fa33a7e4/czitools-0.7.0.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/04/26/c66790a447560adc9825304681776a77cbd07e164415defcc83fad4e1b89/docmesh_server-0.0.4.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/85/a5/da8ded74bcfc838d21b13ba266ea5256690703a778c52ecefea6536ae83e/datadog_checks_base-9.6.0-py2.py3-none-any.whl
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.5.tar.gz tmp/docmesh_agent-0.0.6.tar.gz --markdown 20240517/d/docmesh-agent/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-17 08:28:18] INFO root fetch - processPackages [datadog-checks-base]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [datadog-checks-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip --markdown 20240517/d/datadog-checks-base/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [czitools]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [czitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czitools-0.6.0.tar.gz tmp/czitools-0.7.0.tar.gz --markdown 20240517/c/czitools/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.3.tar.gz tmp/docmesh_server-0.0.4.tar.gz --markdown 20240517/d/docmesh-server/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 08:28:18] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-17 08:28:18] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240517/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-17 08:28:19] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.8.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - processPackages [zorch]: Remove: archive file [/home/abi/fetcher/tmp/zorch-0.0.9.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - main [MainThread]: End processing [zorch]: success
+[2024-05-17 08:28:19] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.3.0.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.3.1.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-05-17 08:28:19] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.5.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.6.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-17 08:28:19] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.3.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.4.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-05-17 08:28:19] INFO root fetch - processPackages [czitools]: Remove: archive file [/home/abi/fetcher/tmp/czitools-0.6.0.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - processPackages [czitools]: Remove: archive file [/home/abi/fetcher/tmp/czitools-0.7.0.tar.gz]
+[2024-05-17 08:28:19] INFO root fetch - main [MainThread]: End processing [czitools]: success
+[2024-05-17 08:28:20] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-17 08:28:20] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-17 08:28:20] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-17 08:28:20] INFO root fetch - processPackages [datadog-checks-base]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip]
+[2024-05-17 08:28:20] INFO root fetch - processPackages [datadog-checks-base]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip]
+[2024-05-17 08:28:20] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
+[2024-05-17 08:28:24] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.95.tar.gz]
+[2024-05-17 08:28:24] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.96.tar.gz]
+[2024-05-17 08:28:24] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2024-05-17 08:28:24] INFO root fetch - main [MainThread]: Store serial: [23249066]

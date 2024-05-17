@@ -13740,3 +13740,33 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:04:34] INFO root fetch - processPackages [python-ms-core]: Remove: archive file [/home/abi/fetcher/tmp/python_ms_core-0.0.9-py3-none-any.whl.zip]
 [2024-05-17 07:04:34] INFO root fetch - main [MainThread]: End processing [python-ms-core]: success
 [2024-05-17 07:04:34] INFO root fetch - main [MainThread]: Store serial: [23248388]
+[2024-05-17 07:06:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248388]
+[2024-05-17 07:06:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 07:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: green-score
+[2024-05-17 07:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-restit
+[2024-05-17 07:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2024-05-17 07:06:42] INFO root fetch - processPackages [green-score]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-17 07:06:42] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.88]
+[2024-05-17 07:06:42] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240516] Old Version: [0.1.2.dev20240515]
+[2024-05-17 07:06:42] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/63/56/bb5a21a7e1c03b32a064e0d5bfb7c316ca2ee8550ebbaf889670b7a3d822/django_restit-4.2.88.tar.gz
+[2024-05-17 07:06:42] INFO root fetch - processPackages [green-score]: Downloading https://files.pythonhosted.org/packages/c8/d0/24aa4d220c23c43e66cb59a4bffe602e1735782184a6c3b3553f4a711f20/green_score-0.0.1.tar.gz
+[2024-05-17 07:06:42] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/bf/97/cc7773e36789fbb05ec3b16b006e9dacf08eeb3830b68d7420795a192af1/rapid_pe-0.1.2.dev20240515.tar.gz
+[2024-05-17 07:06:43] INFO root fetch - processPackages [green-score]: Downloading https://files.pythonhosted.org/packages/ca/3c/f16f172312ad696d7aa990477a26067c0baf8d956c02d791dc85b19bc50f/green_score-0.0.2.tar.gz
+[2024-05-17 07:06:43] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-17 07:06:43] INFO root fetch - processPackages [green-score]: executing diffoscope
+[2024-05-17 07:06:43] INFO root fetch - processPackages [green-score]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/green_score-0.0.1.tar.gz tmp/green_score-0.0.2.tar.gz --markdown 20240517/g/green-score/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-17 07:06:43] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f7/f9/13547f98c9c68fadb0258313571d5414ef9cb0453d0a79f6df2880434d5f/rapid_pe-0.1.2.dev20240516.tar.gz
+[2024-05-17 07:06:43] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-17 07:06:43] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.88.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240517/d/django-restit/4.2.88-4.2.9/README.md --exclude *.pyd
+[2024-05-17 07:06:43] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-17 07:06:43] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240515.tar.gz tmp/rapid_pe-0.1.2.dev20240516.tar.gz --markdown 20240517/r/rapid-pe/0.1.2.dev20240515-0.1.2.dev20240516/README.md --exclude *.pyd
+[2024-05-17 07:06:43] INFO root fetch - processPackages [green-score]: Remove: archive file [/home/abi/fetcher/tmp/green_score-0.0.1.tar.gz]
+[2024-05-17 07:06:43] INFO root fetch - processPackages [green-score]: Remove: archive file [/home/abi/fetcher/tmp/green_score-0.0.2.tar.gz]
+[2024-05-17 07:06:43] INFO root fetch - main [MainThread]: End processing [green-score]: success
+[2024-05-17 07:06:43] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240515.tar.gz]
+[2024-05-17 07:06:43] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240516.tar.gz]
+[2024-05-17 07:06:43] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-17 07:06:45] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.88.tar.gz]
+[2024-05-17 07:06:45] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-17 07:06:45] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-17 07:06:45] INFO root fetch - main [MainThread]: Store serial: [23248397]

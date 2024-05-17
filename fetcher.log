@@ -15935,3 +15935,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:41:54] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715925987.tar.gz]
 [2024-05-17 08:41:54] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
 [2024-05-17 08:41:54] INFO root fetch - main [MainThread]: Store serial: [23249237]
+[2024-05-17 08:43:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249237]
+[2024-05-17 08:44:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mongodbatlas
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packaging-demo-avr
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dde-agent-lib
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feather-extract
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localtileserver
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dramasub
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prophecy-libs
+[2024-05-17 08:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spacyrerank
+[2024-05-17 08:44:03] INFO root fetch - processPackages [spacyrerank]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 08:44:03] INFO root fetch - processPackages [feather-extract]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 08:44:03] WARNING root fetch - processPackages [packaging-demo-avr]: Skipping, unable to determine old version
+[2024-05-17 08:44:03] INFO root fetch - main [MainThread]: End processing [packaging-demo-avr] error
+[2024-05-17 08:44:03] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/f0/90/0ede5d2f6cbd8efe31baca0d70fab972c4b0f8b5f5ccb95ae76beab82d5e/spacyrerank-0.0.4.tar.gz
+[2024-05-17 08:44:03] WARNING root fetch - processPackages [dde-agent-lib]: Skipping, unable to determine old version
+[2024-05-17 08:44:03] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/0e/0f/872c61250bf0a81c1436d3636b17baf8206d00b95a19c2a48fdb76150f74/feather_extract-0.1.8.tar.gz
+[2024-05-17 08:44:03] INFO root fetch - main [MainThread]: End processing [dde-agent-lib] error
+[2024-05-17 08:44:03] INFO root fetch - processPackages [dramasub]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-17 08:44:03] INFO root fetch - processPackages [localtileserver]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-17 08:44:03] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-17 08:44:03] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-17 08:44:03] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-17 08:44:03] INFO root fetch - processPackages [localtileserver]: Downloading https://files.pythonhosted.org/packages/5d/82/553a355e43fc59a0331aacad409ccd2778787bfe8b8856f9c95d350c0b97/localtileserver-0.7.1.tar.gz
+[2024-05-17 08:44:03] INFO root fetch - processPackages [dramasub]: Downloading https://files.pythonhosted.org/packages/88/89/45b3b36cf01e75303ec13e7f12a894c6ae5d8e611ff191f0b7b5b2667058/dramasub-0.0.2.tar.gz
+[2024-05-17 08:44:03] INFO root fetch - processPackages [feather-extract]: Downloading https://files.pythonhosted.org/packages/85/b6/3b2e6a05848f2a32c99c9a81651f460a986106bbfdf38a23df79681ac69e/feather_extract-0.1.9.tar.gz
+[2024-05-17 08:44:03] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-17 08:44:03] INFO root fetch - processPackages [spacyrerank]: Downloading https://files.pythonhosted.org/packages/55/76/33bee869318f0649491daffa2a2a5fe4f4e00803592485578825d34efea0/spacyrerank-0.0.5.tar.gz
+[2024-05-17 08:44:03] WARNING root fetch - processPackages [localtileserver]: Skipping package: exceeds size limit 12052344>=10485760
+[2024-05-17 08:44:03] INFO root fetch - main [MainThread]: End processing [localtileserver] error
+[2024-05-17 08:44:03] INFO root fetch - processPackages [feather-extract]: executing diffoscope
+[2024-05-17 08:44:03] INFO root fetch - processPackages [feather-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feather_extract-0.1.8.tar.gz tmp/feather_extract-0.1.9.tar.gz --markdown 20240517/f/feather-extract/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 08:44:03] INFO root fetch - processPackages [spacyrerank]: executing diffoscope
+[2024-05-17 08:44:03] INFO root fetch - processPackages [spacyrerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacyrerank-0.0.4.tar.gz tmp/spacyrerank-0.0.5.tar.gz --markdown 20240517/s/spacyrerank/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 08:44:04] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-17 08:44:04] INFO root fetch - processPackages [dramasub]: Downloading https://files.pythonhosted.org/packages/61/3f/86bebb58a916cb015ac3f2b6d8b65bb6b8b35a0b7e82e99b43ca97937747/dramasub-0.0.3.tar.gz
+[2024-05-17 08:44:04] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-17 08:44:04] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240517/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-17 08:44:04] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-17 08:44:04] INFO root fetch - processPackages [dramasub]: executing diffoscope
+[2024-05-17 08:44:04] INFO root fetch - processPackages [dramasub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramasub-0.0.2.tar.gz tmp/dramasub-0.0.3.tar.gz --markdown 20240517/d/dramasub/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-17 08:44:04] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-17 08:44:04] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240517/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-17 08:44:04] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.4.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - processPackages [spacyrerank]: Remove: archive file [/home/abi/fetcher/tmp/spacyrerank-0.0.5.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - main [MainThread]: End processing [spacyrerank]: success
+[2024-05-17 08:44:04] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.8.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - processPackages [feather-extract]: Remove: archive file [/home/abi/fetcher/tmp/feather_extract-0.1.9.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - main [MainThread]: End processing [feather-extract]: success
+[2024-05-17 08:44:04] INFO root fetch - processPackages [dramasub]: Remove: archive file [/home/abi/fetcher/tmp/dramasub-0.0.2.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - processPackages [dramasub]: Remove: archive file [/home/abi/fetcher/tmp/dramasub-0.0.3.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - main [MainThread]: End processing [dramasub]: success
+[2024-05-17 08:44:04] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-17 08:44:04] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-17 08:44:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-17 08:44:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-17 08:44:06] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-17 08:44:06] INFO root fetch - main [MainThread]: Store serial: [23249259]

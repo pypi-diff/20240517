@@ -18517,3 +18517,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:09:18] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-17 10:09:18] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-17 10:09:18] INFO root fetch - main [MainThread]: Store serial: [23250241]
+[2024-05-17 10:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250241]
+[2024-05-17 10:11:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 10:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superb-ai-cli
+[2024-05-17 10:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-05-17 10:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exasol-toolbox
+[2024-05-17 10:11:27] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240516190825] Old Version: [3.4.1.dev20240516171716]
+[2024-05-17 10:11:27] WARNING root fetch - processPackages [superb-ai-cli]: Skipping, unable to determine old version
+[2024-05-17 10:11:27] INFO root fetch - main [MainThread]: End processing [superb-ai-cli] error
+[2024-05-17 10:11:27] INFO root fetch - processPackages [exasol-toolbox]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-17 10:11:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/f8/5b/f15c0dce21a91be6ce449df5d5aaeb6f55ceaf30fce8612a6db815ee46b0/localstack_core-3.4.1.dev20240516171716.tar.gz
+[2024-05-17 10:11:27] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/2e/eb/bd4143bec8479f23fd69b39a5770d21f1b1157e569082d151a26481ba2e3/exasol_toolbox-0.8.0.tar.gz
+[2024-05-17 10:11:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3f/9d/019544dd82432985e4df4a820ea644fe27b5956434a95c47c49c75d857f7/localstack_core-3.4.1.dev20240516190825.tar.gz
+[2024-05-17 10:11:28] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/ee/68/823061ed5af0888aa233e71bfb2d162de2ec6850af8ea1b2919eca60ea70/exasol_toolbox-0.9.0.tar.gz
+[2024-05-17 10:11:28] INFO root fetch - processPackages [exasol-toolbox]: executing diffoscope
+[2024-05-17 10:11:28] INFO root fetch - processPackages [exasol-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_toolbox-0.8.0.tar.gz tmp/exasol_toolbox-0.9.0.tar.gz --markdown 20240517/e/exasol-toolbox/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-17 10:11:28] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-17 10:11:28] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240516171716.tar.gz tmp/localstack_core-3.4.1.dev20240516190825.tar.gz --markdown 20240517/l/localstack-core/3.4.1.dev20240516171716-3.4.1.dev20240516190825/README.md --exclude *.pyd
+[2024-05-17 10:11:28] INFO root fetch - processPackages [exasol-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/exasol_toolbox-0.8.0.tar.gz]
+[2024-05-17 10:11:28] INFO root fetch - processPackages [exasol-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/exasol_toolbox-0.9.0.tar.gz]
+[2024-05-17 10:11:28] INFO root fetch - main [MainThread]: End processing [exasol-toolbox]: success
+[2024-05-17 10:11:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240516171716.tar.gz]
+[2024-05-17 10:11:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240516190825.tar.gz]
+[2024-05-17 10:11:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-17 10:11:32] INFO root fetch - main [MainThread]: Store serial: [23250251]

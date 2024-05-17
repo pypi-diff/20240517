@@ -13059,3 +13059,38 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:16:38] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-1.4.0.tar.gz]
 [2024-05-17 06:16:38] INFO root fetch - main [MainThread]: End processing [pdme]: success
 [2024-05-17 06:16:38] INFO root fetch - main [MainThread]: Store serial: [23248119]
+[2024-05-17 06:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248119]
+[2024-05-17 06:18:46] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-17 06:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248125]
+[2024-05-17 06:20:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 06:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddeagentlib
+[2024-05-17 06:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coolbg
+[2024-05-17 06:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reynard-the-robot
+[2024-05-17 06:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rag-assistant
+[2024-05-17 06:20:52] WARNING root fetch - processPackages [ddeagentlib]: Skipping, unable to determine old version
+[2024-05-17 06:20:52] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 06:20:52] INFO root fetch - main [MainThread]: End processing [ddeagentlib] error
+[2024-05-17 06:20:52] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-17 06:20:52] INFO root fetch - processPackages [reynard-the-robot]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-17 06:20:52] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/1f/cf/ea8c09c8d73d228b537fd67b01aa08aeb844887700ff67867241fc99665f/rag_assistant-0.1.5.tar.gz
+[2024-05-17 06:20:52] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-17 06:20:52] INFO root fetch - processPackages [reynard-the-robot]: Downloading https://files.pythonhosted.org/packages/f8/48/671397712e21244ae0cbece4f28bd67e652729e78d663e58e698f4589d3e/reynard_the_robot-0.2.0-py3-none-any.whl
+[2024-05-17 06:20:52] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-17 06:20:52] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-17 06:20:52] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240517/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-17 06:20:52] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/d1/c9/b0f73c069fcc3c5520c5ba2d2bc1e1dea3d0400f38f4b2d1e4db565e6aa9/rag_assistant-0.1.6.tar.gz
+[2024-05-17 06:20:52] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-17 06:20:52] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.5.tar.gz tmp/rag_assistant-0.1.6.tar.gz --markdown 20240517/r/rag-assistant/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 06:20:52] INFO root fetch - processPackages [reynard-the-robot]: Downloading https://files.pythonhosted.org/packages/14/e2/ad638c6104a627d717ec6009f850024653e0806eb00b5632147bb1883a0c/reynard_the_robot-0.2.1-py3-none-any.whl
+[2024-05-17 06:20:52] INFO root fetch - processPackages [reynard-the-robot]: executing diffoscope
+[2024-05-17 06:20:52] INFO root fetch - processPackages [reynard-the-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reynard_the_robot-0.2.0-py3-none-any.whl.zip tmp/reynard_the_robot-0.2.1-py3-none-any.whl.zip --markdown 20240517/r/reynard-the-robot/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-17 06:20:53] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-17 06:20:53] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-17 06:20:53] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-17 06:20:53] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.5.tar.gz]
+[2024-05-17 06:20:53] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.6.tar.gz]
+[2024-05-17 06:20:53] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-17 06:20:53] INFO root fetch - processPackages [reynard-the-robot]: Remove: archive file [/home/abi/fetcher/tmp/reynard_the_robot-0.2.0-py3-none-any.whl.zip]
+[2024-05-17 06:20:53] INFO root fetch - processPackages [reynard-the-robot]: Remove: archive file [/home/abi/fetcher/tmp/reynard_the_robot-0.2.1-py3-none-any.whl.zip]
+[2024-05-17 06:20:53] INFO root fetch - main [MainThread]: End processing [reynard-the-robot]: success
+[2024-05-17 06:20:53] INFO root fetch - main [MainThread]: Store serial: [23248142]

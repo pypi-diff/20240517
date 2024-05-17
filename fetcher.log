@@ -22083,3 +22083,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:58:58] INFO root fetch - processPackages [segysak]: Remove: archive file [/home/abi/fetcher/tmp/segysak-0.4rc1-py3-none-any.whl.zip]
 [2024-05-17 11:58:58] INFO root fetch - main [MainThread]: End processing [segysak]: success
 [2024-05-17 11:58:58] INFO root fetch - main [MainThread]: Store serial: [23251814]
+[2024-05-17 12:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251814]
+[2024-05-17 12:01:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 12:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-keras-nightly
+[2024-05-17 12:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-05-17 12:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RetrieverVectorDB
+[2024-05-17 12:01:07] INFO root fetch - processPackages [RetrieverVectorDB]: New version: [0.3] Old Version: [0.2]
+[2024-05-17 12:01:07] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024051609] Old Version: [2.17.0.dev2024051509]
+[2024-05-17 12:01:08] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-17 12:01:08] INFO root fetch - processPackages [RetrieverVectorDB]: Downloading https://files.pythonhosted.org/packages/46/2c/5ee3779e4f6ffec60819c554d7ed5f2d163b5f4f8c56b210bde80a4436fc/RetrieverVectorDB-0.2.tar.gz
+[2024-05-17 12:01:08] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/ec/b0/df9f8a87f3e0be2d930f02866a3ba4267e2cdb481d3c20f9ff7ed21e30b1/tf_keras_nightly-2.17.0.dev2024051509.tar.gz
+[2024-05-17 12:01:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-17 12:01:08] INFO root fetch - processPackages [RetrieverVectorDB]: Downloading https://files.pythonhosted.org/packages/5b/4c/21a27cf08e7d316444db6a927e675166501df4e5cfbd0a3a009deb0f32b7/RetrieverVectorDB-0.3.tar.gz
+[2024-05-17 12:01:08] INFO root fetch - processPackages [RetrieverVectorDB]: executing diffoscope
+[2024-05-17 12:01:08] INFO root fetch - processPackages [RetrieverVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RetrieverVectorDB-0.2.tar.gz tmp/RetrieverVectorDB-0.3.tar.gz --markdown 20240517/R/RetrieverVectorDB/0.2-0.3/README.md --exclude *.pyd
+[2024-05-17 12:01:08] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/02/b8/5561e3f87cbe435fc585c5fc4ac1c7e36851e3d89b7448b074da6368d1fd/tf_keras_nightly-2.17.0.dev2024051609.tar.gz
+[2024-05-17 12:01:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-17 12:01:08] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-17 12:01:08] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024051509.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024051609.tar.gz --markdown 20240517/t/tf-keras-nightly/2.17.0.dev2024051509-2.17.0.dev2024051609/README.md --exclude *.pyd
+[2024-05-17 12:01:08] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-17 12:01:08] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240517/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-17 12:01:09] INFO root fetch - processPackages [RetrieverVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/RetrieverVectorDB-0.2.tar.gz]
+[2024-05-17 12:01:09] INFO root fetch - processPackages [RetrieverVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/RetrieverVectorDB-0.3.tar.gz]
+[2024-05-17 12:01:09] INFO root fetch - main [MainThread]: End processing [RetrieverVectorDB]: success
+[2024-05-17 12:01:10] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-17 12:01:10] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-17 12:01:10] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-17 12:01:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051509.tar.gz]
+[2024-05-17 12:01:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051609.tar.gz]
+[2024-05-17 12:01:11] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-17 12:01:11] INFO root fetch - main [MainThread]: Store serial: [23251843]

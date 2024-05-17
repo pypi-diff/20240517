@@ -2571,3 +2571,69 @@
 [2024-05-17 02:15:35] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.9.1.tar.gz]
 [2024-05-17 02:15:35] INFO root fetch - main [MainThread]: End processing [hdfs-native]: success
 [2024-05-17 02:15:35] INFO root fetch - main [MainThread]: Store serial: [23244393]
+[2024-05-17 02:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23244393]
+[2024-05-17 02:17:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notochord
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embyclient
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.appsync-utils
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nodestream-plugin-gcp-asset-inventory
+[2024-05-17 02:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oasysdb
+[2024-05-17 02:17:44] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-17 02:17:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-17 02:17:44] INFO root fetch - processPackages [notochord]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-17 02:17:44] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-17 02:17:44] INFO root fetch - processPackages [embyclient]: New version: [4.8.7.0] Old Version: [4.8.6.0]
+[2024-05-17 02:17:44] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-17 02:17:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-17 02:17:44] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [oasysdb]: New version: [0.5.0] Old Version: [0.4.5]
+[2024-05-17 02:17:45] INFO root fetch - processPackages [notochord]: Downloading https://files.pythonhosted.org/packages/f3/c1/005439f2e5252d3e3607cd272c21dbd97354c35a90e2eae8d265ee9dd417/notochord-0.5.1.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-17 02:17:45] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/b8/df/a960e0ca207f93f12c64b375cc9fd5bcd16aacf91d250c8f53ea21d212bf/embyclient-4.8.6.0.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [oasysdb]: Downloading https://files.pythonhosted.org/packages/90/2c/50875b558da3b6de8912a98e0fdd7f70372d0b3c72dd787ff62f4253b9a1/oasysdb-0.4.5.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240517/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240517/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-17 02:17:45] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Downloading https://files.pythonhosted.org/packages/df/87/8ebab59b2f87580bb97e43a16a7400e18922db54a260b094a106f44fd782/nodestream_plugin_gcp_asset_inventory-0.1.3.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-17 02:17:45] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240517/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-17 02:17:45] INFO root fetch - processPackages [notochord]: Downloading https://files.pythonhosted.org/packages/89/72/c6e6c119e5e1f757a1da47afc5afe9d3763d6fa04340362a5c28cae22bc1/notochord-0.5.2.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/c8/a6/2b9512e426e1dac29e67b2dc808d3c29ffd421aa5fc058aac82dd96bfffe/embyclient-4.8.7.0.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [notochord]: executing diffoscope
+[2024-05-17 02:17:45] INFO root fetch - processPackages [notochord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notochord-0.5.1.tar.gz tmp/notochord-0.5.2.tar.gz --markdown 20240517/n/notochord/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-17 02:17:45] INFO root fetch - processPackages [embyclient]: executing diffoscope
+[2024-05-17 02:17:45] INFO root fetch - processPackages [embyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embyclient-4.8.6.0.tar.gz tmp/embyclient-4.8.7.0.tar.gz --markdown 20240517/e/embyclient/4.8.6.0-4.8.7.0/README.md --exclude *.pyd
+[2024-05-17 02:17:45] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Downloading https://files.pythonhosted.org/packages/2d/9b/d18d57fd88427de8709c31bfa21b3afb5fd8a4b900b4e58ee7b4269eb95a/nodestream_plugin_gcp_asset_inventory-0.1.4.tar.gz
+[2024-05-17 02:17:45] INFO root fetch - processPackages [oasysdb]: Downloading https://files.pythonhosted.org/packages/91/b8/c7acb6419aea0c15ed834611ffad4e91f86d818e78978f764bc4df42e0d5/oasysdb-0.5.0-cp310-none-win32.whl
+[2024-05-17 02:17:45] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: executing diffoscope
+[2024-05-17 02:17:45] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestream_plugin_gcp_asset_inventory-0.1.3.tar.gz tmp/nodestream_plugin_gcp_asset_inventory-0.1.4.tar.gz --markdown 20240517/n/nodestream-plugin-gcp-asset-inventory/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-17 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-17 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-17 02:17:46] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-17 02:17:46] INFO root fetch - processPackages [notochord]: Remove: archive file [/home/abi/fetcher/tmp/notochord-0.5.1.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - processPackages [notochord]: Remove: archive file [/home/abi/fetcher/tmp/notochord-0.5.2.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - main [MainThread]: End processing [notochord]: success
+[2024-05-17 02:17:46] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Remove: archive file [/home/abi/fetcher/tmp/nodestream_plugin_gcp_asset_inventory-0.1.3.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Remove: archive file [/home/abi/fetcher/tmp/nodestream_plugin_gcp_asset_inventory-0.1.4.tar.gz]
+[2024-05-17 02:17:46] INFO root fetch - main [MainThread]: End processing [nodestream-plugin-gcp-asset-inventory]: success
+[2024-05-17 02:17:46] INFO root fetch - processPackages [oasysdb]: executing diffoscope
+[2024-05-17 02:17:46] INFO root fetch - processPackages [oasysdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasysdb-0.4.5.tar.gz tmp/oasysdb-0.5.0-cp310-none-win32.whl.zip --markdown 20240517/o/oasysdb/0.4.5-0.5.0/README.md --exclude *.pyd
+[2024-05-17 02:17:47] INFO root fetch - processPackages [oasysdb]: Remove: archive file [/home/abi/fetcher/tmp/oasysdb-0.4.5.tar.gz]
+[2024-05-17 02:17:47] INFO root fetch - processPackages [oasysdb]: Remove: archive file [/home/abi/fetcher/tmp/oasysdb-0.5.0-cp310-none-win32.whl.zip]
+[2024-05-17 02:17:47] INFO root fetch - main [MainThread]: End processing [oasysdb]: success
+[2024-05-17 02:17:47] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.6.0.tar.gz]
+[2024-05-17 02:17:47] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.7.0.tar.gz]
+[2024-05-17 02:17:47] INFO root fetch - main [MainThread]: End processing [embyclient]: success
+[2024-05-17 02:17:47] INFO root fetch - main [MainThread]: Store serial: [23244417]

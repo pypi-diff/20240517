@@ -16683,3 +16683,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:09:00] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-05-17 09:09:00] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-05-17 09:09:00] INFO root fetch - main [MainThread]: Store serial: [23249492]
+[2024-05-17 09:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249492]
+[2024-05-17 09:11:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locust
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-signalfx
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afeng-py-tools
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpaframework
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WSPP-Projectppchem
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamorph-airflow
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-hub-nightly
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ntnx-vmm-py-client
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glabpkg
+[2024-05-17 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ntnx-prism-py-client
+[2024-05-17 09:11:10] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 09:11:10] WARNING root fetch - processPackages [WSPP-Projectppchem]: Skipping, unable to determine old version
+[2024-05-17 09:11:10] INFO root fetch - main [MainThread]: End processing [WSPP-Projectppchem] error
+[2024-05-17 09:11:10] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [ntnx-vmm-py-client]: New version: [4.0.3a1] Old Version: [4.0.2a1]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [glabpkg]: New version: [4.0.0] Old Version: [3.1.0]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1715928253] Old Version: [7.2.0a1715764037]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-17 09:11:10] INFO root fetch - processPackages [ntnx-prism-py-client]: New version: [4.0.3a2] Old Version: [4.0.2a1]
+[2024-05-17 09:11:10] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/9e/71/656424d7dc4d671df398a64a15883861e1f56c80d93f6199d4c1912ffbe3/glabpkg-3.1.0.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [ntnx-vmm-py-client]: Downloading https://files.pythonhosted.org/packages/43/0f/1229306d4c479e77780b97931e9c245ad4c3656f0e4be0eebfd404a759a8/ntnx-vmm-py-client-4.0.2a1.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [ntnx-prism-py-client]: Downloading https://files.pythonhosted.org/packages/ee/73/382c547c0b1747fe3c744a55117faf503dd58871f7dec71f565bada7b025/ntnx-prism-py-client-4.0.2a1.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-17 09:11:10] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/65/54/595763df0d68f8ce98a0adb7714a31cad5eb4976e8a71c3d56624ec05f28/pulumi_signalfx-7.2.0a1715764037.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2024-05-17 09:11:10] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20240517/d/datamorph-airflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 09:11:10] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-17 09:11:10] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240517/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-17 09:11:10] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-17 09:11:10] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240517/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-17 09:11:10] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-17 09:11:10] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/16/c6/685217a6ac4c1a2ea7b58c6bf8031d3c6ee39b87fcf4e738ea0fc026e239/glabpkg-4.0.0.tar.gz
+[2024-05-17 09:11:10] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240517/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-17 09:11:11] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/58/d7/eaf1243fee6e7a49d9c6fbefb32a932dd3df4d1f0a6bb135077325e9a734/pulumi_signalfx-7.2.0a1715928253.tar.gz
+[2024-05-17 09:11:11] INFO root fetch - processPackages [ntnx-vmm-py-client]: Downloading https://files.pythonhosted.org/packages/07/33/337ff3e7102546372b50950911d1689efbfce1de83b9a9f4a5155d845085/ntnx-vmm-py-client-4.0.3a1.tar.gz
+[2024-05-17 09:11:11] INFO root fetch - processPackages [ntnx-prism-py-client]: Downloading https://files.pythonhosted.org/packages/88/d2/2368b60808ea608a6ab87d5fea7faaec1deecbec61a53401ddbe6d8e19e6/ntnx-prism-py-client-4.0.3a2.tar.gz
+[2024-05-17 09:11:11] INFO root fetch - processPackages [glabpkg]: executing diffoscope
+[2024-05-17 09:11:11] INFO root fetch - processPackages [glabpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glabpkg-3.1.0.tar.gz tmp/glabpkg-4.0.0.tar.gz --markdown 20240517/g/glabpkg/3.1.0-4.0.0/README.md --exclude *.pyd
+[2024-05-17 09:11:11] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-17 09:11:11] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1715764037.tar.gz tmp/pulumi_signalfx-7.2.0a1715928253.tar.gz --markdown 20240517/p/pulumi-signalfx/7.2.0a1715764037-7.2.0a1715928253/README.md --exclude *.pyd
+[2024-05-17 09:11:11] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2024-05-17 09:11:11] INFO root fetch - processPackages [ntnx-vmm-py-client]: executing diffoscope
+[2024-05-17 09:11:11] INFO root fetch - processPackages [ntnx-vmm-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-vmm-py-client-4.0.2a1.tar.gz tmp/ntnx-vmm-py-client-4.0.3a1.tar.gz --markdown 20240517/n/ntnx-vmm-py-client/4.0.2a1-4.0.3a1/README.md --exclude *.pyd
+[2024-05-17 09:11:11] INFO root fetch - processPackages [ntnx-prism-py-client]: executing diffoscope
+[2024-05-17 09:11:11] INFO root fetch - processPackages [ntnx-prism-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntnx-prism-py-client-4.0.2a1.tar.gz tmp/ntnx-prism-py-client-4.0.3a2.tar.gz --markdown 20240517/n/ntnx-prism-py-client/4.0.2a1-4.0.3a2/README.md --exclude *.pyd
+[2024-05-17 09:11:11] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2024-05-17 09:11:11] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2024-05-17 09:11:11] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2024-05-17 09:11:11] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-17 09:11:11] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-17 09:11:11] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-17 09:11:11] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2024-05-17 09:11:11] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20240517/r/rpaframework/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-05-17 09:11:12] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-3.1.0.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - processPackages [glabpkg]: Remove: archive file [/home/abi/fetcher/tmp/glabpkg-4.0.0.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - main [MainThread]: End processing [glabpkg]: success
+[2024-05-17 09:11:12] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715764037.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715928253.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-17 09:11:12] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-17 09:11:12] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-17 09:11:12] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-17 09:11:13] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.5.0.tar.gz]
+[2024-05-17 09:11:13] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
+[2024-05-17 09:11:13] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2024-05-17 09:11:13] INFO root fetch - processPackages [ntnx-prism-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-prism-py-client-4.0.2a1.tar.gz]
+[2024-05-17 09:11:13] INFO root fetch - processPackages [ntnx-prism-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-prism-py-client-4.0.3a2.tar.gz]
+[2024-05-17 09:11:13] INFO root fetch - main [MainThread]: End processing [ntnx-prism-py-client]: success
+[2024-05-17 09:11:15] INFO root fetch - processPackages [ntnx-vmm-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-vmm-py-client-4.0.2a1.tar.gz]
+[2024-05-17 09:11:15] INFO root fetch - processPackages [ntnx-vmm-py-client]: Remove: archive file [/home/abi/fetcher/tmp/ntnx-vmm-py-client-4.0.3a1.tar.gz]
+[2024-05-17 09:11:15] INFO root fetch - main [MainThread]: End processing [ntnx-vmm-py-client]: success
+[2024-05-17 09:11:15] INFO root fetch - main [MainThread]: Store serial: [23249520]

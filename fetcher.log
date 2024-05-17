@@ -13944,3 +13944,50 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 07:21:23] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.0.tar.gz]
 [2024-05-17 07:21:23] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-05-17 07:21:23] INFO root fetch - main [MainThread]: Store serial: [23248489]
+[2024-05-17 07:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248489]
+[2024-05-17 07:23:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-17 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-tiktok-marketing
+[2024-05-17 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azdev
+[2024-05-17 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snakemake
+[2024-05-17 07:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dyff-audit
+[2024-05-17 07:23:35] INFO root fetch - processPackages [airbyte-source-tiktok-marketing]: New version: [3.9.6] Old Version: [3.9.4]
+[2024-05-17 07:23:35] INFO root fetch - processPackages [dyff-audit]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-17 07:23:35] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 07:23:35] INFO root fetch - processPackages [snakemake]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-17 07:23:35] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/7d/bf/209843e5629c5a97b850e1214327fc2aadde5854be633c294364729a93e0/dyff_audit-0.3.2.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 07:23:35] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/f0/3e/3386739ee49f841cc84f08989fb924917414aa0438c4559d48674a8c920b/snakemake-8.8.0.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/8c/bd/de57891d5a36cfb6775c9675b889516d7b9e63f24e1a317c0bcd3a5c7716/dyff_audit-0.3.3.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [airbyte-source-tiktok-marketing]: Downloading https://files.pythonhosted.org/packages/e5/68/904c5bfe3b96928601955fe746d16cb4ceaa692ea242858b913ecaa90f16/airbyte_source_tiktok_marketing-3.9.6.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/be/07/0040ab91da28bcd9077a8762748deba3b02dd8f7613e14589e4ec0f25aab/snakemake-8.9.0.tar.gz
+[2024-05-17 07:23:35] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 07:23:35] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 07:23:35] INFO root fetch - processPackages [airbyte-source-tiktok-marketing]: executing diffoscope
+[2024-05-17 07:23:35] INFO root fetch - processPackages [airbyte-source-tiktok-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_tiktok_marketing-3.9.4.tar.gz tmp/airbyte_source_tiktok_marketing-3.9.6.tar.gz --markdown 20240517/a/airbyte-source-tiktok-marketing/3.9.4-3.9.6/README.md --exclude *.pyd
+[2024-05-17 07:23:35] INFO root fetch - processPackages [dyff-audit]: executing diffoscope
+[2024-05-17 07:23:35] INFO root fetch - processPackages [dyff-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_audit-0.3.2.tar.gz tmp/dyff_audit-0.3.3.tar.gz --markdown 20240517/d/dyff-audit/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-17 07:23:35] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2024-05-17 07:23:35] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-8.8.0.tar.gz tmp/snakemake-8.9.0.tar.gz --markdown 20240517/s/snakemake/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-05-17 07:23:35] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2024-05-17 07:23:36] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2024-05-17 07:23:36] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20240517/a/azdev/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 07:23:36] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 07:23:36] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff_audit-0.3.2.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff_audit-0.3.3.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - main [MainThread]: End processing [dyff-audit]: success
+[2024-05-17 07:23:36] INFO root fetch - processPackages [airbyte-source-tiktok-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_tiktok_marketing-3.9.4.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - processPackages [airbyte-source-tiktok-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_tiktok_marketing-3.9.6.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - main [MainThread]: End processing [airbyte-source-tiktok-marketing]: success
+[2024-05-17 07:23:36] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2024-05-17 07:23:36] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.8.0.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
+[2024-05-17 07:23:36] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2024-05-17 07:23:36] INFO root fetch - main [MainThread]: Store serial: [23248508]

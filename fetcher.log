@@ -11938,3 +11938,53 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:01:57] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
 [2024-05-17 05:01:57] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-05-17 05:01:57] INFO root fetch - main [MainThread]: Store serial: [23247645]
+[2024-05-17 05:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247645]
+[2024-05-17 05:04:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhixin
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenopype-plugins
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mc-shapley
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docprompt
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyclassparser
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyphonic
+[2024-05-17 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: surfkit
+[2024-05-17 05:04:05] INFO root fetch - processPackages [phenopype-plugins]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 05:04:05] INFO root fetch - processPackages [docprompt]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-17 05:04:05] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-17 05:04:06] INFO root fetch - processPackages [zhixin]: New version: [6.1.16a3] Old Version: [6.1.16a2]
+[2024-05-17 05:04:06] WARNING root fetch - processPackages [pyclassparser]: Skipping, unable to determine old version
+[2024-05-17 05:04:06] INFO root fetch - main [MainThread]: End processing [pyclassparser] error
+[2024-05-17 05:04:06] INFO root fetch - processPackages [pyphonic]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 05:04:06] WARNING root fetch - processPackages [mc-shapley]: Skipping, unable to determine old version
+[2024-05-17 05:04:06] INFO root fetch - main [MainThread]: End processing [mc-shapley] error
+[2024-05-17 05:04:06] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/6c/5d/a1e53c4f39d590d72c29738bec350af9b57d9009031026833eaaf51c1998/docprompt-0.5.1.tar.gz
+[2024-05-17 05:04:06] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-17 05:04:06] WARNING root fetch - processPackages [docprompt]: Skipping package: exceeds size limit 13681253>=10485760
+[2024-05-17 05:04:06] INFO root fetch - main [MainThread]: End processing [docprompt] error
+[2024-05-17 05:04:06] INFO root fetch - processPackages [phenopype-plugins]: Downloading https://files.pythonhosted.org/packages/b5/f8/0f1b4e2d676d6ac5538c425882046207e05c1d4f780d28598e76f0915c93/phenopype_plugins-0.1.1.tar.gz
+[2024-05-17 05:04:06] INFO root fetch - processPackages [zhixin]: Downloading https://files.pythonhosted.org/packages/55/14/2400cbe067857716660a82f5a46bf4a542610bc66ca6a3b3aa892923c7bf/zhixin-6.1.16a2-py3-none-any.whl
+[2024-05-17 05:04:06] INFO root fetch - processPackages [pyphonic]: Downloading https://files.pythonhosted.org/packages/8f/59/adae8de84503cf787b1bbc18d688fd24302df7d7dc5687a4876fa6afcd70/pyphonic-1.0.1.tar.gz
+[2024-05-17 05:04:06] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-17 05:04:06] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-17 05:04:06] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240517/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-17 05:04:06] INFO root fetch - processPackages [phenopype-plugins]: Downloading https://files.pythonhosted.org/packages/23/3a/126dc1415e9fb848878defb13bf44785aaa07a1cb971fadda27c8d12f917/phenopype_plugins-0.1.2.tar.gz
+[2024-05-17 05:04:06] INFO root fetch - processPackages [zhixin]: Downloading https://files.pythonhosted.org/packages/d5/b1/bef0ab29c5b4b99f98625253c4cdf82212dcef6367a8dd3c852af69b9740/zhixin-6.1.16a3-py3-none-any.whl
+[2024-05-17 05:04:06] INFO root fetch - processPackages [phenopype-plugins]: executing diffoscope
+[2024-05-17 05:04:06] INFO root fetch - processPackages [phenopype-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenopype_plugins-0.1.1.tar.gz tmp/phenopype_plugins-0.1.2.tar.gz --markdown 20240517/p/phenopype-plugins/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 05:04:06] INFO root fetch - processPackages [pyphonic]: Downloading https://files.pythonhosted.org/packages/bd/20/37e2c2665b1709811559726a494930e29e10dfd1ba62cacc1fdd66da223b/pyphonic-1.0.2.tar.gz
+[2024-05-17 05:04:06] INFO root fetch - processPackages [zhixin]: executing diffoscope
+[2024-05-17 05:04:06] INFO root fetch - processPackages [zhixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhixin-6.1.16a2-py3-none-any.whl.zip tmp/zhixin-6.1.16a3-py3-none-any.whl.zip --markdown 20240517/z/zhixin/6.1.16a2-6.1.16a3/README.md --exclude *.pyd
+[2024-05-17 05:04:06] INFO root fetch - processPackages [pyphonic]: executing diffoscope
+[2024-05-17 05:04:06] INFO root fetch - processPackages [pyphonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphonic-1.0.1.tar.gz tmp/pyphonic-1.0.2.tar.gz --markdown 20240517/p/pyphonic/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 05:04:07] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-17 05:04:07] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-17 05:04:07] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-17 05:04:07] INFO root fetch - processPackages [phenopype-plugins]: Remove: archive file [/home/abi/fetcher/tmp/phenopype_plugins-0.1.1.tar.gz]
+[2024-05-17 05:04:07] INFO root fetch - processPackages [phenopype-plugins]: Remove: archive file [/home/abi/fetcher/tmp/phenopype_plugins-0.1.2.tar.gz]
+[2024-05-17 05:04:07] INFO root fetch - main [MainThread]: End processing [phenopype-plugins]: success
+[2024-05-17 05:04:07] INFO root fetch - processPackages [pyphonic]: Remove: archive file [/home/abi/fetcher/tmp/pyphonic-1.0.1.tar.gz]
+[2024-05-17 05:04:07] INFO root fetch - processPackages [pyphonic]: Remove: archive file [/home/abi/fetcher/tmp/pyphonic-1.0.2.tar.gz]
+[2024-05-17 05:04:07] INFO root fetch - main [MainThread]: End processing [pyphonic]: success
+[2024-05-17 05:04:08] INFO root fetch - processPackages [zhixin]: Remove: archive file [/home/abi/fetcher/tmp/zhixin-6.1.16a2-py3-none-any.whl.zip]
+[2024-05-17 05:04:08] INFO root fetch - processPackages [zhixin]: Remove: archive file [/home/abi/fetcher/tmp/zhixin-6.1.16a3-py3-none-any.whl.zip]
+[2024-05-17 05:04:08] INFO root fetch - main [MainThread]: End processing [zhixin]: success
+[2024-05-17 05:04:08] INFO root fetch - main [MainThread]: Store serial: [23247669]

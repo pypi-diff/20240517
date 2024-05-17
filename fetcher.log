@@ -21585,3 +21585,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 11:42:17] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.1.tar.gz]
 [2024-05-17 11:42:17] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
 [2024-05-17 11:42:17] INFO root fetch - main [MainThread]: Store serial: [23251576]
+[2024-05-17 11:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23251576]
+[2024-05-17 11:44:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dja-sepp
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-asynctools
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiserep-api
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PROMINENT-methylation
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvisjs
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dom-tokenizers
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-graph-of-thoughts
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: delphai-fastapi
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iac-init
+[2024-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-sls20201230
+[2024-05-17 11:44:51] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-17 11:44:51] WARNING root fetch - processPackages [python-asynctools]: Skipping, unable to determine old version
+[2024-05-17 11:44:51] INFO root fetch - main [MainThread]: End processing [python-asynctools] error
+[2024-05-17 11:44:51] INFO root fetch - processPackages [PROMINENT-methylation]: New version: [0.1.2] Old Version: [0.1]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [iac-init]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [delphai-fastapi]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [auto-graph-of-thoughts]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [wiserep-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [dom-tokenizers]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [pyvisjs]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [alibabacloud-sls20201230]: New version: [5.2.1] Old Version: [5.2.0]
+[2024-05-17 11:44:51] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/59/c0/a4c6733832d99878d52f22bb18491ffe1c850c8ec9bb687317055858edf8/iac_init-0.6.3.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/a3/61/0da58c10d3b116095b2754d9cec510c504e8cd390b97a4916aae0b1eb3ab/dja_sepp-0.1.5.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/63/09/940d6c805516b9b01a3e52b64d459fc7f09aa22cb29e08e9a4c9558021b0/PROMINENT_methylation-0.1.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [auto-graph-of-thoughts]: Downloading https://files.pythonhosted.org/packages/1b/23/5d913d3175ec5700461ef30f0fca48e1b3ff5dc0dce3d7a135af56699e95/auto_graph_of_thoughts-0.3.0.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/7f/82/563c23021932e49635b04fbb6b03567866903f40405f2c3dfd7786f61d33/dom_tokenizers-0.0.4.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [wiserep-api]: Downloading https://files.pythonhosted.org/packages/b2/3f/a504c30d505de89f631f4e17ff81767f64521171802b61d301c659ac2e5f/wiserep_api-0.1.8.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/38/d0/c8786cb7bb48e6a1af15deb5d361d57e13d60f8d909d753b2b3c0de84eb7/delphai_fastapi-3.0.4.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/a0/d7/882e334dab5436d2c759cd7ee3da7d060b1d8a82524ffaec868ee15f4ddd/pyvisjs-1.0.0b1.tar.gz
+[2024-05-17 11:44:51] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/09/b2/a2cdba994f2dfdd8756986c5160e225c137d6ab76e065fe86ffc6cd270e4/alibabacloud_sls20201230-5.2.0.tar.gz
+[2024-05-17 11:44:52] WARNING root fetch - processPackages [auto-graph-of-thoughts]: Skipping package: exceeds size limit 19087488>=10485760
+[2024-05-17 11:44:52] INFO root fetch - main [MainThread]: End processing [auto-graph-of-thoughts] error
+[2024-05-17 11:44:52] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/2e/4b/1549679984afa3dd8cf9650fb86280e25b5ba781028bacb425a039d794d2/iac_init-0.6.4.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/36/96/b083392dba52edd8fc01811f18e9a0cf92be9f7c6b40afdf5f86446ee401/PROMINENT_methylation-0.1.2.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/35/04/ff015ed85660af7b27397270d216d3bf9b4c27593862fc55572b4e330173/dja_sepp-0.1.6.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [wiserep-api]: Downloading https://files.pythonhosted.org/packages/11/ba/9f6dafe18d43d24d7cddf189845f2e8e18cca9de41ab78b87ab964d9b077/wiserep_api-0.1.9.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.6.3.tar.gz tmp/iac_init-0.6.4.tar.gz --markdown 20240517/i/iac-init/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [PROMINENT-methylation]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [PROMINENT-methylation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PROMINENT_methylation-0.1.tar.gz tmp/PROMINENT_methylation-0.1.2.tar.gz --markdown 20240517/P/PROMINENT-methylation/0.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/44/34/2e87105d71b234aa59a3d9049dce8a90e2d168d1720bef06975094047869/dom_tokenizers-0.0.5.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/b5/45/cff1458680286303a87105f5f3ca5154729a626e738b0f32b741933d649b/delphai_fastapi-3.0.5.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/80/37/b8602f48b058baec7c2c969e08bac5451c280317d76a6e65591bc25b4a56/pyvisjs-1.0.0b2.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.5.tar.gz tmp/dja_sepp-0.1.6.tar.gz --markdown 20240517/d/dja-sepp/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230]: Downloading https://files.pythonhosted.org/packages/89/07/4cca7892e96f9c75041407cb0d8500b9a1cd70822c4295de1dd4adbcde30/alibabacloud_sls20201230-5.2.1.tar.gz
+[2024-05-17 11:44:52] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-3.0.4.tar.gz tmp/delphai_fastapi-3.0.5.tar.gz --markdown 20240517/d/delphai-fastapi/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [wiserep-api]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [wiserep-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiserep_api-0.1.8.tar.gz tmp/wiserep_api-0.1.9.tar.gz --markdown 20240517/w/wiserep-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [pyvisjs]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [pyvisjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisjs-1.0.0b1.tar.gz tmp/pyvisjs-1.0.0b2.tar.gz --markdown 20240517/p/pyvisjs/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [dom-tokenizers]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [dom-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dom_tokenizers-0.0.4.tar.gz tmp/dom_tokenizers-0.0.5.tar.gz --markdown 20240517/d/dom-tokenizers/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230]: executing diffoscope
+[2024-05-17 11:44:52] INFO root fetch - processPackages [alibabacloud-sls20201230]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sls20201230-5.2.0.tar.gz tmp/alibabacloud_sls20201230-5.2.1.tar.gz --markdown 20240517/a/alibabacloud-sls20201230/5.2.0-5.2.1/README.md --exclude *.pyd
+[2024-05-17 11:44:52] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.tar.gz]
+[2024-05-17 11:44:52] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.2.tar.gz]
+[2024-05-17 11:44:52] INFO root fetch - main [MainThread]: End processing [PROMINENT-methylation]: success
+[2024-05-17 11:44:53] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.5.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.6.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-17 11:44:53] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.4.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.5.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2024-05-17 11:44:53] INFO root fetch - processPackages [wiserep-api]: Remove: archive file [/home/abi/fetcher/tmp/wiserep_api-0.1.8.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - processPackages [wiserep-api]: Remove: archive file [/home/abi/fetcher/tmp/wiserep_api-0.1.9.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [wiserep-api]: success
+[2024-05-17 11:44:53] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.3.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.6.4.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-17 11:44:53] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.4.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.5.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [dom-tokenizers]: success
+[2024-05-17 11:44:53] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b1.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b2.tar.gz]
+[2024-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [pyvisjs]: success
+[2024-05-17 11:44:54] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.2.0.tar.gz]
+[2024-05-17 11:44:54] INFO root fetch - processPackages [alibabacloud-sls20201230]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sls20201230-5.2.1.tar.gz]
+[2024-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-sls20201230]: success
+[2024-05-17 11:44:54] INFO root fetch - main [MainThread]: Store serial: [23251607]

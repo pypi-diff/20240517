@@ -18814,3 +18814,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:22:30] INFO root fetch - processPackages [csc-validator-be-cin]: Remove: archive file [/home/abi/fetcher/tmp/csc_validator_be_cin-0.1.4.tar.gz]
 [2024-05-17 10:22:30] INFO root fetch - main [MainThread]: End processing [csc-validator-be-cin]: success
 [2024-05-17 10:22:30] INFO root fetch - main [MainThread]: Store serial: [23250426]
+[2024-05-17 10:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250426]
+[2024-05-17 10:24:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws-native
+[2024-05-17 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-common-tools
+[2024-05-17 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailtools-vrb
+[2024-05-17 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavue
+[2024-05-17 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-mpaas20201028
+[2024-05-17 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynnacle-uno
+[2024-05-17 10:24:41] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-17 10:24:41] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-17 10:24:41] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-17 10:24:41] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ca/3c/6b8cd59d336e1c605691395b32685c8a043c3effb94cb81dc1d7cec6a6d8/database-common-tools-1.1.8.tar.gz
+[2024-05-17 10:24:41] ERROR root fetch - processPackages [mailtools-vrb]: Unable to get metadata: No such project 'mailtools-vrb'
+[2024-05-17 10:24:41] INFO root fetch - processPackages [lavue]: New version: [2.86.0] Old Version: [2.85.1]
+[2024-05-17 10:24:41] INFO root fetch - main [MainThread]: End processing [mailtools-vrb] error
+[2024-05-17 10:24:41] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-17 10:24:41] INFO root fetch - processPackages [pynnacle-uno]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 10:24:41] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: Downloading https://files.pythonhosted.org/packages/9e/c6/0098b302f856e668f685bb429d068a21a9e196b892cd21ad39b4d8817814/alibabacloud_mpaas20201028-1.3.0.tar.gz
+[2024-05-17 10:24:41] INFO root fetch - processPackages [lavue]: Downloading https://files.pythonhosted.org/packages/69/fd/ebdf20e2106654cfd0261202a6a7ff29ae0dedc8af146a2c408142a7fc17/lavue-2.85.1.tar.gz
+[2024-05-17 10:24:41] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/55/1d/f84bdab15e57cb34658d4f445048d8bfeaf6b8cd2d0da82250fefbaa75f0/database-common-tools-1.1.9.tar.gz
+[2024-05-17 10:24:41] INFO root fetch - processPackages [pynnacle-uno]: Downloading https://files.pythonhosted.org/packages/bb/f5/97fc7529a007e3a0b0020366267cfdfc1e7ae69ff697d44ca2bfdcfcf438/pynnacle_uno-1.0.0.tar.gz
+[2024-05-17 10:24:41] WARNING root fetch - processPackages [lavue]: Skipping package: exceeds size limit 32503869>=10485760
+[2024-05-17 10:24:41] INFO root fetch - main [MainThread]: End processing [lavue] error
+[2024-05-17 10:24:41] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-17 10:24:41] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-05-17 10:24:41] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.8.tar.gz tmp/database-common-tools-1.1.9.tar.gz --markdown 20240517/d/database-common-tools/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-17 10:24:42] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: Downloading https://files.pythonhosted.org/packages/54/a7/ea55e15b7e3f098e43cd9a16dde6c02c49869159ed988e14d2f585cfb253/alibabacloud_mpaas20201028-1.4.0.tar.gz
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240517/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-17 10:24:42] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: executing diffoscope
+[2024-05-17 10:24:42] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mpaas20201028-1.3.0.tar.gz tmp/alibabacloud_mpaas20201028-1.4.0.tar.gz --markdown 20240517/a/alibabacloud-mpaas20201028/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pynnacle-uno]: Downloading https://files.pythonhosted.org/packages/23/18/f1ad4dcd3400f1d230e5e93af2170ee25ac0795028e02e651c17c819ea79/pynnacle_uno-1.0.1.tar.gz
+[2024-05-17 10:24:42] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.8.tar.gz]
+[2024-05-17 10:24:42] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.9.tar.gz]
+[2024-05-17 10:24:42] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pynnacle-uno]: executing diffoscope
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pynnacle-uno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynnacle_uno-1.0.0.tar.gz tmp/pynnacle_uno-1.0.1.tar.gz --markdown 20240517/p/pynnacle-uno/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pynnacle-uno]: Remove: archive file [/home/abi/fetcher/tmp/pynnacle_uno-1.0.0.tar.gz]
+[2024-05-17 10:24:42] INFO root fetch - processPackages [pynnacle-uno]: Remove: archive file [/home/abi/fetcher/tmp/pynnacle_uno-1.0.1.tar.gz]
+[2024-05-17 10:24:42] INFO root fetch - main [MainThread]: End processing [pynnacle-uno]: success
+[2024-05-17 10:24:43] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mpaas20201028-1.3.0.tar.gz]
+[2024-05-17 10:24:43] INFO root fetch - processPackages [alibabacloud-mpaas20201028]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mpaas20201028-1.4.0.tar.gz]
+[2024-05-17 10:24:43] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpaas20201028]: success
+[2024-05-17 10:24:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-17 10:24:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-17 10:24:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-17 10:24:56] INFO root fetch - main [MainThread]: Store serial: [23250445]

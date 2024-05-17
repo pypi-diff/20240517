@@ -13340,3 +13340,45 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:38:24] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
 [2024-05-17 06:38:24] INFO root fetch - main [MainThread]: End processing [coolbg]: success
 [2024-05-17 06:38:24] INFO root fetch - main [MainThread]: Store serial: [23248230]
+[2024-05-17 06:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248230]
+[2024-05-17 06:40:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coolbg
+[2024-05-17 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: favapy
+[2024-05-17 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Scratch-Messaging-Client
+[2024-05-17 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omop2survey
+[2024-05-17 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xiaogpt
+[2024-05-17 06:40:34] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-17 06:40:34] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-17 06:40:34] INFO root fetch - processPackages [favapy]: New version: [1.0.1] Old Version: [0.4.0]
+[2024-05-17 06:40:34] WARNING root fetch - processPackages [Scratch-Messaging-Client]: Skipping, unable to determine old version
+[2024-05-17 06:40:34] INFO root fetch - main [MainThread]: End processing [Scratch-Messaging-Client] error
+[2024-05-17 06:40:34] INFO root fetch - processPackages [xiaogpt]: New version: [2.80] Old Version: [2.71]
+[2024-05-17 06:40:34] INFO root fetch - processPackages [omop2survey]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-17 06:40:34] INFO root fetch - processPackages [favapy]: Downloading https://files.pythonhosted.org/packages/45/18/ebf6509b4c8ff2d05ae606999ef33e75de48d0e24ec315549fd2d4bbab6c/favapy-0.4.0.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/9f/86/62f04c3db96990d27252cee908064083b7c367d69a63232216b913cd7d4d/omop2survey-0.0.3.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/9a/c4/dfc4b41fd6f98f112f52f5da2484c11dd0849be1160e0facd7ae15e33344/xiaogpt-2.71.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-17 06:40:35] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240517/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-17 06:40:35] INFO root fetch - processPackages [favapy]: Downloading https://files.pythonhosted.org/packages/f0/ff/5b35f6fb0431df6c6630d49572ab5ce0bc10b850b02c6ef19d0bc2091ec9/favapy-1.0.1.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/32/a8/90ae319f1ee2d8a49ec5f5ab30a63de3587e1f56b3915783fd778cf25457/omop2survey-0.0.4.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [favapy]: executing diffoscope
+[2024-05-17 06:40:35] INFO root fetch - processPackages [favapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/favapy-0.4.0.tar.gz tmp/favapy-1.0.1.tar.gz --markdown 20240517/f/favapy/0.4.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 06:40:35] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/b2/48/0c46baabf6b75fe84c25bc1c4f600466c7e757f16f2cf666b0c9a4c6d336/xiaogpt-2.80.tar.gz
+[2024-05-17 06:40:35] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-05-17 06:40:35] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.3.tar.gz tmp/omop2survey-0.0.4.tar.gz --markdown 20240517/o/omop2survey/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-17 06:40:35] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-05-17 06:40:35] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.71.tar.gz tmp/xiaogpt-2.80.tar.gz --markdown 20240517/x/xiaogpt/2.71-2.80/README.md --exclude *.pyd
+[2024-05-17 06:40:35] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-17 06:40:35] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-17 06:40:35] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-17 06:40:35] INFO root fetch - processPackages [favapy]: Remove: archive file [/home/abi/fetcher/tmp/favapy-0.4.0.tar.gz]
+[2024-05-17 06:40:35] INFO root fetch - processPackages [favapy]: Remove: archive file [/home/abi/fetcher/tmp/favapy-1.0.1.tar.gz]
+[2024-05-17 06:40:35] INFO root fetch - main [MainThread]: End processing [favapy]: success
+[2024-05-17 06:40:36] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.3.tar.gz]
+[2024-05-17 06:40:36] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.4.tar.gz]
+[2024-05-17 06:40:36] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-05-17 06:40:36] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.71.tar.gz]
+[2024-05-17 06:40:36] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.80.tar.gz]
+[2024-05-17 06:40:36] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-05-17 06:40:36] INFO root fetch - main [MainThread]: Store serial: [23248246]

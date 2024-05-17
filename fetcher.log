@@ -18352,3 +18352,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 10:00:31] INFO root fetch - processPackages [allen1989]: Remove: archive file [/home/abi/fetcher/tmp/allen1989-0.2.0.tar.gz]
 [2024-05-17 10:00:31] INFO root fetch - main [MainThread]: End processing [allen1989]: success
 [2024-05-17 10:00:31] INFO root fetch - main [MainThread]: Store serial: [23250183]
+[2024-05-17 10:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23250183]
+[2024-05-17 10:02:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-decotools
+[2024-05-17 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squlearn
+[2024-05-17 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ros-iact3
+[2024-05-17 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clean-alchemy
+[2024-05-17 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-app-rdm
+[2024-05-17 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BuildStream
+[2024-05-17 10:02:41] INFO root fetch - processPackages [squlearn]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-17 10:02:41] INFO root fetch - processPackages [clean-alchemy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-17 10:02:41] INFO root fetch - processPackages [alibabacloud-ros-iact3]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-17 10:02:41] INFO root fetch - processPackages [python-decotools]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-05-17 10:02:41] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/9a/90/e47160ecd3e0a4dc7052afed892e69a152704a4a362bac58879355b8d95d/clean-alchemy-0.1.1.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2024-05-17 10:02:41] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/db/62/c2c66b9879874c56e2ef4633b25bd480903be891788f81e446d5071347b0/squlearn-0.7.1.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [BuildStream]: New version: [2.2.1.dev0] Old Version: [2.2.0.dev4]
+[2024-05-17 10:02:41] INFO root fetch - processPackages [alibabacloud-ros-iact3]: Downloading https://files.pythonhosted.org/packages/e0/d3/2baadb0d2a1ecf23da1fe0ef7762b01bfa779e6366f61c693c35d26d2e64/alibabacloud-ros-iact3-0.1.6.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [python-decotools]: Downloading https://files.pythonhosted.org/packages/2f/54/a84327ae435f832b4b71bf84ee4c6b180e6e585a4ef61c79c659b63f0209/python_decotools-0.0.1.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [clean-alchemy]: Downloading https://files.pythonhosted.org/packages/c0/69/b91e1c04e65d6dc98441a1677526601f231b53d2463ebd5a620812e13db1/clean-alchemy-0.1.2.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [alibabacloud-ros-iact3]: Downloading https://files.pythonhosted.org/packages/32/b7/f7b4343eb962a0f2c35d79cefd044e8564c3509ef32f29cf08087cc93b4f/alibabacloud-ros-iact3-0.1.7.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [BuildStream]: Downloading https://files.pythonhosted.org/packages/52/ed/5dcdabc0fdacbc908e12d5bab0f541be10aa684f782f3942bc11ef52973c/buildstream-2.2.0.dev4.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [clean-alchemy]: executing diffoscope
+[2024-05-17 10:02:41] INFO root fetch - processPackages [clean-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-alchemy-0.1.1.tar.gz tmp/clean-alchemy-0.1.2.tar.gz --markdown 20240517/c/clean-alchemy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-17 10:02:41] INFO root fetch - processPackages [python-decotools]: Downloading https://files.pythonhosted.org/packages/45/9a/ea21c01d0c5edf98f46ab094ef62a7a885b1bfbc394f3a5fbd42cec943ee/python_decotools-0.0.1.1.tar.gz
+[2024-05-17 10:02:41] INFO root fetch - processPackages [alibabacloud-ros-iact3]: executing diffoscope
+[2024-05-17 10:02:41] INFO root fetch - processPackages [alibabacloud-ros-iact3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud-ros-iact3-0.1.6.tar.gz tmp/alibabacloud-ros-iact3-0.1.7.tar.gz --markdown 20240517/a/alibabacloud-ros-iact3/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-17 10:02:41] INFO root fetch - processPackages [python-decotools]: executing diffoscope
+[2024-05-17 10:02:41] INFO root fetch - processPackages [python-decotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_decotools-0.0.1.tar.gz tmp/python_decotools-0.0.1.1.tar.gz --markdown 20240517/p/python-decotools/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-05-17 10:02:42] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2024-05-17 10:02:42] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2024-05-17 10:02:42] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20240517/i/invenio-app-rdm/9.1.5-9.1.6/README.md --exclude *.pyd
+[2024-05-17 10:02:42] INFO root fetch - processPackages [BuildStream]: Downloading https://files.pythonhosted.org/packages/b4/9a/b9c7acae41fe9799cc0a2298c0903ed04b124d8a8a43d82c61b8193774b9/BuildStream-2.2.1.dev0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+[2024-05-17 10:02:42] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.1.tar.gz]
+[2024-05-17 10:02:42] INFO root fetch - processPackages [clean-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/clean-alchemy-0.1.2.tar.gz]
+[2024-05-17 10:02:42] INFO root fetch - main [MainThread]: End processing [clean-alchemy]: success
+[2024-05-17 10:02:42] INFO root fetch - processPackages [python-decotools]: Remove: archive file [/home/abi/fetcher/tmp/python_decotools-0.0.1.tar.gz]
+[2024-05-17 10:02:42] INFO root fetch - processPackages [python-decotools]: Remove: archive file [/home/abi/fetcher/tmp/python_decotools-0.0.1.1.tar.gz]
+[2024-05-17 10:02:42] INFO root fetch - main [MainThread]: End processing [python-decotools]: success
+[2024-05-17 10:02:42] INFO root fetch - processPackages [alibabacloud-ros-iact3]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud-ros-iact3-0.1.6.tar.gz]
+[2024-05-17 10:02:42] INFO root fetch - processPackages [alibabacloud-ros-iact3]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud-ros-iact3-0.1.7.tar.gz]
+[2024-05-17 10:02:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros-iact3]: success
+[2024-05-17 10:02:42] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/ba/a7/170d412aaf713dabfad8b2a0de783e3fadc15803fc12f32e78e2d1a250bb/squlearn-0.7.2.tar.gz
+[2024-05-17 10:02:43] WARNING root fetch - processPackages [BuildStream]: Skipping package: exceeds size limit 22973755>=10485760
+[2024-05-17 10:02:43] INFO root fetch - main [MainThread]: End processing [BuildStream] error
+[2024-05-17 10:02:43] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2024-05-17 10:02:43] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2024-05-17 10:02:43] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2024-05-17 10:02:43] INFO root fetch - processPackages [squlearn]: executing diffoscope
+[2024-05-17 10:02:43] INFO root fetch - processPackages [squlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squlearn-0.7.1.tar.gz tmp/squlearn-0.7.2.tar.gz --markdown 20240517/s/squlearn/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-17 10:02:44] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.1.tar.gz]
+[2024-05-17 10:02:44] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.2.tar.gz]
+[2024-05-17 10:02:44] INFO root fetch - main [MainThread]: End processing [squlearn]: success
+[2024-05-17 10:02:44] INFO root fetch - main [MainThread]: Store serial: [23250201]

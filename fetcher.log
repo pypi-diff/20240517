@@ -23036,3 +23036,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 12:43:40] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-17 12:43:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-17 12:43:40] INFO root fetch - main [MainThread]: Store serial: [23252334]
+[2024-05-17 12:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23252334]
+[2024-05-17 12:45:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-17 12:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-python-sdk
+[2024-05-17 12:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-tictactoe
+[2024-05-17 12:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchlure
+[2024-05-17 12:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PROMINENT-methylation
+[2024-05-17 12:45:49] INFO root fetch - processPackages [iam-python-sdk]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-17 12:45:49] INFO root fetch - processPackages [PROMINENT-methylation]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-17 12:45:49] INFO root fetch - processPackages [torchlure]: New version: [0.2405.3.dev0] Old Version: [0.2405.2]
+[2024-05-17 12:45:50] INFO root fetch - processPackages [iam-python-sdk]: Downloading https://files.pythonhosted.org/packages/09/d1/735344c8d9e2b78e61ed487d0138d36cde04cc078cd5dfb4fe3f7db679ea/iam-python-sdk-1.3.3.tar.gz
+[2024-05-17 12:45:50] ERROR root fetch - processPackages [ai-tictactoe]: Unable to get metadata: No such project 'ai-tictactoe'
+[2024-05-17 12:45:50] INFO root fetch - main [MainThread]: End processing [ai-tictactoe] error
+[2024-05-17 12:45:50] INFO root fetch - processPackages [torchlure]: Downloading https://files.pythonhosted.org/packages/b7/07/0c8361be2b0d00f983ef1c58e42f05b742b868d7635b4c186dfc83ca4cf0/torchlure-0.2405.2.tar.gz
+[2024-05-17 12:45:50] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/36/96/b083392dba52edd8fc01811f18e9a0cf92be9f7c6b40afdf5f86446ee401/PROMINENT_methylation-0.1.2.tar.gz
+[2024-05-17 12:45:50] INFO root fetch - processPackages [PROMINENT-methylation]: Downloading https://files.pythonhosted.org/packages/14/5a/eb2cc649d551dc7e0054cbb8d7633f6c956c59a9361b93a47824e46acdc9/PROMINENT_methylation-0.1.4.tar.gz
+[2024-05-17 12:45:50] ERROR root fetch - processPackages [iam-python-sdk]: Unable to fetch info: No such project/version 'iam-python-sdk' 1.4.0
+[2024-05-17 12:45:50] INFO root fetch - main [MainThread]: End processing [iam-python-sdk] error
+[2024-05-17 12:45:50] INFO root fetch - processPackages [torchlure]: Downloading https://files.pythonhosted.org/packages/df/a5/47edd9711738a4281704c7271f602c1c62ab28c571fd5e2575272737487f/torchlure-0.2405.3.dev0.tar.gz
+[2024-05-17 12:45:50] INFO root fetch - processPackages [PROMINENT-methylation]: executing diffoscope
+[2024-05-17 12:45:50] INFO root fetch - processPackages [PROMINENT-methylation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PROMINENT_methylation-0.1.2.tar.gz tmp/PROMINENT_methylation-0.1.4.tar.gz --markdown 20240517/P/PROMINENT-methylation/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-17 12:45:50] INFO root fetch - processPackages [torchlure]: executing diffoscope
+[2024-05-17 12:45:50] INFO root fetch - processPackages [torchlure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlure-0.2405.2.tar.gz tmp/torchlure-0.2405.3.dev0.tar.gz --markdown 20240517/t/torchlure/0.2405.2-0.2405.3.dev0/README.md --exclude *.pyd
+[2024-05-17 12:45:50] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.2.tar.gz]
+[2024-05-17 12:45:50] INFO root fetch - processPackages [PROMINENT-methylation]: Remove: archive file [/home/abi/fetcher/tmp/PROMINENT_methylation-0.1.4.tar.gz]
+[2024-05-17 12:45:50] INFO root fetch - main [MainThread]: End processing [PROMINENT-methylation]: success
+[2024-05-17 12:45:51] INFO root fetch - processPackages [torchlure]: Remove: archive file [/home/abi/fetcher/tmp/torchlure-0.2405.2.tar.gz]
+[2024-05-17 12:45:51] INFO root fetch - processPackages [torchlure]: Remove: archive file [/home/abi/fetcher/tmp/torchlure-0.2405.3.dev0.tar.gz]
+[2024-05-17 12:45:51] INFO root fetch - main [MainThread]: End processing [torchlure]: success
+[2024-05-17 12:45:51] INFO root fetch - main [MainThread]: Store serial: [23252366]

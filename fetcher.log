@@ -13319,3 +13319,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 06:36:14] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip]
 [2024-05-17 06:36:14] INFO root fetch - main [MainThread]: End processing [lamini]: success
 [2024-05-17 06:36:14] INFO root fetch - main [MainThread]: Store serial: [23248227]
+[2024-05-17 06:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248227]
+[2024-05-17 06:38:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 06:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-17 06:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coolbg
+[2024-05-17 06:38:23] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-17 06:38:23] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-17 06:38:23] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-17 06:38:23] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-17 06:38:24] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-17 06:38:24] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-17 06:38:24] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-17 06:38:24] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240517/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-17 06:38:24] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-17 06:38:24] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240517/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-17 06:38:24] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-17 06:38:24] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-17 06:38:24] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-17 06:38:24] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-17 06:38:24] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-17 06:38:24] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-17 06:38:24] INFO root fetch - main [MainThread]: Store serial: [23248230]

@@ -17576,3 +17576,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 09:24:06] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715929317.tar.gz]
 [2024-05-17 09:24:06] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-05-17 09:24:06] INFO root fetch - main [MainThread]: Store serial: [23249834]
+[2024-05-17 09:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249834]
+[2024-05-17 09:26:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scirpy
+[2024-05-17 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nastranio
+[2024-05-17 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carbatpy
+[2024-05-17 09:26:15] INFO root fetch - processPackages [carbatpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-17 09:26:15] INFO root fetch - processPackages [carbatpy]: Downloading https://files.pythonhosted.org/packages/d0/50/74c5c4fcc4b54f8480a3efabeca88f2ab18b4c391e1b760054ab9b479049/carbatpy-0.1.2.tar.gz
+[2024-05-17 09:26:15] INFO root fetch - processPackages [nastranio]: New version: [0.20.0] Old Version: [0.19.0]
+[2024-05-17 09:26:15] INFO root fetch - processPackages [scirpy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-17 09:26:15] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/34/ec/915def6b8cc6888289570a6e1fc1b5ef8fc08751c0a0e5c4d091ff032c5e/nastranio-0.19.0.tar.gz
+[2024-05-17 09:26:15] INFO root fetch - processPackages [scirpy]: Downloading https://files.pythonhosted.org/packages/d9/6e/fe4eb190bc89f54014dd60ff6ea0154bce51a6b57417fd6fe6229a1fefc9/scirpy-0.9.0.tar.gz
+[2024-05-17 09:26:16] INFO root fetch - processPackages [carbatpy]: Downloading https://files.pythonhosted.org/packages/48/a5/f96db6092cae3f06e4f0fd7f59a459dfb0e2bbaa7f692bc909971b0814b3/carbatpy-0.1.3.tar.gz
+[2024-05-17 09:26:16] WARNING root fetch - processPackages [scirpy]: Skipping package: exceeds size limit 24701008>=10485760
+[2024-05-17 09:26:16] INFO root fetch - main [MainThread]: End processing [scirpy] error
+[2024-05-17 09:26:16] INFO root fetch - processPackages [carbatpy]: executing diffoscope
+[2024-05-17 09:26:16] INFO root fetch - processPackages [carbatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbatpy-0.1.2.tar.gz tmp/carbatpy-0.1.3.tar.gz --markdown 20240517/c/carbatpy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-17 09:26:16] INFO root fetch - processPackages [nastranio]: Downloading https://files.pythonhosted.org/packages/8c/ca/671052985121ed1074d463a96dd1d4fb932d270feb1b0351b01e5957174d/nastranio-0.20.0.tar.gz
+[2024-05-17 09:26:16] INFO root fetch - processPackages [nastranio]: executing diffoscope
+[2024-05-17 09:26:16] INFO root fetch - processPackages [nastranio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nastranio-0.19.0.tar.gz tmp/nastranio-0.20.0.tar.gz --markdown 20240517/n/nastranio/0.19.0-0.20.0/README.md --exclude *.pyd
+[2024-05-17 09:26:16] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.19.0.tar.gz]
+[2024-05-17 09:26:16] INFO root fetch - processPackages [nastranio]: Remove: archive file [/home/abi/fetcher/tmp/nastranio-0.20.0.tar.gz]
+[2024-05-17 09:26:17] INFO root fetch - main [MainThread]: End processing [nastranio]: success
+[2024-05-17 09:26:17] INFO root fetch - processPackages [carbatpy]: Remove: archive file [/home/abi/fetcher/tmp/carbatpy-0.1.2.tar.gz]
+[2024-05-17 09:26:17] INFO root fetch - processPackages [carbatpy]: Remove: archive file [/home/abi/fetcher/tmp/carbatpy-0.1.3.tar.gz]
+[2024-05-17 09:26:17] INFO root fetch - main [MainThread]: End processing [carbatpy]: success
+[2024-05-17 09:26:17] INFO root fetch - main [MainThread]: Store serial: [23249841]

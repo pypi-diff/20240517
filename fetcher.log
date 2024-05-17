@@ -11579,3 +11579,24 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 04:36:47] INFO root fetch - processPackages [chainmeta]: Remove: archive file [/home/abi/fetcher/tmp/chainmeta-0.0.5.tar.gz]
 [2024-05-17 04:36:47] INFO root fetch - main [MainThread]: End processing [chainmeta]: success
 [2024-05-17 04:36:47] INFO root fetch - main [MainThread]: Store serial: [23247518]
+[2024-05-17 04:38:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247518]
+[2024-05-17 04:39:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-17 04:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2024-05-17 04:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browsercookie
+[2024-05-17 04:39:02] INFO root fetch - processPackages [bagbag]: New version: [0.68.2] Old Version: [0.68.1]
+[2024-05-17 04:39:02] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/75/55/fe933dc358ac8d579a12175a44410530999c88b29dc2fdcbb97e246d3384/bagbag-0.68.1.tar.gz
+[2024-05-17 04:39:02] INFO root fetch - processPackages [browsercookie]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-17 04:39:03] INFO root fetch - processPackages [browsercookie]: Downloading https://files.pythonhosted.org/packages/7b/5b/a47602ab3e8d2f4c7fd3207a4b6e46e6f53e8fc70df2ea2bf4f2f49d9ad2/browsercookie-0.7.8.tar.gz
+[2024-05-17 04:39:03] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/3e/b3/dc0c77b41371079c2d1d171e60afa1a1b44e245563288a2bd2a9f3b345ad/bagbag-0.68.2.tar.gz
+[2024-05-17 04:39:03] INFO root fetch - processPackages [browsercookie]: Downloading https://files.pythonhosted.org/packages/77/fb/246517bd29d5706f0243b5113aa7e987b2caa1b705c7e7ebf8fc975d2c9c/browsercookie-0.7.9.tar.gz
+[2024-05-17 04:39:03] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 04:39:03] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.1.tar.gz tmp/bagbag-0.68.2.tar.gz --markdown 20240517/b/bagbag/0.68.1-0.68.2/README.md --exclude *.pyd
+[2024-05-17 04:39:03] INFO root fetch - processPackages [browsercookie]: executing diffoscope
+[2024-05-17 04:39:03] INFO root fetch - processPackages [browsercookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsercookie-0.7.8.tar.gz tmp/browsercookie-0.7.9.tar.gz --markdown 20240517/b/browsercookie/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-17 04:39:04] INFO root fetch - processPackages [browsercookie]: Remove: archive file [/home/abi/fetcher/tmp/browsercookie-0.7.8.tar.gz]
+[2024-05-17 04:39:04] INFO root fetch - processPackages [browsercookie]: Remove: archive file [/home/abi/fetcher/tmp/browsercookie-0.7.9.tar.gz]
+[2024-05-17 04:39:04] INFO root fetch - main [MainThread]: End processing [browsercookie]: success
+[2024-05-17 04:39:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.1.tar.gz]
+[2024-05-17 04:39:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.2.tar.gz]
+[2024-05-17 04:39:04] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 04:39:04] INFO root fetch - main [MainThread]: Store serial: [23247525]

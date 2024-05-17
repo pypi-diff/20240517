@@ -14645,3 +14645,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 07:50:30] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-17 07:50:30] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-17 07:50:30] INFO root fetch - main [MainThread]: Store serial: [23248714]
+[2024-05-17 07:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248714]
+[2024-05-17 07:52:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 07:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paloalto-panorama-sdk
+[2024-05-17 07:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reqs-cli
+[2024-05-17 07:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-department
+[2024-05-17 07:52:38] INFO root fetch - processPackages [paloalto-panorama-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-17 07:52:38] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/83/d3/b6efabd8a6235efceb434d07dae09558b9accf83f6a86ad2d4544051d32f/paloalto_panorama_sdk-0.0.8.tar.gz
+[2024-05-17 07:52:38] INFO root fetch - processPackages [reqs-cli]: New version: [0.20240517.2] Old Version: [0.20240517.1]
+[2024-05-17 07:52:38] INFO root fetch - processPackages [odoo-addon-project-department]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-05-17 07:52:39] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/14/7e/e5ddc8aba876569a4e2ebe394e2ccf59e5e4773b0badb06801d9a5216d64/paloalto_panorama_sdk-0.0.9.tar.gz
+[2024-05-17 07:52:39] INFO root fetch - processPackages [reqs-cli]: Downloading https://files.pythonhosted.org/packages/59/72/f44edbbc1c2dc09125725aedc798515a0ae89fa2205c67f8d7916a712496/reqs_cli-0.20240517.1.tar.gz
+[2024-05-17 07:52:39] INFO root fetch - processPackages [odoo-addon-project-department]: Downloading https://files.pythonhosted.org/packages/92/7a/3858e96e566d8fb375ebbe419348b24b9e33d4622925b3172f556053fd41/odoo_addon_project_department-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-17 07:52:39] INFO root fetch - processPackages [paloalto-panorama-sdk]: executing diffoscope
+[2024-05-17 07:52:39] INFO root fetch - processPackages [paloalto-panorama-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloalto_panorama_sdk-0.0.8.tar.gz tmp/paloalto_panorama_sdk-0.0.9.tar.gz --markdown 20240517/p/paloalto-panorama-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-17 07:52:39] INFO root fetch - processPackages [reqs-cli]: Downloading https://files.pythonhosted.org/packages/5d/a4/fcefb4f2bbe87e8f4060983225ff662b02e05f0c9afdd9d443c2d45c22b5/reqs_cli-0.20240517.2.tar.gz
+[2024-05-17 07:52:39] INFO root fetch - processPackages [odoo-addon-project-department]: Downloading https://files.pythonhosted.org/packages/af/97/1669fee6c8d96d4366860264c8c688d5d1bc5670f02159098b9e0bf67440/odoo_addon_project_department-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-17 07:52:39] INFO root fetch - processPackages [reqs-cli]: executing diffoscope
+[2024-05-17 07:52:39] INFO root fetch - processPackages [reqs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqs_cli-0.20240517.1.tar.gz tmp/reqs_cli-0.20240517.2.tar.gz --markdown 20240517/r/reqs-cli/0.20240517.1-0.20240517.2/README.md --exclude *.pyd
+[2024-05-17 07:52:39] INFO root fetch - processPackages [odoo-addon-project-department]: executing diffoscope
+[2024-05-17 07:52:39] INFO root fetch - processPackages [odoo-addon-project-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_department-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_project_department-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240517/o/odoo-addon-project-department/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-17 07:52:39] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.8.tar.gz]
+[2024-05-17 07:52:39] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.9.tar.gz]
+[2024-05-17 07:52:39] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk]: success
+[2024-05-17 07:52:40] INFO root fetch - processPackages [reqs-cli]: Remove: archive file [/home/abi/fetcher/tmp/reqs_cli-0.20240517.1.tar.gz]
+[2024-05-17 07:52:40] INFO root fetch - processPackages [reqs-cli]: Remove: archive file [/home/abi/fetcher/tmp/reqs_cli-0.20240517.2.tar.gz]
+[2024-05-17 07:52:40] INFO root fetch - main [MainThread]: End processing [reqs-cli]: success
+[2024-05-17 07:52:40] INFO root fetch - processPackages [odoo-addon-project-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_department-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-17 07:52:40] INFO root fetch - processPackages [odoo-addon-project-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_department-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-17 07:52:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-department]: success
+[2024-05-17 07:52:40] INFO root fetch - main [MainThread]: Store serial: [23248722]

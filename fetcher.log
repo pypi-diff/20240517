@@ -16435,3 +16435,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:59:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-17 08:59:40] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-17 08:59:40] INFO root fetch - main [MainThread]: Store serial: [23249414]
+[2024-05-17 09:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249414]
+[2024-05-17 09:01:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-17 09:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-opsgenie
+[2024-05-17 09:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aps-toolkit
+[2024-05-17 09:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pddl-plus-parser
+[2024-05-17 09:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pami
+[2024-05-17 09:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-pagerduty
+[2024-05-17 09:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-models-nightly
+[2024-05-17 09:01:49] INFO root fetch - processPackages [aps-toolkit]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-17 09:01:49] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-17 09:01:49] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1715926920] Old Version: [1.4.0a1715762530]
+[2024-05-17 09:01:49] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/dc/8f/f2989c0c25bd9380f131cb0394921bcf0c6b6cc0bfe5554d75ef2f487b95/aps-toolkit-0.6.5.tar.gz
+[2024-05-17 09:01:49] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-17 09:01:49] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.17.1]
+[2024-05-17 09:01:49] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-17 09:01:49] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/eb/76/6fc5e7c5357cc9cc16d6ee99b7a683a9935b2456348de6f6074250813347/pami-2024.5.17.1.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/08/3b/a40daf84e87ca8f49e04ca0ef5bc69351dfaf4b9886260c55a21a540a721/pulumi_opsgenie-1.4.0a1715762530.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/76/3c/731958ba294e06020921d71880007774c4c1490e8386e50a83ab4623315e/aps-toolkit-0.6.6.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/1f/47/3d8dd14f346d281f859e090603e6593cd6aed46a8ea405c5edfb541715b1/pddl-plus-parser-3.5.8.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-17 09:01:50] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-17 09:01:50] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240517/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/94/4f/66b30c145e5958c128e59ccd17a8545b7c130a0b6be2b3aa3ed31322f2b5/pulumi_opsgenie-1.4.0a1715926920.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1715762530.tar.gz tmp/pulumi_opsgenie-1.4.0a1715926920.tar.gz --markdown 20240517/p/pulumi-opsgenie/1.4.0a1715762530-1.4.0a1715926920/README.md --exclude *.pyd
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240517/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.17.1.tar.gz tmp/pami-2024.5.7.1.tar.gz --markdown 20240517/p/pami/2024.5.17.1-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/f9/8d/a47c0e8f9ae906c28d6fe2513f4950b6d6d088b0ec761d0ca6639b5fe0f9/pddl-plus-parser-3.5.9.tar.gz
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2024-05-17 09:01:50] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.5.8.tar.gz tmp/pddl-plus-parser-3.5.9.tar.gz --markdown 20240517/p/pddl-plus-parser/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-17 09:01:51] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715762530.tar.gz]
+[2024-05-17 09:01:51] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715926920.tar.gz]
+[2024-05-17 09:01:51] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-17 09:01:51] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.5.8.tar.gz]
+[2024-05-17 09:01:51] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.5.9.tar.gz]
+[2024-05-17 09:01:51] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2024-05-17 09:01:51] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-17 09:01:51] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-17 09:01:51] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-17 09:01:52] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-17 09:01:52] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.6.5.tar.gz tmp/aps-toolkit-0.6.6.tar.gz --markdown 20240517/a/aps-toolkit/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-17 09:01:52] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.17.1.tar.gz]
+[2024-05-17 09:01:52] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-17 09:01:52] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-17 09:01:53] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.5.tar.gz]
+[2024-05-17 09:01:53] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.6.tar.gz]
+[2024-05-17 09:01:53] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-17 09:01:53] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-17 09:01:53] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-17 09:01:53] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-17 09:01:53] INFO root fetch - main [MainThread]: Store serial: [23249432]

@@ -15818,3 +15818,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:35:01] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.8.3.tar.gz]
 [2024-05-17 08:35:01] INFO root fetch - main [MainThread]: End processing [linktest]: success
 [2024-05-17 08:35:01] INFO root fetch - main [MainThread]: Store serial: [23249182]
+[2024-05-17 08:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23249182]
+[2024-05-17 08:37:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2024-05-17 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqint
+[2024-05-17 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folkmq
+[2024-05-17 08:37:11] INFO root fetch - processPackages [folkmq]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-17 08:37:11] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/4d/b6/1c7e925ac93ac8b829228057fbff953a997b4f0e74d6acf4fe00cf0553d4/folkmq-1.4.4.tar.gz
+[2024-05-17 08:37:11] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-17 08:37:11] INFO root fetch - processPackages [pyqint]: New version: [0.9.7.2] Old Version: [0.9.7.1]
+[2024-05-17 08:37:11] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-17 08:37:11] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/b6/2a/972e66231ba44628a48074249eb8d07b326ce11532596018ed8b46bcf79c/folkmq-1.4.5.tar.gz
+[2024-05-17 08:37:11] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/e1/6f/f0baaa4fc34d51a75654547ad912cdf525f93b34ef1a95f1294cd34dadbc/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 08:37:11] INFO root fetch - processPackages [folkmq]: executing diffoscope
+[2024-05-17 08:37:11] INFO root fetch - processPackages [folkmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folkmq-1.4.4.tar.gz tmp/folkmq-1.4.5.tar.gz --markdown 20240517/f/folkmq/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-17 08:37:11] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240517/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/c6/91/7907d7a29f5c26c031da3175916525427e9150b5a9ab871b7734076bbf41/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-17 08:37:12] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.4.tar.gz]
+[2024-05-17 08:37:12] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.5.tar.gz]
+[2024-05-17 08:37:12] INFO root fetch - main [MainThread]: End processing [folkmq]: success
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pyqint]: executing diffoscope
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pyqint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240517/p/pyqint/0.9.7.1-0.9.7.2/README.md --exclude *.pyd
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-17 08:37:12] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-17 08:37:12] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-17 08:37:33] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-17 08:37:33] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-17 08:37:33] INFO root fetch - main [MainThread]: End processing [pyqint]: success
+[2024-05-17 08:37:33] INFO root fetch - main [MainThread]: Store serial: [23249207]

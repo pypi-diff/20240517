@@ -12119,3 +12119,45 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:15:03] INFO root fetch - processPackages [ricco]: Remove: archive file [/home/abi/fetcher/tmp/ricco-1.4.2.tar.gz]
 [2024-05-17 05:15:03] INFO root fetch - main [MainThread]: End processing [ricco]: success
 [2024-05-17 05:15:03] INFO root fetch - main [MainThread]: Store serial: [23247715]
+[2024-05-17 05:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247715]
+[2024-05-17 05:17:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 05:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyview-web
+[2024-05-17 05:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2024-05-17 05:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-cv-nightly
+[2024-05-17 05:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caraml-store
+[2024-05-17 05:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jzai
+[2024-05-17 05:17:12] WARNING root fetch - processPackages [jzai]: Skipping, unable to determine old version
+[2024-05-17 05:17:12] INFO root fetch - main [MainThread]: End processing [jzai] error
+[2024-05-17 05:17:12] INFO root fetch - processPackages [bagbag]: New version: [0.68.4] Old Version: [0.68.3]
+[2024-05-17 05:17:12] INFO root fetch - processPackages [caraml-store]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-17 05:17:12] INFO root fetch - processPackages [pyview-web]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2024-05-17 05:17:12] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-17 05:17:12] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/b0/20/bcd9b8df9500276faf8ddbaffcd3a684e0a13f9f39123de84d13e54557e0/bagbag-0.68.3.tar.gz
+[2024-05-17 05:17:12] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [caraml-store]: Downloading https://files.pythonhosted.org/packages/52/4f/f1a083893e5bbac7668d36617c1cb572172ff6c821eb062aaaca075281fe/caraml-store-0.1.6.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [pyview-web]: Downloading https://files.pythonhosted.org/packages/03/df/1d62daddf602682941b54565910ae352f610ccec6d031de680cb071d4593/pyview_web-0.0.8a0.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/50/dd/34643057ed61de4a237a77a5eee60bf0ede8a8743bbe0850bebec5c04ca3/bagbag-0.68.4.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [caraml-store]: Downloading https://files.pythonhosted.org/packages/a3/f0/d5a041508ac492f51f88c2034630ec68ac435d5a3e486cecb89196d0c17c/caraml-store-0.1.7.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [pyview-web]: Downloading https://files.pythonhosted.org/packages/c8/99/65cc8f9e961912802445d1a04d970f8404204f18ca8464077f029fddbbae/pyview_web-0.0.9a0.tar.gz
+[2024-05-17 05:17:13] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-17 05:17:13] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240517/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-17 05:17:13] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-17 05:17:13] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.3.tar.gz tmp/bagbag-0.68.4.tar.gz --markdown 20240517/b/bagbag/0.68.3-0.68.4/README.md --exclude *.pyd
+[2024-05-17 05:17:13] INFO root fetch - processPackages [caraml-store]: executing diffoscope
+[2024-05-17 05:17:13] INFO root fetch - processPackages [caraml-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caraml-store-0.1.6.tar.gz tmp/caraml-store-0.1.7.tar.gz --markdown 20240517/c/caraml-store/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-17 05:17:13] INFO root fetch - processPackages [pyview-web]: executing diffoscope
+[2024-05-17 05:17:13] INFO root fetch - processPackages [pyview-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyview_web-0.0.8a0.tar.gz tmp/pyview_web-0.0.9a0.tar.gz --markdown 20240517/p/pyview-web/0.0.8a0-0.0.9a0/README.md --exclude *.pyd
+[2024-05-17 05:17:14] INFO root fetch - processPackages [pyview-web]: Remove: archive file [/home/abi/fetcher/tmp/pyview_web-0.0.8a0.tar.gz]
+[2024-05-17 05:17:14] INFO root fetch - processPackages [pyview-web]: Remove: archive file [/home/abi/fetcher/tmp/pyview_web-0.0.9a0.tar.gz]
+[2024-05-17 05:17:14] INFO root fetch - main [MainThread]: End processing [pyview-web]: success
+[2024-05-17 05:17:14] INFO root fetch - processPackages [caraml-store]: Remove: archive file [/home/abi/fetcher/tmp/caraml-store-0.1.6.tar.gz]
+[2024-05-17 05:17:14] INFO root fetch - processPackages [caraml-store]: Remove: archive file [/home/abi/fetcher/tmp/caraml-store-0.1.7.tar.gz]
+[2024-05-17 05:17:14] INFO root fetch - main [MainThread]: End processing [caraml-store]: success
+[2024-05-17 05:17:14] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.3.tar.gz]
+[2024-05-17 05:17:14] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.4.tar.gz]
+[2024-05-17 05:17:14] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-17 05:17:15] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-17 05:17:15] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-17 05:17:15] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-17 05:17:15] INFO root fetch - main [MainThread]: Store serial: [23247744]

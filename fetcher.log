@@ -15097,3 +15097,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-17 08:12:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240516.tar.gz]
 [2024-05-17 08:12:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-17 08:12:23] INFO root fetch - main [MainThread]: Store serial: [23248880]
+[2024-05-17 08:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23248880]
+[2024-05-17 08:14:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-17 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffprint
+[2024-05-17 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ise
+[2024-05-17 08:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socket.d
+[2024-05-17 08:14:32] INFO root fetch - processPackages [socket.d]: New version: [2.4.17] Old Version: [2.4.16.1]
+[2024-05-17 08:14:32] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/35/f9/d106b69dd0a395c600a8cb88ecff44da4835e22dc0c7429527192c31da31/socket.d-2.4.16.1.tar.gz
+[2024-05-17 08:14:32] WARNING root fetch - processPackages [ffprint]: Skipping, unable to determine old version
+[2024-05-17 08:14:32] INFO root fetch - main [MainThread]: End processing [ffprint] error
+[2024-05-17 08:14:32] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715924846] Old Version: [0.2.0a1715757808]
+[2024-05-17 08:14:33] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/ce/90/e74ba5f6201e576433530ed7bc60e985bfdd24e81b8f0189d1f87e41c96b/pulumi_ise-0.2.0a1715757808.tar.gz
+[2024-05-17 08:14:33] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/c0/de/6d3f0100aeff55c07a0d2dd6537f8f6ea3294db0ea9512b2036fa665fa29/socket.d-2.4.17.tar.gz
+[2024-05-17 08:14:33] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-05-17 08:14:33] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.16.1.tar.gz tmp/socket.d-2.4.17.tar.gz --markdown 20240517/s/socket.d/2.4.16.1-2.4.17/README.md --exclude *.pyd
+[2024-05-17 08:14:33] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/8c/15/d0a3a570a3c3232dc9f55d631f1a3165ac5e69c48bdb8ed3f3fac9cd6bbf/pulumi_ise-0.2.0a1715924846.tar.gz
+[2024-05-17 08:14:33] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-17 08:14:33] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715757808.tar.gz tmp/pulumi_ise-0.2.0a1715924846.tar.gz --markdown 20240517/p/pulumi-ise/0.2.0a1715757808-0.2.0a1715924846/README.md --exclude *.pyd
+[2024-05-17 08:14:34] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.16.1.tar.gz]
+[2024-05-17 08:14:34] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.17.tar.gz]
+[2024-05-17 08:14:34] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-05-17 08:14:34] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715757808.tar.gz]
+[2024-05-17 08:14:34] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715924846.tar.gz]
+[2024-05-17 08:14:34] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-17 08:14:34] INFO root fetch - main [MainThread]: Store serial: [23248890]

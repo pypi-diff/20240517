@@ -12509,3 +12509,51 @@ AssertionError: tmp/feather_extract-0.1.4.tar.gz does not exist
 [2024-05-17 05:39:12] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240516.379.tar.gz]
 [2024-05-17 05:39:12] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-17 05:39:12] INFO root fetch - main [MainThread]: Store serial: [23247857]
+[2024-05-17 05:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23247857]
+[2024-05-17 05:41:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-17 05:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasoner-validator
+[2024-05-17 05:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msqlite
+[2024-05-17 05:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs2
+[2024-05-17 05:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splitpdf-pro
+[2024-05-17 05:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quite6
+[2024-05-17 05:41:21] INFO root fetch - processPackages [quite6]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-17 05:41:21] INFO root fetch - processPackages [msqlite]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-17 05:41:21] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-17 05:41:21] INFO root fetch - processPackages [splitpdf-pro]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-17 05:41:21] INFO root fetch - processPackages [quite6]: Downloading https://files.pythonhosted.org/packages/09/ad/68c4d05ec0588092d8bbe6f6fd65ada0b4e4ef3623edee3337e15350f66e/quite6-1.0.1.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [reasoner-validator]: New version: [4.1.8] Old Version: [4.1.7]
+[2024-05-17 05:41:21] INFO root fetch - processPackages [msqlite]: Downloading https://files.pythonhosted.org/packages/6a/b4/6ea5e44b284c553fc9de7de852a2d343986f63a61d230f7ba1b6336b6d5a/msqlite-0.2.3.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [splitpdf-pro]: Downloading https://files.pythonhosted.org/packages/f1/86/d9902c8a76ca9db54172c4c807bc205861a14e09e551e86eabe05772403b/splitpdf_pro-1.0.0-py3-none-any.whl
+[2024-05-17 05:41:21] INFO root fetch - processPackages [quite6]: Downloading https://files.pythonhosted.org/packages/87/fc/c422851439da1756a4cec46fb6684677a1098a6016abb4fbf2eba9f4459e/quite6-1.0.2.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/ab/ce/a166ab7817a20e4f8879793dcb456b6a493dfc8a5c46a95f97b238f27680/reasoner_validator-4.1.7.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [quite6]: executing diffoscope
+[2024-05-17 05:41:21] INFO root fetch - processPackages [quite6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quite6-1.0.1.tar.gz tmp/quite6-1.0.2.tar.gz --markdown 20240517/q/quite6/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-17 05:41:21] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-05-17 05:41:21] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240517/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-17 05:41:21] INFO root fetch - processPackages [splitpdf-pro]: Downloading https://files.pythonhosted.org/packages/d5/f5/5d2abbca888cf44aa43b02b6cd37ca00d86a251edc8a35df4f6305cc00ca/splitpdf_pro-1.0.1-py3-none-any.whl
+[2024-05-17 05:41:21] INFO root fetch - processPackages [msqlite]: Downloading https://files.pythonhosted.org/packages/2f/c0/e14e3ed3250deb8c52c9f7eb54afe2be5f0e54995368748b6d3373ca3f07/msqlite-0.3.0.tar.gz
+[2024-05-17 05:41:21] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/ee/2c/36118d6a55460b4425b9e0d2a4a41c725c45e981bac750414868a38111a2/reasoner_validator-4.1.8.tar.gz
+[2024-05-17 05:41:22] INFO root fetch - processPackages [splitpdf-pro]: executing diffoscope
+[2024-05-17 05:41:22] INFO root fetch - processPackages [splitpdf-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splitpdf_pro-1.0.0-py3-none-any.whl.zip tmp/splitpdf_pro-1.0.1-py3-none-any.whl.zip --markdown 20240517/s/splitpdf-pro/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-17 05:41:22] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2024-05-17 05:41:22] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-4.1.7.tar.gz tmp/reasoner_validator-4.1.8.tar.gz --markdown 20240517/r/reasoner-validator/4.1.7-4.1.8/README.md --exclude *.pyd
+[2024-05-17 05:41:22] INFO root fetch - processPackages [msqlite]: executing diffoscope
+[2024-05-17 05:41:22] INFO root fetch - processPackages [msqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240517:/home/abi/fetcher/20240517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msqlite-0.2.3.tar.gz tmp/msqlite-0.3.0.tar.gz --markdown 20240517/m/msqlite/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-17 05:41:22] INFO root fetch - processPackages [quite6]: Remove: archive file [/home/abi/fetcher/tmp/quite6-1.0.1.tar.gz]
+[2024-05-17 05:41:22] INFO root fetch - processPackages [quite6]: Remove: archive file [/home/abi/fetcher/tmp/quite6-1.0.2.tar.gz]
+[2024-05-17 05:41:22] INFO root fetch - main [MainThread]: End processing [quite6]: success
+[2024-05-17 05:41:22] INFO root fetch - processPackages [splitpdf-pro]: Remove: archive file [/home/abi/fetcher/tmp/splitpdf_pro-1.0.0-py3-none-any.whl.zip]
+[2024-05-17 05:41:22] INFO root fetch - processPackages [splitpdf-pro]: Remove: archive file [/home/abi/fetcher/tmp/splitpdf_pro-1.0.1-py3-none-any.whl.zip]
+[2024-05-17 05:41:22] INFO root fetch - main [MainThread]: End processing [splitpdf-pro]: success
+[2024-05-17 05:41:22] INFO root fetch - processPackages [msqlite]: Remove: archive file [/home/abi/fetcher/tmp/msqlite-0.2.3.tar.gz]
+[2024-05-17 05:41:22] INFO root fetch - processPackages [msqlite]: Remove: archive file [/home/abi/fetcher/tmp/msqlite-0.3.0.tar.gz]
+[2024-05-17 05:41:22] INFO root fetch - main [MainThread]: End processing [msqlite]: success
+[2024-05-17 05:41:22] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.7.tar.gz]
+[2024-05-17 05:41:22] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.8.tar.gz]
+[2024-05-17 05:41:22] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2024-05-17 05:41:24] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-05-17 05:41:24] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-05-17 05:41:24] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-05-17 05:41:24] INFO root fetch - main [MainThread]: Store serial: [23247870]
